@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SStorageK8SIoCsiDriverV1ManifestConfig extends cdktf.Terr
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#metadata DataK8SStorageK8SIoCsiDriverV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#metadata DataK8SStorageK8SIoCsiDriverV1Manifest#metadata}
   */
   readonly metadata: DataK8SStorageK8SIoCsiDriverV1ManifestMetadata;
   /**
   * CSIDriverSpec is the specification of a CSIDriver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#spec DataK8SStorageK8SIoCsiDriverV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#spec DataK8SStorageK8SIoCsiDriverV1Manifest#spec}
   */
   readonly spec: DataK8SStorageK8SIoCsiDriverV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SStorageK8SIoCsiDriverV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#annotations DataK8SStorageK8SIoCsiDriverV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#annotations DataK8SStorageK8SIoCsiDriverV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#labels DataK8SStorageK8SIoCsiDriverV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#labels DataK8SStorageK8SIoCsiDriverV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#name DataK8SStorageK8SIoCsiDriverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#name DataK8SStorageK8SIoCsiDriverV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SStorageK8SIoCsiDriverV1ManifestSpecTokenRequests {
   /**
   * audience is the intended audience of the token in 'TokenRequestSpec'. It will default to the audiences of kube apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#audience DataK8SStorageK8SIoCsiDriverV1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#audience DataK8SStorageK8SIoCsiDriverV1Manifest#audience}
   */
   readonly audience: string;
   /**
   * expirationSeconds is the duration of validity of the token in 'TokenRequestSpec'. It has the same default value of 'ExpirationSeconds' in 'TokenRequestSpec'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#expiration_seconds DataK8SStorageK8SIoCsiDriverV1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#expiration_seconds DataK8SStorageK8SIoCsiDriverV1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
 }
@@ -337,49 +337,49 @@ export interface DataK8SStorageK8SIoCsiDriverV1ManifestSpec {
   /**
   * attachRequired indicates this CSI volume driver requires an attach operation (because it implements the CSI ControllerPublishVolume() method), and that the Kubernetes attach detach controller should call the attach volume interface which checks the volumeattachment status and waits until the volume is attached before proceeding to mounting. The CSI external-attacher coordinates with CSI volume driver and updates the volumeattachment status when the attach operation is complete. If the CSIDriverRegistry feature gate is enabled and the value is specified to false, the attach operation will be skipped. Otherwise the attach operation will be called. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#attach_required DataK8SStorageK8SIoCsiDriverV1Manifest#attach_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#attach_required DataK8SStorageK8SIoCsiDriverV1Manifest#attach_required}
   */
   readonly attachRequired?: boolean | cdktf.IResolvable;
   /**
   * fsGroupPolicy defines if the underlying volume supports changing ownership and permission of the volume before being mounted. Refer to the specific FSGroupPolicy values for additional details. This field was immutable in Kubernetes < 1.29 and now is mutable. Defaults to ReadWriteOnceWithFSType, which will examine each volume to determine if Kubernetes should modify ownership and permissions of the volume. With the default policy the defined fsGroup will only be applied if a fstype is defined and the volume's access mode contains ReadWriteOnce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#fs_group_policy DataK8SStorageK8SIoCsiDriverV1Manifest#fs_group_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#fs_group_policy DataK8SStorageK8SIoCsiDriverV1Manifest#fs_group_policy}
   */
   readonly fsGroupPolicy?: string;
   /**
   * podInfoOnMount indicates this CSI volume driver requires additional pod information (like podName, podUID, etc.) during mount operations, if set to true. If set to false, pod information will not be passed on mount. Default is false. The CSI driver specifies podInfoOnMount as part of driver deployment. If true, Kubelet will pass pod information as VolumeContext in the CSI NodePublishVolume() calls. The CSI driver is responsible for parsing and validating the information passed in as VolumeContext. The following VolumeContext will be passed if podInfoOnMount is set to true. This list might grow, but the prefix will be used. 'csi.storage.k8s.io/pod.name': pod.Name 'csi.storage.k8s.io/pod.namespace': pod.Namespace 'csi.storage.k8s.io/pod.uid': string(pod.UID) 'csi.storage.k8s.io/ephemeral': 'true' if the volume is an ephemeral inline volume defined by a CSIVolumeSource, otherwise 'false' 'csi.storage.k8s.io/ephemeral' is a new feature in Kubernetes 1.16. It is only required for drivers which support both the 'Persistent' and 'Ephemeral' VolumeLifecycleMode. Other drivers can leave pod info disabled and/or ignore this field. As Kubernetes 1.15 doesn't support this field, drivers can only support one mode when deployed on such a cluster and the deployment determines which mode that is, for example via a command line parameter of the driver. This field was immutable in Kubernetes < 1.29 and now is mutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#pod_info_on_mount DataK8SStorageK8SIoCsiDriverV1Manifest#pod_info_on_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#pod_info_on_mount DataK8SStorageK8SIoCsiDriverV1Manifest#pod_info_on_mount}
   */
   readonly podInfoOnMount?: boolean | cdktf.IResolvable;
   /**
   * requiresRepublish indicates the CSI driver wants 'NodePublishVolume' being periodically called to reflect any possible change in the mounted volume. This field defaults to false. Note: After a successful initial NodePublishVolume call, subsequent calls to NodePublishVolume should only update the contents of the volume. New mount points will not be seen by a running container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#requires_republish DataK8SStorageK8SIoCsiDriverV1Manifest#requires_republish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#requires_republish DataK8SStorageK8SIoCsiDriverV1Manifest#requires_republish}
   */
   readonly requiresRepublish?: boolean | cdktf.IResolvable;
   /**
   * seLinuxMount specifies if the CSI driver supports '-o context' mount option. When 'true', the CSI driver must ensure that all volumes provided by this CSI driver can be mounted separately with different '-o context' options. This is typical for storage backends that provide volumes as filesystems on block devices or as independent shared volumes. Kubernetes will call NodeStage / NodePublish with '-o context=xyz' mount option when mounting a ReadWriteOncePod volume used in Pod that has explicitly set SELinux context. In the future, it may be expanded to other volume AccessModes. In any case, Kubernetes will ensure that the volume is mounted only with a single SELinux context. When 'false', Kubernetes won't pass any special SELinux mount options to the driver. This is typical for volumes that represent subdirectories of a bigger shared filesystem. Default is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#se_linux_mount DataK8SStorageK8SIoCsiDriverV1Manifest#se_linux_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#se_linux_mount DataK8SStorageK8SIoCsiDriverV1Manifest#se_linux_mount}
   */
   readonly seLinuxMount?: boolean | cdktf.IResolvable;
   /**
   * storageCapacity indicates that the CSI volume driver wants pod scheduling to consider the storage capacity that the driver deployment will report by creating CSIStorageCapacity objects with capacity information, if set to true. The check can be enabled immediately when deploying a driver. In that case, provisioning new volumes with late binding will pause until the driver deployment has published some suitable CSIStorageCapacity object. Alternatively, the driver can be deployed with the field unset or false and it can be flipped later when storage capacity information has been published. This field was immutable in Kubernetes <= 1.22 and now is mutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#storage_capacity DataK8SStorageK8SIoCsiDriverV1Manifest#storage_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#storage_capacity DataK8SStorageK8SIoCsiDriverV1Manifest#storage_capacity}
   */
   readonly storageCapacity?: boolean | cdktf.IResolvable;
   /**
   * tokenRequests indicates the CSI driver needs pods' service account tokens it is mounting volume for to do necessary authentication. Kubelet will pass the tokens in VolumeContext in the CSI NodePublishVolume calls. The CSI driver should parse and validate the following VolumeContext: 'csi.storage.k8s.io/serviceAccount.tokens': { '<audience>': { 'token': <token>, 'expirationTimestamp': <expiration timestamp in RFC3339>, }, ... } Note: Audience in each TokenRequest should be different and at most one token is empty string. To receive a new token after expiry, RequiresRepublish can be used to trigger NodePublishVolume periodically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#token_requests DataK8SStorageK8SIoCsiDriverV1Manifest#token_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#token_requests DataK8SStorageK8SIoCsiDriverV1Manifest#token_requests}
   */
   readonly tokenRequests?: DataK8SStorageK8SIoCsiDriverV1ManifestSpecTokenRequests[] | cdktf.IResolvable;
   /**
   * volumeLifecycleModes defines what kind of volumes this CSI volume driver supports. The default if the list is empty is 'Persistent', which is the usage defined by the CSI specification and implemented in Kubernetes via the usual PV/PVC mechanism. The other mode is 'Ephemeral'. In this mode, volumes are defined inline inside the pod spec with CSIVolumeSource and their lifecycle is tied to the lifecycle of that pod. A driver has to be aware of this because it is only going to get a NodePublishVolume call for such a volume. For more information about implementing this mode, see https://kubernetes-csi.github.io/docs/ephemeral-local-volumes.html A driver can support one or more of these modes and more modes may be added in the future. This field is beta. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#volume_lifecycle_modes DataK8SStorageK8SIoCsiDriverV1Manifest#volume_lifecycle_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#volume_lifecycle_modes DataK8SStorageK8SIoCsiDriverV1Manifest#volume_lifecycle_modes}
   */
   readonly volumeLifecycleModes?: string[];
 }
@@ -676,7 +676,7 @@ export class DataK8SStorageK8SIoCsiDriverV1ManifestSpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest k8s_storage_k8s_io_csi_driver_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest k8s_storage_k8s_io_csi_driver_v1_manifest}
 */
 export class DataK8SStorageK8SIoCsiDriverV1Manifest extends cdktf.TerraformDataSource {
 
@@ -692,7 +692,7 @@ export class DataK8SStorageK8SIoCsiDriverV1Manifest extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataK8SStorageK8SIoCsiDriverV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SStorageK8SIoCsiDriverV1Manifest to import
-  * @param importFromId The id of the existing DataK8SStorageK8SIoCsiDriverV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SStorageK8SIoCsiDriverV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SStorageK8SIoCsiDriverV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -704,7 +704,7 @@ export class DataK8SStorageK8SIoCsiDriverV1Manifest extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest k8s_storage_k8s_io_csi_driver_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/storage_k8s_io_csi_driver_v1_manifest k8s_storage_k8s_io_csi_driver_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -715,8 +715,8 @@ export class DataK8SStorageK8SIoCsiDriverV1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_storage_k8s_io_csi_driver_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

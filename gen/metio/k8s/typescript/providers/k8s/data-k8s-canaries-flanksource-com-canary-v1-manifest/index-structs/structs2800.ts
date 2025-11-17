@@ -173,11 +173,11 @@ dataK8SCanariesFlanksourceComCanaryV1ManifestSpecPostgresToHclTerraform,
 DataK8SCanariesFlanksourceComCanaryV1ManifestSpecPostgresList } from './structs2000'
 export interface DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTokenValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#key DataK8SCanariesFlanksourceComCanaryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#key DataK8SCanariesFlanksourceComCanaryV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#name DataK8SCanariesFlanksourceComCanaryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#name DataK8SCanariesFlanksourceComCanaryV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -299,11 +299,11 @@ export interface DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTokenVa
   /**
   * Key is a JSONPath expression used to fetch the key from the merged JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#key DataK8SCanariesFlanksourceComCanaryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#key DataK8SCanariesFlanksourceComCanaryV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#name DataK8SCanariesFlanksourceComCanaryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#name DataK8SCanariesFlanksourceComCanaryV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -423,11 +423,11 @@ export class DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTokenValueF
 }
 export interface DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTokenValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#key DataK8SCanariesFlanksourceComCanaryV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#key DataK8SCanariesFlanksourceComCanaryV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#name DataK8SCanariesFlanksourceComCanaryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#name DataK8SCanariesFlanksourceComCanaryV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -547,21 +547,21 @@ export class DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTokenValueF
 }
 export interface DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTokenValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#config_map_key_ref DataK8SCanariesFlanksourceComCanaryV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#config_map_key_ref DataK8SCanariesFlanksourceComCanaryV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTokenValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#helm_ref DataK8SCanariesFlanksourceComCanaryV1Manifest#helm_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#helm_ref DataK8SCanariesFlanksourceComCanaryV1Manifest#helm_ref}
   */
   readonly helmRef?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTokenValueFromHelmRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#secret_key_ref DataK8SCanariesFlanksourceComCanaryV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#secret_key_ref DataK8SCanariesFlanksourceComCanaryV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTokenValueFromSecretKeyRef;
   /**
   * ServiceAccount specifies the service account whose token should be fetched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#service_account DataK8SCanariesFlanksourceComCanaryV1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#service_account DataK8SCanariesFlanksourceComCanaryV1Manifest#service_account}
   */
   readonly serviceAccount?: string;
 }
@@ -742,15 +742,15 @@ export class DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTokenValueF
 }
 export interface DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#name DataK8SCanariesFlanksourceComCanaryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#name DataK8SCanariesFlanksourceComCanaryV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#value DataK8SCanariesFlanksourceComCanaryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#value DataK8SCanariesFlanksourceComCanaryV1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#value_from DataK8SCanariesFlanksourceComCanaryV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#value_from DataK8SCanariesFlanksourceComCanaryV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTokenValueFrom;
 }
@@ -902,19 +902,19 @@ export class DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTokenOutput
 }
 export interface DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTransform {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#expr DataK8SCanariesFlanksourceComCanaryV1Manifest#expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#expr DataK8SCanariesFlanksourceComCanaryV1Manifest#expr}
   */
   readonly expr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#javascript DataK8SCanariesFlanksourceComCanaryV1Manifest#javascript}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#javascript DataK8SCanariesFlanksourceComCanaryV1Manifest#javascript}
   */
   readonly javascript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#json_path DataK8SCanariesFlanksourceComCanaryV1Manifest#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#json_path DataK8SCanariesFlanksourceComCanaryV1Manifest#json_path}
   */
   readonly jsonPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#template DataK8SCanariesFlanksourceComCanaryV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#template DataK8SCanariesFlanksourceComCanaryV1Manifest#template}
   */
   readonly template?: string;
 }
@@ -1097,67 +1097,67 @@ export interface DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhook {
   /**
   * Description for the check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#description DataK8SCanariesFlanksourceComCanaryV1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#description DataK8SCanariesFlanksourceComCanaryV1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#display DataK8SCanariesFlanksourceComCanaryV1Manifest#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#display DataK8SCanariesFlanksourceComCanaryV1Manifest#display}
   */
   readonly display?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookDisplay;
   /**
   * Icon for overwriting default icon on the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#icon DataK8SCanariesFlanksourceComCanaryV1Manifest#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#icon DataK8SCanariesFlanksourceComCanaryV1Manifest#icon}
   */
   readonly icon?: string;
   /**
   * Labels for the check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#labels DataK8SCanariesFlanksourceComCanaryV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#labels DataK8SCanariesFlanksourceComCanaryV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Metrics to expose from check. https://canarychecker.io/concepts/metrics-exporter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#metrics DataK8SCanariesFlanksourceComCanaryV1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#metrics DataK8SCanariesFlanksourceComCanaryV1Manifest#metrics}
   */
   readonly metrics?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookMetrics[] | cdktf.IResolvable;
   /**
   * Name of the check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#name DataK8SCanariesFlanksourceComCanaryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#name DataK8SCanariesFlanksourceComCanaryV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace to insert the check into, if different to the namespace the canary is defined, e.g.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#namespace DataK8SCanariesFlanksourceComCanaryV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#namespace DataK8SCanariesFlanksourceComCanaryV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Relationships defines a way to link the check results to components and configs using lookup expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#relationships DataK8SCanariesFlanksourceComCanaryV1Manifest#relationships}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#relationships DataK8SCanariesFlanksourceComCanaryV1Manifest#relationships}
   */
   readonly relationships?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookRelationships;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#test DataK8SCanariesFlanksourceComCanaryV1Manifest#test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#test DataK8SCanariesFlanksourceComCanaryV1Manifest#test}
   */
   readonly test?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTest;
   /**
   * Token is an optional authorization token to run this check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#token DataK8SCanariesFlanksourceComCanaryV1Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#token DataK8SCanariesFlanksourceComCanaryV1Manifest#token}
   */
   readonly token?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookToken;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#transform DataK8SCanariesFlanksourceComCanaryV1Manifest#transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#transform DataK8SCanariesFlanksourceComCanaryV1Manifest#transform}
   */
   readonly transform?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookTransform;
   /**
   * Transformed checks have a delete strategy on deletion they can either be marked healthy, unhealthy or left as is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#transform_delete_strategy DataK8SCanariesFlanksourceComCanaryV1Manifest#transform_delete_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#transform_delete_strategy DataK8SCanariesFlanksourceComCanaryV1Manifest#transform_delete_strategy}
   */
   readonly transformDeleteStrategy?: string;
 }
@@ -1567,197 +1567,197 @@ export class DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhookOutputRefer
 }
 export interface DataK8SCanariesFlanksourceComCanaryV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#alertmanager DataK8SCanariesFlanksourceComCanaryV1Manifest#alertmanager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#alertmanager DataK8SCanariesFlanksourceComCanaryV1Manifest#alertmanager}
   */
   readonly alertmanager?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecAlertmanager[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#aws_config DataK8SCanariesFlanksourceComCanaryV1Manifest#aws_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#aws_config DataK8SCanariesFlanksourceComCanaryV1Manifest#aws_config}
   */
   readonly awsConfig?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecAwsConfig[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#aws_config_rule DataK8SCanariesFlanksourceComCanaryV1Manifest#aws_config_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#aws_config_rule DataK8SCanariesFlanksourceComCanaryV1Manifest#aws_config_rule}
   */
   readonly awsConfigRule?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecAwsConfigRule[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#azure_devops DataK8SCanariesFlanksourceComCanaryV1Manifest#azure_devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#azure_devops DataK8SCanariesFlanksourceComCanaryV1Manifest#azure_devops}
   */
   readonly azureDevops?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecAzureDevops[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#catalog DataK8SCanariesFlanksourceComCanaryV1Manifest#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#catalog DataK8SCanariesFlanksourceComCanaryV1Manifest#catalog}
   */
   readonly catalog?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecCatalog[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#cloudwatch DataK8SCanariesFlanksourceComCanaryV1Manifest#cloudwatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#cloudwatch DataK8SCanariesFlanksourceComCanaryV1Manifest#cloudwatch}
   */
   readonly cloudwatch?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecCloudwatch[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#containerd DataK8SCanariesFlanksourceComCanaryV1Manifest#containerd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#containerd DataK8SCanariesFlanksourceComCanaryV1Manifest#containerd}
   */
   readonly containerd?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecContainerd[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#containerd_push DataK8SCanariesFlanksourceComCanaryV1Manifest#containerd_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#containerd_push DataK8SCanariesFlanksourceComCanaryV1Manifest#containerd_push}
   */
   readonly containerdPush?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecContainerdPush[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#database_backup DataK8SCanariesFlanksourceComCanaryV1Manifest#database_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#database_backup DataK8SCanariesFlanksourceComCanaryV1Manifest#database_backup}
   */
   readonly databaseBackup?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecDatabaseBackup[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#dns DataK8SCanariesFlanksourceComCanaryV1Manifest#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#dns DataK8SCanariesFlanksourceComCanaryV1Manifest#dns}
   */
   readonly dns?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecDns[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#docker DataK8SCanariesFlanksourceComCanaryV1Manifest#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#docker DataK8SCanariesFlanksourceComCanaryV1Manifest#docker}
   */
   readonly docker?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecDocker[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#docker_push DataK8SCanariesFlanksourceComCanaryV1Manifest#docker_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#docker_push DataK8SCanariesFlanksourceComCanaryV1Manifest#docker_push}
   */
   readonly dockerPush?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecDockerPush[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#dynatrace DataK8SCanariesFlanksourceComCanaryV1Manifest#dynatrace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#dynatrace DataK8SCanariesFlanksourceComCanaryV1Manifest#dynatrace}
   */
   readonly dynatrace?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecDynatrace[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#elasticsearch DataK8SCanariesFlanksourceComCanaryV1Manifest#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#elasticsearch DataK8SCanariesFlanksourceComCanaryV1Manifest#elasticsearch}
   */
   readonly elasticsearch?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecElasticsearch[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#env DataK8SCanariesFlanksourceComCanaryV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#env DataK8SCanariesFlanksourceComCanaryV1Manifest#env}
   */
   readonly env?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecEnv;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#exec DataK8SCanariesFlanksourceComCanaryV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#exec DataK8SCanariesFlanksourceComCanaryV1Manifest#exec}
   */
   readonly exec?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecExec[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#folder DataK8SCanariesFlanksourceComCanaryV1Manifest#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#folder DataK8SCanariesFlanksourceComCanaryV1Manifest#folder}
   */
   readonly folder?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecFolder[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#git_protocol DataK8SCanariesFlanksourceComCanaryV1Manifest#git_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#git_protocol DataK8SCanariesFlanksourceComCanaryV1Manifest#git_protocol}
   */
   readonly gitProtocol?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecGitProtocol[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#github DataK8SCanariesFlanksourceComCanaryV1Manifest#github}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#github DataK8SCanariesFlanksourceComCanaryV1Manifest#github}
   */
   readonly github?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecGithub[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#helm DataK8SCanariesFlanksourceComCanaryV1Manifest#helm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#helm DataK8SCanariesFlanksourceComCanaryV1Manifest#helm}
   */
   readonly helm?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecHelm[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#http DataK8SCanariesFlanksourceComCanaryV1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#http DataK8SCanariesFlanksourceComCanaryV1Manifest#http}
   */
   readonly http?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecHttp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#icmp DataK8SCanariesFlanksourceComCanaryV1Manifest#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#icmp DataK8SCanariesFlanksourceComCanaryV1Manifest#icmp}
   */
   readonly icmp?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecIcmp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#icon DataK8SCanariesFlanksourceComCanaryV1Manifest#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#icon DataK8SCanariesFlanksourceComCanaryV1Manifest#icon}
   */
   readonly icon?: string;
   /**
   * interval (in seconds) to run checks on Deprecated in favor of Schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#interval DataK8SCanariesFlanksourceComCanaryV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#interval DataK8SCanariesFlanksourceComCanaryV1Manifest#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#jmeter DataK8SCanariesFlanksourceComCanaryV1Manifest#jmeter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#jmeter DataK8SCanariesFlanksourceComCanaryV1Manifest#jmeter}
   */
   readonly jmeter?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecJmeter[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#junit DataK8SCanariesFlanksourceComCanaryV1Manifest#junit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#junit DataK8SCanariesFlanksourceComCanaryV1Manifest#junit}
   */
   readonly junit?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecJunit[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#kubernetes DataK8SCanariesFlanksourceComCanaryV1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#kubernetes DataK8SCanariesFlanksourceComCanaryV1Manifest#kubernetes}
   */
   readonly kubernetes?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecKubernetes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#kubernetes_resource DataK8SCanariesFlanksourceComCanaryV1Manifest#kubernetes_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#kubernetes_resource DataK8SCanariesFlanksourceComCanaryV1Manifest#kubernetes_resource}
   */
   readonly kubernetesResource?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecKubernetesResourceA[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#ldap DataK8SCanariesFlanksourceComCanaryV1Manifest#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#ldap DataK8SCanariesFlanksourceComCanaryV1Manifest#ldap}
   */
   readonly ldap?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecLdap[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#mongodb DataK8SCanariesFlanksourceComCanaryV1Manifest#mongodb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#mongodb DataK8SCanariesFlanksourceComCanaryV1Manifest#mongodb}
   */
   readonly mongodb?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecMongodb[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#mssql DataK8SCanariesFlanksourceComCanaryV1Manifest#mssql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#mssql DataK8SCanariesFlanksourceComCanaryV1Manifest#mssql}
   */
   readonly mssql?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecMssql[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#mysql DataK8SCanariesFlanksourceComCanaryV1Manifest#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#mysql DataK8SCanariesFlanksourceComCanaryV1Manifest#mysql}
   */
   readonly mysql?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecMysql[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#namespace DataK8SCanariesFlanksourceComCanaryV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#namespace DataK8SCanariesFlanksourceComCanaryV1Manifest#namespace}
   */
   readonly namespace?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecNamespace[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#opensearch DataK8SCanariesFlanksourceComCanaryV1Manifest#opensearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#opensearch DataK8SCanariesFlanksourceComCanaryV1Manifest#opensearch}
   */
   readonly opensearch?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecOpensearch[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#owner DataK8SCanariesFlanksourceComCanaryV1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#owner DataK8SCanariesFlanksourceComCanaryV1Manifest#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#pod DataK8SCanariesFlanksourceComCanaryV1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#pod DataK8SCanariesFlanksourceComCanaryV1Manifest#pod}
   */
   readonly pod?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecPod[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#postgres DataK8SCanariesFlanksourceComCanaryV1Manifest#postgres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#postgres DataK8SCanariesFlanksourceComCanaryV1Manifest#postgres}
   */
   readonly postgres?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecPostgres[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#prometheus DataK8SCanariesFlanksourceComCanaryV1Manifest#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#prometheus DataK8SCanariesFlanksourceComCanaryV1Manifest#prometheus}
   */
   readonly prometheus?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecPrometheus[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#redis DataK8SCanariesFlanksourceComCanaryV1Manifest#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#redis DataK8SCanariesFlanksourceComCanaryV1Manifest#redis}
   */
   readonly redis?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecRedis[] | cdktf.IResolvable;
   /**
   * Replicas pauses the canary if = 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#replicas DataK8SCanariesFlanksourceComCanaryV1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#replicas DataK8SCanariesFlanksourceComCanaryV1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#restic DataK8SCanariesFlanksourceComCanaryV1Manifest#restic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#restic DataK8SCanariesFlanksourceComCanaryV1Manifest#restic}
   */
   readonly restic?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecRestic[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#result_mode DataK8SCanariesFlanksourceComCanaryV1Manifest#result_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#result_mode DataK8SCanariesFlanksourceComCanaryV1Manifest#result_mode}
   */
   readonly resultMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#s3 DataK8SCanariesFlanksourceComCanaryV1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#s3 DataK8SCanariesFlanksourceComCanaryV1Manifest#s3}
   */
   readonly s3?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecS3[] | cdktf.IResolvable;
   /**
   * Schedule to run checks on. Supports all cron expression, example: '30 3-6,20-23 * * *'. For more info about cron expression syntax see https://en.wikipedia.org/wiki/Cron Also supports golang duration, can be set as '@every 1m30s' which runs the check every 1 minute and 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#schedule DataK8SCanariesFlanksourceComCanaryV1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#schedule DataK8SCanariesFlanksourceComCanaryV1Manifest#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#severity DataK8SCanariesFlanksourceComCanaryV1Manifest#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#severity DataK8SCanariesFlanksourceComCanaryV1Manifest#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#tcp DataK8SCanariesFlanksourceComCanaryV1Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#tcp DataK8SCanariesFlanksourceComCanaryV1Manifest#tcp}
   */
   readonly tcp?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecTcp[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#webhook DataK8SCanariesFlanksourceComCanaryV1Manifest#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/canaries_flanksource_com_canary_v1_manifest#webhook DataK8SCanariesFlanksourceComCanaryV1Manifest#webhook}
   */
   readonly webhook?: DataK8SCanariesFlanksourceComCanaryV1ManifestSpecWebhook;
 }

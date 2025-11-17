@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#metadata DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#metadata DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestMetadata;
   /**
   * NodeGroupSpec defines the desired state of NodeGroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#spec DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#spec DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#annotations DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#annotations DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#labels DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#labels DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#name DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#name DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestSpecSelectorMatc
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#key DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#key DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#operator DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#operator DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#values DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#values DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -369,19 +369,19 @@ export interface DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestSpecSelector {
   /**
   * If specified, select node to join nodeUnit according to Annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#annotations DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#annotations DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#match_expressions DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#match_expressions DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#match_labels DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#match_labels DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -535,19 +535,19 @@ export interface DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestSpecWorkloadSele
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#key DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#key DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#operator DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#operator DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#values DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#values DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -717,19 +717,19 @@ export interface DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestSpecWorkloadSele
   /**
   * If specified, select node to join nodeUnit according to Annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#annotations DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#annotations DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#match_expressions DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#match_expressions DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestSpecWorkloadSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#match_labels DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#match_labels DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -883,19 +883,19 @@ export interface DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestSpecWorkload {
   /**
   * workload name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#name DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#name DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * If specified, Label selector for workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#selector DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#selector DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestSpecWorkloadSelector;
   /**
   * workload type, Value can be pod, deploy, ds, service, job, st
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#type DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#type DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1071,25 +1071,25 @@ export interface DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestSpec {
   /**
   * If specified, create new NodeUnits based on node have same label keys, for different values will create different nodeunites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#autofindnodekeys DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#autofindnodekeys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#autofindnodekeys DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#autofindnodekeys}
   */
   readonly autofindnodekeys?: string[];
   /**
   * If specified, If nodeUnit exists, join NodeGroup directly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#nodeunits DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#nodeunits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#nodeunits DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#nodeunits}
   */
   readonly nodeunits?: string[];
   /**
   * If specified, Label selector for nodeUnit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#selector DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#selector DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestSpecSelector;
   /**
   * If specified, Nodegroup bound workload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#workload DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#workload DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest#workload}
   */
   readonly workload?: DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestSpecWorkload[] | cdktf.IResolvable;
 }
@@ -1270,7 +1270,7 @@ export class DataK8SSiteSuperedgeIoNodeGroupV1Alpha1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest k8s_site_superedge_io_node_group_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest k8s_site_superedge_io_node_group_v1alpha1_manifest}
 */
 export class DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1286,7 +1286,7 @@ export class DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1298,7 +1298,7 @@ export class DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest k8s_site_superedge_io_node_group_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/site_superedge_io_node_group_v1alpha1_manifest k8s_site_superedge_io_node_group_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1309,8 +1309,8 @@ export class DataK8SSiteSuperedgeIoNodeGroupV1Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_site_superedge_io_node_group_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

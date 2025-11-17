@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#metadata DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#metadata DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestMetadata;
   /**
   * TenantSpec defines the desired state of Tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#spec DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#spec DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#annotations DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#annotations DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#name DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#name DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,25 +187,25 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecAdditionalRole
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#api_group DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#api_group DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#kind DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#kind DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#name DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#name DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#namespace DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#namespace DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -402,13 +402,13 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecAdditionalRoleBind
 }
 export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecAdditionalRoleBindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#cluster_role_name DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#cluster_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#cluster_role_name DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#cluster_role_name}
   */
   readonly clusterRoleName: string;
   /**
   * kubebuilder:validation:Minimum=1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#subjects DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#subjects DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#subjects}
   */
   readonly subjects: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecAdditionalRoleBindingsSubjects[] | cdktf.IResolvable;
 }
@@ -547,11 +547,11 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecAdditionalRoleBind
 }
 export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecContainerRegistries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed}
   */
   readonly allowed?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed_regex DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed_regex DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed_regex}
   */
   readonly allowedRegex?: string;
 }
@@ -674,7 +674,7 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecContainerRegistrie
 }
 export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecExternalServiceIPs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed}
   */
   readonly allowed: string[];
 }
@@ -765,11 +765,11 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecExternalServiceIPs
 }
 export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecIngressClasses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed}
   */
   readonly allowed?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed_regex DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed_regex DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed_regex}
   */
   readonly allowedRegex?: string;
 }
@@ -892,11 +892,11 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecIngressClassesOutp
 }
 export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecIngressHostnames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed}
   */
   readonly allowed?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed_regex DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed_regex DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed_regex}
   */
   readonly allowedRegex?: string;
 }
@@ -1021,37 +1021,37 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecLimitRangesLim
   /**
   * Default resource requirement limit value by resource name if resource limit is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#default DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#default DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#default}
   */
   readonly default?: { [key: string]: string };
   /**
   * DefaultRequest is the default resource requirement request value by resource name if resource request is omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#default_request DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#default_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#default_request DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#default_request}
   */
   readonly defaultRequest?: { [key: string]: string };
   /**
   * Max usage constraints on this kind by resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#max DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#max DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#max}
   */
   readonly max?: { [key: string]: string };
   /**
   * MaxLimitRequestRatio if specified, the named resource must have a request and limit that are both non-zero where limit divided by request is less than or equal to the enumerated value; this represents the max burst for the named resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#max_limit_request_ratio DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#max_limit_request_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#max_limit_request_ratio DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#max_limit_request_ratio}
   */
   readonly maxLimitRequestRatio?: { [key: string]: string };
   /**
   * Min usage constraints on this kind by resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#min DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#min DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#min}
   */
   readonly min?: { [key: string]: string };
   /**
   * Type of resource that this limit applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#type DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#type DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -1311,7 +1311,7 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecLimitRanges {
   /**
   * Limits is the list of LimitRangeItem objects that are enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#limits DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#limits DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#limits}
   */
   readonly limits: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecLimitRangesLimits[] | cdktf.IResolvable;
 }
@@ -1424,11 +1424,11 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecLimitRangesList ex
 }
 export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNamespacesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#additional_annotations DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#additional_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#additional_annotations DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#additional_annotations}
   */
   readonly additionalAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#additional_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#additional_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#additional_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#additional_labels}
   */
   readonly additionalLabels?: { [key: string]: string };
 }
@@ -1553,19 +1553,19 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * endPort indicates that the range of ports from port to endPort if set, inclusive, should be allowed by the policy. This field cannot be defined if the port field is not defined or if the port field is defined as a named (string) port. The endPort must be equal or greater than port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#end_port DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#end_port DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#end_port}
   */
   readonly endPort?: number;
   /**
   * port represents the port on the given protocol. This can either be a numerical or named port on a pod. If this field is not provided, this matches all port names and numbers. If present, only traffic on the specified protocol AND port will be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#port DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#port DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * protocol represents the protocol (TCP, UDP, or SCTP) which traffic must match. If not specified, this field defaults to TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#protocol DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#protocol DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -1741,13 +1741,13 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * cidr is a string representing the IPBlock Valid examples are '192.168.1.0/24' or '2001:db8::/64'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#cidr DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#cidr DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * except is a slice of CIDRs that should not be included within an IPBlock Valid examples are '192.168.1.0/24' or '2001:db8::/64' Except values will be rejected if they are outside the cidr range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#except DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#except DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#except}
   */
   readonly except?: string[];
 }
@@ -1869,19 +1869,19 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#key DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#key DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#operator DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#operator DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#values DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#values DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2051,13 +2051,13 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_expressions DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_expressions DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesEgressToNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2182,19 +2182,19 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#key DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#key DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#operator DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#operator DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#values DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#values DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2364,13 +2364,13 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_expressions DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_expressions DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesEgressToPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2495,19 +2495,19 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * ipBlock defines policy on a particular IPBlock. If this field is set then neither of the other fields can be.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ip_block DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ip_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ip_block DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ip_block}
   */
   readonly ipBlock?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesEgressToIpBlock;
   /**
   * namespaceSelector selects namespaces using cluster-scoped labels. This field follows standard label selector semantics; if present but empty, it selects all namespaces. If podSelector is also set, then the NetworkPolicyPeer as a whole selects the pods matching podSelector in the namespaces selected by namespaceSelector. Otherwise it selects all pods in the namespaces selected by namespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#namespace_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#namespace_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesEgressToNamespaceSelector;
   /**
   * podSelector is a label selector which selects pods. This field follows standard label selector semantics; if present but empty, it selects all pods. If namespaceSelector is also set, then the NetworkPolicyPeer as a whole selects the pods matching podSelector in the Namespaces selected by NamespaceSelector. Otherwise it selects the pods matching podSelector in the policy's own namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#pod_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#pod_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesEgressToPodSelector;
 }
@@ -2683,13 +2683,13 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * ports is a list of destination ports for outgoing traffic. Each item in this list is combined using a logical OR. If this field is empty or missing, this rule matches all ports (traffic not restricted by port). If this field is present and contains at least one item, then this rule allows traffic only if the traffic matches at least one port in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ports DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ports DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesEgressPorts[] | cdktf.IResolvable;
   /**
   * to is a list of destinations for outgoing traffic of pods selected for this rule. Items in this list are combined using a logical OR operation. If this field is empty or missing, this rule matches all destinations (traffic not restricted by destination). If this field is present and contains at least one item, this rule allows traffic only if the traffic matches at least one item in the to list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#to DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#to DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#to}
   */
   readonly to?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesEgressTo[] | cdktf.IResolvable;
 }
@@ -2836,13 +2836,13 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * cidr is a string representing the IPBlock Valid examples are '192.168.1.0/24' or '2001:db8::/64'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#cidr DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#cidr DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * except is a slice of CIDRs that should not be included within an IPBlock Valid examples are '192.168.1.0/24' or '2001:db8::/64' Except values will be rejected if they are outside the cidr range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#except DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#except DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#except}
   */
   readonly except?: string[];
 }
@@ -2964,19 +2964,19 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#key DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#key DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#operator DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#operator DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#values DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#values DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3146,13 +3146,13 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_expressions DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_expressions DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesIngressFromNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3277,19 +3277,19 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#key DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#key DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#operator DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#operator DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#values DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#values DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3459,13 +3459,13 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_expressions DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_expressions DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesIngressFromPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3590,19 +3590,19 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * ipBlock defines policy on a particular IPBlock. If this field is set then neither of the other fields can be.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ip_block DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ip_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ip_block DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ip_block}
   */
   readonly ipBlock?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesIngressFromIpBlock;
   /**
   * namespaceSelector selects namespaces using cluster-scoped labels. This field follows standard label selector semantics; if present but empty, it selects all namespaces. If podSelector is also set, then the NetworkPolicyPeer as a whole selects the pods matching podSelector in the namespaces selected by namespaceSelector. Otherwise it selects all pods in the namespaces selected by namespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#namespace_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#namespace_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesIngressFromNamespaceSelector;
   /**
   * podSelector is a label selector which selects pods. This field follows standard label selector semantics; if present but empty, it selects all pods. If namespaceSelector is also set, then the NetworkPolicyPeer as a whole selects the pods matching podSelector in the Namespaces selected by NamespaceSelector. Otherwise it selects the pods matching podSelector in the policy's own namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#pod_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#pod_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesIngressFromPodSelector;
 }
@@ -3778,19 +3778,19 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * endPort indicates that the range of ports from port to endPort if set, inclusive, should be allowed by the policy. This field cannot be defined if the port field is not defined or if the port field is defined as a named (string) port. The endPort must be equal or greater than port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#end_port DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#end_port DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#end_port}
   */
   readonly endPort?: number;
   /**
   * port represents the port on the given protocol. This can either be a numerical or named port on a pod. If this field is not provided, this matches all port names and numbers. If present, only traffic on the specified protocol AND port will be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#port DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#port DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * protocol represents the protocol (TCP, UDP, or SCTP) which traffic must match. If not specified, this field defaults to TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#protocol DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#protocol DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -3966,13 +3966,13 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * from is a list of sources which should be able to access the pods selected for this rule. Items in this list are combined using a logical OR operation. If this field is empty or missing, this rule matches all sources (traffic not restricted by source). If this field is present and contains at least one item, this rule allows traffic only if the traffic matches at least one item in the from list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#from DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#from DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesIngressFrom[] | cdktf.IResolvable;
   /**
   * ports is a list of ports which should be made accessible on the pods selected for this rule. Each item in this list is combined using a logical OR. If this field is empty or missing, this rule matches all ports (traffic not restricted by port). If this field is present and contains at least one item, then this rule allows traffic only if the traffic matches at least one port in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ports DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ports DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesIngressPorts[] | cdktf.IResolvable;
 }
@@ -4119,19 +4119,19 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#key DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#key DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#operator DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#operator DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#values DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#values DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4301,13 +4301,13 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_expressions DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_expressions DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4432,25 +4432,25 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicie
   /**
   * egress is a list of egress rules to be applied to the selected pods. Outgoing traffic is allowed if there are no NetworkPolicies selecting the pod (and cluster policy otherwise allows the traffic), OR if the traffic matches at least one egress rule across all of the NetworkPolicy objects whose podSelector matches the pod. If this field is empty then this NetworkPolicy limits all outgoing traffic (and serves solely to ensure that the pods it selects are isolated by default). This field is beta-level in 1.8
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#egress DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#egress DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#egress}
   */
   readonly egress?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesEgress[] | cdktf.IResolvable;
   /**
   * ingress is a list of ingress rules to be applied to the selected pods. Traffic is allowed to a pod if there are no NetworkPolicies selecting the pod (and cluster policy otherwise allows the traffic), OR if the traffic source is the pod's local node, OR if the traffic matches at least one ingress rule across all of the NetworkPolicy objects whose podSelector matches the pod. If this field is empty then this NetworkPolicy does not allow any traffic (and serves solely to ensure that the pods it selects are isolated by default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ingress DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ingress DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesIngress[] | cdktf.IResolvable;
   /**
   * podSelector selects the pods to which this NetworkPolicy object applies. The array of ingress rules is applied to any pods selected by this field. Multiple network policies can select the same set of pods. In this case, the ingress rules for each are combined additively. This field is NOT optional and follows standard label selector semantics. An empty podSelector matches all pods in this namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#pod_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#pod_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesPodSelector;
   /**
   * policyTypes is a list of rule types that the NetworkPolicy relates to. Valid options are ['Ingress'], ['Egress'], or ['Ingress', 'Egress']. If this field is not specified, it will default based on the existence of ingress or egress rules; policies that contain an egress section are assumed to affect egress, and all policies (whether or not they contain an ingress section) are assumed to affect ingress. If you want to write an egress-only policy, you must explicitly specify policyTypes [ 'Egress' ]. Likewise, if you want to write a policy that specifies that no egress is allowed, you must specify a policyTypes value that include 'Egress' (since such a policy would not include an egress section and would otherwise default to just [ 'Ingress' ]). This field is beta-level in 1.8
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#policy_types DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#policy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#policy_types DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#policy_types}
   */
   readonly policyTypes?: string[];
 }
@@ -4650,11 +4650,11 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPoliciesLis
 }
 export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#kind DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#kind DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#name DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#name DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -4773,19 +4773,19 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecResourceQuotas
   /**
   * Represents a scope's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#operator DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#operator DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * The name of the scope that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#scope_name DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#scope_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#scope_name DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#scope_name}
   */
   readonly scopeName: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#values DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#values DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4955,7 +4955,7 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecResourceQuotas
   /**
   * A list of scope selector requirements by scope of the resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_expressions DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#match_expressions DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecResourceQuotasScopeSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -5051,19 +5051,19 @@ export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecResourceQuotas
   /**
   * hard is the set of desired hard limits for each named resource. More info: https://kubernetes.io/docs/concepts/policy/resource-quotas/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#hard DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#hard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#hard DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#hard}
   */
   readonly hard?: { [key: string]: string };
   /**
   * scopeSelector is also a collection of filters like scopes that must match each object tracked by a quota but expressed using ScopeSelectorOperator in combination with possible values. For a resource to match, both scopes AND scopeSelector (if specified in spec), must be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#scope_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#scope_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#scope_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#scope_selector}
   */
   readonly scopeSelector?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecResourceQuotasScopeSelector;
   /**
   * A collection of filters that must match each object tracked by a quota. If not specified, the quota matches all objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#scopes DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#scopes DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
 }
@@ -5237,11 +5237,11 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecResourceQuotasList
 }
 export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecServicesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#additional_annotations DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#additional_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#additional_annotations DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#additional_annotations}
   */
   readonly additionalAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#additional_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#additional_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#additional_labels DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#additional_labels}
   */
   readonly additionalLabels?: { [key: string]: string };
 }
@@ -5364,11 +5364,11 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecServicesMetadataOu
 }
 export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecStorageClasses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed}
   */
   readonly allowed?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed_regex DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#allowed_regex DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#allowed_regex}
   */
   readonly allowedRegex?: string;
 }
@@ -5491,61 +5491,61 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecStorageClassesOutp
 }
 export interface DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#additional_role_bindings DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#additional_role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#additional_role_bindings DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#additional_role_bindings}
   */
   readonly additionalRoleBindings?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecAdditionalRoleBindings[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#container_registries DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#container_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#container_registries DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#container_registries}
   */
   readonly containerRegistries?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecContainerRegistries;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#external_service_i_ps DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#external_service_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#external_service_i_ps DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#external_service_i_ps}
   */
   readonly externalServiceIPs?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecExternalServiceIPs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ingress_classes DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ingress_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ingress_classes DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ingress_classes}
   */
   readonly ingressClasses?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecIngressClasses;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ingress_hostnames DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ingress_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#ingress_hostnames DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#ingress_hostnames}
   */
   readonly ingressHostnames?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecIngressHostnames;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#limit_ranges DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#limit_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#limit_ranges DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#limit_ranges}
   */
   readonly limitRanges?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecLimitRanges[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#namespace_quota DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#namespace_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#namespace_quota DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#namespace_quota}
   */
   readonly namespaceQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#namespaces_metadata DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#namespaces_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#namespaces_metadata DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#namespaces_metadata}
   */
   readonly namespacesMetadata?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNamespacesMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#network_policies DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#network_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#network_policies DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#network_policies}
   */
   readonly networkPolicies?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecNetworkPolicies[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#node_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#node_selector DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * OwnerSpec defines tenant owner name and kind.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#owner DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#owner DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#owner}
   */
   readonly owner: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecOwner;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#resource_quotas DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#resource_quotas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#resource_quotas DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#resource_quotas}
   */
   readonly resourceQuotas?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecResourceQuotas[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#services_metadata DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#services_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#services_metadata DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#services_metadata}
   */
   readonly servicesMetadata?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecServicesMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#storage_classes DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#storage_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#storage_classes DataK8SCapsuleClastixIoTenantV1Alpha1Manifest#storage_classes}
   */
   readonly storageClasses?: DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecStorageClasses;
 }
@@ -6013,7 +6013,7 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest k8s_capsule_clastix_io_tenant_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest k8s_capsule_clastix_io_tenant_v1alpha1_manifest}
 */
 export class DataK8SCapsuleClastixIoTenantV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -6029,7 +6029,7 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SCapsuleClastixIoTenantV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCapsuleClastixIoTenantV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCapsuleClastixIoTenantV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCapsuleClastixIoTenantV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCapsuleClastixIoTenantV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6041,7 +6041,7 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest k8s_capsule_clastix_io_tenant_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capsule_clastix_io_tenant_v1alpha1_manifest k8s_capsule_clastix_io_tenant_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6052,8 +6052,8 @@ export class DataK8SCapsuleClastixIoTenantV1Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_capsule_clastix_io_tenant_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

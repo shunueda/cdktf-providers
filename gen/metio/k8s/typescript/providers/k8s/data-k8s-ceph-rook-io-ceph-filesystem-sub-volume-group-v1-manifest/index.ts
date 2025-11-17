@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCephRookIoCephFilesystemSubVolumeGroupV1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#metadata DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#metadata DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#metadata}
   */
   readonly metadata: DataK8SCephRookIoCephFilesystemSubVolumeGroupV1ManifestMetadata;
   /**
   * Spec represents the specification of a Ceph Filesystem SubVolumeGroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#spec DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#spec DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#spec}
   */
   readonly spec: DataK8SCephRookIoCephFilesystemSubVolumeGroupV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCephRookIoCephFilesystemSubVolumeGroupV1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#annotations DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#annotations DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#labels DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#labels DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#name DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#name DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#namespace DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#namespace DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8SCephRookIoCephFilesystemSubVolumeGroupV1ManifestMetadataOutp
 }
 export interface DataK8SCephRookIoCephFilesystemSubVolumeGroupV1ManifestSpecPinning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#distributed DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#distributed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#distributed DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#distributed}
   */
   readonly distributed?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#export DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#export DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#export}
   */
   readonly export?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#random DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#random}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#random DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#random}
   */
   readonly random?: number;
 }
@@ -379,31 +379,31 @@ export interface DataK8SCephRookIoCephFilesystemSubVolumeGroupV1ManifestSpec {
   /**
   * The data pool name for the Ceph Filesystem subvolume group layout, if the default CephFS pool is not desired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#data_pool_name DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#data_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#data_pool_name DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#data_pool_name}
   */
   readonly dataPoolName?: string;
   /**
   * FilesystemName is the name of Ceph Filesystem SubVolumeGroup volume name. Typically it's the name of the CephFilesystem CR. If not coming from the CephFilesystem CR, it can be retrieved from the list of Ceph Filesystem volumes with 'ceph fs volume ls'. To learn more about Ceph Filesystem abstractions see https://docs.ceph.com/en/latest/cephfs/fs-volumes/#fs-volumes-and-subvolumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#filesystem_name DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#filesystem_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#filesystem_name DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#filesystem_name}
   */
   readonly filesystemName: string;
   /**
   * The name of the subvolume group. If not set, the default is the name of the subvolumeGroup CR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#name DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#name DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Pinning configuration of CephFilesystemSubVolumeGroup, reference https://docs.ceph.com/en/latest/cephfs/fs-volumes/#pinning-subvolumes-and-subvolume-groups only one out of (export, distributed, random) can be set at a time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#pinning DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#pinning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#pinning DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#pinning}
   */
   readonly pinning?: DataK8SCephRookIoCephFilesystemSubVolumeGroupV1ManifestSpecPinning;
   /**
   * Quota size of the Ceph Filesystem subvolume group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#quota DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#quota DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest#quota}
   */
   readonly quota?: string;
 }
@@ -610,7 +610,7 @@ export class DataK8SCephRookIoCephFilesystemSubVolumeGroupV1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest k8s_ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest k8s_ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest}
 */
 export class DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest extends cdktf.TerraformDataSource {
 
@@ -626,7 +626,7 @@ export class DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -638,7 +638,7 @@ export class DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest k8s_ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest k8s_ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -649,8 +649,8 @@ export class DataK8SCephRookIoCephFilesystemSubVolumeGroupV1Manifest extends cdk
       terraformResourceType: 'k8s_ceph_rook_io_ceph_filesystem_sub_volume_group_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#metadata DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#metadata DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestMetadata;
   /**
   * DomainSpec defines the desired state of Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#spec DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#spec DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#annotations DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#annotations DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#labels DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#labels DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#name DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#name DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#namespace DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#namespace DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,19 +217,19 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestMetadat
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdvancedSecurityOptionsJwtOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#public_key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#public_key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#public_key}
   */
   readonly publicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#roles_key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#roles_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#roles_key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#roles_key}
   */
   readonly rolesKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#subject_key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#subject_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#subject_key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#subject_key}
   */
   readonly subjectKey?: string;
 }
@@ -412,19 +412,19 @@ export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpe
   /**
   * Key is the key within the secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#name DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#name DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#namespace DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#namespace DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -575,17 +575,17 @@ export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpe
   /**
   * The Amazon Resource Name (ARN) of the domain. See Identifiers for IAM Entities (https://docs.aws.amazon.com/IAM/latest/UserGuide/index.html) in Using Amazon Web Services Identity and Access Management for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#master_user_arn DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#master_user_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#master_user_arn DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#master_user_arn}
   */
   readonly masterUserArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#master_user_name DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#master_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#master_user_name DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#master_user_name}
   */
   readonly masterUserName?: string;
   /**
   * SecretKeyReference combines a k8s corev1.SecretReference with a specific key within the referred-to Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#master_user_password DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#master_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#master_user_password DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#master_user_password}
   */
   readonly masterUserPassword?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdvancedSecurityOptionsMasterUserOptionsMasterUserPassword;
 }
@@ -737,11 +737,11 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdv
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdvancedSecurityOptionsSAmlOptionsIdp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#entity_id DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#entity_id DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#entity_id}
   */
   readonly entityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#metadata_content DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#metadata_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#metadata_content DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#metadata_content}
   */
   readonly metadataContent?: string;
 }
@@ -864,33 +864,33 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdv
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdvancedSecurityOptionsSAmlOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The SAML identity povider information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#idp DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#idp DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#idp}
   */
   readonly idp?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdvancedSecurityOptionsSAmlOptionsIdp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#master_backend_role DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#master_backend_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#master_backend_role DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#master_backend_role}
   */
   readonly masterBackendRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#master_user_name DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#master_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#master_user_name DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#master_user_name}
   */
   readonly masterUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#roles_key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#roles_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#roles_key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#roles_key}
   */
   readonly rolesKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#session_timeout_minutes DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#session_timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#session_timeout_minutes DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#session_timeout_minutes}
   */
   readonly sessionTimeoutMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#subject_key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#subject_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#subject_key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#subject_key}
   */
   readonly subjectKey?: string;
 }
@@ -1158,33 +1158,33 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdv
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdvancedSecurityOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#anonymous_auth_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#anonymous_auth_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#anonymous_auth_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#anonymous_auth_enabled}
   */
   readonly anonymousAuthEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#internal_user_database_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#internal_user_database_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#internal_user_database_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#internal_user_database_enabled}
   */
   readonly internalUserDatabaseEnabled?: boolean | cdktf.IResolvable;
   /**
   * The JWT authentication and authorization configuration for an Amazon OpenSearch Service domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#jwt_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#jwt_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#jwt_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#jwt_options}
   */
   readonly jwtOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdvancedSecurityOptionsJwtOptions;
   /**
   * Credentials for the master user for a domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#master_user_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#master_user_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#master_user_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#master_user_options}
   */
   readonly masterUserOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdvancedSecurityOptionsMasterUserOptions;
   /**
   * The SAML authentication configuration for an Amazon OpenSearch Service domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#s_aml_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#s_aml_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#s_aml_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#s_aml_options}
   */
   readonly sAmlOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdvancedSecurityOptionsSAmlOptions;
 }
@@ -1423,7 +1423,7 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdv
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAimlOptionsNaturalLanguageQueryGenerationOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#desired_state DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#desired_state DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#desired_state}
   */
   readonly desiredState?: string;
 }
@@ -1519,7 +1519,7 @@ export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpe
   /**
   * Container for parameters required to enable the natural language query generation feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#natural_language_query_generation_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#natural_language_query_generation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#natural_language_query_generation_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#natural_language_query_generation_options}
   */
   readonly naturalLanguageQueryGenerationOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAimlOptionsNaturalLanguageQueryGenerationOptions;
 }
@@ -1615,13 +1615,13 @@ export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpe
   /**
   * The unit of a maintenance schedule duration. Valid value is HOUR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#unit DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#unit DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#unit}
   */
   readonly unit?: string;
   /**
   * Integer that specifies the value of a maintenance schedule duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#value DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#value DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#value}
   */
   readonly value?: number;
 }
@@ -1744,17 +1744,17 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAut
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAutoTuneOptionsMaintenanceSchedules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#cron_expression_for_recurrence DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#cron_expression_for_recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#cron_expression_for_recurrence DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#cron_expression_for_recurrence}
   */
   readonly cronExpressionForRecurrence?: string;
   /**
   * The duration of a maintenance schedule. For more information, see Auto-Tune for Amazon OpenSearch Service (https://docs.aws.amazon.com/opensearch-service/latest/developerguide/auto-tune.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#duration DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#duration DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#duration}
   */
   readonly duration?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAutoTuneOptionsMaintenanceSchedulesDuration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#start_at DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#start_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#start_at DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#start_at}
   */
   readonly startAt?: string;
 }
@@ -1930,15 +1930,15 @@ export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpe
   /**
   * The Auto-Tune desired state. Valid values are ENABLED and DISABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#desired_state DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#desired_state DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#desired_state}
   */
   readonly desiredState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#maintenance_schedules DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#maintenance_schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#maintenance_schedules DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#maintenance_schedules}
   */
   readonly maintenanceSchedules?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAutoTuneOptionsMaintenanceSchedules[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#use_off_peak_window DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#use_off_peak_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#use_off_peak_window DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#use_off_peak_window}
   */
   readonly useOffPeakWindow?: boolean | cdktf.IResolvable;
 }
@@ -2090,7 +2090,7 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAut
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecClusterConfigColdStorageOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2184,7 +2184,7 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecClu
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecClusterConfigZoneAwarenessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#availability_zone_count DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#availability_zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#availability_zone_count DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#availability_zone_count}
   */
   readonly availabilityZoneCount?: number;
 }
@@ -2280,53 +2280,53 @@ export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpe
   /**
   * Container for the parameters required to enable cold storage for an OpenSearch Service domain. For more information, see Cold storage for Amazon OpenSearch Service (https://docs.aws.amazon.com/opensearch-service/latest/developerguide/cold-storage.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#cold_storage_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#cold_storage_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#cold_storage_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#cold_storage_options}
   */
   readonly coldStorageOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecClusterConfigColdStorageOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#dedicated_master_count DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#dedicated_master_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#dedicated_master_count DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#dedicated_master_count}
   */
   readonly dedicatedMasterCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#dedicated_master_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#dedicated_master_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#dedicated_master_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#dedicated_master_enabled}
   */
   readonly dedicatedMasterEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#dedicated_master_type DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#dedicated_master_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#dedicated_master_type DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#dedicated_master_type}
   */
   readonly dedicatedMasterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#instance_count DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#instance_count DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#instance_type DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#instance_type DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#multi_az_with_standby_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#multi_az_with_standby_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#multi_az_with_standby_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#multi_az_with_standby_enabled}
   */
   readonly multiAzWithStandbyEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#warm_count DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#warm_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#warm_count DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#warm_count}
   */
   readonly warmCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#warm_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#warm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#warm_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#warm_enabled}
   */
   readonly warmEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#warm_type DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#warm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#warm_type DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#warm_type}
   */
   readonly warmType?: string;
   /**
   * The zone awareness configuration for an Amazon OpenSearch Service domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#zone_awareness_config DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#zone_awareness_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#zone_awareness_config DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#zone_awareness_config}
   */
   readonly zoneAwarenessConfig?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecClusterConfigZoneAwarenessConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#zone_awareness_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#zone_awareness_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#zone_awareness_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#zone_awareness_enabled}
   */
   readonly zoneAwarenessEnabled?: boolean | cdktf.IResolvable;
 }
@@ -2739,19 +2739,19 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecClu
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecCognitoOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#identity_pool_id DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#identity_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#identity_pool_id DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#identity_pool_id}
   */
   readonly identityPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#role_arn DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#role_arn DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#user_pool_id DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#user_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#user_pool_id DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#user_pool_id}
   */
   readonly userPoolId?: string;
 }
@@ -2932,25 +2932,25 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecCog
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecDomainEndpointOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#custom_endpoint DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#custom_endpoint DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#custom_endpoint}
   */
   readonly customEndpoint?: string;
   /**
   * The Amazon Resource Name (ARN) of the domain. See Identifiers for IAM Entities (https://docs.aws.amazon.com/IAM/latest/UserGuide/index.html) in Using Amazon Web Services Identity and Access Management for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#custom_endpoint_certificate_arn DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#custom_endpoint_certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#custom_endpoint_certificate_arn DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#custom_endpoint_certificate_arn}
   */
   readonly customEndpointCertificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#custom_endpoint_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#custom_endpoint_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#custom_endpoint_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#custom_endpoint_enabled}
   */
   readonly customEndpointEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enforce_https DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enforce_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enforce_https DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enforce_https}
   */
   readonly enforceHttps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#tls_security_policy DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#tls_security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#tls_security_policy DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#tls_security_policy}
   */
   readonly tlsSecurityPolicy?: string;
 }
@@ -3160,25 +3160,25 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecDom
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecEbsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#ebs_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#ebs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#ebs_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#ebs_enabled}
   */
   readonly ebsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#iops DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#iops DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#throughput DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#throughput DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#volume_size DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#volume_size DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#volume_size}
   */
   readonly volumeSize?: number;
   /**
   * The type of EBS volume that a domain uses. For more information, see Configuring EBS-based storage (https://docs.aws.amazon.com/opensearch-service/latest/developerguide/opensearch-createupdatedomains.html#opensearch-createdomain-configure-ebs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#volume_type DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#volume_type DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -3388,11 +3388,11 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecEbs
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecEncryptionAtRestOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#kms_key_id DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#kms_key_id DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
 }
@@ -3517,11 +3517,11 @@ export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpe
   /**
   * ARN of the Cloudwatch log group to publish logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#cloud_watch_logs_log_group_arn DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#cloud_watch_logs_log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#cloud_watch_logs_log_group_arn DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#cloud_watch_logs_log_group_arn}
   */
   readonly cloudWatchLogsLogGroupArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3644,7 +3644,7 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecLog
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecNodeToNodeEncryptionOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3738,11 +3738,11 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecNod
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecOffPeakWindowOptionsOffPeakWindowWindowStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#hours DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#hours DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#hours}
   */
   readonly hours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#minutes DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#minutes DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#minutes}
   */
   readonly minutes?: number;
 }
@@ -3867,7 +3867,7 @@ export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpe
   /**
   * The desired start time for an off-peak maintenance window (https://docs.aws.amazon.com/opensearch-service/latest/APIReference/API_OffPeakWindow.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#window_start_time DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#window_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#window_start_time DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#window_start_time}
   */
   readonly windowStartTime?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecOffPeakWindowOptionsOffPeakWindowWindowStartTime;
 }
@@ -3961,13 +3961,13 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecOff
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecOffPeakWindowOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A custom 10-hour, low-traffic window during which OpenSearch Service can perform mandatory configuration changes on the domain. These actions can include scheduled service software updates and blue/green Auto-Tune enhancements. OpenSearch Service will schedule these actions during the window that you specify. If you don't specify a window start time, it defaults to 10:00 P.M. local time. For more information, see Defining off-peak maintenance windows for Amazon OpenSearch Service (https://docs.aws.amazon.com/opensearch-service/latest/developerguide/off-peak.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#off_peak_window DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#off_peak_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#off_peak_window DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#off_peak_window}
   */
   readonly offPeakWindow?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecOffPeakWindowOptionsOffPeakWindow;
 }
@@ -4090,7 +4090,7 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecOff
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecSoftwareUpdateOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#auto_software_update_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#auto_software_update_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#auto_software_update_enabled DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#auto_software_update_enabled}
   */
   readonly autoSoftwareUpdateEnabled?: boolean | cdktf.IResolvable;
 }
@@ -4186,13 +4186,13 @@ export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpe
   /**
   * A string between 1 to 128 characters that specifies the key for a tag. Tag keys must be unique for the domain to which they're attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#key DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * A string between 0 to 256 characters that specifies the value for a tag. Tag values can be null and don't have to be unique in a tag set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#value DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#value DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4337,11 +4337,11 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecTag
 }
 export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecVpcOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#security_group_i_ds DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#security_group_i_ds DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#security_group_i_ds}
   */
   readonly securityGroupIDs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#subnet_i_ds DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#subnet_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#subnet_i_ds DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#subnet_i_ds}
   */
   readonly subnetIDs?: string[];
 }
@@ -4466,115 +4466,115 @@ export interface DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpe
   /**
   * Identity and Access Management (IAM) policy document specifying the access policies for the new domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#access_policies DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#access_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#access_policies DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#access_policies}
   */
   readonly accessPolicies?: string;
   /**
   * Key-value pairs to specify advanced configuration options. The following key-value pairs are supported: * 'rest.action.multi.allow_explicit_index': 'true' | 'false' - Note the use of a string rather than a boolean. Specifies whether explicit references to indexes are allowed inside the body of HTTP requests. If you want to configure access policies for domain sub-resources, such as specific indexes and domain APIs, you must disable this property. Default is true. * 'indices.fielddata.cache.size': '80' - Note the use of a string rather than a boolean. Specifies the percentage of heap space allocated to field data. Default is unbounded. * 'indices.query.bool.max_clause_count': '1024' - Note the use of a string rather than a boolean. Specifies the maximum number of clauses allowed in a Lucene boolean query. Default is 1,024. Queries with more than the permitted number of clauses result in a TooManyClauses error. * 'override_main_response_version': 'true' | 'false' - Note the use of a string rather than a boolean. Specifies whether the domain reports its version as 7.10 to allow Elasticsearch OSS clients and plugins to continue working with it. Default is false when creating a domain and true when upgrading a domain. For more information, see Advanced cluster parameters (https://docs.aws.amazon.com/opensearch-service/latest/developerguide/createupdatedomains.html#createdomain-configure-advanced-options).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#advanced_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#advanced_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#advanced_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#advanced_options}
   */
   readonly advancedOptions?: { [key: string]: string };
   /**
   * Options for fine-grained access control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#advanced_security_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#advanced_security_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#advanced_security_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#advanced_security_options}
   */
   readonly advancedSecurityOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAdvancedSecurityOptions;
   /**
   * Options for all machine learning features for the specified domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#aiml_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#aiml_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#aiml_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#aiml_options}
   */
   readonly aimlOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAimlOptions;
   /**
   * Options for Auto-Tune.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#auto_tune_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#auto_tune_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#auto_tune_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#auto_tune_options}
   */
   readonly autoTuneOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecAutoTuneOptions;
   /**
   * Container for the cluster configuration of a domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#cluster_config DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#cluster_config DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#cluster_config}
   */
   readonly clusterConfig?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecClusterConfig;
   /**
   * Key-value pairs to configure Amazon Cognito authentication. For more information, see Configuring Amazon Cognito authentication for OpenSearch Dashboards (https://docs.aws.amazon.com/opensearch-service/latest/developerguide/cognito-auth.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#cognito_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#cognito_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#cognito_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#cognito_options}
   */
   readonly cognitoOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecCognitoOptions;
   /**
   * Additional options for the domain endpoint, such as whether to require HTTPS for all traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#domain_endpoint_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#domain_endpoint_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#domain_endpoint_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#domain_endpoint_options}
   */
   readonly domainEndpointOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecDomainEndpointOptions;
   /**
   * Container for the parameters required to enable EBS-based storage for an OpenSearch Service domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#ebs_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#ebs_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#ebs_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#ebs_options}
   */
   readonly ebsOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecEbsOptions;
   /**
   * Key-value pairs to enable encryption at rest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#encryption_at_rest_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#encryption_at_rest_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#encryption_at_rest_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#encryption_at_rest_options}
   */
   readonly encryptionAtRestOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecEncryptionAtRestOptions;
   /**
   * String of format Elasticsearch_X.Y or OpenSearch_X.Y to specify the engine version for the OpenSearch Service domain. For example, OpenSearch_1.0 or Elasticsearch_7.9. For more information, see Creating and managing Amazon OpenSearch Service domains (https://docs.aws.amazon.com/opensearch-service/latest/developerguide/createupdatedomains.html#createdomains).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#engine_version DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#engine_version DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * Specify either dual stack or IPv4 as your IP address type. Dual stack allows you to share domain resources across IPv4 and IPv6 address types, and is the recommended option. If you set your IP address type to dual stack, you can't change your address type later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#ip_address_type DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#ip_address_type DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
   * Key-value pairs to configure log publishing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#log_publishing_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#log_publishing_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#log_publishing_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#log_publishing_options}
   */
   readonly logPublishingOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecLogPublishingOptions;
   /**
   * Name of the OpenSearch Service domain to create. Domain names are unique across the domains owned by an account within an Amazon Web Services Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#name DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#name DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Enables node-to-node encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#node_to_node_encryption_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#node_to_node_encryption_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#node_to_node_encryption_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#node_to_node_encryption_options}
   */
   readonly nodeToNodeEncryptionOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecNodeToNodeEncryptionOptions;
   /**
   * Specifies a daily 10-hour time block during which OpenSearch Service can perform configuration changes on the domain, including service software updates and Auto-Tune enhancements that require a blue/green deployment. If no options are specified, the default start time of 10:00 P.M. local time (for the Region that the domain is created in) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#off_peak_window_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#off_peak_window_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#off_peak_window_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#off_peak_window_options}
   */
   readonly offPeakWindowOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecOffPeakWindowOptions;
   /**
   * Software update options for the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#software_update_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#software_update_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#software_update_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#software_update_options}
   */
   readonly softwareUpdateOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecSoftwareUpdateOptions;
   /**
   * List of tags to add to the domain upon creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#tags DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#tags DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * Container for the values required to configure VPC access domains. If you don't specify these values, OpenSearch Service creates the domain with a public endpoint. For more information, see Launching your Amazon OpenSearch Service domains using a VPC (https://docs.aws.amazon.com/opensearch-service/latest/developerguide/vpc.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#vpc_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#vpc_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#vpc_options DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest#vpc_options}
   */
   readonly vpcOptions?: DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecVpcOptions;
 }
@@ -5187,7 +5187,7 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest k8s_opensearchservice_services_k8s_aws_domain_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest k8s_opensearchservice_services_k8s_aws_domain_v1alpha1_manifest}
 */
 export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -5203,7 +5203,7 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest extend
   * Generates CDKTF code for importing a DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5215,7 +5215,7 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest k8s_opensearchservice_services_k8s_aws_domain_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/opensearchservice_services_k8s_aws_domain_v1alpha1_manifest k8s_opensearchservice_services_k8s_aws_domain_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5226,8 +5226,8 @@ export class DataK8SOpensearchserviceServicesK8SAwsDomainV1Alpha1Manifest extend
       terraformResourceType: 'k8s_opensearchservice_services_k8s_aws_domain_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

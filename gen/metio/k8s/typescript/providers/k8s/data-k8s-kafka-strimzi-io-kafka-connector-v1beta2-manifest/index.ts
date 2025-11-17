@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKafkaStrimziIoKafkaConnectorV1Beta2ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SKafkaStrimziIoKafkaConnectorV1Beta2ManifestMetadata;
   /**
   * The specification of the Kafka Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#spec DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#spec DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SKafkaStrimziIoKafkaConnectorV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKafkaStrimziIoKafkaConnectorV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#namespace DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#namespace DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SKafkaStrimziIoKafkaConnectorV1Beta2ManifestSpecAutoResta
   /**
   * Whether automatic restart for failed connectors and tasks should be enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#enabled DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#enabled DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of connector restarts that the operator will try. If the connector remains in a failed state after reaching this limit, it must be restarted manually by the user. Defaults to an unlimited number of restarts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#max_restarts DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#max_restarts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#max_restarts DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#max_restarts}
   */
   readonly maxRestarts?: number;
 }
@@ -350,37 +350,37 @@ export interface DataK8SKafkaStrimziIoKafkaConnectorV1Beta2ManifestSpec {
   /**
   * Automatic restart of connector and tasks configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#auto_restart DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#auto_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#auto_restart DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#auto_restart}
   */
   readonly autoRestart?: DataK8SKafkaStrimziIoKafkaConnectorV1Beta2ManifestSpecAutoRestart;
   /**
   * The Class for the Kafka Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#class DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#class DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#class}
   */
   readonly class?: string;
   /**
   * The Kafka Connector configuration. The following properties cannot be set: name, connector.class, tasks.max.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#config DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#config DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * Whether the connector should be paused. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#pause DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#pause DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#pause}
   */
   readonly pause?: boolean | cdktf.IResolvable;
   /**
   * The state the connector should be in. Defaults to running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#state DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#state DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#state}
   */
   readonly state?: string;
   /**
   * The maximum number of tasks for the Kafka Connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#tasks_max DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#tasks_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#tasks_max DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest#tasks_max}
   */
   readonly tasksMax?: number;
 }
@@ -619,7 +619,7 @@ export class DataK8SKafkaStrimziIoKafkaConnectorV1Beta2ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest k8s_kafka_strimzi_io_kafka_connector_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest k8s_kafka_strimzi_io_kafka_connector_v1beta2_manifest}
 */
 export class DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -635,7 +635,7 @@ export class DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -647,7 +647,7 @@ export class DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest k8s_kafka_strimzi_io_kafka_connector_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_connector_v1beta2_manifest k8s_kafka_strimzi_io_kafka_connector_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -658,8 +658,8 @@ export class DataK8SKafkaStrimziIoKafkaConnectorV1Beta2Manifest extends cdktf.Te
       terraformResourceType: 'k8s_kafka_strimzi_io_kafka_connector_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

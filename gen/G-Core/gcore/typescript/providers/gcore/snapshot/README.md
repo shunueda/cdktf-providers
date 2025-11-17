@@ -1,3 +1,3 @@
 # `gcore_snapshot`
 
-Refer to the Terraform Registry for docs: [`gcore_snapshot`](https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/snapshot).
+Refer to the Terraform Registry for docs: [`gcore_snapshot`](https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/snapshot).

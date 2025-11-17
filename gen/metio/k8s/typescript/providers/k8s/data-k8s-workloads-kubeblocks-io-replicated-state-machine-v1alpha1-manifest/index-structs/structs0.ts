@@ -3,25 +3,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -196,23 +196,23 @@ export class DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestM
 }
 export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecAlternativeServicesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#finalizers DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#finalizers DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -424,37 +424,37 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The application protocol for this port. This is used as a hint for implementations to offer richer behavior for protocols that they understand. This field follows standard Kubernetes label syntax. Valid values are either: * Un-prefixed protocol names - reserved for IANA standard service names (as per RFC-6335 and https://www.iana.org/assignments/service-names). * Kubernetes-defined prefixed names: * 'kubernetes.io/h2c' - HTTP/2 over cleartext as described in https://www.rfc-editor.org/rfc/rfc7540 * 'kubernetes.io/ws' - WebSocket over cleartext as described in https://www.rfc-editor.org/rfc/rfc6455 * 'kubernetes.io/wss' - WebSocket over TLS as described in https://www.rfc-editor.org/rfc/rfc6455 * Other protocols should use implementation-defined prefixed names such as mycompany.com/my-custom-protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#app_protocol DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#app_protocol DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
   * The name of this port within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. When considering the endpoints for a Service, this must match the 'name' field in the EndpointPort. Optional if only one ServicePort is defined on this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The port on each node on which this service is exposed when type is NodePort or LoadBalancer. Usually assigned by the system. If a value is specified, in-range, and not in use it will be used, otherwise the operation will fail. If not specified, a port will be allocated if this Service requires one. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type from NodePort to ClusterIP). More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#node_port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#node_port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
   * The port that will be exposed by this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * The IP protocol for this port. Supports 'TCP', 'UDP', and 'SCTP'. Default is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#protocol DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#protocol DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Number or name of the port to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named port in the target Pod's container ports. If this is not specified, the value of the 'port' field is used (an identity map). This field is ignored for services with clusterIP=None, and should be omitted or set equal to the 'port' field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#target_port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#target_port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#target_port}
   */
   readonly targetPort?: string;
 }
@@ -714,7 +714,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * timeoutSeconds specifies the seconds of ClientIP type session sticky time. The value must be >0 && <=86400(for 1 day) if ServiceAffinity == 'ClientIP'. Default value is 10800(for 3 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#timeout_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#timeout_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -810,7 +810,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * clientIP contains the configurations of Client IP based session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#client_ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#client_ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#client_ip}
   */
   readonly clientIp?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecAlternativeServicesSpecSessionAffinityConfigClientIp;
 }
@@ -906,115 +906,115 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * allocateLoadBalancerNodePorts defines if NodePorts will be automatically allocated for services with type LoadBalancer. Default is 'true'. It may be set to 'false' if the cluster load-balancer does not rely on NodePorts. If the caller requests specific NodePorts (by specifying a value), those requests will be respected, regardless of this field. This field may only be set for services with type LoadBalancer and will be cleared if the type is changed to any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#allocate_load_balancer_node_ports DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#allocate_load_balancer_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#allocate_load_balancer_node_ports DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#allocate_load_balancer_node_ports}
   */
   readonly allocateLoadBalancerNodePorts?: boolean | cdktf.IResolvable;
   /**
   * ClusterIPs is a list of IP addresses assigned to this service, and are usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be empty) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. If this field is not specified, it will be initialized from the clusterIP field. If this field is specified, clients must ensure that clusterIPs[0] and clusterIP have the same value. This field may hold a maximum of two entries (dual-stack IPs, in either order). These IPs must correspond to the values of the ipFamilies field. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#cluster_i_ps DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#cluster_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#cluster_i_ps DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#cluster_i_ps}
   */
   readonly clusterIPs?: string[];
   /**
   * clusterIP is the IP address of the service and is usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be blank) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#cluster_ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#cluster_ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#cluster_ip}
   */
   readonly clusterIp?: string;
   /**
   * externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service. These IPs are not managed by Kubernetes. The user is responsible for ensuring that traffic arrives at a node with this IP. A common example is external load-balancers that are not part of the Kubernetes system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#external_i_ps DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#external_i_ps DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#external_i_ps}
   */
   readonly externalIPs?: string[];
   /**
   * externalName is the external reference that discovery mechanisms will return as an alias for this service (e.g. a DNS CNAME record). No proxying will be involved. Must be a lowercase RFC-1123 hostname (https://tools.ietf.org/html/rfc1123) and requires 'type' to be 'ExternalName'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#external_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#external_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#external_name}
   */
   readonly externalName?: string;
   /**
   * externalTrafficPolicy describes how nodes distribute service traffic they receive on one of the Service's 'externally-facing' addresses (NodePorts, ExternalIPs, and LoadBalancer IPs). If set to 'Local', the proxy will configure the service in a way that assumes that external load balancers will take care of balancing the service traffic between nodes, and so each node will deliver traffic only to the node-local endpoints of the service, without masquerading the client source IP. (Traffic mistakenly sent to a node with no endpoints will be dropped.) The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features). Note that traffic sent to an External IP or LoadBalancer IP from within the cluster will always get 'Cluster' semantics, but clients sending to a NodePort from within the cluster may need to take traffic policy into account when picking a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#external_traffic_policy DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#external_traffic_policy DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * healthCheckNodePort specifies the healthcheck nodePort for the service. This only applies when type is set to LoadBalancer and externalTrafficPolicy is set to Local. If a value is specified, is in-range, and is not in use, it will be used. If not specified, a value will be automatically allocated. External systems (e.g. load-balancers) can use this port to determine if a given node holds endpoints for this service or not. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type). This field cannot be updated once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#health_check_node_port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#health_check_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#health_check_node_port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#health_check_node_port}
   */
   readonly healthCheckNodePort?: number;
   /**
   * InternalTrafficPolicy describes how nodes distribute service traffic they receive on the ClusterIP. If set to 'Local', the proxy will assume that pods only want to talk to endpoints of the service on the same node as the pod, dropping the traffic if there are no local endpoints. The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#internal_traffic_policy DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#internal_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#internal_traffic_policy DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#internal_traffic_policy}
   */
   readonly internalTrafficPolicy?: string;
   /**
   * IPFamilies is a list of IP families (e.g. IPv4, IPv6) assigned to this service. This field is usually assigned automatically based on cluster configuration and the ipFamilyPolicy field. If this field is specified manually, the requested family is available in the cluster, and ipFamilyPolicy allows it, it will be used; otherwise creation of the service will fail. This field is conditionally mutable: it allows for adding or removing a secondary IP family, but it does not allow changing the primary IP family of the Service. Valid values are 'IPv4' and 'IPv6'. This field only applies to Services of types ClusterIP, NodePort, and LoadBalancer, and does apply to 'headless' services. This field will be wiped when updating a Service to type ExternalName. This field may hold a maximum of two entries (dual-stack families, in either order). These families must correspond to the values of the clusterIPs field, if specified. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ip_families DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ip_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ip_families DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ip_families}
   */
   readonly ipFamilies?: string[];
   /**
   * IPFamilyPolicy represents the dual-stack-ness requested or required by this Service. If there is no value provided, then this field will be set to SingleStack. Services can be 'SingleStack' (a single IP family), 'PreferDualStack' (two IP families on dual-stack configured clusters or a single IP family on single-stack clusters), or 'RequireDualStack' (two IP families on dual-stack configured clusters, otherwise fail). The ipFamilies and clusterIPs fields depend on the value of this field. This field will be wiped when updating a service to type ExternalName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ip_family_policy DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ip_family_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ip_family_policy DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ip_family_policy}
   */
   readonly ipFamilyPolicy?: string;
   /**
   * loadBalancerClass is the class of the load balancer implementation this Service belongs to. If specified, the value of this field must be a label-style identifier, with an optional prefix, e.g. 'internal-vip' or 'example.com/internal-vip'. Unprefixed names are reserved for end-users. This field can only be set when the Service type is 'LoadBalancer'. If not set, the default load balancer implementation is used, today this is typically done through the cloud provider integration, but should apply for any default implementation. If set, it is assumed that a load balancer implementation is watching for Services with a matching class. Any default load balancer implementation (e.g. cloud providers) should ignore Services that set this field. This field can only be set when creating or updating a Service to type 'LoadBalancer'. Once set, it can not be changed. This field will be wiped when a service is updated to a non 'LoadBalancer' type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer_class DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer_class DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer_class}
   */
   readonly loadBalancerClass?: string;
   /**
   * Only applies to Service Type: LoadBalancer. This feature depends on whether the underlying cloud-provider supports specifying the loadBalancerIP when a load balancer is created. This field will be ignored if the cloud-provider does not support the feature. Deprecated: This field was under-specified and its meaning varies across implementations. Using it is non-portable and it may not support dual-stack. Users are encouraged to use implementation-specific annotations when available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer_ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer_ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
   * If specified and supported by the platform, this will restrict traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.' More info: https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer_source_ranges DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer_source_ranges DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
   * The list of ports that are exposed by this service. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ports DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ports DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecAlternativeServicesSpecPorts[] | cdktf.IResolvable;
   /**
   * publishNotReadyAddresses indicates that any agent which deals with endpoints for this Service should disregard any indications of ready/not-ready. The primary use case for setting this field is for a StatefulSet's Headless Service to propagate SRV DNS records for its Pods for the purpose of peer discovery. The Kubernetes controllers that generate Endpoints and EndpointSlice resources for Services interpret this to mean that all endpoints are considered 'ready' even if the Pods themselves are not. Agents which consume only Kubernetes generated endpoints through the Endpoints or EndpointSlice resources can safely assume this behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#publish_not_ready_addresses DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#publish_not_ready_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#publish_not_ready_addresses DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#publish_not_ready_addresses}
   */
   readonly publishNotReadyAddresses?: boolean | cdktf.IResolvable;
   /**
   * Route service traffic to pods with label keys and values matching this selector. If empty or not present, the service is assumed to have an external process managing its endpoints, which Kubernetes will not modify. Only applies to types ClusterIP, NodePort, and LoadBalancer. Ignored if type is ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
   * Supports 'ClientIP' and 'None'. Used to maintain session affinity. Enable client IP based session affinity. Must be ClientIP or None. Defaults to None. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#session_affinity DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#session_affinity DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
   * sessionAffinityConfig contains the configurations of session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#session_affinity_config DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#session_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#session_affinity_config DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#session_affinity_config}
   */
   readonly sessionAffinityConfig?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecAlternativeServicesSpecSessionAffinityConfig;
   /**
   * type determines how the Service is exposed. Defaults to ClusterIP. Valid options are ExternalName, ClusterIP, NodePort, and LoadBalancer. 'ClusterIP' allocates a cluster-internal IP address for load-balancing to endpoints. Endpoints are determined by the selector or if that is not specified, by manual construction of an Endpoints object or EndpointSlice objects. If clusterIP is 'None', no virtual IP is allocated and the endpoints are published as a set of endpoints rather than a virtual IP. 'NodePort' builds on ClusterIP and allocates a port on every node which routes to the same endpoints as the clusterIP. 'LoadBalancer' builds on NodePort and creates an external load-balancer (if supported in the current cloud) which routes to the same endpoints as the clusterIP. 'ExternalName' aliases this service to the specified externalName. Several other fields do not apply to ExternalName services. More info: https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1632,37 +1632,37 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * lastTransitionTime is the last time the condition transitioned from one status to another. This should be when the underlying condition changed. If that is not known, then using the time when the API field changed is acceptable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#last_transition_time DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#last_transition_time DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#last_transition_time}
   */
   readonly lastTransitionTime: string;
   /**
   * message is a human readable message indicating details about the transition. This may be an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#message DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#message DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#message}
   */
   readonly message: string;
   /**
   * observedGeneration represents the .metadata.generation that the condition was set based upon. For instance, if .metadata.generation is currently 12, but the .status.conditions[x].observedGeneration is 9, the condition is out of date with respect to the current state of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#observed_generation DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#observed_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#observed_generation DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#observed_generation}
   */
   readonly observedGeneration?: number;
   /**
   * reason contains a programmatic identifier indicating the reason for the condition's last transition. Producers of specific condition types may define expected values and meanings for this field, and whether the values are considered a guaranteed API. The value should be a CamelCase string. This field may not be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#reason DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#reason DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#reason}
   */
   readonly reason: string;
   /**
   * status of the condition, one of True, False, Unknown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#status DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#status DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#status}
   */
   readonly status: string;
   /**
   * type of condition in CamelCase or in foo.example.com/CamelCase. --- Many .condition.type values are consistent across resources like Available, but because arbitrary conditions can be useful (see .node.status.conditions), the ability to deconflict is important. The regex it matches is (dns1123SubdomainFmt/)?(qualifiedNameFmt)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -1910,19 +1910,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Error is to record the problem with the service port The format of the error shall comply with the following rules: - built-in error values shall be specified in this file and those shall use CamelCase names - cloud provider specific error values must have names that comply with the format foo.example.com/CamelCase. --- The regex it matches is (dns1123SubdomainFmt/)?(qualifiedNameFmt)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#error DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#error DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#error}
   */
   readonly error?: string;
   /**
   * Port is the port number of the service port of which status is recorded here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Protocol is the protocol of the service port of which status is recorded here The supported values are: 'TCP', 'UDP', 'SCTP'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#protocol DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#protocol DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -2092,19 +2092,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Hostname is set for load-balancer ingress points that are DNS based (typically AWS load-balancers)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#hostname DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#hostname DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * IP is set for load-balancer ingress points that are IP based (typically GCE or OpenStack load-balancers)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ip}
   */
   readonly ip?: string;
   /**
   * Ports is a list of records of service ports If used, every port defined in the service should have an entry in it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ports DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ports DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecAlternativeServicesStatusLoadBalancerIngressPorts[] | cdktf.IResolvable;
 }
@@ -2280,7 +2280,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Ingress is a list containing ingress points for the load-balancer. Traffic intended for the service should be sent to these ingress points.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ingress DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ingress DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecAlternativeServicesStatusLoadBalancerIngress[] | cdktf.IResolvable;
 }
@@ -2376,13 +2376,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Current service state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#conditions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#conditions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#conditions}
   */
   readonly conditions?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecAlternativeServicesStatusConditions[] | cdktf.IResolvable;
   /**
   * LoadBalancer contains the current status of the load-balancer, if one is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer}
   */
   readonly loadBalancer?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecAlternativeServicesStatusLoadBalancer;
 }
@@ -2507,31 +2507,31 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#metadata DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#metadata DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecAlternativeServicesMetadata;
   /**
   * Spec defines the behavior of a service. https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#spec DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#spec DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecAlternativeServicesSpec;
   /**
   * Most recently observed status of the service. Populated by the system. Read-only. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#status DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#status DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#status}
   */
   readonly status?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecAlternativeServicesStatus;
 }
@@ -2765,19 +2765,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2928,13 +2928,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -3056,19 +3056,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#container_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#container_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#divisor DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#divisor DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -3219,19 +3219,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3382,25 +3382,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#config_map_key_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#config_map_key_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecCredentialPasswordValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecCredentialPasswordValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource_field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource_field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecCredentialPasswordValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_key_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_key_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecCredentialPasswordValueFromSecretKeyRef;
 }
@@ -3583,13 +3583,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Specifies the value of the environment variable. This field is optional and defaults to an empty string. The value can include variable references in the format $(VAR_NAME) which will be expanded using previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will remain unchanged. Double $$ can be used to escape the $(VAR_NAME) syntax, resulting in a single $ and producing the string literal '$(VAR_NAME)'. Escaped references will not be expanded, regardless of whether the variable exists or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Defines the source for the environment variable's value. This field is optional and cannot be used if the 'Value' field is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value_from DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value_from DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecCredentialPasswordValueFrom;
 }
@@ -3714,19 +3714,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3877,13 +3877,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -4005,19 +4005,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#container_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#container_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#divisor DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#divisor DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -4168,19 +4168,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4331,25 +4331,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#config_map_key_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#config_map_key_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecCredentialUsernameValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecCredentialUsernameValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource_field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource_field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecCredentialUsernameValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_key_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_key_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecCredentialUsernameValueFromSecretKeyRef;
 }
@@ -4532,13 +4532,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Specifies the value of the environment variable. This field is optional and defaults to an empty string. The value can include variable references in the format $(VAR_NAME) which will be expanded using previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will remain unchanged. Double $$ can be used to escape the $(VAR_NAME) syntax, resulting in a single $ and producing the string literal '$(VAR_NAME)'. Escaped references will not be expanded, regardless of whether the variable exists or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Defines the source for the environment variable's value. This field is optional and cannot be used if the 'Value' field is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value_from DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value_from DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecCredentialUsernameValueFrom;
 }
@@ -4663,13 +4663,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Represents the user's password for the credential. The corresponding environment variable will be KB_RSM_PASSWORD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#password DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#password DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#password}
   */
   readonly password: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecCredentialPassword;
   /**
   * Defines the user's name for the credential. The corresponding environment variable will be KB_RSM_USERNAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#username DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#username DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#username}
   */
   readonly username: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecCredentialUsername;
 }
@@ -4788,19 +4788,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4951,13 +4951,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -5079,19 +5079,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#container_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#container_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#divisor DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#divisor DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -5242,19 +5242,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5405,25 +5405,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#config_map_key_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#config_map_key_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource_field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource_field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_key_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_key_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesEnvValueFromSecretKeyRef;
 }
@@ -5606,19 +5606,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value_from DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value_from DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesEnvValueFrom;
 }
@@ -5791,7 +5791,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5906,19 +5906,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#claims DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#claims DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#limits DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#limits DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#requests DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#requests DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6072,31 +6072,31 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#effect DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#effect DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#toleration_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#toleration_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#value DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6328,23 +6328,23 @@ export class DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestS
 }
 export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumeClaimTemplatesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#finalizers DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#finalizers DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6556,19 +6556,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_group DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_group DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6716,25 +6716,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_group DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_group DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6911,7 +6911,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -7026,19 +7026,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#claims DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#claims DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumeClaimTemplatesSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#limits DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#limits DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#requests DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#requests DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7192,19 +7192,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7374,13 +7374,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumeClaimTemplatesSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7505,49 +7505,49 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#access_modes DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#access_modes DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#data_source DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#data_source DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumeClaimTemplatesSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#data_source_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#data_source_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumeClaimTemplatesSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resources DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resources DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumeClaimTemplatesSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumeClaimTemplatesSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storage_class_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storage_class_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -7846,35 +7846,35 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * lastProbeTime is the time we probed the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#last_probe_time DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#last_probe_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#last_probe_time DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#last_probe_time}
   */
   readonly lastProbeTime?: string;
   /**
   * lastTransitionTime is the time the condition transitioned from one status to another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#last_transition_time DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#last_transition_time DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#last_transition_time}
   */
   readonly lastTransitionTime?: string;
   /**
   * message is the human-readable message indicating details about last transition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#message DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#message DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
   * reason is a unique, this should be a short, machine understandable string that gives the reason for condition's last transition. If it reports 'ResizeStarted' that means the underlying persistent volume is being resized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#reason DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#reason DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#status DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#status DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#status}
   */
   readonly status: string;
   /**
   * PersistentVolumeClaimConditionType is a valid value of PersistentVolumeClaimCondition.Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -8131,37 +8131,37 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * accessModes contains the actual access modes the volume backing the PVC has. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#access_modes DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#access_modes DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * allocatedResourceStatuses stores status of resource being resized for the given PVC. Key names follow standard Kubernetes label syntax. Valid values are either: * Un-prefixed keys: - storage - the capacity of the volume. * Custom resources must use implementation-defined prefixed names such as 'example.com/my-custom-resource' Apart from above values - keys that are unprefixed or have kubernetes.io prefix are considered reserved and hence may not be used. ClaimResourceStatus can be in any of following states: - ControllerResizeInProgress: State set when resize controller starts resizing the volume in control-plane. - ControllerResizeFailed: State set when resize has failed in resize controller with a terminal error. - NodeResizePending: State set when resize controller has finished resizing the volume but further resizing of volume is needed on the node. - NodeResizeInProgress: State set when kubelet starts resizing the volume. - NodeResizeFailed: State set when resizing has failed in kubelet with a terminal error. Transient errors don't set NodeResizeFailed. For example: if expanding a PVC for more capacity - this field can be one of the following states: - pvc.status.allocatedResourceStatus['storage'] = 'ControllerResizeInProgress' - pvc.status.allocatedResourceStatus['storage'] = 'ControllerResizeFailed' - pvc.status.allocatedResourceStatus['storage'] = 'NodeResizePending' - pvc.status.allocatedResourceStatus['storage'] = 'NodeResizeInProgress' - pvc.status.allocatedResourceStatus['storage'] = 'NodeResizeFailed' When this field is not set, it means that no resize operation is in progress for the given PVC. A controller that receives PVC update with previously unknown resourceName or ClaimResourceStatus should ignore the update for the purpose it was designed. For example - a controller that only is responsible for resizing capacity of the volume, should ignore PVC updates that change other valid resources associated with PVC. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#allocated_resource_statuses DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#allocated_resource_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#allocated_resource_statuses DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#allocated_resource_statuses}
   */
   readonly allocatedResourceStatuses?: { [key: string]: string };
   /**
   * allocatedResources tracks the resources allocated to a PVC including its capacity. Key names follow standard Kubernetes label syntax. Valid values are either: * Un-prefixed keys: - storage - the capacity of the volume. * Custom resources must use implementation-defined prefixed names such as 'example.com/my-custom-resource' Apart from above values - keys that are unprefixed or have kubernetes.io prefix are considered reserved and hence may not be used. Capacity reported here may be larger than the actual capacity when a volume expansion operation is requested. For storage quota, the larger value from allocatedResources and PVC.spec.resources is used. If allocatedResources is not set, PVC.spec.resources alone is used for quota calculation. If a volume expansion capacity request is lowered, allocatedResources is only lowered if there are no expansion operations in progress and if the actual volume capacity is equal or lower than the requested capacity. A controller that receives PVC update with previously unknown resourceName should ignore the update for the purpose it was designed. For example - a controller that only is responsible for resizing capacity of the volume, should ignore PVC updates that change other valid resources associated with PVC. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#allocated_resources DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#allocated_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#allocated_resources DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#allocated_resources}
   */
   readonly allocatedResources?: { [key: string]: string };
   /**
   * capacity represents the actual resources of the underlying volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#capacity DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#capacity DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#capacity}
   */
   readonly capacity?: { [key: string]: string };
   /**
   * conditions is the current Condition of persistent volume claim. If underlying persistent volume is being resized then the Condition will be set to 'ResizeStarted'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#conditions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#conditions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#conditions}
   */
   readonly conditions?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumeClaimTemplatesStatusConditions[] | cdktf.IResolvable;
   /**
   * phase represents the current phase of PersistentVolumeClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#phase DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#phase DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#phase}
   */
   readonly phase?: string;
 }
@@ -8402,31 +8402,31 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#metadata DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#metadata DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumeClaimTemplatesMetadata;
   /**
   * spec defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#spec DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#spec DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumeClaimTemplatesSpec;
   /**
   * status represents the current information/status of a persistent volume claim. Read-only. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#status DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#status DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#status}
   */
   readonly status?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumeClaimTemplatesStatus;
 }
@@ -8660,37 +8660,37 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mount_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mount_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mount_propagation DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mount_propagation DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#sub_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#sub_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#sub_path_expr DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#sub_path_expr DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -8947,25 +8947,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#partition DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#partition DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * readOnly value true will force the readOnly setting in VolumeMounts. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID is unique ID of the persistent disk resource in AWS (Amazon EBS volume). More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_id DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_id DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -9145,37 +9145,37 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * cachingMode is the Host Caching mode: None, Read Only, Read Write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#caching_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#caching_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
   * diskName is the Name of the data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#disk_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#disk_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
   * diskURI is the URI of data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#disk_uri DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#disk_uri DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
   * fsType is Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * kind expected values are Shared: multiple blob disks per storage account Dedicated: single blob disk per storage account Managed: azure managed data disk (only in managed availability set). defaults to shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -9410,19 +9410,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of secret that contains Azure Storage Account Name and Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * shareName is the azure share Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#share_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#share_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -9570,7 +9570,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -9666,37 +9666,37 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * monitors is Required: Monitors is a collection of Ceph monitors More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#monitors DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#monitors DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretFile is Optional: SecretFile is the path to key ring for User, default is /etc/ceph/user.secret More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_file DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_file DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
   * secretRef is Optional: SecretRef is reference to the authentication secret for User, default is empty. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesCephfsSecretRef;
   /**
   * user is optional: User is the rados user name, default is admin More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#user DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#user DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -9934,7 +9934,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10030,25 +10030,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is optional: points to a secret object containing parameters used to connect to OpenStack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesCinderSecretRef;
   /**
   * volumeID used to identify the volume in cinder. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_id DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_id DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -10228,19 +10228,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -10410,25 +10410,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#default_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#default_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#items DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#items DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10611,7 +10611,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10707,31 +10707,31 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * driver is the name of the CSI driver that handles this volume. Consult with your admin for the correct name as registered in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#driver DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#driver DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType to mount. Ex. 'ext4', 'xfs', 'ntfs'. If not provided, the empty value is passed to the associated CSI driver which will determine the default filesystem to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * nodePublishSecretRef is a reference to the secret object containing sensitive information to pass to the CSI driver to complete the CSI NodePublishVolume and NodeUnpublishVolume calls. This field is optional, and may be empty if no secret is required. If the secret object contains more than one secret, all secret references are passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#node_publish_secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#node_publish_secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesCsiNodePublishSecretRef;
   /**
   * readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeAttributes stores driver-specific properties that are passed to the CSI driver. Consult your driver's documentation for supported values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_attributes DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_attributes DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -10940,13 +10940,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -11068,19 +11068,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#container_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#container_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#divisor DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#divisor DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -11231,25 +11231,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource_field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource_field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -11451,13 +11451,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Optional: mode bits to use on created files by default. Must be a Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#default_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#default_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Items is a list of downward API volume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#items DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#items DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -11582,13 +11582,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#medium DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#medium DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#size_limit DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#size_limit DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -11711,23 +11711,23 @@ export class DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestS
 }
 export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesEphemeralVolumeClaimTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#finalizers DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#finalizers DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -11939,19 +11939,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_group DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_group DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -12099,25 +12099,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_group DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_group DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -12294,7 +12294,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -12409,19 +12409,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#claims DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#claims DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesEphemeralVolumeClaimTemplateSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#limits DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#limits DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#requests DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#requests DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -12575,19 +12575,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12757,13 +12757,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12888,49 +12888,49 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#access_modes DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#access_modes DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#data_source DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#data_source DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#data_source_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#data_source_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resources DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resources DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storage_class_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storage_class_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -13229,13 +13229,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#metadata DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#metadata DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesEphemeralVolumeClaimTemplateMetadata;
   /**
   * The specification for the PersistentVolumeClaim. The entire content is copied unchanged into the PVC that gets created from this template. The same fields as in a PersistentVolumeClaim are also valid here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#spec DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#spec DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -13357,7 +13357,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Will be used to create a stand-alone PVC to provision the volume. The pod in which this EphemeralVolumeSource is embedded will be the owner of the PVC, i.e. the PVC will be deleted together with the pod. The name of the PVC will be '<pod name>-<volume name>' where '<volume name>' is the name from the 'PodSpec.Volumes' array entry. Pod validation will reject the pod if the concatenated name is not valid for a PVC (for example, too long). An existing PVC with that name that is not owned by the pod will *not* be used for the pod to avoid using an unrelated volume by mistake. Starting the pod is then blocked until the unrelated PVC is removed. If such a pre-created PVC is meant to be used by the pod, the PVC has to updated with an owner reference to the pod once the pod exists. Normally this should not be necessary, but it may be useful when manually reconstructing a broken cluster. This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created. Required, must not be nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_claim_template DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_claim_template DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesEphemeralVolumeClaimTemplate;
 }
@@ -13453,31 +13453,31 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * lun is Optional: FC target lun number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#lun DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#lun DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * targetWWNs is Optional: FC target worldwide names (WWNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#target_ww_ns DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#target_ww_ns DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
   * wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#wwids DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#wwids DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -13689,7 +13689,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -13785,31 +13785,31 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * driver is the name of the driver to use for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#driver DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#driver DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default filesystem depends on FlexVolume script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * options is Optional: this field holds extra command options if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#options DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#options DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * readOnly is Optional: defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is Optional: secretRef is reference to the secret object containing sensitive information to pass to the plugin scripts. This may be empty if no secret object is specified. If the secret object contains more than one secret, all secrets are passed to the plugin scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesFlexVolumeSecretRef;
 }
@@ -14018,13 +14018,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * datasetName is Name of the dataset stored as metadata -> name on the dataset for Flocker should be considered as deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#dataset_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#dataset_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * datasetUUID is the UUID of the dataset. This is unique identifier of a Flocker dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#dataset_uuid DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#dataset_uuid DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -14149,25 +14149,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * fsType is filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty). More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#partition DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#partition DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * pdName is unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#pd_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#pd_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -14347,19 +14347,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * directory is the target directory name. Must not contain or start with '..'. If '.' is supplied, the volume directory will be the git repository. Otherwise, if specified, the volume will contain the git repository in the subdirectory with the given name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#directory DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#directory DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#directory}
   */
   readonly directory?: string;
   /**
   * repository is the URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#repository DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#repository DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#repository}
   */
   readonly repository: string;
   /**
   * revision is the commit hash for the specified revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#revision DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#revision DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -14510,19 +14510,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#endpoints DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#endpoints DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * path is the Glusterfs volume path. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -14670,13 +14670,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -14798,7 +14798,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -14894,67 +14894,67 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#chap_auth_discovery DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#chap_auth_discovery DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#chap_auth_session DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#chap_auth_session DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#initiator_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#initiator_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is the target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#iqn DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#iqn DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#iscsi_interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#iscsi_interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun represents iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#lun DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#lun DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#portals DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#portals DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is the CHAP Secret for iSCSI target and initiator authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#target_portal DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#target_portal DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -15331,19 +15331,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#server DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#server DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#server}
   */
   readonly server: string;
 }
@@ -15491,13 +15491,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#claim_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#claim_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -15619,13 +15619,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#pd_id DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#pd_id DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -15747,19 +15747,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_id DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_id DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -15910,19 +15910,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -16092,19 +16092,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#items DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#items DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16258,13 +16258,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -16386,19 +16386,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#container_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#container_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#divisor DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#divisor DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -16549,25 +16549,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource_field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resource_field_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -16769,7 +16769,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#items DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#items DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -16865,19 +16865,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -17047,19 +17047,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#items DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#items DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17213,19 +17213,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#audience DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#audience DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#expiration_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#expiration_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -17376,25 +17376,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#config_map DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#config_map DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#downward_api DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#downward_api DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#service_account_token DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#service_account_token DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesProjectedSourcesServiceAccountToken;
 }
@@ -17599,13 +17599,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#default_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#default_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#sources DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#sources DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -17730,37 +17730,37 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#group DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#group DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#registry DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#registry DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#tenant DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#tenant DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#user DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#user DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -17995,7 +17995,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -18091,49 +18091,49 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#keyring DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#keyring DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#monitors DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#monitors DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#pool DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#pool DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#user DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#user DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -18426,7 +18426,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -18522,61 +18522,61 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#gateway DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#gateway DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#protection_domain DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#protection_domain DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ssl_enabled DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ssl_enabled DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storage_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storage_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storage_pool DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storage_pool DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#system DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#system DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -18924,19 +18924,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -19106,25 +19106,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#default_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#default_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#items DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#items DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#optional DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -19307,7 +19307,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -19403,31 +19403,31 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#read_only DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret_ref DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -19639,25 +19639,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fs_type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storage_policy_id DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storage_policy_id DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storage_policy_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storage_policy_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -19837,181 +19837,181 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#aws_elastic_block_store DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#aws_elastic_block_store DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#azure_disk DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#azure_disk DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#azure_file DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#azure_file DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#cephfs DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#cephfs DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#cinder DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#cinder DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#config_map DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#config_map DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#csi DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#csi DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#downward_api DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#downward_api DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#empty_dir DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#empty_dir DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ephemeral DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ephemeral DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fc DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#fc DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#flex_volume DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#flex_volume DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#flocker DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#flocker DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#gce_persistent_disk DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#gce_persistent_disk DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#git_repo DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#git_repo DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#glusterfs DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#glusterfs DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath --- TODO(jonesdl) We need to restrict who can use host directory mounts and who can/can not mount host directories as read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#host_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#host_path DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#iscsi DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#iscsi DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#nfs DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#nfs DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#persistent_volume_claim DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#persistent_volume_claim DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#photon_persistent_disk DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#photon_persistent_disk DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#portworx_volume DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#portworx_volume DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#projected DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#projected DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#quobyte DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#quobyte DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#rbd DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#rbd DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#scale_io DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#scale_io DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#secret DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storageos DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#storageos DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#vsphere_volume DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#vsphere_volume DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumesVsphereVolume;
 }
@@ -20967,85 +20967,85 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Defines annotations to override. Add new or override existing annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Defines Env to override. Add new or override existing envs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#env DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#env DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesEnv[] | cdktf.IResolvable;
   /**
   * Defines image to override. Will override the first container's image of the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Defines labels to override. Add new or override existing labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Specifies the name of the template. Each instance of the template derives its name from the RSM's Name, the template's Name and the instance's ordinal. The constructed instance name follows the pattern $(rsm.name)-$(template.name)-$(ordinal). The ordinal starts from 0 by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Defines NodeName to override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#node_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#node_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
   * Defines NodeSelector to override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#node_selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#node_selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Number of replicas of this template. Default is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#replicas DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#replicas DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Defines Resources to override. Will override the first container's resources of the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resources DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#resources DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesResources;
   /**
   * Defines RuntimeClass to override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#runtime_class_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#runtime_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#runtime_class_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#runtime_class_name}
   */
   readonly runtimeClassName?: string;
   /**
   * Defines Tolerations to override. Add new or override existing tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#tolerations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#tolerations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesTolerations[] | cdktf.IResolvable;
   /**
   * Defines VolumeClaimTemplates to override. Add new or override existing volume claim templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_claim_templates DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_claim_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_claim_templates DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_claim_templates}
   */
   readonly volumeClaimTemplates?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumeClaimTemplates[] | cdktf.IResolvable;
   /**
   * Defines VolumeMounts to override. Add new or override existing volume mounts of the first container in the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_mounts DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volume_mounts DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumeMounts[] | cdktf.IResolvable;
   /**
   * Defines Volumes to override. Add new or override existing volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volumes DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#volumes DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecInstancesVolumes[] | cdktf.IResolvable;
 }
@@ -21537,19 +21537,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Additional parameters used to perform specific statements. This field is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#args DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#args DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * A set of instructions that will be executed within the Container to retrieve or process role information. This field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#command DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#command DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Refers to the utility image that contains the command which can be utilized to retrieve or process role information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
   */
   readonly image?: string;
 }
@@ -21700,19 +21700,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Additional parameters used to perform specific statements. This field is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#args DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#args DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * A set of instructions that will be executed within the Container to retrieve or process role information. This field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#command DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#command DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Refers to the utility image that contains the command which can be utilized to retrieve or process role information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
   */
   readonly image?: string;
 }
@@ -21863,19 +21863,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Additional parameters used to perform specific statements. This field is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#args DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#args DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * A set of instructions that will be executed within the Container to retrieve or process role information. This field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#command DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#command DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Refers to the utility image that contains the command which can be utilized to retrieve or process role information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
   */
   readonly image?: string;
 }
@@ -22026,19 +22026,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Additional parameters used to perform specific statements. This field is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#args DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#args DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * A set of instructions that will be executed within the Container to retrieve or process role information. This field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#command DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#command DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Refers to the utility image that contains the command which can be utilized to retrieve or process role information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
   */
   readonly image?: string;
 }
@@ -22189,19 +22189,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Additional parameters used to perform specific statements. This field is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#args DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#args DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * A set of instructions that will be executed within the Container to retrieve or process role information. This field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#command DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#command DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Refers to the utility image that contains the command which can be utilized to retrieve or process role information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
   */
   readonly image?: string;
 }
@@ -22352,31 +22352,31 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Defines the action to trigger the new member to start log syncing. If the Image is not configured, the Image from the previous non-nil action will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#log_sync_action DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#log_sync_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#log_sync_action DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#log_sync_action}
   */
   readonly logSyncAction?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecMembershipReconfigurationLogSyncAction;
   /**
   * Defines the action to add a member. If the Image is not configured, the Image from the previous non-nil action will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#member_join_action DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#member_join_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#member_join_action DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#member_join_action}
   */
   readonly memberJoinAction?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecMembershipReconfigurationMemberJoinAction;
   /**
   * Defines the action to remove a member. If the Image is not configured, the Image from the previous non-nil action will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#member_leave_action DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#member_leave_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#member_leave_action DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#member_leave_action}
   */
   readonly memberLeaveAction?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecMembershipReconfigurationMemberLeaveAction;
   /**
   * Defines the action to inform the cluster that the new member can join voting now. If the Image is not configured, the Image from the previous non-nil action will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#promote_action DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#promote_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#promote_action DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#promote_action}
   */
   readonly promoteAction?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecMembershipReconfigurationPromoteAction;
   /**
   * Specifies the environment variables that can be used in all following Actions: - KB_RSM_USERNAME: Represents the username part of the credential - KB_RSM_PASSWORD: Represents the password part of the credential - KB_RSM_LEADER_HOST: Represents the leader host - KB_RSM_TARGET_HOST: Represents the target host - KB_RSM_SERVICE_PORT: Represents the service port Defines the action to perform a switchover. If the Image is not configured, the latest [BusyBox](https://busybox.net/) image will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#switchover_action DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#switchover_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#switchover_action DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#switchover_action}
   */
   readonly switchoverAction?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecMembershipReconfigurationSwitchoverAction;
 }
@@ -22588,19 +22588,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Additional parameters used to perform specific statements. This field is optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#args DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#args DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * A set of instructions that will be executed within the Container to retrieve or process role information. This field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#command DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#command DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Refers to the utility image that contains the command which can be utilized to retrieve or process role information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#image DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#image}
   */
   readonly image?: string;
 }
@@ -22773,49 +22773,49 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Specifies the builtin handler name to use to probe the role of the main container. Available handlers include: mysql, postgres, mongodb, redis, etcd, kafka. Use CustomHandler to define a custom role probe function if none of the built-in handlers meet the requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#builtin_handler_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#builtin_handler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#builtin_handler_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#builtin_handler_name}
   */
   readonly builtinHandlerName?: string;
   /**
   * Defines a custom method for role probing. If the BuiltinHandler meets the requirement, use it instead. Actions defined here are executed in series. Upon completion of all actions, the final output should be a single string representing the role name defined in spec.Roles. The latest [BusyBox](https://busybox.net/) image will be used if Image is not configured. Environment variables can be used in Command: - v_KB_RSM_LAST_STDOUT: stdout from the last action, watch for 'v_' prefix - KB_RSM_USERNAME: username part of the credential - KB_RSM_PASSWORD: password part of the credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#custom_handler DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#custom_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#custom_handler DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#custom_handler}
   */
   readonly customHandler?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecRoleProbeCustomHandler[] | cdktf.IResolvable;
   /**
   * Specifies the minimum number of consecutive failures for the probe to be considered failed after having succeeded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#failure_threshold DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#failure_threshold DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Specifies the number of seconds to wait after the container has started before initiating role probing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#initial_delay_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#initial_delay_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * Specifies the frequency (in seconds) of probe execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#period_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#period_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Specifies the method for updating the pod role label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#role_update_mechanism DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#role_update_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#role_update_mechanism DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#role_update_mechanism}
   */
   readonly roleUpdateMechanism?: string;
   /**
   * Specifies the minimum number of consecutive successes for the probe to be considered successful after having failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#success_threshold DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#success_threshold DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * Specifies the number of seconds after which the probe times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#timeout_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#timeout_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -23114,25 +23114,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Specifies the service capabilities of this member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#access_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#access_mode DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#access_mode}
   */
   readonly accessMode: string;
   /**
   * Indicates if this member has voting rights.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#can_vote DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#can_vote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#can_vote DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#can_vote}
   */
   readonly canVote?: boolean | cdktf.IResolvable;
   /**
   * Determines if this member is the leader.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#is_leader DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#is_leader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#is_leader DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#is_leader}
   */
   readonly isLeader?: boolean | cdktf.IResolvable;
   /**
   * Defines the role name of the replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -23331,19 +23331,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23513,13 +23513,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23642,23 +23642,23 @@ export class DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestS
 }
 export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecServiceMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#finalizers DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#finalizers DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -23870,37 +23870,37 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The application protocol for this port. This is used as a hint for implementations to offer richer behavior for protocols that they understand. This field follows standard Kubernetes label syntax. Valid values are either: * Un-prefixed protocol names - reserved for IANA standard service names (as per RFC-6335 and https://www.iana.org/assignments/service-names). * Kubernetes-defined prefixed names: * 'kubernetes.io/h2c' - HTTP/2 over cleartext as described in https://www.rfc-editor.org/rfc/rfc7540 * 'kubernetes.io/ws' - WebSocket over cleartext as described in https://www.rfc-editor.org/rfc/rfc6455 * 'kubernetes.io/wss' - WebSocket over TLS as described in https://www.rfc-editor.org/rfc/rfc6455 * Other protocols should use implementation-defined prefixed names such as mycompany.com/my-custom-protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#app_protocol DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#app_protocol DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
   * The name of this port within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. When considering the endpoints for a Service, this must match the 'name' field in the EndpointPort. Optional if only one ServicePort is defined on this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The port on each node on which this service is exposed when type is NodePort or LoadBalancer. Usually assigned by the system. If a value is specified, in-range, and not in use it will be used, otherwise the operation will fail. If not specified, a port will be allocated if this Service requires one. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type from NodePort to ClusterIP). More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#node_port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#node_port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
   * The port that will be exposed by this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * The IP protocol for this port. Supports 'TCP', 'UDP', and 'SCTP'. Default is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#protocol DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#protocol DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Number or name of the port to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named port in the target Pod's container ports. If this is not specified, the value of the 'port' field is used (an identity map). This field is ignored for services with clusterIP=None, and should be omitted or set equal to the 'port' field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#target_port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#target_port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#target_port}
   */
   readonly targetPort?: string;
 }
@@ -24160,7 +24160,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * timeoutSeconds specifies the seconds of ClientIP type session sticky time. The value must be >0 && <=86400(for 1 day) if ServiceAffinity == 'ClientIP'. Default value is 10800(for 3 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#timeout_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#timeout_seconds DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -24256,7 +24256,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * clientIP contains the configurations of Client IP based session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#client_ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#client_ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#client_ip}
   */
   readonly clientIp?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecServiceSpecSessionAffinityConfigClientIp;
 }
@@ -24352,115 +24352,115 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * allocateLoadBalancerNodePorts defines if NodePorts will be automatically allocated for services with type LoadBalancer. Default is 'true'. It may be set to 'false' if the cluster load-balancer does not rely on NodePorts. If the caller requests specific NodePorts (by specifying a value), those requests will be respected, regardless of this field. This field may only be set for services with type LoadBalancer and will be cleared if the type is changed to any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#allocate_load_balancer_node_ports DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#allocate_load_balancer_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#allocate_load_balancer_node_ports DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#allocate_load_balancer_node_ports}
   */
   readonly allocateLoadBalancerNodePorts?: boolean | cdktf.IResolvable;
   /**
   * ClusterIPs is a list of IP addresses assigned to this service, and are usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be empty) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. If this field is not specified, it will be initialized from the clusterIP field. If this field is specified, clients must ensure that clusterIPs[0] and clusterIP have the same value. This field may hold a maximum of two entries (dual-stack IPs, in either order). These IPs must correspond to the values of the ipFamilies field. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#cluster_i_ps DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#cluster_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#cluster_i_ps DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#cluster_i_ps}
   */
   readonly clusterIPs?: string[];
   /**
   * clusterIP is the IP address of the service and is usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be blank) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#cluster_ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#cluster_ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#cluster_ip}
   */
   readonly clusterIp?: string;
   /**
   * externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service. These IPs are not managed by Kubernetes. The user is responsible for ensuring that traffic arrives at a node with this IP. A common example is external load-balancers that are not part of the Kubernetes system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#external_i_ps DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#external_i_ps DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#external_i_ps}
   */
   readonly externalIPs?: string[];
   /**
   * externalName is the external reference that discovery mechanisms will return as an alias for this service (e.g. a DNS CNAME record). No proxying will be involved. Must be a lowercase RFC-1123 hostname (https://tools.ietf.org/html/rfc1123) and requires 'type' to be 'ExternalName'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#external_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#external_name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#external_name}
   */
   readonly externalName?: string;
   /**
   * externalTrafficPolicy describes how nodes distribute service traffic they receive on one of the Service's 'externally-facing' addresses (NodePorts, ExternalIPs, and LoadBalancer IPs). If set to 'Local', the proxy will configure the service in a way that assumes that external load balancers will take care of balancing the service traffic between nodes, and so each node will deliver traffic only to the node-local endpoints of the service, without masquerading the client source IP. (Traffic mistakenly sent to a node with no endpoints will be dropped.) The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features). Note that traffic sent to an External IP or LoadBalancer IP from within the cluster will always get 'Cluster' semantics, but clients sending to a NodePort from within the cluster may need to take traffic policy into account when picking a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#external_traffic_policy DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#external_traffic_policy DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * healthCheckNodePort specifies the healthcheck nodePort for the service. This only applies when type is set to LoadBalancer and externalTrafficPolicy is set to Local. If a value is specified, is in-range, and is not in use, it will be used. If not specified, a value will be automatically allocated. External systems (e.g. load-balancers) can use this port to determine if a given node holds endpoints for this service or not. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type). This field cannot be updated once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#health_check_node_port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#health_check_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#health_check_node_port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#health_check_node_port}
   */
   readonly healthCheckNodePort?: number;
   /**
   * InternalTrafficPolicy describes how nodes distribute service traffic they receive on the ClusterIP. If set to 'Local', the proxy will assume that pods only want to talk to endpoints of the service on the same node as the pod, dropping the traffic if there are no local endpoints. The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#internal_traffic_policy DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#internal_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#internal_traffic_policy DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#internal_traffic_policy}
   */
   readonly internalTrafficPolicy?: string;
   /**
   * IPFamilies is a list of IP families (e.g. IPv4, IPv6) assigned to this service. This field is usually assigned automatically based on cluster configuration and the ipFamilyPolicy field. If this field is specified manually, the requested family is available in the cluster, and ipFamilyPolicy allows it, it will be used; otherwise creation of the service will fail. This field is conditionally mutable: it allows for adding or removing a secondary IP family, but it does not allow changing the primary IP family of the Service. Valid values are 'IPv4' and 'IPv6'. This field only applies to Services of types ClusterIP, NodePort, and LoadBalancer, and does apply to 'headless' services. This field will be wiped when updating a Service to type ExternalName. This field may hold a maximum of two entries (dual-stack families, in either order). These families must correspond to the values of the clusterIPs field, if specified. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ip_families DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ip_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ip_families DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ip_families}
   */
   readonly ipFamilies?: string[];
   /**
   * IPFamilyPolicy represents the dual-stack-ness requested or required by this Service. If there is no value provided, then this field will be set to SingleStack. Services can be 'SingleStack' (a single IP family), 'PreferDualStack' (two IP families on dual-stack configured clusters or a single IP family on single-stack clusters), or 'RequireDualStack' (two IP families on dual-stack configured clusters, otherwise fail). The ipFamilies and clusterIPs fields depend on the value of this field. This field will be wiped when updating a service to type ExternalName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ip_family_policy DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ip_family_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ip_family_policy DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ip_family_policy}
   */
   readonly ipFamilyPolicy?: string;
   /**
   * loadBalancerClass is the class of the load balancer implementation this Service belongs to. If specified, the value of this field must be a label-style identifier, with an optional prefix, e.g. 'internal-vip' or 'example.com/internal-vip'. Unprefixed names are reserved for end-users. This field can only be set when the Service type is 'LoadBalancer'. If not set, the default load balancer implementation is used, today this is typically done through the cloud provider integration, but should apply for any default implementation. If set, it is assumed that a load balancer implementation is watching for Services with a matching class. Any default load balancer implementation (e.g. cloud providers) should ignore Services that set this field. This field can only be set when creating or updating a Service to type 'LoadBalancer'. Once set, it can not be changed. This field will be wiped when a service is updated to a non 'LoadBalancer' type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer_class DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer_class DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer_class}
   */
   readonly loadBalancerClass?: string;
   /**
   * Only applies to Service Type: LoadBalancer. This feature depends on whether the underlying cloud-provider supports specifying the loadBalancerIP when a load balancer is created. This field will be ignored if the cloud-provider does not support the feature. Deprecated: This field was under-specified and its meaning varies across implementations. Using it is non-portable and it may not support dual-stack. Users are encouraged to use implementation-specific annotations when available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer_ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer_ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
   * If specified and supported by the platform, this will restrict traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.' More info: https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer_source_ranges DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer_source_ranges DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
   * The list of ports that are exposed by this service. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ports DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ports DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecServiceSpecPorts[] | cdktf.IResolvable;
   /**
   * publishNotReadyAddresses indicates that any agent which deals with endpoints for this Service should disregard any indications of ready/not-ready. The primary use case for setting this field is for a StatefulSet's Headless Service to propagate SRV DNS records for its Pods for the purpose of peer discovery. The Kubernetes controllers that generate Endpoints and EndpointSlice resources for Services interpret this to mean that all endpoints are considered 'ready' even if the Pods themselves are not. Agents which consume only Kubernetes generated endpoints through the Endpoints or EndpointSlice resources can safely assume this behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#publish_not_ready_addresses DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#publish_not_ready_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#publish_not_ready_addresses DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#publish_not_ready_addresses}
   */
   readonly publishNotReadyAddresses?: boolean | cdktf.IResolvable;
   /**
   * Route service traffic to pods with label keys and values matching this selector. If empty or not present, the service is assumed to have an external process managing its endpoints, which Kubernetes will not modify. Only applies to types ClusterIP, NodePort, and LoadBalancer. Ignored if type is ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
   * Supports 'ClientIP' and 'None'. Used to maintain session affinity. Enable client IP based session affinity. Must be ClientIP or None. Defaults to None. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#session_affinity DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#session_affinity DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
   * sessionAffinityConfig contains the configurations of session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#session_affinity_config DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#session_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#session_affinity_config DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#session_affinity_config}
   */
   readonly sessionAffinityConfig?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecServiceSpecSessionAffinityConfig;
   /**
   * type determines how the Service is exposed. Defaults to ClusterIP. Valid options are ExternalName, ClusterIP, NodePort, and LoadBalancer. 'ClusterIP' allocates a cluster-internal IP address for load-balancing to endpoints. Endpoints are determined by the selector or if that is not specified, by manual construction of an Endpoints object or EndpointSlice objects. If clusterIP is 'None', no virtual IP is allocated and the endpoints are published as a set of endpoints rather than a virtual IP. 'NodePort' builds on ClusterIP and allocates a port on every node which routes to the same endpoints as the clusterIP. 'LoadBalancer' builds on NodePort and creates an external load-balancer (if supported in the current cloud) which routes to the same endpoints as the clusterIP. 'ExternalName' aliases this service to the specified externalName. Several other fields do not apply to ExternalName services. More info: https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -25078,37 +25078,37 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * lastTransitionTime is the last time the condition transitioned from one status to another. This should be when the underlying condition changed. If that is not known, then using the time when the API field changed is acceptable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#last_transition_time DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#last_transition_time DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#last_transition_time}
   */
   readonly lastTransitionTime: string;
   /**
   * message is a human readable message indicating details about the transition. This may be an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#message DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#message DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#message}
   */
   readonly message: string;
   /**
   * observedGeneration represents the .metadata.generation that the condition was set based upon. For instance, if .metadata.generation is currently 12, but the .status.conditions[x].observedGeneration is 9, the condition is out of date with respect to the current state of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#observed_generation DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#observed_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#observed_generation DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#observed_generation}
   */
   readonly observedGeneration?: number;
   /**
   * reason contains a programmatic identifier indicating the reason for the condition's last transition. Producers of specific condition types may define expected values and meanings for this field, and whether the values are considered a guaranteed API. The value should be a CamelCase string. This field may not be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#reason DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#reason DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#reason}
   */
   readonly reason: string;
   /**
   * status of the condition, one of True, False, Unknown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#status DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#status DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#status}
   */
   readonly status: string;
   /**
   * type of condition in CamelCase or in foo.example.com/CamelCase. --- Many .condition.type values are consistent across resources like Available, but because arbitrary conditions can be useful (see .node.status.conditions), the ability to deconflict is important. The regex it matches is (dns1123SubdomainFmt/)?(qualifiedNameFmt)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#type DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -25356,19 +25356,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Error is to record the problem with the service port The format of the error shall comply with the following rules: - built-in error values shall be specified in this file and those shall use CamelCase names - cloud provider specific error values must have names that comply with the format foo.example.com/CamelCase. --- The regex it matches is (dns1123SubdomainFmt/)?(qualifiedNameFmt)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#error DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#error DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#error}
   */
   readonly error?: string;
   /**
   * Port is the port number of the service port of which status is recorded here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#port DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Protocol is the protocol of the service port of which status is recorded here The supported values are: 'TCP', 'UDP', 'SCTP'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#protocol DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#protocol DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -25538,19 +25538,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Hostname is set for load-balancer ingress points that are DNS based (typically AWS load-balancers)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#hostname DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#hostname DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * IP is set for load-balancer ingress points that are IP based (typically GCE or OpenStack load-balancers)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ip DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ip}
   */
   readonly ip?: string;
   /**
   * Ports is a list of records of service ports If used, every port defined in the service should have an entry in it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ports DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ports DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecServiceStatusLoadBalancerIngressPorts[] | cdktf.IResolvable;
 }
@@ -25726,7 +25726,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Ingress is a list containing ingress points for the load-balancer. Traffic intended for the service should be sent to these ingress points.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ingress DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#ingress DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecServiceStatusLoadBalancerIngress[] | cdktf.IResolvable;
 }
@@ -25822,13 +25822,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Current service state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#conditions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#conditions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#conditions}
   */
   readonly conditions?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecServiceStatusConditions[] | cdktf.IResolvable;
   /**
   * LoadBalancer contains the current status of the load-balancer, if one is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#load_balancer DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#load_balancer}
   */
   readonly loadBalancer?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecServiceStatusLoadBalancer;
 }
@@ -25953,31 +25953,31 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#api_version DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#kind DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#metadata DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#metadata DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecServiceMetadata;
   /**
   * Spec defines the behavior of a service. https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#spec DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#spec DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecServiceSpec;
   /**
   * Most recently observed status of the service. Populated by the system. Read-only. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#status DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#status DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#status}
   */
   readonly status?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecServiceStatus;
 }
@@ -26187,23 +26187,23 @@ export class DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestS
 }
 export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#annotations DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#finalizers DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#finalizers DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#name DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -26415,19 +26415,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -26597,19 +26597,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -26779,13 +26779,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_fields DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_fields DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -26910,13 +26910,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#preference DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#preference DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#weight DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#weight DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -27057,19 +27057,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27239,19 +27239,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27421,13 +27421,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_fields DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_fields DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -27574,7 +27574,7 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#node_selector_terms DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#node_selector_terms DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -27667,13 +27667,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -27798,19 +27798,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27980,13 +27980,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -28111,19 +28111,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -28293,13 +28293,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -28424,25 +28424,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#label_selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#label_selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace_selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace_selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespaces DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespaces DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#topology_key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#topology_key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -28622,13 +28622,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#pod_affinity_term DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#pod_affinity_term DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#weight DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#weight DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -28769,19 +28769,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -28951,13 +28951,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -29082,19 +29082,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -29264,13 +29264,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -29395,25 +29395,25 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#label_selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#label_selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace_selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespace_selector DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespaces DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#namespaces DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#topology_key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#topology_key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -29615,13 +29615,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -29746,19 +29746,19 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#key DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#operator DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#values DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -29928,13 +29928,13 @@ export interface DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manif
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_expressions DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1ManifestSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workloads_kubeblocks_io_replicated_state_machine_v1alpha1_manifest#match_labels DataK8SWorkloadsKubeblocksIoReplicatedStateMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }

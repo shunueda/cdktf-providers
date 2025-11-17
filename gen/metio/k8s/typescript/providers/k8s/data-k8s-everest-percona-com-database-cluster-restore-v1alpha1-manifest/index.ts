@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1ManifestC
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#metadata DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#metadata DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1ManifestMetadata;
   /**
   * DatabaseClusterRestoreSpec defines the desired state of DatabaseClusterRestore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#spec DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#spec DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1ManifestM
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#annotations DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#annotations DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#labels DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#labels DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#name DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#name DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#namespace DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#namespace DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1ManifestS
   /**
   * BackupStorageName is the name of the BackupStorage used for backups. The BackupStorage must be created in the same namespace as the DatabaseCluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#backup_storage_name DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#backup_storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#backup_storage_name DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#backup_storage_name}
   */
   readonly backupStorageName: string;
   /**
   * Path is the path to the backup file/directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#path DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#path DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -344,13 +344,13 @@ export interface DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1ManifestS
   /**
   * Date is the UTC date to recover to. The accepted format: '2006-01-02T15:04:05Z'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#date DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#date DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#date}
   */
   readonly date?: string;
   /**
   * Type is the type of recovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#type DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#type DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -475,19 +475,19 @@ export interface DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1ManifestS
   /**
   * BackupSource is the backup source to restore from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#backup_source DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#backup_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#backup_source DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#backup_source}
   */
   readonly backupSource?: DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1ManifestSpecDataSourceBackupSource;
   /**
   * DBClusterBackupName is the name of the DB cluster backup to restore from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#db_cluster_backup_name DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#db_cluster_backup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#db_cluster_backup_name DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#db_cluster_backup_name}
   */
   readonly dbClusterBackupName?: string;
   /**
   * PITR is the point-in-time recovery configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#pitr DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#pitr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#pitr DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#pitr}
   */
   readonly pitr?: DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1ManifestSpecDataSourcePitr;
 }
@@ -641,13 +641,13 @@ export interface DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1ManifestS
   /**
   * DataSource defines a data source for restoration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#data_source DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#data_source DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#data_source}
   */
   readonly dataSource: DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1ManifestSpecDataSource;
   /**
   * DBClusterName defines the cluster name to restore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#db_cluster_name DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#db_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#db_cluster_name DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest#db_cluster_name}
   */
   readonly dbClusterName: string;
 }
@@ -764,7 +764,7 @@ export class DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1ManifestSpecO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest k8s_everest_percona_com_database_cluster_restore_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest k8s_everest_percona_com_database_cluster_restore_v1alpha1_manifest}
 */
 export class DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -780,7 +780,7 @@ export class DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest exte
   * Generates CDKTF code for importing a DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -792,7 +792,7 @@ export class DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest k8s_everest_percona_com_database_cluster_restore_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/everest_percona_com_database_cluster_restore_v1alpha1_manifest k8s_everest_percona_com_database_cluster_restore_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -803,8 +803,8 @@ export class DataK8SEverestPerconaComDatabaseClusterRestoreV1Alpha1Manifest exte
       terraformResourceType: 'k8s_everest_percona_com_database_cluster_restore_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

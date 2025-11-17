@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#metadata DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#metadata DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1ManifestMetadata;
   /**
   * TrailSpec defines the desired state of Trail. The settings for a trail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#spec DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#spec DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#annotations DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#annotations DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#labels DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#labels DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#name DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#name DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#namespace DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#namespace DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1ManifestMetadataOutputR
 }
 export interface DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#key DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#key DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#value DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#value DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -368,71 +368,71 @@ export interface DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1ManifestSpec {
   /**
   * Specifies a log group name using an Amazon Resource Name (ARN), a unique identifier that represents the log group to which CloudTrail logs will be delivered. Not required unless you specify CloudWatchLogsRoleArn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#cloud_watch_logs_log_group_arn DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#cloud_watch_logs_log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#cloud_watch_logs_log_group_arn DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#cloud_watch_logs_log_group_arn}
   */
   readonly cloudWatchLogsLogGroupArn?: string;
   /**
   * Specifies the role for the CloudWatch Logs endpoint to assume to write to a user's log group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#cloud_watch_logs_role_arn DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#cloud_watch_logs_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#cloud_watch_logs_role_arn DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#cloud_watch_logs_role_arn}
   */
   readonly cloudWatchLogsRoleArn?: string;
   /**
   * Specifies whether log file integrity validation is enabled. The default is false. When you disable log file integrity validation, the chain of digest files is broken after one hour. CloudTrail does not create digest files for log files that were delivered during a period in which log file integrity validation was disabled. For example, if you enable log file integrity validation at noon on January 1, disable it at noon on January 2, and re-enable it at noon on January 10, digest files will not be created for the log files delivered from noon on January 2 to noon on January 10. The same applies whenever you stop CloudTrail logging or delete a trail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#enable_log_file_validation DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#enable_log_file_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#enable_log_file_validation DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#enable_log_file_validation}
   */
   readonly enableLogFileValidation?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the trail is publishing events from global services such as IAM to the log files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#include_global_service_events DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#include_global_service_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#include_global_service_events DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#include_global_service_events}
   */
   readonly includeGlobalServiceEvents?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the trail is created in the current region or in all regions. The default is false, which creates a trail only in the region where you are signed in. As a best practice, consider creating trails that log events in all regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#is_multi_region_trail DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#is_multi_region_trail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#is_multi_region_trail DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#is_multi_region_trail}
   */
   readonly isMultiRegionTrail?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether the trail is created for all accounts in an organization in Organizations, or only for the current Amazon Web Services account. The default is false, and cannot be true unless the call is made on behalf of an Amazon Web Services account that is the management account for an organization in Organizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#is_organization_trail DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#is_organization_trail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#is_organization_trail DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#is_organization_trail}
   */
   readonly isOrganizationTrail?: boolean | cdktf.IResolvable;
   /**
   * Specifies the KMS key ID to use to encrypt the logs delivered by CloudTrail. The value can be an alias name prefixed by 'alias/', a fully specified ARN to an alias, a fully specified ARN to a key, or a globally unique identifier. CloudTrail also supports KMS multi-Region keys. For more information about multi-Region keys, see Using multi-Region keys (https://docs.aws.amazon.com/kms/latest/developerguide/multi-region-keys-overview.html) in the Key Management Service Developer Guide. Examples: * alias/MyAliasName * arn:aws:kms:us-east-2:123456789012:alias/MyAliasName * arn:aws:kms:us-east-2:123456789012:key/12345678-1234-1234-1234-123456789012 * 12345678-1234-1234-1234-123456789012
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#kms_key_id DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#kms_key_id DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Specifies the name of the trail. The name must meet the following requirements: * Contain only ASCII letters (a-z, A-Z), numbers (0-9), periods (.), underscores (_), or dashes (-) * Start with a letter or number, and end with a letter or number * Be between 3 and 128 characters * Have no adjacent periods, underscores or dashes. Names like my-_namespace and my--namespace are not valid. * Not be in IP address format (for example, 192.168.5.4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#name DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#name DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies the name of the Amazon S3 bucket designated for publishing log files. See Amazon S3 Bucket Naming Requirements (https://docs.aws.amazon.com/awscloudtrail/latest/userguide/create_trail_naming_policy.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#s3_bucket_name DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#s3_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#s3_bucket_name DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#s3_bucket_name}
   */
   readonly s3BucketName: string;
   /**
   * Specifies the Amazon S3 key prefix that comes after the name of the bucket you have designated for log file delivery. For more information, see Finding Your CloudTrail Log Files (https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-find-log-files.html). The maximum length is 200 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#s3_key_prefix DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#s3_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#s3_key_prefix DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#s3_key_prefix}
   */
   readonly s3KeyPrefix?: string;
   /**
   * Specifies the name of the Amazon SNS topic defined for notification of log file delivery. The maximum length is 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#sns_topic_name DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#sns_topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#sns_topic_name DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#sns_topic_name}
   */
   readonly snsTopicName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#tags DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#tags DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -839,7 +839,7 @@ export class DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest k8s_cloudtrail_services_k8s_aws_trail_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest k8s_cloudtrail_services_k8s_aws_trail_v1alpha1_manifest}
 */
 export class DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -855,7 +855,7 @@ export class DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -867,7 +867,7 @@ export class DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest k8s_cloudtrail_services_k8s_aws_trail_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudtrail_services_k8s_aws_trail_v1alpha1_manifest k8s_cloudtrail_services_k8s_aws_trail_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -878,8 +878,8 @@ export class DataK8SCloudtrailServicesK8SAwsTrailV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_cloudtrail_services_k8s_aws_trail_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

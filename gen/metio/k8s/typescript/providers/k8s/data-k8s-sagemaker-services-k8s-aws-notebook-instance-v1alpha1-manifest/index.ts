@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1ManifestC
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1ManifestMetadata;
   /**
   * NotebookInstanceSpec defines the desired state of NotebookInstance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1ManifestM
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1ManifestMetad
 }
 export interface DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -368,91 +368,91 @@ export interface DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1ManifestS
   /**
   * A list of Elastic Inference (EI) instance types to associate with this notebook instance. Currently, only one instance type can be associated with a notebook instance. For more information, see Using Elastic Inference in Amazon SageMaker (https://docs.aws.amazon.com/sagemaker/latest/dg/ei.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#accelerator_types DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#accelerator_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#accelerator_types DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#accelerator_types}
   */
   readonly acceleratorTypes?: string[];
   /**
   * An array of up to three Git repositories to associate with the notebook instance. These can be either the names of Git repositories stored as resources in your account, or the URL of Git repositories in Amazon Web Services CodeCommit (https://docs.aws.amazon.com/codecommit/latest/userguide/welcome.html) or in any other Git repository. These repositories are cloned at the same level as the default repository of your notebook instance. For more information, see Associating Git Repositories with SageMaker Notebook Instances (https://docs.aws.amazon.com/sagemaker/latest/dg/nbi-git-repo.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#additional_code_repositories DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#additional_code_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#additional_code_repositories DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#additional_code_repositories}
   */
   readonly additionalCodeRepositories?: string[];
   /**
   * A Git repository to associate with the notebook instance as its default code repository. This can be either the name of a Git repository stored as a resource in your account, or the URL of a Git repository in Amazon Web Services CodeCommit (https://docs.aws.amazon.com/codecommit/latest/userguide/welcome.html) or in any other Git repository. When you open a notebook instance, it opens in the directory that contains this repository. For more information, see Associating Git Repositories with SageMaker Notebook Instances (https://docs.aws.amazon.com/sagemaker/latest/dg/nbi-git-repo.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#default_code_repository DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#default_code_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#default_code_repository DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#default_code_repository}
   */
   readonly defaultCodeRepository?: string;
   /**
   * Sets whether SageMaker provides internet access to the notebook instance. If you set this to Disabled this notebook instance is able to access resources only in your VPC, and is not be able to connect to SageMaker training and endpoint services unless you configure a NAT Gateway in your VPC. For more information, see Notebook Instances Are Internet-Enabled by Default (https://docs.aws.amazon.com/sagemaker/latest/dg/appendix-additional-considerations.html#appendix-notebook-and-internet-access). You can set the value of this parameter to Disabled only if you set a value for the SubnetId parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#direct_internet_access DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#direct_internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#direct_internet_access DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#direct_internet_access}
   */
   readonly directInternetAccess?: string;
   /**
   * The type of ML compute instance to launch for the notebook instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#instance_type}
   */
   readonly instanceType: string;
   /**
   * The Amazon Resource Name (ARN) of a Amazon Web Services Key Management Service key that SageMaker uses to encrypt data on the storage volume attached to your notebook instance. The KMS key you provide must be enabled. For information, see Enabling and Disabling Keys (https://docs.aws.amazon.com/kms/latest/developerguide/enabling-keys.html) in the Amazon Web Services Key Management Service Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The name of a lifecycle configuration to associate with the notebook instance. For information about lifestyle configurations, see Step 2.1: (Optional) Customize a Notebook Instance (https://docs.aws.amazon.com/sagemaker/latest/dg/notebook-lifecycle-config.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#lifecycle_config_name DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#lifecycle_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#lifecycle_config_name DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#lifecycle_config_name}
   */
   readonly lifecycleConfigName?: string;
   /**
   * The name of the new notebook instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#notebook_instance_name DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#notebook_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#notebook_instance_name DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#notebook_instance_name}
   */
   readonly notebookInstanceName: string;
   /**
   * The platform identifier of the notebook instance runtime environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#platform_identifier DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#platform_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#platform_identifier DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#platform_identifier}
   */
   readonly platformIdentifier?: string;
   /**
   * When you send any requests to Amazon Web Services resources from the notebook instance, SageMaker assumes this role to perform tasks on your behalf. You must grant this role necessary permissions so SageMaker can perform these tasks. The policy must allow the SageMaker service principal (sagemaker.amazonaws.com) permissions to assume this role. For more information, see SageMaker Roles (https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-roles.html). To be able to pass this role to SageMaker, the caller of this API must have the iam:PassRole permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#role_arn}
   */
   readonly roleArn: string;
   /**
   * Whether root access is enabled or disabled for users of the notebook instance. The default value is Enabled. Lifecycle configurations need root access to be able to set up a notebook instance. Because of this, lifecycle configurations associated with a notebook instance always run with root access even if you disable root access for users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#root_access DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#root_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#root_access DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#root_access}
   */
   readonly rootAccess?: string;
   /**
   * The VPC security group IDs, in the form sg-xxxxxxxx. The security groups must be for the same VPC as specified in the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#security_group_i_ds}
   */
   readonly securityGroupIDs?: string[];
   /**
   * The ID of the subnet in a VPC to which you would like to have a connectivity from your ML compute instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#subnet_id DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#subnet_id DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * An array of key-value pairs. You can use tags to categorize your Amazon Web Services resources in different ways, for example, by purpose, owner, or environment. For more information, see Tagging Amazon Web Services Resources (https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * The size, in GB, of the ML storage volume to attach to the notebook instance. The default value is 5 GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -943,7 +943,7 @@ export class DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1ManifestSpecO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest}
 */
 export class DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -959,7 +959,7 @@ export class DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest exte
   * Generates CDKTF code for importing a DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -971,7 +971,7 @@ export class DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -982,8 +982,8 @@ export class DataK8SSagemakerServicesK8SAwsNotebookInstanceV1Alpha1Manifest exte
       terraformResourceType: 'k8s_sagemaker_services_k8s_aws_notebook_instance_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

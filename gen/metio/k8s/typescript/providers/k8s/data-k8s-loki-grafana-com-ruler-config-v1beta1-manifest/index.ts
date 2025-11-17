@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#metadata DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#metadata DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestMetadata;
   /**
   * RulerConfigSpec defines the desired state of Ruler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#spec DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#spec DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#annotations DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#annotations DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#labels DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#labels DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#name DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#name DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#namespace DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#namespace DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanager
   /**
   * The subject's password for the basic authentication configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#password DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#password DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#password}
   */
   readonly password?: string;
   /**
   * The subject's username for the basic authentication configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#username DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#username DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#username}
   */
   readonly username?: string;
 }
@@ -350,19 +350,19 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanager
   /**
   * The credentials for the header authentication configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#credentials DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#credentials DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#credentials}
   */
   readonly credentials?: string;
   /**
   * The credentials file for the Header authentication configuration. It is mutually exclusive with 'credentials'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#credentials_file DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#credentials_file DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#credentials_file}
   */
   readonly credentialsFile?: string;
   /**
   * The authentication type for the header authentication configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#type DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#type DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -516,25 +516,25 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanager
   /**
   * The CA certificate file path for the TLS configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#ca_path DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#ca_path DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#ca_path}
   */
   readonly caPath?: string;
   /**
   * The client-side certificate file path for the TLS configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#cert_path DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#cert_path DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#cert_path}
   */
   readonly certPath?: string;
   /**
   * The client-side key file path for the TLS configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#key_path DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#key_path DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#key_path}
   */
   readonly keyPath?: string;
   /**
   * The server name to validate in the alertmanager server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#server_name DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#server_name DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -717,19 +717,19 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanager
   /**
   * Basic authentication configuration for reaching the alertmanager endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#basic_auth DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#basic_auth DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanagerClientBasicAuth;
   /**
   * Header authentication configuration for reaching the alertmanager endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#header_auth DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#header_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#header_auth DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#header_auth}
   */
   readonly headerAuth?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanagerClientHeaderAuth;
   /**
   * TLS configuration for reaching the alertmanager endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#tls DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#tls DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanagerClientTls;
 }
@@ -883,13 +883,13 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanager
   /**
   * Use DNS SRV records to discover Alertmanager hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#enable_srv DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#enable_srv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#enable_srv DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#enable_srv}
   */
   readonly enableSrv?: boolean | cdktf.IResolvable;
   /**
   * How long to wait between refreshing DNS resolutions of Alertmanager hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#refresh_interval DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#refresh_interval DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#refresh_interval}
   */
   readonly refreshInterval?: string;
 }
@@ -1014,31 +1014,31 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanager
   /**
   * Capacity of the queue for notifications to be sent to the Alertmanager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#capacity DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#capacity DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#capacity}
   */
   readonly capacity?: number;
   /**
   * Minimum duration between alert and restored 'for' state. This is maintained only for alerts with configured 'for' time greater than the grace period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#for_grace_period DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#for_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#for_grace_period DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#for_grace_period}
   */
   readonly forGracePeriod?: string;
   /**
   * Max time to tolerate outage for restoring 'for' state of alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#for_outage_tolerance DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#for_outage_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#for_outage_tolerance DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#for_outage_tolerance}
   */
   readonly forOutageTolerance?: string;
   /**
   * Minimum amount of time to wait before resending an alert to Alertmanager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#resend_delay DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#resend_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#resend_delay DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#resend_delay}
   */
   readonly resendDelay?: string;
   /**
   * HTTP timeout duration when sending notifications to the Alertmanager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#timeout DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#timeout DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -1250,43 +1250,43 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanager
   /**
   * Action to perform based on regex matching. Default is 'replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#action DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#action DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#modulus DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#modulus DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched. Default is '(.*)'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#regex DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#regex DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a regex replace is performed if the regular expression matches. Regex capture groups are available. Default is '$1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#replacement DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#replacement DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator placed between concatenated source label values. default is ';'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#separator DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#separator DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured separator and matched against the configured regular expression for the replace, keep, and drop actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#source_labels DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#source_labels DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#source_labels}
   */
   readonly sourceLabels: string[];
   /**
   * Label to which the resulting value is written in a replace action. It is mandatory for replace actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#target_label DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#target_label DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -1575,49 +1575,49 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanager
   /**
   * Client configuration for reaching the alertmanager endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#client DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#client DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#client}
   */
   readonly client?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanagerClient;
   /**
   * Defines the configuration for DNS-based discovery of AlertManager hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#discovery DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#discovery DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#discovery}
   */
   readonly discovery?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanagerDiscovery;
   /**
   * If enabled, then requests to Alertmanager use the v2 API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#enable_v2 DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#enable_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#enable_v2 DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#enable_v2}
   */
   readonly enableV2?: boolean | cdktf.IResolvable;
   /**
   * List of AlertManager URLs to send notifications to. Each Alertmanager URL is treated as a separate group in the configuration. Multiple Alertmanagers in HA per group can be supported by using DNS resolution (See EnableDNSDiscovery).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#endpoints DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#endpoints DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#endpoints}
   */
   readonly endpoints: string[];
   /**
   * Additional labels to add to all alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#external_labels DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#external_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#external_labels DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#external_labels}
   */
   readonly externalLabels?: { [key: string]: string };
   /**
   * URL for alerts return path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#external_url DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#external_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#external_url DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#external_url}
   */
   readonly externalUrl?: string;
   /**
   * Defines the configuration for the notification queue to AlertManager hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#notification_queue DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#notification_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#notification_queue DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#notification_queue}
   */
   readonly notificationQueue?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanagerNotificationQueue;
   /**
   * List of alert relabel configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#relabel_configs DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#relabel_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#relabel_configs DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#relabel_configs}
   */
   readonly relabelConfigs?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanagerRelabelConfigs[] | cdktf.IResolvable;
 }
@@ -1913,13 +1913,13 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAle
   /**
   * The subject's password for the basic authentication configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#password DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#password DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#password}
   */
   readonly password?: string;
   /**
   * The subject's username for the basic authentication configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#username DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#username DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#username}
   */
   readonly username?: string;
 }
@@ -2044,19 +2044,19 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAle
   /**
   * The credentials for the header authentication configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#credentials DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#credentials DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#credentials}
   */
   readonly credentials?: string;
   /**
   * The credentials file for the Header authentication configuration. It is mutually exclusive with 'credentials'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#credentials_file DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#credentials_file DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#credentials_file}
   */
   readonly credentialsFile?: string;
   /**
   * The authentication type for the header authentication configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#type DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#type DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2210,25 +2210,25 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAle
   /**
   * The CA certificate file path for the TLS configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#ca_path DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#ca_path DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#ca_path}
   */
   readonly caPath?: string;
   /**
   * The client-side certificate file path for the TLS configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#cert_path DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#cert_path DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#cert_path}
   */
   readonly certPath?: string;
   /**
   * The client-side key file path for the TLS configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#key_path DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#key_path DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#key_path}
   */
   readonly keyPath?: string;
   /**
   * The server name to validate in the alertmanager server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#server_name DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#server_name DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -2411,19 +2411,19 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAle
   /**
   * Basic authentication configuration for reaching the alertmanager endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#basic_auth DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#basic_auth DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAlertmanagerClientBasicAuth;
   /**
   * Header authentication configuration for reaching the alertmanager endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#header_auth DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#header_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#header_auth DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#header_auth}
   */
   readonly headerAuth?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAlertmanagerClientHeaderAuth;
   /**
   * TLS configuration for reaching the alertmanager endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#tls DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#tls DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAlertmanagerClientTls;
 }
@@ -2577,13 +2577,13 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAle
   /**
   * Use DNS SRV records to discover Alertmanager hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#enable_srv DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#enable_srv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#enable_srv DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#enable_srv}
   */
   readonly enableSrv?: boolean | cdktf.IResolvable;
   /**
   * How long to wait between refreshing DNS resolutions of Alertmanager hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#refresh_interval DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#refresh_interval DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#refresh_interval}
   */
   readonly refreshInterval?: string;
 }
@@ -2708,31 +2708,31 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAle
   /**
   * Capacity of the queue for notifications to be sent to the Alertmanager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#capacity DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#capacity DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#capacity}
   */
   readonly capacity?: number;
   /**
   * Minimum duration between alert and restored 'for' state. This is maintained only for alerts with configured 'for' time greater than the grace period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#for_grace_period DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#for_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#for_grace_period DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#for_grace_period}
   */
   readonly forGracePeriod?: string;
   /**
   * Max time to tolerate outage for restoring 'for' state of alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#for_outage_tolerance DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#for_outage_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#for_outage_tolerance DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#for_outage_tolerance}
   */
   readonly forOutageTolerance?: string;
   /**
   * Minimum amount of time to wait before resending an alert to Alertmanager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#resend_delay DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#resend_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#resend_delay DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#resend_delay}
   */
   readonly resendDelay?: string;
   /**
   * HTTP timeout duration when sending notifications to the Alertmanager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#timeout DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#timeout DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -2944,43 +2944,43 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAle
   /**
   * Action to perform based on regex matching. Default is 'replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#action DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#action DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#modulus DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#modulus DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched. Default is '(.*)'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#regex DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#regex DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a regex replace is performed if the regular expression matches. Regex capture groups are available. Default is '$1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#replacement DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#replacement DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator placed between concatenated source label values. default is ';'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#separator DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#separator DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured separator and matched against the configured regular expression for the replace, keep, and drop actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#source_labels DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#source_labels DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#source_labels}
   */
   readonly sourceLabels: string[];
   /**
   * Label to which the resulting value is written in a replace action. It is mandatory for replace actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#target_label DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#target_label DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -3269,49 +3269,49 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAle
   /**
   * Client configuration for reaching the alertmanager endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#client DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#client DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#client}
   */
   readonly client?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAlertmanagerClient;
   /**
   * Defines the configuration for DNS-based discovery of AlertManager hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#discovery DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#discovery DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#discovery}
   */
   readonly discovery?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAlertmanagerDiscovery;
   /**
   * If enabled, then requests to Alertmanager use the v2 API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#enable_v2 DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#enable_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#enable_v2 DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#enable_v2}
   */
   readonly enableV2?: boolean | cdktf.IResolvable;
   /**
   * List of AlertManager URLs to send notifications to. Each Alertmanager URL is treated as a separate group in the configuration. Multiple Alertmanagers in HA per group can be supported by using DNS resolution (See EnableDNSDiscovery).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#endpoints DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#endpoints DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#endpoints}
   */
   readonly endpoints: string[];
   /**
   * Additional labels to add to all alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#external_labels DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#external_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#external_labels DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#external_labels}
   */
   readonly externalLabels?: { [key: string]: string };
   /**
   * URL for alerts return path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#external_url DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#external_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#external_url DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#external_url}
   */
   readonly externalUrl?: string;
   /**
   * Defines the configuration for the notification queue to AlertManager hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#notification_queue DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#notification_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#notification_queue DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#notification_queue}
   */
   readonly notificationQueue?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAlertmanagerNotificationQueue;
   /**
   * List of alert relabel configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#relabel_configs DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#relabel_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#relabel_configs DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#relabel_configs}
   */
   readonly relabelConfigs?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAlertmanagerRelabelConfigs[] | cdktf.IResolvable;
 }
@@ -3607,7 +3607,7 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverrides {
   /**
   * AlertManagerOverrides defines the overrides to apply to the alertmanager config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#alertmanager DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#alertmanager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#alertmanager DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#alertmanager}
   */
   readonly alertmanager?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverridesAlertmanager;
 }
@@ -3703,43 +3703,43 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecRemoteWriteC
   /**
   * Action to perform based on regex matching. Default is 'replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#action DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#action DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#modulus DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#modulus DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched. Default is '(.*)'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#regex DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#regex DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a regex replace is performed if the regular expression matches. Regex capture groups are available. Default is '$1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#replacement DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#replacement DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator placed between concatenated source label values. default is ';'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#separator DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#separator DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured separator and matched against the configured regular expression for the replace, keep, and drop actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#source_labels DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#source_labels DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#source_labels}
   */
   readonly sourceLabels: string[];
   /**
   * Label to which the resulting value is written in a replace action. It is mandatory for replace actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#target_label DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#target_label DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -4028,55 +4028,55 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecRemoteWriteC
   /**
   * Additional HTTP headers to be sent along with each remote write request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#additional_headers DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#additional_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#additional_headers DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#additional_headers}
   */
   readonly additionalHeaders?: { [key: string]: string };
   /**
   * Type of authorzation to use to access the remote write endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#authorization DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#authorization DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#authorization}
   */
   readonly authorization: string;
   /**
   * Name of a secret in the namespace configured for authorization secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#authorization_secret_name DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#authorization_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#authorization_secret_name DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#authorization_secret_name}
   */
   readonly authorizationSecretName: string;
   /**
   * Configure whether HTTP requests follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#follow_redirects DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#follow_redirects DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * Name of the remote write config, which if specified must be unique among remote write configs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#name DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#name DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Optional proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#proxy_url DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#proxy_url DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * List of remote write relabel configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#relabel_configs DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#relabel_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#relabel_configs DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#relabel_configs}
   */
   readonly relabelConfigs?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecRemoteWriteClientRelabelConfigs[] | cdktf.IResolvable;
   /**
   * Timeout for requests to the remote write endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#timeout DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#timeout DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * The URL of the endpoint to send samples to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#url DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#url DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#url}
   */
   readonly url: string;
 }
@@ -4392,43 +4392,43 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecRemoteWriteQ
   /**
   * Maximum time a sample will wait in buffer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#batch_send_deadline DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#batch_send_deadline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#batch_send_deadline DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#batch_send_deadline}
   */
   readonly batchSendDeadline?: string;
   /**
   * Number of samples to buffer per shard before we block reading of more
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#capacity DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#capacity DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#capacity}
   */
   readonly capacity?: number;
   /**
   * Maximum retry delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#max_back_off_period DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#max_back_off_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#max_back_off_period DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#max_back_off_period}
   */
   readonly maxBackOffPeriod?: string;
   /**
   * Maximum number of samples per send.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#max_samples_per_send DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#max_samples_per_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#max_samples_per_send DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#max_samples_per_send}
   */
   readonly maxSamplesPerSend?: number;
   /**
   * Maximum number of shards, i.e. amount of concurrency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#max_shards DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#max_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#max_shards DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#max_shards}
   */
   readonly maxShards?: number;
   /**
   * Initial retry delay. Gets doubled for every retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#min_back_off_period DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#min_back_off_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#min_back_off_period DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#min_back_off_period}
   */
   readonly minBackOffPeriod?: string;
   /**
   * Minimum number of shards, i.e. amount of concurrency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#min_shards DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#min_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#min_shards DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#min_shards}
   */
   readonly minShards?: number;
 }
@@ -4698,25 +4698,25 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecRemoteWrite 
   /**
   * Defines the configuration for remote write client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#client DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#client DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#client}
   */
   readonly client?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecRemoteWriteClient;
   /**
   * Enable remote-write functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#enabled DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#enabled DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Defines the configuration for remote write client queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#queue DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#queue DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#queue}
   */
   readonly queue?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecRemoteWriteQueue;
   /**
   * Minimum period to wait between refreshing remote-write reconfigurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#refresh_period DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#refresh_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#refresh_period DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#refresh_period}
   */
   readonly refreshPeriod?: string;
 }
@@ -4899,31 +4899,31 @@ export interface DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpec {
   /**
   * Defines alert manager configuration to notify on firing alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#alertmanager DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#alertmanager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#alertmanager DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#alertmanager}
   */
   readonly alertmanager?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecAlertmanager;
   /**
   * Interval on how frequently to evaluate rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#evaluation_interval DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#evaluation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#evaluation_interval DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#evaluation_interval}
   */
   readonly evaluationInterval?: string;
   /**
   * Overrides defines the config overrides to be applied per-tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#overrides DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#overrides DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#overrides}
   */
   readonly overrides?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOverrides;
   /**
   * Interval on how frequently to poll for new rule definitions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#poll_interval DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#poll_interval DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#poll_interval}
   */
   readonly pollInterval?: string;
   /**
   * Defines a remote write endpoint to write recording rule metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#remote_write DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#remote_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#remote_write DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest#remote_write}
   */
   readonly remoteWrite?: DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecRemoteWrite;
 }
@@ -5133,7 +5133,7 @@ export class DataK8SLokiGrafanaComRulerConfigV1Beta1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest k8s_loki_grafana_com_ruler_config_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest k8s_loki_grafana_com_ruler_config_v1beta1_manifest}
 */
 export class DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -5149,7 +5149,7 @@ export class DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5161,7 +5161,7 @@ export class DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest k8s_loki_grafana_com_ruler_config_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/loki_grafana_com_ruler_config_v1beta1_manifest k8s_loki_grafana_com_ruler_config_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5172,8 +5172,8 @@ export class DataK8SLokiGrafanaComRulerConfigV1Beta1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_loki_grafana_com_ruler_config_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

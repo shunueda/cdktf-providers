@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#metadata DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#metadata DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#metadata}
   */
   readonly metadata: DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#spec DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#spec DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#spec}
   */
   readonly spec?: DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#annotations DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#annotations DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#name DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#name DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#name}
   */
   readonly name: string;
 }
@@ -185,19 +185,19 @@ export interface DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestSpecBacken
   /**
   * Name is the name of a destination Kubernetes service that identifies traffic to be redirected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#name DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#name DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the Kubernetes service namespace. In CiliumEnvoyConfig namespace defaults to the namespace of the CEC, In CiliumClusterwideEnvoyConfig namespace defaults to 'default'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Ports is a set of port numbers, which can be used for filtering in case of underlying is exposing multiple port numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#number DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#number DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#number}
   */
   readonly number?: string[];
 }
@@ -370,19 +370,19 @@ export interface DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestSpecNodeSe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#key DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#key DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#values DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#values DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -552,13 +552,13 @@ export interface DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestSpecNodeSe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestSpecNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -683,25 +683,25 @@ export interface DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestSpecServic
   /**
   * Listener specifies the name of the Envoy listener the service traffic is redirected to. The listener must be specified in the Envoy 'resources' of the same CiliumEnvoyConfig. If omitted, the first listener specified in 'resources' is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#listener DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#listener DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#listener}
   */
   readonly listener?: string;
   /**
   * Name is the name of a destination Kubernetes service that identifies traffic to be redirected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#name DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#name DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the Kubernetes service namespace. In CiliumEnvoyConfig namespace this is overridden to the namespace of the CEC, In CiliumClusterwideEnvoyConfig namespace defaults to 'default'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Ports is a set of service's frontend ports that should be redirected to the Envoy listener. By default all frontend ports of the service are redirected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#ports DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#ports DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#ports}
   */
   readonly ports?: string[];
 }
@@ -903,25 +903,25 @@ export interface DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestSpec {
   /**
   * BackendServices specifies Kubernetes services whose backends are automatically synced to Envoy using EDS. Traffic for these services is not forwarded to an Envoy listener. This allows an Envoy listener load balance traffic to these backends while normal Cilium service load balancing takes care of balancing traffic for these services at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#backend_services DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#backend_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#backend_services DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#backend_services}
   */
   readonly backendServices?: DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestSpecBackendServices[] | cdktf.IResolvable;
   /**
   * NodeSelector is a label selector that determines to which nodes this configuration applies. If nil, then this config applies to all nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#node_selector DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#node_selector DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestSpecNodeSelector;
   /**
   * Envoy xDS resources, a list of the following Envoy resource types: type.googleapis.com/envoy.config.listener.v3.Listener, type.googleapis.com/envoy.config.route.v3.RouteConfiguration, type.googleapis.com/envoy.config.cluster.v3.Cluster, type.googleapis.com/envoy.config.endpoint.v3.ClusterLoadAssignment, and type.googleapis.com/envoy.extensions.transport_sockets.tls.v3.Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#resources DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#resources DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#resources}
   */
   readonly resources: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Services specifies Kubernetes services for which traffic is forwarded to an Envoy listener for L7 load balancing. Backends of these services are automatically synced to Envoy usign EDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#services DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#services DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest#services}
   */
   readonly services?: DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestSpecServices[] | cdktf.IResolvable;
 }
@@ -1099,7 +1099,7 @@ export class DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest k8s_cilium_io_cilium_clusterwide_envoy_config_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest k8s_cilium_io_cilium_clusterwide_envoy_config_v2_manifest}
 */
 export class DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest extends cdktf.TerraformDataSource {
 
@@ -1115,7 +1115,7 @@ export class DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1127,7 +1127,7 @@ export class DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest k8s_cilium_io_cilium_clusterwide_envoy_config_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_clusterwide_envoy_config_v2_manifest k8s_cilium_io_cilium_clusterwide_envoy_config_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1138,8 +1138,8 @@ export class DataK8SCiliumIoCiliumClusterwideEnvoyConfigV2Manifest extends cdktf
       terraformResourceType: 'k8s_cilium_io_cilium_clusterwide_envoy_config_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

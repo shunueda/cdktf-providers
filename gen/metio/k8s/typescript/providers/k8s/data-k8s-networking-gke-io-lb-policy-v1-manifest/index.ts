@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkingGkeIoLbPolicyV1ManifestConfig extends cdktf.Te
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#metadata DataK8SNetworkingGkeIoLbPolicyV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#metadata DataK8SNetworkingGkeIoLbPolicyV1Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkingGkeIoLbPolicyV1ManifestMetadata;
   /**
   * Spec defines the desired state of LBPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#spec DataK8SNetworkingGkeIoLbPolicyV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#spec DataK8SNetworkingGkeIoLbPolicyV1Manifest#spec}
   */
   readonly spec: DataK8SNetworkingGkeIoLbPolicyV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkingGkeIoLbPolicyV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#annotations DataK8SNetworkingGkeIoLbPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#annotations DataK8SNetworkingGkeIoLbPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#labels DataK8SNetworkingGkeIoLbPolicyV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#labels DataK8SNetworkingGkeIoLbPolicyV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#name DataK8SNetworkingGkeIoLbPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#name DataK8SNetworkingGkeIoLbPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#namespace DataK8SNetworkingGkeIoLbPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#namespace DataK8SNetworkingGkeIoLbPolicyV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SNetworkingGkeIoLbPolicyV1ManifestSpecDefaultConnectionDr
   /**
   * DrainingTimeoutSec is a BackendService parameter. It is used during removal of VMs from instance groups. This guarantees that for the specified time all existing connections to a VM will remain untouched, but no new connections will be accepted. Set timeout to zero to disable connection draining. Enable the feature by specifying a timeout of up to one hour. If the field is omitted, a default value (0s) will be used. See https://cloud.google.com/compute/docs/reference/rest/v1/backendServices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#draining_timeout_sec DataK8SNetworkingGkeIoLbPolicyV1Manifest#draining_timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#draining_timeout_sec DataK8SNetworkingGkeIoLbPolicyV1Manifest#draining_timeout_sec}
   */
   readonly drainingTimeoutSec?: number;
 }
@@ -315,13 +315,13 @@ export interface DataK8SNetworkingGkeIoLbPolicyV1ManifestSpecDefaultLogging {
   /**
   * Enabled denotes whether to enable logging for the load balancer traffic served by this backend service. If not specified, this defaults to false, which means logging is disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#enabled DataK8SNetworkingGkeIoLbPolicyV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#enabled DataK8SNetworkingGkeIoLbPolicyV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * This field can only be specified if logging is enabled for this backend service. The value of the field must be in range [0, 1e6]. This is converted to a floating point value in the range [0, 1] by dividing by 1e6 for use with the GCE api and interpreted as the proportion of requests that will be logged. By default all requests will be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#sample_rate DataK8SNetworkingGkeIoLbPolicyV1Manifest#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#sample_rate DataK8SNetworkingGkeIoLbPolicyV1Manifest#sample_rate}
   */
   readonly sampleRate?: number;
 }
@@ -446,13 +446,13 @@ export interface DataK8SNetworkingGkeIoLbPolicyV1ManifestSpecDefaultSessionAffin
   /**
   * CookieTTLSec specifies the lifetime of cookies in seconds. This setting requires GENERATED_COOKIE or HTTP_COOKIE session affinity. If set to 0, the cookie is non-persistent and lasts only until the end of the browser session (or equivalent). The maximum allowed value is two weeks (1,209,600).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#cookie_ttl_sec DataK8SNetworkingGkeIoLbPolicyV1Manifest#cookie_ttl_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#cookie_ttl_sec DataK8SNetworkingGkeIoLbPolicyV1Manifest#cookie_ttl_sec}
   */
   readonly cookieTtlSec?: number;
   /**
   * Type specifies the type of session affinity to use. If not specified, this defaults to NONE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#type DataK8SNetworkingGkeIoLbPolicyV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#type DataK8SNetworkingGkeIoLbPolicyV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -577,25 +577,25 @@ export interface DataK8SNetworkingGkeIoLbPolicyV1ManifestSpecDefault {
   /**
   * ConnectionDraining contains configuration for connection draining
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#connection_draining DataK8SNetworkingGkeIoLbPolicyV1Manifest#connection_draining}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#connection_draining DataK8SNetworkingGkeIoLbPolicyV1Manifest#connection_draining}
   */
   readonly connectionDraining?: DataK8SNetworkingGkeIoLbPolicyV1ManifestSpecDefaultConnectionDraining;
   /**
   * LoggingConfig contains configuration for logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#logging DataK8SNetworkingGkeIoLbPolicyV1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#logging DataK8SNetworkingGkeIoLbPolicyV1Manifest#logging}
   */
   readonly logging?: DataK8SNetworkingGkeIoLbPolicyV1ManifestSpecDefaultLogging;
   /**
   * SessionAffinityConfig contains configuration for stickiness parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#session_affinity DataK8SNetworkingGkeIoLbPolicyV1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#session_affinity DataK8SNetworkingGkeIoLbPolicyV1Manifest#session_affinity}
   */
   readonly sessionAffinity?: DataK8SNetworkingGkeIoLbPolicyV1ManifestSpecDefaultSessionAffinity;
   /**
   * TimeoutSec is a BackendService parameter. See https://cloud.google.com/compute/docs/reference/rest/v1/backendServices. If the field is omitted, a default value (30s) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#timeout_sec DataK8SNetworkingGkeIoLbPolicyV1Manifest#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#timeout_sec DataK8SNetworkingGkeIoLbPolicyV1Manifest#timeout_sec}
   */
   readonly timeoutSec?: number;
 }
@@ -778,25 +778,25 @@ export interface DataK8SNetworkingGkeIoLbPolicyV1ManifestSpecTargetRef {
   /**
   * Group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#group DataK8SNetworkingGkeIoLbPolicyV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#group DataK8SNetworkingGkeIoLbPolicyV1Manifest#group}
   */
   readonly group: string;
   /**
   * Kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#kind DataK8SNetworkingGkeIoLbPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#kind DataK8SNetworkingGkeIoLbPolicyV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#name DataK8SNetworkingGkeIoLbPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#name DataK8SNetworkingGkeIoLbPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of the referent. When unspecified, the local namespace is inferred. Even when policy targets a resource in a different namespace, it MUST only apply to traffic originating from the same namespace as the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#namespace DataK8SNetworkingGkeIoLbPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#namespace DataK8SNetworkingGkeIoLbPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -970,13 +970,13 @@ export interface DataK8SNetworkingGkeIoLbPolicyV1ManifestSpec {
   /**
   * Default defines default policy configuration for the targeted resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#default DataK8SNetworkingGkeIoLbPolicyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#default DataK8SNetworkingGkeIoLbPolicyV1Manifest#default}
   */
   readonly default?: DataK8SNetworkingGkeIoLbPolicyV1ManifestSpecDefault;
   /**
   * TargetRef identifies an API object to apply policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#target_ref DataK8SNetworkingGkeIoLbPolicyV1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#target_ref DataK8SNetworkingGkeIoLbPolicyV1Manifest#target_ref}
   */
   readonly targetRef: DataK8SNetworkingGkeIoLbPolicyV1ManifestSpecTargetRef;
 }
@@ -1096,7 +1096,7 @@ export class DataK8SNetworkingGkeIoLbPolicyV1ManifestSpecOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest k8s_networking_gke_io_lb_policy_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest k8s_networking_gke_io_lb_policy_v1_manifest}
 */
 export class DataK8SNetworkingGkeIoLbPolicyV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1112,7 +1112,7 @@ export class DataK8SNetworkingGkeIoLbPolicyV1Manifest extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataK8SNetworkingGkeIoLbPolicyV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkingGkeIoLbPolicyV1Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkingGkeIoLbPolicyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkingGkeIoLbPolicyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkingGkeIoLbPolicyV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1124,7 +1124,7 @@ export class DataK8SNetworkingGkeIoLbPolicyV1Manifest extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_gke_io_lb_policy_v1_manifest k8s_networking_gke_io_lb_policy_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_gke_io_lb_policy_v1_manifest k8s_networking_gke_io_lb_policy_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1135,8 +1135,8 @@ export class DataK8SNetworkingGkeIoLbPolicyV1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_networking_gke_io_lb_policy_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

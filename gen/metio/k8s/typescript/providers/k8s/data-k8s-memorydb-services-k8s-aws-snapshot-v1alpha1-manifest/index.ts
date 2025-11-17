@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#metadata DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#metadata DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestMetadata;
   /**
   * SnapshotSpec defines the desired state of Snapshot. Represents a copy of an entire cluster as of the time when the snapshot was taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#spec DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#spec DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#annotations DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#annotations DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#labels DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#labels DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#name DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#name DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#namespace DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#namespace DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestMetadataOutput
 }
 export interface DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpecClusterRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#name DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#name DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#namespace DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#namespace DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpecCluste
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#from DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#from DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpecClusterRefFrom;
 }
@@ -440,11 +440,11 @@ export class DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpecClusterRef
 }
 export interface DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpecKmsKeyRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#name DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#name DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#namespace DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#namespace DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -569,7 +569,7 @@ export interface DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpecKmsKey
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#from DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#from DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpecKmsKeyRefFrom;
 }
@@ -663,11 +663,11 @@ export class DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpecKmsKeyRefO
 }
 export interface DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#key DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#key DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#value DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#value DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -814,43 +814,43 @@ export interface DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpec {
   /**
   * The snapshot is created from this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#cluster_name DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#cluster_name DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#cluster_ref DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#cluster_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#cluster_ref DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#cluster_ref}
   */
   readonly clusterRef?: DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpecClusterRef;
   /**
   * The ID of the KMS key used to encrypt the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#kms_key_id DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#kms_key_id DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#kms_key_ref DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#kms_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#kms_key_ref DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#kms_key_ref}
   */
   readonly kmsKeyRef?: DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpecKmsKeyRef;
   /**
   * A name for the snapshot being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#name DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#name DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The name of an existing snapshot from which to make a copy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#source_snapshot_name DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#source_snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#source_snapshot_name DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#source_snapshot_name}
   */
   readonly sourceSnapshotName?: string;
   /**
   * A list of tags to be added to this resource. A tag is a key-value pair. A tag key must be accompanied by a tag value, although null is accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#tags DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#tags DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -1115,7 +1115,7 @@ export class DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest k8s_memorydb_services_k8s_aws_snapshot_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest k8s_memorydb_services_k8s_aws_snapshot_v1alpha1_manifest}
 */
 export class DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1131,7 +1131,7 @@ export class DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1143,7 +1143,7 @@ export class DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest k8s_memorydb_services_k8s_aws_snapshot_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/memorydb_services_k8s_aws_snapshot_v1alpha1_manifest k8s_memorydb_services_k8s_aws_snapshot_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1154,8 +1154,8 @@ export class DataK8SMemorydbServicesK8SAwsSnapshotV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_memorydb_services_k8s_aws_snapshot_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

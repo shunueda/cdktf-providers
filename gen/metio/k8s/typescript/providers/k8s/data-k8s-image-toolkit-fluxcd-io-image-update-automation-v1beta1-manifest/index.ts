@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#metadata DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#metadata DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1ManifestMetadata;
   /**
   * ImageUpdateAutomationSpec defines the desired state of ImageUpdateAutomation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#spec DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#spec DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#annotations DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#annotations DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#labels DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#labels DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#name DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#name DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#namespace DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#namespace DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,31 +219,31 @@ export interface DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest
   /**
   * Branch to check out, defaults to 'master' if no other field is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#branch DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#branch DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#branch}
   */
   readonly branch?: string;
   /**
   * Commit SHA to check out, takes precedence over all reference fields. This can be combined with Branch to shallow clone the branch, in which the commit is expected to exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#commit DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#commit DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#commit}
   */
   readonly commit?: string;
   /**
   * Name of the reference to check out; takes precedence over Branch, Tag and SemVer. It must be a valid Git reference: https://git-scm.com/docs/git-check-ref-format#_description Examples: 'refs/heads/main', 'refs/tags/v0.1.0', 'refs/pull/420/head', 'refs/merge-requests/1/head'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#name DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#name DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * SemVer tag expression to check out, takes precedence over Tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#semver DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#semver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#semver DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#semver}
   */
   readonly semver?: string;
   /**
   * Tag to check out, takes precedence over Branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#tag DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#tag DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -455,7 +455,7 @@ export interface DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest
   /**
   * Reference gives a branch, tag or commit to clone from the Git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#ref DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#ref DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#ref}
   */
   readonly ref: DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1ManifestSpecGitCheckoutRef;
 }
@@ -548,13 +548,13 @@ export interface DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest
   /**
   * Email gives the email to provide when making a commit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#email DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#email DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#email}
   */
   readonly email: string;
   /**
   * Name gives the name to provide when making a commit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#name DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#name DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -676,7 +676,7 @@ export interface DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#name DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#name DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -769,7 +769,7 @@ export interface DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest
   /**
   * SecretRef holds the name to a secret that contains a 'git.asc' key corresponding to the ASCII Armored file containing the GPG signing keypair as the value. It must be in the same namespace as the ImageUpdateAutomation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#secret_ref DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#secret_ref DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1ManifestSpecGitCommitSigningKeySecretRef;
 }
@@ -862,19 +862,19 @@ export interface DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest
   /**
   * Author gives the email and optionally the name to use as the author of commits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#author DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#author}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#author DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#author}
   */
   readonly author: DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1ManifestSpecGitCommitAuthor;
   /**
   * MessageTemplate provides a template for the commit message, into which will be interpolated the details of the change made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#message_template DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#message_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#message_template DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#message_template}
   */
   readonly messageTemplate?: string;
   /**
   * SigningKey provides the option to sign commits with a GPG key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#signing_key DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#signing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#signing_key DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#signing_key}
   */
   readonly signingKey?: DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1ManifestSpecGitCommitSigningKey;
 }
@@ -1025,19 +1025,19 @@ export interface DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest
   /**
   * Branch specifies that commits should be pushed to the branch named. The branch is created using '.spec.checkout.branch' as the starting point, if it doesn't already exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#branch DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#branch DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#branch}
   */
   readonly branch?: string;
   /**
   * Options specifies the push options that are sent to the Git server when performing a push operation. For details, see: https://git-scm.com/docs/git-push#Documentation/git-push.txt---push-optionltoptiongt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#options DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#options DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * Refspec specifies the Git Refspec to use for a push operation. If both Branch and Refspec are provided, then the commit is pushed to the branch and also using the specified refspec. For more details about Git Refspecs, see: https://git-scm.com/book/en/v2/Git-Internals-The-Refspec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#refspec DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#refspec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#refspec DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#refspec}
   */
   readonly refspec?: string;
 }
@@ -1191,19 +1191,19 @@ export interface DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest
   /**
   * Checkout gives the parameters for cloning the git repository, ready to make changes. If not present, the 'spec.ref' field from the referenced 'GitRepository' or its default will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#checkout DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#checkout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#checkout DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#checkout}
   */
   readonly checkout?: DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1ManifestSpecGitCheckout;
   /**
   * Commit specifies how to commit to the git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#commit DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#commit DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#commit}
   */
   readonly commit: DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1ManifestSpecGitCommit;
   /**
   * Push specifies how and where to push commits made by the automation. If missing, commits are pushed (back) to '.spec.checkout.branch' or its default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#push DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#push DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#push}
   */
   readonly push?: DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1ManifestSpecGitPush;
 }
@@ -1354,25 +1354,25 @@ export interface DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#api_version DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#api_version DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#kind DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#kind DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#name DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#name DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referent, defaults to the namespace of the Kubernetes resource object that contains the reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#namespace DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#namespace DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1549,13 +1549,13 @@ export interface DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest
   /**
   * Path to the directory containing the manifests to be updated. Defaults to 'None', which translates to the root path of the GitRepositoryRef.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#path DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#path DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * Strategy names the strategy to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#strategy DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#strategy DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#strategy}
   */
   readonly strategy: string;
 }
@@ -1677,31 +1677,31 @@ export interface DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest
   /**
   * GitSpec contains all the git-specific definitions. This is technically optional, but in practice mandatory until there are other kinds of source allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#git DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#git DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#git}
   */
   readonly git?: DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1ManifestSpecGit;
   /**
   * Interval gives an lower bound for how often the automation run should be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#interval DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#interval DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#interval}
   */
   readonly interval: string;
   /**
   * SourceRef refers to the resource giving access details to a git repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#source_ref DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#source_ref DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#source_ref}
   */
   readonly sourceRef: DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1ManifestSpecSourceRef;
   /**
   * Suspend tells the controller to not run this automation, until it is unset (or set to false). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#suspend DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#suspend DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * Update gives the specification for how to update the files in the repository. This can be left empty, to use the default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#update DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#update DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest#update}
   */
   readonly update?: DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1ManifestSpecUpdate;
 }
@@ -1905,7 +1905,7 @@ export class DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1ManifestSpec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest k8s_image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest k8s_image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest}
 */
 export class DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1921,7 +1921,7 @@ export class DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest ext
   * Generates CDKTF code for importing a DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1933,7 +1933,7 @@ export class DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest ext
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest k8s_image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest k8s_image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1944,8 +1944,8 @@ export class DataK8SImageToolkitFluxcdIoImageUpdateAutomationV1Beta1Manifest ext
       terraformResourceType: 'k8s_image_toolkit_fluxcd_io_image_update_automation_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

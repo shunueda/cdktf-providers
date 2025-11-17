@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#metadata DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#metadata DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#metadata}
   */
   readonly metadata: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#spec DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#spec DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#spec}
   */
   readonly spec?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#annotations DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#annotations DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#labels DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#labels DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#namespace DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#namespace DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,19 +215,19 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestMetadataOu
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecBackupSourceAzure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#container DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#container DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#credentials_secret DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#credentials_secret DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#endpoint_url DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#endpoint_url DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#endpoint_url}
   */
   readonly endpointUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#storage_class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#storage_class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -408,27 +408,27 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecBackup
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecBackupSourceConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#last_transition_time DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#last_transition_time DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#last_transition_time}
   */
   readonly lastTransitionTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#message DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#message DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#message}
   */
   readonly message: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#observed_generation DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#observed_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#observed_generation DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#observed_generation}
   */
   readonly observedGeneration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#reason DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#reason DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#reason}
   */
   readonly reason: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#status DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#status DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#type DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#type DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#type}
   */
   readonly type: string;
 }
@@ -674,19 +674,19 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecBackup
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecBackupSourceS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#bucket DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#bucket DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#credentials_secret DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#credentials_secret DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#endpoint_url DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#endpoint_url DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#endpoint_url}
   */
   readonly endpointUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#region DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#region DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#region}
   */
   readonly region?: string;
 }
@@ -867,63 +867,63 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecBackup
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecBackupSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#azure DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#azure DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#azure}
   */
   readonly azure?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecBackupSourceAzure;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#completed DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#completed DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#completed}
   */
   readonly completed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#conditions DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#conditions DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#conditions}
   */
   readonly conditions?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecBackupSourceConditions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#destination DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#destination DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#image DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#image DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#lastscheduled DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#lastscheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#lastscheduled DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#lastscheduled}
   */
   readonly lastscheduled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#latest_restorable_time DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#latest_restorable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#latest_restorable_time DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#latest_restorable_time}
   */
   readonly latestRestorableTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#s3 DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#s3 DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#s3}
   */
   readonly s3?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecBackupSourceS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#ssl_internal_secret_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#ssl_internal_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#ssl_internal_secret_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#ssl_internal_secret_name}
   */
   readonly sslInternalSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#ssl_secret_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#ssl_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#ssl_secret_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#ssl_secret_name}
   */
   readonly sslSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#state DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#state DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#storage_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#storage_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#storage_name}
   */
   readonly storageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#storage_type DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#storage_type DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#storage_type}
   */
   readonly storageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#vault_secret_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#vault_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#vault_secret_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#vault_secret_name}
   */
   readonly vaultSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#verify_tls DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#verify_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#verify_tls DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#verify_tls}
   */
   readonly verifyTls?: boolean | cdktf.IResolvable;
 }
@@ -1423,15 +1423,15 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecBackup
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsArgs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#xbcloud DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#xbcloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#xbcloud DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#xbcloud}
   */
   readonly xbcloud?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#xbstream DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#xbstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#xbstream DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#xbstream}
   */
   readonly xbstream?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#xtrabackup DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#xtrabackup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#xtrabackup DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#xtrabackup}
   */
   readonly xtrabackup?: string[];
 }
@@ -1583,15 +1583,15 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContai
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#key DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#key DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#optional DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#optional DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1740,11 +1740,11 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContai
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#api_version DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#api_version DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#field_path DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#field_path DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -1864,15 +1864,15 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContai
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#container_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#container_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#divisor DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#divisor DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#resource DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#resource DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -2021,15 +2021,15 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContai
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#key DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#key DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#optional DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#optional DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2178,19 +2178,19 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContai
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#config_map_key_ref DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#config_map_key_ref DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#field_ref DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#field_ref DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#resource_field_ref DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#resource_field_ref DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#secret_key_ref DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#secret_key_ref DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsEnvValueFromSecretKeyRef;
 }
@@ -2371,15 +2371,15 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContai
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#value DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#value DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#value_from DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#value_from DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsEnvValueFrom;
 }
@@ -2550,11 +2550,11 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContai
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#args DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#args DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#args}
   */
   readonly args?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsArgs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#env DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#env DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#env}
   */
   readonly env?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptionsEnv[] | cdktf.IResolvable;
 }
@@ -2677,19 +2677,19 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContai
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitrBackupSourceAzure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#container DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#container DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#container}
   */
   readonly container?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#credentials_secret DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#credentials_secret DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#endpoint_url DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#endpoint_url DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#endpoint_url}
   */
   readonly endpointUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#storage_class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#storage_class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -2870,27 +2870,27 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitrBa
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitrBackupSourceConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#last_transition_time DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#last_transition_time DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#last_transition_time}
   */
   readonly lastTransitionTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#message DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#message DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#message}
   */
   readonly message: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#observed_generation DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#observed_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#observed_generation DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#observed_generation}
   */
   readonly observedGeneration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#reason DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#reason DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#reason}
   */
   readonly reason: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#status DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#status DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#type DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#type DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#type}
   */
   readonly type: string;
 }
@@ -3136,19 +3136,19 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitrBa
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitrBackupSourceS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#bucket DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#bucket DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#credentials_secret DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#credentials_secret DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#endpoint_url DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#endpoint_url DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#endpoint_url}
   */
   readonly endpointUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#region DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#region DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#region}
   */
   readonly region?: string;
 }
@@ -3329,63 +3329,63 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitrBa
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitrBackupSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#azure DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#azure DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#azure}
   */
   readonly azure?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitrBackupSourceAzure;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#completed DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#completed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#completed DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#completed}
   */
   readonly completed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#conditions DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#conditions DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#conditions}
   */
   readonly conditions?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitrBackupSourceConditions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#destination DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#destination DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#destination}
   */
   readonly destination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#image DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#image DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#lastscheduled DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#lastscheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#lastscheduled DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#lastscheduled}
   */
   readonly lastscheduled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#latest_restorable_time DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#latest_restorable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#latest_restorable_time DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#latest_restorable_time}
   */
   readonly latestRestorableTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#s3 DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#s3 DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#s3}
   */
   readonly s3?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitrBackupSourceS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#ssl_internal_secret_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#ssl_internal_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#ssl_internal_secret_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#ssl_internal_secret_name}
   */
   readonly sslInternalSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#ssl_secret_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#ssl_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#ssl_secret_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#ssl_secret_name}
   */
   readonly sslSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#state DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#state DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#storage_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#storage_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#storage_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#storage_name}
   */
   readonly storageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#storage_type DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#storage_type DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#storage_type}
   */
   readonly storageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#vault_secret_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#vault_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#vault_secret_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#vault_secret_name}
   */
   readonly vaultSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#verify_tls DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#verify_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#verify_tls DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#verify_tls}
   */
   readonly verifyTls?: boolean | cdktf.IResolvable;
 }
@@ -3885,19 +3885,19 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitrBa
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#backup_source DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#backup_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#backup_source DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#backup_source}
   */
   readonly backupSource?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitrBackupSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#date DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#date DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#date}
   */
   readonly date?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#gtid DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#gtid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#gtid DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#gtid}
   */
   readonly gtid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#type DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#type DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -4078,11 +4078,11 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitrOu
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#request DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#request DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -4224,15 +4224,15 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecResour
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#claims DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#claims DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#claims}
   */
   readonly claims?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#limits DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#limits DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#requests DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#requests DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -4384,27 +4384,27 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecResour
 }
 export interface DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#backup_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#backup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#backup_name DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#backup_name}
   */
   readonly backupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#backup_source DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#backup_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#backup_source DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#backup_source}
   */
   readonly backupSource?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecBackupSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#container_options DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#container_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#container_options DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#container_options}
   */
   readonly containerOptions?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecContainerOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#pitr DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#pitr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#pitr DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#pitr}
   */
   readonly pitr?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecPitr;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#pxc_cluster DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#pxc_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#pxc_cluster DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#pxc_cluster}
   */
   readonly pxcCluster?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#resources DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#resources DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest#resources}
   */
   readonly resources?: DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecResources;
 }
@@ -4643,7 +4643,7 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest k8s_pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest k8s_pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest}
 */
 export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest extends cdktf.TerraformDataSource {
 
@@ -4659,7 +4659,7 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest extends c
   * Generates CDKTF code for importing a DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest to import
-  * @param importFromId The id of the existing DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4671,7 +4671,7 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest k8s_pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest k8s_pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4682,8 +4682,8 @@ export class DataK8SPxcPerconaComPerconaXtraDbClusterRestoreV1Manifest extends c
       terraformResourceType: 'k8s_pxc_percona_com_percona_xtra_db_cluster_restore_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

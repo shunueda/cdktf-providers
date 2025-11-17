@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#metadata DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#metadata DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestMetadata;
   /**
   * PipeSpec defines the desired state of Pipe. An object that represents a pipe. Amazon EventBridgePipes connect event sources to targets and reduces the need for specialized knowledge and integration code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#spec DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#spec DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#annotations DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#annotations DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#labels DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#labels DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#namespace DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#namespace DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestMetadataOutputReferen
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecEnrichmentParametersHttpParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#header_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#header_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#header_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#header_parameters}
   */
   readonly headerParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#path_parameter_values DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#path_parameter_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#path_parameter_values DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#path_parameter_values}
   */
   readonly pathParameterValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#query_string_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#query_string_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#query_string_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#query_string_parameters}
   */
   readonly queryStringParameters?: { [key: string]: string };
 }
@@ -379,11 +379,11 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecEnrichmentPar
   /**
   * These are custom parameter to be used when the target is an API Gateway REST APIs or EventBridge ApiDestinations. In the latter case, these are merged with any InvocationParameters specified on the Connection, with any values from the Connection taking precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#http_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#http_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#http_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#http_parameters}
   */
   readonly httpParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecEnrichmentParametersHttpParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#input_template DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#input_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#input_template DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#input_template}
   */
   readonly inputTemplate?: string;
 }
@@ -508,7 +508,7 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParamet
   /**
   * // Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#basic_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#basic_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: string;
 }
@@ -602,21 +602,21 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersA
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersActiveMqBrokerParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
   */
   readonly batchSize?: number;
   /**
   * The Secrets Manager secret that stores your broker credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#credentials DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#credentials DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersActiveMqBrokerParametersCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#queue_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#queue_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#queue_name}
   */
   readonly queueName?: string;
 }
@@ -797,7 +797,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersA
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersDynamoDbStreamParametersDeadLetterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#arn}
   */
   readonly arn?: string;
 }
@@ -891,37 +891,37 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersD
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersDynamoDbStreamParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
   */
   readonly batchSize?: number;
   /**
   * A DeadLetterConfig object that contains information about a dead-letter queue configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#dead_letter_config DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#dead_letter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#dead_letter_config DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#dead_letter_config}
   */
   readonly deadLetterConfig?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersDynamoDbStreamParametersDeadLetterConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_record_age_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_record_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_record_age_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_record_age_in_seconds}
   */
   readonly maximumRecordAgeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_retry_attempts DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_retry_attempts DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#on_partial_batch_item_failure DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#on_partial_batch_item_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#on_partial_batch_item_failure DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#on_partial_batch_item_failure}
   */
   readonly onPartialBatchItemFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#parallelization_factor DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#parallelization_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#parallelization_factor DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#parallelization_factor}
   */
   readonly parallelizationFactor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#starting_position DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#starting_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#starting_position DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#starting_position}
   */
   readonly startingPosition?: string;
 }
@@ -1218,7 +1218,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersD
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersFilterCriteriaFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#pattern DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#pattern DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
 }
@@ -1334,7 +1334,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersF
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersFilterCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#filters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#filters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#filters}
   */
   readonly filters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersFilterCriteriaFilters[] | cdktf.IResolvable;
 }
@@ -1428,7 +1428,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersF
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersKinesisStreamParametersDeadLetterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#arn}
   */
   readonly arn?: string;
 }
@@ -1522,41 +1522,41 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersK
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersKinesisStreamParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
   */
   readonly batchSize?: number;
   /**
   * A DeadLetterConfig object that contains information about a dead-letter queue configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#dead_letter_config DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#dead_letter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#dead_letter_config DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#dead_letter_config}
   */
   readonly deadLetterConfig?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersKinesisStreamParametersDeadLetterConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_record_age_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_record_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_record_age_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_record_age_in_seconds}
   */
   readonly maximumRecordAgeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_retry_attempts DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_retry_attempts DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#on_partial_batch_item_failure DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#on_partial_batch_item_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#on_partial_batch_item_failure DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#on_partial_batch_item_failure}
   */
   readonly onPartialBatchItemFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#parallelization_factor DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#parallelization_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#parallelization_factor DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#parallelization_factor}
   */
   readonly parallelizationFactor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#starting_position DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#starting_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#starting_position DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#starting_position}
   */
   readonly startingPosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#starting_position_timestamp DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#starting_position_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#starting_position_timestamp DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#starting_position_timestamp}
   */
   readonly startingPositionTimestamp?: string;
 }
@@ -1884,13 +1884,13 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParamet
   /**
   * // Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#client_certificate_tls_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#client_certificate_tls_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#client_certificate_tls_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#client_certificate_tls_auth}
   */
   readonly clientCertificateTlsAuth?: string;
   /**
   * // Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sasl_scram512_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sasl_scram512_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sasl_scram512_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sasl_scram512_auth}
   */
   readonly saslScram512Auth?: string;
 }
@@ -2013,29 +2013,29 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersM
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersManagedStreamingKafkaParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
   */
   readonly batchSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#consumer_group_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#consumer_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#consumer_group_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#consumer_group_id}
   */
   readonly consumerGroupId?: string;
   /**
   * The Secrets Manager secret that stores your stream credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#credentials DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#credentials DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersManagedStreamingKafkaParametersCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#starting_position DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#starting_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#starting_position DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#starting_position}
   */
   readonly startingPosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#topic_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#topic_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#topic_name}
   */
   readonly topicName?: string;
 }
@@ -2276,7 +2276,7 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParamet
   /**
   * // Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#basic_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#basic_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: string;
 }
@@ -2370,25 +2370,25 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersR
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersRabbitMqBrokerParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
   */
   readonly batchSize?: number;
   /**
   * The Secrets Manager secret that stores your broker credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#credentials DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#credentials DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersRabbitMqBrokerParametersCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#queue_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#queue_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#queue_name}
   */
   readonly queueName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#virtual_host DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#virtual_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#virtual_host DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#virtual_host}
   */
   readonly virtualHost?: string;
 }
@@ -2600,25 +2600,25 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParamet
   /**
   * // Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#basic_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#basic_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: string;
   /**
   * // Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#client_certificate_tls_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#client_certificate_tls_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#client_certificate_tls_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#client_certificate_tls_auth}
   */
   readonly clientCertificateTlsAuth?: string;
   /**
   * // Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sasl_scram256_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sasl_scram256_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sasl_scram256_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sasl_scram256_auth}
   */
   readonly saslScram256Auth?: string;
   /**
   * // Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sasl_scram512_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sasl_scram512_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sasl_scram512_auth DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sasl_scram512_auth}
   */
   readonly saslScram512Auth?: string;
 }
@@ -2801,13 +2801,13 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParamet
   /**
   * List of SecurityGroupId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#security_group DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#security_group DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#security_group}
   */
   readonly securityGroup?: string[];
   /**
   * List of SubnetId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#subnets DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#subnets DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#subnets}
   */
   readonly subnets?: string[];
 }
@@ -2930,45 +2930,45 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersS
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersSelfManagedKafkaParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#additional_bootstrap_servers DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#additional_bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#additional_bootstrap_servers DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#additional_bootstrap_servers}
   */
   readonly additionalBootstrapServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
   */
   readonly batchSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#consumer_group_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#consumer_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#consumer_group_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#consumer_group_id}
   */
   readonly consumerGroupId?: string;
   /**
   * The Secrets Manager secret that stores your stream credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#credentials DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#credentials DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersSelfManagedKafkaParametersCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
   /**
   * // Optional SecretManager ARN which stores the database credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#server_root_ca_certificate DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#server_root_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#server_root_ca_certificate DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#server_root_ca_certificate}
   */
   readonly serverRootCaCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#starting_position DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#starting_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#starting_position DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#starting_position}
   */
   readonly startingPosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#topic_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#topic_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#topic_name}
   */
   readonly topicName?: string;
   /**
   * This structure specifies the VPC subnets and security groups for the stream, and whether a public IP address is to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#vpc DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#vpc DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#vpc}
   */
   readonly vpc?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersSelfManagedKafkaParametersVpc;
 }
@@ -3294,11 +3294,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersS
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersSqsQueueParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_size}
   */
   readonly batchSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#maximum_batching_window_in_seconds DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#maximum_batching_window_in_seconds}
   */
   readonly maximumBatchingWindowInSeconds?: number;
 }
@@ -3423,49 +3423,49 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParamet
   /**
   * The parameters for using an Active MQ broker as a source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#active_mq_broker_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#active_mq_broker_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#active_mq_broker_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#active_mq_broker_parameters}
   */
   readonly activeMqBrokerParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersActiveMqBrokerParameters;
   /**
   * The parameters for using a DynamoDB stream as a source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#dynamo_db_stream_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#dynamo_db_stream_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#dynamo_db_stream_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#dynamo_db_stream_parameters}
   */
   readonly dynamoDbStreamParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersDynamoDbStreamParameters;
   /**
   * The collection of event patterns used to filter events. For more information, see Events and Event Patterns (https://docs.aws.amazon.com/eventbridge/latest/userguide/eventbridge-and-event-patterns.html) in the Amazon EventBridge User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#filter_criteria DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#filter_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#filter_criteria DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#filter_criteria}
   */
   readonly filterCriteria?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersFilterCriteria;
   /**
   * The parameters for using a Kinesis stream as a source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#kinesis_stream_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#kinesis_stream_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#kinesis_stream_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#kinesis_stream_parameters}
   */
   readonly kinesisStreamParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersKinesisStreamParameters;
   /**
   * The parameters for using an MSK stream as a source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#managed_streaming_kafka_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#managed_streaming_kafka_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#managed_streaming_kafka_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#managed_streaming_kafka_parameters}
   */
   readonly managedStreamingKafkaParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersManagedStreamingKafkaParameters;
   /**
   * The parameters for using a Rabbit MQ broker as a source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#rabbit_mq_broker_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#rabbit_mq_broker_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#rabbit_mq_broker_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#rabbit_mq_broker_parameters}
   */
   readonly rabbitMqBrokerParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersRabbitMqBrokerParameters;
   /**
   * The parameters for using a self-managed Apache Kafka stream as a source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#self_managed_kafka_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#self_managed_kafka_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#self_managed_kafka_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#self_managed_kafka_parameters}
   */
   readonly selfManagedKafkaParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersSelfManagedKafkaParameters;
   /**
   * The parameters for using a Amazon SQS stream as a source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sqs_queue_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sqs_queue_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sqs_queue_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sqs_queue_parameters}
   */
   readonly sqsQueueParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersSqsQueueParameters;
 }
@@ -3762,7 +3762,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParametersO
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersBatchJobParametersArrayProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#size DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#size}
   */
   readonly size?: number;
 }
@@ -3856,11 +3856,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersB
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersBatchJobParametersContainerOverridesEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4005,11 +4005,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersB
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersBatchJobParametersContainerOverridesResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#type_ DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#type_ DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#type_}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4154,19 +4154,19 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersB
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersBatchJobParametersContainerOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#command DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#command DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#environment DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#environment DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#environment}
   */
   readonly environment?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersBatchJobParametersContainerOverridesEnvironment[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#instance_type DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#instance_type DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#resource_requirements DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#resource_requirements DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersBatchJobParametersContainerOverridesResourceRequirements[] | cdktf.IResolvable;
 }
@@ -4347,11 +4347,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersB
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersBatchJobParametersDependsOn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#job_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#job_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#job_id}
   */
   readonly jobId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#type_ DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#type_ DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#type_}
   */
   readonly type?: string;
 }
@@ -4496,7 +4496,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersB
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersBatchJobParametersRetryStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#attempts DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#attempts DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#attempts}
   */
   readonly attempts?: number;
 }
@@ -4592,35 +4592,35 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParamet
   /**
   * The array properties for the submitted job, such as the size of the array. The array size can be between 2 and 10,000. If you specify array properties for a job, it becomes an array job. This parameter is used only if the target is an Batch job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#array_properties DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#array_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#array_properties DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#array_properties}
   */
   readonly arrayProperties?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersBatchJobParametersArrayProperties;
   /**
   * The overrides that are sent to a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#container_overrides DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#container_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#container_overrides DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#container_overrides}
   */
   readonly containerOverrides?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersBatchJobParametersContainerOverrides;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#depends_on DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#depends_on DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#depends_on}
   */
   readonly dependsOn?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersBatchJobParametersDependsOn[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#job_definition DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#job_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#job_definition DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#job_definition}
   */
   readonly jobDefinition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#job_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#job_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#job_name}
   */
   readonly jobName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * The retry strategy that's associated with a job. For more information, see Automated job retries (https://docs.aws.amazon.com/batch/latest/userguide/job_retries.html) in the Batch User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#retry_strategy DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#retry_strategy DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#retry_strategy}
   */
   readonly retryStrategy?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersBatchJobParametersRetryStrategy;
 }
@@ -4888,11 +4888,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersB
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersCloudWatchLogsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#log_stream_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#log_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#log_stream_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#log_stream_name}
   */
   readonly logStreamName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#timestamp DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#timestamp DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#timestamp}
   */
   readonly timestamp?: string;
 }
@@ -5015,15 +5015,15 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersC
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersCapacityProviderStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#base DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#base DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#base}
   */
   readonly base?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#capacity_provider DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#capacity_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#capacity_provider DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#capacity_provider}
   */
   readonly capacityProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#weight DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#weight DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -5197,15 +5197,15 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersNetworkConfigurationAwsVpcConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#assign_public_ip DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#assign_public_ip DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#assign_public_ip}
   */
   readonly assignPublicIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#security_groups DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#security_groups DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#subnets DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#subnets DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#subnets}
   */
   readonly subnets?: string[];
 }
@@ -5359,7 +5359,7 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParamet
   /**
   * This structure specifies the VPC subnets and security groups for the task, and whether a public IP address is to be used. This structure is relevant only for ECS tasks that use the awsvpc network mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#aws_vpc_configuration DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#aws_vpc_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#aws_vpc_configuration DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#aws_vpc_configuration}
   */
   readonly awsVpcConfiguration?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersNetworkConfigurationAwsVpcConfiguration;
 }
@@ -5453,11 +5453,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5602,11 +5602,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#type_ DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#type_ DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#type_}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5751,11 +5751,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#type_ DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#type_ DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#type_}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5900,35 +5900,35 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverridesContainerOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#command DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#command DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#cpu DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#cpu DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#environment DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#environment DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#environment}
   */
   readonly environment?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironment[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#environment_files DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#environment_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#environment_files DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#environment_files}
   */
   readonly environmentFiles?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverridesContainerOverridesEnvironmentFiles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#memory DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#memory DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#memory_reservation DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#memory_reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#memory_reservation DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#memory_reservation}
   */
   readonly memoryReservation?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#resource_requirements DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#resource_requirements DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverridesContainerOverridesResourceRequirements[] | cdktf.IResolvable;
 }
@@ -6247,7 +6247,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverridesEphemeralStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#size_in_gi_b DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#size_in_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#size_in_gi_b DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#size_in_gi_b}
   */
   readonly sizeInGiB?: number;
 }
@@ -6341,11 +6341,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#device_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#device_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#device_name}
   */
   readonly deviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#device_type DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#device_type DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#device_type}
   */
   readonly deviceType?: string;
 }
@@ -6490,33 +6490,33 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#container_overrides DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#container_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#container_overrides DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#container_overrides}
   */
   readonly containerOverrides?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverridesContainerOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#cpu DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#cpu DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
   * The amount of ephemeral storage to allocate for the task. This parameter is used to expand the total amount of ephemeral storage available, beyond the default amount, for tasks hosted on Fargate. For more information, see Fargate task storage (https://docs.aws.amazon.com/AmazonECS/latest/userguide/using_data_volumes.html) in the Amazon ECS User Guide for Fargate. This parameter is only supported for tasks hosted on Fargate using Linux platform version 1.4.0 or later. This parameter is not supported for Windows containers on Fargate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#ephemeral_storage DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#ephemeral_storage DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#ephemeral_storage}
   */
   readonly ephemeralStorage?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverridesEphemeralStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#execution_role_arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#execution_role_arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#execution_role_arn}
   */
   readonly executionRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#inference_accelerator_overrides DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#inference_accelerator_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#inference_accelerator_overrides DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#inference_accelerator_overrides}
   */
   readonly inferenceAcceleratorOverrides?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#memory DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#memory DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#task_role_arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#task_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#task_role_arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#task_role_arn}
   */
   readonly taskRoleArn?: string;
 }
@@ -6784,11 +6784,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersPlacementConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#expression DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#expression DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#type_ DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#type_ DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#type_}
   */
   readonly type?: string;
 }
@@ -6933,11 +6933,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersPlacementStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#field DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#field DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#type_ DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#type_ DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#type_}
   */
   readonly type?: string;
 }
@@ -7082,11 +7082,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#key DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#key DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7231,67 +7231,67 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#capacity_provider_strategy DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#capacity_provider_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#capacity_provider_strategy DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#capacity_provider_strategy}
   */
   readonly capacityProviderStrategy?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersCapacityProviderStrategy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#enable_ecs_managed_tags DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#enable_ecs_managed_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#enable_ecs_managed_tags DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#enable_ecs_managed_tags}
   */
   readonly enableEcsManagedTags?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#enable_execute_command DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#enable_execute_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#enable_execute_command DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#enable_execute_command}
   */
   readonly enableExecuteCommand?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#group DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#group DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#launch_type DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#launch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#launch_type DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#launch_type}
   */
   readonly launchType?: string;
   /**
   * This structure specifies the network configuration for an Amazon ECS task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#network_configuration DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#network_configuration DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#network_configuration}
   */
   readonly networkConfiguration?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersNetworkConfiguration;
   /**
   * The overrides that are associated with a task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#overrides DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#overrides DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#overrides}
   */
   readonly overrides?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersOverrides;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#placement_constraints DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#placement_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#placement_constraints DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#placement_constraints}
   */
   readonly placementConstraints?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersPlacementConstraints[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#placement_strategy DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#placement_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#placement_strategy DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#placement_strategy}
   */
   readonly placementStrategy?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersPlacementStrategy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#platform_version DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#platform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#platform_version DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#platform_version}
   */
   readonly platformVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#propagate_tags DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#propagate_tags DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#propagate_tags}
   */
   readonly propagateTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#reference_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#reference_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#reference_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#reference_id}
   */
   readonly referenceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#tags DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#tags DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParametersTags[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#task_count DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#task_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#task_count DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#task_count}
   */
   readonly taskCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#task_definition_arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#task_definition_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#task_definition_arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#task_definition_arn}
   */
   readonly taskDefinitionArn?: string;
 }
@@ -7791,23 +7791,23 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEventBridgeEventBusParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#detail_type DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#detail_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#detail_type DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#detail_type}
   */
   readonly detailType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#endpoint_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#endpoint_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#endpoint_id}
   */
   readonly endpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#resources DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#resources DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#resources}
   */
   readonly resources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#source DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#source DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#time DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#time DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#time}
   */
   readonly time?: string;
 }
@@ -8017,15 +8017,15 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersE
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersHttpParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#header_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#header_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#header_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#header_parameters}
   */
   readonly headerParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#path_parameter_values DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#path_parameter_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#path_parameter_values DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#path_parameter_values}
   */
   readonly pathParameterValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#query_string_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#query_string_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#query_string_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#query_string_parameters}
   */
   readonly queryStringParameters?: { [key: string]: string };
 }
@@ -8177,7 +8177,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersH
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersKinesisStreamParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#partition_key DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#partition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#partition_key DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#partition_key}
   */
   readonly partitionKey?: string;
 }
@@ -8271,7 +8271,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersK
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersLambdaFunctionParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#invocation_type DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#invocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#invocation_type DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#invocation_type}
   */
   readonly invocationType?: string;
 }
@@ -8367,35 +8367,35 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParamet
   /**
   * // Redshift Database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#database DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#database DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#database}
   */
   readonly database?: string;
   /**
   * // Database user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#db_user DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#db_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#db_user DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#db_user}
   */
   readonly dbUser?: string;
   /**
   * // For targets, can either specify an ARN or a jsonpath pointing to the ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#secret_manager_arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#secret_manager_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#secret_manager_arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#secret_manager_arn}
   */
   readonly secretManagerArn?: string;
   /**
   * // A list of SQLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sqls DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sqls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sqls DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sqls}
   */
   readonly sqls?: string[];
   /**
   * // A name for Redshift DataAPI statement which can be used as filter of // ListStatement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#statement_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#statement_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#statement_name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#statement_name}
   */
   readonly statementName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#with_event DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#with_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#with_event DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#with_event}
   */
   readonly withEvent?: boolean | cdktf.IResolvable;
 }
@@ -8634,11 +8634,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersR
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersSageMakerPipelineParametersPipelineParameterListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#value DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -8783,7 +8783,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersS
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersSageMakerPipelineParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#pipeline_parameter_list DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#pipeline_parameter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#pipeline_parameter_list DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#pipeline_parameter_list}
   */
   readonly pipelineParameterList?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersSageMakerPipelineParametersPipelineParameterListStruct[] | cdktf.IResolvable;
 }
@@ -8877,11 +8877,11 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersS
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersSqsQueueParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#message_deduplication_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#message_deduplication_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#message_deduplication_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#message_deduplication_id}
   */
   readonly messageDeduplicationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#message_group_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#message_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#message_group_id DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#message_group_id}
   */
   readonly messageGroupId?: string;
 }
@@ -9004,7 +9004,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersS
 }
 export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersStepFunctionStateMachineParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#invocation_type DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#invocation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#invocation_type DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#invocation_type}
   */
   readonly invocationType?: string;
 }
@@ -9100,71 +9100,71 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParamet
   /**
   * The parameters for using an Batch job as a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_job_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_job_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#batch_job_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#batch_job_parameters}
   */
   readonly batchJobParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersBatchJobParameters;
   /**
   * The parameters for using an CloudWatch Logs log stream as a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#cloud_watch_logs_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#cloud_watch_logs_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#cloud_watch_logs_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#cloud_watch_logs_parameters}
   */
   readonly cloudWatchLogsParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersCloudWatchLogsParameters;
   /**
   * The parameters for using an Amazon ECS task as a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#ecs_task_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#ecs_task_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#ecs_task_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#ecs_task_parameters}
   */
   readonly ecsTaskParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEcsTaskParameters;
   /**
   * The parameters for using an EventBridge event bus as a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#event_bridge_event_bus_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#event_bridge_event_bus_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#event_bridge_event_bus_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#event_bridge_event_bus_parameters}
   */
   readonly eventBridgeEventBusParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersEventBridgeEventBusParameters;
   /**
   * These are custom parameter to be used when the target is an API Gateway REST APIs or EventBridge ApiDestinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#http_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#http_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#http_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#http_parameters}
   */
   readonly httpParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersHttpParameters;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#input_template DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#input_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#input_template DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#input_template}
   */
   readonly inputTemplate?: string;
   /**
   * The parameters for using a Kinesis stream as a source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#kinesis_stream_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#kinesis_stream_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#kinesis_stream_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#kinesis_stream_parameters}
   */
   readonly kinesisStreamParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersKinesisStreamParameters;
   /**
   * The parameters for using a Lambda function as a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#lambda_function_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#lambda_function_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#lambda_function_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#lambda_function_parameters}
   */
   readonly lambdaFunctionParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersLambdaFunctionParameters;
   /**
   * These are custom parameters to be used when the target is a Amazon Redshift cluster to invoke the Amazon Redshift Data API ExecuteStatement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#redshift_data_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#redshift_data_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#redshift_data_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#redshift_data_parameters}
   */
   readonly redshiftDataParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersRedshiftDataParameters;
   /**
   * The parameters for using a SageMaker pipeline as a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sage_maker_pipeline_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sage_maker_pipeline_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sage_maker_pipeline_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sage_maker_pipeline_parameters}
   */
   readonly sageMakerPipelineParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersSageMakerPipelineParameters;
   /**
   * The parameters for using a Amazon SQS stream as a source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sqs_queue_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sqs_queue_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#sqs_queue_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#sqs_queue_parameters}
   */
   readonly sqsQueueParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersSqsQueueParameters;
   /**
   * The parameters for using a Step Functions state machine as a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#step_function_state_machine_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#step_function_state_machine_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#step_function_state_machine_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#step_function_state_machine_parameters}
   */
   readonly stepFunctionStateMachineParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParametersStepFunctionStateMachineParameters;
 }
@@ -9579,67 +9579,67 @@ export interface DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpec {
   /**
   * A description of the pipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#description DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#description DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The state the pipe should be in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#desired_state DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#desired_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#desired_state DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#desired_state}
   */
   readonly desiredState?: string;
   /**
   * The ARN of the enrichment resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#enrichment DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#enrichment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#enrichment DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#enrichment}
   */
   readonly enrichment?: string;
   /**
   * The parameters required to set up enrichment on your pipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#enrichment_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#enrichment_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#enrichment_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#enrichment_parameters}
   */
   readonly enrichmentParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecEnrichmentParameters;
   /**
   * The name of the pipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#name DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The ARN of the role that allows the pipe to send data to the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#role_arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#role_arn DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#role_arn}
   */
   readonly roleArn: string;
   /**
   * The ARN of the source resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#source DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#source DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#source}
   */
   readonly source: string;
   /**
   * The parameters required to set up a source for your pipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#source_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#source_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#source_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#source_parameters}
   */
   readonly sourceParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecSourceParameters;
   /**
   * The list of key-value pairs to associate with the pipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#tags DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#tags DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The ARN of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#target DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#target DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#target}
   */
   readonly target: string;
   /**
   * The parameters required to set up a target for your pipe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#target_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#target_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#target_parameters DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest#target_parameters}
   */
   readonly targetParameters?: DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecTargetParameters;
 }
@@ -10011,7 +10011,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest k8s_pipes_services_k8s_aws_pipe_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest k8s_pipes_services_k8s_aws_pipe_v1alpha1_manifest}
 */
 export class DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -10027,7 +10027,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10039,7 +10039,7 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest k8s_pipes_services_k8s_aws_pipe_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pipes_services_k8s_aws_pipe_v1alpha1_manifest k8s_pipes_services_k8s_aws_pipe_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10050,8 +10050,8 @@ export class DataK8SPipesServicesK8SAwsPipeV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_pipes_services_k8s_aws_pipe_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

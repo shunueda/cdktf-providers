@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/organizationmanager_saml_federation
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_saml_federation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataYandexOrganizationmanagerSamlFederationConfig extends cdktf
   /**
   * ID of a SAML Federation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/organizationmanager_saml_federation#federation_id DataYandexOrganizationmanagerSamlFederation#federation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_saml_federation#federation_id DataYandexOrganizationmanagerSamlFederation#federation_id}
   */
   readonly federationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/organizationmanager_saml_federation#id DataYandexOrganizationmanagerSamlFederation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_saml_federation#id DataYandexOrganizationmanagerSamlFederation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataYandexOrganizationmanagerSamlFederationConfig extends cdktf
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/organizationmanager_saml_federation#labels DataYandexOrganizationmanagerSamlFederation#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_saml_federation#labels DataYandexOrganizationmanagerSamlFederation#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/organizationmanager_saml_federation#name DataYandexOrganizationmanagerSamlFederation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_saml_federation#name DataYandexOrganizationmanagerSamlFederation#name}
   */
   readonly name?: string;
   /**
   * Organization that the federation belongs to. If value is omitted, the default provider organization is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/organizationmanager_saml_federation#organization_id DataYandexOrganizationmanagerSamlFederation#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_saml_federation#organization_id DataYandexOrganizationmanagerSamlFederation#organization_id}
   */
   readonly organizationId?: string;
 }
@@ -121,7 +121,7 @@ export class DataYandexOrganizationmanagerSamlFederationSecuritySettingsList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/organizationmanager_saml_federation yandex_organizationmanager_saml_federation}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_saml_federation yandex_organizationmanager_saml_federation}
 */
 export class DataYandexOrganizationmanagerSamlFederation extends cdktf.TerraformDataSource {
 
@@ -137,7 +137,7 @@ export class DataYandexOrganizationmanagerSamlFederation extends cdktf.Terraform
   * Generates CDKTF code for importing a DataYandexOrganizationmanagerSamlFederation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexOrganizationmanagerSamlFederation to import
-  * @param importFromId The id of the existing DataYandexOrganizationmanagerSamlFederation that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/organizationmanager_saml_federation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexOrganizationmanagerSamlFederation that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_saml_federation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexOrganizationmanagerSamlFederation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class DataYandexOrganizationmanagerSamlFederation extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/organizationmanager_saml_federation yandex_organizationmanager_saml_federation} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/organizationmanager_saml_federation yandex_organizationmanager_saml_federation} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class DataYandexOrganizationmanagerSamlFederation extends cdktf.Terraform
       terraformResourceType: 'yandex_organizationmanager_saml_federation',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

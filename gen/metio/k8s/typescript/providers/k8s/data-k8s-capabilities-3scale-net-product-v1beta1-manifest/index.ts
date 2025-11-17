@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#metadata DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#metadata DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestMetadata;
   /**
   * ProductSpec defines the desired state of Product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#spec DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#spec DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#annotations DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#annotations DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#labels DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#labels DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#namespace DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#namespace DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecApplicati
   /**
   * BackendSystemName identifies uniquely the backend Backend reference must be used by the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#backend DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#backend DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#backend}
   */
   readonly backend?: string;
   /**
   * SystemName identifies uniquely the metric or methods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#system_name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#system_name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#system_name}
   */
   readonly systemName: string;
 }
@@ -347,19 +347,19 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecApplicati
   /**
   * Metric or Method Reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#metric_method_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#metric_method_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#metric_method_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#metric_method_ref}
   */
   readonly metricMethodRef: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecApplicationPlansLimitsMetricMethodRef;
   /**
   * Limit Period
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#period DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#period DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#period}
   */
   readonly period: string;
   /**
   * Limit Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#value DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#value DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#value}
   */
   readonly value: number;
 }
@@ -526,13 +526,13 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecApplicati
   /**
   * BackendSystemName identifies uniquely the backend Backend reference must be used by the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#backend DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#backend DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#backend}
   */
   readonly backend?: string;
   /**
   * SystemName identifies uniquely the metric or methods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#system_name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#system_name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#system_name}
   */
   readonly systemName: string;
 }
@@ -654,25 +654,25 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecApplicati
   /**
   * Range From
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#from DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#from DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#from}
   */
   readonly from: number;
   /**
   * Metric or Method Reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#metric_method_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#metric_method_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#metric_method_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#metric_method_ref}
   */
   readonly metricMethodRef: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecApplicationPlansPricingRulesMetricMethodRef;
   /**
   * Price per unit (USD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#price_per_unit DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#price_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#price_per_unit DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#price_per_unit}
   */
   readonly pricePerUnit: string;
   /**
   * Range To
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#to DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#to DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#to}
   */
   readonly to: number;
 }
@@ -865,47 +865,47 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecApplicati
   /**
   * Set whether or not applications can be created on demand or if approval is required from you before they are activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#apps_require_approval DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#apps_require_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#apps_require_approval DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#apps_require_approval}
   */
   readonly appsRequireApproval?: boolean | cdktf.IResolvable;
   /**
   * Cost per Month (USD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#cost_month DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#cost_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#cost_month DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#cost_month}
   */
   readonly costMonth?: string;
   /**
   * Limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#limits DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#limits DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#limits}
   */
   readonly limits?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecApplicationPlansLimits[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Pricing Rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#pricing_rules DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#pricing_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#pricing_rules DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#pricing_rules}
   */
   readonly pricingRules?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecApplicationPlansPricingRules[] | cdktf.IResolvable;
   /**
   * Controls whether the application plan is published. If not specified it is hidden by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#published DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#published DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#published}
   */
   readonly published?: boolean | cdktf.IResolvable;
   /**
   * Setup fee (USD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#setup_fee DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#setup_fee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#setup_fee DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#setup_fee}
   */
   readonly setupFee?: string;
   /**
   * Trial Period (days)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#trial_period DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#trial_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#trial_period DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#trial_period}
   */
   readonly trialPeriod?: number;
 }
@@ -1202,7 +1202,7 @@ export class DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecApplicationPl
 }
 export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecBackendUsages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#path DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#path DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#path}
   */
   readonly path: string;
 }
@@ -1295,73 +1295,73 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * ErrorAuthFailed specifies the response body when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_failed}
   */
   readonly errorAuthFailed?: string;
   /**
   * ErrorAuthMissing specifies the response body when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_missing}
   */
   readonly errorAuthMissing?: string;
   /**
   * ErrorHeadersAuthFailed specifies the Content-Type header when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_failed}
   */
   readonly errorHeadersAuthFailed?: string;
   /**
   * ErrorHeadersAuthMissing specifies the Content-Type header when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_missing}
   */
   readonly errorHeadersAuthMissing?: string;
   /**
   * ErrorHeadersLimitsExceeded specifies the Content-Type header when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_limits_exceeded}
   */
   readonly errorHeadersLimitsExceeded?: string;
   /**
   * ErrorHeadersNoMatch specifies the Content-Type header when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_no_match}
   */
   readonly errorHeadersNoMatch?: string;
   /**
   * ErrorLimitsExceeded specifies the response body when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_limits_exceeded}
   */
   readonly errorLimitsExceeded?: string;
   /**
   * ErrorNoMatch specifies the response body when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_no_match}
   */
   readonly errorNoMatch?: string;
   /**
   * ErrorStatusAuthFailed specifies the response code when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_failed}
   */
   readonly errorStatusAuthFailed?: number;
   /**
   * ErrorStatusAuthMissing specifies the response code when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_missing}
   */
   readonly errorStatusAuthMissing?: number;
   /**
   * ErrorStatusLimitsExceeded specifies the response code when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_limits_exceeded}
   */
   readonly errorStatusLimitsExceeded?: number;
   /**
   * ErrorStatusNoMatch specifies the response code when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_no_match}
   */
   readonly errorStatusNoMatch?: number;
 }
@@ -1776,13 +1776,13 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * HostHeader Lets you define a custom Host request header. This is needed if your API backend only accepts traffic from a specific host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#host_header DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#host_header DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#host_header}
   */
   readonly hostHeader?: string;
   /**
   * SecretToken Enables you to block any direct developer requests to your API backend; each 3scale API gateway call to your API backend contains a request header called X-3scale-proxy-secret-token. The value of this header can be set by you here. It's up to you ensure your backend only allows calls with this secret header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#secret_token DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#secret_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#secret_token DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#secret_token}
   */
   readonly secretToken?: string;
 }
@@ -1907,31 +1907,31 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * AppID is the name of the parameter that acts of behalf of app id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#app_id DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#app_id DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#app_id}
   */
   readonly appId?: string;
   /**
   * AppKey is the name of the parameter that acts of behalf of app key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#app_key DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#app_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#app_key DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#app_key}
   */
   readonly appKey?: string;
   /**
   * CredentialsLoc available options: headers: As HTTP Headers query: As query parameters (GET) or body parameters (POST/PUT/DELETE) authorization: As HTTP Basic Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#credentials DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#credentials DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#credentials}
   */
   readonly credentials?: string;
   /**
   * GatewayResponseSpec defines the desired gateway response configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#gateway_response DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#gateway_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#gateway_response DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#gateway_response}
   */
   readonly gatewayResponse?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthenticationAppKeyAppIdGatewayResponse;
   /**
   * SecuritySpec defines the desired state of Authentication Security
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#security DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#security DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#security}
   */
   readonly security?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthenticationAppKeyAppIdSecurity;
 }
@@ -2141,21 +2141,21 @@ export class DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApi
 }
 export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthenticationOidcAuthenticationFlow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#direct_access_grants_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#direct_access_grants_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#direct_access_grants_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#direct_access_grants_enabled}
   */
   readonly directAccessGrantsEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#implicit_flow_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#implicit_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#implicit_flow_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#implicit_flow_enabled}
   */
   readonly implicitFlowEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#service_accounts_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#service_accounts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#service_accounts_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#service_accounts_enabled}
   */
   readonly serviceAccountsEnabled: boolean | cdktf.IResolvable;
   /**
   * OIDCIssuer is the OIDC issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#standard_flow_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#standard_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#standard_flow_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#standard_flow_enabled}
   */
   readonly standardFlowEnabled: boolean | cdktf.IResolvable;
 }
@@ -2326,73 +2326,73 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * ErrorAuthFailed specifies the response body when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_failed}
   */
   readonly errorAuthFailed?: string;
   /**
   * ErrorAuthMissing specifies the response body when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_missing}
   */
   readonly errorAuthMissing?: string;
   /**
   * ErrorHeadersAuthFailed specifies the Content-Type header when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_failed}
   */
   readonly errorHeadersAuthFailed?: string;
   /**
   * ErrorHeadersAuthMissing specifies the Content-Type header when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_missing}
   */
   readonly errorHeadersAuthMissing?: string;
   /**
   * ErrorHeadersLimitsExceeded specifies the Content-Type header when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_limits_exceeded}
   */
   readonly errorHeadersLimitsExceeded?: string;
   /**
   * ErrorHeadersNoMatch specifies the Content-Type header when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_no_match}
   */
   readonly errorHeadersNoMatch?: string;
   /**
   * ErrorLimitsExceeded specifies the response body when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_limits_exceeded}
   */
   readonly errorLimitsExceeded?: string;
   /**
   * ErrorNoMatch specifies the response body when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_no_match}
   */
   readonly errorNoMatch?: string;
   /**
   * ErrorStatusAuthFailed specifies the response code when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_failed}
   */
   readonly errorStatusAuthFailed?: number;
   /**
   * ErrorStatusAuthMissing specifies the response code when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_missing}
   */
   readonly errorStatusAuthMissing?: number;
   /**
   * ErrorStatusLimitsExceeded specifies the response code when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_limits_exceeded}
   */
   readonly errorStatusLimitsExceeded?: number;
   /**
   * ErrorStatusNoMatch specifies the response code when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_no_match}
   */
   readonly errorStatusNoMatch?: number;
 }
@@ -2807,13 +2807,13 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#namespace DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#namespace DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2938,13 +2938,13 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * HostHeader Lets you define a custom Host request header. This is needed if your API backend only accepts traffic from a specific host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#host_header DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#host_header DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#host_header}
   */
   readonly hostHeader?: string;
   /**
   * SecretToken Enables you to block any direct developer requests to your API backend; each 3scale API gateway call to your API backend contains a request header called X-3scale-proxy-secret-token. The value of this header can be set by you here. It's up to you ensure your backend only allows calls with this secret header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#secret_token DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#secret_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#secret_token DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#secret_token}
   */
   readonly secretToken?: string;
 }
@@ -3069,55 +3069,55 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * AuthenticationFlow specifies OAuth2.0 authorization grant type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#authentication_flow DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#authentication_flow DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#authentication_flow}
   */
   readonly authenticationFlow?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthenticationOidcAuthenticationFlow;
   /**
   * Credentials Location available options: headers: As HTTP Headers query: As query parameters (GET) or body parameters (POST/PUT/DELETE) authorization: As HTTP Basic Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#credentials DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#credentials DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#credentials}
   */
   readonly credentials?: string;
   /**
   * GatewayResponseSpec defines the desired gateway response configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#gateway_response DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#gateway_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#gateway_response DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#gateway_response}
   */
   readonly gatewayResponse?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthenticationOidcGatewayResponse;
   /**
   * Issuer is the OIDC issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#issuer_endpoint DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#issuer_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#issuer_endpoint DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#issuer_endpoint}
   */
   readonly issuerEndpoint?: string;
   /**
   * IssuerEndpointRef is the reference to OIDC issuer Secret that contains IssuerEndpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#issuer_endpoint_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#issuer_endpoint_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#issuer_endpoint_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#issuer_endpoint_ref}
   */
   readonly issuerEndpointRef?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthenticationOidcIssuerEndpointRef;
   /**
   * IssuerType is the type of the OIDC issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#issuer_type DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#issuer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#issuer_type DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#issuer_type}
   */
   readonly issuerType: string;
   /**
   * JwtClaimWithClientID is the JSON Web Token (JWT) Claim with ClientID that contains the clientID. Defaults to 'azp'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#jwt_claim_with_client_id DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#jwt_claim_with_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#jwt_claim_with_client_id DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#jwt_claim_with_client_id}
   */
   readonly jwtClaimWithClientId?: string;
   /**
   * JwtClaimWithClientIDType sets to process the ClientID Token Claim value as a string or as a liquid template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#jwt_claim_with_client_id_type DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#jwt_claim_with_client_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#jwt_claim_with_client_id_type DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#jwt_claim_with_client_id_type}
   */
   readonly jwtClaimWithClientIdType?: string;
   /**
   * SecuritySpec defines the desired state of Authentication Security
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#security DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#security DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#security}
   */
   readonly security?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthenticationOidcSecurity;
 }
@@ -3442,73 +3442,73 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * ErrorAuthFailed specifies the response body when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_failed}
   */
   readonly errorAuthFailed?: string;
   /**
   * ErrorAuthMissing specifies the response body when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_missing}
   */
   readonly errorAuthMissing?: string;
   /**
   * ErrorHeadersAuthFailed specifies the Content-Type header when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_failed}
   */
   readonly errorHeadersAuthFailed?: string;
   /**
   * ErrorHeadersAuthMissing specifies the Content-Type header when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_missing}
   */
   readonly errorHeadersAuthMissing?: string;
   /**
   * ErrorHeadersLimitsExceeded specifies the Content-Type header when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_limits_exceeded}
   */
   readonly errorHeadersLimitsExceeded?: string;
   /**
   * ErrorHeadersNoMatch specifies the Content-Type header when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_no_match}
   */
   readonly errorHeadersNoMatch?: string;
   /**
   * ErrorLimitsExceeded specifies the response body when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_limits_exceeded}
   */
   readonly errorLimitsExceeded?: string;
   /**
   * ErrorNoMatch specifies the response body when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_no_match}
   */
   readonly errorNoMatch?: string;
   /**
   * ErrorStatusAuthFailed specifies the response code when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_failed}
   */
   readonly errorStatusAuthFailed?: number;
   /**
   * ErrorStatusAuthMissing specifies the response code when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_missing}
   */
   readonly errorStatusAuthMissing?: number;
   /**
   * ErrorStatusLimitsExceeded specifies the response code when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_limits_exceeded}
   */
   readonly errorStatusLimitsExceeded?: number;
   /**
   * ErrorStatusNoMatch specifies the response code when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_no_match}
   */
   readonly errorStatusNoMatch?: number;
 }
@@ -3923,13 +3923,13 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * HostHeader Lets you define a custom Host request header. This is needed if your API backend only accepts traffic from a specific host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#host_header DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#host_header DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#host_header}
   */
   readonly hostHeader?: string;
   /**
   * SecretToken Enables you to block any direct developer requests to your API backend; each 3scale API gateway call to your API backend contains a request header called X-3scale-proxy-secret-token. The value of this header can be set by you here. It's up to you ensure your backend only allows calls with this secret header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#secret_token DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#secret_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#secret_token DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#secret_token}
   */
   readonly secretToken?: string;
 }
@@ -4052,25 +4052,25 @@ export class DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApi
 }
 export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthenticationUserkey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#auth_user_key DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#auth_user_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#auth_user_key DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#auth_user_key}
   */
   readonly authUserKey?: string;
   /**
   * Credentials Location available options: headers: As HTTP Headers query: As query parameters (GET) or body parameters (POST/PUT/DELETE) authorization: As HTTP Basic Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#credentials DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#credentials DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#credentials}
   */
   readonly credentials?: string;
   /**
   * GatewayResponseSpec defines the desired gateway response configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#gateway_response DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#gateway_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#gateway_response DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#gateway_response}
   */
   readonly gatewayResponse?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthenticationUserkeyGatewayResponse;
   /**
   * SecuritySpec defines the desired state of Authentication Security
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#security DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#security DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#security}
   */
   readonly security?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthenticationUserkeySecurity;
 }
@@ -4253,19 +4253,19 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * AppKeyAppIDAuthenticationSpec defines the desired state of AppKey&AppId Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#app_key_app_id DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#app_key_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#app_key_app_id DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#app_key_app_id}
   */
   readonly appKeyAppId?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthenticationAppKeyAppId;
   /**
   * OIDCSpec defines the desired configuration of OpenID Connect Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#oidc DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#oidc DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#oidc}
   */
   readonly oidc?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthenticationOidc;
   /**
   * UserKeyAuthenticationSpec defines the desired state of User Key Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#userkey DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#userkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#userkey DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#userkey}
   */
   readonly userkey?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthenticationUserkey;
 }
@@ -4419,7 +4419,7 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * AuthenticationSpec defines the desired state of Product Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#authentication DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#authentication DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#authentication}
   */
   readonly authentication?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHostedAuthentication;
 }
@@ -4515,73 +4515,73 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * ErrorAuthFailed specifies the response body when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_failed}
   */
   readonly errorAuthFailed?: string;
   /**
   * ErrorAuthMissing specifies the response body when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_missing}
   */
   readonly errorAuthMissing?: string;
   /**
   * ErrorHeadersAuthFailed specifies the Content-Type header when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_failed}
   */
   readonly errorHeadersAuthFailed?: string;
   /**
   * ErrorHeadersAuthMissing specifies the Content-Type header when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_missing}
   */
   readonly errorHeadersAuthMissing?: string;
   /**
   * ErrorHeadersLimitsExceeded specifies the Content-Type header when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_limits_exceeded}
   */
   readonly errorHeadersLimitsExceeded?: string;
   /**
   * ErrorHeadersNoMatch specifies the Content-Type header when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_no_match}
   */
   readonly errorHeadersNoMatch?: string;
   /**
   * ErrorLimitsExceeded specifies the response body when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_limits_exceeded}
   */
   readonly errorLimitsExceeded?: string;
   /**
   * ErrorNoMatch specifies the response body when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_no_match}
   */
   readonly errorNoMatch?: string;
   /**
   * ErrorStatusAuthFailed specifies the response code when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_failed}
   */
   readonly errorStatusAuthFailed?: number;
   /**
   * ErrorStatusAuthMissing specifies the response code when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_missing}
   */
   readonly errorStatusAuthMissing?: number;
   /**
   * ErrorStatusLimitsExceeded specifies the response code when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_limits_exceeded}
   */
   readonly errorStatusLimitsExceeded?: number;
   /**
   * ErrorStatusNoMatch specifies the response code when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_no_match}
   */
   readonly errorStatusNoMatch?: number;
 }
@@ -4996,13 +4996,13 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * HostHeader Lets you define a custom Host request header. This is needed if your API backend only accepts traffic from a specific host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#host_header DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#host_header DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#host_header}
   */
   readonly hostHeader?: string;
   /**
   * SecretToken Enables you to block any direct developer requests to your API backend; each 3scale API gateway call to your API backend contains a request header called X-3scale-proxy-secret-token. The value of this header can be set by you here. It's up to you ensure your backend only allows calls with this secret header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#secret_token DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#secret_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#secret_token DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#secret_token}
   */
   readonly secretToken?: string;
 }
@@ -5127,31 +5127,31 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * AppID is the name of the parameter that acts of behalf of app id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#app_id DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#app_id DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#app_id}
   */
   readonly appId?: string;
   /**
   * AppKey is the name of the parameter that acts of behalf of app key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#app_key DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#app_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#app_key DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#app_key}
   */
   readonly appKey?: string;
   /**
   * CredentialsLoc available options: headers: As HTTP Headers query: As query parameters (GET) or body parameters (POST/PUT/DELETE) authorization: As HTTP Basic Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#credentials DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#credentials DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#credentials}
   */
   readonly credentials?: string;
   /**
   * GatewayResponseSpec defines the desired gateway response configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#gateway_response DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#gateway_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#gateway_response DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#gateway_response}
   */
   readonly gatewayResponse?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthenticationAppKeyAppIdGatewayResponse;
   /**
   * SecuritySpec defines the desired state of Authentication Security
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#security DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#security DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#security}
   */
   readonly security?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthenticationAppKeyAppIdSecurity;
 }
@@ -5361,21 +5361,21 @@ export class DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApi
 }
 export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthenticationOidcAuthenticationFlow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#direct_access_grants_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#direct_access_grants_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#direct_access_grants_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#direct_access_grants_enabled}
   */
   readonly directAccessGrantsEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#implicit_flow_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#implicit_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#implicit_flow_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#implicit_flow_enabled}
   */
   readonly implicitFlowEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#service_accounts_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#service_accounts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#service_accounts_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#service_accounts_enabled}
   */
   readonly serviceAccountsEnabled: boolean | cdktf.IResolvable;
   /**
   * OIDCIssuer is the OIDC issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#standard_flow_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#standard_flow_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#standard_flow_enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#standard_flow_enabled}
   */
   readonly standardFlowEnabled: boolean | cdktf.IResolvable;
 }
@@ -5546,73 +5546,73 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * ErrorAuthFailed specifies the response body when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_failed}
   */
   readonly errorAuthFailed?: string;
   /**
   * ErrorAuthMissing specifies the response body when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_missing}
   */
   readonly errorAuthMissing?: string;
   /**
   * ErrorHeadersAuthFailed specifies the Content-Type header when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_failed}
   */
   readonly errorHeadersAuthFailed?: string;
   /**
   * ErrorHeadersAuthMissing specifies the Content-Type header when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_missing}
   */
   readonly errorHeadersAuthMissing?: string;
   /**
   * ErrorHeadersLimitsExceeded specifies the Content-Type header when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_limits_exceeded}
   */
   readonly errorHeadersLimitsExceeded?: string;
   /**
   * ErrorHeadersNoMatch specifies the Content-Type header when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_no_match}
   */
   readonly errorHeadersNoMatch?: string;
   /**
   * ErrorLimitsExceeded specifies the response body when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_limits_exceeded}
   */
   readonly errorLimitsExceeded?: string;
   /**
   * ErrorNoMatch specifies the response body when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_no_match}
   */
   readonly errorNoMatch?: string;
   /**
   * ErrorStatusAuthFailed specifies the response code when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_failed}
   */
   readonly errorStatusAuthFailed?: number;
   /**
   * ErrorStatusAuthMissing specifies the response code when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_missing}
   */
   readonly errorStatusAuthMissing?: number;
   /**
   * ErrorStatusLimitsExceeded specifies the response code when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_limits_exceeded}
   */
   readonly errorStatusLimitsExceeded?: number;
   /**
   * ErrorStatusNoMatch specifies the response code when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_no_match}
   */
   readonly errorStatusNoMatch?: number;
 }
@@ -6027,13 +6027,13 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#namespace DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#namespace DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6158,13 +6158,13 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * HostHeader Lets you define a custom Host request header. This is needed if your API backend only accepts traffic from a specific host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#host_header DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#host_header DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#host_header}
   */
   readonly hostHeader?: string;
   /**
   * SecretToken Enables you to block any direct developer requests to your API backend; each 3scale API gateway call to your API backend contains a request header called X-3scale-proxy-secret-token. The value of this header can be set by you here. It's up to you ensure your backend only allows calls with this secret header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#secret_token DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#secret_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#secret_token DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#secret_token}
   */
   readonly secretToken?: string;
 }
@@ -6289,55 +6289,55 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * AuthenticationFlow specifies OAuth2.0 authorization grant type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#authentication_flow DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#authentication_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#authentication_flow DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#authentication_flow}
   */
   readonly authenticationFlow?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthenticationOidcAuthenticationFlow;
   /**
   * Credentials Location available options: headers: As HTTP Headers query: As query parameters (GET) or body parameters (POST/PUT/DELETE) authorization: As HTTP Basic Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#credentials DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#credentials DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#credentials}
   */
   readonly credentials?: string;
   /**
   * GatewayResponseSpec defines the desired gateway response configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#gateway_response DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#gateway_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#gateway_response DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#gateway_response}
   */
   readonly gatewayResponse?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthenticationOidcGatewayResponse;
   /**
   * Issuer is the OIDC issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#issuer_endpoint DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#issuer_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#issuer_endpoint DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#issuer_endpoint}
   */
   readonly issuerEndpoint?: string;
   /**
   * IssuerEndpointRef is the reference to OIDC issuer Secret that contains IssuerEndpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#issuer_endpoint_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#issuer_endpoint_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#issuer_endpoint_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#issuer_endpoint_ref}
   */
   readonly issuerEndpointRef?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthenticationOidcIssuerEndpointRef;
   /**
   * IssuerType is the type of the OIDC issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#issuer_type DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#issuer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#issuer_type DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#issuer_type}
   */
   readonly issuerType: string;
   /**
   * JwtClaimWithClientID is the JSON Web Token (JWT) Claim with ClientID that contains the clientID. Defaults to 'azp'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#jwt_claim_with_client_id DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#jwt_claim_with_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#jwt_claim_with_client_id DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#jwt_claim_with_client_id}
   */
   readonly jwtClaimWithClientId?: string;
   /**
   * JwtClaimWithClientIDType sets to process the ClientID Token Claim value as a string or as a liquid template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#jwt_claim_with_client_id_type DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#jwt_claim_with_client_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#jwt_claim_with_client_id_type DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#jwt_claim_with_client_id_type}
   */
   readonly jwtClaimWithClientIdType?: string;
   /**
   * SecuritySpec defines the desired state of Authentication Security
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#security DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#security DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#security}
   */
   readonly security?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthenticationOidcSecurity;
 }
@@ -6662,73 +6662,73 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * ErrorAuthFailed specifies the response body when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_failed}
   */
   readonly errorAuthFailed?: string;
   /**
   * ErrorAuthMissing specifies the response body when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_auth_missing}
   */
   readonly errorAuthMissing?: string;
   /**
   * ErrorHeadersAuthFailed specifies the Content-Type header when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_failed}
   */
   readonly errorHeadersAuthFailed?: string;
   /**
   * ErrorHeadersAuthMissing specifies the Content-Type header when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_auth_missing}
   */
   readonly errorHeadersAuthMissing?: string;
   /**
   * ErrorHeadersLimitsExceeded specifies the Content-Type header when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_limits_exceeded}
   */
   readonly errorHeadersLimitsExceeded?: string;
   /**
   * ErrorHeadersNoMatch specifies the Content-Type header when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_headers_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_headers_no_match}
   */
   readonly errorHeadersNoMatch?: string;
   /**
   * ErrorLimitsExceeded specifies the response body when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_limits_exceeded}
   */
   readonly errorLimitsExceeded?: string;
   /**
   * ErrorNoMatch specifies the response body when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_no_match}
   */
   readonly errorNoMatch?: string;
   /**
   * ErrorStatusAuthFailed specifies the response code when authentication fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_failed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_failed}
   */
   readonly errorStatusAuthFailed?: number;
   /**
   * ErrorStatusAuthMissing specifies the response code when authentication is missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_auth_missing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_auth_missing}
   */
   readonly errorStatusAuthMissing?: number;
   /**
   * ErrorStatusLimitsExceeded specifies the response code when usage limit exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_limits_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_limits_exceeded DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_limits_exceeded}
   */
   readonly errorStatusLimitsExceeded?: number;
   /**
   * ErrorStatusNoMatch specifies the response code when no match error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_no_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#error_status_no_match DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#error_status_no_match}
   */
   readonly errorStatusNoMatch?: number;
 }
@@ -7143,13 +7143,13 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * HostHeader Lets you define a custom Host request header. This is needed if your API backend only accepts traffic from a specific host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#host_header DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#host_header DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#host_header}
   */
   readonly hostHeader?: string;
   /**
   * SecretToken Enables you to block any direct developer requests to your API backend; each 3scale API gateway call to your API backend contains a request header called X-3scale-proxy-secret-token. The value of this header can be set by you here. It's up to you ensure your backend only allows calls with this secret header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#secret_token DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#secret_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#secret_token DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#secret_token}
   */
   readonly secretToken?: string;
 }
@@ -7272,25 +7272,25 @@ export class DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApi
 }
 export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthenticationUserkey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#auth_user_key DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#auth_user_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#auth_user_key DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#auth_user_key}
   */
   readonly authUserKey?: string;
   /**
   * Credentials Location available options: headers: As HTTP Headers query: As query parameters (GET) or body parameters (POST/PUT/DELETE) authorization: As HTTP Basic Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#credentials DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#credentials DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#credentials}
   */
   readonly credentials?: string;
   /**
   * GatewayResponseSpec defines the desired gateway response configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#gateway_response DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#gateway_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#gateway_response DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#gateway_response}
   */
   readonly gatewayResponse?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthenticationUserkeyGatewayResponse;
   /**
   * SecuritySpec defines the desired state of Authentication Security
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#security DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#security DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#security}
   */
   readonly security?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthenticationUserkeySecurity;
 }
@@ -7473,19 +7473,19 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * AppKeyAppIDAuthenticationSpec defines the desired state of AppKey&AppId Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#app_key_app_id DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#app_key_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#app_key_app_id DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#app_key_app_id}
   */
   readonly appKeyAppId?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthenticationAppKeyAppId;
   /**
   * OIDCSpec defines the desired configuration of OpenID Connect Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#oidc DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#oidc DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#oidc}
   */
   readonly oidc?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthenticationOidc;
   /**
   * UserKeyAuthenticationSpec defines the desired state of User Key Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#userkey DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#userkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#userkey DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#userkey}
   */
   readonly userkey?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthenticationUserkey;
 }
@@ -7639,15 +7639,15 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * AuthenticationSpec defines the desired state of Product Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#authentication DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#authentication DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#authentication}
   */
   readonly authentication?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManagedAuthentication;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#production_public_base_url DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#production_public_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#production_public_base_url DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#production_public_base_url}
   */
   readonly productionPublicBaseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#staging_public_base_url DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#staging_public_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#staging_public_base_url DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#staging_public_base_url}
   */
   readonly stagingPublicBaseUrl?: string;
 }
@@ -7801,13 +7801,13 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymen
   /**
   * ApicastHostedSpec defines the desired state of Product Apicast Hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#apicast_hosted DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#apicast_hosted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#apicast_hosted DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#apicast_hosted}
   */
   readonly apicastHosted?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastHosted;
   /**
   * ApicastSelfManagedSpec defines the desired state of Product Apicast Self Managed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#apicast_self_managed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#apicast_self_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#apicast_self_managed DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#apicast_self_managed}
   */
   readonly apicastSelfManaged?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentApicastSelfManaged;
 }
@@ -7930,23 +7930,23 @@ export class DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeploymentOut
 }
 export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecMappingRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#http_method DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#http_method DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#http_method}
   */
   readonly httpMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#increment DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#increment DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#increment}
   */
   readonly increment: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#last DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#last DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#last}
   */
   readonly last?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#metric_method_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#metric_method_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#metric_method_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#metric_method_ref}
   */
   readonly metricMethodRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#pattern DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#pattern DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#pattern}
   */
   readonly pattern: string;
 }
@@ -8166,11 +8166,11 @@ export class DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecMappingRulesL
 }
 export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#description DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#description DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#friendly_name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#friendly_name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#friendly_name}
   */
   readonly friendlyName: string;
 }
@@ -8290,15 +8290,15 @@ export class DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecMethodsOutput
 }
 export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#description DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#description DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#friendly_name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#friendly_name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#friendly_name}
   */
   readonly friendlyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#unit DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#unit DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#unit}
   */
   readonly unit: string;
 }
@@ -8446,13 +8446,13 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecPoliciesC
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#namespace DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#namespace DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -8577,31 +8577,31 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecPolicies 
   /**
   * Configuration defines the policy configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#configuration DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#configuration DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
   * ConfigurationRef Secret reference containing policy configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#configuration_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#configuration_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#configuration_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#configuration_ref}
   */
   readonly configurationRef?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecPoliciesConfigurationRef;
   /**
   * Enabled defines activation state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#enabled DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Name defines the policy unique name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Version defines the policy version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#version DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#version DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#version}
   */
   readonly version: string;
 }
@@ -8826,7 +8826,7 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecProviderA
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8922,67 +8922,67 @@ export interface DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpec {
   /**
   * Application Plans Map: system_name -> Application Plan Spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#application_plans DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#application_plans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#application_plans DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#application_plans}
   */
   readonly applicationPlans?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecApplicationPlans;
   /**
   * Backend usage will be a map of Map: system_name -> BackendUsageSpec Having system_name as the index, the structure ensures one backend is not used multiple times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#backend_usages DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#backend_usages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#backend_usages DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#backend_usages}
   */
   readonly backendUsages?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecBackendUsages;
   /**
   * Deployment defined 3scale product deployment mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#deployment DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#deployment DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#deployment}
   */
   readonly deployment?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecDeployment;
   /**
   * Description is a human readable text of the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#description DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#description DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
   * Mapping Rules Array: MappingRule Spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#mapping_rules DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#mapping_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#mapping_rules DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#mapping_rules}
   */
   readonly mappingRules?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecMappingRules[] | cdktf.IResolvable;
   /**
   * Methods Map: system_name -> MethodSpec system_name attr is unique for all metrics AND methods In other words, if metric's system_name is A, there is no metric or method with system_name A.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#methods DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#methods DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#methods}
   */
   readonly methods?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecMethods;
   /**
   * Metrics Map: system_name -> MetricSpec system_name attr is unique for all metrics AND methods In other words, if metric's system_name is A, there is no metric or method with system_name A.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#metrics DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#metrics DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#metrics}
   */
   readonly metrics?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecMetrics;
   /**
   * Name is human readable name for the product
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Policies holds the product's policy chain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#policies DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#policies DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#policies}
   */
   readonly policies?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecPolicies[] | cdktf.IResolvable;
   /**
   * ProviderAccountRef references account provider credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#provider_account_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#provider_account_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#provider_account_ref DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#provider_account_ref}
   */
   readonly providerAccountRef?: DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecProviderAccountRef;
   /**
   * SystemName identifies uniquely the product within the account provider Default value will be sanitized Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#system_name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#system_name DataK8SCapabilities3ScaleNetProductV1Beta1Manifest#system_name}
   */
   readonly systemName?: string;
 }
@@ -9363,7 +9363,7 @@ export class DataK8SCapabilities3ScaleNetProductV1Beta1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest k8s_capabilities_3scale_net_product_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest k8s_capabilities_3scale_net_product_v1beta1_manifest}
 */
 export class DataK8SCapabilities3ScaleNetProductV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -9379,7 +9379,7 @@ export class DataK8SCapabilities3ScaleNetProductV1Beta1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SCapabilities3ScaleNetProductV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCapabilities3ScaleNetProductV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCapabilities3ScaleNetProductV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCapabilities3ScaleNetProductV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9391,7 +9391,7 @@ export class DataK8SCapabilities3ScaleNetProductV1Beta1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest k8s_capabilities_3scale_net_product_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_product_v1beta1_manifest k8s_capabilities_3scale_net_product_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9402,8 +9402,8 @@ export class DataK8SCapabilities3ScaleNetProductV1Beta1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_capabilities_3scale_net_product_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

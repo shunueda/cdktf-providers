@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#metadata DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#metadata DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestMetadata;
   /**
   * CompositionRevisionSpec specifies the desired state of the composition revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#spec DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#spec DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#annotations DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#annotations DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#labels DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#labels DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * APIVersion of the type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#api_version DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#api_version DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Kind of the type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#kind DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#kind DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#kind}
   */
   readonly kind: string;
 }
@@ -312,7 +312,7 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Format the input using a Go format string. See https://golang.org/pkg/fmt/ for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fmt DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fmt DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fmt}
   */
   readonly fmt: string;
 }
@@ -405,7 +405,7 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * FromFieldPath is the path of the field on the source whose value is to be used as input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
   */
   readonly fromFieldPath: string;
 }
@@ -520,19 +520,19 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Strategy defines the strategy to use to combine the input variable values. Currently only string is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#strategy DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#strategy DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#strategy}
   */
   readonly strategy: string;
   /**
   * String declares that input variables should be combined into a single string, using the relevant settings for formatting purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#string DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#string DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#string}
   */
   readonly string?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatchesCombineString;
   /**
   * Variables are the list of variables whose values will be retrieved and combined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#variables DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#variables DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#variables}
   */
   readonly variables: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatchesCombineVariables[] | cdktf.IResolvable;
 }
@@ -680,13 +680,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Specifies that already existing elements in a merged slice should be preserved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#append_slice DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#append_slice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#append_slice DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#append_slice}
   */
   readonly appendSlice?: boolean | cdktf.IResolvable;
   /**
   * Specifies that already existing values in a merged map should be preserved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#keep_map_values DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#keep_map_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#keep_map_values DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#keep_map_values}
   */
   readonly keepMapValues?: boolean | cdktf.IResolvable;
 }
@@ -811,13 +811,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * FromFieldPath specifies how to patch from a field path. The default is 'Optional', which means the patch will be a no-op if the specified fromFieldPath does not exist. Use 'Required' if the patch should fail if the specified path does not exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
   */
   readonly fromFieldPath?: string;
   /**
   * MergeOptions Specifies merge options on a field path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#merge_options DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#merge_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#merge_options DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#merge_options}
   */
   readonly mergeOptions?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatchesPolicyMergeOptions;
 }
@@ -942,13 +942,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * The expected input format. * 'quantity' - parses the input as a K8s ['resource.Quantity'](https://pkg.go.dev/k8s.io/apimachinery/pkg/api/resource#Quantity). Only used during 'string -> float64' conversions. * 'json' - parses the input as a JSON string. Only used during 'string -> object' or 'string -> list' conversions. If this property is null, the default conversion is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#format DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#format DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#format}
   */
   readonly format?: string;
   /**
   * ToType is the type of the output of this transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#to_type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#to_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#to_type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#to_type}
   */
   readonly toType: string;
 }
@@ -1070,25 +1070,25 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Literal exactly matches the input string (case sensitive). Is required if 'type' is 'literal'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#literal DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#literal DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#literal}
   */
   readonly literal?: string;
   /**
   * Regexp to match against the input string. Is required if 'type' is 'regexp'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#regexp DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#regexp DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#regexp}
   */
   readonly regexp?: string;
   /**
   * The value that is used as result of the transform if the pattern matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#result DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#result DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#result}
   */
   readonly result: { [key: string]: string };
   /**
   * Type specifies how the pattern matches the input. * 'literal' - the pattern value has to exactly match (case sensitive) the input string. This is the default. * 'regexp' - the pattern treated as a regular expression against which the input string is tested. Crossplane will throw an error if the key is not a valid regexp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -1287,19 +1287,19 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Determines to what value the transform should fallback if no pattern matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fallback_to DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fallback_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fallback_to DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fallback_to}
   */
   readonly fallbackTo?: string;
   /**
   * The fallback value that should be returned by the transform if now pattern matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fallback_value DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fallback_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fallback_value DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fallback_value}
   */
   readonly fallbackValue?: { [key: string]: string };
   /**
   * The patterns that should be tested against the input string. Patterns are tested in order. The value of the first match is used as result of this transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patterns DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patterns DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patterns}
   */
   readonly patterns?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatchesTransformsMatchPatterns[] | cdktf.IResolvable;
 }
@@ -1453,25 +1453,25 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * ClampMax makes sure that the value is not bigger than the given value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#clamp_max DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#clamp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#clamp_max DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#clamp_max}
   */
   readonly clampMax?: number;
   /**
   * ClampMin makes sure that the value is not smaller than the given value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#clamp_min DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#clamp_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#clamp_min DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#clamp_min}
   */
   readonly clampMin?: number;
   /**
   * Multiply the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#multiply DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#multiply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#multiply DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#multiply}
   */
   readonly multiply?: number;
   /**
   * Type of the math transform to be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1654,7 +1654,7 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Separator defines the character that should separate the values from each other in the joined string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#separator DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#separator DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#separator}
   */
   readonly separator: string;
 }
@@ -1747,13 +1747,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Group number to match. 0 (the default) matches the entire expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#group DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#group DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#group}
   */
   readonly group?: number;
   /**
   * Match string. May optionally include submatches, aka capture groups. See https://pkg.go.dev/regexp/ for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match}
   */
   readonly match: string;
 }
@@ -1875,37 +1875,37 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Optional conversion method to be specified. 'ToUpper' and 'ToLower' change the letter case of the input string. 'ToBase64' and 'FromBase64' perform a base64 conversion based on the input string. 'ToJson' converts any input value into its raw JSON representation. 'ToSha1', 'ToSha256' and 'ToSha512' generate a hash value based on the input converted to JSON. 'ToAdler32' generate a addler32 hash based on the input string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#convert DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#convert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#convert DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#convert}
   */
   readonly convert?: string;
   /**
   * Format the input using a Go format string. See https://golang.org/pkg/fmt/ for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fmt DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fmt DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fmt}
   */
   readonly fmt?: string;
   /**
   * Join defines parameters to join a slice of values to a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#join DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#join DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#join}
   */
   readonly join?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatchesTransformsStringJoin;
   /**
   * Extract a match from the input using a regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#regexp DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#regexp DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#regexp}
   */
   readonly regexp?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatchesTransformsStringRegexp;
   /**
   * Trim the prefix or suffix from the input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#trim DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#trim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#trim DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#trim}
   */
   readonly trim?: string;
   /**
   * Type of the string transform to be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2146,37 +2146,37 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Convert is used to cast the input into the given output type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#convert DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#convert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#convert DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#convert}
   */
   readonly convert?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatchesTransformsConvert;
   /**
   * Map uses the input as a key in the given map and returns the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#map DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#map DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#map}
   */
   readonly map?: { [key: string]: string };
   /**
   * Match is a more complex version of Map that matches a list of patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match}
   */
   readonly match?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatchesTransformsMatch;
   /**
   * Math is used to transform the input via mathematical operations such as multiplication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#math DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#math}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#math DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#math}
   */
   readonly math?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatchesTransformsMath;
   /**
   * String is used to transform the input into a string or a different kind of string. Note that the input does not necessarily need to be a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#string DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#string DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#string}
   */
   readonly string?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatchesTransformsString;
   /**
   * Type of the transform to be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -2436,43 +2436,43 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Combine is the patch configuration for a CombineFromComposite or CombineToComposite patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#combine DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#combine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#combine DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#combine}
   */
   readonly combine?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatchesCombine;
   /**
   * FromFieldPath is the path of the field on the resource whose value is to be used as input. Required when type is FromCompositeFieldPath or ToCompositeFieldPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
   */
   readonly fromFieldPath?: string;
   /**
   * PatchSetName to include patches from. Required when type is PatchSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patch_set_name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patch_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patch_set_name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patch_set_name}
   */
   readonly patchSetName?: string;
   /**
   * Policy configures the specifics of patching behaviour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#policy DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#policy DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#policy}
   */
   readonly policy?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatchesPolicy;
   /**
   * ToFieldPath is the path of the field on the resource whose value will be changed with the result of transforms. Leave empty if you'd like to propagate to the same path as fromFieldPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#to_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#to_field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#to_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#to_field_path}
   */
   readonly toFieldPath?: string;
   /**
   * Transforms are the list of functions that are used as a FIFO pipe for the input to be transformed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#transforms DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#transforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#transforms DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#transforms}
   */
   readonly transforms?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatchesTransforms[] | cdktf.IResolvable;
   /**
   * Type sets the patching behaviour to be used. Each patch type may require its own fields to be set on the Patch object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2764,13 +2764,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Name of this PatchSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Patches will be applied as an overlay to the base resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patches DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patches DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patches}
   */
   readonly patches: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSetsPatches[] | cdktf.IResolvable;
 }
@@ -2911,13 +2911,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#namespace DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#namespace DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -3036,19 +3036,19 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Name of this set of credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * A SecretRef is a reference to a secret containing credentials that should be supplied to the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#secret_ref DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#secret_ref DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPipelineCredentialsSecretRef;
   /**
   * Source of the function credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#source DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#source DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#source}
   */
   readonly source: string;
 }
@@ -3218,7 +3218,7 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Name of the referenced Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -3311,25 +3311,25 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Credentials are optional credentials that the Composition Function needs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#credentials DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#credentials DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#credentials}
   */
   readonly credentials?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPipelineCredentials[] | cdktf.IResolvable;
   /**
   * FunctionRef is a reference to the Composition Function this step should execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#function_ref DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#function_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#function_ref DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#function_ref}
   */
   readonly functionRef: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPipelineFunctionRef;
   /**
   * Input is an optional, arbitrary Kubernetes resource (i.e. a resource with an apiVersion and kind) that will be passed to the Composition Function as the 'input' of its RunFunctionRequest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#input DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#input DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#input}
   */
   readonly input?: { [key: string]: string };
   /**
   * Step name. Must be unique within its Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#step DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#step DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#step}
   */
   readonly step: string;
 }
@@ -3528,7 +3528,7 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Name of the referenced StoreConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -3621,31 +3621,31 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * FromConnectionSecretKey is the key that will be used to fetch the value from the composed resource's connection secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_connection_secret_key DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_connection_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_connection_secret_key DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_connection_secret_key}
   */
   readonly fromConnectionSecretKey?: string;
   /**
   * FromFieldPath is the path of the field on the composed resource whose value to be used as input. Name must be specified if the type is FromFieldPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
   */
   readonly fromFieldPath?: string;
   /**
   * Name of the connection secret key that will be propagated to the connection secret of the composition instance. Leave empty if you'd like to use the same key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Type sets the connection detail fetching behaviour to be used. Each connection detail type may require its own fields to be set on the ConnectionDetail object. If the type is omitted Crossplane will attempt to infer it based on which other fields were specified. If multiple fields are specified the order of precedence is: 1. FromValue 2. FromConnectionSecretKey 3. FromFieldPath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
   * Value that will be propagated to the connection secret of the composite resource. May be set to inject a fixed, non-sensitive connection secret value, for example a well-known port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#value DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#value DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3879,7 +3879,7 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Format the input using a Go format string. See https://golang.org/pkg/fmt/ for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fmt DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fmt DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fmt}
   */
   readonly fmt: string;
 }
@@ -3972,7 +3972,7 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * FromFieldPath is the path of the field on the source whose value is to be used as input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
   */
   readonly fromFieldPath: string;
 }
@@ -4087,19 +4087,19 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Strategy defines the strategy to use to combine the input variable values. Currently only string is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#strategy DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#strategy DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#strategy}
   */
   readonly strategy: string;
   /**
   * String declares that input variables should be combined into a single string, using the relevant settings for formatting purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#string DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#string DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#string}
   */
   readonly string?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatchesCombineString;
   /**
   * Variables are the list of variables whose values will be retrieved and combined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#variables DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#variables DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#variables}
   */
   readonly variables: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatchesCombineVariables[] | cdktf.IResolvable;
 }
@@ -4247,13 +4247,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Specifies that already existing elements in a merged slice should be preserved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#append_slice DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#append_slice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#append_slice DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#append_slice}
   */
   readonly appendSlice?: boolean | cdktf.IResolvable;
   /**
   * Specifies that already existing values in a merged map should be preserved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#keep_map_values DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#keep_map_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#keep_map_values DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#keep_map_values}
   */
   readonly keepMapValues?: boolean | cdktf.IResolvable;
 }
@@ -4378,13 +4378,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * FromFieldPath specifies how to patch from a field path. The default is 'Optional', which means the patch will be a no-op if the specified fromFieldPath does not exist. Use 'Required' if the patch should fail if the specified path does not exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
   */
   readonly fromFieldPath?: string;
   /**
   * MergeOptions Specifies merge options on a field path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#merge_options DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#merge_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#merge_options DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#merge_options}
   */
   readonly mergeOptions?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatchesPolicyMergeOptions;
 }
@@ -4509,13 +4509,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * The expected input format. * 'quantity' - parses the input as a K8s ['resource.Quantity'](https://pkg.go.dev/k8s.io/apimachinery/pkg/api/resource#Quantity). Only used during 'string -> float64' conversions. * 'json' - parses the input as a JSON string. Only used during 'string -> object' or 'string -> list' conversions. If this property is null, the default conversion is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#format DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#format DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#format}
   */
   readonly format?: string;
   /**
   * ToType is the type of the output of this transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#to_type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#to_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#to_type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#to_type}
   */
   readonly toType: string;
 }
@@ -4637,25 +4637,25 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Literal exactly matches the input string (case sensitive). Is required if 'type' is 'literal'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#literal DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#literal DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#literal}
   */
   readonly literal?: string;
   /**
   * Regexp to match against the input string. Is required if 'type' is 'regexp'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#regexp DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#regexp DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#regexp}
   */
   readonly regexp?: string;
   /**
   * The value that is used as result of the transform if the pattern matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#result DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#result DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#result}
   */
   readonly result: { [key: string]: string };
   /**
   * Type specifies how the pattern matches the input. * 'literal' - the pattern value has to exactly match (case sensitive) the input string. This is the default. * 'regexp' - the pattern treated as a regular expression against which the input string is tested. Crossplane will throw an error if the key is not a valid regexp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -4854,19 +4854,19 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Determines to what value the transform should fallback if no pattern matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fallback_to DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fallback_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fallback_to DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fallback_to}
   */
   readonly fallbackTo?: string;
   /**
   * The fallback value that should be returned by the transform if now pattern matches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fallback_value DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fallback_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fallback_value DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fallback_value}
   */
   readonly fallbackValue?: { [key: string]: string };
   /**
   * The patterns that should be tested against the input string. Patterns are tested in order. The value of the first match is used as result of this transform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patterns DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patterns DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patterns}
   */
   readonly patterns?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatchesTransformsMatchPatterns[] | cdktf.IResolvable;
 }
@@ -5020,25 +5020,25 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * ClampMax makes sure that the value is not bigger than the given value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#clamp_max DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#clamp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#clamp_max DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#clamp_max}
   */
   readonly clampMax?: number;
   /**
   * ClampMin makes sure that the value is not smaller than the given value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#clamp_min DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#clamp_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#clamp_min DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#clamp_min}
   */
   readonly clampMin?: number;
   /**
   * Multiply the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#multiply DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#multiply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#multiply DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#multiply}
   */
   readonly multiply?: number;
   /**
   * Type of the math transform to be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -5221,7 +5221,7 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Separator defines the character that should separate the values from each other in the joined string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#separator DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#separator DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#separator}
   */
   readonly separator: string;
 }
@@ -5314,13 +5314,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Group number to match. 0 (the default) matches the entire expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#group DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#group DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#group}
   */
   readonly group?: number;
   /**
   * Match string. May optionally include submatches, aka capture groups. See https://pkg.go.dev/regexp/ for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match}
   */
   readonly match: string;
 }
@@ -5442,37 +5442,37 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Optional conversion method to be specified. 'ToUpper' and 'ToLower' change the letter case of the input string. 'ToBase64' and 'FromBase64' perform a base64 conversion based on the input string. 'ToJson' converts any input value into its raw JSON representation. 'ToSha1', 'ToSha256' and 'ToSha512' generate a hash value based on the input converted to JSON. 'ToAdler32' generate a addler32 hash based on the input string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#convert DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#convert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#convert DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#convert}
   */
   readonly convert?: string;
   /**
   * Format the input using a Go format string. See https://golang.org/pkg/fmt/ for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fmt DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#fmt DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#fmt}
   */
   readonly fmt?: string;
   /**
   * Join defines parameters to join a slice of values to a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#join DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#join DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#join}
   */
   readonly join?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatchesTransformsStringJoin;
   /**
   * Extract a match from the input using a regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#regexp DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#regexp DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#regexp}
   */
   readonly regexp?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatchesTransformsStringRegexp;
   /**
   * Trim the prefix or suffix from the input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#trim DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#trim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#trim DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#trim}
   */
   readonly trim?: string;
   /**
   * Type of the string transform to be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -5713,37 +5713,37 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Convert is used to cast the input into the given output type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#convert DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#convert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#convert DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#convert}
   */
   readonly convert?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatchesTransformsConvert;
   /**
   * Map uses the input as a key in the given map and returns the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#map DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#map DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#map}
   */
   readonly map?: { [key: string]: string };
   /**
   * Match is a more complex version of Map that matches a list of patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match}
   */
   readonly match?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatchesTransformsMatch;
   /**
   * Math is used to transform the input via mathematical operations such as multiplication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#math DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#math}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#math DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#math}
   */
   readonly math?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatchesTransformsMath;
   /**
   * String is used to transform the input into a string or a different kind of string. Note that the input does not necessarily need to be a string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#string DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#string DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#string}
   */
   readonly string?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatchesTransformsString;
   /**
   * Type of the transform to be run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -6003,43 +6003,43 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Combine is the patch configuration for a CombineFromComposite or CombineToComposite patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#combine DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#combine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#combine DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#combine}
   */
   readonly combine?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatchesCombine;
   /**
   * FromFieldPath is the path of the field on the resource whose value is to be used as input. Required when type is FromCompositeFieldPath or ToCompositeFieldPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#from_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#from_field_path}
   */
   readonly fromFieldPath?: string;
   /**
   * PatchSetName to include patches from. Required when type is PatchSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patch_set_name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patch_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patch_set_name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patch_set_name}
   */
   readonly patchSetName?: string;
   /**
   * Policy configures the specifics of patching behaviour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#policy DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#policy DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#policy}
   */
   readonly policy?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatchesPolicy;
   /**
   * ToFieldPath is the path of the field on the resource whose value will be changed with the result of transforms. Leave empty if you'd like to propagate to the same path as fromFieldPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#to_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#to_field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#to_field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#to_field_path}
   */
   readonly toFieldPath?: string;
   /**
   * Transforms are the list of functions that are used as a FIFO pipe for the input to be transformed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#transforms DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#transforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#transforms DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#transforms}
   */
   readonly transforms?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatchesTransforms[] | cdktf.IResolvable;
   /**
   * Type sets the patching behaviour to be used. Each patch type may require its own fields to be set on the Patch object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -6331,13 +6331,13 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Status is the status of the condition you'd like to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#status DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#status DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#status}
   */
   readonly status: string;
   /**
   * Type indicates the type of condition you'd like to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -6456,31 +6456,31 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * FieldPath shows the path of the field whose value will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#field_path DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * MatchCondition specifies the condition you'd like to match if you're using 'MatchCondition' type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match_condition DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match_condition DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match_condition}
   */
   readonly matchCondition?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesReadinessChecksMatchCondition;
   /**
   * MatchInt is the value you'd like to match if you're using 'MatchInt' type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match_integer DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match_integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match_integer DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match_integer}
   */
   readonly matchInteger?: number;
   /**
   * MatchString is the value you'd like to match if you're using 'MatchString' type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match_string DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#match_string DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#match_string}
   */
   readonly matchString?: string;
   /**
   * Type indicates the type of probe you'd like to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#type DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -6711,31 +6711,31 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * Base is the target resource that the patches will be applied on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#base DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#base DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#base}
   */
   readonly base: { [key: string]: string };
   /**
   * ConnectionDetails lists the propagation secret keys from this target resource to the composition instance connection secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#connection_details DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#connection_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#connection_details DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#connection_details}
   */
   readonly connectionDetails?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesConnectionDetails[] | cdktf.IResolvable;
   /**
   * A Name uniquely identifies this entry within its Composition's resources array. Names are optional but *strongly* recommended. When all entries in the resources array are named entries may added, deleted, and reordered as long as their names do not change. When entries are not named the length and order of the resources array should be treated as immutable. Either all or no entries must be named.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#name DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Patches will be applied as overlay to the base resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patches DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patches DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patches}
   */
   readonly patches?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesPatches[] | cdktf.IResolvable;
   /**
   * ReadinessChecks allows users to define custom readiness checks. All checks have to return true in order for resource to be considered ready. The default readiness check is to have the 'Ready' condition to be 'True'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#readiness_checks DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#readiness_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#readiness_checks DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#readiness_checks}
   */
   readonly readinessChecks?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResourcesReadinessChecks[] | cdktf.IResolvable;
 }
@@ -6966,49 +6966,49 @@ export interface DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manif
   /**
   * CompositeTypeRef specifies the type of composite resource that this composition is compatible with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#composite_type_ref DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#composite_type_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#composite_type_ref DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#composite_type_ref}
   */
   readonly compositeTypeRef: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecCompositeTypeRef;
   /**
   * Mode controls what type or 'mode' of Composition will be used. 'Pipeline' indicates that a Composition specifies a pipeline of Composition Functions, each of which is responsible for producing composed resources that Crossplane should create or update. 'Resources' indicates that a Composition uses what is commonly referred to as 'Patch & Transform' or P&T composition. This mode of Composition uses an array of resources, each a template for a composed resource. All Compositions should use Pipeline mode. Resources mode is deprecated. Resources mode won't be removed in Crossplane 1.x, and will remain the default to avoid breaking legacy Compositions. However, it's no longer accepting new features, and only accepting security related bug fixes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#mode DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#mode DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * PatchSets define a named set of patches that may be included by any resource in this Composition. PatchSets cannot themselves refer to other PatchSets. PatchSets are only used by the 'Resources' mode of Composition. They are ignored by other modes. Deprecated: Use Composition Functions instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patch_sets DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patch_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#patch_sets DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#patch_sets}
   */
   readonly patchSets?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPatchSets[] | cdktf.IResolvable;
   /**
   * Pipeline is a list of composition function steps that will be used when a composite resource referring to this composition is created. One of resources and pipeline must be specified - you cannot specify both. The Pipeline is only used by the 'Pipeline' mode of Composition. It is ignored by other modes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#pipeline DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#pipeline DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#pipeline}
   */
   readonly pipeline?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPipeline[] | cdktf.IResolvable;
   /**
   * PublishConnectionDetailsWithStoreConfig specifies the secret store config with which the connection details of composite resources dynamically provisioned using this composition will be published. THIS IS AN ALPHA FIELD. Do not use it in production. It is not honored unless the relevant Crossplane feature flag is enabled, and may be changed or removed without notice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#publish_connection_details_with_store_config_ref DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#publish_connection_details_with_store_config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#publish_connection_details_with_store_config_ref DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#publish_connection_details_with_store_config_ref}
   */
   readonly publishConnectionDetailsWithStoreConfigRef?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecPublishConnectionDetailsWithStoreConfigRef;
   /**
   * Resources is a list of resource templates that will be used when a composite resource referring to this composition is created. Resources are only used by the 'Resources' mode of Composition. They are ignored by other modes. Deprecated: Use Composition Functions instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#resources DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#resources DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestSpecResources[] | cdktf.IResolvable;
   /**
   * Revision number. Newer revisions have larger numbers. This number can change. When a Composition transitions from state A -> B -> A there will be only two CompositionRevisions. Crossplane will edit the original CompositionRevision to change its revision number from 0 to 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#revision DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#revision DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#revision}
   */
   readonly revision: number;
   /**
   * WriteConnectionSecretsToNamespace specifies the namespace in which the connection secrets of composite resource dynamically provisioned using this composition will be created. This field is planned to be replaced in a future release in favor of PublishConnectionDetailsWithStoreConfigRef. Currently, both could be set independently and connection details would be published to both without affecting each other as long as related fields at MR level specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#write_connection_secrets_to_namespace DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#write_connection_secrets_to_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#write_connection_secrets_to_namespace DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest#write_connection_secrets_to_namespace}
   */
   readonly writeConnectionSecretsToNamespace?: string;
 }
@@ -7299,7 +7299,7 @@ export class DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1ManifestS
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest k8s_apiextensions_crossplane_io_composition_revision_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest k8s_apiextensions_crossplane_io_composition_revision_v1beta1_manifest}
 */
 export class DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -7315,7 +7315,7 @@ export class DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest 
   * Generates CDKTF code for importing a DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7327,7 +7327,7 @@ export class DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest k8s_apiextensions_crossplane_io_composition_revision_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apiextensions_crossplane_io_composition_revision_v1beta1_manifest k8s_apiextensions_crossplane_io_composition_revision_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7338,8 +7338,8 @@ export class DataK8SApiextensionsCrossplaneIoCompositionRevisionV1Beta1Manifest 
       terraformResourceType: 'k8s_apiextensions_crossplane_io_composition_revision_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

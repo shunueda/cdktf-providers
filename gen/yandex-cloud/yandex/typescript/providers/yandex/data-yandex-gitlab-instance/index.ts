@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/gitlab_instance
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/gitlab_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataYandexGitlabInstanceConfig extends cdktf.TerraformMetaArgum
   /**
   * Approval rules configuration. One of: NONE, BASIC, STANDARD, ADVANCED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/gitlab_instance#approval_rules_id DataYandexGitlabInstance#approval_rules_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/gitlab_instance#approval_rules_id DataYandexGitlabInstance#approval_rules_id}
   */
   readonly approvalRulesId?: string;
   /**
   * Approval rules token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/gitlab_instance#approval_rules_token DataYandexGitlabInstance#approval_rules_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/gitlab_instance#approval_rules_token DataYandexGitlabInstance#approval_rules_token}
   */
   readonly approvalRulesToken?: string;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/gitlab_instance#deletion_protection DataYandexGitlabInstance#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/gitlab_instance#deletion_protection DataYandexGitlabInstance#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/gitlab_instance#description DataYandexGitlabInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/gitlab_instance#description DataYandexGitlabInstance#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/gitlab_instance#folder_id DataYandexGitlabInstance#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/gitlab_instance#folder_id DataYandexGitlabInstance#folder_id}
   */
   readonly folderId?: string;
   /**
   * The resource identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/gitlab_instance#id DataYandexGitlabInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/gitlab_instance#id DataYandexGitlabInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,19 +49,19 @@ export interface DataYandexGitlabInstanceConfig extends cdktf.TerraformMetaArgum
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/gitlab_instance#labels DataYandexGitlabInstance#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/gitlab_instance#labels DataYandexGitlabInstance#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The `true` value means that untagged images will be deleted during maintenance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/gitlab_instance#maintenance_delete_untagged DataYandexGitlabInstance#maintenance_delete_untagged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/gitlab_instance#maintenance_delete_untagged DataYandexGitlabInstance#maintenance_delete_untagged}
   */
   readonly maintenanceDeleteUntagged?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/gitlab_instance#timeouts DataYandexGitlabInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/gitlab_instance#timeouts DataYandexGitlabInstance#timeouts}
   */
   readonly timeouts?: DataYandexGitlabInstanceTimeouts;
 }
@@ -126,7 +126,7 @@ export class DataYandexGitlabInstanceTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/gitlab_instance yandex_gitlab_instance}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/gitlab_instance yandex_gitlab_instance}
 */
 export class DataYandexGitlabInstance extends cdktf.TerraformDataSource {
 
@@ -142,7 +142,7 @@ export class DataYandexGitlabInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexGitlabInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexGitlabInstance to import
-  * @param importFromId The id of the existing DataYandexGitlabInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/gitlab_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexGitlabInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/gitlab_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexGitlabInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -154,7 +154,7 @@ export class DataYandexGitlabInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/gitlab_instance yandex_gitlab_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/gitlab_instance yandex_gitlab_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -165,8 +165,8 @@ export class DataYandexGitlabInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_gitlab_instance',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

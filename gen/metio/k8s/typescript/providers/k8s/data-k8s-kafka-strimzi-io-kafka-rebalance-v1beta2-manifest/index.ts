@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#metadata DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2ManifestMetadata;
   /**
   * The specification of the Kafka rebalance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#spec DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#spec DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#annotations DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#labels DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#name DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#namespace DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#namespace DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,67 +219,67 @@ export interface DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2ManifestSpec {
   /**
   * The list of newly added brokers in case of scaling up or the ones to be removed in case of scaling down to use for rebalancing. This list can be used only with rebalancing mode 'add-brokers' and 'removed-brokers'. It is ignored with 'full' mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#brokers DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#brokers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#brokers DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#brokers}
   */
   readonly brokers?: string[];
   /**
   * The upper bound of ongoing partition replica movements between disks within each broker. Default is 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#concurrent_intra_broker_partition_movements DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#concurrent_intra_broker_partition_movements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#concurrent_intra_broker_partition_movements DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#concurrent_intra_broker_partition_movements}
   */
   readonly concurrentIntraBrokerPartitionMovements?: number;
   /**
   * The upper bound of ongoing partition leadership movements. Default is 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#concurrent_leader_movements DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#concurrent_leader_movements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#concurrent_leader_movements DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#concurrent_leader_movements}
   */
   readonly concurrentLeaderMovements?: number;
   /**
   * The upper bound of ongoing partition replica movements going into/out of each broker. Default is 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#concurrent_partition_movements_per_broker DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#concurrent_partition_movements_per_broker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#concurrent_partition_movements_per_broker DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#concurrent_partition_movements_per_broker}
   */
   readonly concurrentPartitionMovementsPerBroker?: number;
   /**
   * A regular expression where any matching topics will be excluded from the calculation of optimization proposals. This expression will be parsed by the java.util.regex.Pattern class; for more information on the supported format consult the documentation for that class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#excluded_topics DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#excluded_topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#excluded_topics DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#excluded_topics}
   */
   readonly excludedTopics?: string;
   /**
   * A list of goals, ordered by decreasing priority, to use for generating and executing the rebalance proposal. The supported goals are available at https://github.com/linkedin/cruise-control#goals. If an empty goals list is provided, the goals declared in the default.goals Cruise Control configuration parameter are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#goals DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#goals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#goals DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#goals}
   */
   readonly goals?: string[];
   /**
   * Mode to run the rebalancing. The supported modes are 'full', 'add-brokers', 'remove-brokers'. If not specified, the 'full' mode is used by default. * 'full' mode runs the rebalancing across all the brokers in the cluster. * 'add-brokers' mode can be used after scaling up the cluster to move some replicas to the newly added brokers. * 'remove-brokers' mode can be used before scaling down the cluster to move replicas out of the brokers to be removed. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#mode DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#mode DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Enables intra-broker disk balancing, which balances disk space utilization between disks on the same broker. Only applies to Kafka deployments that use JBOD storage with multiple disks. When enabled, inter-broker balancing is disabled. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#rebalance_disk DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#rebalance_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#rebalance_disk DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#rebalance_disk}
   */
   readonly rebalanceDisk?: boolean | cdktf.IResolvable;
   /**
   * A list of strategy class names used to determine the execution order for the replica movements in the generated optimization proposal. By default BaseReplicaMovementStrategy is used, which will execute the replica movements in the order that they were generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#replica_movement_strategies DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#replica_movement_strategies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#replica_movement_strategies DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#replica_movement_strategies}
   */
   readonly replicaMovementStrategies?: string[];
   /**
   * The upper bound, in bytes per second, on the bandwidth used to move replicas. There is no limit by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#replication_throttle DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#replication_throttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#replication_throttle DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#replication_throttle}
   */
   readonly replicationThrottle?: number;
   /**
   * Whether to allow the hard goals specified in the Kafka CR to be skipped in optimization proposal generation. This can be useful when some of those hard goals are preventing a balance solution being found. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#skip_hard_goal_check DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#skip_hard_goal_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#skip_hard_goal_check DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest#skip_hard_goal_check}
   */
   readonly skipHardGoalCheck?: boolean | cdktf.IResolvable;
 }
@@ -663,7 +663,7 @@ export class DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest k8s_kafka_strimzi_io_kafka_rebalance_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest k8s_kafka_strimzi_io_kafka_rebalance_v1beta2_manifest}
 */
 export class DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -679,7 +679,7 @@ export class DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -691,7 +691,7 @@ export class DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest k8s_kafka_strimzi_io_kafka_rebalance_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_rebalance_v1beta2_manifest k8s_kafka_strimzi_io_kafka_rebalance_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -702,8 +702,8 @@ export class DataK8SKafkaStrimziIoKafkaRebalanceV1Beta2Manifest extends cdktf.Te
       terraformResourceType: 'k8s_kafka_strimzi_io_kafka_rebalance_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

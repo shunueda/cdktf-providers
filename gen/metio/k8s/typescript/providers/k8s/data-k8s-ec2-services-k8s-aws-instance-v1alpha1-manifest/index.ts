@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#metadata DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#metadata DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestMetadata;
   /**
   * InstanceSpec defines the desired state of Instance. Describes an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#spec DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#spec DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#annotations DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#annotations DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#labels DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#labels DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,39 +217,39 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestMetadataOutputRefer
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecBlockDeviceMappingsEbs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#delete_on_termination DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#delete_on_termination DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#encrypted DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#encrypted DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#iops DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#iops DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#kms_key_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#kms_key_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#outpost_arn DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#outpost_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#outpost_arn DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#outpost_arn}
   */
   readonly outpostArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#snapshot_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#snapshot_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#throughput DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#throughput DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#volume_size DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#volume_size DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#volume_size}
   */
   readonly volumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#volume_type DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#volume_type DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -575,21 +575,21 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecBlockDeviceMapp
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecBlockDeviceMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#device_name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#device_name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#device_name}
   */
   readonly deviceName?: string;
   /**
   * Describes a block device for an EBS volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ebs DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ebs DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ebs}
   */
   readonly ebs?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecBlockDeviceMappingsEbs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#no_device DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#no_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#no_device DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#no_device}
   */
   readonly noDevice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#virtual_name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#virtual_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#virtual_name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#virtual_name}
   */
   readonly virtualName?: string;
 }
@@ -792,11 +792,11 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecBlockDeviceMapp
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecCapacityReservationSpecificationCapacityReservationTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#capacity_reservation_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#capacity_reservation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#capacity_reservation_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#capacity_reservation_id}
   */
   readonly capacityReservationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#capacity_reservation_resource_group_arn DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#capacity_reservation_resource_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#capacity_reservation_resource_group_arn DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#capacity_reservation_resource_group_arn}
   */
   readonly capacityReservationResourceGroupArn?: string;
 }
@@ -919,13 +919,13 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecCapacityReserva
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecCapacityReservationSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#capacity_reservation_preference DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#capacity_reservation_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#capacity_reservation_preference DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#capacity_reservation_preference}
   */
   readonly capacityReservationPreference?: string;
   /**
   * Describes a target Capacity Reservation or Capacity Reservation group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#capacity_reservation_target DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#capacity_reservation_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#capacity_reservation_target DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#capacity_reservation_target}
   */
   readonly capacityReservationTarget?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecCapacityReservationSpecificationCapacityReservationTarget;
 }
@@ -1048,11 +1048,11 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecCapacityReserva
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecCpuOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#core_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#core_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#core_count}
   */
   readonly coreCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#threads_per_core DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#threads_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#threads_per_core DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#threads_per_core}
   */
   readonly threadsPerCore?: number;
 }
@@ -1175,7 +1175,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecCpuOptionsOutpu
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecCreditSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#cpu_credits DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#cpu_credits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#cpu_credits DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#cpu_credits}
   */
   readonly cpuCredits?: string;
 }
@@ -1269,7 +1269,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecCreditSpecifica
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecElasticGpuSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#type_ DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#type_ DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#type_}
   */
   readonly type?: string;
 }
@@ -1385,11 +1385,11 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecElasticGpuSpeci
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecElasticInferenceAccelerators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#type_ DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#type_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#type_ DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#type_}
   */
   readonly type?: string;
 }
@@ -1534,7 +1534,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecElasticInferenc
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecEnclaveOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#enabled DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#enabled DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1628,7 +1628,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecEnclaveOptionsO
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecHibernationOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#configured DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#configured DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#configured}
   */
   readonly configured?: boolean | cdktf.IResolvable;
 }
@@ -1722,11 +1722,11 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecHibernationOpti
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecIamInstanceProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#arn DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#arn DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1849,23 +1849,23 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecIamInstanceProf
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecInstanceMarketOptionsSpotOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#block_duration_minutes DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#block_duration_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#block_duration_minutes DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#block_duration_minutes}
   */
   readonly blockDurationMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#instance_interruption_behavior DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#instance_interruption_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#instance_interruption_behavior DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#instance_interruption_behavior}
   */
   readonly instanceInterruptionBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#max_price DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#max_price DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#max_price}
   */
   readonly maxPrice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#spot_instance_type DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#spot_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#spot_instance_type DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#spot_instance_type}
   */
   readonly spotInstanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#valid_until DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#valid_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#valid_until DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#valid_until}
   */
   readonly validUntil?: string;
 }
@@ -2075,13 +2075,13 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecInstanceMarketO
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecInstanceMarketOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#market_type DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#market_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#market_type DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#market_type}
   */
   readonly marketType?: string;
   /**
   * The options for Spot Instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#spot_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#spot_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#spot_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#spot_options}
   */
   readonly spotOptions?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecInstanceMarketOptionsSpotOptions;
 }
@@ -2204,7 +2204,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecInstanceMarketO
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecIpv6Addresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_address}
   */
   readonly ipv6Address?: string;
 }
@@ -2320,15 +2320,15 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecIpv6AddressesLi
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecLaunchTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#launch_template_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#launch_template_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#launch_template_id}
   */
   readonly launchTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#launch_template_name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#launch_template_name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#version DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#version DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -2480,7 +2480,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecLaunchTemplateO
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecLicenseSpecifications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#license_configuration_arn DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#license_configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#license_configuration_arn DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#license_configuration_arn}
   */
   readonly licenseConfigurationArn?: string;
 }
@@ -2596,7 +2596,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecLicenseSpecific
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecMaintenanceOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#auto_recovery DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#auto_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#auto_recovery DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#auto_recovery}
   */
   readonly autoRecovery?: string;
 }
@@ -2690,23 +2690,23 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecMaintenanceOpti
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecMetadataOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#http_endpoint DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#http_endpoint DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#http_endpoint}
   */
   readonly httpEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#http_protocol_i_pv6 DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#http_protocol_i_pv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#http_protocol_i_pv6 DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#http_protocol_i_pv6}
   */
   readonly httpProtocolIPv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#http_put_response_hop_limit DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#http_put_response_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#http_put_response_hop_limit DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#http_put_response_hop_limit}
   */
   readonly httpPutResponseHopLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#http_tokens DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#http_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#http_tokens DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#http_tokens}
   */
   readonly httpTokens?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#instance_metadata_tags DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#instance_metadata_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#instance_metadata_tags DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#instance_metadata_tags}
   */
   readonly instanceMetadataTags?: string;
 }
@@ -2916,7 +2916,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecMetadataOptions
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecMonitoring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#enabled DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#enabled DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3010,7 +3010,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecMonitoringOutpu
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfacesIpv4Prefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv4_prefix DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv4_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv4_prefix DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv4_prefix}
   */
   readonly ipv4Prefix?: string;
 }
@@ -3126,7 +3126,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfac
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfacesIpv6Addresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_address}
   */
   readonly ipv6Address?: string;
 }
@@ -3242,7 +3242,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfac
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfacesIpv6Prefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_prefix DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_prefix DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_prefix}
   */
   readonly ipv6Prefix?: string;
 }
@@ -3358,11 +3358,11 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfac
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfacesPrivateIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#primary DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#primary DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#private_ip_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#private_ip_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#private_ip_address}
   */
   readonly privateIpAddress?: string;
 }
@@ -3507,75 +3507,75 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfac
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#associate_carrier_ip_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#associate_carrier_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#associate_carrier_ip_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#associate_carrier_ip_address}
   */
   readonly associateCarrierIpAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#associate_public_ip_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#associate_public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#associate_public_ip_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#associate_public_ip_address}
   */
   readonly associatePublicIpAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#delete_on_termination DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#delete_on_termination DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#description DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#device_index DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#device_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#device_index DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#device_index}
   */
   readonly deviceIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#interface_type DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#interface_type DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#interface_type}
   */
   readonly interfaceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv4_prefix_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv4_prefix_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv4_prefix_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv4_prefix_count}
   */
   readonly ipv4PrefixCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv4_prefixes DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv4_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv4_prefixes DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv4_prefixes}
   */
   readonly ipv4Prefixes?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfacesIpv4Prefixes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_address_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_address_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_address_count}
   */
   readonly ipv6AddressCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_addresses DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_addresses DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_addresses}
   */
   readonly ipv6Addresses?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfacesIpv6Addresses[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_prefix_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_prefix_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_prefix_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_prefix_count}
   */
   readonly ipv6PrefixCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_prefixes DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_prefixes DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_prefixes}
   */
   readonly ipv6Prefixes?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfacesIpv6Prefixes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#network_card_index DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#network_card_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#network_card_index DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#network_card_index}
   */
   readonly networkCardIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#network_interface_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#network_interface_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#network_interface_id}
   */
   readonly networkInterfaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#private_ip_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#private_ip_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#private_ip_address}
   */
   readonly privateIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#private_ip_addresses DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#private_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#private_ip_addresses DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#private_ip_addresses}
   */
   readonly privateIpAddresses?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfacesPrivateIpAddresses[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#secondary_private_ip_address_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#secondary_private_ip_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#secondary_private_ip_address_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#secondary_private_ip_address_count}
   */
   readonly secondaryPrivateIpAddressCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#subnet_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#subnet_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -4184,35 +4184,35 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfac
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecPlacement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#affinity DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#affinity DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#affinity}
   */
   readonly affinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#availability_zone DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#availability_zone DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#group_name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#group_name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#host_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#host_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#host_id}
   */
   readonly hostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#host_resource_group_arn DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#host_resource_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#host_resource_group_arn DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#host_resource_group_arn}
   */
   readonly hostResourceGroupArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#partition_number DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#partition_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#partition_number DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#partition_number}
   */
   readonly partitionNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#spread_domain DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#spread_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#spread_domain DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#spread_domain}
   */
   readonly spreadDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#tenancy DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#tenancy DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#tenancy}
   */
   readonly tenancy?: string;
 }
@@ -4509,15 +4509,15 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecPlacementOutput
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecPrivateDnsNameOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#enable_resource_name_dnsa_record DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#enable_resource_name_dnsa_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#enable_resource_name_dnsa_record DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#enable_resource_name_dnsa_record}
   */
   readonly enableResourceNameDnsaRecord?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#enable_resource_name_dnsaaaa_record DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#enable_resource_name_dnsaaaa_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#enable_resource_name_dnsaaaa_record DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#enable_resource_name_dnsaaaa_record}
   */
   readonly enableResourceNameDnsaaaaRecord?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#hostname_type DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#hostname_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#hostname_type DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#hostname_type}
   */
   readonly hostnameType?: string;
 }
@@ -4669,11 +4669,11 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecPrivateDnsNameO
 }
 export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#key DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#key DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#value DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#value DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4820,223 +4820,223 @@ export interface DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpec {
   /**
   * The block device mapping, which defines the EBS volumes and instance store volumes to attach to the instance at launch. For more information, see Block device mappings (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/block-device-mapping-concepts.html) in the Amazon EC2 User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#block_device_mappings DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#block_device_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#block_device_mappings DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#block_device_mappings}
   */
   readonly blockDeviceMappings?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecBlockDeviceMappings[] | cdktf.IResolvable;
   /**
   * Information about the Capacity Reservation targeting option. If you do not specify this parameter, the instance's Capacity Reservation preference defaults to open, which enables it to run in any open Capacity Reservation that has matching attributes (instance type, platform, Availability Zone).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#capacity_reservation_specification DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#capacity_reservation_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#capacity_reservation_specification DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#capacity_reservation_specification}
   */
   readonly capacityReservationSpecification?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecCapacityReservationSpecification;
   /**
   * The CPU options for the instance. For more information, see Optimize CPU options (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-optimize-cpu.html) in the Amazon EC2 User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#cpu_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#cpu_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#cpu_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#cpu_options}
   */
   readonly cpuOptions?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecCpuOptions;
   /**
   * The credit option for CPU usage of the burstable performance instance. Valid values are standard and unlimited. To change this attribute after launch, use ModifyInstanceCreditSpecification (https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_ModifyInstanceCreditSpecification.html). For more information, see Burstable performance instances (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-performance-instances.html) in the Amazon EC2 User Guide. Default: standard (T2 instances) or unlimited (T3/T3a/T4g instances) For T3 instances with host tenancy, only standard is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#credit_specification DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#credit_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#credit_specification DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#credit_specification}
   */
   readonly creditSpecification?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecCreditSpecification;
   /**
   * Indicates whether an instance is enabled for stop protection. For more information, see Stop protection (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Stop_Start.html#Using_StopProtection).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#disable_api_stop DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#disable_api_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#disable_api_stop DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#disable_api_stop}
   */
   readonly disableApiStop?: boolean | cdktf.IResolvable;
   /**
   * If you set this parameter to true, you can't terminate the instance using the Amazon EC2 console, CLI, or API; otherwise, you can. To change this attribute after launch, use ModifyInstanceAttribute (https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_ModifyInstanceAttribute.html). Alternatively, if you set InstanceInitiatedShutdownBehavior to terminate, you can terminate the instance by running the shutdown command from the instance. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#disable_api_termination DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#disable_api_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#disable_api_termination DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#disable_api_termination}
   */
   readonly disableApiTermination?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether the instance is optimized for Amazon EBS I/O. This optimization provides dedicated throughput to Amazon EBS and an optimized configuration stack to provide optimal Amazon EBS I/O performance. This optimization isn't available with all instance types. Additional usage charges apply when using an EBS-optimized instance. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ebs_optimized DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ebs_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ebs_optimized DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ebs_optimized}
   */
   readonly ebsOptimized?: boolean | cdktf.IResolvable;
   /**
   * An elastic GPU to associate with the instance. An Elastic GPU is a GPU resource that you can attach to your Windows instance to accelerate the graphics performance of your applications. For more information, see Amazon EC2 Elastic GPUs (https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/elastic-graphics.html) in the Amazon EC2 User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#elastic_gpu_specification DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#elastic_gpu_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#elastic_gpu_specification DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#elastic_gpu_specification}
   */
   readonly elasticGpuSpecification?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecElasticGpuSpecification[] | cdktf.IResolvable;
   /**
   * An elastic inference accelerator to associate with the instance. Elastic inference accelerators are a resource you can attach to your Amazon EC2 instances to accelerate your Deep Learning (DL) inference workloads. You cannot specify accelerators from different generations in the same request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#elastic_inference_accelerators DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#elastic_inference_accelerators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#elastic_inference_accelerators DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#elastic_inference_accelerators}
   */
   readonly elasticInferenceAccelerators?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecElasticInferenceAccelerators[] | cdktf.IResolvable;
   /**
   * Indicates whether the instance is enabled for Amazon Web Services Nitro Enclaves. For more information, see What is Amazon Web Services Nitro Enclaves? (https://docs.aws.amazon.com/enclaves/latest/user/nitro-enclave.html) in the Amazon Web Services Nitro Enclaves User Guide. You can't enable Amazon Web Services Nitro Enclaves and hibernation on the same instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#enclave_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#enclave_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#enclave_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#enclave_options}
   */
   readonly enclaveOptions?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecEnclaveOptions;
   /**
   * Indicates whether an instance is enabled for hibernation. For more information, see Hibernate your instance (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Hibernate.html) in the Amazon EC2 User Guide. You can't enable hibernation and Amazon Web Services Nitro Enclaves on the same instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#hibernation_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#hibernation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#hibernation_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#hibernation_options}
   */
   readonly hibernationOptions?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecHibernationOptions;
   /**
   * The name or Amazon Resource Name (ARN) of an IAM instance profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#iam_instance_profile DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#iam_instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#iam_instance_profile DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#iam_instance_profile}
   */
   readonly iamInstanceProfile?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecIamInstanceProfile;
   /**
   * The ID of the AMI. An AMI ID is required to launch an instance and must be specified here or in a launch template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#image_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#image_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#image_id}
   */
   readonly imageId?: string;
   /**
   * Indicates whether an instance stops or terminates when you initiate shutdown from the instance (using the operating system command for system shutdown). Default: stop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#instance_initiated_shutdown_behavior DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#instance_initiated_shutdown_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#instance_initiated_shutdown_behavior DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#instance_initiated_shutdown_behavior}
   */
   readonly instanceInitiatedShutdownBehavior?: string;
   /**
   * The market (purchasing) option for the instances. For RunInstances, persistent Spot Instance requests are only supported when InstanceInterruptionBehavior is set to either hibernate or stop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#instance_market_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#instance_market_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#instance_market_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#instance_market_options}
   */
   readonly instanceMarketOptions?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecInstanceMarketOptions;
   /**
   * The instance type. For more information, see Instance types (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html) in the Amazon EC2 User Guide. Default: m1.small
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#instance_type DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#instance_type DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
   * [EC2-VPC] The number of IPv6 addresses to associate with the primary network interface. Amazon EC2 chooses the IPv6 addresses from the range of your subnet. You cannot specify this option and the option to assign specific IPv6 addresses in the same request. You can specify this option if you've specified a minimum number of instances to launch. You cannot specify this option and the network interfaces option in the same request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_address_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_address_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_address_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_address_count}
   */
   readonly ipv6AddressCount?: number;
   /**
   * [EC2-VPC] The IPv6 addresses from the range of the subnet to associate with the primary network interface. You cannot specify this option and the option to assign a number of IPv6 addresses in the same request. You cannot specify this option if you've specified a minimum number of instances to launch. You cannot specify this option and the network interfaces option in the same request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_addresses DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ipv6_addresses DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ipv6_addresses}
   */
   readonly ipv6Addresses?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecIpv6Addresses[] | cdktf.IResolvable;
   /**
   * The ID of the kernel. We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see PV-GRUB (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/UserProvidedkernels.html) in the Amazon EC2 User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#kernel_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#kernel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#kernel_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#kernel_id}
   */
   readonly kernelId?: string;
   /**
   * The name of the key pair. You can create a key pair using CreateKeyPair (https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateKeyPair.html) or ImportKeyPair (https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_ImportKeyPair.html). If you do not specify a key pair, you can't connect to the instance unless you choose an AMI that is configured to allow users another way to log in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#key_name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#key_name DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#key_name}
   */
   readonly keyName?: string;
   /**
   * The launch template to use to launch the instances. Any parameters that you specify in RunInstances override the same parameters in the launch template. You can specify either the name or ID of a launch template, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#launch_template DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#launch_template DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#launch_template}
   */
   readonly launchTemplate?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecLaunchTemplate;
   /**
   * The license configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#license_specifications DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#license_specifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#license_specifications DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#license_specifications}
   */
   readonly licenseSpecifications?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecLicenseSpecifications[] | cdktf.IResolvable;
   /**
   * The maintenance and recovery options for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#maintenance_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#maintenance_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#maintenance_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#maintenance_options}
   */
   readonly maintenanceOptions?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecMaintenanceOptions;
   /**
   * The maximum number of instances to launch. If you specify more instances than Amazon EC2 can launch in the target Availability Zone, Amazon EC2 launches the largest possible number of instances above MinCount. Constraints: Between 1 and the maximum number you're allowed for the specified instance type. For more information about the default limits, and how to request an increase, see How many instances can I run in Amazon EC2 (http://aws.amazon.com/ec2/faqs/#How_many_instances_can_I_run_in_Amazon_EC2) in the Amazon EC2 FAQ.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#max_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#max_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#max_count}
   */
   readonly maxCount?: number;
   /**
   * The metadata options for the instance. For more information, see Instance metadata and user data (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#metadata_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#metadata_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#metadata_options}
   */
   readonly metadataOptions?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecMetadataOptions;
   /**
   * The minimum number of instances to launch. If you specify a minimum that is more instances than Amazon EC2 can launch in the target Availability Zone, Amazon EC2 launches no instances. Constraints: Between 1 and the maximum number you're allowed for the specified instance type. For more information about the default limits, and how to request an increase, see How many instances can I run in Amazon EC2 (http://aws.amazon.com/ec2/faqs/#How_many_instances_can_I_run_in_Amazon_EC2) in the Amazon EC2 General FAQ.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#min_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#min_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#min_count DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#min_count}
   */
   readonly minCount?: number;
   /**
   * Specifies whether detailed monitoring is enabled for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#monitoring DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#monitoring DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#monitoring}
   */
   readonly monitoring?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecMonitoring;
   /**
   * The network interfaces to associate with the instance. If you specify a network interface, you must specify any security groups and subnets as part of the network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#network_interfaces DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#network_interfaces DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#network_interfaces}
   */
   readonly networkInterfaces?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecNetworkInterfaces[] | cdktf.IResolvable;
   /**
   * The placement for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#placement DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#placement DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#placement}
   */
   readonly placement?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecPlacement;
   /**
   * The options for the instance hostname. The default values are inherited from the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#private_dns_name_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#private_dns_name_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#private_dns_name_options DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#private_dns_name_options}
   */
   readonly privateDnsNameOptions?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecPrivateDnsNameOptions;
   /**
   * [EC2-VPC] The primary IPv4 address. You must specify a value from the IPv4 address range of the subnet. Only one private IP address can be designated as primary. You can't specify this option if you've specified the option to designate a private IP address as the primary IP address in a network interface specification. You cannot specify this option if you're launching more than one instance in the request. You cannot specify this option and the network interfaces option in the same request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#private_ip_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#private_ip_address DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#private_ip_address}
   */
   readonly privateIpAddress?: string;
   /**
   * The ID of the RAM disk to select. Some kernels require additional drivers at launch. Check the kernel requirements for information about whether you need to specify a RAM disk. To find kernel requirements, go to the Amazon Web Services Resource Center and search for the kernel ID. We recommend that you use PV-GRUB instead of kernels and RAM disks. For more information, see PV-GRUB (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/UserProvidedkernels.html) in the Amazon EC2 User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ram_disk_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ram_disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#ram_disk_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#ram_disk_id}
   */
   readonly ramDiskId?: string;
   /**
   * The IDs of the security groups. You can create a security group using CreateSecurityGroup (https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateSecurityGroup.html). If you specify a network interface, you must specify any security groups as part of the network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#security_group_i_ds DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#security_group_i_ds DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#security_group_i_ds}
   */
   readonly securityGroupIDs?: string[];
   /**
   * [EC2-Classic, default VPC] The names of the security groups. For a nondefault VPC, you must use security group IDs instead. If you specify a network interface, you must specify any security groups as part of the network interface. Default: Amazon EC2 uses the default security group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#security_groups DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#security_groups DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * [EC2-VPC] The ID of the subnet to launch the instance into. If you specify a network interface, you must specify any subnets as part of the network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#subnet_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#subnet_id DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The tags. The value parameter is required, but if you don't want the tag to have a value, specify the parameter with no value, and we set the value to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#tags DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#tags DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * The user data script to make available to the instance. For more information, see Run commands on your Linux instance at launch (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html) and Run commands on your Windows instance at launch (https://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/ec2-windows-user-data.html). If you are using a command line tool, base64-encoding is performed for you, and you can load the text from a file. Otherwise, you must provide base64-encoded text. User data is limited to 16 KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#user_data DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#user_data DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest#user_data}
   */
   readonly userData?: string;
 }
@@ -6174,7 +6174,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest k8s_ec2_services_k8s_aws_instance_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest k8s_ec2_services_k8s_aws_instance_v1alpha1_manifest}
 */
 export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -6190,7 +6190,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6202,7 +6202,7 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest k8s_ec2_services_k8s_aws_instance_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_instance_v1alpha1_manifest k8s_ec2_services_k8s_aws_instance_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6213,8 +6213,8 @@ export class DataK8SEc2ServicesK8SAwsInstanceV1Alpha1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_ec2_services_k8s_aws_instance_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

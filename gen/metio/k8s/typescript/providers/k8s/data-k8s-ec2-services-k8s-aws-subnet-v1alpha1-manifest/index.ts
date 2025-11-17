@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#metadata DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#metadata DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestMetadata;
   /**
   * SubnetSpec defines the desired state of Subnet. Describes a subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#spec DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#spec DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#annotations DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#annotations DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#labels DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#labels DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestMetadataOutputReferen
 }
 export interface DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecRouteTableRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecRouteTableRef
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecRouteTableRefsFrom;
 }
@@ -462,11 +462,11 @@ export class DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecRouteTableRefsLis
 }
 export interface DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#key DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#key DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#value DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#value DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -611,11 +611,11 @@ export class DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecTagsList extends 
 }
 export interface DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecVpcRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -740,7 +740,7 @@ export interface DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecVpcRef {
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#from DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecVpcRefFrom;
 }
@@ -834,93 +834,93 @@ export class DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecVpcRefOutputRefer
 }
 export interface DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#assign_i_pv6_address_on_creation DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#assign_i_pv6_address_on_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#assign_i_pv6_address_on_creation DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#assign_i_pv6_address_on_creation}
   */
   readonly assignIPv6AddressOnCreation?: boolean | cdktf.IResolvable;
   /**
   * The Availability Zone or Local Zone for the subnet. Default: Amazon Web Services selects one for you. If you create more than one subnet in your VPC, we do not necessarily select a different zone for each subnet. To create a subnet in a Local Zone, set this value to the Local Zone ID, for example us-west-2-lax-1a. For information about the Regions that support Local Zones, see Available Regions (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions) in the Amazon Elastic Compute Cloud User Guide. To create a subnet in an Outpost, set this value to the Availability Zone for the Outpost and specify the Outpost ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#availability_zone DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#availability_zone DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The AZ ID or the Local Zone ID of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#availability_zone_id DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#availability_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#availability_zone_id DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#availability_zone_id}
   */
   readonly availabilityZoneId?: string;
   /**
   * The IPv4 network range for the subnet, in CIDR notation. For example, 10.0.0.0/24. We modify the specified CIDR block to its canonical form; for example, if you specify 100.68.0.18/18, we modify it to 100.68.0.0/18. This parameter is not supported for an IPv6 only subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#cidr_block DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#cidr_block DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#customer_owned_i_pv4_pool DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#customer_owned_i_pv4_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#customer_owned_i_pv4_pool DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#customer_owned_i_pv4_pool}
   */
   readonly customerOwnedIPv4Pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#enable_dns64 DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#enable_dns64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#enable_dns64 DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#enable_dns64}
   */
   readonly enableDns64?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#enable_resource_name_dnsa_record DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#enable_resource_name_dnsa_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#enable_resource_name_dnsa_record DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#enable_resource_name_dnsa_record}
   */
   readonly enableResourceNameDnsaRecord?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#enable_resource_name_dnsaaaa_record DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#enable_resource_name_dnsaaaa_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#enable_resource_name_dnsaaaa_record DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#enable_resource_name_dnsaaaa_record}
   */
   readonly enableResourceNameDnsaaaaRecord?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#hostname_type DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#hostname_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#hostname_type DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#hostname_type}
   */
   readonly hostnameType?: string;
   /**
   * The IPv6 network range for the subnet, in CIDR notation. The subnet size must use a /64 prefix length. This parameter is required for an IPv6 only subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#ipv6_cidr_block DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#ipv6_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#ipv6_cidr_block DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#ipv6_cidr_block}
   */
   readonly ipv6CidrBlock?: string;
   /**
   * Indicates whether to create an IPv6 only subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#ipv6_native DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#ipv6_native}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#ipv6_native DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#ipv6_native}
   */
   readonly ipv6Native?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#map_public_ip_on_launch DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#map_public_ip_on_launch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#map_public_ip_on_launch DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#map_public_ip_on_launch}
   */
   readonly mapPublicIpOnLaunch?: boolean | cdktf.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the Outpost. If you specify an Outpost ARN, you must also specify the Availability Zone of the Outpost subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#outpost_arn DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#outpost_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#outpost_arn DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#outpost_arn}
   */
   readonly outpostArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#route_table_refs DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#route_table_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#route_table_refs DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#route_table_refs}
   */
   readonly routeTableRefs?: DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecRouteTableRefs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#route_tables DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#route_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#route_tables DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#route_tables}
   */
   readonly routeTables?: string[];
   /**
   * The tags. The value parameter is required, but if you don't want the tag to have a value, specify the parameter with no value, and we set the value to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#tags DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#tags DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * The ID of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#vpc_id DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#vpc_id DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#vpc_ref DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#vpc_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#vpc_ref DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest#vpc_ref}
   */
   readonly vpcRef?: DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecVpcRef;
 }
@@ -1507,7 +1507,7 @@ export class DataK8SEc2ServicesK8SAwsSubnetV1Alpha1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest k8s_ec2_services_k8s_aws_subnet_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest k8s_ec2_services_k8s_aws_subnet_v1alpha1_manifest}
 */
 export class DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1523,7 +1523,7 @@ export class DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1535,7 +1535,7 @@ export class DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest k8s_ec2_services_k8s_aws_subnet_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ec2_services_k8s_aws_subnet_v1alpha1_manifest k8s_ec2_services_k8s_aws_subnet_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1546,8 +1546,8 @@ export class DataK8SEc2ServicesK8SAwsSubnetV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_ec2_services_k8s_aws_subnet_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

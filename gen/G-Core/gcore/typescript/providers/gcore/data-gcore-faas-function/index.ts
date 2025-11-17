@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/faas_function
+// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/faas_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataGcoreFaasFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/faas_function#id DataGcoreFaasFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/faas_function#id DataGcoreFaasFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/faas_function#name DataGcoreFaasFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/faas_function#name DataGcoreFaasFunction#name}
   */
   readonly name: string;
   /**
   * Namespace of the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/faas_function#namespace DataGcoreFaasFunction#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/faas_function#namespace DataGcoreFaasFunction#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/faas_function#project_id DataGcoreFaasFunction#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/faas_function#project_id DataGcoreFaasFunction#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/faas_function#project_name DataGcoreFaasFunction#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/faas_function#project_name DataGcoreFaasFunction#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/faas_function#region_id DataGcoreFaasFunction#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/faas_function#region_id DataGcoreFaasFunction#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/faas_function#region_name DataGcoreFaasFunction#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/faas_function#region_name DataGcoreFaasFunction#region_name}
   */
   readonly regionName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/faas_function gcore_faas_function}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/faas_function gcore_faas_function}
 */
 export class DataGcoreFaasFunction extends cdktf.TerraformDataSource {
 
@@ -59,7 +59,7 @@ export class DataGcoreFaasFunction extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGcoreFaasFunction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGcoreFaasFunction to import
-  * @param importFromId The id of the existing DataGcoreFaasFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/faas_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGcoreFaasFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/faas_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGcoreFaasFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class DataGcoreFaasFunction extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/faas_function gcore_faas_function} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/faas_function gcore_faas_function} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class DataGcoreFaasFunction extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_faas_function',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.3',
-        providerVersionConstraint: '0.31.3'
+        providerVersion: '0.31.4',
+        providerVersionConstraint: '0.31.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

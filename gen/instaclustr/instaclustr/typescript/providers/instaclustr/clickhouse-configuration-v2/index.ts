@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ClickhouseConfigurationV2Config extends cdktf.TerraformMetaArgu
   /**
   * ID of the ClickHouse cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2#cluster_id ClickhouseConfigurationV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2#cluster_id ClickhouseConfigurationV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2#id ClickhouseConfigurationV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2#id ClickhouseConfigurationV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ClickhouseConfigurationV2Config extends cdktf.TerraformMetaArgu
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2#override ClickhouseConfigurationV2#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2#override ClickhouseConfigurationV2#override}
   */
   readonly override?: ClickhouseConfigurationV2Override[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2#timeouts ClickhouseConfigurationV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2#timeouts ClickhouseConfigurationV2#timeouts}
   */
   readonly timeouts?: ClickhouseConfigurationV2Timeouts;
 }
@@ -37,13 +37,13 @@ export interface ClickhouseConfigurationV2Override {
   /**
   * Name of the configuration property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2#name ClickhouseConfigurationV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2#name ClickhouseConfigurationV2#name}
   */
   readonly name: string;
   /**
   * Override value for the configuration property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2#value ClickhouseConfigurationV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2#value ClickhouseConfigurationV2#value}
   */
   readonly value?: string;
 }
@@ -185,19 +185,19 @@ export class ClickhouseConfigurationV2OverrideList extends cdktf.ComplexList {
 }
 export interface ClickhouseConfigurationV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2#default ClickhouseConfigurationV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2#default ClickhouseConfigurationV2#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2#delete ClickhouseConfigurationV2#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2#delete ClickhouseConfigurationV2#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2#read ClickhouseConfigurationV2#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2#read ClickhouseConfigurationV2#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2#update ClickhouseConfigurationV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2#update ClickhouseConfigurationV2#update}
   */
   readonly update?: string;
 }
@@ -378,7 +378,7 @@ export class ClickhouseConfigurationV2TimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2 instaclustr_clickhouse_configuration_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2 instaclustr_clickhouse_configuration_v2}
 */
 export class ClickhouseConfigurationV2 extends cdktf.TerraformResource {
 
@@ -394,7 +394,7 @@ export class ClickhouseConfigurationV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClickhouseConfigurationV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClickhouseConfigurationV2 to import
-  * @param importFromId The id of the existing ClickhouseConfigurationV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClickhouseConfigurationV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClickhouseConfigurationV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -406,7 +406,7 @@ export class ClickhouseConfigurationV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/clickhouse_configuration_v2 instaclustr_clickhouse_configuration_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/clickhouse_configuration_v2 instaclustr_clickhouse_configuration_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -417,8 +417,8 @@ export class ClickhouseConfigurationV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_clickhouse_configuration_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.26',
-        providerVersionConstraint: '2.1.26'
+        providerVersion: '2.1.28',
+        providerVersionConstraint: '2.1.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface SwsSecurityProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Advanced rate limiter profile ID to use with this security profile. Set empty to use default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#advanced_rate_limiter_profile_id SwsSecurityProfile#advanced_rate_limiter_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#advanced_rate_limiter_profile_id SwsSecurityProfile#advanced_rate_limiter_profile_id}
   */
   readonly advancedRateLimiterProfileId?: string;
   /**
   * Captcha ID to use with this security profile. Set empty to use default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#captcha_id SwsSecurityProfile#captcha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#captcha_id SwsSecurityProfile#captcha_id}
   */
   readonly captchaId?: string;
   /**
   * The `Cloud ID` which resource belongs to. If it is not provided, the default provider `cloud-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#cloud_id SwsSecurityProfile#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#cloud_id SwsSecurityProfile#cloud_id}
   */
   readonly cloudId?: string;
   /**
   * Action to perform if none of rules matched. Possible values: `ALLOW` or `DENY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#default_action SwsSecurityProfile#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#default_action SwsSecurityProfile#default_action}
   */
   readonly defaultAction?: string;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#description SwsSecurityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#description SwsSecurityProfile#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#folder_id SwsSecurityProfile#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#folder_id SwsSecurityProfile#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#id SwsSecurityProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#id SwsSecurityProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,41 +53,41 @@ export interface SwsSecurityProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#labels SwsSecurityProfile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#labels SwsSecurityProfile#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#name SwsSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#name SwsSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * analyze_request_body block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#analyze_request_body SwsSecurityProfile#analyze_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#analyze_request_body SwsSecurityProfile#analyze_request_body}
   */
   readonly analyzeRequestBody?: SwsSecurityProfileAnalyzeRequestBody;
   /**
   * security_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#security_rule SwsSecurityProfile#security_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#security_rule SwsSecurityProfile#security_rule}
   */
   readonly securityRule?: SwsSecurityProfileSecurityRule[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#timeouts SwsSecurityProfile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#timeouts SwsSecurityProfile#timeouts}
   */
   readonly timeouts?: SwsSecurityProfileTimeouts;
 }
 export interface SwsSecurityProfileAnalyzeRequestBody {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#size_limit SwsSecurityProfile#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#size_limit SwsSecurityProfile#size_limit}
   */
   readonly sizeLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#size_limit_action SwsSecurityProfile#size_limit_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#size_limit_action SwsSecurityProfile#size_limit_action}
   */
   readonly sizeLimitAction?: string;
 }
@@ -200,27 +200,27 @@ export class SwsSecurityProfileAnalyzeRequestBodyOutputReference extends cdktf.C
 }
 export interface SwsSecurityProfileSecurityRuleRuleConditionConditionAuthorityAuthorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -483,7 +483,7 @@ export interface SwsSecurityProfileSecurityRuleRuleConditionConditionAuthority {
   /**
   * authorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#authorities SwsSecurityProfile#authorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#authorities SwsSecurityProfile#authorities}
   */
   readonly authorities?: SwsSecurityProfileSecurityRuleRuleConditionConditionAuthorityAuthorities[] | cdktf.IResolvable;
 }
@@ -567,27 +567,27 @@ export class SwsSecurityProfileSecurityRuleRuleConditionConditionAuthorityOutput
 }
 export interface SwsSecurityProfileSecurityRuleRuleConditionConditionHeadersValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -816,13 +816,13 @@ export class SwsSecurityProfileSecurityRuleRuleConditionConditionHeadersValueOut
 }
 export interface SwsSecurityProfileSecurityRuleRuleConditionConditionHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#name SwsSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#name SwsSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#value SwsSecurityProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#value SwsSecurityProfile#value}
   */
   readonly value: SwsSecurityProfileSecurityRuleRuleConditionConditionHeadersValue;
 }
@@ -964,27 +964,27 @@ export class SwsSecurityProfileSecurityRuleRuleConditionConditionHeadersList ext
 }
 export interface SwsSecurityProfileSecurityRuleRuleConditionConditionHttpMethodHttpMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -1247,7 +1247,7 @@ export interface SwsSecurityProfileSecurityRuleRuleConditionConditionHttpMethod 
   /**
   * http_methods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#http_methods SwsSecurityProfile#http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#http_methods SwsSecurityProfile#http_methods}
   */
   readonly httpMethods?: SwsSecurityProfileSecurityRuleRuleConditionConditionHttpMethodHttpMethods[] | cdktf.IResolvable;
 }
@@ -1331,27 +1331,27 @@ export class SwsSecurityProfileSecurityRuleRuleConditionConditionHttpMethodOutpu
 }
 export interface SwsSecurityProfileSecurityRuleRuleConditionConditionRequestUriPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -1580,27 +1580,27 @@ export class SwsSecurityProfileSecurityRuleRuleConditionConditionRequestUriPathO
 }
 export interface SwsSecurityProfileSecurityRuleRuleConditionConditionRequestUriQueriesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -1829,13 +1829,13 @@ export class SwsSecurityProfileSecurityRuleRuleConditionConditionRequestUriQueri
 }
 export interface SwsSecurityProfileSecurityRuleRuleConditionConditionRequestUriQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#key SwsSecurityProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#key SwsSecurityProfile#key}
   */
   readonly key: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#value SwsSecurityProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#value SwsSecurityProfile#value}
   */
   readonly value: SwsSecurityProfileSecurityRuleRuleConditionConditionRequestUriQueriesValue;
 }
@@ -1976,13 +1976,13 @@ export interface SwsSecurityProfileSecurityRuleRuleConditionConditionRequestUri 
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#path SwsSecurityProfile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#path SwsSecurityProfile#path}
   */
   readonly path?: SwsSecurityProfileSecurityRuleRuleConditionConditionRequestUriPath;
   /**
   * queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#queries SwsSecurityProfile#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#queries SwsSecurityProfile#queries}
   */
   readonly queries?: SwsSecurityProfileSecurityRuleRuleConditionConditionRequestUriQueries[] | cdktf.IResolvable;
 }
@@ -2095,7 +2095,7 @@ export class SwsSecurityProfileSecurityRuleRuleConditionConditionRequestUriOutpu
 }
 export interface SwsSecurityProfileSecurityRuleRuleConditionConditionSourceIpGeoIpMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#locations SwsSecurityProfile#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#locations SwsSecurityProfile#locations}
   */
   readonly locations?: string[];
 }
@@ -2179,7 +2179,7 @@ export class SwsSecurityProfileSecurityRuleRuleConditionConditionSourceIpGeoIpMa
 }
 export interface SwsSecurityProfileSecurityRuleRuleConditionConditionSourceIpGeoIpNotMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#locations SwsSecurityProfile#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#locations SwsSecurityProfile#locations}
   */
   readonly locations?: string[];
 }
@@ -2263,7 +2263,7 @@ export class SwsSecurityProfileSecurityRuleRuleConditionConditionSourceIpGeoIpNo
 }
 export interface SwsSecurityProfileSecurityRuleRuleConditionConditionSourceIpIpRangesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#ip_ranges SwsSecurityProfile#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#ip_ranges SwsSecurityProfile#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -2347,7 +2347,7 @@ export class SwsSecurityProfileSecurityRuleRuleConditionConditionSourceIpIpRange
 }
 export interface SwsSecurityProfileSecurityRuleRuleConditionConditionSourceIpIpRangesNotMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#ip_ranges SwsSecurityProfile#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#ip_ranges SwsSecurityProfile#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -2433,25 +2433,25 @@ export interface SwsSecurityProfileSecurityRuleRuleConditionConditionSourceIp {
   /**
   * geo_ip_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#geo_ip_match SwsSecurityProfile#geo_ip_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#geo_ip_match SwsSecurityProfile#geo_ip_match}
   */
   readonly geoIpMatch?: SwsSecurityProfileSecurityRuleRuleConditionConditionSourceIpGeoIpMatch;
   /**
   * geo_ip_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#geo_ip_not_match SwsSecurityProfile#geo_ip_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#geo_ip_not_match SwsSecurityProfile#geo_ip_not_match}
   */
   readonly geoIpNotMatch?: SwsSecurityProfileSecurityRuleRuleConditionConditionSourceIpGeoIpNotMatch;
   /**
   * ip_ranges_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#ip_ranges_match SwsSecurityProfile#ip_ranges_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#ip_ranges_match SwsSecurityProfile#ip_ranges_match}
   */
   readonly ipRangesMatch?: SwsSecurityProfileSecurityRuleRuleConditionConditionSourceIpIpRangesMatch;
   /**
   * ip_ranges_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#ip_ranges_not_match SwsSecurityProfile#ip_ranges_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#ip_ranges_not_match SwsSecurityProfile#ip_ranges_not_match}
   */
   readonly ipRangesNotMatch?: SwsSecurityProfileSecurityRuleRuleConditionConditionSourceIpIpRangesNotMatch;
 }
@@ -2624,31 +2624,31 @@ export interface SwsSecurityProfileSecurityRuleRuleConditionCondition {
   /**
   * authority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#authority SwsSecurityProfile#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#authority SwsSecurityProfile#authority}
   */
   readonly authority?: SwsSecurityProfileSecurityRuleRuleConditionConditionAuthority;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#headers SwsSecurityProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#headers SwsSecurityProfile#headers}
   */
   readonly headers?: SwsSecurityProfileSecurityRuleRuleConditionConditionHeaders[] | cdktf.IResolvable;
   /**
   * http_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#http_method SwsSecurityProfile#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#http_method SwsSecurityProfile#http_method}
   */
   readonly httpMethod?: SwsSecurityProfileSecurityRuleRuleConditionConditionHttpMethod;
   /**
   * request_uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#request_uri SwsSecurityProfile#request_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#request_uri SwsSecurityProfile#request_uri}
   */
   readonly requestUri?: SwsSecurityProfileSecurityRuleRuleConditionConditionRequestUri;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#source_ip SwsSecurityProfile#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#source_ip SwsSecurityProfile#source_ip}
   */
   readonly sourceIp?: SwsSecurityProfileSecurityRuleRuleConditionConditionSourceIp;
 }
@@ -2850,13 +2850,13 @@ export interface SwsSecurityProfileSecurityRuleRuleCondition {
   /**
   * Action to perform if this rule matched. Possible values: `ALLOW` or `DENY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#action SwsSecurityProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#action SwsSecurityProfile#action}
   */
   readonly action?: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#condition SwsSecurityProfile#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#condition SwsSecurityProfile#condition}
   */
   readonly condition?: SwsSecurityProfileSecurityRuleRuleConditionCondition;
 }
@@ -2969,27 +2969,27 @@ export class SwsSecurityProfileSecurityRuleRuleConditionOutputReference extends 
 }
 export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionAuthorityAuthorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -3252,7 +3252,7 @@ export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionAuthority
   /**
   * authorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#authorities SwsSecurityProfile#authorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#authorities SwsSecurityProfile#authorities}
   */
   readonly authorities?: SwsSecurityProfileSecurityRuleSmartProtectionConditionAuthorityAuthorities[] | cdktf.IResolvable;
 }
@@ -3336,27 +3336,27 @@ export class SwsSecurityProfileSecurityRuleSmartProtectionConditionAuthorityOutp
 }
 export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionHeadersValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -3585,13 +3585,13 @@ export class SwsSecurityProfileSecurityRuleSmartProtectionConditionHeadersValueO
 }
 export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#name SwsSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#name SwsSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#value SwsSecurityProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#value SwsSecurityProfile#value}
   */
   readonly value: SwsSecurityProfileSecurityRuleSmartProtectionConditionHeadersValue;
 }
@@ -3733,27 +3733,27 @@ export class SwsSecurityProfileSecurityRuleSmartProtectionConditionHeadersList e
 }
 export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionHttpMethodHttpMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -4016,7 +4016,7 @@ export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionHttpMetho
   /**
   * http_methods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#http_methods SwsSecurityProfile#http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#http_methods SwsSecurityProfile#http_methods}
   */
   readonly httpMethods?: SwsSecurityProfileSecurityRuleSmartProtectionConditionHttpMethodHttpMethods[] | cdktf.IResolvable;
 }
@@ -4100,27 +4100,27 @@ export class SwsSecurityProfileSecurityRuleSmartProtectionConditionHttpMethodOut
 }
 export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionRequestUriPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -4349,27 +4349,27 @@ export class SwsSecurityProfileSecurityRuleSmartProtectionConditionRequestUriPat
 }
 export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionRequestUriQueriesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -4598,13 +4598,13 @@ export class SwsSecurityProfileSecurityRuleSmartProtectionConditionRequestUriQue
 }
 export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionRequestUriQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#key SwsSecurityProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#key SwsSecurityProfile#key}
   */
   readonly key: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#value SwsSecurityProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#value SwsSecurityProfile#value}
   */
   readonly value: SwsSecurityProfileSecurityRuleSmartProtectionConditionRequestUriQueriesValue;
 }
@@ -4745,13 +4745,13 @@ export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionRequestUr
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#path SwsSecurityProfile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#path SwsSecurityProfile#path}
   */
   readonly path?: SwsSecurityProfileSecurityRuleSmartProtectionConditionRequestUriPath;
   /**
   * queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#queries SwsSecurityProfile#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#queries SwsSecurityProfile#queries}
   */
   readonly queries?: SwsSecurityProfileSecurityRuleSmartProtectionConditionRequestUriQueries[] | cdktf.IResolvable;
 }
@@ -4864,7 +4864,7 @@ export class SwsSecurityProfileSecurityRuleSmartProtectionConditionRequestUriOut
 }
 export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionSourceIpGeoIpMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#locations SwsSecurityProfile#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#locations SwsSecurityProfile#locations}
   */
   readonly locations?: string[];
 }
@@ -4948,7 +4948,7 @@ export class SwsSecurityProfileSecurityRuleSmartProtectionConditionSourceIpGeoIp
 }
 export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionSourceIpGeoIpNotMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#locations SwsSecurityProfile#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#locations SwsSecurityProfile#locations}
   */
   readonly locations?: string[];
 }
@@ -5032,7 +5032,7 @@ export class SwsSecurityProfileSecurityRuleSmartProtectionConditionSourceIpGeoIp
 }
 export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionSourceIpIpRangesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#ip_ranges SwsSecurityProfile#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#ip_ranges SwsSecurityProfile#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -5116,7 +5116,7 @@ export class SwsSecurityProfileSecurityRuleSmartProtectionConditionSourceIpIpRan
 }
 export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionSourceIpIpRangesNotMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#ip_ranges SwsSecurityProfile#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#ip_ranges SwsSecurityProfile#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -5202,25 +5202,25 @@ export interface SwsSecurityProfileSecurityRuleSmartProtectionConditionSourceIp 
   /**
   * geo_ip_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#geo_ip_match SwsSecurityProfile#geo_ip_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#geo_ip_match SwsSecurityProfile#geo_ip_match}
   */
   readonly geoIpMatch?: SwsSecurityProfileSecurityRuleSmartProtectionConditionSourceIpGeoIpMatch;
   /**
   * geo_ip_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#geo_ip_not_match SwsSecurityProfile#geo_ip_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#geo_ip_not_match SwsSecurityProfile#geo_ip_not_match}
   */
   readonly geoIpNotMatch?: SwsSecurityProfileSecurityRuleSmartProtectionConditionSourceIpGeoIpNotMatch;
   /**
   * ip_ranges_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#ip_ranges_match SwsSecurityProfile#ip_ranges_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#ip_ranges_match SwsSecurityProfile#ip_ranges_match}
   */
   readonly ipRangesMatch?: SwsSecurityProfileSecurityRuleSmartProtectionConditionSourceIpIpRangesMatch;
   /**
   * ip_ranges_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#ip_ranges_not_match SwsSecurityProfile#ip_ranges_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#ip_ranges_not_match SwsSecurityProfile#ip_ranges_not_match}
   */
   readonly ipRangesNotMatch?: SwsSecurityProfileSecurityRuleSmartProtectionConditionSourceIpIpRangesNotMatch;
 }
@@ -5393,31 +5393,31 @@ export interface SwsSecurityProfileSecurityRuleSmartProtectionCondition {
   /**
   * authority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#authority SwsSecurityProfile#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#authority SwsSecurityProfile#authority}
   */
   readonly authority?: SwsSecurityProfileSecurityRuleSmartProtectionConditionAuthority;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#headers SwsSecurityProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#headers SwsSecurityProfile#headers}
   */
   readonly headers?: SwsSecurityProfileSecurityRuleSmartProtectionConditionHeaders[] | cdktf.IResolvable;
   /**
   * http_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#http_method SwsSecurityProfile#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#http_method SwsSecurityProfile#http_method}
   */
   readonly httpMethod?: SwsSecurityProfileSecurityRuleSmartProtectionConditionHttpMethod;
   /**
   * request_uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#request_uri SwsSecurityProfile#request_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#request_uri SwsSecurityProfile#request_uri}
   */
   readonly requestUri?: SwsSecurityProfileSecurityRuleSmartProtectionConditionRequestUri;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#source_ip SwsSecurityProfile#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#source_ip SwsSecurityProfile#source_ip}
   */
   readonly sourceIp?: SwsSecurityProfileSecurityRuleSmartProtectionConditionSourceIp;
 }
@@ -5619,13 +5619,13 @@ export interface SwsSecurityProfileSecurityRuleSmartProtection {
   /**
   * Mode of protection. Possible values: `FULL` (full protection means that the traffic will be checked based on ML models and behavioral analysis, with suspicious requests being sent to SmartCaptcha) or `API` (API protection means checking the traffic based on ML models and behavioral analysis without sending suspicious requests to SmartCaptcha. The suspicious requests will be blocked).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#mode SwsSecurityProfile#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#mode SwsSecurityProfile#mode}
   */
   readonly mode?: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#condition SwsSecurityProfile#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#condition SwsSecurityProfile#condition}
   */
   readonly condition?: SwsSecurityProfileSecurityRuleSmartProtectionCondition;
 }
@@ -5738,27 +5738,27 @@ export class SwsSecurityProfileSecurityRuleSmartProtectionOutputReference extend
 }
 export interface SwsSecurityProfileSecurityRuleWafConditionAuthorityAuthorities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -6021,7 +6021,7 @@ export interface SwsSecurityProfileSecurityRuleWafConditionAuthority {
   /**
   * authorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#authorities SwsSecurityProfile#authorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#authorities SwsSecurityProfile#authorities}
   */
   readonly authorities?: SwsSecurityProfileSecurityRuleWafConditionAuthorityAuthorities[] | cdktf.IResolvable;
 }
@@ -6105,27 +6105,27 @@ export class SwsSecurityProfileSecurityRuleWafConditionAuthorityOutputReference 
 }
 export interface SwsSecurityProfileSecurityRuleWafConditionHeadersValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -6354,13 +6354,13 @@ export class SwsSecurityProfileSecurityRuleWafConditionHeadersValueOutputReferen
 }
 export interface SwsSecurityProfileSecurityRuleWafConditionHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#name SwsSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#name SwsSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#value SwsSecurityProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#value SwsSecurityProfile#value}
   */
   readonly value: SwsSecurityProfileSecurityRuleWafConditionHeadersValue;
 }
@@ -6502,27 +6502,27 @@ export class SwsSecurityProfileSecurityRuleWafConditionHeadersList extends cdktf
 }
 export interface SwsSecurityProfileSecurityRuleWafConditionHttpMethodHttpMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -6785,7 +6785,7 @@ export interface SwsSecurityProfileSecurityRuleWafConditionHttpMethod {
   /**
   * http_methods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#http_methods SwsSecurityProfile#http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#http_methods SwsSecurityProfile#http_methods}
   */
   readonly httpMethods?: SwsSecurityProfileSecurityRuleWafConditionHttpMethodHttpMethods[] | cdktf.IResolvable;
 }
@@ -6869,27 +6869,27 @@ export class SwsSecurityProfileSecurityRuleWafConditionHttpMethodOutputReference
 }
 export interface SwsSecurityProfileSecurityRuleWafConditionRequestUriPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -7118,27 +7118,27 @@ export class SwsSecurityProfileSecurityRuleWafConditionRequestUriPathOutputRefer
 }
 export interface SwsSecurityProfileSecurityRuleWafConditionRequestUriQueriesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_match SwsSecurityProfile#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#exact_not_match SwsSecurityProfile#exact_not_match}
   */
   readonly exactNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_match SwsSecurityProfile#pire_regex_match}
   */
   readonly pireRegexMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#pire_regex_not_match SwsSecurityProfile#pire_regex_not_match}
   */
   readonly pireRegexNotMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_match SwsSecurityProfile#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#prefix_not_match SwsSecurityProfile#prefix_not_match}
   */
   readonly prefixNotMatch?: string;
 }
@@ -7367,13 +7367,13 @@ export class SwsSecurityProfileSecurityRuleWafConditionRequestUriQueriesValueOut
 }
 export interface SwsSecurityProfileSecurityRuleWafConditionRequestUriQueries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#key SwsSecurityProfile#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#key SwsSecurityProfile#key}
   */
   readonly key: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#value SwsSecurityProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#value SwsSecurityProfile#value}
   */
   readonly value: SwsSecurityProfileSecurityRuleWafConditionRequestUriQueriesValue;
 }
@@ -7514,13 +7514,13 @@ export interface SwsSecurityProfileSecurityRuleWafConditionRequestUri {
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#path SwsSecurityProfile#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#path SwsSecurityProfile#path}
   */
   readonly path?: SwsSecurityProfileSecurityRuleWafConditionRequestUriPath;
   /**
   * queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#queries SwsSecurityProfile#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#queries SwsSecurityProfile#queries}
   */
   readonly queries?: SwsSecurityProfileSecurityRuleWafConditionRequestUriQueries[] | cdktf.IResolvable;
 }
@@ -7633,7 +7633,7 @@ export class SwsSecurityProfileSecurityRuleWafConditionRequestUriOutputReference
 }
 export interface SwsSecurityProfileSecurityRuleWafConditionSourceIpGeoIpMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#locations SwsSecurityProfile#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#locations SwsSecurityProfile#locations}
   */
   readonly locations?: string[];
 }
@@ -7717,7 +7717,7 @@ export class SwsSecurityProfileSecurityRuleWafConditionSourceIpGeoIpMatchOutputR
 }
 export interface SwsSecurityProfileSecurityRuleWafConditionSourceIpGeoIpNotMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#locations SwsSecurityProfile#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#locations SwsSecurityProfile#locations}
   */
   readonly locations?: string[];
 }
@@ -7801,7 +7801,7 @@ export class SwsSecurityProfileSecurityRuleWafConditionSourceIpGeoIpNotMatchOutp
 }
 export interface SwsSecurityProfileSecurityRuleWafConditionSourceIpIpRangesMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#ip_ranges SwsSecurityProfile#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#ip_ranges SwsSecurityProfile#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -7885,7 +7885,7 @@ export class SwsSecurityProfileSecurityRuleWafConditionSourceIpIpRangesMatchOutp
 }
 export interface SwsSecurityProfileSecurityRuleWafConditionSourceIpIpRangesNotMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#ip_ranges SwsSecurityProfile#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#ip_ranges SwsSecurityProfile#ip_ranges}
   */
   readonly ipRanges?: string[];
 }
@@ -7971,25 +7971,25 @@ export interface SwsSecurityProfileSecurityRuleWafConditionSourceIp {
   /**
   * geo_ip_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#geo_ip_match SwsSecurityProfile#geo_ip_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#geo_ip_match SwsSecurityProfile#geo_ip_match}
   */
   readonly geoIpMatch?: SwsSecurityProfileSecurityRuleWafConditionSourceIpGeoIpMatch;
   /**
   * geo_ip_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#geo_ip_not_match SwsSecurityProfile#geo_ip_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#geo_ip_not_match SwsSecurityProfile#geo_ip_not_match}
   */
   readonly geoIpNotMatch?: SwsSecurityProfileSecurityRuleWafConditionSourceIpGeoIpNotMatch;
   /**
   * ip_ranges_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#ip_ranges_match SwsSecurityProfile#ip_ranges_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#ip_ranges_match SwsSecurityProfile#ip_ranges_match}
   */
   readonly ipRangesMatch?: SwsSecurityProfileSecurityRuleWafConditionSourceIpIpRangesMatch;
   /**
   * ip_ranges_not_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#ip_ranges_not_match SwsSecurityProfile#ip_ranges_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#ip_ranges_not_match SwsSecurityProfile#ip_ranges_not_match}
   */
   readonly ipRangesNotMatch?: SwsSecurityProfileSecurityRuleWafConditionSourceIpIpRangesNotMatch;
 }
@@ -8162,31 +8162,31 @@ export interface SwsSecurityProfileSecurityRuleWafCondition {
   /**
   * authority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#authority SwsSecurityProfile#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#authority SwsSecurityProfile#authority}
   */
   readonly authority?: SwsSecurityProfileSecurityRuleWafConditionAuthority;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#headers SwsSecurityProfile#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#headers SwsSecurityProfile#headers}
   */
   readonly headers?: SwsSecurityProfileSecurityRuleWafConditionHeaders[] | cdktf.IResolvable;
   /**
   * http_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#http_method SwsSecurityProfile#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#http_method SwsSecurityProfile#http_method}
   */
   readonly httpMethod?: SwsSecurityProfileSecurityRuleWafConditionHttpMethod;
   /**
   * request_uri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#request_uri SwsSecurityProfile#request_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#request_uri SwsSecurityProfile#request_uri}
   */
   readonly requestUri?: SwsSecurityProfileSecurityRuleWafConditionRequestUri;
   /**
   * source_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#source_ip SwsSecurityProfile#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#source_ip SwsSecurityProfile#source_ip}
   */
   readonly sourceIp?: SwsSecurityProfileSecurityRuleWafConditionSourceIp;
 }
@@ -8388,19 +8388,19 @@ export interface SwsSecurityProfileSecurityRuleWaf {
   /**
   * Mode of protection. Possible values: `FULL` (full protection means that the traffic will be checked based on ML models and behavioral analysis, with suspicious requests being sent to SmartCaptcha) or `API` (API protection means checking the traffic based on ML models and behavioral analysis without sending suspicious requests to SmartCaptcha. The suspicious requests will be blocked).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#mode SwsSecurityProfile#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#mode SwsSecurityProfile#mode}
   */
   readonly mode?: string;
   /**
   * ID of WAF profile to use in this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#waf_profile_id SwsSecurityProfile#waf_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#waf_profile_id SwsSecurityProfile#waf_profile_id}
   */
   readonly wafProfileId: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#condition SwsSecurityProfile#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#condition SwsSecurityProfile#condition}
   */
   readonly condition?: SwsSecurityProfileSecurityRuleWafCondition;
 }
@@ -8541,43 +8541,43 @@ export interface SwsSecurityProfileSecurityRule {
   /**
   * Optional description of the rule. 0-512 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#description SwsSecurityProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#description SwsSecurityProfile#description}
   */
   readonly description?: string;
   /**
   * This mode allows you to test your security profile or a single rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#dry_run SwsSecurityProfile#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#dry_run SwsSecurityProfile#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
   * Name of the rule. The name is unique within the security profile. 1-50 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#name SwsSecurityProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#name SwsSecurityProfile#name}
   */
   readonly name?: string;
   /**
   * Determines the priority for checking the incoming traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#priority SwsSecurityProfile#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#priority SwsSecurityProfile#priority}
   */
   readonly priority?: number;
   /**
   * rule_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#rule_condition SwsSecurityProfile#rule_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#rule_condition SwsSecurityProfile#rule_condition}
   */
   readonly ruleCondition?: SwsSecurityProfileSecurityRuleRuleCondition;
   /**
   * smart_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#smart_protection SwsSecurityProfile#smart_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#smart_protection SwsSecurityProfile#smart_protection}
   */
   readonly smartProtection?: SwsSecurityProfileSecurityRuleSmartProtection;
   /**
   * waf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#waf SwsSecurityProfile#waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#waf SwsSecurityProfile#waf}
   */
   readonly waf?: SwsSecurityProfileSecurityRuleWaf;
 }
@@ -8867,19 +8867,19 @@ export class SwsSecurityProfileSecurityRuleList extends cdktf.ComplexList {
 }
 export interface SwsSecurityProfileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#create SwsSecurityProfile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#create SwsSecurityProfile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#delete SwsSecurityProfile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#delete SwsSecurityProfile#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#read SwsSecurityProfile#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#read SwsSecurityProfile#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#update SwsSecurityProfile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#update SwsSecurityProfile#update}
   */
   readonly update?: string;
 }
@@ -9060,7 +9060,7 @@ export class SwsSecurityProfileTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile yandex_sws_security_profile}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile yandex_sws_security_profile}
 */
 export class SwsSecurityProfile extends cdktf.TerraformResource {
 
@@ -9076,7 +9076,7 @@ export class SwsSecurityProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwsSecurityProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwsSecurityProfile to import
-  * @param importFromId The id of the existing SwsSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwsSecurityProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwsSecurityProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9088,7 +9088,7 @@ export class SwsSecurityProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/sws_security_profile yandex_sws_security_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/sws_security_profile yandex_sws_security_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9099,8 +9099,8 @@ export class SwsSecurityProfile extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_sws_security_profile',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

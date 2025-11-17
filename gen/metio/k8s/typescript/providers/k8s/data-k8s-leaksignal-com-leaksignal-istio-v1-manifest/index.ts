@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SLeaksignalComLeaksignalIstioV1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#metadata DataK8SLeaksignalComLeaksignalIstioV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#metadata DataK8SLeaksignalComLeaksignalIstioV1Manifest#metadata}
   */
   readonly metadata: DataK8SLeaksignalComLeaksignalIstioV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#spec DataK8SLeaksignalComLeaksignalIstioV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#spec DataK8SLeaksignalComLeaksignalIstioV1Manifest#spec}
   */
   readonly spec?: DataK8SLeaksignalComLeaksignalIstioV1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SLeaksignalComLeaksignalIstioV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#annotations DataK8SLeaksignalComLeaksignalIstioV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#annotations DataK8SLeaksignalComLeaksignalIstioV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#labels DataK8SLeaksignalComLeaksignalIstioV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#labels DataK8SLeaksignalComLeaksignalIstioV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#name DataK8SLeaksignalComLeaksignalIstioV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#name DataK8SLeaksignalComLeaksignalIstioV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#namespace DataK8SLeaksignalComLeaksignalIstioV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#namespace DataK8SLeaksignalComLeaksignalIstioV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export interface DataK8SLeaksignalComLeaksignalIstioV1ManifestSpecWorkloadSelect
   /**
   * Labels to match any pod before deploying LeakSignal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#labels DataK8SLeaksignalComLeaksignalIstioV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#labels DataK8SLeaksignalComLeaksignalIstioV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -313,121 +313,121 @@ export interface DataK8SLeaksignalComLeaksignalIstioV1ManifestSpec {
   /**
   * API Key from the LeakSignal Command dashboard. Alternatively, the deployment name from LeakAgent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#api_key DataK8SLeaksignalComLeaksignalIstioV1Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#api_key DataK8SLeaksignalComLeaksignalIstioV1Manifest#api_key}
   */
   readonly apiKey: string;
   /**
   * Location of CA bundle in istio-proxy. Default is '/etc/ssl/certs/ca-certificates.crt' which is suitable for Istio. OpenShift Service Mesh requires '/etc/ssl/certs/ca-bundle.crt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#ca_bundle DataK8SLeaksignalComLeaksignalIstioV1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#ca_bundle DataK8SLeaksignalComLeaksignalIstioV1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * If true (default), then certificates are installed in pods for outbound TLS interception.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#enable_client_interception DataK8SLeaksignalComLeaksignalIstioV1Manifest#enable_client_interception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#enable_client_interception DataK8SLeaksignalComLeaksignalIstioV1Manifest#enable_client_interception}
   */
   readonly enableClientInterception?: boolean | cdktf.IResolvable;
   /**
   * If 'true' (default), then L4 streams are also scanned by LeakSignal Proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#enable_streaming DataK8SLeaksignalComLeaksignalIstioV1Manifest#enable_streaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#enable_streaming DataK8SLeaksignalComLeaksignalIstioV1Manifest#enable_streaming}
   */
   readonly enableStreaming?: boolean | cdktf.IResolvable;
   /**
   * If 'true' (default), if LeakSignal Proxy has a failure, then all traffic is routed around it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#fail_open DataK8SLeaksignalComLeaksignalIstioV1Manifest#fail_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#fail_open DataK8SLeaksignalComLeaksignalIstioV1Manifest#fail_open}
   */
   readonly failOpen?: boolean | cdktf.IResolvable;
   /**
   * Whether to use Google GRPC or Envoy GRPC for WASM deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#grpc_mode DataK8SLeaksignalComLeaksignalIstioV1Manifest#grpc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#grpc_mode DataK8SLeaksignalComLeaksignalIstioV1Manifest#grpc_mode}
   */
   readonly grpcMode?: string;
   /**
   * If set, use an alternate name for created EnvoyFilter objects, to allow multiple LeaksignalIstio objects in one namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#istio_name DataK8SLeaksignalComLeaksignalIstioV1Manifest#istio_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#istio_name DataK8SLeaksignalComLeaksignalIstioV1Manifest#istio_name}
   */
   readonly istioName?: string;
   /**
   * If 'true' (not default), istio-proxy containers are updated to a corresponding image with support for dynamic plugins, and the native LeakSignal Proxy module is installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#native DataK8SLeaksignalComLeaksignalIstioV1Manifest#native}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#native DataK8SLeaksignalComLeaksignalIstioV1Manifest#native}
   */
   readonly native?: boolean | cdktf.IResolvable;
   /**
   * Alternative memory limit for Istio sidecars running native modules. Useful to mitigate a surge of memory usage when loading the proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#native_proxy_memory_limit DataK8SLeaksignalComLeaksignalIstioV1Manifest#native_proxy_memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#native_proxy_memory_limit DataK8SLeaksignalComLeaksignalIstioV1Manifest#native_proxy_memory_limit}
   */
   readonly nativeProxyMemoryLimit?: string;
   /**
   * Default is 'leaksignal/istio-proxy'. If no tag is specified, it is inferred from the existing proxy image on each given pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#native_repo DataK8SLeaksignalComLeaksignalIstioV1Manifest#native_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#native_repo DataK8SLeaksignalComLeaksignalIstioV1Manifest#native_repo}
   */
   readonly nativeRepo?: string;
   /**
   * Hash of the downloaded bundle for LeakSignal Proxy. Will depend on your version and deployment mechanism (nginx, envoy, WASM).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#proxy_hash DataK8SLeaksignalComLeaksignalIstioV1Manifest#proxy_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#proxy_hash DataK8SLeaksignalComLeaksignalIstioV1Manifest#proxy_hash}
   */
   readonly proxyHash: string;
   /**
   * Prefix of binary to pull. Defaults to 's3/leakproxy'. For LeakAgent deployments, use 'proxy'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#proxy_prefix DataK8SLeaksignalComLeaksignalIstioV1Manifest#proxy_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#proxy_prefix DataK8SLeaksignalComLeaksignalIstioV1Manifest#proxy_prefix}
   */
   readonly proxyPrefix?: string;
   /**
   * Format 'https?://domain(:port)?/'. Defaults to being based on 'upstreamLocation', 'upstreamPort', 'tls', and 'proxyPrefix'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#proxy_pull_location DataK8SLeaksignalComLeaksignalIstioV1Manifest#proxy_pull_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#proxy_pull_location DataK8SLeaksignalComLeaksignalIstioV1Manifest#proxy_pull_location}
   */
   readonly proxyPullLocation?: string;
   /**
   * Version string for LeakSignal Proxy deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#proxy_version DataK8SLeaksignalComLeaksignalIstioV1Manifest#proxy_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#proxy_version DataK8SLeaksignalComLeaksignalIstioV1Manifest#proxy_version}
   */
   readonly proxyVersion: string;
   /**
   * Detects pods that should have leaksignal deployed, but dont, and restarts them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#refresh_pods_on_stale DataK8SLeaksignalComLeaksignalIstioV1Manifest#refresh_pods_on_stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#refresh_pods_on_stale DataK8SLeaksignalComLeaksignalIstioV1Manifest#refresh_pods_on_stale}
   */
   readonly refreshPodsOnStale?: boolean | cdktf.IResolvable;
   /**
   * For WASM mode, redeploys all pods with Istio sidecars affected by a LeakSignal Proxy upgrade. This provides more consistent behavior. Default is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#refresh_pods_on_update DataK8SLeaksignalComLeaksignalIstioV1Manifest#refresh_pods_on_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#refresh_pods_on_update DataK8SLeaksignalComLeaksignalIstioV1Manifest#refresh_pods_on_update}
   */
   readonly refreshPodsOnUpdate?: boolean | cdktf.IResolvable;
   /**
   * If 'true' (default), TLS/HTTPS is used for telemetry upload and downloading LeakSignal Proxy. LeakAgent is usually 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#tls DataK8SLeaksignalComLeaksignalIstioV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#tls DataK8SLeaksignalComLeaksignalIstioV1Manifest#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
   * Hostname of upstream location to send metrics to. Default is 'ingestion.app.leaksignal.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#upstream_location DataK8SLeaksignalComLeaksignalIstioV1Manifest#upstream_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#upstream_location DataK8SLeaksignalComLeaksignalIstioV1Manifest#upstream_location}
   */
   readonly upstreamLocation?: string;
   /**
   * Port of upstream ingestion. Defaults to 80/443 depending on 'tls'. Recommended 8121 for LeakAgent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#upstream_port DataK8SLeaksignalComLeaksignalIstioV1Manifest#upstream_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#upstream_port DataK8SLeaksignalComLeaksignalIstioV1Manifest#upstream_port}
   */
   readonly upstreamPort?: number;
   /**
   * Pod selector for workloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#workload_selector DataK8SLeaksignalComLeaksignalIstioV1Manifest#workload_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#workload_selector DataK8SLeaksignalComLeaksignalIstioV1Manifest#workload_selector}
   */
   readonly workloadSelector?: DataK8SLeaksignalComLeaksignalIstioV1ManifestSpecWorkloadSelector;
 }
@@ -1063,7 +1063,7 @@ export class DataK8SLeaksignalComLeaksignalIstioV1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest k8s_leaksignal_com_leaksignal_istio_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest k8s_leaksignal_com_leaksignal_istio_v1_manifest}
 */
 export class DataK8SLeaksignalComLeaksignalIstioV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1079,7 +1079,7 @@ export class DataK8SLeaksignalComLeaksignalIstioV1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SLeaksignalComLeaksignalIstioV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLeaksignalComLeaksignalIstioV1Manifest to import
-  * @param importFromId The id of the existing DataK8SLeaksignalComLeaksignalIstioV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLeaksignalComLeaksignalIstioV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLeaksignalComLeaksignalIstioV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1091,7 +1091,7 @@ export class DataK8SLeaksignalComLeaksignalIstioV1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest k8s_leaksignal_com_leaksignal_istio_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/leaksignal_com_leaksignal_istio_v1_manifest k8s_leaksignal_com_leaksignal_istio_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1102,8 +1102,8 @@ export class DataK8SLeaksignalComLeaksignalIstioV1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_leaksignal_com_leaksignal_istio_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

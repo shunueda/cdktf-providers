@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manife
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#metadata DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#metadata DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestMetadata;
   /**
   * FeatureFlagConfigurationSpec defines the desired state of FeatureFlagConfiguration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#spec DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#spec DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manife
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#annotations DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#annotations DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#labels DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#labels DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#namespace DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#namespace DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manife
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#key DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#key DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#optional DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#optional DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -382,13 +382,13 @@ export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manife
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#api_version DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#api_version DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#field_path DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#field_path DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -510,19 +510,19 @@ export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manife
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#container_name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#container_name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#divisor DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#divisor DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#resource DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#resource DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -673,19 +673,19 @@ export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manife
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#key DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#key DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#optional DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#optional DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -836,25 +836,25 @@ export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manife
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#config_map_key_ref DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#config_map_key_ref DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpecFlagDSpecEnvsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#field_ref DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#field_ref DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpecFlagDSpecEnvsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#resource_field_ref DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#resource_field_ref DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpecFlagDSpecEnvsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#secret_key_ref DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#secret_key_ref DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpecFlagDSpecEnvsValueFromSecretKeyRef;
 }
@@ -1037,19 +1037,19 @@ export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manife
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#value DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#value DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#value_from DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#value_from DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpecFlagDSpecEnvsValueFrom;
 }
@@ -1220,11 +1220,11 @@ export class DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSp
 }
 export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpecFlagDSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#envs DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#envs DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#envs}
   */
   readonly envs?: DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpecFlagDSpecEnvs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#metrics_port DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#metrics_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#metrics_port DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#metrics_port}
   */
   readonly metricsPort?: number;
 }
@@ -1349,43 +1349,43 @@ export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manife
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#api_version DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#api_version DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#field_path DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#field_path DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#kind DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#kind DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#namespace DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#namespace DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#resource_version DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#resource_version DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#uid DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#uid DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1655,11 +1655,11 @@ export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manife
   /**
   * ObjectReference contains enough information to let you inspect or modify the referred object. --- New uses of this type are discouraged because of difficulty describing its usage when embedded in APIs. 1. Ignored fields. It includes many fields which are not generally honored. For instance, ResourceVersion and FieldPath are both very rarely valid in actual usage. 2. Invalid usage help. It is impossible to add specific help for individual usage. In most embedded usages, there are particular restrictions like, 'must refer only to types A and B' or 'UID not honored' or 'name must be restricted'. Those cannot be well described when embedded. 3. Inconsistent validation. Because the usages are different, the validation rules are different by usage, which makes it hard for users to predict what will happen. 4. The fields are both imprecise and overly precise. Kind is not a precise mapping to a URL. This can produce ambiguity during interpretation and require a REST mapping. In most cases, the dependency is on the group,resource tuple and the version of the actual struct is irrelevant. 5. We cannot easily change it. Because this type is embedded in many locations, updates to this type will affect numerous schemas. Don't make new APIs embed an underspecified API type they do not control. Instead of using this type, create a locally provided and used type that is well-focused on your reference. For example, ServiceReferences for admission registration: https://github.com/kubernetes/api/blob/release-1.17/admissionregistration/v1/types.go#L533 .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#credentials DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#credentials DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpecServiceProviderCredentials;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1779,13 +1779,13 @@ export class DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSp
 }
 export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpecSyncProviderHttpSyncConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#bearer_token DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#bearer_token DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * Target is the target url for flagd to poll
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#target DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#target DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#target}
   */
   readonly target: string;
 }
@@ -1907,11 +1907,11 @@ export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manife
   /**
   * HttpSyncConfiguration defines the desired configuration for a http sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#http_sync_configuration DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#http_sync_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#http_sync_configuration DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#http_sync_configuration}
   */
   readonly httpSyncConfiguration?: DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpecSyncProviderHttpSyncConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#name DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2033,25 +2033,25 @@ export interface DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manife
   /**
   * FeatureFlagSpec is the json representation of the feature flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#feature_flag_spec DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#feature_flag_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#feature_flag_spec DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#feature_flag_spec}
   */
   readonly featureFlagSpec?: string;
   /**
   * FlagDSpec [DEPRECATED]: superseded by FlagSourceConfiguration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#flag_d_spec DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#flag_d_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#flag_d_spec DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#flag_d_spec}
   */
   readonly flagDSpec?: DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpecFlagDSpec;
   /**
   * ServiceProvider [DEPRECATED]: superseded by FlagSourceConfiguration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#service_provider DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#service_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#service_provider DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#service_provider}
   */
   readonly serviceProvider?: DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpecServiceProvider;
   /**
   * SyncProvider [DEPRECATED]: superseded by FlagSourceConfiguration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#sync_provider DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#sync_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#sync_provider DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest#sync_provider}
   */
   readonly syncProvider?: DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSpecSyncProvider;
 }
@@ -2232,7 +2232,7 @@ export class DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1ManifestSp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest k8s_core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest k8s_core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest}
 */
 export class DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2248,7 +2248,7 @@ export class DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest e
   * Generates CDKTF code for importing a DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2260,7 +2260,7 @@ export class DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest e
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest k8s_core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest k8s_core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2271,8 +2271,8 @@ export class DataK8SCoreOpenfeatureDevFeatureFlagConfigurationV1Alpha1Manifest e
       terraformResourceType: 'k8s_core_openfeature_dev_feature_flag_configuration_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#metadata DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#metadata DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestMetadata;
   /**
   * DatadogMonitorSpec defines the desired state of DatadogMonitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#spec DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#spec DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#annotations DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#annotations DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#labels DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#labels DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#name DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#name DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#namespace DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#namespace DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestSpecController
   /**
   * DisableRequiredTags disables the automatic addition of required tags to monitors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#disable_required_tags DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#disable_required_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#disable_required_tags DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#disable_required_tags}
   */
   readonly disableRequiredTags?: boolean | cdktf.IResolvable;
 }
@@ -315,13 +315,13 @@ export interface DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestSpecOptionsThr
   /**
   * Describes how long an anomalous metric must be normal before the alert recovers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#recovery_window DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#recovery_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#recovery_window DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#recovery_window}
   */
   readonly recoveryWindow?: string;
   /**
   * Describes how long a metric must be anomalous before an alert triggers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#trigger_window DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#trigger_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#trigger_window DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#trigger_window}
   */
   readonly triggerWindow?: string;
 }
@@ -446,37 +446,37 @@ export interface DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestSpecOptionsThr
   /**
   * The monitor CRITICAL threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#critical DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#critical DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#critical}
   */
   readonly critical?: string;
   /**
   * The monitor CRITICAL recovery threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#critical_recovery DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#critical_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#critical_recovery DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#critical_recovery}
   */
   readonly criticalRecovery?: string;
   /**
   * The monitor OK threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#ok DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#ok DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#ok}
   */
   readonly ok?: string;
   /**
   * The monitor UNKNOWN threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#unknown DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#unknown DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#unknown}
   */
   readonly unknown?: string;
   /**
   * The monitor WARNING threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#warning DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#warning DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#warning}
   */
   readonly warning?: string;
   /**
   * The monitor WARNING recovery threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#warning_recovery DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#warning_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#warning_recovery DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#warning_recovery}
   */
   readonly warningRecovery?: string;
 }
@@ -717,121 +717,121 @@ export interface DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestSpecOptions {
   /**
   * A Boolean indicating whether to send a log sample when the log monitor triggers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#enable_logs_sample DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#enable_logs_sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#enable_logs_sample DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#enable_logs_sample}
   */
   readonly enableLogsSample?: boolean | cdktf.IResolvable;
   /**
   * A message to include with a re-notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#escalation_message DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#escalation_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#escalation_message DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#escalation_message}
   */
   readonly escalationMessage?: string;
   /**
   * Time (in seconds) to delay evaluation, as a non-negative integer. For example, if the value is set to 300 (5min), the timeframe is set to last_5m and the time is 7:00, the monitor evaluates data from 6:50 to 6:55. This is useful for AWS CloudWatch and other backfilled metrics to ensure the monitor always has data during evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#evaluation_delay DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#evaluation_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#evaluation_delay DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#evaluation_delay}
   */
   readonly evaluationDelay?: number;
   /**
   * A Boolean indicating whether the log alert monitor triggers a single alert or multiple alerts when any group breaches a threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#groupby_simple_monitor DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#groupby_simple_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#groupby_simple_monitor DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#groupby_simple_monitor}
   */
   readonly groupbySimpleMonitor?: boolean | cdktf.IResolvable;
   /**
   * A Boolean indicating whether notifications from this monitor automatically inserts its triggering tags into the title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#include_tags DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#include_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#include_tags DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#include_tags}
   */
   readonly includeTags?: boolean | cdktf.IResolvable;
   /**
   * DEPRECATED: Whether or not the monitor is locked (only editable by creator and admins). Use 'restricted_roles' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#locked DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#locked DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * Time (in seconds) to allow a host to boot and applications to fully start before starting the evaluation of monitor results. Should be a non negative integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#new_group_delay DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#new_group_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#new_group_delay DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#new_group_delay}
   */
   readonly newGroupDelay?: number;
   /**
   * The number of minutes before a monitor notifies after data stops reporting. Datadog recommends at least 2x the monitor timeframe for metric alerts or 2 minutes for service checks. If omitted, 2x the evaluation timeframe is used for metric alerts, and 24 hours is used for service checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#no_data_timeframe DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#no_data_timeframe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#no_data_timeframe DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#no_data_timeframe}
   */
   readonly noDataTimeframe?: number;
   /**
   * An enum that toggles the display of additional content sent in the monitor notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#notification_preset_name DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#notification_preset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#notification_preset_name DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#notification_preset_name}
   */
   readonly notificationPresetName?: string;
   /**
   * A Boolean indicating whether tagged users are notified on changes to this monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#notify_audit DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#notify_audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#notify_audit DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#notify_audit}
   */
   readonly notifyAudit?: boolean | cdktf.IResolvable;
   /**
   * A string indicating the granularity a monitor alerts on. Only available for monitors with groupings. For instance, a monitor grouped by cluster, namespace, and pod can be configured to only notify on each new cluster violating the alert conditions by setting notify_by to ['cluster']. Tags mentioned in notify_by must be a subset of the grouping tags in the query. For example, a query grouped by cluster and namespace cannot notify on region. Setting notify_by to [*] configures the monitor to notify as a simple-alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#notify_by DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#notify_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#notify_by DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#notify_by}
   */
   readonly notifyBy?: string[];
   /**
   * A Boolean indicating whether this monitor notifies when data stops reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#notify_no_data DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#notify_no_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#notify_no_data DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#notify_no_data}
   */
   readonly notifyNoData?: boolean | cdktf.IResolvable;
   /**
   * An enum that controls how groups or monitors are treated if an evaluation does not return data points. The default option results in different behavior depending on the monitor query type. For monitors using Count queries, an empty monitor evaluation is treated as 0 and is compared to the threshold conditions. For monitors using any query type other than Count, for example Gauge, Measure, or Rate, the monitor shows the last known status. This option is only available for APM Trace Analytics, Audit Trail, CI, Error Tracking, Event, Logs, and RUM monitors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#on_missing_data DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#on_missing_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#on_missing_data DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#on_missing_data}
   */
   readonly onMissingData?: string;
   /**
   * The number of minutes after the last notification before a monitor re-notifies on the current status. It only re-notifies if it’s not resolved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#renotify_interval DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#renotify_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#renotify_interval DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#renotify_interval}
   */
   readonly renotifyInterval?: number;
   /**
   * The number of times re-notification messages should be sent on the current status at the provided re-notification interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#renotify_occurrences DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#renotify_occurrences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#renotify_occurrences DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#renotify_occurrences}
   */
   readonly renotifyOccurrences?: number;
   /**
   * The types of statuses for which re-notification messages should be sent. Valid values are alert, warn, no data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#renotify_statuses DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#renotify_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#renotify_statuses DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#renotify_statuses}
   */
   readonly renotifyStatuses?: string[];
   /**
   * A Boolean indicating whether this monitor needs a full window of data before it’s evaluated. We highly recommend you set this to false for sparse metrics, otherwise some evaluations are skipped. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#require_full_window DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#require_full_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#require_full_window DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#require_full_window}
   */
   readonly requireFullWindow?: boolean | cdktf.IResolvable;
   /**
   * A struct of the alerting time window options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#threshold_windows DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#threshold_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#threshold_windows DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#threshold_windows}
   */
   readonly thresholdWindows?: DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestSpecOptionsThresholdWindows;
   /**
   * A struct of the different monitor threshold values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#thresholds DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#thresholds DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#thresholds}
   */
   readonly thresholds?: DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestSpecOptionsThresholds;
   /**
   * The number of hours of the monitor not reporting data before it automatically resolves from a triggered state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#timeout_h DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#timeout_h}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#timeout_h DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#timeout_h}
   */
   readonly timeoutH?: number;
 }
@@ -1478,55 +1478,55 @@ export interface DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestSpec {
   /**
   * ControllerOptions are the optional parameters in the DatadogMonitor controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#controller_options DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#controller_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#controller_options DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#controller_options}
   */
   readonly controllerOptions?: DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestSpecControllerOptions;
   /**
   * Message is a message to include with notifications for this monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#message DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#message DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
   * Name is the monitor name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#name DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#name DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Options are the optional parameters associated with your monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#options DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#options DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#options}
   */
   readonly options?: DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestSpecOptions;
   /**
   * Priority is an integer from 1 (high) to 5 (low) indicating alert severity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#priority DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#priority DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * Query is the Datadog monitor query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#query DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#query DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#query}
   */
   readonly query?: string;
   /**
   * RestrictedRoles is a list of unique role identifiers to define which roles are allowed to edit the monitor. 'restricted_roles' is the successor of 'locked'. For more information about 'locked' and 'restricted_roles', see the [monitor options docs](https://docs.datadoghq.com/monitors/guide/monitor_api_options/#permissions-options).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#restricted_roles DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#restricted_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#restricted_roles DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#restricted_roles}
   */
   readonly restrictedRoles?: string[];
   /**
   * Tags is the monitor tags associated with your monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#tags DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#tags DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#tags}
   */
   readonly tags?: string[];
   /**
   * Type is the monitor type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#type DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#type DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1852,7 +1852,7 @@ export class DataK8SDatadoghqComDatadogMonitorV1Alpha1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest k8s_datadoghq_com_datadog_monitor_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest k8s_datadoghq_com_datadog_monitor_v1alpha1_manifest}
 */
 export class DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1868,7 +1868,7 @@ export class DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1880,7 +1880,7 @@ export class DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest k8s_datadoghq_com_datadog_monitor_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/datadoghq_com_datadog_monitor_v1alpha1_manifest k8s_datadoghq_com_datadog_monitor_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1891,8 +1891,8 @@ export class DataK8SDatadoghqComDatadogMonitorV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_datadoghq_com_datadog_monitor_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

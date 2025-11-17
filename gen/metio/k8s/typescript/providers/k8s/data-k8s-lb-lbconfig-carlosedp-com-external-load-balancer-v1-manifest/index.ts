@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#metadata DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#metadata DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#metadata}
   */
   readonly metadata: DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1ManifestMetadata;
   /**
   * ExternalLoadBalancerSpec is the spec of a LoadBalancer instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#spec DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#spec DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#spec}
   */
   readonly spec?: DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#annotations DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#annotations DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#labels DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#labels DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#name DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#name DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#namespace DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#namespace DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1ManifestSpec
   /**
   * MonitorType is the monitor parent type. <monitorType> must be one of 'http', 'https', 'icmp'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#monitortype DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#monitortype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#monitortype DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#monitortype}
   */
   readonly monitortype: string;
   /**
   * Name is the monitor name, it is set by the controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#name DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#name DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Path is the path URL to check for the pool members in the format '/healthz'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#path DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#path DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#path}
   */
   readonly path: string;
   /**
   * Port is the port this monitor should check the pool members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#port DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#port DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#port}
   */
   readonly port: number;
 }
@@ -411,49 +411,49 @@ export interface DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1ManifestSpec
   /**
   * Creds is the credentials secret holding the 'username' and 'password' keys. Generate with: 'kubectl create secret generic <secret-name> --from-literal=username=<username> --from-literal=password=<password>'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#creds DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#creds DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#creds}
   */
   readonly creds: string;
   /**
   * Debug is a flag to enable debug on the backend log output. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#debug DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#debug DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * Host is the Load Balancer API IP or Hostname in URL format. Eg. 'http://10.25.10.10'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#host DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#host DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#host}
   */
   readonly host: string;
   /**
   * Type is the Load-Balancing method. Defaults to 'round-robin'. Options are: ROUNDROBIN, LEASTCONNECTION, LEASTRESPONSETIME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#lbmethod DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#lbmethod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#lbmethod DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#lbmethod}
   */
   readonly lbmethod?: string;
   /**
   * Partition is the F5 partition to create the Load Balancer instances. Defaults to 'Common'. (F5 BigIP only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#partition DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#partition DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#partition}
   */
   readonly partition?: string;
   /**
   * Port is the Load Balancer API Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#port DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#port DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#port}
   */
   readonly port: number;
   /**
   * ValidateCerts is a flag to validate or not the Load Balancer API certificate. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#validatecerts DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#validatecerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#validatecerts DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#validatecerts}
   */
   readonly validatecerts?: boolean | cdktf.IResolvable;
   /**
   * Vendor is the backend provider vendor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#vendor DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#vendor DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#vendor}
   */
   readonly vendor: string;
 }
@@ -740,37 +740,37 @@ export interface DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1ManifestSpec
   /**
   * Monitor is the path and port to monitor the LoadBalancer members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#monitor DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#monitor DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#monitor}
   */
   readonly monitor: DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1ManifestSpecMonitor;
   /**
   * NodeLabels are the node labels used for router sharding as an alternative to 'type'. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#nodelabels DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#nodelabels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#nodelabels DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#nodelabels}
   */
   readonly nodelabels?: { [key: string]: string };
   /**
   * Ports is the ports exposed by this LoadBalancer instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#ports DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#ports DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#ports}
   */
   readonly ports: string[];
   /**
   * Provider is the LoadBalancer backend provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#provider DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#provider DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#provider}
   */
   readonly provider: DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1ManifestSpecProvider;
   /**
   * Type is the node role type (master or infra) for the LoadBalancer instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#type DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#type DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Vip is the Virtual IP configured in this LoadBalancer instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#vip DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#vip DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest#vip}
   */
   readonly vip: string;
 }
@@ -997,7 +997,7 @@ export class DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest k8s_lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest k8s_lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest}
 */
 export class DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1013,7 +1013,7 @@ export class DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest extends
   * Generates CDKTF code for importing a DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest to import
-  * @param importFromId The id of the existing DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1025,7 +1025,7 @@ export class DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest k8s_lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest k8s_lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1036,8 +1036,8 @@ export class DataK8SLbLbconfigCarlosedpComExternalLoadBalancerV1Manifest extends
       terraformResourceType: 'k8s_lb_lbconfig_carlosedp_com_external_load_balancer_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

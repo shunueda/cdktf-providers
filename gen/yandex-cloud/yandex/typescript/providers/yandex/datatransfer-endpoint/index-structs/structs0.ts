@@ -1,11 +1,11 @@
 import * as cdktf from 'cdktf';
 export interface DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOptionsOnPremiseShards {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
   */
   readonly hosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#name DatatransferEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#name DatatransferEndpoint#name}
   */
   readonly name?: string;
 }
@@ -199,7 +199,7 @@ export class DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOpt
 }
 export interface DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOptionsOnPremiseTlsModeEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -285,13 +285,13 @@ export interface DatatransferEndpointSettingsClickhouseSourceConnectionConnectio
   /**
   * disabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
   */
   readonly disabled?: DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOptionsOnPremiseTlsModeDisabled;
   /**
   * enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
   */
   readonly enabled?: DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOptionsOnPremiseTlsModeEnabled;
 }
@@ -404,23 +404,23 @@ export class DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOpt
 }
 export interface DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOptionsOnPremise {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#http_port DatatransferEndpoint#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#http_port DatatransferEndpoint#http_port}
   */
   readonly httpPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#native_port DatatransferEndpoint#native_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#native_port DatatransferEndpoint#native_port}
   */
   readonly nativePort?: number;
   /**
   * shards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#shards DatatransferEndpoint#shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#shards DatatransferEndpoint#shards}
   */
   readonly shards?: DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOptionsOnPremiseShards[] | cdktf.IResolvable;
   /**
   * tls_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
   */
   readonly tlsMode?: DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOptionsOnPremiseTlsMode;
 }
@@ -591,7 +591,7 @@ export class DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOpt
 }
 export interface DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOptionsPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
   */
   readonly raw?: string;
 }
@@ -675,27 +675,27 @@ export class DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOpt
 }
 export interface DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
   */
   readonly database?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
   */
   readonly mdbClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
   */
   readonly user?: string;
   /**
   * on_premise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
   */
   readonly onPremise?: DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOptionsOnPremise;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
   */
   readonly password?: DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOptionsPassword;
 }
@@ -897,7 +897,7 @@ export interface DatatransferEndpointSettingsClickhouseSourceConnection {
   /**
   * connection_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection_options DatatransferEndpoint#connection_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection_options DatatransferEndpoint#connection_options}
   */
   readonly connectionOptions?: DatatransferEndpointSettingsClickhouseSourceConnectionConnectionOptions;
 }
@@ -981,37 +981,37 @@ export class DatatransferEndpointSettingsClickhouseSourceConnectionOutputReferen
 }
 export interface DatatransferEndpointSettingsClickhouseSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#clickhouse_cluster_name DatatransferEndpoint#clickhouse_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#clickhouse_cluster_name DatatransferEndpoint#clickhouse_cluster_name}
   */
   readonly clickhouseClusterName?: string;
   /**
   * The list of tables that should not be transferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#exclude_tables DatatransferEndpoint#exclude_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#exclude_tables DatatransferEndpoint#exclude_tables}
   */
   readonly excludeTables?: string[];
   /**
   * The list of tables that should be transferred. Leave empty if all tables should be transferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#include_tables DatatransferEndpoint#include_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#include_tables DatatransferEndpoint#include_tables}
   */
   readonly includeTables?: string[];
   /**
   * List of security groups that the transfer associated with this endpoint should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
   */
   readonly connection?: DatatransferEndpointSettingsClickhouseSourceConnection;
 }
@@ -1240,11 +1240,11 @@ export class DatatransferEndpointSettingsClickhouseSourceOutputReference extends
 }
 export interface DatatransferEndpointSettingsClickhouseTargetAltNames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#from_name DatatransferEndpoint#from_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#from_name DatatransferEndpoint#from_name}
   */
   readonly fromName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#to_name DatatransferEndpoint#to_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#to_name DatatransferEndpoint#to_name}
   */
   readonly toName?: string;
 }
@@ -1391,13 +1391,13 @@ export interface DatatransferEndpointSettingsClickhouseTargetConnectionConnectio
   /**
   * List of ClickHouse server host names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
   */
   readonly hosts?: string[];
   /**
   * Arbitrary shard name. This name may be used in `sharding` block to specify custom sharding rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#name DatatransferEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#name DatatransferEndpoint#name}
   */
   readonly name?: string;
 }
@@ -1591,7 +1591,7 @@ export class DatatransferEndpointSettingsClickhouseTargetConnectionConnectionOpt
 }
 export interface DatatransferEndpointSettingsClickhouseTargetConnectionConnectionOptionsOnPremiseTlsModeEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -1677,13 +1677,13 @@ export interface DatatransferEndpointSettingsClickhouseTargetConnectionConnectio
   /**
   * disabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
   */
   readonly disabled?: DatatransferEndpointSettingsClickhouseTargetConnectionConnectionOptionsOnPremiseTlsModeDisabled;
   /**
   * enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
   */
   readonly enabled?: DatatransferEndpointSettingsClickhouseTargetConnectionConnectionOptionsOnPremiseTlsModeEnabled;
 }
@@ -1798,25 +1798,25 @@ export interface DatatransferEndpointSettingsClickhouseTargetConnectionConnectio
   /**
   * TCP port number for the HTTP interface of the ClickHouse server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#http_port DatatransferEndpoint#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#http_port DatatransferEndpoint#http_port}
   */
   readonly httpPort?: number;
   /**
   * TCP port number for the native interface of the ClickHouse server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#native_port DatatransferEndpoint#native_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#native_port DatatransferEndpoint#native_port}
   */
   readonly nativePort?: number;
   /**
   * shards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#shards DatatransferEndpoint#shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#shards DatatransferEndpoint#shards}
   */
   readonly shards?: DatatransferEndpointSettingsClickhouseTargetConnectionConnectionOptionsOnPremiseShards[] | cdktf.IResolvable;
   /**
   * tls_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
   */
   readonly tlsMode?: DatatransferEndpointSettingsClickhouseTargetConnectionConnectionOptionsOnPremiseTlsMode;
 }
@@ -1989,7 +1989,7 @@ export interface DatatransferEndpointSettingsClickhouseTargetConnectionConnectio
   /**
   * Password for the database access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
   */
   readonly raw?: string;
 }
@@ -2075,31 +2075,31 @@ export interface DatatransferEndpointSettingsClickhouseTargetConnectionConnectio
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
   */
   readonly database?: string;
   /**
   * Identifier of the Managed ClickHouse cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
   */
   readonly mdbClusterId?: string;
   /**
   * User for database access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
   */
   readonly user?: string;
   /**
   * on_premise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
   */
   readonly onPremise?: DatatransferEndpointSettingsClickhouseTargetConnectionConnectionOptionsOnPremise;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
   */
   readonly password?: DatatransferEndpointSettingsClickhouseTargetConnectionConnectionOptionsPassword;
 }
@@ -2301,7 +2301,7 @@ export interface DatatransferEndpointSettingsClickhouseTargetConnection {
   /**
   * connection_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection_options DatatransferEndpoint#connection_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection_options DatatransferEndpoint#connection_options}
   */
   readonly connectionOptions?: DatatransferEndpointSettingsClickhouseTargetConnectionConnectionOptions;
 }
@@ -2387,7 +2387,7 @@ export interface DatatransferEndpointSettingsClickhouseTargetShardingColumnValue
   /**
   * The name of the column to calculate hash from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#column_name DatatransferEndpoint#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#column_name DatatransferEndpoint#column_name}
   */
   readonly columnName?: string;
 }
@@ -2473,7 +2473,7 @@ export interface DatatransferEndpointSettingsClickhouseTargetShardingCustomMappi
   /**
   * The string value of the column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#string_value DatatransferEndpoint#string_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#string_value DatatransferEndpoint#string_value}
   */
   readonly stringValue?: string;
 }
@@ -2559,13 +2559,13 @@ export interface DatatransferEndpointSettingsClickhouseTargetShardingCustomMappi
   /**
   * The name of the shard into which all the rows with the specified `column_value` will be written.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#shard_name DatatransferEndpoint#shard_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#shard_name DatatransferEndpoint#shard_name}
   */
   readonly shardName?: string;
   /**
   * column_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#column_value DatatransferEndpoint#column_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#column_value DatatransferEndpoint#column_value}
   */
   readonly columnValue?: DatatransferEndpointSettingsClickhouseTargetShardingCustomMappingMappingColumnValue;
 }
@@ -2712,13 +2712,13 @@ export interface DatatransferEndpointSettingsClickhouseTargetShardingCustomMappi
   /**
   * The name of the column to inspect when deciding the shard to chose for an incoming row.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#column_name DatatransferEndpoint#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#column_name DatatransferEndpoint#column_name}
   */
   readonly columnName?: string;
   /**
   * mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#mapping DatatransferEndpoint#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#mapping DatatransferEndpoint#mapping}
   */
   readonly mapping?: DatatransferEndpointSettingsClickhouseTargetShardingCustomMappingMapping[] | cdktf.IResolvable;
 }
@@ -2931,25 +2931,25 @@ export interface DatatransferEndpointSettingsClickhouseTargetSharding {
   /**
   * column_value_hash block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#column_value_hash DatatransferEndpoint#column_value_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#column_value_hash DatatransferEndpoint#column_value_hash}
   */
   readonly columnValueHash?: DatatransferEndpointSettingsClickhouseTargetShardingColumnValueHash;
   /**
   * custom_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#custom_mapping DatatransferEndpoint#custom_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#custom_mapping DatatransferEndpoint#custom_mapping}
   */
   readonly customMapping?: DatatransferEndpointSettingsClickhouseTargetShardingCustomMapping;
   /**
   * round_robin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#round_robin DatatransferEndpoint#round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#round_robin DatatransferEndpoint#round_robin}
   */
   readonly roundRobin?: DatatransferEndpointSettingsClickhouseTargetShardingRoundRobin;
   /**
   * transfer_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#transfer_id DatatransferEndpoint#transfer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#transfer_id DatatransferEndpoint#transfer_id}
   */
   readonly transferId?: DatatransferEndpointSettingsClickhouseTargetShardingTransferId;
 }
@@ -3122,43 +3122,43 @@ export interface DatatransferEndpointSettingsClickhouseTarget {
   /**
   * How to clean collections when activating the transfer. One of `CLICKHOUSE_CLEANUP_POLICY_DISABLED` or `CLICKHOUSE_CLEANUP_POLICY_DROP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#cleanup_policy DatatransferEndpoint#cleanup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#cleanup_policy DatatransferEndpoint#cleanup_policy}
   */
   readonly cleanupPolicy?: string;
   /**
   * Name of the ClickHouse cluster. For managed ClickHouse clusters defaults to managed cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#clickhouse_cluster_name DatatransferEndpoint#clickhouse_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#clickhouse_cluster_name DatatransferEndpoint#clickhouse_cluster_name}
   */
   readonly clickhouseClusterName?: string;
   /**
   * List of security groups that the transfer associated with this endpoint should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * alt_names block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#alt_names DatatransferEndpoint#alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#alt_names DatatransferEndpoint#alt_names}
   */
   readonly altNames?: DatatransferEndpointSettingsClickhouseTargetAltNames[] | cdktf.IResolvable;
   /**
   * connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
   */
   readonly connection?: DatatransferEndpointSettingsClickhouseTargetConnection;
   /**
   * sharding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#sharding DatatransferEndpoint#sharding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#sharding DatatransferEndpoint#sharding}
   */
   readonly sharding?: DatatransferEndpointSettingsClickhouseTargetSharding;
 }
@@ -3465,7 +3465,7 @@ export class DatatransferEndpointSettingsKafkaSourceAuthNoAuthOutputReference ex
 }
 export interface DatatransferEndpointSettingsKafkaSourceAuthSaslPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
   */
   readonly raw?: string;
 }
@@ -3549,17 +3549,17 @@ export class DatatransferEndpointSettingsKafkaSourceAuthSaslPasswordOutputRefere
 }
 export interface DatatransferEndpointSettingsKafkaSourceAuthSasl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#mechanism DatatransferEndpoint#mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#mechanism DatatransferEndpoint#mechanism}
   */
   readonly mechanism?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
   */
   readonly user?: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
   */
   readonly password?: DatatransferEndpointSettingsKafkaSourceAuthSaslPassword;
 }
@@ -3703,13 +3703,13 @@ export interface DatatransferEndpointSettingsKafkaSourceAuth {
   /**
   * no_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#no_auth DatatransferEndpoint#no_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#no_auth DatatransferEndpoint#no_auth}
   */
   readonly noAuth?: DatatransferEndpointSettingsKafkaSourceAuthNoAuth;
   /**
   * sasl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#sasl DatatransferEndpoint#sasl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#sasl DatatransferEndpoint#sasl}
   */
   readonly sasl?: DatatransferEndpointSettingsKafkaSourceAuthSasl;
 }
@@ -3873,7 +3873,7 @@ export interface DatatransferEndpointSettingsKafkaSourceConnectionOnPremiseTlsMo
   /**
   * X.509 certificate of the certificate authority which issued the server's certificate, in PEM format. If empty, the server's certificate must be signed by a well-known CA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -3959,13 +3959,13 @@ export interface DatatransferEndpointSettingsKafkaSourceConnectionOnPremiseTlsMo
   /**
   * disabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
   */
   readonly disabled?: DatatransferEndpointSettingsKafkaSourceConnectionOnPremiseTlsModeDisabled;
   /**
   * enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
   */
   readonly enabled?: DatatransferEndpointSettingsKafkaSourceConnectionOnPremiseTlsModeEnabled;
 }
@@ -4078,17 +4078,17 @@ export class DatatransferEndpointSettingsKafkaSourceConnectionOnPremiseTlsModeOu
 }
 export interface DatatransferEndpointSettingsKafkaSourceConnectionOnPremise {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#broker_urls DatatransferEndpoint#broker_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#broker_urls DatatransferEndpoint#broker_urls}
   */
   readonly brokerUrls?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * tls_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
   */
   readonly tlsMode?: DatatransferEndpointSettingsKafkaSourceConnectionOnPremiseTlsMode;
 }
@@ -4230,13 +4230,13 @@ export class DatatransferEndpointSettingsKafkaSourceConnectionOnPremiseOutputRef
 }
 export interface DatatransferEndpointSettingsKafkaSourceConnection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#cluster_id DatatransferEndpoint#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#cluster_id DatatransferEndpoint#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * on_premise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
   */
   readonly onPremise?: DatatransferEndpointSettingsKafkaSourceConnectionOnPremise;
 }
@@ -4449,31 +4449,31 @@ export interface DatatransferEndpointSettingsKafkaSourceParserJsonParserDataSche
   /**
   * Mark field as Primary Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#key DatatransferEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#key DatatransferEndpoint#key}
   */
   readonly key?: boolean | cdktf.IResolvable;
   /**
   * Field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#name DatatransferEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#name DatatransferEndpoint#name}
   */
   readonly name?: string;
   /**
   * Path to the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#path DatatransferEndpoint#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#path DatatransferEndpoint#path}
   */
   readonly path?: string;
   /**
   * Mark field as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#required DatatransferEndpoint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#required DatatransferEndpoint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Field type, one of: `INT64`, `INT32`, `INT16`, `INT8`, `UINT64`, `UINT32`, `UINT16`, `UINT8`, `DOUBLE`, `BOOLEAN`, `STRING`, `UTF8`, `ANY`, `DATETIME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#type DatatransferEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#type DatatransferEndpoint#type}
   */
   readonly type?: string;
 }
@@ -4707,7 +4707,7 @@ export interface DatatransferEndpointSettingsKafkaSourceParserJsonParserDataSche
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
   */
   readonly fields?: DatatransferEndpointSettingsKafkaSourceParserJsonParserDataSchemaFieldsFields[] | cdktf.IResolvable;
 }
@@ -4793,13 +4793,13 @@ export interface DatatransferEndpointSettingsKafkaSourceParserJsonParserDataSche
   /**
   * Description of the data schema as JSON specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#json_fields DatatransferEndpoint#json_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#json_fields DatatransferEndpoint#json_fields}
   */
   readonly jsonFields?: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
   */
   readonly fields?: DatatransferEndpointSettingsKafkaSourceParserJsonParserDataSchemaFields;
 }
@@ -4914,25 +4914,25 @@ export interface DatatransferEndpointSettingsKafkaSourceParserJsonParser {
   /**
   * Add fields, that are not in the schema, into the _rest column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#add_rest_column DatatransferEndpoint#add_rest_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#add_rest_column DatatransferEndpoint#add_rest_column}
   */
   readonly addRestColumn?: boolean | cdktf.IResolvable;
   /**
   * Allow null keys. If `false` - null keys will be putted to unparsed data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#null_keys_allowed DatatransferEndpoint#null_keys_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#null_keys_allowed DatatransferEndpoint#null_keys_allowed}
   */
   readonly nullKeysAllowed?: boolean | cdktf.IResolvable;
   /**
   * Allow unescape string values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#unescape_string_values DatatransferEndpoint#unescape_string_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#unescape_string_values DatatransferEndpoint#unescape_string_values}
   */
   readonly unescapeStringValues?: boolean | cdktf.IResolvable;
   /**
   * data_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#data_schema DatatransferEndpoint#data_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#data_schema DatatransferEndpoint#data_schema}
   */
   readonly dataSchema?: DatatransferEndpointSettingsKafkaSourceParserJsonParserDataSchema;
 }
@@ -5105,31 +5105,31 @@ export interface DatatransferEndpointSettingsKafkaSourceParserTskvParserDataSche
   /**
   * Mark field as Primary Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#key DatatransferEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#key DatatransferEndpoint#key}
   */
   readonly key?: boolean | cdktf.IResolvable;
   /**
   * Field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#name DatatransferEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#name DatatransferEndpoint#name}
   */
   readonly name?: string;
   /**
   * Path to the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#path DatatransferEndpoint#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#path DatatransferEndpoint#path}
   */
   readonly path?: string;
   /**
   * Mark field as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#required DatatransferEndpoint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#required DatatransferEndpoint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Field type, one of: `INT64`, `INT32`, `INT16`, `INT8`, `UINT64`, `UINT32`, `UINT16`, `UINT8`, `DOUBLE`, `BOOLEAN`, `STRING`, `UTF8`, `ANY`, `DATETIME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#type DatatransferEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#type DatatransferEndpoint#type}
   */
   readonly type?: string;
 }
@@ -5363,7 +5363,7 @@ export interface DatatransferEndpointSettingsKafkaSourceParserTskvParserDataSche
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
   */
   readonly fields?: DatatransferEndpointSettingsKafkaSourceParserTskvParserDataSchemaFieldsFields[] | cdktf.IResolvable;
 }
@@ -5449,13 +5449,13 @@ export interface DatatransferEndpointSettingsKafkaSourceParserTskvParserDataSche
   /**
   * Description of the data schema as JSON specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#json_fields DatatransferEndpoint#json_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#json_fields DatatransferEndpoint#json_fields}
   */
   readonly jsonFields?: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
   */
   readonly fields?: DatatransferEndpointSettingsKafkaSourceParserTskvParserDataSchemaFields;
 }
@@ -5570,25 +5570,25 @@ export interface DatatransferEndpointSettingsKafkaSourceParserTskvParser {
   /**
   * Add fields, that are not in the schema, into the _rest column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#add_rest_column DatatransferEndpoint#add_rest_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#add_rest_column DatatransferEndpoint#add_rest_column}
   */
   readonly addRestColumn?: boolean | cdktf.IResolvable;
   /**
   * Allow null keys. If `false` - null keys will be putted to unparsed data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#null_keys_allowed DatatransferEndpoint#null_keys_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#null_keys_allowed DatatransferEndpoint#null_keys_allowed}
   */
   readonly nullKeysAllowed?: boolean | cdktf.IResolvable;
   /**
   * Allow unescape string values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#unescape_string_values DatatransferEndpoint#unescape_string_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#unescape_string_values DatatransferEndpoint#unescape_string_values}
   */
   readonly unescapeStringValues?: boolean | cdktf.IResolvable;
   /**
   * data_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#data_schema DatatransferEndpoint#data_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#data_schema DatatransferEndpoint#data_schema}
   */
   readonly dataSchema?: DatatransferEndpointSettingsKafkaSourceParserTskvParserDataSchema;
 }
@@ -5761,25 +5761,25 @@ export interface DatatransferEndpointSettingsKafkaSourceParser {
   /**
   * audit_trails_v1_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#audit_trails_v1_parser DatatransferEndpoint#audit_trails_v1_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#audit_trails_v1_parser DatatransferEndpoint#audit_trails_v1_parser}
   */
   readonly auditTrailsV1Parser?: DatatransferEndpointSettingsKafkaSourceParserAuditTrailsV1Parser;
   /**
   * cloud_logging_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#cloud_logging_parser DatatransferEndpoint#cloud_logging_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#cloud_logging_parser DatatransferEndpoint#cloud_logging_parser}
   */
   readonly cloudLoggingParser?: DatatransferEndpointSettingsKafkaSourceParserCloudLoggingParser;
   /**
   * json_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#json_parser DatatransferEndpoint#json_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#json_parser DatatransferEndpoint#json_parser}
   */
   readonly jsonParser?: DatatransferEndpointSettingsKafkaSourceParserJsonParser;
   /**
   * tskv_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#tskv_parser DatatransferEndpoint#tskv_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#tskv_parser DatatransferEndpoint#tskv_parser}
   */
   readonly tskvParser?: DatatransferEndpointSettingsKafkaSourceParserTskvParser;
 }
@@ -5950,27 +5950,27 @@ export class DatatransferEndpointSettingsKafkaSourceParserOutputReference extend
 }
 export interface DatatransferEndpointSettingsKafkaSourceTransformer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#buffer_flush_interval DatatransferEndpoint#buffer_flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#buffer_flush_interval DatatransferEndpoint#buffer_flush_interval}
   */
   readonly bufferFlushInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#buffer_size DatatransferEndpoint#buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#buffer_size DatatransferEndpoint#buffer_size}
   */
   readonly bufferSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#cloud_function DatatransferEndpoint#cloud_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#cloud_function DatatransferEndpoint#cloud_function}
   */
   readonly cloudFunction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#invocation_timeout DatatransferEndpoint#invocation_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#invocation_timeout DatatransferEndpoint#invocation_timeout}
   */
   readonly invocationTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#number_of_retries DatatransferEndpoint#number_of_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#number_of_retries DatatransferEndpoint#number_of_retries}
   */
   readonly numberOfRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#service_account_id DatatransferEndpoint#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#service_account_id DatatransferEndpoint#service_account_id}
   */
   readonly serviceAccountId?: string;
 }
@@ -6201,43 +6201,43 @@ export interface DatatransferEndpointSettingsKafkaSource {
   /**
   * List of security groups that the transfer associated with this endpoint should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * **Deprecated**. Please use `topic_names` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#topic_name DatatransferEndpoint#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#topic_name DatatransferEndpoint#topic_name}
   */
   readonly topicName?: string;
   /**
   * The list of full source topic names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#topic_names DatatransferEndpoint#topic_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#topic_names DatatransferEndpoint#topic_names}
   */
   readonly topicNames?: string[];
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#auth DatatransferEndpoint#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#auth DatatransferEndpoint#auth}
   */
   readonly auth?: DatatransferEndpointSettingsKafkaSourceAuth;
   /**
   * connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
   */
   readonly connection?: DatatransferEndpointSettingsKafkaSourceConnection;
   /**
   * parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#parser DatatransferEndpoint#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#parser DatatransferEndpoint#parser}
   */
   readonly parser?: DatatransferEndpointSettingsKafkaSourceParser;
   /**
   * transformer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#transformer DatatransferEndpoint#transformer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#transformer DatatransferEndpoint#transformer}
   */
   readonly transformer?: DatatransferEndpointSettingsKafkaSourceTransformer;
 }
@@ -6544,7 +6544,7 @@ export class DatatransferEndpointSettingsKafkaTargetAuthNoAuthOutputReference ex
 }
 export interface DatatransferEndpointSettingsKafkaTargetAuthSaslPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
   */
   readonly raw?: string;
 }
@@ -6628,17 +6628,17 @@ export class DatatransferEndpointSettingsKafkaTargetAuthSaslPasswordOutputRefere
 }
 export interface DatatransferEndpointSettingsKafkaTargetAuthSasl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#mechanism DatatransferEndpoint#mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#mechanism DatatransferEndpoint#mechanism}
   */
   readonly mechanism?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
   */
   readonly user?: string;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
   */
   readonly password?: DatatransferEndpointSettingsKafkaTargetAuthSaslPassword;
 }
@@ -6782,13 +6782,13 @@ export interface DatatransferEndpointSettingsKafkaTargetAuth {
   /**
   * no_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#no_auth DatatransferEndpoint#no_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#no_auth DatatransferEndpoint#no_auth}
   */
   readonly noAuth?: DatatransferEndpointSettingsKafkaTargetAuthNoAuth;
   /**
   * sasl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#sasl DatatransferEndpoint#sasl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#sasl DatatransferEndpoint#sasl}
   */
   readonly sasl?: DatatransferEndpointSettingsKafkaTargetAuthSasl;
 }
@@ -6950,7 +6950,7 @@ export class DatatransferEndpointSettingsKafkaTargetConnectionOnPremiseTlsModeDi
 }
 export interface DatatransferEndpointSettingsKafkaTargetConnectionOnPremiseTlsModeEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -7036,13 +7036,13 @@ export interface DatatransferEndpointSettingsKafkaTargetConnectionOnPremiseTlsMo
   /**
   * disabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
   */
   readonly disabled?: DatatransferEndpointSettingsKafkaTargetConnectionOnPremiseTlsModeDisabled;
   /**
   * enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
   */
   readonly enabled?: DatatransferEndpointSettingsKafkaTargetConnectionOnPremiseTlsModeEnabled;
 }
@@ -7157,19 +7157,19 @@ export interface DatatransferEndpointSettingsKafkaTargetConnectionOnPremise {
   /**
   * List of Kafka broker URLs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#broker_urls DatatransferEndpoint#broker_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#broker_urls DatatransferEndpoint#broker_urls}
   */
   readonly brokerUrls?: string[];
   /**
   * Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * tls_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
   */
   readonly tlsMode?: DatatransferEndpointSettingsKafkaTargetConnectionOnPremiseTlsMode;
 }
@@ -7313,13 +7313,13 @@ export interface DatatransferEndpointSettingsKafkaTargetConnection {
   /**
   * Identifier of the Managed Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#cluster_id DatatransferEndpoint#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#cluster_id DatatransferEndpoint#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * on_premise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
   */
   readonly onPremise?: DatatransferEndpointSettingsKafkaTargetConnectionOnPremise;
 }
@@ -7481,11 +7481,11 @@ export class DatatransferEndpointSettingsKafkaTargetSerializerSerializerAutoOutp
 }
 export interface DatatransferEndpointSettingsKafkaTargetSerializerSerializerDebeziumSerializerParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#key DatatransferEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#key DatatransferEndpoint#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#value DatatransferEndpoint#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#value DatatransferEndpoint#value}
   */
   readonly value?: string;
 }
@@ -7632,7 +7632,7 @@ export interface DatatransferEndpointSettingsKafkaTargetSerializerSerializerDebe
   /**
   * serializer_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#serializer_parameters DatatransferEndpoint#serializer_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#serializer_parameters DatatransferEndpoint#serializer_parameters}
   */
   readonly serializerParameters?: DatatransferEndpointSettingsKafkaTargetSerializerSerializerDebeziumSerializerParameters[] | cdktf.IResolvable;
 }
@@ -7767,19 +7767,19 @@ export interface DatatransferEndpointSettingsKafkaTargetSerializer {
   /**
   * serializer_auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#serializer_auto DatatransferEndpoint#serializer_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#serializer_auto DatatransferEndpoint#serializer_auto}
   */
   readonly serializerAuto?: DatatransferEndpointSettingsKafkaTargetSerializerSerializerAuto;
   /**
   * serializer_debezium block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#serializer_debezium DatatransferEndpoint#serializer_debezium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#serializer_debezium DatatransferEndpoint#serializer_debezium}
   */
   readonly serializerDebezium?: DatatransferEndpointSettingsKafkaTargetSerializerSerializerDebezium;
   /**
   * serializer_json block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#serializer_json DatatransferEndpoint#serializer_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#serializer_json DatatransferEndpoint#serializer_json}
   */
   readonly serializerJson?: DatatransferEndpointSettingsKafkaTargetSerializerSerializerJson;
 }
@@ -7923,13 +7923,13 @@ export interface DatatransferEndpointSettingsKafkaTargetTopicSettingsTopic {
   /**
   * Not to split events queue into separate per-table queues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#save_tx_order DatatransferEndpoint#save_tx_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#save_tx_order DatatransferEndpoint#save_tx_order}
   */
   readonly saveTxOrder?: boolean | cdktf.IResolvable;
   /**
   * Full topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#topic_name DatatransferEndpoint#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#topic_name DatatransferEndpoint#topic_name}
   */
   readonly topicName?: string;
 }
@@ -8044,13 +8044,13 @@ export interface DatatransferEndpointSettingsKafkaTargetTopicSettings {
   /**
   * Topic name prefix. Messages will be sent to topic with name <topic_prefix>.<schema>.<table_name>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#topic_prefix DatatransferEndpoint#topic_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#topic_prefix DatatransferEndpoint#topic_prefix}
   */
   readonly topicPrefix?: string;
   /**
   * topic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#topic DatatransferEndpoint#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#topic DatatransferEndpoint#topic}
   */
   readonly topic?: DatatransferEndpointSettingsKafkaTargetTopicSettingsTopic;
 }
@@ -8165,31 +8165,31 @@ export interface DatatransferEndpointSettingsKafkaTarget {
   /**
   * List of security groups that the transfer associated with this endpoint should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#auth DatatransferEndpoint#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#auth DatatransferEndpoint#auth}
   */
   readonly auth?: DatatransferEndpointSettingsKafkaTargetAuth;
   /**
   * connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
   */
   readonly connection?: DatatransferEndpointSettingsKafkaTargetConnection;
   /**
   * serializer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#serializer DatatransferEndpoint#serializer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#serializer DatatransferEndpoint#serializer}
   */
   readonly serializer?: DatatransferEndpointSettingsKafkaTargetSerializer;
   /**
   * topic_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#topic_settings DatatransferEndpoint#topic_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#topic_settings DatatransferEndpoint#topic_settings}
   */
   readonly topicSettings?: DatatransferEndpointSettingsKafkaTargetTopicSettings;
 }
@@ -8389,11 +8389,11 @@ export class DatatransferEndpointSettingsKafkaTargetOutputReference extends cdkt
 }
 export interface DatatransferEndpointSettingsMetrikaSourceStreams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#columns DatatransferEndpoint#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#columns DatatransferEndpoint#columns}
   */
   readonly columns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#type DatatransferEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#type DatatransferEndpoint#type}
   */
   readonly type?: string;
 }
@@ -8538,7 +8538,7 @@ export class DatatransferEndpointSettingsMetrikaSourceStreamsList extends cdktf.
 }
 export interface DatatransferEndpointSettingsMetrikaSourceToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
   */
   readonly raw?: string;
 }
@@ -8622,19 +8622,19 @@ export class DatatransferEndpointSettingsMetrikaSourceTokenOutputReference exten
 }
 export interface DatatransferEndpointSettingsMetrikaSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#counter_ids DatatransferEndpoint#counter_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#counter_ids DatatransferEndpoint#counter_ids}
   */
   readonly counterIds?: number[];
   /**
   * streams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#streams DatatransferEndpoint#streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#streams DatatransferEndpoint#streams}
   */
   readonly streams?: DatatransferEndpointSettingsMetrikaSourceStreams[] | cdktf.IResolvable;
   /**
   * token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#token DatatransferEndpoint#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#token DatatransferEndpoint#token}
   */
   readonly token?: DatatransferEndpointSettingsMetrikaSourceToken;
 }
@@ -8776,11 +8776,11 @@ export class DatatransferEndpointSettingsMetrikaSourceOutputReference extends cd
 }
 export interface DatatransferEndpointSettingsMongoSourceCollections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#collection_name DatatransferEndpoint#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#collection_name DatatransferEndpoint#collection_name}
   */
   readonly collectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#database_name DatatransferEndpoint#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#database_name DatatransferEndpoint#database_name}
   */
   readonly databaseName?: string;
 }
@@ -8974,7 +8974,7 @@ export class DatatransferEndpointSettingsMongoSourceConnectionConnectionOptionsO
 }
 export interface DatatransferEndpointSettingsMongoSourceConnectionConnectionOptionsOnPremiseTlsModeEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -9060,13 +9060,13 @@ export interface DatatransferEndpointSettingsMongoSourceConnectionConnectionOpti
   /**
   * disabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
   */
   readonly disabled?: DatatransferEndpointSettingsMongoSourceConnectionConnectionOptionsOnPremiseTlsModeDisabled;
   /**
   * enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
   */
   readonly enabled?: DatatransferEndpointSettingsMongoSourceConnectionConnectionOptionsOnPremiseTlsModeEnabled;
 }
@@ -9181,25 +9181,25 @@ export interface DatatransferEndpointSettingsMongoSourceConnectionConnectionOpti
   /**
   * Host names of the replica set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
   */
   readonly hosts?: string[];
   /**
   * TCP Port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#port DatatransferEndpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#port DatatransferEndpoint#port}
   */
   readonly port?: number;
   /**
   * Replica set name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#replica_set DatatransferEndpoint#replica_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#replica_set DatatransferEndpoint#replica_set}
   */
   readonly replicaSet?: string;
   /**
   * tls_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
   */
   readonly tlsMode?: DatatransferEndpointSettingsMongoSourceConnectionConnectionOptionsOnPremiseTlsMode;
 }
@@ -9370,7 +9370,7 @@ export class DatatransferEndpointSettingsMongoSourceConnectionConnectionOptionsO
 }
 export interface DatatransferEndpointSettingsMongoSourceConnectionConnectionOptionsPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
   */
   readonly raw?: string;
 }
@@ -9456,29 +9456,29 @@ export interface DatatransferEndpointSettingsMongoSourceConnectionConnectionOpti
   /**
   * Name of the database associated with the credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#auth_source DatatransferEndpoint#auth_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#auth_source DatatransferEndpoint#auth_source}
   */
   readonly authSource?: string;
   /**
   * Identifier of the Managed MongoDB cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
   */
   readonly mdbClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
   */
   readonly user?: string;
   /**
   * on_premise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
   */
   readonly onPremise?: DatatransferEndpointSettingsMongoSourceConnectionConnectionOptionsOnPremise;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
   */
   readonly password?: DatatransferEndpointSettingsMongoSourceConnectionConnectionOptionsPassword;
 }
@@ -9680,7 +9680,7 @@ export interface DatatransferEndpointSettingsMongoSourceConnection {
   /**
   * connection_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection_options DatatransferEndpoint#connection_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection_options DatatransferEndpoint#connection_options}
   */
   readonly connectionOptions?: DatatransferEndpointSettingsMongoSourceConnectionConnectionOptions;
 }
@@ -9764,11 +9764,11 @@ export class DatatransferEndpointSettingsMongoSourceConnectionOutputReference ex
 }
 export interface DatatransferEndpointSettingsMongoSourceExcludedCollections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#collection_name DatatransferEndpoint#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#collection_name DatatransferEndpoint#collection_name}
   */
   readonly collectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#database_name DatatransferEndpoint#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#database_name DatatransferEndpoint#database_name}
   */
   readonly databaseName?: string;
 }
@@ -9915,37 +9915,37 @@ export interface DatatransferEndpointSettingsMongoSource {
   /**
   * Whether the secondary server should be preferred to the primary when copying data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#secondary_preferred_mode DatatransferEndpoint#secondary_preferred_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#secondary_preferred_mode DatatransferEndpoint#secondary_preferred_mode}
   */
   readonly secondaryPreferredMode?: boolean | cdktf.IResolvable;
   /**
   * List of security groups that the transfer associated with this endpoint should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * collections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#collections DatatransferEndpoint#collections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#collections DatatransferEndpoint#collections}
   */
   readonly collections?: DatatransferEndpointSettingsMongoSourceCollections[] | cdktf.IResolvable;
   /**
   * connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
   */
   readonly connection?: DatatransferEndpointSettingsMongoSourceConnection;
   /**
   * excluded_collections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#excluded_collections DatatransferEndpoint#excluded_collections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#excluded_collections DatatransferEndpoint#excluded_collections}
   */
   readonly excludedCollections?: DatatransferEndpointSettingsMongoSourceExcludedCollections[] | cdktf.IResolvable;
 }
@@ -10223,7 +10223,7 @@ export class DatatransferEndpointSettingsMongoTargetConnectionConnectionOptionsO
 }
 export interface DatatransferEndpointSettingsMongoTargetConnectionConnectionOptionsOnPremiseTlsModeEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -10309,13 +10309,13 @@ export interface DatatransferEndpointSettingsMongoTargetConnectionConnectionOpti
   /**
   * disabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
   */
   readonly disabled?: DatatransferEndpointSettingsMongoTargetConnectionConnectionOptionsOnPremiseTlsModeDisabled;
   /**
   * enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
   */
   readonly enabled?: DatatransferEndpointSettingsMongoTargetConnectionConnectionOptionsOnPremiseTlsModeEnabled;
 }
@@ -10430,25 +10430,25 @@ export interface DatatransferEndpointSettingsMongoTargetConnectionConnectionOpti
   /**
   * Host names of the replica set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
   */
   readonly hosts?: string[];
   /**
   * TCP Port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#port DatatransferEndpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#port DatatransferEndpoint#port}
   */
   readonly port?: number;
   /**
   * Replica set name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#replica_set DatatransferEndpoint#replica_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#replica_set DatatransferEndpoint#replica_set}
   */
   readonly replicaSet?: string;
   /**
   * tls_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
   */
   readonly tlsMode?: DatatransferEndpointSettingsMongoTargetConnectionConnectionOptionsOnPremiseTlsMode;
 }
@@ -10621,7 +10621,7 @@ export interface DatatransferEndpointSettingsMongoTargetConnectionConnectionOpti
   /**
   * Password for the database access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
   */
   readonly raw?: string;
 }
@@ -10707,31 +10707,31 @@ export interface DatatransferEndpointSettingsMongoTargetConnectionConnectionOpti
   /**
   * Name of the database associated with the credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#auth_source DatatransferEndpoint#auth_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#auth_source DatatransferEndpoint#auth_source}
   */
   readonly authSource?: string;
   /**
   * Identifier of the Managed MongoDB cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
   */
   readonly mdbClusterId?: string;
   /**
   * User for database access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
   */
   readonly user?: string;
   /**
   * on_premise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
   */
   readonly onPremise?: DatatransferEndpointSettingsMongoTargetConnectionConnectionOptionsOnPremise;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
   */
   readonly password?: DatatransferEndpointSettingsMongoTargetConnectionConnectionOptionsPassword;
 }
@@ -10933,7 +10933,7 @@ export interface DatatransferEndpointSettingsMongoTargetConnection {
   /**
   * connection_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection_options DatatransferEndpoint#connection_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection_options DatatransferEndpoint#connection_options}
   */
   readonly connectionOptions?: DatatransferEndpointSettingsMongoTargetConnectionConnectionOptions;
 }
@@ -11019,31 +11019,31 @@ export interface DatatransferEndpointSettingsMongoTarget {
   /**
   * How to clean collections when activating the transfer. One of `DISABLED`, `DROP` or `TRUNCATE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#cleanup_policy DatatransferEndpoint#cleanup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#cleanup_policy DatatransferEndpoint#cleanup_policy}
   */
   readonly cleanupPolicy?: string;
   /**
   * If not empty, then all the data will be written to the database with the specified name; otherwise the database name is the same as in the source endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
   */
   readonly database?: string;
   /**
   * List of security groups that the transfer associated with this endpoint should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
   */
   readonly connection?: DatatransferEndpointSettingsMongoTargetConnection;
 }
@@ -11292,7 +11292,7 @@ export class DatatransferEndpointSettingsMysqlSourceConnectionOnPremiseTlsModeDi
 }
 export interface DatatransferEndpointSettingsMysqlSourceConnectionOnPremiseTlsModeEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -11378,13 +11378,13 @@ export interface DatatransferEndpointSettingsMysqlSourceConnectionOnPremiseTlsMo
   /**
   * disabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
   */
   readonly disabled?: DatatransferEndpointSettingsMysqlSourceConnectionOnPremiseTlsModeDisabled;
   /**
   * enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
   */
   readonly enabled?: DatatransferEndpointSettingsMysqlSourceConnectionOnPremiseTlsModeEnabled;
 }
@@ -11499,25 +11499,25 @@ export interface DatatransferEndpointSettingsMysqlSourceConnectionOnPremise {
   /**
   * List of host names of the MySQL server. Exactly one host is expected currently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
   */
   readonly hosts?: string[];
   /**
   * Port for the database connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#port DatatransferEndpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#port DatatransferEndpoint#port}
   */
   readonly port?: number;
   /**
   * Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * tls_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
   */
   readonly tlsMode?: DatatransferEndpointSettingsMysqlSourceConnectionOnPremiseTlsMode;
 }
@@ -11690,13 +11690,13 @@ export interface DatatransferEndpointSettingsMysqlSourceConnection {
   /**
   * Identifier of the Managed MySQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
   */
   readonly mdbClusterId?: string;
   /**
   * on_premise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
   */
   readonly onPremise?: DatatransferEndpointSettingsMysqlSourceConnectionOnPremise;
 }
@@ -11809,19 +11809,19 @@ export class DatatransferEndpointSettingsMysqlSourceConnectionOutputReference ex
 }
 export interface DatatransferEndpointSettingsMysqlSourceObjectTransferSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#routine DatatransferEndpoint#routine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#routine DatatransferEndpoint#routine}
   */
   readonly routine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#tables DatatransferEndpoint#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#tables DatatransferEndpoint#tables}
   */
   readonly tables?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#trigger DatatransferEndpoint#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#trigger DatatransferEndpoint#trigger}
   */
   readonly trigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#view DatatransferEndpoint#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#view DatatransferEndpoint#view}
   */
   readonly view?: string;
 }
@@ -11994,7 +11994,7 @@ export interface DatatransferEndpointSettingsMysqlSourcePassword {
   /**
   * Password for the database access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
   */
   readonly raw?: string;
 }
@@ -12080,59 +12080,59 @@ export interface DatatransferEndpointSettingsMysqlSource {
   /**
   * Name of the database to transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
   */
   readonly database?: string;
   /**
   * Opposite of `include_table_regex`. The tables matching the specified regular expressions will not be transferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#exclude_tables_regex DatatransferEndpoint#exclude_tables_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#exclude_tables_regex DatatransferEndpoint#exclude_tables_regex}
   */
   readonly excludeTablesRegex?: string[];
   /**
   * List of regular expressions of table names which should be transferred. A table name is formatted as schemaname.tablename. For example, a single regular expression may look like `^mydb.employees$`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#include_tables_regex DatatransferEndpoint#include_tables_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#include_tables_regex DatatransferEndpoint#include_tables_regex}
   */
   readonly includeTablesRegex?: string[];
   /**
   * List of security groups that the transfer associated with this endpoint should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#service_database DatatransferEndpoint#service_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#service_database DatatransferEndpoint#service_database}
   */
   readonly serviceDatabase?: string;
   /**
   * Timezone to use for parsing timestamps for saving source timezones. Accepts values from IANA timezone database. Default: `local timezone`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#timezone DatatransferEndpoint#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#timezone DatatransferEndpoint#timezone}
   */
   readonly timezone?: string;
   /**
   * User for the database access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
   */
   readonly user?: string;
   /**
   * connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
   */
   readonly connection?: DatatransferEndpointSettingsMysqlSourceConnection;
   /**
   * object_transfer_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#object_transfer_settings DatatransferEndpoint#object_transfer_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#object_transfer_settings DatatransferEndpoint#object_transfer_settings}
   */
   readonly objectTransferSettings?: DatatransferEndpointSettingsMysqlSourceObjectTransferSettings;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
   */
   readonly password?: DatatransferEndpointSettingsMysqlSourcePassword;
 }
@@ -12526,7 +12526,7 @@ export class DatatransferEndpointSettingsMysqlTargetConnectionOnPremiseTlsModeDi
 }
 export interface DatatransferEndpointSettingsMysqlTargetConnectionOnPremiseTlsModeEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -12612,13 +12612,13 @@ export interface DatatransferEndpointSettingsMysqlTargetConnectionOnPremiseTlsMo
   /**
   * disabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
   */
   readonly disabled?: DatatransferEndpointSettingsMysqlTargetConnectionOnPremiseTlsModeDisabled;
   /**
   * enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
   */
   readonly enabled?: DatatransferEndpointSettingsMysqlTargetConnectionOnPremiseTlsModeEnabled;
 }
@@ -12733,25 +12733,25 @@ export interface DatatransferEndpointSettingsMysqlTargetConnectionOnPremise {
   /**
   * List of host names of the MySQL server. Exactly one host is expected currently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
   */
   readonly hosts?: string[];
   /**
   * Port for the database connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#port DatatransferEndpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#port DatatransferEndpoint#port}
   */
   readonly port?: number;
   /**
   * Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * tls_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
   */
   readonly tlsMode?: DatatransferEndpointSettingsMysqlTargetConnectionOnPremiseTlsMode;
 }
@@ -12924,13 +12924,13 @@ export interface DatatransferEndpointSettingsMysqlTargetConnection {
   /**
   * Identifier of the Managed MySQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
   */
   readonly mdbClusterId?: string;
   /**
   * on_premise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
   */
   readonly onPremise?: DatatransferEndpointSettingsMysqlTargetConnectionOnPremise;
 }
@@ -13045,7 +13045,7 @@ export interface DatatransferEndpointSettingsMysqlTargetPassword {
   /**
   * Password for the database access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
   */
   readonly raw?: string;
 }
@@ -13131,61 +13131,61 @@ export interface DatatransferEndpointSettingsMysqlTarget {
   /**
   * How to clean tables when activating the transfer. One of `DISABLED`, `DROP` or `TRUNCATE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#cleanup_policy DatatransferEndpoint#cleanup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#cleanup_policy DatatransferEndpoint#cleanup_policy}
   */
   readonly cleanupPolicy?: string;
   /**
   * Name of the database to transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
   */
   readonly database?: string;
   /**
   * List of security groups that the transfer associated with this endpoint should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * The name of the database where technical tables (`__tm_keeper`, `__tm_gtid_keeper`) will be created. Default is the value of the attribute `database`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#service_database DatatransferEndpoint#service_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#service_database DatatransferEndpoint#service_database}
   */
   readonly serviceDatabase?: string;
   /**
   * When `true`, disables foreign key checks. See [foreign_key_checks](https://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_foreign_key_checks). `False` by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#skip_constraint_checks DatatransferEndpoint#skip_constraint_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#skip_constraint_checks DatatransferEndpoint#skip_constraint_checks}
   */
   readonly skipConstraintChecks?: boolean | cdktf.IResolvable;
   /**
   * [sql_mode](https://dev.mysql.com/doc/refman/5.7/en/sql-mode.html) to use when interacting with the server. Defaults to `NO_AUTO_VALUE_ON_ZERO,NO_DIR_IN_CREATE,NO_ENGINE_SUBSTITUTION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#sql_mode DatatransferEndpoint#sql_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#sql_mode DatatransferEndpoint#sql_mode}
   */
   readonly sqlMode?: string;
   /**
   * Timezone to use for parsing timestamps for saving source timezones. Accepts values from IANA timezone database. Default: `local timezone`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#timezone DatatransferEndpoint#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#timezone DatatransferEndpoint#timezone}
   */
   readonly timezone?: string;
   /**
   * User for the database access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
   */
   readonly user?: string;
   /**
   * connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
   */
   readonly connection?: DatatransferEndpointSettingsMysqlTargetConnection;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
   */
   readonly password?: DatatransferEndpointSettingsMysqlTargetPassword;
 }
@@ -13579,7 +13579,7 @@ export class DatatransferEndpointSettingsPostgresSourceConnectionOnPremiseTlsMod
 }
 export interface DatatransferEndpointSettingsPostgresSourceConnectionOnPremiseTlsModeEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -13665,13 +13665,13 @@ export interface DatatransferEndpointSettingsPostgresSourceConnectionOnPremiseTl
   /**
   * disabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
   */
   readonly disabled?: DatatransferEndpointSettingsPostgresSourceConnectionOnPremiseTlsModeDisabled;
   /**
   * enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
   */
   readonly enabled?: DatatransferEndpointSettingsPostgresSourceConnectionOnPremiseTlsModeEnabled;
 }
@@ -13784,21 +13784,21 @@ export class DatatransferEndpointSettingsPostgresSourceConnectionOnPremiseTlsMod
 }
 export interface DatatransferEndpointSettingsPostgresSourceConnectionOnPremise {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
   */
   readonly hosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#port DatatransferEndpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#port DatatransferEndpoint#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * tls_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
   */
   readonly tlsMode?: DatatransferEndpointSettingsPostgresSourceConnectionOnPremiseTlsMode;
 }
@@ -13969,13 +13969,13 @@ export class DatatransferEndpointSettingsPostgresSourceConnectionOnPremiseOutput
 }
 export interface DatatransferEndpointSettingsPostgresSourceConnection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
   */
   readonly mdbClusterId?: string;
   /**
   * on_premise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
   */
   readonly onPremise?: DatatransferEndpointSettingsPostgresSourceConnectionOnPremise;
 }
@@ -14088,75 +14088,75 @@ export class DatatransferEndpointSettingsPostgresSourceConnectionOutputReference
 }
 export interface DatatransferEndpointSettingsPostgresSourceObjectTransferSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#cast DatatransferEndpoint#cast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#cast DatatransferEndpoint#cast}
   */
   readonly cast?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#collation DatatransferEndpoint#collation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#collation DatatransferEndpoint#collation}
   */
   readonly collation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#constraint DatatransferEndpoint#constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#constraint DatatransferEndpoint#constraint}
   */
   readonly constraint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#default_values DatatransferEndpoint#default_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#default_values DatatransferEndpoint#default_values}
   */
   readonly defaultValues?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#fk_constraint DatatransferEndpoint#fk_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#fk_constraint DatatransferEndpoint#fk_constraint}
   */
   readonly fkConstraint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#function DatatransferEndpoint#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#function DatatransferEndpoint#function}
   */
   readonly function?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#index DatatransferEndpoint#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#index DatatransferEndpoint#index}
   */
   readonly index?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#materialized_view DatatransferEndpoint#materialized_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#materialized_view DatatransferEndpoint#materialized_view}
   */
   readonly materializedView?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#policy DatatransferEndpoint#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#policy DatatransferEndpoint#policy}
   */
   readonly policy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#primary_key DatatransferEndpoint#primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#primary_key DatatransferEndpoint#primary_key}
   */
   readonly primaryKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#rule DatatransferEndpoint#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#rule DatatransferEndpoint#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#sequence DatatransferEndpoint#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#sequence DatatransferEndpoint#sequence}
   */
   readonly sequence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#sequence_owned_by DatatransferEndpoint#sequence_owned_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#sequence_owned_by DatatransferEndpoint#sequence_owned_by}
   */
   readonly sequenceOwnedBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#sequence_set DatatransferEndpoint#sequence_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#sequence_set DatatransferEndpoint#sequence_set}
   */
   readonly sequenceSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#table DatatransferEndpoint#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#table DatatransferEndpoint#table}
   */
   readonly table?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#trigger DatatransferEndpoint#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#trigger DatatransferEndpoint#trigger}
   */
   readonly trigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#type DatatransferEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#type DatatransferEndpoint#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#view DatatransferEndpoint#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#view DatatransferEndpoint#view}
   */
   readonly view?: string;
 }
@@ -14735,7 +14735,7 @@ export interface DatatransferEndpointSettingsPostgresSourcePassword {
   /**
   * Password for the database access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
   */
   readonly raw?: string;
 }
@@ -14821,61 +14821,61 @@ export interface DatatransferEndpointSettingsPostgresSource {
   /**
   * Name of the database to transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
   */
   readonly database?: string;
   /**
   * List of tables which will not be transfered, formatted as `schemaname.tablename`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#exclude_tables DatatransferEndpoint#exclude_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#exclude_tables DatatransferEndpoint#exclude_tables}
   */
   readonly excludeTables?: string[];
   /**
   * List of tables to transfer, formatted as `schemaname.tablename`. If omitted or an empty list is specified, all tables will be transferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#include_tables DatatransferEndpoint#include_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#include_tables DatatransferEndpoint#include_tables}
   */
   readonly includeTables?: string[];
   /**
   * List of security groups that the transfer associated with this endpoint should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Name of the database schema in which auxiliary tables needed for the transfer will be created. Empty `service_schema` implies schema `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#service_schema DatatransferEndpoint#service_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#service_schema DatatransferEndpoint#service_schema}
   */
   readonly serviceSchema?: string;
   /**
   * Maximum WAL size held by the replication slot, in gigabytes. Exceeding this limit will result in a replication failure and deletion of the replication slot. `Unlimited` by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#slot_gigabyte_lag_limit DatatransferEndpoint#slot_gigabyte_lag_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#slot_gigabyte_lag_limit DatatransferEndpoint#slot_gigabyte_lag_limit}
   */
   readonly slotGigabyteLagLimit?: number;
   /**
   * User for the database access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
   */
   readonly user?: string;
   /**
   * connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
   */
   readonly connection?: DatatransferEndpointSettingsPostgresSourceConnection;
   /**
   * object_transfer_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#object_transfer_settings DatatransferEndpoint#object_transfer_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#object_transfer_settings DatatransferEndpoint#object_transfer_settings}
   */
   readonly objectTransferSettings?: DatatransferEndpointSettingsPostgresSourceObjectTransferSettings;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
   */
   readonly password?: DatatransferEndpointSettingsPostgresSourcePassword;
 }
@@ -15269,7 +15269,7 @@ export class DatatransferEndpointSettingsPostgresTargetConnectionOnPremiseTlsMod
 }
 export interface DatatransferEndpointSettingsPostgresTargetConnectionOnPremiseTlsModeEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#ca_certificate DatatransferEndpoint#ca_certificate}
   */
   readonly caCertificate?: string;
 }
@@ -15355,13 +15355,13 @@ export interface DatatransferEndpointSettingsPostgresTargetConnectionOnPremiseTl
   /**
   * disabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#disabled DatatransferEndpoint#disabled}
   */
   readonly disabled?: DatatransferEndpointSettingsPostgresTargetConnectionOnPremiseTlsModeDisabled;
   /**
   * enabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#enabled DatatransferEndpoint#enabled}
   */
   readonly enabled?: DatatransferEndpointSettingsPostgresTargetConnectionOnPremiseTlsModeEnabled;
 }
@@ -15476,25 +15476,25 @@ export interface DatatransferEndpointSettingsPostgresTargetConnectionOnPremise {
   /**
   * List of host names of the PostgreSQL server. Exactly one host is expected currently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#hosts DatatransferEndpoint#hosts}
   */
   readonly hosts?: string[];
   /**
   * Port for the database connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#port DatatransferEndpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#port DatatransferEndpoint#port}
   */
   readonly port?: number;
   /**
   * Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * tls_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#tls_mode DatatransferEndpoint#tls_mode}
   */
   readonly tlsMode?: DatatransferEndpointSettingsPostgresTargetConnectionOnPremiseTlsMode;
 }
@@ -15667,13 +15667,13 @@ export interface DatatransferEndpointSettingsPostgresTargetConnection {
   /**
   * Identifier of the Managed PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#mdb_cluster_id DatatransferEndpoint#mdb_cluster_id}
   */
   readonly mdbClusterId?: string;
   /**
   * on_premise block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#on_premise DatatransferEndpoint#on_premise}
   */
   readonly onPremise?: DatatransferEndpointSettingsPostgresTargetConnectionOnPremise;
 }
@@ -15788,7 +15788,7 @@ export interface DatatransferEndpointSettingsPostgresTargetPassword {
   /**
   * Password for the database access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#raw DatatransferEndpoint#raw}
   */
   readonly raw?: string;
 }
@@ -15872,37 +15872,37 @@ export class DatatransferEndpointSettingsPostgresTargetPasswordOutputReference e
 }
 export interface DatatransferEndpointSettingsPostgresTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#cleanup_policy DatatransferEndpoint#cleanup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#cleanup_policy DatatransferEndpoint#cleanup_policy}
   */
   readonly cleanupPolicy?: string;
   /**
   * Name of the database to transfer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
   */
   readonly database?: string;
   /**
   * List of security groups that the transfer associated with this endpoint should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * User for the database access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#user DatatransferEndpoint#user}
   */
   readonly user?: string;
   /**
   * connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#connection DatatransferEndpoint#connection}
   */
   readonly connection?: DatatransferEndpointSettingsPostgresTargetConnection;
   /**
   * password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#password DatatransferEndpoint#password}
   */
   readonly password?: DatatransferEndpointSettingsPostgresTargetPassword;
 }
@@ -16133,49 +16133,49 @@ export interface DatatransferEndpointSettingsYdbSource {
   /**
   * Custom name for changefeed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#changefeed_custom_name DatatransferEndpoint#changefeed_custom_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#changefeed_custom_name DatatransferEndpoint#changefeed_custom_name}
   */
   readonly changefeedCustomName?: string;
   /**
   * Database path in YDB where tables are stored. Example: `/ru/transfer_manager/prod/data-transfer-yt`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
   */
   readonly database?: string;
   /**
   * Instance of YDB. Example: `my-cute-ydb.yandex.cloud:2135`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#instance DatatransferEndpoint#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#instance DatatransferEndpoint#instance}
   */
   readonly instance?: string;
   /**
   * A list of paths which should be uploaded. When not specified, all available tables are uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#paths DatatransferEndpoint#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#paths DatatransferEndpoint#paths}
   */
   readonly paths?: string[];
   /**
   * Authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#sa_key_content DatatransferEndpoint#sa_key_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#sa_key_content DatatransferEndpoint#sa_key_content}
   */
   readonly saKeyContent?: string;
   /**
   * List of security groups that the transfer associated with this endpoint should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Service account ID for interaction with database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#service_account_id DatatransferEndpoint#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#service_account_id DatatransferEndpoint#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
   * Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -16464,61 +16464,61 @@ export interface DatatransferEndpointSettingsYdbTarget {
   /**
   * How to clean collections when activating the transfer. One of `YDB_CLEANUP_POLICY_DISABLED` or `YDB_CLEANUP_POLICY_DROP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#cleanup_policy DatatransferEndpoint#cleanup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#cleanup_policy DatatransferEndpoint#cleanup_policy}
   */
   readonly cleanupPolicy?: string;
   /**
   * Database path in YDB where tables are stored. Example: `/ru/transfer_manager/prod/data-transfer-yt`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#database DatatransferEndpoint#database}
   */
   readonly database?: string;
   /**
   * Compression that will be used for default columns family on YDB table creation One of `YDB_DEFAULT_COMPRESSION_UNSPECIFIED`, `YDB_DEFAULT_COMPRESSION_DISABLED`, `YDB_DEFAULT_COMPRESSION_LZ4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#default_compression DatatransferEndpoint#default_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#default_compression DatatransferEndpoint#default_compression}
   */
   readonly defaultCompression?: string;
   /**
   * Instance of YDB. Example: `my-cute-ydb.yandex.cloud:2135`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#instance DatatransferEndpoint#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#instance DatatransferEndpoint#instance}
   */
   readonly instance?: string;
   /**
   * Whether a column-oriented (i.e. OLAP) tables should be created. Default is `false` (create row-oriented OLTP tables).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#is_table_column_oriented DatatransferEndpoint#is_table_column_oriented}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#is_table_column_oriented DatatransferEndpoint#is_table_column_oriented}
   */
   readonly isTableColumnOriented?: boolean | cdktf.IResolvable;
   /**
   * A path where resulting tables are stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#path DatatransferEndpoint#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#path DatatransferEndpoint#path}
   */
   readonly path?: string;
   /**
   * Authentication key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#sa_key_content DatatransferEndpoint#sa_key_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#sa_key_content DatatransferEndpoint#sa_key_content}
   */
   readonly saKeyContent?: string;
   /**
   * List of security groups that the transfer associated with this endpoint should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#security_groups DatatransferEndpoint#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Service account ID for interaction with database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#service_account_id DatatransferEndpoint#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#service_account_id DatatransferEndpoint#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
   * Identifier of the Yandex Cloud VPC subnetwork to user for accessing the database. If omitted, the server has to be accessible via Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#subnet_id DatatransferEndpoint#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -16963,31 +16963,31 @@ export interface DatatransferEndpointSettingsYdsSourceParserJsonParserDataSchema
   /**
   * Mark field as Primary Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#key DatatransferEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#key DatatransferEndpoint#key}
   */
   readonly key?: boolean | cdktf.IResolvable;
   /**
   * Field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#name DatatransferEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#name DatatransferEndpoint#name}
   */
   readonly name?: string;
   /**
   * Path to the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#path DatatransferEndpoint#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#path DatatransferEndpoint#path}
   */
   readonly path?: string;
   /**
   * Mark field as required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#required DatatransferEndpoint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#required DatatransferEndpoint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Field type, one of: `INT64`, `INT32`, `INT16`, `INT8`, `UINT64`, `UINT32`, `UINT16`, `UINT8`, `DOUBLE`, `BOOLEAN`, `STRING`, `UTF8`, `ANY`, `DATETIME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#type DatatransferEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#type DatatransferEndpoint#type}
   */
   readonly type?: string;
 }
@@ -17221,7 +17221,7 @@ export interface DatatransferEndpointSettingsYdsSourceParserJsonParserDataSchema
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
   */
   readonly fields?: DatatransferEndpointSettingsYdsSourceParserJsonParserDataSchemaFieldsFields[] | cdktf.IResolvable;
 }
@@ -17307,13 +17307,13 @@ export interface DatatransferEndpointSettingsYdsSourceParserJsonParserDataSchema
   /**
   * Description of the data schema as JSON specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#json_fields DatatransferEndpoint#json_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#json_fields DatatransferEndpoint#json_fields}
   */
   readonly jsonFields?: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
   */
   readonly fields?: DatatransferEndpointSettingsYdsSourceParserJsonParserDataSchemaFields;
 }
@@ -17426,21 +17426,21 @@ export class DatatransferEndpointSettingsYdsSourceParserJsonParserDataSchemaOutp
 }
 export interface DatatransferEndpointSettingsYdsSourceParserJsonParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#add_rest_column DatatransferEndpoint#add_rest_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#add_rest_column DatatransferEndpoint#add_rest_column}
   */
   readonly addRestColumn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#null_keys_allowed DatatransferEndpoint#null_keys_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#null_keys_allowed DatatransferEndpoint#null_keys_allowed}
   */
   readonly nullKeysAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#unescape_string_values DatatransferEndpoint#unescape_string_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#unescape_string_values DatatransferEndpoint#unescape_string_values}
   */
   readonly unescapeStringValues?: boolean | cdktf.IResolvable;
   /**
   * data_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#data_schema DatatransferEndpoint#data_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#data_schema DatatransferEndpoint#data_schema}
   */
   readonly dataSchema?: DatatransferEndpointSettingsYdsSourceParserJsonParserDataSchema;
 }
@@ -17611,23 +17611,23 @@ export class DatatransferEndpointSettingsYdsSourceParserJsonParserOutputReferenc
 }
 export interface DatatransferEndpointSettingsYdsSourceParserTskvParserDataSchemaFieldsFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#key DatatransferEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#key DatatransferEndpoint#key}
   */
   readonly key?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#name DatatransferEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#name DatatransferEndpoint#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#path DatatransferEndpoint#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#path DatatransferEndpoint#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#required DatatransferEndpoint#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#required DatatransferEndpoint#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#type DatatransferEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#type DatatransferEndpoint#type}
   */
   readonly type?: string;
 }
@@ -17861,7 +17861,7 @@ export interface DatatransferEndpointSettingsYdsSourceParserTskvParserDataSchema
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
   */
   readonly fields?: DatatransferEndpointSettingsYdsSourceParserTskvParserDataSchemaFieldsFields[] | cdktf.IResolvable;
 }
@@ -17945,13 +17945,13 @@ export class DatatransferEndpointSettingsYdsSourceParserTskvParserDataSchemaFiel
 }
 export interface DatatransferEndpointSettingsYdsSourceParserTskvParserDataSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#json_fields DatatransferEndpoint#json_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#json_fields DatatransferEndpoint#json_fields}
   */
   readonly jsonFields?: string;
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#fields DatatransferEndpoint#fields}
   */
   readonly fields?: DatatransferEndpointSettingsYdsSourceParserTskvParserDataSchemaFields;
 }
@@ -18064,21 +18064,21 @@ export class DatatransferEndpointSettingsYdsSourceParserTskvParserDataSchemaOutp
 }
 export interface DatatransferEndpointSettingsYdsSourceParserTskvParser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#add_rest_column DatatransferEndpoint#add_rest_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#add_rest_column DatatransferEndpoint#add_rest_column}
   */
   readonly addRestColumn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#null_keys_allowed DatatransferEndpoint#null_keys_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#null_keys_allowed DatatransferEndpoint#null_keys_allowed}
   */
   readonly nullKeysAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#unescape_string_values DatatransferEndpoint#unescape_string_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#unescape_string_values DatatransferEndpoint#unescape_string_values}
   */
   readonly unescapeStringValues?: boolean | cdktf.IResolvable;
   /**
   * data_schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#data_schema DatatransferEndpoint#data_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#data_schema DatatransferEndpoint#data_schema}
   */
   readonly dataSchema?: DatatransferEndpointSettingsYdsSourceParserTskvParserDataSchema;
 }
@@ -18251,25 +18251,25 @@ export interface DatatransferEndpointSettingsYdsSourceParser {
   /**
   * audit_trails_v1_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#audit_trails_v1_parser DatatransferEndpoint#audit_trails_v1_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#audit_trails_v1_parser DatatransferEndpoint#audit_trails_v1_parser}
   */
   readonly auditTrailsV1Parser?: DatatransferEndpointSettingsYdsSourceParserAuditTrailsV1Parser;
   /**
   * cloud_logging_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#cloud_logging_parser DatatransferEndpoint#cloud_logging_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#cloud_logging_parser DatatransferEndpoint#cloud_logging_parser}
   */
   readonly cloudLoggingParser?: DatatransferEndpointSettingsYdsSourceParserCloudLoggingParser;
   /**
   * json_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#json_parser DatatransferEndpoint#json_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#json_parser DatatransferEndpoint#json_parser}
   */
   readonly jsonParser?: DatatransferEndpointSettingsYdsSourceParserJsonParser;
   /**
   * tskv_parser block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/datatransfer_endpoint#tskv_parser DatatransferEndpoint#tskv_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/datatransfer_endpoint#tskv_parser DatatransferEndpoint#tskv_parser}
   */
   readonly tskvParser?: DatatransferEndpointSettingsYdsSourceParserTskvParser;
 }

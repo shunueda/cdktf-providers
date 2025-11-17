@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#metadata DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#metadata DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestMetadata;
   /**
   * BackendSpec defines the desired state of Backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#spec DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#spec DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#annotations DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#annotations DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#labels DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#labels DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#name DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#name DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#namespace DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#namespace DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,23 +217,23 @@ export class DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestMetadataOutputRef
 }
 export interface DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestSpecMappingRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#http_method DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#http_method DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#http_method}
   */
   readonly httpMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#increment DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#increment DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#increment}
   */
   readonly increment: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#last DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#last DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#last}
   */
   readonly last?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#metric_method_ref DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#metric_method_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#metric_method_ref DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#metric_method_ref}
   */
   readonly metricMethodRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#pattern DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#pattern DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#pattern}
   */
   readonly pattern: string;
 }
@@ -453,11 +453,11 @@ export class DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestSpecMappingRulesL
 }
 export interface DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestSpecMethods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#description DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#description DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#friendly_name DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#friendly_name DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#friendly_name}
   */
   readonly friendlyName: string;
 }
@@ -577,15 +577,15 @@ export class DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestSpecMethodsOutput
 }
 export interface DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestSpecMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#description DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#description DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#friendly_name DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#friendly_name DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#friendly_name}
   */
   readonly friendlyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#unit DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#unit DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#unit}
   */
   readonly unit: string;
 }
@@ -733,7 +733,7 @@ export interface DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestSpecProviderA
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#name DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#name DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -829,47 +829,47 @@ export interface DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestSpec {
   /**
   * Description is a human readable text of the backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#description DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#description DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#mapping_rules DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#mapping_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#mapping_rules DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#mapping_rules}
   */
   readonly mappingRules?: DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestSpecMappingRules[] | cdktf.IResolvable;
   /**
   * Methods Map: system_name -> MethodSpec system_name attr is unique for all metrics AND methods In other words, if metric's system_name is A, there is no metric or method with system_name A.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#methods DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#methods DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#methods}
   */
   readonly methods?: DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestSpecMethods;
   /**
   * Metrics Map: system_name -> MetricSpec system_name attr is unique for all metrics AND methods In other words, if metric's system_name is A, there is no metric or method with system_name A.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#metrics DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#metrics DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#metrics}
   */
   readonly metrics?: DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestSpecMetrics;
   /**
   * Name is human readable name for the backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#name DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#name DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * PrivateBaseURL Private Base URL of the API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#private_base_url DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#private_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#private_base_url DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#private_base_url}
   */
   readonly privateBaseUrl: string;
   /**
   * ProviderAccountRef references account provider credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#provider_account_ref DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#provider_account_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#provider_account_ref DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#provider_account_ref}
   */
   readonly providerAccountRef?: DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestSpecProviderAccountRef;
   /**
   * SystemName identifies uniquely the backend within the account provider Default value will be sanitized Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#system_name DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#system_name DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest#system_name}
   */
   readonly systemName?: string;
 }
@@ -1160,7 +1160,7 @@ export class DataK8SCapabilities3ScaleNetBackendV1Beta1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest k8s_capabilities_3scale_net_backend_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest k8s_capabilities_3scale_net_backend_v1beta1_manifest}
 */
 export class DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1176,7 +1176,7 @@ export class DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1188,7 +1188,7 @@ export class DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest k8s_capabilities_3scale_net_backend_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/capabilities_3scale_net_backend_v1beta1_manifest k8s_capabilities_3scale_net_backend_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1199,8 +1199,8 @@ export class DataK8SCapabilities3ScaleNetBackendV1Beta1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_capabilities_3scale_net_backend_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHiveOpenshiftIoDnsZoneV1ManifestConfig extends cdktf.Ter
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#metadata DataK8SHiveOpenshiftIoDnsZoneV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#metadata DataK8SHiveOpenshiftIoDnsZoneV1Manifest#metadata}
   */
   readonly metadata: DataK8SHiveOpenshiftIoDnsZoneV1ManifestMetadata;
   /**
   * DNSZoneSpec defines the desired state of DNSZone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#spec DataK8SHiveOpenshiftIoDnsZoneV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#spec DataK8SHiveOpenshiftIoDnsZoneV1Manifest#spec}
   */
   readonly spec?: DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SHiveOpenshiftIoDnsZoneV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#annotations DataK8SHiveOpenshiftIoDnsZoneV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#annotations DataK8SHiveOpenshiftIoDnsZoneV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#labels DataK8SHiveOpenshiftIoDnsZoneV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#labels DataK8SHiveOpenshiftIoDnsZoneV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#name DataK8SHiveOpenshiftIoDnsZoneV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#name DataK8SHiveOpenshiftIoDnsZoneV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#namespace DataK8SHiveOpenshiftIoDnsZoneV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#namespace DataK8SHiveOpenshiftIoDnsZoneV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecAwsAdditionalTags {
   /**
   * Key is the key for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#key DataK8SHiveOpenshiftIoDnsZoneV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#key DataK8SHiveOpenshiftIoDnsZoneV1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the value for the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#value DataK8SHiveOpenshiftIoDnsZoneV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#value DataK8SHiveOpenshiftIoDnsZoneV1Manifest#value}
   */
   readonly value: string;
 }
@@ -366,11 +366,11 @@ export interface DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecAwsCredentialsAssume
   /**
   * ExternalID is random string generated by platform so that assume role is protected from confused deputy problem. more info: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#external_id DataK8SHiveOpenshiftIoDnsZoneV1Manifest#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#external_id DataK8SHiveOpenshiftIoDnsZoneV1Manifest#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#role_arn DataK8SHiveOpenshiftIoDnsZoneV1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#role_arn DataK8SHiveOpenshiftIoDnsZoneV1Manifest#role_arn}
   */
   readonly roleArn: string;
 }
@@ -492,7 +492,7 @@ export interface DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecAwsCredentialsSecret
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#name DataK8SHiveOpenshiftIoDnsZoneV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#name DataK8SHiveOpenshiftIoDnsZoneV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -588,25 +588,25 @@ export interface DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecAws {
   /**
   * AdditionalTags is a set of additional tags to set on the DNS hosted zone. In addition to these tags,the DNS Zone controller will set a hive.openhsift.io/hostedzone tag identifying the HostedZone record that it belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#additional_tags DataK8SHiveOpenshiftIoDnsZoneV1Manifest#additional_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#additional_tags DataK8SHiveOpenshiftIoDnsZoneV1Manifest#additional_tags}
   */
   readonly additionalTags?: DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecAwsAdditionalTags[] | cdktf.IResolvable;
   /**
   * CredentialsAssumeRole refers to the IAM role that must be assumed to obtain AWS account access for the DNS CRUD operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#credentials_assume_role DataK8SHiveOpenshiftIoDnsZoneV1Manifest#credentials_assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#credentials_assume_role DataK8SHiveOpenshiftIoDnsZoneV1Manifest#credentials_assume_role}
   */
   readonly credentialsAssumeRole?: DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecAwsCredentialsAssumeRole;
   /**
   * CredentialsSecretRef contains a reference to a secret that contains AWS credentials for CRUD operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoDnsZoneV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoDnsZoneV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef?: DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecAwsCredentialsSecretRef;
   /**
   * Region is the AWS region to use for route53 operations. This defaults to us-east-1. For AWS China, use cn-northwest-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#region DataK8SHiveOpenshiftIoDnsZoneV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#region DataK8SHiveOpenshiftIoDnsZoneV1Manifest#region}
   */
   readonly region?: string;
 }
@@ -789,7 +789,7 @@ export interface DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecAzureCredentialsSecr
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#name DataK8SHiveOpenshiftIoDnsZoneV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#name DataK8SHiveOpenshiftIoDnsZoneV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -885,19 +885,19 @@ export interface DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecAzure {
   /**
   * CloudName is the name of the Azure cloud environment which can be used to configure the Azure SDK with the appropriate Azure API endpoints. If empty, the value is equal to 'AzurePublicCloud'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#cloud_name DataK8SHiveOpenshiftIoDnsZoneV1Manifest#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#cloud_name DataK8SHiveOpenshiftIoDnsZoneV1Manifest#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * CredentialsSecretRef references a secret that will be used to authenticate with Azure CloudDNS. It will need permission to create and manage CloudDNS Hosted Zones. Secret should have a key named 'osServicePrincipal.json'. The credentials must specify the project to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoDnsZoneV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoDnsZoneV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecAzureCredentialsSecretRef;
   /**
   * ResourceGroupName specifies the Azure resource group in which the Hosted Zone should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#resource_group_name DataK8SHiveOpenshiftIoDnsZoneV1Manifest#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#resource_group_name DataK8SHiveOpenshiftIoDnsZoneV1Manifest#resource_group_name}
   */
   readonly resourceGroupName: string;
 }
@@ -1045,7 +1045,7 @@ export interface DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecGcpCredentialsSecret
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#name DataK8SHiveOpenshiftIoDnsZoneV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#name DataK8SHiveOpenshiftIoDnsZoneV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1141,7 +1141,7 @@ export interface DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecGcp {
   /**
   * CredentialsSecretRef references a secret that will be used to authenticate with GCP CloudDNS. It will need permission to create and manage CloudDNS Hosted Zones. Secret should have a key named 'osServiceAccount.json'. The credentials must specify the project to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoDnsZoneV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoDnsZoneV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecGcpCredentialsSecretRef;
 }
@@ -1234,37 +1234,37 @@ export interface DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpec {
   /**
   * AWS specifies AWS-specific cloud configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#aws DataK8SHiveOpenshiftIoDnsZoneV1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#aws DataK8SHiveOpenshiftIoDnsZoneV1Manifest#aws}
   */
   readonly aws?: DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecAws;
   /**
   * Azure specifes Azure-specific cloud configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#azure DataK8SHiveOpenshiftIoDnsZoneV1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#azure DataK8SHiveOpenshiftIoDnsZoneV1Manifest#azure}
   */
   readonly azure?: DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecAzure;
   /**
   * GCP specifies GCP-specific cloud configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#gcp DataK8SHiveOpenshiftIoDnsZoneV1Manifest#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#gcp DataK8SHiveOpenshiftIoDnsZoneV1Manifest#gcp}
   */
   readonly gcp?: DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecGcp;
   /**
   * LinkToParentDomain specifies whether DNS records should be automatically created to link this DNSZone with a parent domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#link_to_parent_domain DataK8SHiveOpenshiftIoDnsZoneV1Manifest#link_to_parent_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#link_to_parent_domain DataK8SHiveOpenshiftIoDnsZoneV1Manifest#link_to_parent_domain}
   */
   readonly linkToParentDomain?: boolean | cdktf.IResolvable;
   /**
   * PreserveOnDelete allows the user to disconnect a DNSZone from Hive without deprovisioning it. This can also be used to abandon ongoing DNSZone deprovision. Typically set automatically due to PreserveOnDelete being set on a ClusterDeployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#preserve_on_delete DataK8SHiveOpenshiftIoDnsZoneV1Manifest#preserve_on_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#preserve_on_delete DataK8SHiveOpenshiftIoDnsZoneV1Manifest#preserve_on_delete}
   */
   readonly preserveOnDelete?: boolean | cdktf.IResolvable;
   /**
   * Zone is the DNS zone to host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#zone DataK8SHiveOpenshiftIoDnsZoneV1Manifest#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#zone DataK8SHiveOpenshiftIoDnsZoneV1Manifest#zone}
   */
   readonly zone: string;
 }
@@ -1500,7 +1500,7 @@ export class DataK8SHiveOpenshiftIoDnsZoneV1ManifestSpecOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest k8s_hive_openshift_io_dns_zone_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest k8s_hive_openshift_io_dns_zone_v1_manifest}
 */
 export class DataK8SHiveOpenshiftIoDnsZoneV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1516,7 +1516,7 @@ export class DataK8SHiveOpenshiftIoDnsZoneV1Manifest extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataK8SHiveOpenshiftIoDnsZoneV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHiveOpenshiftIoDnsZoneV1Manifest to import
-  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoDnsZoneV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoDnsZoneV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHiveOpenshiftIoDnsZoneV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1528,7 +1528,7 @@ export class DataK8SHiveOpenshiftIoDnsZoneV1Manifest extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest k8s_hive_openshift_io_dns_zone_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_dns_zone_v1_manifest k8s_hive_openshift_io_dns_zone_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1539,8 +1539,8 @@ export class DataK8SHiveOpenshiftIoDnsZoneV1Manifest extends cdktf.TerraformData
       terraformResourceType: 'k8s_hive_openshift_io_dns_zone_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

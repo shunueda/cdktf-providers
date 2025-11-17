@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_image_set_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_image_set_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorTigeraIoImageSetV1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_image_set_v1_manifest#metadata DataK8SOperatorTigeraIoImageSetV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_image_set_v1_manifest#metadata DataK8SOperatorTigeraIoImageSetV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorTigeraIoImageSetV1ManifestMetadata;
   /**
   * ImageSetSpec defines the desired state of ImageSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_image_set_v1_manifest#spec DataK8SOperatorTigeraIoImageSetV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_image_set_v1_manifest#spec DataK8SOperatorTigeraIoImageSetV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoImageSetV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperatorTigeraIoImageSetV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_image_set_v1_manifest#annotations DataK8SOperatorTigeraIoImageSetV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_image_set_v1_manifest#annotations DataK8SOperatorTigeraIoImageSetV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_image_set_v1_manifest#labels DataK8SOperatorTigeraIoImageSetV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_image_set_v1_manifest#labels DataK8SOperatorTigeraIoImageSetV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_image_set_v1_manifest#name DataK8SOperatorTigeraIoImageSetV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_image_set_v1_manifest#name DataK8SOperatorTigeraIoImageSetV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SOperatorTigeraIoImageSetV1ManifestSpecImages {
   /**
   * Digest is the image identifier that will be used for the Image. The field should not include a leading '@' and must be prefixed with 'sha256:'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_image_set_v1_manifest#digest DataK8SOperatorTigeraIoImageSetV1Manifest#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_image_set_v1_manifest#digest DataK8SOperatorTigeraIoImageSetV1Manifest#digest}
   */
   readonly digest: string;
   /**
   * Image is an image that the operator deploys and instead of using the built in tag the operator will use the Digest for the image identifier. The value should be the image name without registry or tag or digest. For the image 'docker.io/calico/node:v3.17.1' it should be represented as 'calico/node'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_image_set_v1_manifest#image DataK8SOperatorTigeraIoImageSetV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_image_set_v1_manifest#image DataK8SOperatorTigeraIoImageSetV1Manifest#image}
   */
   readonly image: string;
 }
@@ -334,7 +334,7 @@ export interface DataK8SOperatorTigeraIoImageSetV1ManifestSpec {
   /**
   * Images is the list of images to use digests. All images that the operator will deploy must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_image_set_v1_manifest#images DataK8SOperatorTigeraIoImageSetV1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_image_set_v1_manifest#images DataK8SOperatorTigeraIoImageSetV1Manifest#images}
   */
   readonly images?: DataK8SOperatorTigeraIoImageSetV1ManifestSpecImages[] | cdktf.IResolvable;
 }
@@ -428,7 +428,7 @@ export class DataK8SOperatorTigeraIoImageSetV1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_image_set_v1_manifest k8s_operator_tigera_io_image_set_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_image_set_v1_manifest k8s_operator_tigera_io_image_set_v1_manifest}
 */
 export class DataK8SOperatorTigeraIoImageSetV1Manifest extends cdktf.TerraformDataSource {
 
@@ -444,7 +444,7 @@ export class DataK8SOperatorTigeraIoImageSetV1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SOperatorTigeraIoImageSetV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorTigeraIoImageSetV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorTigeraIoImageSetV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_image_set_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorTigeraIoImageSetV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_image_set_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorTigeraIoImageSetV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -456,7 +456,7 @@ export class DataK8SOperatorTigeraIoImageSetV1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_image_set_v1_manifest k8s_operator_tigera_io_image_set_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_image_set_v1_manifest k8s_operator_tigera_io_image_set_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -467,8 +467,8 @@ export class DataK8SOperatorTigeraIoImageSetV1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_operator_tigera_io_image_set_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -55,43 +55,43 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifes
   /**
   * Annotations are used for image verification. Every specified key-value pair must exist and match in the verified payload. The payload may contain other key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Attestor is a nested set of Attestor used to specify a more complex set of match authorities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestor DataK8SKyvernoIoClusterPolicyV1Manifest#attestor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestor DataK8SKyvernoIoClusterPolicyV1Manifest#attestor}
   */
   readonly attestor?: { [key: string]: string };
   /**
   * Certificates specifies one or more certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#certificates DataK8SKyvernoIoClusterPolicyV1Manifest#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#certificates DataK8SKyvernoIoClusterPolicyV1Manifest#certificates}
   */
   readonly certificates?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsAttestorsEntriesCertificates;
   /**
   * Keyless is a set of attribute used to verify a Sigstore keyless attestor. See https://github.com/sigstore/cosign/blob/main/KEYLESS.md.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#keyless DataK8SKyvernoIoClusterPolicyV1Manifest#keyless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#keyless DataK8SKyvernoIoClusterPolicyV1Manifest#keyless}
   */
   readonly keyless?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsAttestorsEntriesKeyless;
   /**
   * Keys specifies one or more public keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#keys DataK8SKyvernoIoClusterPolicyV1Manifest#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#keys DataK8SKyvernoIoClusterPolicyV1Manifest#keys}
   */
   readonly keys?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsAttestorsEntriesKeys;
   /**
   * Repository is an optional alternate OCI repository to use for signatures and attestations that match this rule. If specified Repository will override other OCI image repository locations for this Attestor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#repository DataK8SKyvernoIoClusterPolicyV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#repository DataK8SKyvernoIoClusterPolicyV1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Specify signature algorithm for public keys. Supported values are sha224, sha256, sha384 and sha512.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#signature_algorithm DataK8SKyvernoIoClusterPolicyV1Manifest#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#signature_algorithm DataK8SKyvernoIoClusterPolicyV1Manifest#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
 }
@@ -383,13 +383,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifes
   /**
   * Count specifies the required number of entries that must match. If the count is null, all entries must match (a logical AND). If the count is 1, at least one entry must match (a logical OR). If the count contains a value N, then N must be less than or equal to the size of entries, and at least N entries must match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#count DataK8SKyvernoIoClusterPolicyV1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#count DataK8SKyvernoIoClusterPolicyV1Manifest#count}
   */
   readonly count?: number;
   /**
   * Entries contains the available attestors. An attestor can be a static key, attributes for keyless verification, or a nested attestor declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#entries DataK8SKyvernoIoClusterPolicyV1Manifest#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#entries DataK8SKyvernoIoClusterPolicyV1Manifest#entries}
   */
   readonly entries?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsAttestorsEntries[] | cdktf.IResolvable;
 }
@@ -534,11 +534,11 @@ export class DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsAt
 }
 export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsDryRun {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#enable DataK8SKyvernoIoClusterPolicyV1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#enable DataK8SKyvernoIoClusterPolicyV1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -661,23 +661,23 @@ export class DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsDr
 }
 export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsIgnoreFieldsObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#group DataK8SKyvernoIoClusterPolicyV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#group DataK8SKyvernoIoClusterPolicyV1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kind DataK8SKyvernoIoClusterPolicyV1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#version DataK8SKyvernoIoClusterPolicyV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#version DataK8SKyvernoIoClusterPolicyV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -909,11 +909,11 @@ export class DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsIg
 }
 export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsIgnoreFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#fields DataK8SKyvernoIoClusterPolicyV1Manifest#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#fields DataK8SKyvernoIoClusterPolicyV1Manifest#fields}
   */
   readonly fields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#objects DataK8SKyvernoIoClusterPolicyV1Manifest#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#objects DataK8SKyvernoIoClusterPolicyV1Manifest#objects}
   */
   readonly objects?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsIgnoreFieldsObjects[] | cdktf.IResolvable;
 }
@@ -1060,31 +1060,31 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifes
   /**
   * AnnotationDomain is custom domain of annotation for message and signature. Default is 'cosign.sigstore.dev'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotation_domain DataK8SKyvernoIoClusterPolicyV1Manifest#annotation_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotation_domain DataK8SKyvernoIoClusterPolicyV1Manifest#annotation_domain}
   */
   readonly annotationDomain?: string;
   /**
   * Attestors specified the required attestors (i.e. authorities)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestors DataK8SKyvernoIoClusterPolicyV1Manifest#attestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestors DataK8SKyvernoIoClusterPolicyV1Manifest#attestors}
   */
   readonly attestors?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsAttestors[] | cdktf.IResolvable;
   /**
   * DryRun configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#dry_run DataK8SKyvernoIoClusterPolicyV1Manifest#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#dry_run DataK8SKyvernoIoClusterPolicyV1Manifest#dry_run}
   */
   readonly dryRun?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsDryRun;
   /**
   * Fields which will be ignored while comparing manifests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_fields DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_fields DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_fields}
   */
   readonly ignoreFields?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifestsIgnoreFields[] | cdktf.IResolvable;
   /**
   * Repository is an optional alternate OCI repository to use for resource bundle reference. The repository can be overridden per Attestor or Attestation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#repository DataK8SKyvernoIoClusterPolicyV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#repository DataK8SKyvernoIoClusterPolicyV1Manifest#repository}
   */
   readonly repository?: string;
 }
@@ -1296,25 +1296,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidatePodSecu
   /**
   * ControlName specifies the name of the Pod Security Standard control. See: https://kubernetes.io/docs/concepts/security/pod-security-standards/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#control_name DataK8SKyvernoIoClusterPolicyV1Manifest#control_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#control_name DataK8SKyvernoIoClusterPolicyV1Manifest#control_name}
   */
   readonly controlName: string;
   /**
   * Images selects matching containers and applies the container level PSS. Each image is the image name consisting of the registry address, repository, image, and tag. Empty list matches no containers, PSS checks are applied at the pod level only. Wildcards ('*' and '?') are allowed. See: https://kubernetes.io/docs/concepts/containers/images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#images DataK8SKyvernoIoClusterPolicyV1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#images DataK8SKyvernoIoClusterPolicyV1Manifest#images}
   */
   readonly images?: string[];
   /**
   * RestrictedField selects the field for the given Pod Security Standard control. When not set, all restricted fields for the control are selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#restricted_field DataK8SKyvernoIoClusterPolicyV1Manifest#restricted_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#restricted_field DataK8SKyvernoIoClusterPolicyV1Manifest#restricted_field}
   */
   readonly restrictedField?: string;
   /**
   * Values defines the allowed values that can be excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1516,19 +1516,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidatePodSecu
   /**
   * Exclude specifies the Pod Security Standard controls to be excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#exclude DataK8SKyvernoIoClusterPolicyV1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#exclude DataK8SKyvernoIoClusterPolicyV1Manifest#exclude}
   */
   readonly exclude?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidatePodSecurityExclude[] | cdktf.IResolvable;
   /**
   * Level defines the Pod Security Standard level to be applied to workloads. Allowed values are privileged, baseline, and restricted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#level DataK8SKyvernoIoClusterPolicyV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#level DataK8SKyvernoIoClusterPolicyV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Version defines the Pod Security Standard versions that Kubernetes supports. Allowed values are v1.19, v1.20, v1.21, v1.22, v1.23, v1.24, v1.25, v1.26, v1.27, v1.28, v1.29, latest. Defaults to latest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#version DataK8SKyvernoIoClusterPolicyV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#version DataK8SKyvernoIoClusterPolicyV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1682,73 +1682,73 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidate {
   /**
   * AllowExistingViolations allows prexisting violating resources to continue violating a policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_existing_violations DataK8SKyvernoIoClusterPolicyV1Manifest#allow_existing_violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_existing_violations DataK8SKyvernoIoClusterPolicyV1Manifest#allow_existing_violations}
   */
   readonly allowExistingViolations?: boolean | cdktf.IResolvable;
   /**
   * AnyPattern specifies list of validation patterns. At least one of the patterns must be satisfied for the validation rule to succeed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any_pattern DataK8SKyvernoIoClusterPolicyV1Manifest#any_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any_pattern DataK8SKyvernoIoClusterPolicyV1Manifest#any_pattern}
   */
   readonly anyPattern?: { [key: string]: string };
   /**
   * Assert defines a kyverno-json assertion tree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#assert DataK8SKyvernoIoClusterPolicyV1Manifest#assert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#assert DataK8SKyvernoIoClusterPolicyV1Manifest#assert}
   */
   readonly assert?: { [key: string]: string };
   /**
   * CEL allows validation checks using the Common Expression Language (https://kubernetes.io/docs/reference/using-api/cel/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cel DataK8SKyvernoIoClusterPolicyV1Manifest#cel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cel DataK8SKyvernoIoClusterPolicyV1Manifest#cel}
   */
   readonly cel?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateCel;
   /**
   * Deny defines conditions used to pass or fail a validation rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#deny DataK8SKyvernoIoClusterPolicyV1Manifest#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#deny DataK8SKyvernoIoClusterPolicyV1Manifest#deny}
   */
   readonly deny?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateDeny;
   /**
   * FailureAction defines if a validation policy rule violation should block the admission review request (Enforce), or allow (Audit) the admission review request and report an error in a policy report. Optional. Allowed values are Audit or Enforce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#failure_action DataK8SKyvernoIoClusterPolicyV1Manifest#failure_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#failure_action DataK8SKyvernoIoClusterPolicyV1Manifest#failure_action}
   */
   readonly failureAction?: string;
   /**
   * FailureActionOverrides is a Cluster Policy attribute that specifies FailureAction namespace-wise. It overrides FailureAction for the specified namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#failure_action_overrides DataK8SKyvernoIoClusterPolicyV1Manifest#failure_action_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#failure_action_overrides DataK8SKyvernoIoClusterPolicyV1Manifest#failure_action_overrides}
   */
   readonly failureActionOverrides?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateFailureActionOverrides[] | cdktf.IResolvable;
   /**
   * ForEach applies validate rules to a list of sub-elements by creating a context for each entry in the list and looping over it to apply the specified logic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#foreach DataK8SKyvernoIoClusterPolicyV1Manifest#foreach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#foreach DataK8SKyvernoIoClusterPolicyV1Manifest#foreach}
   */
   readonly foreach?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateForeach[] | cdktf.IResolvable;
   /**
   * Manifest specifies conditions for manifest verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#manifests DataK8SKyvernoIoClusterPolicyV1Manifest#manifests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#manifests DataK8SKyvernoIoClusterPolicyV1Manifest#manifests}
   */
   readonly manifests?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidateManifests;
   /**
   * Message specifies a custom message to be displayed on failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
   */
   readonly message?: string;
   /**
   * Pattern specifies an overlay-style pattern used to check resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pattern DataK8SKyvernoIoClusterPolicyV1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pattern DataK8SKyvernoIoClusterPolicyV1Manifest#pattern}
   */
   readonly pattern?: { [key: string]: string };
   /**
   * PodSecurity applies exemptions for Kubernetes Pod Security admission by specifying exclusions for Pod Security Standards controls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pod_security DataK8SKyvernoIoClusterPolicyV1Manifest#pod_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pod_security DataK8SKyvernoIoClusterPolicyV1Manifest#pod_security}
   */
   readonly podSecurity?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidatePodSecurity;
 }
@@ -2163,19 +2163,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * IgnoreSCT defines whether to use the Signed Certificate Timestamp (SCT) log to check for a certificate timestamp. Default is false. Set to true if this was opted out during signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
   */
   readonly ignoreSct?: boolean | cdktf.IResolvable;
   /**
   * PubKey, if set, is used to validate SCTs against a custom source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * TSACertChain, if set, is the PEM-encoded certificate chain file for the RFC3161 timestamp authority. Must contain the root CA certificate. Optionally may contain intermediate CA certificates, and may contain the leaf TSA certificate if not present in the timestamurce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
   */
   readonly tsaCertChain?: string;
 }
@@ -2329,19 +2329,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * IgnoreTlog skips transparency log verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
   */
   readonly ignoreTlog?: boolean | cdktf.IResolvable;
   /**
   * RekorPubKey is an optional PEM-encoded public key to use for a custom Rekor. If set, this will be used to validate transparency log signatures from a custom Rekor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * URL is the address of the transparency log. Defaults to the public Rekor log instance https://rekor.sigstore.dev.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -2495,25 +2495,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * Cert is an optional PEM-encoded public certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cert DataK8SKyvernoIoClusterPolicyV1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cert DataK8SKyvernoIoClusterPolicyV1Manifest#cert}
   */
   readonly cert?: string;
   /**
   * CertChain is an optional PEM encoded set of certificates used to verify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#cert_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#cert_chain}
   */
   readonly certChain?: string;
   /**
   * CTLog (certificate timestamp log) provides a configuration for validation of Signed Certificate Timestamps (SCTs). If the value is unset, the default behavior by Cosign is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
   */
   readonly ctlog?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsAttestorsEntriesCertificatesCtlog;
   /**
   * Rekor provides configuration for the Rekor transparency log service. If an empty object is provided the public instance of Rekor (https://rekor.sigstore.dev) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
   */
   readonly rekor?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsAttestorsEntriesCertificatesRekor;
 }
@@ -2696,19 +2696,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * IgnoreSCT defines whether to use the Signed Certificate Timestamp (SCT) log to check for a certificate timestamp. Default is false. Set to true if this was opted out during signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
   */
   readonly ignoreSct?: boolean | cdktf.IResolvable;
   /**
   * PubKey, if set, is used to validate SCTs against a custom source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * TSACertChain, if set, is the PEM-encoded certificate chain file for the RFC3161 timestamp authority. Must contain the root CA certificate. Optionally may contain intermediate CA certificates, and may contain the leaf TSA certificate if not present in the timestamurce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
   */
   readonly tsaCertChain?: string;
 }
@@ -2862,19 +2862,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * IgnoreTlog skips transparency log verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
   */
   readonly ignoreTlog?: boolean | cdktf.IResolvable;
   /**
   * RekorPubKey is an optional PEM-encoded public key to use for a custom Rekor. If set, this will be used to validate transparency log signatures from a custom Rekor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * URL is the address of the transparency log. Defaults to the public Rekor log instance https://rekor.sigstore.dev.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -3028,49 +3028,49 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * AdditionalExtensions are certificate-extensions used for keyless signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#additional_extensions DataK8SKyvernoIoClusterPolicyV1Manifest#additional_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#additional_extensions DataK8SKyvernoIoClusterPolicyV1Manifest#additional_extensions}
   */
   readonly additionalExtensions?: { [key: string]: string };
   /**
   * CTLog (certificate timestamp log) provides a configuration for validation of Signed Certificate Timestamps (SCTs). If the value is unset, the default behavior by Cosign is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
   */
   readonly ctlog?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsAttestorsEntriesKeylessCtlog;
   /**
   * Issuer is the certificate issuer used for keyless signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer DataK8SKyvernoIoClusterPolicyV1Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer DataK8SKyvernoIoClusterPolicyV1Manifest#issuer}
   */
   readonly issuer?: string;
   /**
   * IssuerRegExp is the regular expression to match certificate issuer used for keyless signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer_reg_exp DataK8SKyvernoIoClusterPolicyV1Manifest#issuer_reg_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer_reg_exp DataK8SKyvernoIoClusterPolicyV1Manifest#issuer_reg_exp}
   */
   readonly issuerRegExp?: string;
   /**
   * Rekor provides configuration for the Rekor transparency log service. If an empty object is provided the public instance of Rekor (https://rekor.sigstore.dev) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
   */
   readonly rekor?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsAttestorsEntriesKeylessRekor;
   /**
   * Roots is an optional set of PEM encoded trusted root certificates. If not provided, the system roots are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roots DataK8SKyvernoIoClusterPolicyV1Manifest#roots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roots DataK8SKyvernoIoClusterPolicyV1Manifest#roots}
   */
   readonly roots?: string;
   /**
   * Subject is the verified identity used for keyless signing, for example the email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject DataK8SKyvernoIoClusterPolicyV1Manifest#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject DataK8SKyvernoIoClusterPolicyV1Manifest#subject}
   */
   readonly subject?: string;
   /**
   * SubjectRegExp is the regular expression to match identity used for keyless signing, for example the email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject_reg_exp DataK8SKyvernoIoClusterPolicyV1Manifest#subject_reg_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject_reg_exp DataK8SKyvernoIoClusterPolicyV1Manifest#subject_reg_exp}
   */
   readonly subjectRegExp?: string;
 }
@@ -3369,19 +3369,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * IgnoreSCT defines whether to use the Signed Certificate Timestamp (SCT) log to check for a certificate timestamp. Default is false. Set to true if this was opted out during signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
   */
   readonly ignoreSct?: boolean | cdktf.IResolvable;
   /**
   * PubKey, if set, is used to validate SCTs against a custom source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * TSACertChain, if set, is the PEM-encoded certificate chain file for the RFC3161 timestamp authority. Must contain the root CA certificate. Optionally may contain intermediate CA certificates, and may contain the leaf TSA certificate if not present in the timestamurce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
   */
   readonly tsaCertChain?: string;
 }
@@ -3535,19 +3535,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * IgnoreTlog skips transparency log verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
   */
   readonly ignoreTlog?: boolean | cdktf.IResolvable;
   /**
   * RekorPubKey is an optional PEM-encoded public key to use for a custom Rekor. If set, this will be used to validate transparency log signatures from a custom Rekor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * URL is the address of the transparency log. Defaults to the public Rekor log instance https://rekor.sigstore.dev.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -3701,13 +3701,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * Name of the secret. The provided secret must contain a key named cosign.pub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace name where the Secret exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -3826,37 +3826,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * CTLog (certificate timestamp log) provides a configuration for validation of Signed Certificate Timestamps (SCTs). If the value is unset, the default behavior by Cosign is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
   */
   readonly ctlog?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsAttestorsEntriesKeysCtlog;
   /**
   * KMS provides the URI to the public key stored in a Key Management System. See: https://github.com/sigstore/cosign/blob/main/KMS.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kms DataK8SKyvernoIoClusterPolicyV1Manifest#kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kms DataK8SKyvernoIoClusterPolicyV1Manifest#kms}
   */
   readonly kms?: string;
   /**
   * Keys is a set of X.509 public keys used to verify image signatures. The keys can be directly specified or can be a variable reference to a key specified in a ConfigMap (see https://kyverno.io/docs/writing-policies/variables/), or reference a standard Kubernetes Secret elsewhere in the cluster by specifying it in the format 'k8s://<namespace>/<secret_name>'. The named Secret must specify a key 'cosign.pub' containing the public key used for verification, (see https://github.com/sigstore/cosign/blob/main/KMS.md#kubernetes-secret). When multiple keys are specified each key is processed as a separate staticKey entry (.attestors[*].entries.keys) within the set of attestors and the count is applied across the keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#public_keys DataK8SKyvernoIoClusterPolicyV1Manifest#public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#public_keys DataK8SKyvernoIoClusterPolicyV1Manifest#public_keys}
   */
   readonly publicKeys?: string;
   /**
   * Rekor provides configuration for the Rekor transparency log service. If an empty object is provided the public instance of Rekor (https://rekor.sigstore.dev) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
   */
   readonly rekor?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsAttestorsEntriesKeysRekor;
   /**
   * Reference to a Secret resource that contains a public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secret DataK8SKyvernoIoClusterPolicyV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secret DataK8SKyvernoIoClusterPolicyV1Manifest#secret}
   */
   readonly secret?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsAttestorsEntriesKeysSecret;
   /**
   * Deprecated. Use attestor.signatureAlgorithm instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#signature_algorithm DataK8SKyvernoIoClusterPolicyV1Manifest#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#signature_algorithm DataK8SKyvernoIoClusterPolicyV1Manifest#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
 }
@@ -4097,43 +4097,43 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * Annotations are used for image verification. Every specified key-value pair must exist and match in the verified payload. The payload may contain other key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Attestor is a nested set of Attestor used to specify a more complex set of match authorities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestor DataK8SKyvernoIoClusterPolicyV1Manifest#attestor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestor DataK8SKyvernoIoClusterPolicyV1Manifest#attestor}
   */
   readonly attestor?: { [key: string]: string };
   /**
   * Certificates specifies one or more certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#certificates DataK8SKyvernoIoClusterPolicyV1Manifest#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#certificates DataK8SKyvernoIoClusterPolicyV1Manifest#certificates}
   */
   readonly certificates?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsAttestorsEntriesCertificates;
   /**
   * Keyless is a set of attribute used to verify a Sigstore keyless attestor. See https://github.com/sigstore/cosign/blob/main/KEYLESS.md.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#keyless DataK8SKyvernoIoClusterPolicyV1Manifest#keyless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#keyless DataK8SKyvernoIoClusterPolicyV1Manifest#keyless}
   */
   readonly keyless?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsAttestorsEntriesKeyless;
   /**
   * Keys specifies one or more public keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#keys DataK8SKyvernoIoClusterPolicyV1Manifest#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#keys DataK8SKyvernoIoClusterPolicyV1Manifest#keys}
   */
   readonly keys?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsAttestorsEntriesKeys;
   /**
   * Repository is an optional alternate OCI repository to use for signatures and attestations that match this rule. If specified Repository will override other OCI image repository locations for this Attestor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#repository DataK8SKyvernoIoClusterPolicyV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#repository DataK8SKyvernoIoClusterPolicyV1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Specify signature algorithm for public keys. Supported values are sha224, sha256, sha384 and sha512.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#signature_algorithm DataK8SKyvernoIoClusterPolicyV1Manifest#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#signature_algorithm DataK8SKyvernoIoClusterPolicyV1Manifest#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
 }
@@ -4425,13 +4425,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * Count specifies the required number of entries that must match. If the count is null, all entries must match (a logical AND). If the count is 1, at least one entry must match (a logical OR). If the count contains a value N, then N must be less than or equal to the size of entries, and at least N entries must match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#count DataK8SKyvernoIoClusterPolicyV1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#count DataK8SKyvernoIoClusterPolicyV1Manifest#count}
   */
   readonly count?: number;
   /**
   * Entries contains the available attestors. An attestor can be a static key, attributes for keyless verification, or a nested attestor declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#entries DataK8SKyvernoIoClusterPolicyV1Manifest#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#entries DataK8SKyvernoIoClusterPolicyV1Manifest#entries}
   */
   readonly entries?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsAttestorsEntries[] | cdktf.IResolvable;
 }
@@ -4578,25 +4578,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * Key is the context entry (using JMESPath) for conditional rule evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key?: { [key: string]: string };
   /**
   * Message is an optional display message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
   */
   readonly message?: string;
   /**
   * Operator is the conditional operation to perform. Valid operators are: Equals, NotEquals, In, AnyIn, AllIn, NotIn, AnyNotIn, AllNotIn, GreaterThanOrEquals, GreaterThan, LessThanOrEquals, LessThan, DurationGreaterThanOrEquals, DurationGreaterThan, DurationLessThanOrEquals, DurationLessThan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the conditional value, or set of values. The values can be fixed set or can be variables declared using JMESPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -4801,25 +4801,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * Key is the context entry (using JMESPath) for conditional rule evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key?: { [key: string]: string };
   /**
   * Message is an optional display message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
   */
   readonly message?: string;
   /**
   * Operator is the conditional operation to perform. Valid operators are: Equals, NotEquals, In, AnyIn, AllIn, NotIn, AnyNotIn, AllNotIn, GreaterThanOrEquals, GreaterThan, LessThanOrEquals, LessThan, DurationGreaterThanOrEquals, DurationGreaterThan, DurationLessThanOrEquals, DurationLessThan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the conditional value, or set of values. The values can be fixed set or can be variables declared using JMESPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#value DataK8SKyvernoIoClusterPolicyV1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -5024,13 +5024,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * AllConditions enable variable-based conditional rule execution. This is useful for finer control of when an rule is applied. A condition can reference object data using JMESPath notation. Here, all of the conditions need to pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#all DataK8SKyvernoIoClusterPolicyV1Manifest#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#all DataK8SKyvernoIoClusterPolicyV1Manifest#all}
   */
   readonly all?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsConditionsAll[] | cdktf.IResolvable;
   /**
   * AnyConditions enable variable-based conditional rule execution. This is useful for finer control of when an rule is applied. A condition can reference object data using JMESPath notation. Here, at least one of the conditions need to pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any DataK8SKyvernoIoClusterPolicyV1Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#any DataK8SKyvernoIoClusterPolicyV1Manifest#any}
   */
   readonly any?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsConditionsAny[] | cdktf.IResolvable;
 }
@@ -5177,31 +5177,31 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * Attestors specify the required attestors (i.e. authorities).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestors DataK8SKyvernoIoClusterPolicyV1Manifest#attestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestors DataK8SKyvernoIoClusterPolicyV1Manifest#attestors}
   */
   readonly attestors?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsAttestors[] | cdktf.IResolvable;
   /**
   * Conditions are used to verify attributes within a Predicate. If no Conditions are specified the attestation check is satisfied as long there are predicates that match the predicate type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#conditions DataK8SKyvernoIoClusterPolicyV1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#conditions DataK8SKyvernoIoClusterPolicyV1Manifest#conditions}
   */
   readonly conditions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestationsConditions[] | cdktf.IResolvable;
   /**
   * Name is the variable name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Deprecated in favour of 'Type', to be removed soon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#predicate_type DataK8SKyvernoIoClusterPolicyV1Manifest#predicate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#predicate_type DataK8SKyvernoIoClusterPolicyV1Manifest#predicate_type}
   */
   readonly predicateType?: string;
   /**
   * Type defines the type of attestation contained within the Statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#type DataK8SKyvernoIoClusterPolicyV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#type DataK8SKyvernoIoClusterPolicyV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -5435,19 +5435,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * IgnoreSCT defines whether to use the Signed Certificate Timestamp (SCT) log to check for a certificate timestamp. Default is false. Set to true if this was opted out during signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
   */
   readonly ignoreSct?: boolean | cdktf.IResolvable;
   /**
   * PubKey, if set, is used to validate SCTs against a custom source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * TSACertChain, if set, is the PEM-encoded certificate chain file for the RFC3161 timestamp authority. Must contain the root CA certificate. Optionally may contain intermediate CA certificates, and may contain the leaf TSA certificate if not present in the timestamurce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
   */
   readonly tsaCertChain?: string;
 }
@@ -5601,19 +5601,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * IgnoreTlog skips transparency log verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
   */
   readonly ignoreTlog?: boolean | cdktf.IResolvable;
   /**
   * RekorPubKey is an optional PEM-encoded public key to use for a custom Rekor. If set, this will be used to validate transparency log signatures from a custom Rekor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * URL is the address of the transparency log. Defaults to the public Rekor log instance https://rekor.sigstore.dev.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -5767,25 +5767,25 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * Cert is an optional PEM-encoded public certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cert DataK8SKyvernoIoClusterPolicyV1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cert DataK8SKyvernoIoClusterPolicyV1Manifest#cert}
   */
   readonly cert?: string;
   /**
   * CertChain is an optional PEM encoded set of certificates used to verify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#cert_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#cert_chain}
   */
   readonly certChain?: string;
   /**
   * CTLog (certificate timestamp log) provides a configuration for validation of Signed Certificate Timestamps (SCTs). If the value is unset, the default behavior by Cosign is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
   */
   readonly ctlog?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestorsEntriesCertificatesCtlog;
   /**
   * Rekor provides configuration for the Rekor transparency log service. If an empty object is provided the public instance of Rekor (https://rekor.sigstore.dev) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
   */
   readonly rekor?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestorsEntriesCertificatesRekor;
 }
@@ -5968,19 +5968,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * IgnoreSCT defines whether to use the Signed Certificate Timestamp (SCT) log to check for a certificate timestamp. Default is false. Set to true if this was opted out during signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
   */
   readonly ignoreSct?: boolean | cdktf.IResolvable;
   /**
   * PubKey, if set, is used to validate SCTs against a custom source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * TSACertChain, if set, is the PEM-encoded certificate chain file for the RFC3161 timestamp authority. Must contain the root CA certificate. Optionally may contain intermediate CA certificates, and may contain the leaf TSA certificate if not present in the timestamurce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
   */
   readonly tsaCertChain?: string;
 }
@@ -6134,19 +6134,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * IgnoreTlog skips transparency log verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
   */
   readonly ignoreTlog?: boolean | cdktf.IResolvable;
   /**
   * RekorPubKey is an optional PEM-encoded public key to use for a custom Rekor. If set, this will be used to validate transparency log signatures from a custom Rekor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * URL is the address of the transparency log. Defaults to the public Rekor log instance https://rekor.sigstore.dev.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -6300,49 +6300,49 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * AdditionalExtensions are certificate-extensions used for keyless signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#additional_extensions DataK8SKyvernoIoClusterPolicyV1Manifest#additional_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#additional_extensions DataK8SKyvernoIoClusterPolicyV1Manifest#additional_extensions}
   */
   readonly additionalExtensions?: { [key: string]: string };
   /**
   * CTLog (certificate timestamp log) provides a configuration for validation of Signed Certificate Timestamps (SCTs). If the value is unset, the default behavior by Cosign is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
   */
   readonly ctlog?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestorsEntriesKeylessCtlog;
   /**
   * Issuer is the certificate issuer used for keyless signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer DataK8SKyvernoIoClusterPolicyV1Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer DataK8SKyvernoIoClusterPolicyV1Manifest#issuer}
   */
   readonly issuer?: string;
   /**
   * IssuerRegExp is the regular expression to match certificate issuer used for keyless signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer_reg_exp DataK8SKyvernoIoClusterPolicyV1Manifest#issuer_reg_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer_reg_exp DataK8SKyvernoIoClusterPolicyV1Manifest#issuer_reg_exp}
   */
   readonly issuerRegExp?: string;
   /**
   * Rekor provides configuration for the Rekor transparency log service. If an empty object is provided the public instance of Rekor (https://rekor.sigstore.dev) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
   */
   readonly rekor?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestorsEntriesKeylessRekor;
   /**
   * Roots is an optional set of PEM encoded trusted root certificates. If not provided, the system roots are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roots DataK8SKyvernoIoClusterPolicyV1Manifest#roots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roots DataK8SKyvernoIoClusterPolicyV1Manifest#roots}
   */
   readonly roots?: string;
   /**
   * Subject is the verified identity used for keyless signing, for example the email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject DataK8SKyvernoIoClusterPolicyV1Manifest#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject DataK8SKyvernoIoClusterPolicyV1Manifest#subject}
   */
   readonly subject?: string;
   /**
   * SubjectRegExp is the regular expression to match identity used for keyless signing, for example the email address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject_reg_exp DataK8SKyvernoIoClusterPolicyV1Manifest#subject_reg_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject_reg_exp DataK8SKyvernoIoClusterPolicyV1Manifest#subject_reg_exp}
   */
   readonly subjectRegExp?: string;
 }
@@ -6641,19 +6641,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * IgnoreSCT defines whether to use the Signed Certificate Timestamp (SCT) log to check for a certificate timestamp. Default is false. Set to true if this was opted out during signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_sct DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_sct}
   */
   readonly ignoreSct?: boolean | cdktf.IResolvable;
   /**
   * PubKey, if set, is used to validate SCTs against a custom source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * TSACertChain, if set, is the PEM-encoded certificate chain file for the RFC3161 timestamp authority. Must contain the root CA certificate. Optionally may contain intermediate CA certificates, and may contain the leaf TSA certificate if not present in the timestamurce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#tsa_cert_chain DataK8SKyvernoIoClusterPolicyV1Manifest#tsa_cert_chain}
   */
   readonly tsaCertChain?: string;
 }
@@ -6807,19 +6807,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * IgnoreTlog skips transparency log verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ignore_tlog DataK8SKyvernoIoClusterPolicyV1Manifest#ignore_tlog}
   */
   readonly ignoreTlog?: boolean | cdktf.IResolvable;
   /**
   * RekorPubKey is an optional PEM-encoded public key to use for a custom Rekor. If set, this will be used to validate transparency log signatures from a custom Rekor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#pubkey DataK8SKyvernoIoClusterPolicyV1Manifest#pubkey}
   */
   readonly pubkey?: string;
   /**
   * URL is the address of the transparency log. Defaults to the public Rekor log instance https://rekor.sigstore.dev.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#url DataK8SKyvernoIoClusterPolicyV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -6973,13 +6973,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * Name of the secret. The provided secret must contain a key named cosign.pub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace name where the Secret exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace DataK8SKyvernoIoClusterPolicyV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -7098,37 +7098,37 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * CTLog (certificate timestamp log) provides a configuration for validation of Signed Certificate Timestamps (SCTs). If the value is unset, the default behavior by Cosign is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#ctlog DataK8SKyvernoIoClusterPolicyV1Manifest#ctlog}
   */
   readonly ctlog?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestorsEntriesKeysCtlog;
   /**
   * KMS provides the URI to the public key stored in a Key Management System. See: https://github.com/sigstore/cosign/blob/main/KMS.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kms DataK8SKyvernoIoClusterPolicyV1Manifest#kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#kms DataK8SKyvernoIoClusterPolicyV1Manifest#kms}
   */
   readonly kms?: string;
   /**
   * Keys is a set of X.509 public keys used to verify image signatures. The keys can be directly specified or can be a variable reference to a key specified in a ConfigMap (see https://kyverno.io/docs/writing-policies/variables/), or reference a standard Kubernetes Secret elsewhere in the cluster by specifying it in the format 'k8s://<namespace>/<secret_name>'. The named Secret must specify a key 'cosign.pub' containing the public key used for verification, (see https://github.com/sigstore/cosign/blob/main/KMS.md#kubernetes-secret). When multiple keys are specified each key is processed as a separate staticKey entry (.attestors[*].entries.keys) within the set of attestors and the count is applied across the keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#public_keys DataK8SKyvernoIoClusterPolicyV1Manifest#public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#public_keys DataK8SKyvernoIoClusterPolicyV1Manifest#public_keys}
   */
   readonly publicKeys?: string;
   /**
   * Rekor provides configuration for the Rekor transparency log service. If an empty object is provided the public instance of Rekor (https://rekor.sigstore.dev) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rekor DataK8SKyvernoIoClusterPolicyV1Manifest#rekor}
   */
   readonly rekor?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestorsEntriesKeysRekor;
   /**
   * Reference to a Secret resource that contains a public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secret DataK8SKyvernoIoClusterPolicyV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secret DataK8SKyvernoIoClusterPolicyV1Manifest#secret}
   */
   readonly secret?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestorsEntriesKeysSecret;
   /**
   * Deprecated. Use attestor.signatureAlgorithm instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#signature_algorithm DataK8SKyvernoIoClusterPolicyV1Manifest#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#signature_algorithm DataK8SKyvernoIoClusterPolicyV1Manifest#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
 }
@@ -7369,43 +7369,43 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * Annotations are used for image verification. Every specified key-value pair must exist and match in the verified payload. The payload may contain other key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Attestor is a nested set of Attestor used to specify a more complex set of match authorities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestor DataK8SKyvernoIoClusterPolicyV1Manifest#attestor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestor DataK8SKyvernoIoClusterPolicyV1Manifest#attestor}
   */
   readonly attestor?: { [key: string]: string };
   /**
   * Certificates specifies one or more certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#certificates DataK8SKyvernoIoClusterPolicyV1Manifest#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#certificates DataK8SKyvernoIoClusterPolicyV1Manifest#certificates}
   */
   readonly certificates?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestorsEntriesCertificates;
   /**
   * Keyless is a set of attribute used to verify a Sigstore keyless attestor. See https://github.com/sigstore/cosign/blob/main/KEYLESS.md.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#keyless DataK8SKyvernoIoClusterPolicyV1Manifest#keyless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#keyless DataK8SKyvernoIoClusterPolicyV1Manifest#keyless}
   */
   readonly keyless?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestorsEntriesKeyless;
   /**
   * Keys specifies one or more public keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#keys DataK8SKyvernoIoClusterPolicyV1Manifest#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#keys DataK8SKyvernoIoClusterPolicyV1Manifest#keys}
   */
   readonly keys?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestorsEntriesKeys;
   /**
   * Repository is an optional alternate OCI repository to use for signatures and attestations that match this rule. If specified Repository will override other OCI image repository locations for this Attestor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#repository DataK8SKyvernoIoClusterPolicyV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#repository DataK8SKyvernoIoClusterPolicyV1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Specify signature algorithm for public keys. Supported values are sha224, sha256, sha384 and sha512.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#signature_algorithm DataK8SKyvernoIoClusterPolicyV1Manifest#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#signature_algorithm DataK8SKyvernoIoClusterPolicyV1Manifest#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
 }
@@ -7697,13 +7697,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAtt
   /**
   * Count specifies the required number of entries that must match. If the count is null, all entries must match (a logical AND). If the count is 1, at least one entry must match (a logical OR). If the count contains a value N, then N must be less than or equal to the size of entries, and at least N entries must match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#count DataK8SKyvernoIoClusterPolicyV1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#count DataK8SKyvernoIoClusterPolicyV1Manifest#count}
   */
   readonly count?: number;
   /**
   * Entries contains the available attestors. An attestor can be a static key, attributes for keyless verification, or a nested attestor declaration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#entries DataK8SKyvernoIoClusterPolicyV1Manifest#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#entries DataK8SKyvernoIoClusterPolicyV1Manifest#entries}
   */
   readonly entries?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestorsEntries[] | cdktf.IResolvable;
 }
@@ -7850,19 +7850,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesIma
   /**
   * AllowInsecureRegistry allows insecure access to a registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_insecure_registry DataK8SKyvernoIoClusterPolicyV1Manifest#allow_insecure_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#allow_insecure_registry DataK8SKyvernoIoClusterPolicyV1Manifest#allow_insecure_registry}
   */
   readonly allowInsecureRegistry?: boolean | cdktf.IResolvable;
   /**
   * Providers specifies a list of OCI Registry names, whose authentication providers are provided. It can be of one of these values: default,google,azure,amazon,github.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#providers DataK8SKyvernoIoClusterPolicyV1Manifest#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#providers DataK8SKyvernoIoClusterPolicyV1Manifest#providers}
   */
   readonly providers?: string[];
   /**
   * Secrets specifies a list of secrets that are provided for credentials. Secrets must live in the Kyverno namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secrets DataK8SKyvernoIoClusterPolicyV1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#secrets DataK8SKyvernoIoClusterPolicyV1Manifest#secrets}
   */
   readonly secrets?: string[];
 }
@@ -8016,7 +8016,7 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesVal
   /**
   * Multiple conditions can be declared under an 'any' or 'all' statement. A direct list of conditions (without 'any' or 'all' statements) is also supported for backwards compatibility but will be deprecated in the next major release. See: https://kyverno.io/docs/writing-policies/validate/#deny-rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#conditions DataK8SKyvernoIoClusterPolicyV1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#conditions DataK8SKyvernoIoClusterPolicyV1Manifest#conditions}
   */
   readonly conditions?: { [key: string]: string };
 }
@@ -8112,13 +8112,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesVal
   /**
   * Deny defines conditions used to pass or fail a validation rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#deny DataK8SKyvernoIoClusterPolicyV1Manifest#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#deny DataK8SKyvernoIoClusterPolicyV1Manifest#deny}
   */
   readonly deny?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesValidateDeny;
   /**
   * Message specifies a custom message to be displayed on failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#message DataK8SKyvernoIoClusterPolicyV1Manifest#message}
   */
   readonly message?: string;
 }
@@ -8243,127 +8243,127 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImages {
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#additional_extensions DataK8SKyvernoIoClusterPolicyV1Manifest#additional_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#additional_extensions DataK8SKyvernoIoClusterPolicyV1Manifest#additional_extensions}
   */
   readonly additionalExtensions?: { [key: string]: string };
   /**
   * Deprecated. Use annotations per Attestor instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#annotations DataK8SKyvernoIoClusterPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Attestations are optional checks for signed in-toto Statements used to verify the image. See https://github.com/in-toto/attestation. Kyverno fetches signed attestations from the OCI registry and decodes them into a list of Statement declarations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestations DataK8SKyvernoIoClusterPolicyV1Manifest#attestations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestations DataK8SKyvernoIoClusterPolicyV1Manifest#attestations}
   */
   readonly attestations?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestations[] | cdktf.IResolvable;
   /**
   * Attestors specified the required attestors (i.e. authorities)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestors DataK8SKyvernoIoClusterPolicyV1Manifest#attestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#attestors DataK8SKyvernoIoClusterPolicyV1Manifest#attestors}
   */
   readonly attestors?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesAttestors[] | cdktf.IResolvable;
   /**
   * CosignOCI11 enables the experimental OCI 1.1 behaviour in cosign image verification. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cosign_oci11 DataK8SKyvernoIoClusterPolicyV1Manifest#cosign_oci11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cosign_oci11 DataK8SKyvernoIoClusterPolicyV1Manifest#cosign_oci11}
   */
   readonly cosignOci11?: boolean | cdktf.IResolvable;
   /**
   * Allowed values are Audit or Enforce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#failure_action DataK8SKyvernoIoClusterPolicyV1Manifest#failure_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#failure_action DataK8SKyvernoIoClusterPolicyV1Manifest#failure_action}
   */
   readonly failureAction?: string;
   /**
   * Deprecated. Use ImageReferences instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image DataK8SKyvernoIoClusterPolicyV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image DataK8SKyvernoIoClusterPolicyV1Manifest#image}
   */
   readonly image?: string;
   /**
   * ImageReferences is a list of matching image reference patterns. At least one pattern in the list must match the image for the rule to apply. Each image reference consists of a registry address (defaults to docker.io), repository, image, and tag (defaults to latest). Wildcards ('*' and '?') are allowed. See: https://kubernetes.io/docs/concepts/containers/images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_references DataK8SKyvernoIoClusterPolicyV1Manifest#image_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_references DataK8SKyvernoIoClusterPolicyV1Manifest#image_references}
   */
   readonly imageReferences?: string[];
   /**
   * ImageRegistryCredentials provides credentials that will be used for authentication with registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry_credentials DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_registry_credentials DataK8SKyvernoIoClusterPolicyV1Manifest#image_registry_credentials}
   */
   readonly imageRegistryCredentials?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesImageRegistryCredentials;
   /**
   * Deprecated. Use KeylessAttestor instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer DataK8SKyvernoIoClusterPolicyV1Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#issuer DataK8SKyvernoIoClusterPolicyV1Manifest#issuer}
   */
   readonly issuer?: string;
   /**
   * Deprecated. Use StaticKeyAttestor instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key?: string;
   /**
   * MutateDigest enables replacement of image tags with digests. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#mutate_digest DataK8SKyvernoIoClusterPolicyV1Manifest#mutate_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#mutate_digest DataK8SKyvernoIoClusterPolicyV1Manifest#mutate_digest}
   */
   readonly mutateDigest?: boolean | cdktf.IResolvable;
   /**
   * Repository is an optional alternate OCI repository to use for image signatures and attestations that match this rule. If specified Repository will override the default OCI image repository configured for the installation. The repository can also be overridden per Attestor or Attestation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#repository DataK8SKyvernoIoClusterPolicyV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#repository DataK8SKyvernoIoClusterPolicyV1Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Required validates that images are verified i.e. have matched passed a signature or attestation check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#required DataK8SKyvernoIoClusterPolicyV1Manifest#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#required DataK8SKyvernoIoClusterPolicyV1Manifest#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * Deprecated. Use KeylessAttestor instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roots DataK8SKyvernoIoClusterPolicyV1Manifest#roots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#roots DataK8SKyvernoIoClusterPolicyV1Manifest#roots}
   */
   readonly roots?: string;
   /**
   * SkipImageReferences is a list of matching image reference patterns that should be skipped. At least one pattern in the list must match the image for the rule to be skipped. Each image reference consists of a registry address (defaults to docker.io), repository, image, and tag (defaults to latest). Wildcards ('*' and '?') are allowed. See: https://kubernetes.io/docs/concepts/containers/images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#skip_image_references DataK8SKyvernoIoClusterPolicyV1Manifest#skip_image_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#skip_image_references DataK8SKyvernoIoClusterPolicyV1Manifest#skip_image_references}
   */
   readonly skipImageReferences?: string[];
   /**
   * Deprecated. Use KeylessAttestor instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject DataK8SKyvernoIoClusterPolicyV1Manifest#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#subject DataK8SKyvernoIoClusterPolicyV1Manifest#subject}
   */
   readonly subject?: string;
   /**
   * Type specifies the method of signature validation. The allowed options are Cosign, Sigstore Bundle and Notary. By default Cosign is used if a type is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#type DataK8SKyvernoIoClusterPolicyV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#type DataK8SKyvernoIoClusterPolicyV1Manifest#type}
   */
   readonly type?: string;
   /**
   * UseCache enables caching of image verify responses for this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#use_cache DataK8SKyvernoIoClusterPolicyV1Manifest#use_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#use_cache DataK8SKyvernoIoClusterPolicyV1Manifest#use_cache}
   */
   readonly useCache?: boolean | cdktf.IResolvable;
   /**
   * Validation checks conditions across multiple image verification attestations or context entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#validate DataK8SKyvernoIoClusterPolicyV1Manifest#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#validate DataK8SKyvernoIoClusterPolicyV1Manifest#validate}
   */
   readonly validate?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImagesValidate;
   /**
   * VerifyDigest validates that images have a digest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#verify_digest DataK8SKyvernoIoClusterPolicyV1Manifest#verify_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#verify_digest DataK8SKyvernoIoClusterPolicyV1Manifest#verify_digest}
   */
   readonly verifyDigest?: boolean | cdktf.IResolvable;
 }
@@ -9061,79 +9061,79 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecRules {
   /**
   * CELPreconditions are used to determine if a policy rule should be applied by evaluating a set of CEL conditions. It can only be used with the validate.cel subrule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cel_preconditions DataK8SKyvernoIoClusterPolicyV1Manifest#cel_preconditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#cel_preconditions DataK8SKyvernoIoClusterPolicyV1Manifest#cel_preconditions}
   */
   readonly celPreconditions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesCelPreconditions[] | cdktf.IResolvable;
   /**
   * Context defines variables and data sources that can be used during rule execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#context DataK8SKyvernoIoClusterPolicyV1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#context DataK8SKyvernoIoClusterPolicyV1Manifest#context}
   */
   readonly context?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesContext[] | cdktf.IResolvable;
   /**
   * ExcludeResources defines when this policy rule should not be applied. The exclude criteria can include resource information (e.g. kind, name, namespace, labels) and admission review request information like the name or role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#exclude DataK8SKyvernoIoClusterPolicyV1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#exclude DataK8SKyvernoIoClusterPolicyV1Manifest#exclude}
   */
   readonly exclude?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesExclude;
   /**
   * Generation is used to create new resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#generate DataK8SKyvernoIoClusterPolicyV1Manifest#generate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#generate DataK8SKyvernoIoClusterPolicyV1Manifest#generate}
   */
   readonly generate?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesGenerate;
   /**
   * ImageExtractors defines a mapping from kinds to ImageExtractorConfigs. This config is only valid for verifyImages rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_extractors DataK8SKyvernoIoClusterPolicyV1Manifest#image_extractors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#image_extractors DataK8SKyvernoIoClusterPolicyV1Manifest#image_extractors}
   */
   readonly imageExtractors?: { [key: string]: string };
   /**
   * MatchResources defines when this policy rule should be applied. The match criteria can include resource information (e.g. kind, name, namespace, labels) and admission review request information like the user name or role. At least one kind is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match DataK8SKyvernoIoClusterPolicyV1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match DataK8SKyvernoIoClusterPolicyV1Manifest#match}
   */
   readonly match: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMatch;
   /**
   * Mutation is used to modify matching resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#mutate DataK8SKyvernoIoClusterPolicyV1Manifest#mutate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#mutate DataK8SKyvernoIoClusterPolicyV1Manifest#mutate}
   */
   readonly mutate?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesMutate;
   /**
   * Name is a label to identify the rule, It must be unique within the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Preconditions are used to determine if a policy rule should be applied by evaluating a set of conditions. The declaration can contain nested 'any' or 'all' statements. A direct list of conditions (without 'any' or 'all' statements is supported for backwards compatibility but will be deprecated in the next major release. See: https://kyverno.io/docs/writing-policies/preconditions/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#preconditions DataK8SKyvernoIoClusterPolicyV1Manifest#preconditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#preconditions DataK8SKyvernoIoClusterPolicyV1Manifest#preconditions}
   */
   readonly preconditions?: { [key: string]: string };
   /**
   * ReportProperties are the additional properties from the rule that will be added to the policy report result
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#report_properties DataK8SKyvernoIoClusterPolicyV1Manifest#report_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#report_properties DataK8SKyvernoIoClusterPolicyV1Manifest#report_properties}
   */
   readonly reportProperties?: { [key: string]: string };
   /**
   * SkipBackgroundRequests bypasses admission requests that are sent by the background controller. The default value is set to 'true', it must be set to 'false' to apply generate and mutateExisting rules to those requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#skip_background_requests DataK8SKyvernoIoClusterPolicyV1Manifest#skip_background_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#skip_background_requests DataK8SKyvernoIoClusterPolicyV1Manifest#skip_background_requests}
   */
   readonly skipBackgroundRequests?: boolean | cdktf.IResolvable;
   /**
   * Validation is used to validate matching resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#validate DataK8SKyvernoIoClusterPolicyV1Manifest#validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#validate DataK8SKyvernoIoClusterPolicyV1Manifest#validate}
   */
   readonly validate?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesValidate;
   /**
   * VerifyImages is used to verify image signatures and mutate them to add a digest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#verify_images DataK8SKyvernoIoClusterPolicyV1Manifest#verify_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#verify_images DataK8SKyvernoIoClusterPolicyV1Manifest#verify_images}
   */
   readonly verifyImages?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRulesVerifyImages[] | cdktf.IResolvable;
 }
@@ -9593,19 +9593,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecValidationFailureAct
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#key DataK8SKyvernoIoClusterPolicyV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#operator DataK8SKyvernoIoClusterPolicyV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#values DataK8SKyvernoIoClusterPolicyV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9775,13 +9775,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecValidationFailureAct
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_expressions DataK8SKyvernoIoClusterPolicyV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecValidationFailureActionOverridesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_labels DataK8SKyvernoIoClusterPolicyV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9906,17 +9906,17 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecValidationFailureAct
   /**
   * ValidationFailureAction defines the policy validation failure action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#action DataK8SKyvernoIoClusterPolicyV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#action DataK8SKyvernoIoClusterPolicyV1Manifest#action}
   */
   readonly action?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespace_selector DataK8SKyvernoIoClusterPolicyV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecValidationFailureActionOverridesNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#namespaces DataK8SKyvernoIoClusterPolicyV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
 }
@@ -10092,13 +10092,13 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecWebhookConfiguration
   /**
   * Expression represents the expression which will be evaluated by CEL. Must evaluate to bool. CEL expressions have access to the contents of the AdmissionRequest and Authorizer, organized into CEL variables: 'object' - The object from the incoming request. The value is null for DELETE requests. 'oldObject' - The existing object. The value is null for CREATE requests. 'request' - Attributes of the admission request(/pkg/apis/admission/types.go#AdmissionRequest). 'authorizer' - A CEL Authorizer. May be used to perform authorization checks for the principal (user or service account) of the request. See https://pkg.go.dev/k8s.io/apiserver/pkg/cel/library#Authz 'authorizer.requestResource' - A CEL ResourceCheck constructed from the 'authorizer' and configured with the request resource. Documentation on CEL: https://kubernetes.io/docs/reference/using-api/cel/ Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#expression DataK8SKyvernoIoClusterPolicyV1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#expression DataK8SKyvernoIoClusterPolicyV1Manifest#expression}
   */
   readonly expression: string;
   /**
   * Name is an identifier for this match condition, used for strategic merging of MatchConditions, as well as providing an identifier for logging purposes. A good name should be descriptive of the associated expression. Name must be a qualified name consisting of alphanumeric characters, '-', '_' or '.', and must start and end with an alphanumeric character (e.g. 'MyName', or 'my.name', or '123-abc', regex used for validation is '([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9]') with an optional DNS subdomain prefix and '/' (e.g. 'example.com/MyName') Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#name DataK8SKyvernoIoClusterPolicyV1Manifest#name}
   */
   readonly name: string;
 }
@@ -10239,19 +10239,19 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpecWebhookConfiguration
   /**
   * FailurePolicy defines how unexpected policy errors and webhook response timeout errors are handled. Rules within the same policy share the same failure behavior. This field should not be accessed directly, instead 'GetFailurePolicy()' should be used. Allowed values are Ignore or Fail. Defaults to Fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#failure_policy DataK8SKyvernoIoClusterPolicyV1Manifest#failure_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#failure_policy DataK8SKyvernoIoClusterPolicyV1Manifest#failure_policy}
   */
   readonly failurePolicy?: string;
   /**
   * MatchCondition configures admission webhook matchConditions. Requires Kubernetes 1.27 or later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_conditions DataK8SKyvernoIoClusterPolicyV1Manifest#match_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#match_conditions DataK8SKyvernoIoClusterPolicyV1Manifest#match_conditions}
   */
   readonly matchConditions?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecWebhookConfigurationMatchConditions[] | cdktf.IResolvable;
   /**
   * TimeoutSeconds specifies the maximum time in seconds allowed to apply this policy. After the configured time expires, the admission request may fail, or may simply ignore the policy results, based on the failure policy. The default timeout is 10s, the value must be between 1 and 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#timeout_seconds DataK8SKyvernoIoClusterPolicyV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#timeout_seconds DataK8SKyvernoIoClusterPolicyV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -10405,91 +10405,91 @@ export interface DataK8SKyvernoIoClusterPolicyV1ManifestSpec {
   /**
   * Admission controls if rules are applied during admission. Optional. Default value is 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#admission DataK8SKyvernoIoClusterPolicyV1Manifest#admission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#admission DataK8SKyvernoIoClusterPolicyV1Manifest#admission}
   */
   readonly admission?: boolean | cdktf.IResolvable;
   /**
   * ApplyRules controls how rules in a policy are applied. Rule are processed in the order of declaration. When set to 'One' processing stops after a rule has been applied i.e. the rule matches and results in a pass, fail, or error. When set to 'All' all rules in the policy are processed. The default is 'All'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#apply_rules DataK8SKyvernoIoClusterPolicyV1Manifest#apply_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#apply_rules DataK8SKyvernoIoClusterPolicyV1Manifest#apply_rules}
   */
   readonly applyRules?: string;
   /**
   * Background controls if rules are applied to existing resources during a background scan. Optional. Default value is 'true'. The value must be set to 'false' if the policy rule uses variables that are only available in the admission review request (e.g. user name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#background DataK8SKyvernoIoClusterPolicyV1Manifest#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#background DataK8SKyvernoIoClusterPolicyV1Manifest#background}
   */
   readonly background?: boolean | cdktf.IResolvable;
   /**
   * EmitWarning enables API response warnings for mutate policy rules or validate policy rules with validationFailureAction set to Audit. Enabling this option will extend admission request processing times. The default value is 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#emit_warning DataK8SKyvernoIoClusterPolicyV1Manifest#emit_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#emit_warning DataK8SKyvernoIoClusterPolicyV1Manifest#emit_warning}
   */
   readonly emitWarning?: boolean | cdktf.IResolvable;
   /**
   * Deprecated, use failurePolicy under the webhookConfiguration instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#failure_policy DataK8SKyvernoIoClusterPolicyV1Manifest#failure_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#failure_policy DataK8SKyvernoIoClusterPolicyV1Manifest#failure_policy}
   */
   readonly failurePolicy?: string;
   /**
   * Deprecated, use generateExisting under the generate rule instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#generate_existing DataK8SKyvernoIoClusterPolicyV1Manifest#generate_existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#generate_existing DataK8SKyvernoIoClusterPolicyV1Manifest#generate_existing}
   */
   readonly generateExisting?: boolean | cdktf.IResolvable;
   /**
   * Deprecated, use generateExisting instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#generate_existing_on_policy_update DataK8SKyvernoIoClusterPolicyV1Manifest#generate_existing_on_policy_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#generate_existing_on_policy_update DataK8SKyvernoIoClusterPolicyV1Manifest#generate_existing_on_policy_update}
   */
   readonly generateExistingOnPolicyUpdate?: boolean | cdktf.IResolvable;
   /**
   * Deprecated, use mutateExistingOnPolicyUpdate under the mutate rule instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#mutate_existing_on_policy_update DataK8SKyvernoIoClusterPolicyV1Manifest#mutate_existing_on_policy_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#mutate_existing_on_policy_update DataK8SKyvernoIoClusterPolicyV1Manifest#mutate_existing_on_policy_update}
   */
   readonly mutateExistingOnPolicyUpdate?: boolean | cdktf.IResolvable;
   /**
   * Rules is a list of Rule instances. A Policy contains multiple rules and each rule can validate, mutate, or generate resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rules DataK8SKyvernoIoClusterPolicyV1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#rules DataK8SKyvernoIoClusterPolicyV1Manifest#rules}
   */
   readonly rules?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecRules[] | cdktf.IResolvable;
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#schema_validation DataK8SKyvernoIoClusterPolicyV1Manifest#schema_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#schema_validation DataK8SKyvernoIoClusterPolicyV1Manifest#schema_validation}
   */
   readonly schemaValidation?: boolean | cdktf.IResolvable;
   /**
   * UseServerSideApply controls whether to use server-side apply for generate rules If is set to 'true' create & update for generate rules will use apply instead of create/update. Defaults to 'false' if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#use_server_side_apply DataK8SKyvernoIoClusterPolicyV1Manifest#use_server_side_apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#use_server_side_apply DataK8SKyvernoIoClusterPolicyV1Manifest#use_server_side_apply}
   */
   readonly useServerSideApply?: boolean | cdktf.IResolvable;
   /**
   * Deprecated, use validationFailureAction under the validate rule instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#validation_failure_action DataK8SKyvernoIoClusterPolicyV1Manifest#validation_failure_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#validation_failure_action DataK8SKyvernoIoClusterPolicyV1Manifest#validation_failure_action}
   */
   readonly validationFailureAction?: string;
   /**
   * Deprecated, use validationFailureActionOverrides under the validate rule instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#validation_failure_action_overrides DataK8SKyvernoIoClusterPolicyV1Manifest#validation_failure_action_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#validation_failure_action_overrides DataK8SKyvernoIoClusterPolicyV1Manifest#validation_failure_action_overrides}
   */
   readonly validationFailureActionOverrides?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecValidationFailureActionOverrides[] | cdktf.IResolvable;
   /**
   * WebhookConfiguration specifies the custom configuration for Kubernetes admission webhookconfiguration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#webhook_configuration DataK8SKyvernoIoClusterPolicyV1Manifest#webhook_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#webhook_configuration DataK8SKyvernoIoClusterPolicyV1Manifest#webhook_configuration}
   */
   readonly webhookConfiguration?: DataK8SKyvernoIoClusterPolicyV1ManifestSpecWebhookConfiguration;
   /**
   * Deprecated, use webhookTimeoutSeconds under webhookConfiguration instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#webhook_timeout_seconds DataK8SKyvernoIoClusterPolicyV1Manifest#webhook_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kyverno_io_cluster_policy_v1_manifest#webhook_timeout_seconds DataK8SKyvernoIoClusterPolicyV1Manifest#webhook_timeout_seconds}
   */
   readonly webhookTimeoutSeconds?: number;
 }

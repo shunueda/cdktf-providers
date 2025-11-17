@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SChiselOperatorIoExitNodeProvisionerV1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#metadata DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#metadata DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#metadata}
   */
   readonly metadata: DataK8SChiselOperatorIoExitNodeProvisionerV1ManifestMetadata;
   /**
   * ExitNodeProvisioner is a custom resource that represents a Chisel exit node provisioner on a cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#spec DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#spec DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#spec}
   */
   readonly spec: DataK8SChiselOperatorIoExitNodeProvisionerV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SChiselOperatorIoExitNodeProvisionerV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#annotations DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#annotations DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#labels DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#labels DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#name DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#name DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#namespace DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#namespace DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SChiselOperatorIoExitNodeProvisionerV1ManifestSpecAws {
   /**
   * Reference to a secret containing the AWS access key ID and secret access key, under the 'access_key_id' and 'secret_access_key' secret keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#auth DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#auth DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#auth}
   */
   readonly auth: string;
   /**
   * Region ID for the AWS region to provision the exit node in See https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#region DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#region DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#region}
   */
   readonly region: string;
   /**
   * Security group name to use for the exit node, uses the default security group if not specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#security_group DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#security_group DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#security_group}
   */
   readonly securityGroup?: string;
   /**
   * Size for the EC2 instance See https://aws.amazon.com/ec2/instance-types/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#size DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#size DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#size}
   */
   readonly size?: string;
 }
@@ -414,25 +414,25 @@ export interface DataK8SChiselOperatorIoExitNodeProvisionerV1ManifestSpecDigital
   /**
   * Reference to a secret containing the DigitalOcean API token, under the 'DIGITALOCEAN_TOKEN' secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#auth DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#auth DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#auth}
   */
   readonly auth: string;
   /**
   * Region ID of the DigitalOcean datacenter to provision the exit node in If empty, DigitalOcean will randomly select a region for you, which might not be what you want See https://slugs.do-api.dev/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#region DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#region DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#region}
   */
   readonly region?: string;
   /**
   * Size for the DigitalOcean droplet See https://slugs.do-api.dev/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#size DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#size DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#size}
   */
   readonly size?: string;
   /**
   * SSH key fingerprints to add to the exit node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#ssh_fingerprints DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#ssh_fingerprints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#ssh_fingerprints DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#ssh_fingerprints}
   */
   readonly sshFingerprints?: string[];
 }
@@ -612,19 +612,19 @@ export interface DataK8SChiselOperatorIoExitNodeProvisionerV1ManifestSpecLinode 
   /**
   * Name of the secret containing the Linode API token, under the 'LINODE_TOKEN' secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#auth DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#auth DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#auth}
   */
   readonly auth: string;
   /**
   * Region ID of the Linode datacenter to provision the exit node in See https://api.linode.com/v4/regions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#region DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#region DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#region}
   */
   readonly region: string;
   /**
   * Size for the Linode instance See https://api.linode.com/v4/linode/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#size DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#size DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#size}
   */
   readonly size?: string;
 }
@@ -770,15 +770,15 @@ export class DataK8SChiselOperatorIoExitNodeProvisionerV1ManifestSpecLinodeOutpu
 }
 export interface DataK8SChiselOperatorIoExitNodeProvisionerV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#aws DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#aws DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#aws}
   */
   readonly aws?: DataK8SChiselOperatorIoExitNodeProvisionerV1ManifestSpecAws;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#digital_ocean DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#digital_ocean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#digital_ocean DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#digital_ocean}
   */
   readonly digitalOcean?: DataK8SChiselOperatorIoExitNodeProvisionerV1ManifestSpecDigitalOcean;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#linode DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#linode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#linode DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest#linode}
   */
   readonly linode?: DataK8SChiselOperatorIoExitNodeProvisionerV1ManifestSpecLinode;
 }
@@ -930,7 +930,7 @@ export class DataK8SChiselOperatorIoExitNodeProvisionerV1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest k8s_chisel_operator_io_exit_node_provisioner_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest k8s_chisel_operator_io_exit_node_provisioner_v1_manifest}
 */
 export class DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest extends cdktf.TerraformDataSource {
 
@@ -946,7 +946,7 @@ export class DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest to import
-  * @param importFromId The id of the existing DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -958,7 +958,7 @@ export class DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest k8s_chisel_operator_io_exit_node_provisioner_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chisel_operator_io_exit_node_provisioner_v1_manifest k8s_chisel_operator_io_exit_node_provisioner_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -969,8 +969,8 @@ export class DataK8SChiselOperatorIoExitNodeProvisionerV1Manifest extends cdktf.
       terraformResourceType: 'k8s_chisel_operator_io_exit_node_provisioner_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

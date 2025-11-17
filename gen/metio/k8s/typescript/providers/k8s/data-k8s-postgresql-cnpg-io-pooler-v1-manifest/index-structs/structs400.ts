@@ -79,13 +79,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemera
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#device_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#device_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -226,43 +226,43 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemera
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mount_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mount_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mount_propagation DataK8SPostgresqlCnpgIoPoolerV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mount_propagation DataK8SPostgresqlCnpgIoPoolerV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#recursive_read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#recursive_read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sub_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sub_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sub_path_expr DataK8SPostgresqlCnpgIoPoolerV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sub_path_expr DataK8SPostgresqlCnpgIoPoolerV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -548,151 +548,151 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemera
   /**
   * Arguments to the entrypoint. The image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#args DataK8SPostgresqlCnpgIoPoolerV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#args DataK8SPostgresqlCnpgIoPoolerV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#env DataK8SPostgresqlCnpgIoPoolerV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#env DataK8SPostgresqlCnpgIoPoolerV1Manifest#env}
   */
   readonly env?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemeralContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#env_from DataK8SPostgresqlCnpgIoPoolerV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#env_from DataK8SPostgresqlCnpgIoPoolerV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemeralContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image DataK8SPostgresqlCnpgIoPoolerV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image DataK8SPostgresqlCnpgIoPoolerV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image_pull_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image_pull_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Lifecycle is not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#lifecycle DataK8SPostgresqlCnpgIoPoolerV1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#lifecycle DataK8SPostgresqlCnpgIoPoolerV1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemeralContainersLifecycle;
   /**
   * Probes are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#liveness_probe DataK8SPostgresqlCnpgIoPoolerV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#liveness_probe DataK8SPostgresqlCnpgIoPoolerV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemeralContainersLivenessProbe;
   /**
   * Name of the ephemeral container specified as a DNS_LABEL. This name must be unique among all containers, init containers and ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Ports are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#ports DataK8SPostgresqlCnpgIoPoolerV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#ports DataK8SPostgresqlCnpgIoPoolerV1Manifest#ports}
   */
   readonly ports?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemeralContainersPorts[] | cdktf.IResolvable;
   /**
   * Probes are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#readiness_probe DataK8SPostgresqlCnpgIoPoolerV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#readiness_probe DataK8SPostgresqlCnpgIoPoolerV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemeralContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resize_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resize_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemeralContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Resources are not allowed for ephemeral containers. Ephemeral containers use spare resources already allocated to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resources DataK8SPostgresqlCnpgIoPoolerV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resources DataK8SPostgresqlCnpgIoPoolerV1Manifest#resources}
   */
   readonly resources?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemeralContainersResources;
   /**
   * Restart policy for the container to manage the restart behavior of each container within a pod. This may only be set for init containers. You cannot set this field on ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#restart_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#restart_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * Optional: SecurityContext defines the security options the ephemeral container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#security_context DataK8SPostgresqlCnpgIoPoolerV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#security_context DataK8SPostgresqlCnpgIoPoolerV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemeralContainersSecurityContext;
   /**
   * Probes are not allowed for ephemeral containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#startup_probe DataK8SPostgresqlCnpgIoPoolerV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#startup_probe DataK8SPostgresqlCnpgIoPoolerV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemeralContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#stdin DataK8SPostgresqlCnpgIoPoolerV1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#stdin DataK8SPostgresqlCnpgIoPoolerV1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#stdin_once DataK8SPostgresqlCnpgIoPoolerV1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#stdin_once DataK8SPostgresqlCnpgIoPoolerV1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * If set, the name of the container from PodSpec that this ephemeral container targets. The ephemeral container will be run in the namespaces (IPC, PID, etc) of this container. If not set then the ephemeral container uses the namespaces configured in the Pod spec. The container runtime must implement support for this feature. If the runtime does not support namespace targeting then the result of setting this field is undefined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#target_container_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#target_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#target_container_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#target_container_name}
   */
   readonly targetContainerName?: string;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_message_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_message_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_message_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_message_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tty DataK8SPostgresqlCnpgIoPoolerV1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tty DataK8SPostgresqlCnpgIoPoolerV1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_devices DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_devices DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemeralContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Subpath mounts are not allowed for ephemeral containers. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_mounts DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_mounts DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemeralContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#working_dir DataK8SPostgresqlCnpgIoPoolerV1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#working_dir DataK8SPostgresqlCnpgIoPoolerV1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -1503,13 +1503,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecHostAlia
   /**
   * Hostnames for the above IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#hostnames DataK8SPostgresqlCnpgIoPoolerV1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#hostnames DataK8SPostgresqlCnpgIoPoolerV1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
   * IP address of the host file entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#ip DataK8SPostgresqlCnpgIoPoolerV1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#ip DataK8SPostgresqlCnpgIoPoolerV1Manifest#ip}
   */
   readonly ip: string;
 }
@@ -1653,7 +1653,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecImagePul
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1771,19 +1771,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1934,13 +1934,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#api_version DataK8SPostgresqlCnpgIoPoolerV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#api_version DataK8SPostgresqlCnpgIoPoolerV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#field_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#field_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -2062,19 +2062,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#container_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#container_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#divisor DataK8SPostgresqlCnpgIoPoolerV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#divisor DataK8SPostgresqlCnpgIoPoolerV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -2225,19 +2225,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2388,25 +2388,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#config_map_key_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#config_map_key_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#field_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#field_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_field_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_field_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_key_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_key_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersEnvValueFromSecretKeyRef;
 }
@@ -2589,19 +2589,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value_from DataK8SPostgresqlCnpgIoPoolerV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value_from DataK8SPostgresqlCnpgIoPoolerV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersEnvValueFrom;
 }
@@ -2774,13 +2774,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2905,13 +2905,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3036,19 +3036,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#config_map_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#config_map_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#prefix DataK8SPostgresqlCnpgIoPoolerV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#prefix DataK8SPostgresqlCnpgIoPoolerV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersEnvFromSecretRef;
 }
@@ -3224,7 +3224,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3320,13 +3320,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
   */
   readonly value: string;
 }
@@ -3467,31 +3467,31 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_headers DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_headers DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheme DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheme DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -3700,7 +3700,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -3793,13 +3793,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
   */
   readonly port: string;
 }
@@ -3921,25 +3921,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#exec DataK8SPostgresqlCnpgIoPoolerV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#exec DataK8SPostgresqlCnpgIoPoolerV1Manifest#exec}
   */
   readonly exec?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_get DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_get DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLifecyclePostStartHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sleep DataK8SPostgresqlCnpgIoPoolerV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sleep DataK8SPostgresqlCnpgIoPoolerV1Manifest#sleep}
   */
   readonly sleep?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLifecyclePostStartSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tcp_socket DataK8SPostgresqlCnpgIoPoolerV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tcp_socket DataK8SPostgresqlCnpgIoPoolerV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLifecyclePostStartTcpSocket;
 }
@@ -4122,7 +4122,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -4218,13 +4218,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
   */
   readonly value: string;
 }
@@ -4365,31 +4365,31 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_headers DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_headers DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheme DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheme DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -4598,7 +4598,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -4691,13 +4691,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
   */
   readonly port: string;
 }
@@ -4819,25 +4819,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#exec DataK8SPostgresqlCnpgIoPoolerV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#exec DataK8SPostgresqlCnpgIoPoolerV1Manifest#exec}
   */
   readonly exec?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_get DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_get DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLifecyclePreStopHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sleep DataK8SPostgresqlCnpgIoPoolerV1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sleep DataK8SPostgresqlCnpgIoPoolerV1Manifest#sleep}
   */
   readonly sleep?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLifecyclePreStopSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tcp_socket DataK8SPostgresqlCnpgIoPoolerV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tcp_socket DataK8SPostgresqlCnpgIoPoolerV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLifecyclePreStopTcpSocket;
 }
@@ -5020,13 +5020,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#post_start DataK8SPostgresqlCnpgIoPoolerV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#post_start DataK8SPostgresqlCnpgIoPoolerV1Manifest#post_start}
   */
   readonly postStart?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#pre_stop DataK8SPostgresqlCnpgIoPoolerV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#pre_stop DataK8SPostgresqlCnpgIoPoolerV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLifecyclePreStop;
 }
@@ -5151,7 +5151,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -5247,13 +5247,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service DataK8SPostgresqlCnpgIoPoolerV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service DataK8SPostgresqlCnpgIoPoolerV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -5375,13 +5375,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
   */
   readonly value: string;
 }
@@ -5522,31 +5522,31 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_headers DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_headers DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheme DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheme DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -5755,13 +5755,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
   */
   readonly port: string;
 }
@@ -5883,61 +5883,61 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#exec DataK8SPostgresqlCnpgIoPoolerV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#exec DataK8SPostgresqlCnpgIoPoolerV1Manifest#exec}
   */
   readonly exec?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#failure_threshold DataK8SPostgresqlCnpgIoPoolerV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#failure_threshold DataK8SPostgresqlCnpgIoPoolerV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#grpc DataK8SPostgresqlCnpgIoPoolerV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#grpc DataK8SPostgresqlCnpgIoPoolerV1Manifest#grpc}
   */
   readonly grpc?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_get DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_get DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#initial_delay_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#initial_delay_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#success_threshold DataK8SPostgresqlCnpgIoPoolerV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#success_threshold DataK8SPostgresqlCnpgIoPoolerV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tcp_socket DataK8SPostgresqlCnpgIoPoolerV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tcp_socket DataK8SPostgresqlCnpgIoPoolerV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_grace_period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_grace_period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#timeout_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#timeout_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -6294,31 +6294,31 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#container_port DataK8SPostgresqlCnpgIoPoolerV1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#container_port DataK8SPostgresqlCnpgIoPoolerV1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_ip DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_ip DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_port DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_port DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#protocol DataK8SPostgresqlCnpgIoPoolerV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#protocol DataK8SPostgresqlCnpgIoPoolerV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -6549,7 +6549,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -6645,13 +6645,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service DataK8SPostgresqlCnpgIoPoolerV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service DataK8SPostgresqlCnpgIoPoolerV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -6773,13 +6773,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
   */
   readonly value: string;
 }
@@ -6920,31 +6920,31 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_headers DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_headers DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheme DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheme DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -7153,13 +7153,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
   */
   readonly port: string;
 }
@@ -7281,61 +7281,61 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#exec DataK8SPostgresqlCnpgIoPoolerV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#exec DataK8SPostgresqlCnpgIoPoolerV1Manifest#exec}
   */
   readonly exec?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#failure_threshold DataK8SPostgresqlCnpgIoPoolerV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#failure_threshold DataK8SPostgresqlCnpgIoPoolerV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#grpc DataK8SPostgresqlCnpgIoPoolerV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#grpc DataK8SPostgresqlCnpgIoPoolerV1Manifest#grpc}
   */
   readonly grpc?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_get DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_get DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#initial_delay_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#initial_delay_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#success_threshold DataK8SPostgresqlCnpgIoPoolerV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#success_threshold DataK8SPostgresqlCnpgIoPoolerV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tcp_socket DataK8SPostgresqlCnpgIoPoolerV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tcp_socket DataK8SPostgresqlCnpgIoPoolerV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_grace_period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_grace_period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#timeout_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#timeout_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -7692,13 +7692,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#restart_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#restart_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -7839,13 +7839,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#request DataK8SPostgresqlCnpgIoPoolerV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#request DataK8SPostgresqlCnpgIoPoolerV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -7989,19 +7989,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#claims DataK8SPostgresqlCnpgIoPoolerV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#claims DataK8SPostgresqlCnpgIoPoolerV1Manifest#claims}
   */
   readonly claims?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#limits DataK8SPostgresqlCnpgIoPoolerV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#limits DataK8SPostgresqlCnpgIoPoolerV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#requests DataK8SPostgresqlCnpgIoPoolerV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#requests DataK8SPostgresqlCnpgIoPoolerV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -8155,13 +8155,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#localhost_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#localhost_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
   */
   readonly type: string;
 }
@@ -8283,13 +8283,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#add DataK8SPostgresqlCnpgIoPoolerV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#add DataK8SPostgresqlCnpgIoPoolerV1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#drop DataK8SPostgresqlCnpgIoPoolerV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#drop DataK8SPostgresqlCnpgIoPoolerV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -8414,25 +8414,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#level DataK8SPostgresqlCnpgIoPoolerV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#level DataK8SPostgresqlCnpgIoPoolerV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#role DataK8SPostgresqlCnpgIoPoolerV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#role DataK8SPostgresqlCnpgIoPoolerV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#user DataK8SPostgresqlCnpgIoPoolerV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#user DataK8SPostgresqlCnpgIoPoolerV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -8615,13 +8615,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#localhost_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#localhost_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
   */
   readonly type: string;
 }
@@ -8743,25 +8743,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#gmsa_credential_spec DataK8SPostgresqlCnpgIoPoolerV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#gmsa_credential_spec DataK8SPostgresqlCnpgIoPoolerV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#gmsa_credential_spec_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#gmsa_credential_spec_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_process DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_process DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_user_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_user_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -8944,73 +8944,73 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#allow_privilege_escalation DataK8SPostgresqlCnpgIoPoolerV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#allow_privilege_escalation DataK8SPostgresqlCnpgIoPoolerV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * appArmorProfile is the AppArmor options to use by this container. If set, this profile overrides the pod's appArmorProfile. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#app_armor_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#app_armor_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersSecurityContextAppArmorProfile;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#capabilities DataK8SPostgresqlCnpgIoPoolerV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#capabilities DataK8SPostgresqlCnpgIoPoolerV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#privileged DataK8SPostgresqlCnpgIoPoolerV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#privileged DataK8SPostgresqlCnpgIoPoolerV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default value is Default which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#proc_mount DataK8SPostgresqlCnpgIoPoolerV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#proc_mount DataK8SPostgresqlCnpgIoPoolerV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only_root_filesystem DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only_root_filesystem DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_group DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_group DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_non_root DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_non_root DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_user DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_user DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#se_linux_options DataK8SPostgresqlCnpgIoPoolerV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#se_linux_options DataK8SPostgresqlCnpgIoPoolerV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#seccomp_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#seccomp_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#windows_options DataK8SPostgresqlCnpgIoPoolerV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#windows_options DataK8SPostgresqlCnpgIoPoolerV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersSecurityContextWindowsOptions;
 }
@@ -9425,7 +9425,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -9521,13 +9521,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service DataK8SPostgresqlCnpgIoPoolerV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service DataK8SPostgresqlCnpgIoPoolerV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -9649,13 +9649,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
   */
   readonly value: string;
 }
@@ -9796,31 +9796,31 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_headers DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_headers DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheme DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheme DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -10029,13 +10029,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host DataK8SPostgresqlCnpgIoPoolerV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#port DataK8SPostgresqlCnpgIoPoolerV1Manifest#port}
   */
   readonly port: string;
 }
@@ -10157,61 +10157,61 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#exec DataK8SPostgresqlCnpgIoPoolerV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#exec DataK8SPostgresqlCnpgIoPoolerV1Manifest#exec}
   */
   readonly exec?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#failure_threshold DataK8SPostgresqlCnpgIoPoolerV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#failure_threshold DataK8SPostgresqlCnpgIoPoolerV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#grpc DataK8SPostgresqlCnpgIoPoolerV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#grpc DataK8SPostgresqlCnpgIoPoolerV1Manifest#grpc}
   */
   readonly grpc?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_get DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#http_get DataK8SPostgresqlCnpgIoPoolerV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#initial_delay_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#initial_delay_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#success_threshold DataK8SPostgresqlCnpgIoPoolerV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#success_threshold DataK8SPostgresqlCnpgIoPoolerV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tcp_socket DataK8SPostgresqlCnpgIoPoolerV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tcp_socket DataK8SPostgresqlCnpgIoPoolerV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_grace_period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_grace_period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#timeout_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#timeout_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -10568,13 +10568,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#device_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#device_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -10715,43 +10715,43 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mount_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mount_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mount_propagation DataK8SPostgresqlCnpgIoPoolerV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mount_propagation DataK8SPostgresqlCnpgIoPoolerV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#recursive_read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#recursive_read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sub_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sub_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sub_path_expr DataK8SPostgresqlCnpgIoPoolerV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sub_path_expr DataK8SPostgresqlCnpgIoPoolerV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -11037,145 +11037,145 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitCont
   /**
   * Arguments to the entrypoint. The container image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#args DataK8SPostgresqlCnpgIoPoolerV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#args DataK8SPostgresqlCnpgIoPoolerV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The container image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#command DataK8SPostgresqlCnpgIoPoolerV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#env DataK8SPostgresqlCnpgIoPoolerV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#env DataK8SPostgresqlCnpgIoPoolerV1Manifest#env}
   */
   readonly env?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#env_from DataK8SPostgresqlCnpgIoPoolerV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#env_from DataK8SPostgresqlCnpgIoPoolerV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image DataK8SPostgresqlCnpgIoPoolerV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image DataK8SPostgresqlCnpgIoPoolerV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image_pull_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image_pull_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Actions that the management system should take in response to container lifecycle events. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#lifecycle DataK8SPostgresqlCnpgIoPoolerV1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#lifecycle DataK8SPostgresqlCnpgIoPoolerV1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLifecycle;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#liveness_probe DataK8SPostgresqlCnpgIoPoolerV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#liveness_probe DataK8SPostgresqlCnpgIoPoolerV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersLivenessProbe;
   /**
   * Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * List of ports to expose from the container. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default '0.0.0.0' address inside a container will be accessible from the network. Modifying this array with strategic merge patch may corrupt the data. For more information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#ports DataK8SPostgresqlCnpgIoPoolerV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#ports DataK8SPostgresqlCnpgIoPoolerV1Manifest#ports}
   */
   readonly ports?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersPorts[] | cdktf.IResolvable;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#readiness_probe DataK8SPostgresqlCnpgIoPoolerV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#readiness_probe DataK8SPostgresqlCnpgIoPoolerV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resize_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resize_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resources DataK8SPostgresqlCnpgIoPoolerV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resources DataK8SPostgresqlCnpgIoPoolerV1Manifest#resources}
   */
   readonly resources?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersResources;
   /**
   * RestartPolicy defines the restart behavior of individual containers in a pod. This field may only be set for init containers, and the only allowed value is 'Always'. For non-init containers or when this field is not specified, the restart behavior is defined by the Pod's restart policy and the container type. Setting the RestartPolicy as 'Always' for the init container will have the following effect: this init container will be continually restarted on exit until all regular containers have terminated. Once all regular containers have completed, all init containers with restartPolicy 'Always' will be shut down. This lifecycle differs from normal init containers and is often referred to as a 'sidecar' container. Although this init container still starts in the init container sequence, it does not wait for the container to complete before proceeding to the next init container. Instead, the next init container starts immediately after this init container is started, or after any startupProbe has successfully completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#restart_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#restart_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#security_context DataK8SPostgresqlCnpgIoPoolerV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#security_context DataK8SPostgresqlCnpgIoPoolerV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersSecurityContext;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#startup_probe DataK8SPostgresqlCnpgIoPoolerV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#startup_probe DataK8SPostgresqlCnpgIoPoolerV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#stdin DataK8SPostgresqlCnpgIoPoolerV1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#stdin DataK8SPostgresqlCnpgIoPoolerV1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#stdin_once DataK8SPostgresqlCnpgIoPoolerV1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#stdin_once DataK8SPostgresqlCnpgIoPoolerV1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_message_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_message_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_message_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_message_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tty DataK8SPostgresqlCnpgIoPoolerV1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tty DataK8SPostgresqlCnpgIoPoolerV1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_devices DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_devices DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_mounts DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_mounts DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#working_dir DataK8SPostgresqlCnpgIoPoolerV1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#working_dir DataK8SPostgresqlCnpgIoPoolerV1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -11957,7 +11957,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecOs {
   /**
   * Name is the name of the operating system. The currently supported values are linux and windows. Additional value may be defined in future and can be one of: https://github.com/opencontainers/runtime-spec/blob/master/config.md#platform-specific-configuration Clients should expect to handle additional values and treat unrecognized values in this field as os: null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -12050,7 +12050,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecReadines
   /**
   * ConditionType refers to a condition in the pod's condition list with matching type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#condition_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#condition_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#condition_type}
   */
   readonly conditionType: string;
 }
@@ -12165,19 +12165,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecResource
   /**
   * Name uniquely identifies this resource claim inside the pod. This must be a DNS_LABEL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * ResourceClaimName is the name of a ResourceClaim object in the same namespace as this pod. Exactly one of ResourceClaimName and ResourceClaimTemplateName must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_claim_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_claim_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_claim_name}
   */
   readonly resourceClaimName?: string;
   /**
   * ResourceClaimTemplateName is the name of a ResourceClaimTemplate object in the same namespace as this pod. The template will be used to create a new ResourceClaim, which will be bound to this pod. When this pod is deleted, the ResourceClaim will also be deleted. The pod name and resource name, along with a generated component, will be used to form a unique name for the ResourceClaim, which will be recorded in pod.status.resourceClaimStatuses. This field is immutable and no changes will be made to the corresponding ResourceClaim by the control plane after creating the ResourceClaim. Exactly one of ResourceClaimName and ResourceClaimTemplateName must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_claim_template_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_claim_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_claim_template_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_claim_template_name}
   */
   readonly resourceClaimTemplateName?: string;
 }
@@ -12350,7 +12350,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecScheduli
   /**
   * Name of the scheduling gate. Each scheduling gate must have a unique name field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -12465,13 +12465,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecSecurity
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#localhost_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#localhost_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
   */
   readonly type: string;
 }
@@ -12593,25 +12593,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecSecurity
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#level DataK8SPostgresqlCnpgIoPoolerV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#level DataK8SPostgresqlCnpgIoPoolerV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#role DataK8SPostgresqlCnpgIoPoolerV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#role DataK8SPostgresqlCnpgIoPoolerV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#user DataK8SPostgresqlCnpgIoPoolerV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#user DataK8SPostgresqlCnpgIoPoolerV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -12794,13 +12794,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecSecurity
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#localhost_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#localhost_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
   */
   readonly type: string;
 }
@@ -12922,13 +12922,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecSecurity
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
   */
   readonly value: string;
 }
@@ -13069,25 +13069,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecSecurity
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#gmsa_credential_spec DataK8SPostgresqlCnpgIoPoolerV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#gmsa_credential_spec DataK8SPostgresqlCnpgIoPoolerV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#gmsa_credential_spec_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#gmsa_credential_spec_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_process DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_process DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_user_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_user_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -13270,73 +13270,73 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecSecurity
   /**
   * appArmorProfile is the AppArmor options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#app_armor_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#app_armor_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecSecurityContextAppArmorProfile;
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_group DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_group DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_group_change_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_group_change_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_group DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_group DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_non_root DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_non_root DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_user DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#run_as_user DataK8SPostgresqlCnpgIoPoolerV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#se_linux_options DataK8SPostgresqlCnpgIoPoolerV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#se_linux_options DataK8SPostgresqlCnpgIoPoolerV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#seccomp_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#seccomp_profile DataK8SPostgresqlCnpgIoPoolerV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID and fsGroup (if specified). If the SupplementalGroupsPolicy feature is enabled, the supplementalGroupsPolicy field determines whether these are in addition to or instead of any group memberships defined in the container image. If unspecified, no additional groups are added, though group memberships defined in the container image may still be used, depending on the supplementalGroupsPolicy field. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#supplemental_groups DataK8SPostgresqlCnpgIoPoolerV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#supplemental_groups DataK8SPostgresqlCnpgIoPoolerV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Defines how supplemental groups of the first container processes are calculated. Valid values are 'Merge' and 'Strict'. If not specified, 'Merge' is used. (Alpha) Using the field requires the SupplementalGroupsPolicy feature gate to be enabled and the container runtime must implement support for this feature. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#supplemental_groups_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#supplemental_groups_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#supplemental_groups_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#supplemental_groups_policy}
   */
   readonly supplementalGroupsPolicy?: string;
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sysctls DataK8SPostgresqlCnpgIoPoolerV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sysctls DataK8SPostgresqlCnpgIoPoolerV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#windows_options DataK8SPostgresqlCnpgIoPoolerV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#windows_options DataK8SPostgresqlCnpgIoPoolerV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecSecurityContextWindowsOptions;
 }
@@ -13751,31 +13751,31 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecTolerati
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#effect DataK8SPostgresqlCnpgIoPoolerV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#effect DataK8SPostgresqlCnpgIoPoolerV1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#operator DataK8SPostgresqlCnpgIoPoolerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#operator DataK8SPostgresqlCnpgIoPoolerV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#toleration_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#toleration_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#value DataK8SPostgresqlCnpgIoPoolerV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -14009,19 +14009,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecTopology
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#operator DataK8SPostgresqlCnpgIoPoolerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#operator DataK8SPostgresqlCnpgIoPoolerV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#values DataK8SPostgresqlCnpgIoPoolerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#values DataK8SPostgresqlCnpgIoPoolerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14191,13 +14191,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecTopology
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_labels DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_labels DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14322,49 +14322,49 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecTopology
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#label_selector DataK8SPostgresqlCnpgIoPoolerV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#label_selector DataK8SPostgresqlCnpgIoPoolerV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_label_keys DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_label_keys DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#max_skew DataK8SPostgresqlCnpgIoPoolerV1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#max_skew DataK8SPostgresqlCnpgIoPoolerV1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#min_domains DataK8SPostgresqlCnpgIoPoolerV1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#min_domains DataK8SPostgresqlCnpgIoPoolerV1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#node_affinity_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#node_affinity_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#node_taints_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#node_taints_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#topology_key DataK8SPostgresqlCnpgIoPoolerV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#topology_key DataK8SPostgresqlCnpgIoPoolerV1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#when_unsatisfiable DataK8SPostgresqlCnpgIoPoolerV1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#when_unsatisfiable DataK8SPostgresqlCnpgIoPoolerV1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -14676,25 +14676,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesA
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#partition DataK8SPostgresqlCnpgIoPoolerV1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#partition DataK8SPostgresqlCnpgIoPoolerV1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * readOnly value true will force the readOnly setting in VolumeMounts. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID is unique ID of the persistent disk resource in AWS (Amazon EBS volume). More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_id DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_id DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -14874,37 +14874,37 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesA
   /**
   * cachingMode is the Host Caching mode: None, Read Only, Read Write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#caching_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#caching_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
   * diskName is the Name of the data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#disk_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#disk_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
   * diskURI is the URI of data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#disk_uri DataK8SPostgresqlCnpgIoPoolerV1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#disk_uri DataK8SPostgresqlCnpgIoPoolerV1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
   * fsType is Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * kind expected values are Shared: multiple blob disks per storage account Dedicated: single blob disk per storage account Managed: azure managed data disk (only in managed availability set). defaults to shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#kind DataK8SPostgresqlCnpgIoPoolerV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#kind DataK8SPostgresqlCnpgIoPoolerV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -15139,19 +15139,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesA
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of secret that contains Azure Storage Account Name and Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * shareName is the azure share Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#share_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#share_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -15299,7 +15299,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesC
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -15395,37 +15395,37 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesC
   /**
   * monitors is Required: Monitors is a collection of Ceph monitors More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#monitors DataK8SPostgresqlCnpgIoPoolerV1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#monitors DataK8SPostgresqlCnpgIoPoolerV1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path?: string;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretFile is Optional: SecretFile is the path to key ring for User, default is /etc/ceph/user.secret More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_file DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_file DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
   * secretRef is Optional: SecretRef is reference to the authentication secret for User, default is empty. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesCephfsSecretRef;
   /**
   * user is optional: User is the rados user name, default is admin More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#user DataK8SPostgresqlCnpgIoPoolerV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#user DataK8SPostgresqlCnpgIoPoolerV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -15663,7 +15663,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesC
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -15759,25 +15759,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesC
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is optional: points to a secret object containing parameters used to connect to OpenStack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesCinderSecretRef;
   /**
   * volumeID used to identify the volume in cinder. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_id DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_id DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -15957,19 +15957,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesC
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path: string;
 }
@@ -16139,25 +16139,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesC
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#default_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#default_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#items DataK8SPostgresqlCnpgIoPoolerV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#items DataK8SPostgresqlCnpgIoPoolerV1Manifest#items}
   */
   readonly items?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16340,7 +16340,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesC
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -16436,31 +16436,31 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesC
   /**
   * driver is the name of the CSI driver that handles this volume. Consult with your admin for the correct name as registered in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#driver DataK8SPostgresqlCnpgIoPoolerV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#driver DataK8SPostgresqlCnpgIoPoolerV1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType to mount. Ex. 'ext4', 'xfs', 'ntfs'. If not provided, the empty value is passed to the associated CSI driver which will determine the default filesystem to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * nodePublishSecretRef is a reference to the secret object containing sensitive information to pass to the CSI driver to complete the CSI NodePublishVolume and NodeUnpublishVolume calls. This field is optional, and may be empty if no secret is required. If the secret object contains more than one secret, all secret references are passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#node_publish_secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#node_publish_secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesCsiNodePublishSecretRef;
   /**
   * readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeAttributes stores driver-specific properties that are passed to the CSI driver. Consult your driver's documentation for supported values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_attributes DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_attributes DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -16669,13 +16669,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesD
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#api_version DataK8SPostgresqlCnpgIoPoolerV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#api_version DataK8SPostgresqlCnpgIoPoolerV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#field_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#field_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -16797,19 +16797,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesD
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#container_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#container_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#divisor DataK8SPostgresqlCnpgIoPoolerV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#divisor DataK8SPostgresqlCnpgIoPoolerV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -16960,25 +16960,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesD
   /**
   * Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#field_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#field_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_field_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_field_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -17180,13 +17180,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesD
   /**
   * Optional: mode bits to use on created files by default. Must be a Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#default_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#default_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Items is a list of downward API volume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#items DataK8SPostgresqlCnpgIoPoolerV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#items DataK8SPostgresqlCnpgIoPoolerV1Manifest#items}
   */
   readonly items?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -17311,13 +17311,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesE
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#medium DataK8SPostgresqlCnpgIoPoolerV1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#medium DataK8SPostgresqlCnpgIoPoolerV1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#size_limit DataK8SPostgresqlCnpgIoPoolerV1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#size_limit DataK8SPostgresqlCnpgIoPoolerV1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -17442,19 +17442,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesE
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#api_group DataK8SPostgresqlCnpgIoPoolerV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#api_group DataK8SPostgresqlCnpgIoPoolerV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#kind DataK8SPostgresqlCnpgIoPoolerV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#kind DataK8SPostgresqlCnpgIoPoolerV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
 }
@@ -17602,25 +17602,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesE
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#api_group DataK8SPostgresqlCnpgIoPoolerV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#api_group DataK8SPostgresqlCnpgIoPoolerV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#kind DataK8SPostgresqlCnpgIoPoolerV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#kind DataK8SPostgresqlCnpgIoPoolerV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#namespace DataK8SPostgresqlCnpgIoPoolerV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#namespace DataK8SPostgresqlCnpgIoPoolerV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -17797,13 +17797,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesE
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#limits DataK8SPostgresqlCnpgIoPoolerV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#limits DataK8SPostgresqlCnpgIoPoolerV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#requests DataK8SPostgresqlCnpgIoPoolerV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#requests DataK8SPostgresqlCnpgIoPoolerV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -17928,19 +17928,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesE
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#operator DataK8SPostgresqlCnpgIoPoolerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#operator DataK8SPostgresqlCnpgIoPoolerV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#values DataK8SPostgresqlCnpgIoPoolerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#values DataK8SPostgresqlCnpgIoPoolerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18110,13 +18110,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesE
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_labels DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_labels DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18241,55 +18241,55 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesE
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#access_modes DataK8SPostgresqlCnpgIoPoolerV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#access_modes DataK8SPostgresqlCnpgIoPoolerV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#data_source DataK8SPostgresqlCnpgIoPoolerV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#data_source DataK8SPostgresqlCnpgIoPoolerV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#data_source_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#data_source_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resources DataK8SPostgresqlCnpgIoPoolerV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resources DataK8SPostgresqlCnpgIoPoolerV1Manifest#resources}
   */
   readonly resources?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#selector DataK8SPostgresqlCnpgIoPoolerV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#selector DataK8SPostgresqlCnpgIoPoolerV1Manifest#selector}
   */
   readonly selector?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#storage_class_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#storage_class_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Beta) Using this field requires the VolumeAttributesClass feature gate to be enabled (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_attributes_class_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_attributes_class_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -18617,13 +18617,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesE
   /**
   * May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#metadata DataK8SPostgresqlCnpgIoPoolerV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#metadata DataK8SPostgresqlCnpgIoPoolerV1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The specification for the PersistentVolumeClaim. The entire content is copied unchanged into the PVC that gets created from this template. The same fields as in a PersistentVolumeClaim are also valid here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#spec DataK8SPostgresqlCnpgIoPoolerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#spec DataK8SPostgresqlCnpgIoPoolerV1Manifest#spec}
   */
   readonly spec: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -18745,7 +18745,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesE
   /**
   * Will be used to create a stand-alone PVC to provision the volume. The pod in which this EphemeralVolumeSource is embedded will be the owner of the PVC, i.e. the PVC will be deleted together with the pod. The name of the PVC will be '<pod name>-<volume name>' where '<volume name>' is the name from the 'PodSpec.Volumes' array entry. Pod validation will reject the pod if the concatenated name is not valid for a PVC (for example, too long). An existing PVC with that name that is not owned by the pod will *not* be used for the pod to avoid using an unrelated volume by mistake. Starting the pod is then blocked until the unrelated PVC is removed. If such a pre-created PVC is meant to be used by the pod, the PVC has to updated with an owner reference to the pod once the pod exists. Normally this should not be necessary, but it may be useful when manually reconstructing a broken cluster. This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created. Required, must not be nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_claim_template DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_claim_template DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesEphemeralVolumeClaimTemplate;
 }
@@ -18841,31 +18841,31 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesF
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * lun is Optional: FC target lun number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#lun DataK8SPostgresqlCnpgIoPoolerV1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#lun DataK8SPostgresqlCnpgIoPoolerV1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * targetWWNs is Optional: FC target worldwide names (WWNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#target_ww_ns DataK8SPostgresqlCnpgIoPoolerV1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#target_ww_ns DataK8SPostgresqlCnpgIoPoolerV1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
   * wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#wwids DataK8SPostgresqlCnpgIoPoolerV1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#wwids DataK8SPostgresqlCnpgIoPoolerV1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -19077,7 +19077,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesF
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -19173,31 +19173,31 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesF
   /**
   * driver is the name of the driver to use for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#driver DataK8SPostgresqlCnpgIoPoolerV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#driver DataK8SPostgresqlCnpgIoPoolerV1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default filesystem depends on FlexVolume script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * options is Optional: this field holds extra command options if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#options DataK8SPostgresqlCnpgIoPoolerV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#options DataK8SPostgresqlCnpgIoPoolerV1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * readOnly is Optional: defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is Optional: secretRef is reference to the secret object containing sensitive information to pass to the plugin scripts. This may be empty if no secret object is specified. If the secret object contains more than one secret, all secrets are passed to the plugin scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesFlexVolumeSecretRef;
 }
@@ -19406,13 +19406,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesF
   /**
   * datasetName is Name of the dataset stored as metadata -> name on the dataset for Flocker should be considered as deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#dataset_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#dataset_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * datasetUUID is the UUID of the dataset. This is unique identifier of a Flocker dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#dataset_uuid DataK8SPostgresqlCnpgIoPoolerV1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#dataset_uuid DataK8SPostgresqlCnpgIoPoolerV1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -19537,25 +19537,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesG
   /**
   * fsType is filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty). More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#partition DataK8SPostgresqlCnpgIoPoolerV1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#partition DataK8SPostgresqlCnpgIoPoolerV1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * pdName is unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#pd_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#pd_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -19735,19 +19735,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesG
   /**
   * directory is the target directory name. Must not contain or start with '..'. If '.' is supplied, the volume directory will be the git repository. Otherwise, if specified, the volume will contain the git repository in the subdirectory with the given name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#directory DataK8SPostgresqlCnpgIoPoolerV1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#directory DataK8SPostgresqlCnpgIoPoolerV1Manifest#directory}
   */
   readonly directory?: string;
   /**
   * repository is the URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#repository DataK8SPostgresqlCnpgIoPoolerV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#repository DataK8SPostgresqlCnpgIoPoolerV1Manifest#repository}
   */
   readonly repository: string;
   /**
   * revision is the commit hash for the specified revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#revision DataK8SPostgresqlCnpgIoPoolerV1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#revision DataK8SPostgresqlCnpgIoPoolerV1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -19898,19 +19898,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesG
   /**
   * endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#endpoints DataK8SPostgresqlCnpgIoPoolerV1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#endpoints DataK8SPostgresqlCnpgIoPoolerV1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * path is the Glusterfs volume path. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -20058,13 +20058,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesH
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -20186,13 +20186,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesI
   /**
   * Policy for pulling OCI objects. Possible values are: Always: the kubelet always attempts to pull the reference. Container creation will fail If the pull fails. Never: the kubelet never pulls the reference and only uses a local image or artifact. Container creation will fail if the reference isn't present. IfNotPresent: the kubelet pulls if the reference isn't already present on disk. Container creation will fail if the reference isn't present and the pull fails. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#pull_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#pull_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * Required: Image or artifact reference to be used. Behaves in the same way as pod.spec.containers[*].image. Pull secrets will be assembled in the same way as for the container image by looking up node credentials, SA image pull secrets, and pod spec image pull secrets. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#reference DataK8SPostgresqlCnpgIoPoolerV1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#reference DataK8SPostgresqlCnpgIoPoolerV1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -20317,7 +20317,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesI
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -20413,67 +20413,67 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesI
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#chap_auth_discovery DataK8SPostgresqlCnpgIoPoolerV1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#chap_auth_discovery DataK8SPostgresqlCnpgIoPoolerV1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#chap_auth_session DataK8SPostgresqlCnpgIoPoolerV1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#chap_auth_session DataK8SPostgresqlCnpgIoPoolerV1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#initiator_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#initiator_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is the target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#iqn DataK8SPostgresqlCnpgIoPoolerV1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#iqn DataK8SPostgresqlCnpgIoPoolerV1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#iscsi_interface DataK8SPostgresqlCnpgIoPoolerV1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#iscsi_interface DataK8SPostgresqlCnpgIoPoolerV1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun represents iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#lun DataK8SPostgresqlCnpgIoPoolerV1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#lun DataK8SPostgresqlCnpgIoPoolerV1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#portals DataK8SPostgresqlCnpgIoPoolerV1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#portals DataK8SPostgresqlCnpgIoPoolerV1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is the CHAP Secret for iSCSI target and initiator authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#target_portal DataK8SPostgresqlCnpgIoPoolerV1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#target_portal DataK8SPostgresqlCnpgIoPoolerV1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -20850,19 +20850,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesN
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#server DataK8SPostgresqlCnpgIoPoolerV1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#server DataK8SPostgresqlCnpgIoPoolerV1Manifest#server}
   */
   readonly server: string;
 }
@@ -21010,13 +21010,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#claim_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#claim_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -21138,13 +21138,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#pd_id DataK8SPostgresqlCnpgIoPoolerV1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#pd_id DataK8SPostgresqlCnpgIoPoolerV1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -21266,19 +21266,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_id DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_id DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -21429,19 +21429,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#operator DataK8SPostgresqlCnpgIoPoolerV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#operator DataK8SPostgresqlCnpgIoPoolerV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#values DataK8SPostgresqlCnpgIoPoolerV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#values DataK8SPostgresqlCnpgIoPoolerV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21611,13 +21611,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_labels DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#match_labels DataK8SPostgresqlCnpgIoPoolerV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21742,31 +21742,31 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * Select all ClusterTrustBundles that match this label selector. Only has effect if signerName is set. Mutually-exclusive with name. If unset, interpreted as 'match nothing'. If set but empty, interpreted as 'match everything'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#label_selector DataK8SPostgresqlCnpgIoPoolerV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#label_selector DataK8SPostgresqlCnpgIoPoolerV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjectedSourcesClusterTrustBundleLabelSelector;
   /**
   * Select a single ClusterTrustBundle by object name. Mutually-exclusive with signerName and labelSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
   /**
   * If true, don't block pod startup if the referenced ClusterTrustBundle(s) aren't available. If using name, then the named ClusterTrustBundle is allowed not to exist. If using signerName, then the combination of signerName and labelSelector is allowed to match zero ClusterTrustBundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * Relative path from the volume root to write the bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path: string;
   /**
   * Select all ClusterTrustBundles that match this signer name. Mutually-exclusive with name. The contents of all selected ClusterTrustBundles will be unified and deduplicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#signer_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#signer_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -21975,19 +21975,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path: string;
 }
@@ -22157,19 +22157,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#items DataK8SPostgresqlCnpgIoPoolerV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#items DataK8SPostgresqlCnpgIoPoolerV1Manifest#items}
   */
   readonly items?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22323,13 +22323,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#api_version DataK8SPostgresqlCnpgIoPoolerV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#api_version DataK8SPostgresqlCnpgIoPoolerV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#field_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#field_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -22451,19 +22451,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#container_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#container_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#divisor DataK8SPostgresqlCnpgIoPoolerV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#divisor DataK8SPostgresqlCnpgIoPoolerV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -22614,25 +22614,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#field_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#field_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_field_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_field_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -22834,7 +22834,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#items DataK8SPostgresqlCnpgIoPoolerV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#items DataK8SPostgresqlCnpgIoPoolerV1Manifest#items}
   */
   readonly items?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -22930,19 +22930,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path: string;
 }
@@ -23112,19 +23112,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#items DataK8SPostgresqlCnpgIoPoolerV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#items DataK8SPostgresqlCnpgIoPoolerV1Manifest#items}
   */
   readonly items?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23278,19 +23278,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#audience DataK8SPostgresqlCnpgIoPoolerV1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#audience DataK8SPostgresqlCnpgIoPoolerV1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#expiration_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#expiration_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path: string;
 }
@@ -23441,31 +23441,31 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * ClusterTrustBundle allows a pod to access the '.spec.trustBundle' field of ClusterTrustBundle objects in an auto-updating file. Alpha, gated by the ClusterTrustBundleProjection feature gate. ClusterTrustBundle objects can either be selected by name, or by the combination of signer name and a label selector. Kubelet performs aggressive normalization of the PEM contents written into the pod filesystem. Esoteric PEM features such as inter-block comments and block headers are stripped. Certificates are deduplicated. The ordering of certificates within the file is arbitrary, and Kubelet may change the order over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#cluster_trust_bundle DataK8SPostgresqlCnpgIoPoolerV1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#cluster_trust_bundle DataK8SPostgresqlCnpgIoPoolerV1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjectedSourcesClusterTrustBundle;
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#config_map DataK8SPostgresqlCnpgIoPoolerV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#config_map DataK8SPostgresqlCnpgIoPoolerV1Manifest#config_map}
   */
   readonly configMap?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#downward_api DataK8SPostgresqlCnpgIoPoolerV1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#downward_api DataK8SPostgresqlCnpgIoPoolerV1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret}
   */
   readonly secret?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service_account_token DataK8SPostgresqlCnpgIoPoolerV1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service_account_token DataK8SPostgresqlCnpgIoPoolerV1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjectedSourcesServiceAccountToken;
 }
@@ -23699,13 +23699,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesP
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#default_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#default_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections. Each entry in this list handles one source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sources DataK8SPostgresqlCnpgIoPoolerV1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#sources DataK8SPostgresqlCnpgIoPoolerV1Manifest#sources}
   */
   readonly sources?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -23830,37 +23830,37 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesQ
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#group DataK8SPostgresqlCnpgIoPoolerV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#group DataK8SPostgresqlCnpgIoPoolerV1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#registry DataK8SPostgresqlCnpgIoPoolerV1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#registry DataK8SPostgresqlCnpgIoPoolerV1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tenant DataK8SPostgresqlCnpgIoPoolerV1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tenant DataK8SPostgresqlCnpgIoPoolerV1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#user DataK8SPostgresqlCnpgIoPoolerV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#user DataK8SPostgresqlCnpgIoPoolerV1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -24095,7 +24095,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesR
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -24191,49 +24191,49 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesR
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image DataK8SPostgresqlCnpgIoPoolerV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image DataK8SPostgresqlCnpgIoPoolerV1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#keyring DataK8SPostgresqlCnpgIoPoolerV1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#keyring DataK8SPostgresqlCnpgIoPoolerV1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#monitors DataK8SPostgresqlCnpgIoPoolerV1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#monitors DataK8SPostgresqlCnpgIoPoolerV1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#pool DataK8SPostgresqlCnpgIoPoolerV1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#pool DataK8SPostgresqlCnpgIoPoolerV1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#user DataK8SPostgresqlCnpgIoPoolerV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#user DataK8SPostgresqlCnpgIoPoolerV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -24526,7 +24526,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesS
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -24622,61 +24622,61 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesS
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#gateway DataK8SPostgresqlCnpgIoPoolerV1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#gateway DataK8SPostgresqlCnpgIoPoolerV1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#protection_domain DataK8SPostgresqlCnpgIoPoolerV1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#protection_domain DataK8SPostgresqlCnpgIoPoolerV1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#ssl_enabled DataK8SPostgresqlCnpgIoPoolerV1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#ssl_enabled DataK8SPostgresqlCnpgIoPoolerV1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#storage_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#storage_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#storage_pool DataK8SPostgresqlCnpgIoPoolerV1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#storage_pool DataK8SPostgresqlCnpgIoPoolerV1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#system DataK8SPostgresqlCnpgIoPoolerV1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#system DataK8SPostgresqlCnpgIoPoolerV1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -25024,19 +25024,19 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesS
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#key DataK8SPostgresqlCnpgIoPoolerV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#path DataK8SPostgresqlCnpgIoPoolerV1Manifest#path}
   */
   readonly path: string;
 }
@@ -25206,25 +25206,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesS
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#default_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#default_mode DataK8SPostgresqlCnpgIoPoolerV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#items DataK8SPostgresqlCnpgIoPoolerV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#items DataK8SPostgresqlCnpgIoPoolerV1Manifest#items}
   */
   readonly items?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#optional DataK8SPostgresqlCnpgIoPoolerV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -25407,7 +25407,7 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesS
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -25503,31 +25503,31 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesS
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#read_only DataK8SPostgresqlCnpgIoPoolerV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret_ref DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_namespace DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_namespace DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -25739,25 +25739,25 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesV
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fs_type DataK8SPostgresqlCnpgIoPoolerV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#storage_policy_id DataK8SPostgresqlCnpgIoPoolerV1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#storage_policy_id DataK8SPostgresqlCnpgIoPoolerV1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#storage_policy_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#storage_policy_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volume_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -25937,187 +25937,187 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumes 
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#aws_elastic_block_store DataK8SPostgresqlCnpgIoPoolerV1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#aws_elastic_block_store DataK8SPostgresqlCnpgIoPoolerV1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#azure_disk DataK8SPostgresqlCnpgIoPoolerV1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#azure_disk DataK8SPostgresqlCnpgIoPoolerV1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#azure_file DataK8SPostgresqlCnpgIoPoolerV1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#azure_file DataK8SPostgresqlCnpgIoPoolerV1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#cephfs DataK8SPostgresqlCnpgIoPoolerV1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#cephfs DataK8SPostgresqlCnpgIoPoolerV1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#cinder DataK8SPostgresqlCnpgIoPoolerV1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#cinder DataK8SPostgresqlCnpgIoPoolerV1Manifest#cinder}
   */
   readonly cinder?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#config_map DataK8SPostgresqlCnpgIoPoolerV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#config_map DataK8SPostgresqlCnpgIoPoolerV1Manifest#config_map}
   */
   readonly configMap?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#csi DataK8SPostgresqlCnpgIoPoolerV1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#csi DataK8SPostgresqlCnpgIoPoolerV1Manifest#csi}
   */
   readonly csi?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#downward_api DataK8SPostgresqlCnpgIoPoolerV1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#downward_api DataK8SPostgresqlCnpgIoPoolerV1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#empty_dir DataK8SPostgresqlCnpgIoPoolerV1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#empty_dir DataK8SPostgresqlCnpgIoPoolerV1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#ephemeral DataK8SPostgresqlCnpgIoPoolerV1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#ephemeral DataK8SPostgresqlCnpgIoPoolerV1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fc DataK8SPostgresqlCnpgIoPoolerV1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#fc DataK8SPostgresqlCnpgIoPoolerV1Manifest#fc}
   */
   readonly fc?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#flex_volume DataK8SPostgresqlCnpgIoPoolerV1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#flex_volume DataK8SPostgresqlCnpgIoPoolerV1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#flocker DataK8SPostgresqlCnpgIoPoolerV1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#flocker DataK8SPostgresqlCnpgIoPoolerV1Manifest#flocker}
   */
   readonly flocker?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#gce_persistent_disk DataK8SPostgresqlCnpgIoPoolerV1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#gce_persistent_disk DataK8SPostgresqlCnpgIoPoolerV1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#git_repo DataK8SPostgresqlCnpgIoPoolerV1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#git_repo DataK8SPostgresqlCnpgIoPoolerV1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#glusterfs DataK8SPostgresqlCnpgIoPoolerV1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#glusterfs DataK8SPostgresqlCnpgIoPoolerV1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_path DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_path}
   */
   readonly hostPath?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesHostPath;
   /**
   * image represents an OCI object (a container image or artifact) pulled and mounted on the kubelet's host machine. The volume is resolved at pod startup depending on which PullPolicy value is provided: - Always: the kubelet always attempts to pull the reference. Container creation will fail If the pull fails. - Never: the kubelet never pulls the reference and only uses a local image or artifact. Container creation will fail if the reference isn't present. - IfNotPresent: the kubelet pulls if the reference isn't already present on disk. Container creation will fail if the reference isn't present and the pull fails. The volume gets re-resolved if the pod gets deleted and recreated, which means that new remote content will become available on pod recreation. A failure to resolve or pull the image during pod startup will block containers from starting and may add significant latency. Failures will be retried using normal volume backoff and will be reported on the pod reason and message. The types of objects that may be mounted by this volume are defined by the container runtime implementation on a host machine and at minimum must include all valid types supported by the container image field. The OCI object gets mounted in a single directory (spec.containers[*].volumeMounts.mountPath) by merging the manifest layers in the same way as for container images. The volume will be mounted read-only (ro) and non-executable files (noexec). Sub path mounts for containers are not supported (spec.containers[*].volumeMounts.subpath). The field spec.securityContext.fsGroupChangePolicy has no effect on this volume type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image DataK8SPostgresqlCnpgIoPoolerV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image DataK8SPostgresqlCnpgIoPoolerV1Manifest#image}
   */
   readonly image?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesImage;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#iscsi DataK8SPostgresqlCnpgIoPoolerV1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#iscsi DataK8SPostgresqlCnpgIoPoolerV1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#name DataK8SPostgresqlCnpgIoPoolerV1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#nfs DataK8SPostgresqlCnpgIoPoolerV1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#nfs DataK8SPostgresqlCnpgIoPoolerV1Manifest#nfs}
   */
   readonly nfs?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#persistent_volume_claim DataK8SPostgresqlCnpgIoPoolerV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#persistent_volume_claim DataK8SPostgresqlCnpgIoPoolerV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#photon_persistent_disk DataK8SPostgresqlCnpgIoPoolerV1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#photon_persistent_disk DataK8SPostgresqlCnpgIoPoolerV1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#portworx_volume DataK8SPostgresqlCnpgIoPoolerV1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#portworx_volume DataK8SPostgresqlCnpgIoPoolerV1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#projected DataK8SPostgresqlCnpgIoPoolerV1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#projected DataK8SPostgresqlCnpgIoPoolerV1Manifest#projected}
   */
   readonly projected?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#quobyte DataK8SPostgresqlCnpgIoPoolerV1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#quobyte DataK8SPostgresqlCnpgIoPoolerV1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#rbd DataK8SPostgresqlCnpgIoPoolerV1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#rbd DataK8SPostgresqlCnpgIoPoolerV1Manifest#rbd}
   */
   readonly rbd?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scale_io DataK8SPostgresqlCnpgIoPoolerV1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scale_io DataK8SPostgresqlCnpgIoPoolerV1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#secret DataK8SPostgresqlCnpgIoPoolerV1Manifest#secret}
   */
   readonly secret?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#storageos DataK8SPostgresqlCnpgIoPoolerV1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#storageos DataK8SPostgresqlCnpgIoPoolerV1Manifest#storageos}
   */
   readonly storageos?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#vsphere_volume DataK8SPostgresqlCnpgIoPoolerV1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#vsphere_volume DataK8SPostgresqlCnpgIoPoolerV1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumesVsphereVolume;
 }
@@ -27102,235 +27102,235 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpec {
   /**
   * Optional duration in seconds the pod may be active on the node relative to StartTime before the system will actively try to mark it failed and kill associated containers. Value must be a positive integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#active_deadline_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#active_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#active_deadline_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#active_deadline_seconds}
   */
   readonly activeDeadlineSeconds?: number;
   /**
   * If specified, the pod's scheduling constraints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#affinity DataK8SPostgresqlCnpgIoPoolerV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#affinity DataK8SPostgresqlCnpgIoPoolerV1Manifest#affinity}
   */
   readonly affinity?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecAffinity;
   /**
   * AutomountServiceAccountToken indicates whether a service account token should be automatically mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#automount_service_account_token DataK8SPostgresqlCnpgIoPoolerV1Manifest#automount_service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#automount_service_account_token DataK8SPostgresqlCnpgIoPoolerV1Manifest#automount_service_account_token}
   */
   readonly automountServiceAccountToken?: boolean | cdktf.IResolvable;
   /**
   * List of containers belonging to the pod. Containers cannot currently be added or removed. There must be at least one container in a Pod. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#containers DataK8SPostgresqlCnpgIoPoolerV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#containers DataK8SPostgresqlCnpgIoPoolerV1Manifest#containers}
   */
   readonly containers: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * Specifies the DNS parameters of a pod. Parameters specified here will be merged to the generated DNS configuration based on DNSPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#dns_config DataK8SPostgresqlCnpgIoPoolerV1Manifest#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#dns_config DataK8SPostgresqlCnpgIoPoolerV1Manifest#dns_config}
   */
   readonly dnsConfig?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecDnsConfig;
   /**
   * Set DNS policy for the pod. Defaults to 'ClusterFirst'. Valid values are 'ClusterFirstWithHostNet', 'ClusterFirst', 'Default' or 'None'. DNS parameters given in DNSConfig will be merged with the policy selected with DNSPolicy. To have DNS options set along with hostNetwork, you have to specify DNS policy explicitly to 'ClusterFirstWithHostNet'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#dns_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#dns_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#dns_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#dns_policy}
   */
   readonly dnsPolicy?: string;
   /**
   * EnableServiceLinks indicates whether information about services should be injected into pod's environment variables, matching the syntax of Docker links. Optional: Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#enable_service_links DataK8SPostgresqlCnpgIoPoolerV1Manifest#enable_service_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#enable_service_links DataK8SPostgresqlCnpgIoPoolerV1Manifest#enable_service_links}
   */
   readonly enableServiceLinks?: boolean | cdktf.IResolvable;
   /**
   * List of ephemeral containers run in this pod. Ephemeral containers may be run in an existing pod to perform user-initiated actions such as debugging. This list cannot be specified when creating a pod, and it cannot be modified by updating the pod spec. In order to add an ephemeral container to an existing pod, use the pod's ephemeralcontainers subresource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#ephemeral_containers DataK8SPostgresqlCnpgIoPoolerV1Manifest#ephemeral_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#ephemeral_containers DataK8SPostgresqlCnpgIoPoolerV1Manifest#ephemeral_containers}
   */
   readonly ephemeralContainers?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecEphemeralContainers[] | cdktf.IResolvable;
   /**
   * HostAliases is an optional list of hosts and IPs that will be injected into the pod's hosts file if specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_aliases DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_aliases DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_aliases}
   */
   readonly hostAliases?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecHostAliases[] | cdktf.IResolvable;
   /**
   * Use the host's ipc namespace. Optional: Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_ipc DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_ipc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_ipc DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_ipc}
   */
   readonly hostIpc?: boolean | cdktf.IResolvable;
   /**
   * Host networking requested for this pod. Use the host's network namespace. If this option is set, the ports that will be used must be specified. Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_network DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_network DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_network}
   */
   readonly hostNetwork?: boolean | cdktf.IResolvable;
   /**
   * Use the host's pid namespace. Optional: Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_pid DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_pid DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_pid}
   */
   readonly hostPid?: boolean | cdktf.IResolvable;
   /**
   * Use the host's user namespace. Optional: Default to true. If set to true or not present, the pod will be run in the host user namespace, useful for when the pod needs a feature only available to the host user namespace, such as loading a kernel module with CAP_SYS_MODULE. When set to false, a new userns is created for the pod. Setting false is useful for mitigating container breakout vulnerabilities even allowing users to run their containers as root without actually having root privileges on the host. This field is alpha-level and is only honored by servers that enable the UserNamespacesSupport feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_users DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#host_users DataK8SPostgresqlCnpgIoPoolerV1Manifest#host_users}
   */
   readonly hostUsers?: boolean | cdktf.IResolvable;
   /**
   * Specifies the hostname of the Pod If not specified, the pod's hostname will be set to a system-defined value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#hostname DataK8SPostgresqlCnpgIoPoolerV1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#hostname DataK8SPostgresqlCnpgIoPoolerV1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec. If specified, these secrets will be passed to individual puller implementations for them to use. More info: https://kubernetes.io/docs/concepts/containers/images#specifying-imagepullsecrets-on-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image_pull_secrets DataK8SPostgresqlCnpgIoPoolerV1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#image_pull_secrets DataK8SPostgresqlCnpgIoPoolerV1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * List of initialization containers belonging to the pod. Init containers are executed in order prior to containers being started. If any init container fails, the pod is considered to have failed and is handled according to its restartPolicy. The name for an init container or normal container must be unique among all containers. Init containers may not have Lifecycle actions, Readiness probes, Liveness probes, or Startup probes. The resourceRequirements of an init container are taken into account during scheduling by finding the highest request/limit for each resource type, and then using the max of of that value or the sum of the normal containers. Limits are applied to init containers in a similar fashion. Init containers cannot currently be added or removed. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/init-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#init_containers DataK8SPostgresqlCnpgIoPoolerV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#init_containers DataK8SPostgresqlCnpgIoPoolerV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
   /**
   * NodeName indicates in which node this pod is scheduled. If empty, this pod is a candidate for scheduling by the scheduler defined in schedulerName. Once this field is set, the kubelet for this node becomes responsible for the lifecycle of this pod. This field should not be used to express a desire for the pod to be scheduled on a specific node. https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#node_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#node_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#node_selector DataK8SPostgresqlCnpgIoPoolerV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#node_selector DataK8SPostgresqlCnpgIoPoolerV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Specifies the OS of the containers in the pod. Some pod and container fields are restricted if this is set. If the OS field is set to linux, the following fields must be unset: -securityContext.windowsOptions If the OS field is set to windows, following fields must be unset: - spec.hostPID - spec.hostIPC - spec.hostUsers - spec.securityContext.appArmorProfile - spec.securityContext.seLinuxOptions - spec.securityContext.seccompProfile - spec.securityContext.fsGroup - spec.securityContext.fsGroupChangePolicy - spec.securityContext.sysctls - spec.shareProcessNamespace - spec.securityContext.runAsUser - spec.securityContext.runAsGroup - spec.securityContext.supplementalGroups - spec.securityContext.supplementalGroupsPolicy - spec.containers[*].securityContext.appArmorProfile - spec.containers[*].securityContext.seLinuxOptions - spec.containers[*].securityContext.seccompProfile - spec.containers[*].securityContext.capabilities - spec.containers[*].securityContext.readOnlyRootFilesystem - spec.containers[*].securityContext.privileged - spec.containers[*].securityContext.allowPrivilegeEscalation - spec.containers[*].securityContext.procMount - spec.containers[*].securityContext.runAsUser - spec.containers[*].securityContext.runAsGroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#os DataK8SPostgresqlCnpgIoPoolerV1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#os DataK8SPostgresqlCnpgIoPoolerV1Manifest#os}
   */
   readonly os?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecOs;
   /**
   * Overhead represents the resource overhead associated with running a pod for a given RuntimeClass. This field will be autopopulated at admission time by the RuntimeClass admission controller. If the RuntimeClass admission controller is enabled, overhead must not be set in Pod create requests. The RuntimeClass admission controller will reject Pod create requests which have the overhead already set. If RuntimeClass is configured and selected in the PodSpec, Overhead will be set to the value defined in the corresponding RuntimeClass, otherwise it will remain unset and treated as zero. More info: https://git.k8s.io/enhancements/keps/sig-node/688-pod-overhead/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#overhead DataK8SPostgresqlCnpgIoPoolerV1Manifest#overhead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#overhead DataK8SPostgresqlCnpgIoPoolerV1Manifest#overhead}
   */
   readonly overhead?: { [key: string]: string };
   /**
   * PreemptionPolicy is the Policy for preempting pods with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#preemption_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#preemption_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#preemption_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#preemption_policy}
   */
   readonly preemptionPolicy?: string;
   /**
   * The priority value. Various system components use this field to find the priority of the pod. When Priority Admission Controller is enabled, it prevents users from setting this field. The admission controller populates this field from PriorityClassName. The higher the value, the higher the priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#priority DataK8SPostgresqlCnpgIoPoolerV1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#priority DataK8SPostgresqlCnpgIoPoolerV1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * If specified, indicates the pod's priority. 'system-node-critical' and 'system-cluster-critical' are two special keywords which indicate the highest priorities with the former being the highest priority. Any other name must be defined by creating a PriorityClass object with that name. If not specified, the pod priority will be default or zero if there is no default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#priority_class_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#priority_class_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * If specified, all readiness gates will be evaluated for pod readiness. A pod is ready when all its containers are ready AND all conditions specified in the readiness gates have status equal to 'True' More info: https://git.k8s.io/enhancements/keps/sig-network/580-pod-readiness-gates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#readiness_gates DataK8SPostgresqlCnpgIoPoolerV1Manifest#readiness_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#readiness_gates DataK8SPostgresqlCnpgIoPoolerV1Manifest#readiness_gates}
   */
   readonly readinessGates?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecReadinessGates[] | cdktf.IResolvable;
   /**
   * ResourceClaims defines which ResourceClaims must be allocated and reserved before the Pod is allowed to start. The resources will be made available to those containers which consume them by name. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_claims DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#resource_claims DataK8SPostgresqlCnpgIoPoolerV1Manifest#resource_claims}
   */
   readonly resourceClaims?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecResourceClaims[] | cdktf.IResolvable;
   /**
   * Restart policy for all containers within the pod. One of Always, OnFailure, Never. In some contexts, only a subset of those values may be permitted. Default to Always. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#restart_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#restart_policy DataK8SPostgresqlCnpgIoPoolerV1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * RuntimeClassName refers to a RuntimeClass object in the node.k8s.io group, which should be used to run this pod. If no RuntimeClass resource matches the named class, the pod will not be run. If unset or empty, the 'legacy' RuntimeClass will be used, which is an implicit class with an empty definition that uses the default runtime handler. More info: https://git.k8s.io/enhancements/keps/sig-node/585-runtime-class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#runtime_class_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#runtime_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#runtime_class_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#runtime_class_name}
   */
   readonly runtimeClassName?: string;
   /**
   * If specified, the pod will be dispatched by specified scheduler. If not specified, the pod will be dispatched by default scheduler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheduler_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheduler_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
   * SchedulingGates is an opaque list of values that if specified will block scheduling the pod. If schedulingGates is not empty, the pod will stay in the SchedulingGated state and the scheduler will not attempt to schedule the pod. SchedulingGates can only be set at pod creation time, and be removed only afterwards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheduling_gates DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheduling_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#scheduling_gates DataK8SPostgresqlCnpgIoPoolerV1Manifest#scheduling_gates}
   */
   readonly schedulingGates?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecSchedulingGates[] | cdktf.IResolvable;
   /**
   * SecurityContext holds pod-level security attributes and common container settings. Optional: Defaults to empty. See type description for default values of each field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#security_context DataK8SPostgresqlCnpgIoPoolerV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#security_context DataK8SPostgresqlCnpgIoPoolerV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecSecurityContext;
   /**
   * DeprecatedServiceAccount is a deprecated alias for ServiceAccountName. Deprecated: Use serviceAccountName instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service_account DataK8SPostgresqlCnpgIoPoolerV1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service_account DataK8SPostgresqlCnpgIoPoolerV1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * ServiceAccountName is the name of the ServiceAccount to use to run this pod. More info: https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service_account_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service_account_name DataK8SPostgresqlCnpgIoPoolerV1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * If true the pod's hostname will be configured as the pod's FQDN, rather than the leaf name (the default). In Linux containers, this means setting the FQDN in the hostname field of the kernel (the nodename field of struct utsname). In Windows containers, this means setting the registry value of hostname for the registry key HKEY_LOCAL_MACHINESYSTEMCurrentControlSetServicesTcpipParameters to FQDN. If a pod does not have FQDN, this has no effect. Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#set_hostname_as_fqdn DataK8SPostgresqlCnpgIoPoolerV1Manifest#set_hostname_as_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#set_hostname_as_fqdn DataK8SPostgresqlCnpgIoPoolerV1Manifest#set_hostname_as_fqdn}
   */
   readonly setHostnameAsFqdn?: boolean | cdktf.IResolvable;
   /**
   * Share a single process namespace between all of the containers in a pod. When this is set containers will be able to view and signal processes from other containers in the same pod, and the first process in each container will not be assigned PID 1. HostPID and ShareProcessNamespace cannot both be set. Optional: Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#share_process_namespace DataK8SPostgresqlCnpgIoPoolerV1Manifest#share_process_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#share_process_namespace DataK8SPostgresqlCnpgIoPoolerV1Manifest#share_process_namespace}
   */
   readonly shareProcessNamespace?: boolean | cdktf.IResolvable;
   /**
   * If specified, the fully qualified Pod hostname will be '<hostname>.<subdomain>.<pod namespace>.svc.<cluster domain>'. If not specified, the pod will not have a domainname at all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#subdomain DataK8SPostgresqlCnpgIoPoolerV1Manifest#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#subdomain DataK8SPostgresqlCnpgIoPoolerV1Manifest#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully. May be decreased in delete request. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). If this value is nil, the default grace period will be used instead. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. Defaults to 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_grace_period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#termination_grace_period_seconds DataK8SPostgresqlCnpgIoPoolerV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tolerations DataK8SPostgresqlCnpgIoPoolerV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#tolerations DataK8SPostgresqlCnpgIoPoolerV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecTolerations[] | cdktf.IResolvable;
   /**
   * TopologySpreadConstraints describes how a group of pods ought to spread across topology domains. Scheduler will schedule pods in a way which abides by the constraints. All topologySpreadConstraints are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#topology_spread_constraints DataK8SPostgresqlCnpgIoPoolerV1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#topology_spread_constraints DataK8SPostgresqlCnpgIoPoolerV1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
   * List of volumes that can be mounted by containers belonging to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volumes DataK8SPostgresqlCnpgIoPoolerV1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#volumes DataK8SPostgresqlCnpgIoPoolerV1Manifest#volumes}
   */
   readonly volumes?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpecVolumes[] | cdktf.IResolvable;
 }
@@ -28525,13 +28525,13 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplate {
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#metadata DataK8SPostgresqlCnpgIoPoolerV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#metadata DataK8SPostgresqlCnpgIoPoolerV1Manifest#metadata}
   */
   readonly metadata?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateMetadata;
   /**
   * Specification of the desired behavior of the pod. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#spec DataK8SPostgresqlCnpgIoPoolerV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#spec DataK8SPostgresqlCnpgIoPoolerV1Manifest#spec}
   */
   readonly spec?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplateSpec;
 }
@@ -28656,49 +28656,49 @@ export interface DataK8SPostgresqlCnpgIoPoolerV1ManifestSpec {
   /**
   * This is the cluster reference on which the Pooler will work. Pooler name should never match with any cluster name within the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#cluster DataK8SPostgresqlCnpgIoPoolerV1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#cluster DataK8SPostgresqlCnpgIoPoolerV1Manifest#cluster}
   */
   readonly cluster: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecCluster;
   /**
   * The deployment strategy to use for pgbouncer to replace existing pods with new ones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#deployment_strategy DataK8SPostgresqlCnpgIoPoolerV1Manifest#deployment_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#deployment_strategy DataK8SPostgresqlCnpgIoPoolerV1Manifest#deployment_strategy}
   */
   readonly deploymentStrategy?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecDeploymentStrategy;
   /**
   * The number of replicas we want. Default: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#instances DataK8SPostgresqlCnpgIoPoolerV1Manifest#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#instances DataK8SPostgresqlCnpgIoPoolerV1Manifest#instances}
   */
   readonly instances?: number;
   /**
   * The configuration of the monitoring infrastructure of this pooler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#monitoring DataK8SPostgresqlCnpgIoPoolerV1Manifest#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#monitoring DataK8SPostgresqlCnpgIoPoolerV1Manifest#monitoring}
   */
   readonly monitoring?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecMonitoring;
   /**
   * The PgBouncer configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#pgbouncer DataK8SPostgresqlCnpgIoPoolerV1Manifest#pgbouncer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#pgbouncer DataK8SPostgresqlCnpgIoPoolerV1Manifest#pgbouncer}
   */
   readonly pgbouncer: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecPgbouncer;
   /**
   * Template for the Service to be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service_template DataK8SPostgresqlCnpgIoPoolerV1Manifest#service_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#service_template DataK8SPostgresqlCnpgIoPoolerV1Manifest#service_template}
   */
   readonly serviceTemplate?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecServiceTemplate;
   /**
   * The template of the Pod to be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#template DataK8SPostgresqlCnpgIoPoolerV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#template DataK8SPostgresqlCnpgIoPoolerV1Manifest#template}
   */
   readonly template?: DataK8SPostgresqlCnpgIoPoolerV1ManifestSpecTemplate;
   /**
   * Type of service to forward traffic to. Default: 'rw'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/postgresql_cnpg_io_pooler_v1_manifest#type DataK8SPostgresqlCnpgIoPoolerV1Manifest#type}
   */
   readonly type?: string;
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,40 +10,40 @@ export interface DataInstaclustrKafkaClusterUsersV2Config extends cdktf.Terrafor
   /**
   * ID of the kafka cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2#cluster_id DataInstaclustrKafkaClusterUsersV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2#cluster_id DataInstaclustrKafkaClusterUsersV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2#id DataInstaclustrKafkaClusterUsersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2#id DataInstaclustrKafkaClusterUsersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2#kafka_cluster_id DataInstaclustrKafkaClusterUsersV2#kafka_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2#kafka_cluster_id DataInstaclustrKafkaClusterUsersV2#kafka_cluster_id}
   */
   readonly kafkaClusterId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2#filter DataInstaclustrKafkaClusterUsersV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2#filter DataInstaclustrKafkaClusterUsersV2#filter}
   */
   readonly filter?: DataInstaclustrKafkaClusterUsersV2Filter[] | cdktf.IResolvable;
   /**
   * kafka_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2#kafka_users DataInstaclustrKafkaClusterUsersV2#kafka_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2#kafka_users DataInstaclustrKafkaClusterUsersV2#kafka_users}
   */
   readonly kafkaUsers?: DataInstaclustrKafkaClusterUsersV2KafkaUsers[] | cdktf.IResolvable;
 }
 export interface DataInstaclustrKafkaClusterUsersV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2#name DataInstaclustrKafkaClusterUsersV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2#name DataInstaclustrKafkaClusterUsersV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2#values DataInstaclustrKafkaClusterUsersV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2#values DataInstaclustrKafkaClusterUsersV2#values}
   */
   readonly values: string[];
 }
@@ -184,19 +184,19 @@ export interface DataInstaclustrKafkaClusterUsersV2KafkaUsers {
   /**
   * Authentication mechanisms supported for KafkaClusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2#auth_mechanism DataInstaclustrKafkaClusterUsersV2#auth_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2#auth_mechanism DataInstaclustrKafkaClusterUsersV2#auth_mechanism}
   */
   readonly authMechanism?: string;
   /**
   * ID of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2#cluster_id DataInstaclustrKafkaClusterUsersV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2#cluster_id DataInstaclustrKafkaClusterUsersV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Instaclustr identifier for the Kafka user. The value of this property has the form: [cluster-id]_[kafka-username]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2#id DataInstaclustrKafkaClusterUsersV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2#id DataInstaclustrKafkaClusterUsersV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,7 +205,7 @@ export interface DataInstaclustrKafkaClusterUsersV2KafkaUsers {
   /**
   * Username of the Kafka user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2#username DataInstaclustrKafkaClusterUsersV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2#username DataInstaclustrKafkaClusterUsersV2#username}
   */
   readonly username?: string;
 }
@@ -408,7 +408,7 @@ export class DataInstaclustrKafkaClusterUsersV2KafkaUsersList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2 instaclustr_kafka_cluster_users_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2 instaclustr_kafka_cluster_users_v2}
 */
 export class DataInstaclustrKafkaClusterUsersV2 extends cdktf.TerraformDataSource {
 
@@ -424,7 +424,7 @@ export class DataInstaclustrKafkaClusterUsersV2 extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataInstaclustrKafkaClusterUsersV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrKafkaClusterUsersV2 to import
-  * @param importFromId The id of the existing DataInstaclustrKafkaClusterUsersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrKafkaClusterUsersV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrKafkaClusterUsersV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -436,7 +436,7 @@ export class DataInstaclustrKafkaClusterUsersV2 extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_cluster_users_v2 instaclustr_kafka_cluster_users_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_cluster_users_v2 instaclustr_kafka_cluster_users_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -447,8 +447,8 @@ export class DataInstaclustrKafkaClusterUsersV2 extends cdktf.TerraformDataSourc
       terraformResourceType: 'instaclustr_kafka_cluster_users_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.26',
-        providerVersionConstraint: '2.1.26'
+        providerVersion: '2.1.28',
+        providerVersionConstraint: '2.1.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifes
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#metadata DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#metadata DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2ManifestMetadata;
   /**
   * IBMPowerVSImageSpec defines the desired state of IBMPowerVSImage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#spec DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#spec DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifes
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#annotations DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#annotations DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#labels DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#labels DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#namespace DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#namespace DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifes
   /**
   * ID of resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -228,13 +228,13 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifes
   /**
   * Name of resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Regular expression to match resource, In case of multiple resources matches the provided regular expression the first matched resource will be selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#regex DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#regex DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -388,49 +388,49 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifes
   /**
   * Cloud Object Storage bucket name; bucket-name[/optional/folder]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#bucket DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#bucket DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#bucket}
   */
   readonly bucket: string;
   /**
   * ClusterName is the name of the Cluster this object belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#cluster_name DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#cluster_name DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#cluster_name}
   */
   readonly clusterName: string;
   /**
   * DeletePolicy defines the policy used to identify images to be preserved beyond the lifecycle of associated cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#delete_policy DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#delete_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#delete_policy DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#delete_policy}
   */
   readonly deletePolicy?: string;
   /**
   * Cloud Object Storage image filename.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#object DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#object DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#object}
   */
   readonly object: string;
   /**
   * Cloud Object Storage region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#region DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#region DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#region}
   */
   readonly region: string;
   /**
   * serviceInstance is the reference to the Power VS workspace on which the server instance(VM) will be created. Power VS workspace is a container for all Power VS instances at a specific geographic region. serviceInstance can be created via IBM Cloud catalog or CLI. supported serviceInstance identifier in PowerVSResource are Name and ID and that can be obtained from IBM Cloud UI or IBM Cloud cli. More detail about Power VS service instance. https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-creating-power-virtual-server when omitted system will dynamically create the service instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#service_instance DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#service_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#service_instance DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#service_instance}
   */
   readonly serviceInstance?: DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2ManifestSpecServiceInstance;
   /**
   * ServiceInstanceID is the id of the power cloud instance where the image will get imported. Deprecated: use ServiceInstance instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#service_instance_id DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#service_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#service_instance_id DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#service_instance_id}
   */
   readonly serviceInstanceId: string;
   /**
   * Type of storage, storage pool with the most available space will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#storage_type DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#storage_type DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest#storage_type}
   */
   readonly storageType?: string;
 }
@@ -712,7 +712,7 @@ export class DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2ManifestSpe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest k8s_infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest k8s_infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest}
 */
 export class DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -728,7 +728,7 @@ export class DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest ex
   * Generates CDKTF code for importing a DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -740,7 +740,7 @@ export class DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest ex
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest k8s_infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest k8s_infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -751,8 +751,8 @@ export class DataK8SInfrastructureClusterXK8SIoIbmPowerVsImageV1Beta2Manifest ex
       terraformResourceType: 'k8s_infrastructure_cluster_x_k8s_io_ibm_power_vs_image_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

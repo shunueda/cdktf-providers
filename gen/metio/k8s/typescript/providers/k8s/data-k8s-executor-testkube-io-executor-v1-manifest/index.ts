@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SExecutorTestkubeIoExecutorV1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#metadata DataK8SExecutorTestkubeIoExecutorV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#metadata DataK8SExecutorTestkubeIoExecutorV1Manifest#metadata}
   */
   readonly metadata: DataK8SExecutorTestkubeIoExecutorV1ManifestMetadata;
   /**
   * ExecutorSpec defines the desired state of Executor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#spec DataK8SExecutorTestkubeIoExecutorV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#spec DataK8SExecutorTestkubeIoExecutorV1Manifest#spec}
   */
   readonly spec?: DataK8SExecutorTestkubeIoExecutorV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SExecutorTestkubeIoExecutorV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#annotations DataK8SExecutorTestkubeIoExecutorV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#annotations DataK8SExecutorTestkubeIoExecutorV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#labels DataK8SExecutorTestkubeIoExecutorV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#labels DataK8SExecutorTestkubeIoExecutorV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#name DataK8SExecutorTestkubeIoExecutorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#name DataK8SExecutorTestkubeIoExecutorV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#namespace DataK8SExecutorTestkubeIoExecutorV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#namespace DataK8SExecutorTestkubeIoExecutorV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SExecutorTestkubeIoExecutorV1ManifestSpecImagePullSecrets
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#name DataK8SExecutorTestkubeIoExecutorV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#name DataK8SExecutorTestkubeIoExecutorV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -337,19 +337,19 @@ export interface DataK8SExecutorTestkubeIoExecutorV1ManifestSpecMeta {
   /**
   * URI for executor docs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#docs_uri DataK8SExecutorTestkubeIoExecutorV1Manifest#docs_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#docs_uri DataK8SExecutorTestkubeIoExecutorV1Manifest#docs_uri}
   */
   readonly docsUri?: string;
   /**
   * URI for executor icon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#icon_uri DataK8SExecutorTestkubeIoExecutorV1Manifest#icon_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#icon_uri DataK8SExecutorTestkubeIoExecutorV1Manifest#icon_uri}
   */
   readonly iconUri?: string;
   /**
   * executor tooltips
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#tooltips DataK8SExecutorTestkubeIoExecutorV1Manifest#tooltips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#tooltips DataK8SExecutorTestkubeIoExecutorV1Manifest#tooltips}
   */
   readonly tooltips?: { [key: string]: string };
 }
@@ -501,7 +501,7 @@ export class DataK8SExecutorTestkubeIoExecutorV1ManifestSpecMetaOutputReference 
 }
 export interface DataK8SExecutorTestkubeIoExecutorV1ManifestSpecSlaves {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#image DataK8SExecutorTestkubeIoExecutorV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#image DataK8SExecutorTestkubeIoExecutorV1Manifest#image}
   */
   readonly image: string;
 }
@@ -594,85 +594,85 @@ export interface DataK8SExecutorTestkubeIoExecutorV1ManifestSpec {
   /**
   * executor binary arguments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#args DataK8SExecutorTestkubeIoExecutorV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#args DataK8SExecutorTestkubeIoExecutorV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * executor default binary command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#command DataK8SExecutorTestkubeIoExecutorV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#command DataK8SExecutorTestkubeIoExecutorV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * ContentTypes list of handled content types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#content_types DataK8SExecutorTestkubeIoExecutorV1Manifest#content_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#content_types DataK8SExecutorTestkubeIoExecutorV1Manifest#content_types}
   */
   readonly contentTypes?: string[];
   /**
   * ExecutorType one of 'rest' for rest openapi based executors or 'job' which will be default runners for testkube or 'container' for container executors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#executor_type DataK8SExecutorTestkubeIoExecutorV1Manifest#executor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#executor_type DataK8SExecutorTestkubeIoExecutorV1Manifest#executor_type}
   */
   readonly executorType?: string;
   /**
   * Features list of possible features which executor handles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#features DataK8SExecutorTestkubeIoExecutorV1Manifest#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#features DataK8SExecutorTestkubeIoExecutorV1Manifest#features}
   */
   readonly features?: string[];
   /**
   * Image for kube-job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#image DataK8SExecutorTestkubeIoExecutorV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#image DataK8SExecutorTestkubeIoExecutorV1Manifest#image}
   */
   readonly image?: string;
   /**
   * container executor default image pull secrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#image_pull_secrets DataK8SExecutorTestkubeIoExecutorV1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#image_pull_secrets DataK8SExecutorTestkubeIoExecutorV1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SExecutorTestkubeIoExecutorV1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Job template to launch executor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#job_template DataK8SExecutorTestkubeIoExecutorV1Manifest#job_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#job_template DataK8SExecutorTestkubeIoExecutorV1Manifest#job_template}
   */
   readonly jobTemplate?: string;
   /**
   * name of the template resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#job_template_reference DataK8SExecutorTestkubeIoExecutorV1Manifest#job_template_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#job_template_reference DataK8SExecutorTestkubeIoExecutorV1Manifest#job_template_reference}
   */
   readonly jobTemplateReference?: string;
   /**
   * Meta data about executor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#meta DataK8SExecutorTestkubeIoExecutorV1Manifest#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#meta DataK8SExecutorTestkubeIoExecutorV1Manifest#meta}
   */
   readonly meta?: DataK8SExecutorTestkubeIoExecutorV1ManifestSpecMeta;
   /**
   * Slaves data to run test in distributed environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#slaves DataK8SExecutorTestkubeIoExecutorV1Manifest#slaves}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#slaves DataK8SExecutorTestkubeIoExecutorV1Manifest#slaves}
   */
   readonly slaves?: DataK8SExecutorTestkubeIoExecutorV1ManifestSpecSlaves;
   /**
   * Types defines what types can be handled by executor e.g. 'postman/collection', ':curl/command' etc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#types DataK8SExecutorTestkubeIoExecutorV1Manifest#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#types DataK8SExecutorTestkubeIoExecutorV1Manifest#types}
   */
   readonly types?: string[];
   /**
   * URI for rest based executors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#uri DataK8SExecutorTestkubeIoExecutorV1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#uri DataK8SExecutorTestkubeIoExecutorV1Manifest#uri}
   */
   readonly uri?: string;
   /**
   * use data dir as working dir for executor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#use_data_dir_as_working_dir DataK8SExecutorTestkubeIoExecutorV1Manifest#use_data_dir_as_working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#use_data_dir_as_working_dir DataK8SExecutorTestkubeIoExecutorV1Manifest#use_data_dir_as_working_dir}
   */
   readonly useDataDirAsWorkingDir?: boolean | cdktf.IResolvable;
 }
@@ -1143,7 +1143,7 @@ export class DataK8SExecutorTestkubeIoExecutorV1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest k8s_executor_testkube_io_executor_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest k8s_executor_testkube_io_executor_v1_manifest}
 */
 export class DataK8SExecutorTestkubeIoExecutorV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1159,7 +1159,7 @@ export class DataK8SExecutorTestkubeIoExecutorV1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SExecutorTestkubeIoExecutorV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SExecutorTestkubeIoExecutorV1Manifest to import
-  * @param importFromId The id of the existing DataK8SExecutorTestkubeIoExecutorV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SExecutorTestkubeIoExecutorV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SExecutorTestkubeIoExecutorV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1171,7 +1171,7 @@ export class DataK8SExecutorTestkubeIoExecutorV1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/executor_testkube_io_executor_v1_manifest k8s_executor_testkube_io_executor_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/executor_testkube_io_executor_v1_manifest k8s_executor_testkube_io_executor_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1182,8 +1182,8 @@ export class DataK8SExecutorTestkubeIoExecutorV1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_executor_testkube_io_executor_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#metadata DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#metadata DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#metadata}
   */
   readonly metadata: DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1ManifestMetadata;
   /**
   * SriovOperatorConfigSpec defines the desired state of SriovOperatorConfig
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#spec DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#spec DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#spec}
   */
   readonly spec?: DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#annotations DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#annotations DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#labels DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#labels DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#name DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#name DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#namespace DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#namespace DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,61 +219,61 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1ManifestSpec
   /**
   * NodeSelector selects the nodes to be configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#config_daemon_node_selector DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#config_daemon_node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#config_daemon_node_selector DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#config_daemon_node_selector}
   */
   readonly configDaemonNodeSelector?: { [key: string]: string };
   /**
   * Flag to enable the sriov-network-config-daemon to use a systemd service to configure SR-IOV devices on boot Default mode: daemon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#configuration_mode DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#configuration_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#configuration_mode DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#configuration_mode}
   */
   readonly configurationMode?: string;
   /**
   * Flag to disable nodes drain during debugging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#disable_drain DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#disable_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#disable_drain DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#disable_drain}
   */
   readonly disableDrain?: boolean | cdktf.IResolvable;
   /**
   * DisablePlugins is a list of sriov-network-config-daemon plugins to disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#disable_plugins DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#disable_plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#disable_plugins DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#disable_plugins}
   */
   readonly disablePlugins?: string[];
   /**
   * Flag to control whether the network resource injector webhook shall be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#enable_injector DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#enable_injector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#enable_injector DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#enable_injector}
   */
   readonly enableInjector?: boolean | cdktf.IResolvable;
   /**
   * Flag to control whether the operator admission controller webhook shall be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#enable_operator_webhook DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#enable_operator_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#enable_operator_webhook DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#enable_operator_webhook}
   */
   readonly enableOperatorWebhook?: boolean | cdktf.IResolvable;
   /**
   * Flag to enable OVS hardware offload. Set to 'true' to provision switchdev-configuration.service and enable OpenvSwitch hw-offload on nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#enable_ovs_offload DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#enable_ovs_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#enable_ovs_offload DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#enable_ovs_offload}
   */
   readonly enableOvsOffload?: boolean | cdktf.IResolvable;
   /**
   * FeatureGates to enable experimental features
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#feature_gates DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#feature_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#feature_gates DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#feature_gates}
   */
   readonly featureGates?: { [key: string]: string };
   /**
   * Flag to control the log verbose level of the operator. Set to '0' to show only the basic logs. And set to '2' to show all the available logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#log_level DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#log_level DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#log_level}
   */
   readonly logLevel?: number;
   /**
   * Flag to enable Container Device Interface mode for SR-IOV Network Device Plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#use_cdi DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#use_cdi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#use_cdi DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest#use_cdi}
   */
   readonly useCdi?: boolean | cdktf.IResolvable;
 }
@@ -628,7 +628,7 @@ export class DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest k8s_sriovnetwork_openshift_io_sriov_operator_config_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest k8s_sriovnetwork_openshift_io_sriov_operator_config_v1_manifest}
 */
 export class DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest extends cdktf.TerraformDataSource {
 
@@ -644,7 +644,7 @@ export class DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest extends
   * Generates CDKTF code for importing a DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest to import
-  * @param importFromId The id of the existing DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -656,7 +656,7 @@ export class DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest k8s_sriovnetwork_openshift_io_sriov_operator_config_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sriovnetwork_openshift_io_sriov_operator_config_v1_manifest k8s_sriovnetwork_openshift_io_sriov_operator_config_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -667,8 +667,8 @@ export class DataK8SSriovnetworkOpenshiftIoSriovOperatorConfigV1Manifest extends
       terraformResourceType: 'k8s_sriovnetwork_openshift_io_sriov_operator_config_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

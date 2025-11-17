@@ -15,19 +15,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#metadata DataK8SCouchbaseComCouchbaseClusterV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#metadata DataK8SCouchbaseComCouchbaseClusterV2Manifest#metadata}
   */
   readonly metadata: DataK8SCouchbaseComCouchbaseClusterV2ManifestMetadata;
   /**
   * ClusterSpec is the specification for a CouchbaseCluster resources, and allows the cluster to be customized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#spec}
   */
   readonly spec: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpec;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest k8s_couchbase_com_couchbase_cluster_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest k8s_couchbase_com_couchbase_cluster_v2_manifest}
 */
 export class DataK8SCouchbaseComCouchbaseClusterV2Manifest extends cdktf.TerraformDataSource {
 
@@ -43,7 +43,7 @@ export class DataK8SCouchbaseComCouchbaseClusterV2Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SCouchbaseComCouchbaseClusterV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCouchbaseComCouchbaseClusterV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseClusterV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseClusterV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCouchbaseComCouchbaseClusterV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -55,7 +55,7 @@ export class DataK8SCouchbaseComCouchbaseClusterV2Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest k8s_couchbase_com_couchbase_cluster_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest k8s_couchbase_com_couchbase_cluster_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,8 +66,8 @@ export class DataK8SCouchbaseComCouchbaseClusterV2Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_couchbase_com_couchbase_cluster_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

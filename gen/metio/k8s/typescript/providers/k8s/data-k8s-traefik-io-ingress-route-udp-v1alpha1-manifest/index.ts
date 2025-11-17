@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STraefikIoIngressRouteUdpV1Alpha1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#metadata DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#metadata DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STraefikIoIngressRouteUdpV1Alpha1ManifestMetadata;
   /**
   * IngressRouteUDPSpec defines the desired state of a IngressRouteUDP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#spec DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#spec DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8STraefikIoIngressRouteUdpV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STraefikIoIngressRouteUdpV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#annotations DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#annotations DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#labels DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#labels DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#name DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#name DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,37 +219,37 @@ export interface DataK8STraefikIoIngressRouteUdpV1Alpha1ManifestSpecRoutesServic
   /**
   * Name defines the name of the referenced Kubernetes Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#name DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#name DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace defines the namespace of the referenced Kubernetes Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#namespace DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * NativeLB controls, when creating the load-balancer, whether the LB's children are directly the pods IPs or if the only child is the Kubernetes Service clusterIP. The Kubernetes Service itself does load-balance to the pods. By default, NativeLB is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#native_lb DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#native_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#native_lb DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#native_lb}
   */
   readonly nativeLb?: boolean | cdktf.IResolvable;
   /**
   * NodePortLB controls, when creating the load-balancer, whether the LB's children are directly the nodes internal IPs using the nodePort when the service type is NodePort. It allows services to be reachable when Traefik runs externally from the Kubernetes cluster but within the same network of the nodes. By default, NodePortLB is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#node_port_lb DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#node_port_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#node_port_lb DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#node_port_lb}
   */
   readonly nodePortLb?: boolean | cdktf.IResolvable;
   /**
   * Port defines the port of a Kubernetes Service. This can be a reference to a named port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#port DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#port DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Weight defines the weight used when balancing requests between multiple Kubernetes Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#weight DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#weight DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -506,7 +506,7 @@ export interface DataK8STraefikIoIngressRouteUdpV1Alpha1ManifestSpecRoutes {
   /**
   * Services defines the list of UDP services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#services DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#services DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#services}
   */
   readonly services?: DataK8STraefikIoIngressRouteUdpV1Alpha1ManifestSpecRoutesServices[] | cdktf.IResolvable;
 }
@@ -624,13 +624,13 @@ export interface DataK8STraefikIoIngressRouteUdpV1Alpha1ManifestSpec {
   /**
   * EntryPoints defines the list of entry point names to bind to. Entry points have to be configured in the static configuration. More info: https://doc.traefik.io/traefik/v3.2/routing/entrypoints/ Default: all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#entry_points DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#entry_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#entry_points DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#entry_points}
   */
   readonly entryPoints?: string[];
   /**
   * Routes defines the list of routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#routes DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#routes DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest#routes}
   */
   readonly routes: DataK8STraefikIoIngressRouteUdpV1Alpha1ManifestSpecRoutes[] | cdktf.IResolvable;
 }
@@ -750,7 +750,7 @@ export class DataK8STraefikIoIngressRouteUdpV1Alpha1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest k8s_traefik_io_ingress_route_udp_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest k8s_traefik_io_ingress_route_udp_v1alpha1_manifest}
 */
 export class DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -766,7 +766,7 @@ export class DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -778,7 +778,7 @@ export class DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest k8s_traefik_io_ingress_route_udp_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/traefik_io_ingress_route_udp_v1alpha1_manifest k8s_traefik_io_ingress_route_udp_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -789,8 +789,8 @@ export class DataK8STraefikIoIngressRouteUdpV1Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_traefik_io_ingress_route_udp_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -25,7 +25,7 @@ dataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecPersistentVolumeClaimToHcl
 DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecPersistentVolumeClaimOutputReference } from './structs400'
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecPreferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#home_dashboard_uid DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#home_dashboard_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#home_dashboard_uid DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#home_dashboard_uid}
   */
   readonly homeDashboardUid?: string;
 }
@@ -119,11 +119,11 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecPreferencesOu
 }
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -248,19 +248,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteSpec
   /**
   * The kind of target that the route is referring to. Currently, only 'Service' is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#kind DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#kind DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name of the service/target that is being referred to. e.g. name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * weight as an integer between 0 and 256, default 100, that specifies the target's relative weight against other target reference objects. 0 suppresses requests to this backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#weight DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#weight DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -427,7 +427,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteSpec
   /**
   * The target port on pods selected by the service this route points to. If this is a string, it will be looked up as a named port in the target endpoints port list. Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#target_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#target_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#target_port}
   */
   readonly targetPort: string;
 }
@@ -520,37 +520,37 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteSpec
   /**
   * caCertificate provides the cert authority certificate contents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ca_certificate DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ca_certificate DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * certificate provides certificate contents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#certificate DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#certificate DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#certificate}
   */
   readonly certificate?: string;
   /**
   * destinationCACertificate provides the contents of the ca certificate of the final destination. When using reencrypt termination this file should be provided in order to have routers use it for health checks on the secure connection. If this field is not specified, the router may provide its own destination CA and perform hostname validation using the short service name (service.namespace.svc), which allows infrastructure generated certificates to automatically verify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#destination_ca_certificate DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#destination_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#destination_ca_certificate DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#destination_ca_certificate}
   */
   readonly destinationCaCertificate?: string;
   /**
   * insecureEdgeTerminationPolicy indicates the desired behavior for insecure connections to a route. While each router may make its own decisions on which ports to expose, this is normally port 80. * Allow - traffic is sent to the server on the insecure port (default) * Disable - no traffic is allowed on the insecure port. * Redirect - clients are redirected to the secure port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#insecure_edge_termination_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#insecure_edge_termination_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#insecure_edge_termination_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#insecure_edge_termination_policy}
   */
   readonly insecureEdgeTerminationPolicy?: string;
   /**
   * key provides key file contents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#key DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * termination indicates termination type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#termination DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#termination}
   */
   readonly termination: string;
 }
@@ -788,19 +788,19 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteSpec
   /**
   * The kind of target that the route is referring to. Currently, only 'Service' is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#kind DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#kind DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name of the service/target that is being referred to. e.g. name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * weight as an integer between 0 and 256, default 100, that specifies the target's relative weight against other target reference objects. 0 suppresses requests to this backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#weight DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#weight DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -943,39 +943,39 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteSpecToOu
 }
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#alternate_backends DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#alternate_backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#alternate_backends DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#alternate_backends}
   */
   readonly alternateBackends?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteSpecAlternateBackends[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#host DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
   * RoutePort defines a port mapping from a router to an endpoint in the service endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteSpecPort;
   /**
   * TLSConfig defines config used to secure a route and provide termination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tls DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#tls DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteSpecTls;
   /**
   * RouteTargetReference specifies the target that resolve into endpoints. Only the 'Service' kind is allowed. Use 'weight' field to emphasize one over others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#to DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#to DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#to}
   */
   readonly to?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteSpecTo;
   /**
   * WildcardPolicyType indicates the type of wildcard support needed by routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#wildcard_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#wildcard_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#wildcard_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#wildcard_policy}
   */
   readonly wildcardPolicy?: string;
 }
@@ -1245,11 +1245,11 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRoute {
   /**
   * ObjectMeta contains only a [subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#objectmeta-v1-meta).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#metadata DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#metadata DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#spec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#spec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteSpec;
 }
@@ -1372,11 +1372,11 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRouteOutputRe
 }
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -1501,37 +1501,37 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceSp
   /**
   * The application protocol for this port. This is used as a hint for implementations to offer richer behavior for protocols that they understand. This field follows standard Kubernetes label syntax. Valid values are either: * Un-prefixed protocol names - reserved for IANA standard service names (as per RFC-6335 and https://www.iana.org/assignments/service-names). * Kubernetes-defined prefixed names: * 'kubernetes.io/h2c' - HTTP/2 prior knowledge over cleartext as described in https://www.rfc-editor.org/rfc/rfc9113.html#name-starting-http-2-with-prior- * 'kubernetes.io/ws' - WebSocket over cleartext as described in https://www.rfc-editor.org/rfc/rfc6455 * 'kubernetes.io/wss' - WebSocket over TLS as described in https://www.rfc-editor.org/rfc/rfc6455 * Other protocols should use implementation-defined prefixed names such as mycompany.com/my-custom-protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#app_protocol DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#app_protocol DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
   * The name of this port within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. When considering the endpoints for a Service, this must match the 'name' field in the EndpointPort. Optional if only one ServicePort is defined on this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * The port on each node on which this service is exposed when type is NodePort or LoadBalancer. Usually assigned by the system. If a value is specified, in-range, and not in use it will be used, otherwise the operation will fail. If not specified, a port will be allocated if this Service requires one. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type from NodePort to ClusterIP). More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#node_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#node_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
   * The port that will be exposed by this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * The IP protocol for this port. Supports 'TCP', 'UDP', and 'SCTP'. Default is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#protocol DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#protocol DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Number or name of the port to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named port in the target Pod's container ports. If this is not specified, the value of the 'port' field is used (an identity map). This field is ignored for services with clusterIP=None, and should be omitted or set equal to the 'port' field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#target_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#target_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#target_port}
   */
   readonly targetPort?: string;
 }
@@ -1791,7 +1791,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceSp
   /**
   * timeoutSeconds specifies the seconds of ClientIP type session sticky time. The value must be >0 && <=86400(for 1 day) if ServiceAffinity == 'ClientIP'. Default value is 10800(for 3 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#timeout_seconds DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -1887,7 +1887,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceSp
   /**
   * clientIP contains the configurations of Client IP based session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#client_ip DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#client_ip DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#client_ip}
   */
   readonly clientIp?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceSpecSessionAffinityConfigClientIp;
 }
@@ -1983,121 +1983,121 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceSp
   /**
   * allocateLoadBalancerNodePorts defines if NodePorts will be automatically allocated for services with type LoadBalancer. Default is 'true'. It may be set to 'false' if the cluster load-balancer does not rely on NodePorts. If the caller requests specific NodePorts (by specifying a value), those requests will be respected, regardless of this field. This field may only be set for services with type LoadBalancer and will be cleared if the type is changed to any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#allocate_load_balancer_node_ports DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#allocate_load_balancer_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#allocate_load_balancer_node_ports DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#allocate_load_balancer_node_ports}
   */
   readonly allocateLoadBalancerNodePorts?: boolean | cdktf.IResolvable;
   /**
   * ClusterIPs is a list of IP addresses assigned to this service, and are usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be empty) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. If this field is not specified, it will be initialized from the clusterIP field. If this field is specified, clients must ensure that clusterIPs[0] and clusterIP have the same value. This field may hold a maximum of two entries (dual-stack IPs, in either order). These IPs must correspond to the values of the ipFamilies field. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#cluster_i_ps DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#cluster_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#cluster_i_ps DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#cluster_i_ps}
   */
   readonly clusterIPs?: string[];
   /**
   * clusterIP is the IP address of the service and is usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be blank) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#cluster_ip DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#cluster_ip DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#cluster_ip}
   */
   readonly clusterIp?: string;
   /**
   * externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service. These IPs are not managed by Kubernetes. The user is responsible for ensuring that traffic arrives at a node with this IP. A common example is external load-balancers that are not part of the Kubernetes system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#external_i_ps DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#external_i_ps DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#external_i_ps}
   */
   readonly externalIPs?: string[];
   /**
   * externalName is the external reference that discovery mechanisms will return as an alias for this service (e.g. a DNS CNAME record). No proxying will be involved. Must be a lowercase RFC-1123 hostname (https://tools.ietf.org/html/rfc1123) and requires 'type' to be 'ExternalName'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#external_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#external_name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#external_name}
   */
   readonly externalName?: string;
   /**
   * externalTrafficPolicy describes how nodes distribute service traffic they receive on one of the Service's 'externally-facing' addresses (NodePorts, ExternalIPs, and LoadBalancer IPs). If set to 'Local', the proxy will configure the service in a way that assumes that external load balancers will take care of balancing the service traffic between nodes, and so each node will deliver traffic only to the node-local endpoints of the service, without masquerading the client source IP. (Traffic mistakenly sent to a node with no endpoints will be dropped.) The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features). Note that traffic sent to an External IP or LoadBalancer IP from within the cluster will always get 'Cluster' semantics, but clients sending to a NodePort from within the cluster may need to take traffic policy into account when picking a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#external_traffic_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#external_traffic_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * healthCheckNodePort specifies the healthcheck nodePort for the service. This only applies when type is set to LoadBalancer and externalTrafficPolicy is set to Local. If a value is specified, is in-range, and is not in use, it will be used. If not specified, a value will be automatically allocated. External systems (e.g. load-balancers) can use this port to determine if a given node holds endpoints for this service or not. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type). This field cannot be updated once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#health_check_node_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#health_check_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#health_check_node_port DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#health_check_node_port}
   */
   readonly healthCheckNodePort?: number;
   /**
   * InternalTrafficPolicy describes how nodes distribute service traffic they receive on the ClusterIP. If set to 'Local', the proxy will assume that pods only want to talk to endpoints of the service on the same node as the pod, dropping the traffic if there are no local endpoints. The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#internal_traffic_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#internal_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#internal_traffic_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#internal_traffic_policy}
   */
   readonly internalTrafficPolicy?: string;
   /**
   * IPFamilies is a list of IP families (e.g. IPv4, IPv6) assigned to this service. This field is usually assigned automatically based on cluster configuration and the ipFamilyPolicy field. If this field is specified manually, the requested family is available in the cluster, and ipFamilyPolicy allows it, it will be used; otherwise creation of the service will fail. This field is conditionally mutable: it allows for adding or removing a secondary IP family, but it does not allow changing the primary IP family of the Service. Valid values are 'IPv4' and 'IPv6'. This field only applies to Services of types ClusterIP, NodePort, and LoadBalancer, and does apply to 'headless' services. This field will be wiped when updating a Service to type ExternalName. This field may hold a maximum of two entries (dual-stack families, in either order). These families must correspond to the values of the clusterIPs field, if specified. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ip_families DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ip_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ip_families DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ip_families}
   */
   readonly ipFamilies?: string[];
   /**
   * IPFamilyPolicy represents the dual-stack-ness requested or required by this Service. If there is no value provided, then this field will be set to SingleStack. Services can be 'SingleStack' (a single IP family), 'PreferDualStack' (two IP families on dual-stack configured clusters or a single IP family on single-stack clusters), or 'RequireDualStack' (two IP families on dual-stack configured clusters, otherwise fail). The ipFamilies and clusterIPs fields depend on the value of this field. This field will be wiped when updating a service to type ExternalName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ip_family_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ip_family_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ip_family_policy DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ip_family_policy}
   */
   readonly ipFamilyPolicy?: string;
   /**
   * loadBalancerClass is the class of the load balancer implementation this Service belongs to. If specified, the value of this field must be a label-style identifier, with an optional prefix, e.g. 'internal-vip' or 'example.com/internal-vip'. Unprefixed names are reserved for end-users. This field can only be set when the Service type is 'LoadBalancer'. If not set, the default load balancer implementation is used, today this is typically done through the cloud provider integration, but should apply for any default implementation. If set, it is assumed that a load balancer implementation is watching for Services with a matching class. Any default load balancer implementation (e.g. cloud providers) should ignore Services that set this field. This field can only be set when creating or updating a Service to type 'LoadBalancer'. Once set, it can not be changed. This field will be wiped when a service is updated to a non 'LoadBalancer' type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#load_balancer_class DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#load_balancer_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#load_balancer_class DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#load_balancer_class}
   */
   readonly loadBalancerClass?: string;
   /**
   * Only applies to Service Type: LoadBalancer. This feature depends on whether the underlying cloud-provider supports specifying the loadBalancerIP when a load balancer is created. This field will be ignored if the cloud-provider does not support the feature. Deprecated: This field was under-specified and its meaning varies across implementations. Using it is non-portable and it may not support dual-stack. Users are encouraged to use implementation-specific annotations when available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#load_balancer_ip DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#load_balancer_ip DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
   * If specified and supported by the platform, this will restrict traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.' More info: https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#load_balancer_source_ranges DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#load_balancer_source_ranges DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
   * The list of ports that are exposed by this service. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ports DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ports DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ports}
   */
   readonly ports?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceSpecPorts[] | cdktf.IResolvable;
   /**
   * publishNotReadyAddresses indicates that any agent which deals with endpoints for this Service should disregard any indications of ready/not-ready. The primary use case for setting this field is for a StatefulSet's Headless Service to propagate SRV DNS records for its Pods for the purpose of peer discovery. The Kubernetes controllers that generate Endpoints and EndpointSlice resources for Services interpret this to mean that all endpoints are considered 'ready' even if the Pods themselves are not. Agents which consume only Kubernetes generated endpoints through the Endpoints or EndpointSlice resources can safely assume this behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#publish_not_ready_addresses DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#publish_not_ready_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#publish_not_ready_addresses DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#publish_not_ready_addresses}
   */
   readonly publishNotReadyAddresses?: boolean | cdktf.IResolvable;
   /**
   * Route service traffic to pods with label keys and values matching this selector. If empty or not present, the service is assumed to have an external process managing its endpoints, which Kubernetes will not modify. Only applies to types ClusterIP, NodePort, and LoadBalancer. Ignored if type is ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#selector DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
   * Supports 'ClientIP' and 'None'. Used to maintain session affinity. Enable client IP based session affinity. Must be ClientIP or None. Defaults to None. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#session_affinity DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#session_affinity DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
   * sessionAffinityConfig contains the configurations of session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#session_affinity_config DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#session_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#session_affinity_config DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#session_affinity_config}
   */
   readonly sessionAffinityConfig?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceSpecSessionAffinityConfig;
   /**
   * TrafficDistribution offers a way to express preferences for how traffic is distributed to Service endpoints. Implementations can use this field as a hint, but are not required to guarantee strict adherence. If the field is not set, the implementation will apply its default routing strategy. If set to 'PreferClose', implementations should prioritize endpoints that are topologically close (e.g., same zone). This is an alpha field and requires enabling ServiceTrafficDistribution feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#traffic_distribution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#traffic_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#traffic_distribution DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#traffic_distribution}
   */
   readonly trafficDistribution?: string;
   /**
   * type determines how the Service is exposed. Defaults to ClusterIP. Valid options are ExternalName, ClusterIP, NodePort, and LoadBalancer. 'ClusterIP' allocates a cluster-internal IP address for load-balancing to endpoints. Endpoints are determined by the selector or if that is not specified, by manual construction of an Endpoints object or EndpointSlice objects. If clusterIP is 'None', no virtual IP is allocated and the endpoints are published as a set of endpoints rather than a virtual IP. 'NodePort' builds on ClusterIP and allocates a port on every node which routes to the same endpoints as the clusterIP. 'LoadBalancer' builds on NodePort and creates an external load-balancer (if supported in the current cloud) which routes to the same endpoints as the clusterIP. 'ExternalName' aliases this service to the specified externalName. Several other fields do not apply to ExternalName services. More info: https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#type DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2744,13 +2744,13 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecService {
   /**
   * ObjectMeta contains only a [subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#objectmeta-v1-meta).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#metadata DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#metadata DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceMetadata;
   /**
   * ServiceSpec describes the attributes that a user creates on a service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#spec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#spec DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceSpec;
 }
@@ -2875,7 +2875,7 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceAc
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2991,11 +2991,11 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceAccoun
 }
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceAccountMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#annotations DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#labels DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -3120,43 +3120,43 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceAc
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#api_version DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#api_version DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#field_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#field_path DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#kind DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#kind DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#name DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespace DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#namespace DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource_version DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#resource_version DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#uid DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#uid DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -3446,21 +3446,21 @@ export class DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceAccoun
 }
 export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#automount_service_account_token DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#automount_service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#automount_service_account_token DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#automount_service_account_token}
   */
   readonly automountServiceAccountToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#image_pull_secrets DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#image_pull_secrets DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceAccountImagePullSecrets[] | cdktf.IResolvable;
   /**
   * ObjectMeta contains only a [subset of the fields included in k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#objectmeta-v1-meta).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#metadata DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#metadata DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceAccountMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#secrets DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#secrets DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#secrets}
   */
   readonly secrets?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceAccountSecrets[] | cdktf.IResolvable;
 }
@@ -3643,71 +3643,71 @@ export interface DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpec {
   /**
   * Client defines how the grafana-operator talks to the grafana instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#client DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#client DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#client}
   */
   readonly client?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecClient;
   /**
   * Config defines how your grafana ini file should looks like.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#config DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#config DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * Deployment sets how the deployment object should look like with your grafana instance, contains a number of defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#deployment DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#deployment DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#deployment}
   */
   readonly deployment?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecDeployment;
   /**
   * External enables you to configure external grafana instances that is not managed by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#external DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#external DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#external}
   */
   readonly external?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecExternal;
   /**
   * Ingress sets how the ingress object should look like with your grafana instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ingress DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#ingress DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#ingress}
   */
   readonly ingress?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecIngress;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#jsonnet DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#jsonnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#jsonnet DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#jsonnet}
   */
   readonly jsonnet?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecJsonnet;
   /**
   * PersistentVolumeClaim creates a PVC if you need to attach one to your grafana instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#persistent_volume_claim DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#persistent_volume_claim DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecPersistentVolumeClaim;
   /**
   * Preferences holds the Grafana Preferences settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#preferences DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#preferences DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#preferences}
   */
   readonly preferences?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecPreferences;
   /**
   * Route sets how the ingress object should look like with your grafana instance, this only works in Openshift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#route DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#route DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#route}
   */
   readonly route?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecRoute;
   /**
   * Service sets how the service object should look like with your grafana instance, contains a number of defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service}
   */
   readonly service?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecService;
   /**
   * ServiceAccount sets how the ServiceAccount object should look like with your grafana instance, contains a number of defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service_account DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#service_account DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1ManifestSpecServiceAccount;
   /**
   * Version specifies the version of Grafana to use for this deployment. It follows the same format as the docker.io/grafana/grafana tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#version DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/grafana_integreatly_org_grafana_v1beta1_manifest#version DataK8SGrafanaIntegreatlyOrgGrafanaV1Beta1Manifest#version}
   */
   readonly version?: string;
 }

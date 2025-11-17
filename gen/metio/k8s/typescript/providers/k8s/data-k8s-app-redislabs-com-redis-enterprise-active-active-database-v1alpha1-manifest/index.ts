@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#metadata DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#metadata DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestMetadata;
   /**
   * RedisEnterpriseActiveActiveDatabaseSpec defines the desired state of RedisEnterpriseActiveActiveDatabase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#spec DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#spec DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#annotations DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#annotations DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#labels DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#labels DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#namespace DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#namespace DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * The the corresponding Active-Active database name, Redis Enterprise Active Active Database custom resource name, this Resource is associated with. In case this resource is created manually at the active active database creation this field must be filled via the user, otherwise, the operator will assign this field automatically. Note: this feature is currently unsupported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The corresponding participating cluster name, Redis Enterprise Remote Cluster custom resource name, in the Active-Active database, In case this resource is created manually at the active active database creation this field must be filled via the user, otherwise, the operator will assign this field automatically. Note: this feature is currently unsupported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#participating_cluster_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#participating_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#participating_cluster_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#participating_cluster_name}
   */
   readonly participatingClusterName: string;
 }
@@ -344,13 +344,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -469,13 +469,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -594,13 +594,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -719,13 +719,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -844,13 +844,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -969,13 +969,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -1094,13 +1094,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -1219,13 +1219,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -1344,13 +1344,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -1469,13 +1469,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -1594,13 +1594,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -1719,13 +1719,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -1844,13 +1844,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -1969,13 +1969,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Alert enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Threshold for alert going on/off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#threshold DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#threshold}
   */
   readonly threshold: string;
 }
@@ -2094,85 +2094,85 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Periodic backup has been delayed for longer than specified threshold value [minutes]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_backup_delayed DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_backup_delayed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_backup_delayed DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_backup_delayed}
   */
   readonly bdbBackupDelayed?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbBackupDelayed;
   /**
   * Active-active source - sync lag is higher than specified threshold value [seconds]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_crdt_src_high_syncer_lag DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_crdt_src_high_syncer_lag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_crdt_src_high_syncer_lag DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_crdt_src_high_syncer_lag}
   */
   readonly bdbCrdtSrcHighSyncerLag?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbCrdtSrcHighSyncerLag;
   /**
   * Active-active source - sync has connection error while trying to connect replica source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_crdt_src_syncer_connection_error DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_crdt_src_syncer_connection_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_crdt_src_syncer_connection_error DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_crdt_src_syncer_connection_error}
   */
   readonly bdbCrdtSrcSyncerConnectionError?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbCrdtSrcSyncerConnectionError;
   /**
   * Active-active source - sync encountered in general error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_crdt_src_syncer_general_error DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_crdt_src_syncer_general_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_crdt_src_syncer_general_error DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_crdt_src_syncer_general_error}
   */
   readonly bdbCrdtSrcSyncerGeneralError?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbCrdtSrcSyncerGeneralError;
   /**
   * Latency is higher than specified threshold value [micro-sec]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_high_latency DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_high_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_high_latency DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_high_latency}
   */
   readonly bdbHighLatency?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbHighLatency;
   /**
   * Throughput is higher than specified threshold value [requests / sec.]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_high_throughput DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_high_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_high_throughput DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_high_throughput}
   */
   readonly bdbHighThroughput?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbHighThroughput;
   /**
   * An alert for state-machines that are running for too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_long_running_action DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_long_running_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_long_running_action DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_long_running_action}
   */
   readonly bdbLongRunningAction?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbLongRunningAction;
   /**
   * Throughput is lower than specified threshold value [requests / sec.]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_low_throughput DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_low_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_low_throughput DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_low_throughput}
   */
   readonly bdbLowThroughput?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbLowThroughput;
   /**
   * Dataset RAM overhead of a shard has reached the threshold value [% of its RAM limit]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_ram_dataset_overhead DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_ram_dataset_overhead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_ram_dataset_overhead DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_ram_dataset_overhead}
   */
   readonly bdbRamDatasetOverhead?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbRamDatasetOverhead;
   /**
   * Percent of values kept in a shard's RAM is lower than [% of its key count]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_ram_values DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_ram_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_ram_values DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_ram_values}
   */
   readonly bdbRamValues?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbRamValues;
   /**
   * Replica-of source - sync lag is higher than specified threshold value [seconds]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_replica_src_high_syncer_lag DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_replica_src_high_syncer_lag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_replica_src_high_syncer_lag DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_replica_src_high_syncer_lag}
   */
   readonly bdbReplicaSrcHighSyncerLag?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbReplicaSrcHighSyncerLag;
   /**
   * Replica-of source - sync has connection error while trying to connect replica source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_replica_src_syncer_connection_error DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_replica_src_syncer_connection_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_replica_src_syncer_connection_error DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_replica_src_syncer_connection_error}
   */
   readonly bdbReplicaSrcSyncerConnectionError?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbReplicaSrcSyncerConnectionError;
   /**
   * Number of values kept in a shard's RAM is lower than [values]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_shard_num_ram_values DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_shard_num_ram_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_shard_num_ram_values DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_shard_num_ram_values}
   */
   readonly bdbShardNumRamValues?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbShardNumRamValues;
   /**
   * Dataset size has reached the threshold value [% of the memory limit]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_size DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bdb_size DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bdb_size}
   */
   readonly bdbSize?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettingsBdbSize;
 }
@@ -2645,19 +2645,19 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * The name of the secret that holds ABS credentials. The secret must contain the keys 'AccountName' and 'AccountKey', and these must hold the corresponding credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#abs_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#abs_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#abs_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#abs_secret_name}
   */
   readonly absSecretName: string;
   /**
   * Azure Blob Storage container name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#container DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#container DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#container}
   */
   readonly container: string;
   /**
   * Optional. Azure Blob Storage subdir under container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#subdir DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#subdir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#subdir DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#subdir}
   */
   readonly subdir?: string;
 }
@@ -2805,7 +2805,7 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * a URI of the 'ftps://[USER[:PASSWORD]@]HOST[:PORT]/PATH[/]' format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#url DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#url DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -2898,19 +2898,19 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Google Storage bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bucket_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bucket_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The name of the secret that holds the Google Cloud Storage credentials. The secret must contain the keys 'CLIENT_ID', 'PRIVATE_KEY', 'PRIVATE_KEY_ID', 'CLIENT_EMAIL' and these must hold the corresponding credentials. The keys should correspond to the values in the key JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#gcs_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#gcs_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#gcs_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#gcs_secret_name}
   */
   readonly gcsSecretName: string;
   /**
   * Optional. Google Storage subdir under bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#subdir DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#subdir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#subdir DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#subdir}
   */
   readonly subdir?: string;
 }
@@ -3058,7 +3058,7 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Path to the local mount point. You must create the mount point on all nodes, and the redislabs:redislabs user must have read and write permissions on the local mount point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#path DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#path DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -3151,19 +3151,19 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * The name of the secret that holds the AWS credentials. The secret must contain the keys 'AWS_ACCESS_KEY_ID' and 'AWS_SECRET_ACCESS_KEY', and these must hold the corresponding credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#aws_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#aws_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#aws_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#aws_secret_name}
   */
   readonly awsSecretName: string;
   /**
   * Amazon S3 bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bucket_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#bucket_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Optional. Amazon S3 subdir under bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#subdir DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#subdir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#subdir DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#subdir}
   */
   readonly subdir?: string;
 }
@@ -3311,13 +3311,13 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * The name of the secret that holds SFTP credentials. The secret must contain the 'Key' key, which is the SSH private key for connecting to the sftp server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#sftp_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#sftp_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#sftp_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#sftp_secret_name}
   */
   readonly sftpSecretName: string;
   /**
   * SFTP url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#sftp_url DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#sftp_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#sftp_url DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#sftp_url}
   */
   readonly sftpUrl: string;
 }
@@ -3436,25 +3436,25 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Swift service authentication URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#auth_url DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#auth_url DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#auth_url}
   */
   readonly authUrl: string;
   /**
   * Swift object store container for storing the backup files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#container DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#container DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#container}
   */
   readonly container: string;
   /**
   * Optional. Prefix (path) of backup files in the swift container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#prefix DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#prefix DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The name of the secret that holds Swift credentials. The secret must contain the keys 'Key' and 'User', and these must hold the corresponding credentials: service access key and service user name (pattern for the latter does not allow special characters &,<,>,')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#swift_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#swift_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#swift_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#swift_secret_name}
   */
   readonly swiftSecretName: string;
 }
@@ -3626,41 +3626,41 @@ export class DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Ma
 }
 export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsBackup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#abs DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#abs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#abs DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#abs}
   */
   readonly abs?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsBackupAbs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#ftp DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#ftp DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#ftp}
   */
   readonly ftp?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsBackupFtp;
   /**
   * GoogleStorage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#gcs DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#gcs DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#gcs}
   */
   readonly gcs?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsBackupGcs;
   /**
   * Backup Interval in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#interval DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#interval DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#interval}
   */
   readonly interval?: number;
   /**
   * MountPointStorage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#mount DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#mount DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#mount}
   */
   readonly mount?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsBackupMount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#s3 DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#s3 DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#s3}
   */
   readonly s3?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsBackupS3;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#sftp DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#sftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#sftp DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#sftp}
   */
   readonly sftp?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsBackupSftp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#swift DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#swift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#swift DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#swift}
   */
   readonly swift?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsBackupSwift;
 }
@@ -3959,25 +3959,25 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Module command line arguments e.g. VKEY_MAX_ENTITY_COUNT 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#config DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#config DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#config}
   */
   readonly config?: string;
   /**
   * The module's name e.g 'ft' for redissearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Module's uid - do not set, for system use only nolint:staticcheck // custom json tag unknown to the linter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#uid DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#uid DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
   /**
   * Module's semantic version e.g '1.6.12' - optional only in REDB, must be set in REAADB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#version DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#version DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -4179,7 +4179,7 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * The name of the Redis Enterprise Cluster where the database should be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -4272,37 +4272,37 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Secret that defines the client certificate and key used by the syncer in the target database cluster. The secret must have 2 keys in its map: 'cert' which is the PEM encoded certificate, and 'key' which is the PEM encoded private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#client_key_secret DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#client_key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#client_key_secret DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#client_key_secret}
   */
   readonly clientKeySecret?: string;
   /**
   * GZIP compression level (0-6) to use for replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#compression DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#compression DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#compression}
   */
   readonly compression?: number;
   /**
   * The name of the resource from which the source database URI is derived. The type of resource must match the type specified in the ReplicaSourceType field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#replica_source_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#replica_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#replica_source_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#replica_source_name}
   */
   readonly replicaSourceName: string;
   /**
   * The type of resource from which the source database URI is derived. If set to 'SECRET', the source database URI is derived from the secret named in the ReplicaSourceName field. The secret must have a key named 'uri' that defines the URI of the source database in the form of 'redis://...'. The type of secret (kubernetes, vault, ...) is determined by the secret mechanism used by the underlying REC object. If set to 'REDB', the source database URI is derived from the RedisEnterpriseDatabase resource named in the ReplicaSourceName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#replica_source_type DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#replica_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#replica_source_type DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#replica_source_type}
   */
   readonly replicaSourceType: string;
   /**
   * Secret that defines the server certificate used by the proxy in the source database cluster. The secret must have 1 key in its map: 'cert' which is the PEM encoded certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#server_cert_secret DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#server_cert_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#server_cert_secret DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#server_cert_secret}
   */
   readonly serverCertSecret?: string;
   /**
   * TLS SNI name to use for the replication link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#tls_sni_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#tls_sni_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#tls_sni_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#tls_sni_name}
   */
   readonly tlsSniName?: string;
 }
@@ -4559,19 +4559,19 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Acl Name of RolePermissionType (note: use exact name of the ACL from the Redis Enterprise ACL list, case sensitive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#acl DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#acl DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#acl}
   */
   readonly acl: string;
   /**
   * Role Name of RolePermissionType (note: use exact name of the role from the Redis Enterprise role list, case sensitive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#role DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#role DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#role}
   */
   readonly role: string;
   /**
   * Type of Redis Enterprise Database Role Permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#type DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#type DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -4738,7 +4738,7 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Upgrades the modules to the latest version that supportes the DB version during a DB upgrade action, to upgrade the DB version view the 'redisVersion' field. Note - This field is currently not supported for Active-Active databases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#upgrade_modules_to_latest DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#upgrade_modules_to_latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#upgrade_modules_to_latest DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#upgrade_modules_to_latest}
   */
   readonly upgradeModulesToLatest: boolean | cdktf.IResolvable;
 }
@@ -4831,181 +4831,181 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * Connection/ association to the Active-Active database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#active_active DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#active_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#active_active DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#active_active}
   */
   readonly activeActive?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsActiveActive;
   /**
   * Settings for database alerts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#alert_settings DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#alert_settings DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#alert_settings}
   */
   readonly alertSettings?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsAlertSettings;
   /**
   * Target for automatic database backups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#backup DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#backup DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#backup}
   */
   readonly backup?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsBackup;
   /**
   * The Secrets containing TLS Client Certificate to use for Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#client_authentication_certificates DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#client_authentication_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#client_authentication_certificates DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#client_authentication_certificates}
   */
   readonly clientAuthenticationCertificates?: string[];
   /**
   * Internode encryption (INE) setting. An optional boolean setting, overriding a similar cluster-wide policy. If set to False, INE is guaranteed to be turned off for this DB (regardless of cluster-wide policy). If set to True, INE will be turned on, unless the capability is not supported by the DB ( in such a case we will get an error and database creation will fail). If left unspecified, will be disabled if internode encryption is not supported by the DB (regardless of cluster default). Deleting this property after explicitly setting its value shall have no effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#data_internode_encryption DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#data_internode_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#data_internode_encryption DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#data_internode_encryption}
   */
   readonly dataInternodeEncryption?: boolean | cdktf.IResolvable;
   /**
   * Database port number. TCP port on which the database is available. Will be generated automatically if omitted. can not be changed after creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#database_port DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#database_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#database_port DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#database_port}
   */
   readonly databasePort?: number;
   /**
   * The name of the secret that holds the password to the database (redis databases only). If secret does not exist, it will be created. To define the password, create an opaque secret and set the name in the spec. The password will be taken from the value of the 'password' key. Use an empty string as value within the secret to disable authentication for the database. Notes - For Active-Active databases this secret will not be automatically created, and also, memcached databases must not be set with a value, and a secret/password will not be automatically created for them. Use the memcachedSaslSecretName field to set authentication parameters for memcached databases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#database_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#database_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#database_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#database_secret_name}
   */
   readonly databaseSecretName?: string;
   /**
   * Is connecting with a default user allowed? If disabled, the DatabaseSecret will not be created or updated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#default_user DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#default_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#default_user DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#default_user}
   */
   readonly defaultUser?: boolean | cdktf.IResolvable;
   /**
   * Database eviction policy. see more https://docs.redislabs.com/latest/rs/administering/database-operations/eviction-policy/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#eviction_policy DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#eviction_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#eviction_policy DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#eviction_policy}
   */
   readonly evictionPolicy?: string;
   /**
   * Whether it is an RoF database or not. Applicable only for databases of type 'REDIS'. Assumed to be false if left blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#is_rof DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#is_rof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#is_rof DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#is_rof}
   */
   readonly isRof?: boolean | cdktf.IResolvable;
   /**
   * Credentials used for binary authentication in memcached databases. The credentials should be saved as an opaque secret and the name of that secret should be configured using this field. For username, use 'username' as the key and the actual username as the value. For password, use 'password' as the key and the actual password as the value. Note that connections are not encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#memcached_sasl_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#memcached_sasl_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#memcached_sasl_secret_name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#memcached_sasl_secret_name}
   */
   readonly memcachedSaslSecretName?: string;
   /**
   * memory size of database. use formats like 100MB, 0.1GB. minimum value in 100MB. When redis on flash (RoF) is enabled, this value refers to RAM+Flash memory, and it must not be below 1GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#memory_size DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#memory_size DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#memory_size}
   */
   readonly memorySize?: string;
   /**
   * List of modules associated with database. Note - For Active-Active databases this feature is currently in preview. For this feature to take effect for Active-Active databases, set a boolean environment variable with the name 'ENABLE_ALPHA_FEATURES' to True. This variable can be set via the redis-enterprise-operator pod spec, or through the operator-environment-config Config Map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#modules_list DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#modules_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#modules_list DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#modules_list}
   */
   readonly modulesList?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsModulesListStruct[] | cdktf.IResolvable;
   /**
   * OSS Cluster mode option. Note that not all client libraries support OSS cluster mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#oss_cluster DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#oss_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#oss_cluster DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#oss_cluster}
   */
   readonly ossCluster?: boolean | cdktf.IResolvable;
   /**
   * Database on-disk persistence policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#persistence DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#persistence DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#persistence}
   */
   readonly persistence?: string;
   /**
   * The policy used for proxy binding to the endpoint. Supported proxy policies are: single/all-master-shards/all-nodes When left blank, the default value will be chosen according to the value of ossCluster - single if disabled, all-master-shards when enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#proxy_policy DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#proxy_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#proxy_policy DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#proxy_policy}
   */
   readonly proxyPolicy?: string;
   /**
   * Whether database should be rack aware. This improves availability - more information: https://docs.redislabs.com/latest/rs/concepts/high-availability/rack-zone-awareness/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#rack_aware DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#rack_aware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#rack_aware DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#rack_aware}
   */
   readonly rackAware?: boolean | cdktf.IResolvable;
   /**
   * Connection to Redis Enterprise Cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#redis_enterprise_cluster DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#redis_enterprise_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#redis_enterprise_cluster DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#redis_enterprise_cluster}
   */
   readonly redisEnterpriseCluster?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsRedisEnterpriseCluster;
   /**
   * Redis OSS version. Version can be specified via <major.minor> prefix, or via channels - for existing databases - Upgrade Redis OSS version. For new databases - the version which the database will be created with. If set to 'major' - will always upgrade to the most recent major Redis version. If set to 'latest' - will always upgrade to the most recent Redis version. Depends on 'redisUpgradePolicy' - if you want to set the value to 'latest' for some databases, you must set redisUpgradePolicy on the cluster before. Possible values are 'major' or 'latest' When using upgrade - make sure to backup the database before. This value is used only for database type 'redis'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#redis_version DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#redis_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#redis_version DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#redis_version}
   */
   readonly redisVersion?: string;
   /**
   * What databases to replicate from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#replica_sources DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#replica_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#replica_sources DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#replica_sources}
   */
   readonly replicaSources?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsReplicaSources[] | cdktf.IResolvable;
   /**
   * In-memory database replication. When enabled, database will have replica shard for every master - leading to higher availability. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#replication DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#replication DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#replication}
   */
   readonly replication?: boolean | cdktf.IResolvable;
   /**
   * Whether this database supports RESP3 protocol. Note - Deleting this property after explicitly setting its value shall have no effect. Please view the corresponding field in RS doc for more info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#resp3 DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#resp3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#resp3 DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#resp3}
   */
   readonly resp3?: boolean | cdktf.IResolvable;
   /**
   * The size of the RAM portion of an RoF database. Similarly to 'memorySize' use formats like 100MB, 0.1GB It must be at least 10% of combined memory size (RAM+Flash), as specified by 'memorySize'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#rof_ram_size DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#rof_ram_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#rof_ram_size DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#rof_ram_size}
   */
   readonly rofRamSize?: string;
   /**
   * List of Redis Enteprise ACL and Role bindings to apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#roles_permissions DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#roles_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#roles_permissions DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#roles_permissions}
   */
   readonly rolesPermissions?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsRolesPermissions[] | cdktf.IResolvable;
   /**
   * Number of database server-side shards
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#shard_count DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#shard_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#shard_count DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#shard_count}
   */
   readonly shardCount?: number;
   /**
   * Toggles database sharding for REAADBs (Active Active databases) and enabled by default. This field is blocked for REDB (non-Active Active databases) and sharding is toggled via the shardCount field - when shardCount is 1 this is disabled otherwise enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#sharding_enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#sharding_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#sharding_enabled DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#sharding_enabled}
   */
   readonly shardingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Control the density of shards - should they reside on as few or as many nodes as possible. Available options are 'dense' or 'sparse'. If left unset, defaults to 'dense'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#shards_placement DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#shards_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#shards_placement DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#shards_placement}
   */
   readonly shardsPlacement?: string;
   /**
   * Require SSL authenticated and encrypted connections to the database. enabled - all incoming connections to the Database must use SSL. disabled - no incoming connection to the Database should use SSL. replica_ssl - databases that replicate from this one need to use SSL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#tls_mode DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#tls_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#tls_mode DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#tls_mode}
   */
   readonly tlsMode?: string;
   /**
   * The type of the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#type DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#type DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * Specifications for DB upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#upgrade_spec DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#upgrade_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#upgrade_spec DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#upgrade_spec}
   */
   readonly upgradeSpec?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurationsUpgradeSpec;
 }
@@ -5942,7 +5942,7 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * The name of the remote cluster CR to link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6057,7 +6057,7 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * The name of the Redis Enterprise Cluster where the database should be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#name DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6150,19 +6150,19 @@ export interface DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alph
   /**
   * The Active-Active database global configurations, contains the global properties for each of the participating clusters/ instances databases within the Active-Active database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#global_configurations DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#global_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#global_configurations DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#global_configurations}
   */
   readonly globalConfigurations?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecGlobalConfigurations;
   /**
   * The list of instances/ clusters specifications and configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#participating_clusters DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#participating_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#participating_clusters DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#participating_clusters}
   */
   readonly participatingClusters: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecParticipatingClusters[] | cdktf.IResolvable;
   /**
   * Connection to Redis Enterprise Cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#redis_enterprise_cluster DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#redis_enterprise_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#redis_enterprise_cluster DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest#redis_enterprise_cluster}
   */
   readonly redisEnterpriseCluster?: DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1ManifestSpecRedisEnterpriseCluster;
 }
@@ -6311,7 +6311,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Ma
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest k8s_app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest k8s_app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest}
 */
 export class DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -6327,7 +6327,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Ma
   * Generates CDKTF code for importing a DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6339,7 +6339,7 @@ export class DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Ma
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest k8s_app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest k8s_app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6350,8 +6350,8 @@ export class DataK8SAppRedislabsComRedisEnterpriseActiveActiveDatabaseV1Alpha1Ma
       terraformResourceType: 'k8s_app_redislabs_com_redis_enterprise_active_active_database_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

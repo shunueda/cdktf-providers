@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource
+// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ResourceManagerResourceConfig extends cdktf.TerraformMetaArgume
   /**
   * The description of the server access resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource#description ResourceManagerResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource#description ResourceManagerResource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource#id ResourceManagerResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource#id ResourceManagerResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ResourceManagerResourceConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of server access resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource#name ResourceManagerResource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource#name ResourceManagerResource#name}
   */
   readonly name: string;
   /**
   * The parameter values for the fields of the resource type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource#parameter_values ResourceManagerResource#parameter_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource#parameter_values ResourceManagerResource#parameter_values}
   */
   readonly parameterValues?: { [key: string]: string };
   /**
   * The resource labels associated with the server access resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource#resource_labels ResourceManagerResource#resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource#resource_labels ResourceManagerResource#resource_labels}
   */
   readonly resourceLabels?: { [key: string]: string };
   /**
   * The resource type name associated with the server access resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource#resource_type ResourceManagerResource#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource#resource_type ResourceManagerResource#resource_type}
   */
   readonly resourceType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource britive_resource_manager_resource}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource britive_resource_manager_resource}
 */
 export class ResourceManagerResource extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ResourceManagerResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceManagerResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceManagerResource to import
-  * @param importFromId The id of the existing ResourceManagerResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceManagerResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceManagerResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ResourceManagerResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource britive_resource_manager_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource britive_resource_manager_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ResourceManagerResource extends cdktf.TerraformResource {
       terraformResourceType: 'britive_resource_manager_resource',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.4',
-        providerVersionConstraint: '2.2.4'
+        providerVersion: '2.2.5',
+        providerVersionConstraint: '2.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

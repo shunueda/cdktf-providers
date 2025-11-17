@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/laas_hosts
+// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/laas_hosts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataGcoreLaasHostsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/laas_hosts#id DataGcoreLaasHosts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/laas_hosts#id DataGcoreLaasHosts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/laas_hosts#project_id DataGcoreLaasHosts#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/laas_hosts#project_id DataGcoreLaasHosts#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/laas_hosts#project_name DataGcoreLaasHosts#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/laas_hosts#project_name DataGcoreLaasHosts#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/laas_hosts#region_id DataGcoreLaasHosts#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/laas_hosts#region_id DataGcoreLaasHosts#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/laas_hosts#region_name DataGcoreLaasHosts#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/laas_hosts#region_name DataGcoreLaasHosts#region_name}
   */
   readonly regionName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/laas_hosts gcore_laas_hosts}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/laas_hosts gcore_laas_hosts}
 */
 export class DataGcoreLaasHosts extends cdktf.TerraformDataSource {
 
@@ -49,7 +49,7 @@ export class DataGcoreLaasHosts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGcoreLaasHosts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGcoreLaasHosts to import
-  * @param importFromId The id of the existing DataGcoreLaasHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/laas_hosts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGcoreLaasHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/laas_hosts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGcoreLaasHosts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class DataGcoreLaasHosts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/data-sources/laas_hosts gcore_laas_hosts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/data-sources/laas_hosts gcore_laas_hosts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class DataGcoreLaasHosts extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_laas_hosts',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.3',
-        providerVersionConstraint: '0.31.3'
+        providerVersion: '0.31.4',
+        providerVersionConstraint: '0.31.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

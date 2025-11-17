@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#metadata DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#metadata DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1ManifestMetadata;
   /**
   * ComponentClassDefinitionSpec defines the desired state of ComponentClassDefinition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#spec DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#spec DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#annotations DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#annotations DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#labels DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#labels DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,25 +187,25 @@ export interface DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest
   /**
   * args are variable's value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#args DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#args DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * the CPU of the class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#cpu DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#cpu DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
   * the memory of the class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#memory DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#memory DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#memory}
   */
   readonly memory?: string;
   /**
   * name is the class name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#name DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -410,13 +410,13 @@ export interface DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest
   /**
   * classes are definitions of classes that come in two forms. In the first form, only ComponentClass.Args need to be defined, and the complete class definition is generated by rendering the ComponentClassGroup.Template and Name. In the second form, the Name, CPU and Memory must be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#classes DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#classes DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#classes}
   */
   readonly classes?: DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1ManifestSpecGroupsSeriesClasses[] | cdktf.IResolvable;
   /**
   * namingTemplate is a template that uses the Go template syntax and allows for referencing variables defined in ComponentClassGroup.Template. This enables dynamic generation of class names. For example: name: 'general-{{ .cpu }}c{{ .memory }}g'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#naming_template DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#naming_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#naming_template DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#naming_template}
   */
   readonly namingTemplate?: string;
 }
@@ -563,19 +563,19 @@ export interface DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest
   /**
   * series is a series of class definitions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#series DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#series DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#series}
   */
   readonly series?: DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1ManifestSpecGroupsSeries[] | cdktf.IResolvable;
   /**
   * template is a class definition template that uses the Go template syntax and allows for variable declaration. When defining a class in Series, specifying the variable's value is sufficient, as the complete class definition will be generated through rendering the template. For example: ```yaml template: | cpu: '{{ or .cpu 1 }}' memory: '{{ or .memory 4 }}Gi' ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#template DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#template DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#template}
   */
   readonly template?: string;
   /**
   * vars defines the variables declared in the template and will be used to generating the complete class definition by render the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#vars DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#vars DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#vars}
   */
   readonly vars?: string[];
 }
@@ -751,7 +751,7 @@ export interface DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest
   /**
   * group defines a list of class series that conform to the same constraint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#groups DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#groups DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest#groups}
   */
   readonly groups?: DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1ManifestSpecGroups[] | cdktf.IResolvable;
 }
@@ -845,7 +845,7 @@ export class DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1ManifestSpec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest k8s_apps_kubeblocks_io_component_class_definition_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest k8s_apps_kubeblocks_io_component_class_definition_v1alpha1_manifest}
 */
 export class DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -861,7 +861,7 @@ export class DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest ext
   * Generates CDKTF code for importing a DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -873,7 +873,7 @@ export class DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest ext
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest k8s_apps_kubeblocks_io_component_class_definition_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_component_class_definition_v1alpha1_manifest k8s_apps_kubeblocks_io_component_class_definition_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -884,8 +884,8 @@ export class DataK8SAppsKubeblocksIoComponentClassDefinitionV1Alpha1Manifest ext
       terraformResourceType: 'k8s_apps_kubeblocks_io_component_class_definition_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_account
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/iam_service_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataYandexIamServiceAccountConfig extends cdktf.TerraformMetaAr
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_account#folder_id DataYandexIamServiceAccount#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/iam_service_account#folder_id DataYandexIamServiceAccount#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_account#id DataYandexIamServiceAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/iam_service_account#id DataYandexIamServiceAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataYandexIamServiceAccountConfig extends cdktf.TerraformMetaAr
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_account#name DataYandexIamServiceAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/iam_service_account#name DataYandexIamServiceAccount#name}
   */
   readonly name?: string;
   /**
   * ID of a specific service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_account#service_account_id DataYandexIamServiceAccount#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/iam_service_account#service_account_id DataYandexIamServiceAccount#service_account_id}
   */
   readonly serviceAccountId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_account yandex_iam_service_account}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/iam_service_account yandex_iam_service_account}
 */
 export class DataYandexIamServiceAccount extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataYandexIamServiceAccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataYandexIamServiceAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexIamServiceAccount to import
-  * @param importFromId The id of the existing DataYandexIamServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexIamServiceAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/iam_service_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexIamServiceAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataYandexIamServiceAccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/iam_service_account yandex_iam_service_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/iam_service_account yandex_iam_service_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataYandexIamServiceAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'yandex_iam_service_account',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

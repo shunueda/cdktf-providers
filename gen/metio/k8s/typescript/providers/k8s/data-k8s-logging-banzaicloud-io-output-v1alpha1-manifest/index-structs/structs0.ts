@@ -3,25 +3,25 @@ export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#annotations DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#annotations DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#labels DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#labels DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#namespace DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#namespace DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -196,15 +196,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestMetadataOutputRefe
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchApiKeyMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -353,7 +353,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchApiKeyMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchApiKeyMountFromSecretKeyRef;
 }
@@ -447,15 +447,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchApiKeyValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -604,7 +604,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchApiKeyValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchApiKeyValueFromSecretKeyRef;
 }
@@ -698,15 +698,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchApiKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchApiKeyMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchApiKeyValueFrom;
 }
@@ -858,135 +858,135 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchBuffer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
   */
   readonly chunkFullThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
   */
   readonly chunkLimitRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
   */
   readonly chunkLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
   */
   readonly compress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
   */
   readonly delayedCommitTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
   */
   readonly disableChunkBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
   */
   readonly flushAtShutdown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
   */
   readonly flushMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
   */
   readonly flushThreadBurstInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
   */
   readonly flushThreadCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
   */
   readonly flushThreadInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
   */
   readonly overflowAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
   */
   readonly queueLimitLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
   */
   readonly queuedChunksLimitSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
   */
   readonly retryExponentialBackoffBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
   */
   readonly retryForever?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
   */
   readonly retryMaxInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
   */
   readonly retryMaxTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
   */
   readonly retryRandomize?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
   */
   readonly retrySecondaryThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
   */
   readonly retryTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
   */
   readonly retryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
   */
   readonly retryWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
   */
   readonly timekey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
   */
   readonly timekeyUseUtc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
   */
   readonly timekeyWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
   */
   readonly timekeyZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
   */
   readonly totalLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2008,15 +2008,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchCaFileMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2165,7 +2165,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchCaFileMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchCaFileMountFromSecretKeyRef;
 }
@@ -2259,15 +2259,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchCaFileValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2416,7 +2416,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchCaFileValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchCaFileValueFromSecretKeyRef;
 }
@@ -2510,15 +2510,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchCaFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchCaFileMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchCaFileValueFrom;
 }
@@ -2670,15 +2670,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientCertMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2827,7 +2827,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientCertMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientCertMountFromSecretKeyRef;
 }
@@ -2921,15 +2921,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientCertValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3078,7 +3078,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientCertValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientCertValueFromSecretKeyRef;
 }
@@ -3172,15 +3172,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientCert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientCertMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientCertValueFrom;
 }
@@ -3332,15 +3332,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3489,7 +3489,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyMountFromSecretKeyRef;
 }
@@ -3583,15 +3583,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3740,7 +3740,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyValueFromSecretKeyRef;
 }
@@ -3834,15 +3834,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyValueFrom;
 }
@@ -3994,15 +3994,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyPassMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4151,7 +4151,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyPassMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyPassMountFromSecretKeyRef;
 }
@@ -4245,15 +4245,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyPassValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4402,7 +4402,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyPassValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyPassValueFromSecretKeyRef;
 }
@@ -4496,15 +4496,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyPass {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyPassMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyPassValueFrom;
 }
@@ -4656,15 +4656,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAccessKeyIdMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4813,7 +4813,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAccessKeyIdMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAccessKeyIdMountFromSecretKeyRef;
 }
@@ -4907,15 +4907,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAccessKeyIdValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5064,7 +5064,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAccessKeyIdValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAccessKeyIdValueFromSecretKeyRef;
 }
@@ -5158,15 +5158,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAccessKeyId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAccessKeyIdMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAccessKeyIdValueFrom;
 }
@@ -5318,15 +5318,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleArnMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5475,7 +5475,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleArnMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleArnMountFromSecretKeyRef;
 }
@@ -5569,15 +5569,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleArnValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5726,7 +5726,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleArnValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleArnValueFromSecretKeyRef;
 }
@@ -5820,15 +5820,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleArn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleArnMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleArnValueFrom;
 }
@@ -5980,15 +5980,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleSessionNameMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6137,7 +6137,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleSessionNameMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleSessionNameMountFromSecretKeyRef;
 }
@@ -6231,15 +6231,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleSessionNameValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6388,7 +6388,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleSessionNameValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleSessionNameValueFromSecretKeyRef;
 }
@@ -6482,15 +6482,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleSessionName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleSessionNameMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleSessionNameValueFrom;
 }
@@ -6642,15 +6642,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleWebIdentityTokenFileMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6799,7 +6799,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleWebIdentityTokenFileMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleWebIdentityTokenFileMountFromSecretKeyRef;
 }
@@ -6893,15 +6893,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleWebIdentityTokenFileValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7050,7 +7050,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleWebIdentityTokenFileValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleWebIdentityTokenFileValueFromSecretKeyRef;
 }
@@ -7144,15 +7144,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleWebIdentityTokenFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleWebIdentityTokenFileMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleWebIdentityTokenFileValueFrom;
 }
@@ -7304,15 +7304,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointEcsContainerCredentialsRelativeUriMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7461,7 +7461,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointEcsContainerCredentialsRelativeUriMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointEcsContainerCredentialsRelativeUriMountFromSecretKeyRef;
 }
@@ -7555,15 +7555,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointEcsContainerCredentialsRelativeUriValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7712,7 +7712,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointEcsContainerCredentialsRelativeUriValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointEcsContainerCredentialsRelativeUriValueFromSecretKeyRef;
 }
@@ -7806,15 +7806,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointEcsContainerCredentialsRelativeUri {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointEcsContainerCredentialsRelativeUriMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointEcsContainerCredentialsRelativeUriValueFrom;
 }
@@ -7966,15 +7966,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointSecretAccessKeyMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8123,7 +8123,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointSecretAccessKeyMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointSecretAccessKeyMountFromSecretKeyRef;
 }
@@ -8217,15 +8217,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointSecretAccessKeyValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8374,7 +8374,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointSecretAccessKeyValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointSecretAccessKeyValueFromSecretKeyRef;
 }
@@ -8468,15 +8468,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointSecretAccessKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointSecretAccessKeyMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointSecretAccessKeyValueFrom;
 }
@@ -8628,15 +8628,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointStsCredentialsRegionMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8785,7 +8785,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointStsCredentialsRegionMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointStsCredentialsRegionMountFromSecretKeyRef;
 }
@@ -8879,15 +8879,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointStsCredentialsRegionValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9036,7 +9036,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointStsCredentialsRegionValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointStsCredentialsRegionValueFromSecretKeyRef;
 }
@@ -9130,15 +9130,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointStsCredentialsRegion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointStsCredentialsRegionMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointStsCredentialsRegionValueFrom;
 }
@@ -9290,39 +9290,39 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#access_key_id DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#access_key_id DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#access_key_id}
   */
   readonly accessKeyId?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAccessKeyId;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#assume_role_arn DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#assume_role_arn DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#assume_role_arn}
   */
   readonly assumeRoleArn?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleArn;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#assume_role_session_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#assume_role_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#assume_role_session_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#assume_role_session_name}
   */
   readonly assumeRoleSessionName?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleSessionName;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#assume_role_web_identity_token_file DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#assume_role_web_identity_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#assume_role_web_identity_token_file DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#assume_role_web_identity_token_file}
   */
   readonly assumeRoleWebIdentityTokenFile?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointAssumeRoleWebIdentityTokenFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ecs_container_credentials_relative_uri DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ecs_container_credentials_relative_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ecs_container_credentials_relative_uri DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ecs_container_credentials_relative_uri}
   */
   readonly ecsContainerCredentialsRelativeUri?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointEcsContainerCredentialsRelativeUri;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#region DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#region DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_access_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_access_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_access_key}
   */
   readonly secretAccessKey?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointSecretAccessKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#sts_credentials_region DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#sts_credentials_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#sts_credentials_region DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#sts_credentials_region}
   */
   readonly stsCredentialsRegion?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpointStsCredentialsRegion;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#url DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#url DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -9648,15 +9648,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#add_newline DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#add_newline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#add_newline DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#add_newline}
   */
   readonly addNewline?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#message_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#message_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#message_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#message_key}
   */
   readonly messageKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -9808,15 +9808,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchPasswordMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9965,7 +9965,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchPasswordMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchPasswordMountFromSecretKeyRef;
 }
@@ -10059,15 +10059,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchPasswordValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10216,7 +10216,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchPasswordValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchPasswordValueFromSecretKeyRef;
 }
@@ -10310,15 +10310,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchPasswordMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchPasswordValueFrom;
 }
@@ -10470,15 +10470,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchTemplateFileMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10627,7 +10627,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchTemplateFileMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchTemplateFileMountFromSecretKeyRef;
 }
@@ -10721,15 +10721,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchTemplateFileValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10878,7 +10878,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchTemplateFileValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchTemplateFileValueFromSecretKeyRef;
 }
@@ -10972,15 +10972,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchTemplateFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchTemplateFileMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchTemplateFileValueFrom;
 }
@@ -11132,387 +11132,387 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#api_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#api_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#api_key}
   */
   readonly apiKey?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchApiKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#application_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#application_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#application_name}
   */
   readonly applicationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
   */
   readonly buffer?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchBuffer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#bulk_message_request_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#bulk_message_request_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#bulk_message_request_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#bulk_message_request_threshold}
   */
   readonly bulkMessageRequestThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ca_file DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ca_file DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchCaFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#client_cert DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#client_cert DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#client_cert}
   */
   readonly clientCert?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientCert;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#client_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#client_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#client_key}
   */
   readonly clientKey?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#client_key_pass DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#client_key_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#client_key_pass DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#client_key_pass}
   */
   readonly clientKeyPass?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchClientKeyPass;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compression_level DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compression_level DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compression_level}
   */
   readonly compressionLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#content_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#content_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#custom_headers DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#custom_headers DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#custom_headers}
   */
   readonly customHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#customize_template DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#customize_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#customize_template DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#customize_template}
   */
   readonly customizeTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_enable DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_enable DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_enable}
   */
   readonly dataStreamEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_ilm_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_ilm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_ilm_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_ilm_name}
   */
   readonly dataStreamIlmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_ilm_policy DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_ilm_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_ilm_policy DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_ilm_policy}
   */
   readonly dataStreamIlmPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_ilm_policy_overwrite DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_ilm_policy_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_ilm_policy_overwrite DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_ilm_policy_overwrite}
   */
   readonly dataStreamIlmPolicyOverwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_name}
   */
   readonly dataStreamName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_template_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_template_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_template_name}
   */
   readonly dataStreamTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#default_elasticsearch_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#default_elasticsearch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#default_elasticsearch_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#default_elasticsearch_version}
   */
   readonly defaultElasticsearchVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#deflector_alias DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#deflector_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#deflector_alias DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#deflector_alias}
   */
   readonly deflectorAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#enable_ilm DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#enable_ilm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#enable_ilm DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#enable_ilm}
   */
   readonly enableIlm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#endpoint DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#endpoint DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#endpoint}
   */
   readonly endpoint?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchEndpoint;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#exception_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#exception_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#exception_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#exception_backup}
   */
   readonly exceptionBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#fail_on_detecting_es_version_retry_exceed DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#fail_on_detecting_es_version_retry_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#fail_on_detecting_es_version_retry_exceed DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#fail_on_detecting_es_version_retry_exceed}
   */
   readonly failOnDetectingEsVersionRetryExceed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#fail_on_putting_template_retry_exceed DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#fail_on_putting_template_retry_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#fail_on_putting_template_retry_exceed DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#fail_on_putting_template_retry_exceed}
   */
   readonly failOnPuttingTemplateRetryExceed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flatten_hashes DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flatten_hashes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flatten_hashes DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flatten_hashes}
   */
   readonly flattenHashes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flatten_hashes_separator DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flatten_hashes_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flatten_hashes_separator DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flatten_hashes_separator}
   */
   readonly flattenHashesSeparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#format}
   */
   readonly format?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchFormat;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#host DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#host DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#hosts DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#hosts DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#hosts}
   */
   readonly hosts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#http_backend DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#http_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#http_backend DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#http_backend}
   */
   readonly httpBackend?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#id_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#id_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#id_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#id_key}
   */
   readonly idKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ignore_exceptions DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ignore_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ignore_exceptions DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ignore_exceptions}
   */
   readonly ignoreExceptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ilm_policy DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ilm_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ilm_policy DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ilm_policy}
   */
   readonly ilmPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ilm_policy_id DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ilm_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ilm_policy_id DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ilm_policy_id}
   */
   readonly ilmPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ilm_policy_overwrite DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ilm_policy_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ilm_policy_overwrite DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ilm_policy_overwrite}
   */
   readonly ilmPolicyOverwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_index_in_url DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_index_in_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_index_in_url DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_index_in_url}
   */
   readonly includeIndexInUrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_tag_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_tag_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_tag_key}
   */
   readonly includeTagKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_timestamp DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_timestamp DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_timestamp}
   */
   readonly includeTimestamp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#index_date_pattern DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#index_date_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#index_date_pattern DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#index_date_pattern}
   */
   readonly indexDatePattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#index_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#index_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#index_name}
   */
   readonly indexName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#index_prefix DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#index_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#index_prefix DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#index_prefix}
   */
   readonly indexPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_es_400_reason DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_es_400_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_es_400_reason DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_es_400_reason}
   */
   readonly logEs400Reason?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_dateformat DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_dateformat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_dateformat DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_dateformat}
   */
   readonly logstashDateformat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_format}
   */
   readonly logstashFormat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_prefix DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_prefix DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_prefix}
   */
   readonly logstashPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_prefix_separator DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_prefix_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_prefix_separator DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_prefix_separator}
   */
   readonly logstashPrefixSeparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_retry_get_es_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_retry_get_es_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_retry_get_es_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_retry_get_es_version}
   */
   readonly maxRetryGetEsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_retry_putting_template DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_retry_putting_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_retry_putting_template DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_retry_putting_template}
   */
   readonly maxRetryPuttingTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#password DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#password DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchPassword;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#pipeline DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#pipeline DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#pipeline}
   */
   readonly pipeline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#port DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#port DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#prefer_oj_serializer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#prefer_oj_serializer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#prefer_oj_serializer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#prefer_oj_serializer}
   */
   readonly preferOjSerializer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reconnect_on_error DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reconnect_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reconnect_on_error DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reconnect_on_error}
   */
   readonly reconnectOnError?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reload_after DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reload_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reload_after DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reload_after}
   */
   readonly reloadAfter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reload_connections DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reload_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reload_connections DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reload_connections}
   */
   readonly reloadConnections?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reload_on_failure DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reload_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reload_on_failure DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reload_on_failure}
   */
   readonly reloadOnFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_keys DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_keys DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_keys}
   */
   readonly removeKeys?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_keys_on_update DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_keys_on_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_keys_on_update DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_keys_on_update}
   */
   readonly removeKeysOnUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_keys_on_update_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_keys_on_update_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_keys_on_update_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_keys_on_update_key}
   */
   readonly removeKeysOnUpdateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#request_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#request_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#request_timeout}
   */
   readonly requestTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#resurrect_after DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#resurrect_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#resurrect_after DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#resurrect_after}
   */
   readonly resurrectAfter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_tag DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_tag DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_tag}
   */
   readonly retryTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#rollover_index DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#rollover_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#rollover_index DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#rollover_index}
   */
   readonly rolloverIndex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#routing_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#routing_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#routing_key}
   */
   readonly routingKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#scheme DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#scheme DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
   */
   readonly slowFlushLogThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#sniffer_class_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#sniffer_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#sniffer_class_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#sniffer_class_name}
   */
   readonly snifferClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_max_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_max_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_max_version}
   */
   readonly sslMaxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_min_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_min_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_min_version}
   */
   readonly sslMinVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_verify DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_verify DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_version}
   */
   readonly sslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#suppress_doc_wrap DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#suppress_doc_wrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#suppress_doc_wrap DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#suppress_doc_wrap}
   */
   readonly suppressDocWrap?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#suppress_type_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#suppress_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#suppress_type_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#suppress_type_name}
   */
   readonly suppressTypeName?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tag_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tag_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tag_key}
   */
   readonly tagKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#target_index_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#target_index_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#target_index_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#target_index_key}
   */
   readonly targetIndexKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#target_type_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#target_type_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#target_type_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#target_type_key}
   */
   readonly targetTypeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#template_file DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#template_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#template_file DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#template_file}
   */
   readonly templateFile?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsearchTemplateFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#template_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#template_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#template_name}
   */
   readonly templateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#template_overwrite DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#template_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#template_overwrite DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#template_overwrite}
   */
   readonly templateOverwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#templates DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#templates DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#templates}
   */
   readonly templates?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_key}
   */
   readonly timeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_key_format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_key_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_key_format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_key_format}
   */
   readonly timeKeyFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_parse_error_tag DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_parse_error_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_parse_error_tag DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_parse_error_tag}
   */
   readonly timeParseErrorTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_precision DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_precision DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_precision}
   */
   readonly timePrecision?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type_name}
   */
   readonly typeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#unrecoverable_error_types DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#unrecoverable_error_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#unrecoverable_error_types DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#unrecoverable_error_types}
   */
   readonly unrecoverableErrorTypes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_legacy_template DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_legacy_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_legacy_template DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_legacy_template}
   */
   readonly useLegacyTemplate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#user DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#user DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#utc_index DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#utc_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#utc_index DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#utc_index}
   */
   readonly utcIndex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#validate_client_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#validate_client_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#validate_client_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#validate_client_version}
   */
   readonly validateClientVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#verify_es_version_at_startup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#verify_es_version_at_startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#verify_es_version_at_startup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#verify_es_version_at_startup}
   */
   readonly verifyEsVersionAtStartup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#with_transporter_log DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#with_transporter_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#with_transporter_log DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#with_transporter_log}
   */
   readonly withTransporterLog?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#write_operation DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#write_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#write_operation DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#write_operation}
   */
   readonly writeOperation?: string;
 }
@@ -14361,15 +14361,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAwsElasticsear
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccessKeyMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14518,7 +14518,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccessKeyMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccessKeyMountFromSecretKeyRef;
 }
@@ -14612,15 +14612,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccessKeyValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14769,7 +14769,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccessKeyValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccessKeyValueFromSecretKeyRef;
 }
@@ -14863,15 +14863,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccessKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccessKeyMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccessKeyValueFrom;
 }
@@ -15023,15 +15023,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccountMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15180,7 +15180,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccountMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccountMountFromSecretKeyRef;
 }
@@ -15274,15 +15274,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccountValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15431,7 +15431,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccountValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccountValueFromSecretKeyRef;
 }
@@ -15525,15 +15525,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccountMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccountValueFrom;
 }
@@ -15685,15 +15685,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageSasTokenMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15842,7 +15842,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageSasTokenMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageSasTokenMountFromSecretKeyRef;
 }
@@ -15936,15 +15936,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageSasTokenValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16093,7 +16093,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageSasTokenValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageSasTokenValueFromSecretKeyRef;
 }
@@ -16187,15 +16187,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageSasToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageSasTokenMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageSasTokenValueFrom;
 }
@@ -16347,135 +16347,135 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAz
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageBuffer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
   */
   readonly chunkFullThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
   */
   readonly chunkLimitRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
   */
   readonly chunkLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
   */
   readonly compress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
   */
   readonly delayedCommitTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
   */
   readonly disableChunkBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
   */
   readonly flushAtShutdown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
   */
   readonly flushMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
   */
   readonly flushThreadBurstInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
   */
   readonly flushThreadCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
   */
   readonly flushThreadInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
   */
   readonly overflowAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
   */
   readonly queueLimitLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
   */
   readonly queuedChunksLimitSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
   */
   readonly retryExponentialBackoffBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
   */
   readonly retryForever?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
   */
   readonly retryMaxInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
   */
   readonly retryMaxTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
   */
   readonly retryRandomize?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
   */
   readonly retrySecondaryThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
   */
   readonly retryTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
   */
   readonly retryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
   */
   readonly retryWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
   */
   readonly timekey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
   */
   readonly timekeyUseUtc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
   */
   readonly timekeyWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
   */
   readonly timekeyZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
   */
   readonly totalLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -17497,51 +17497,51 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageBu
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#auto_create_container DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#auto_create_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#auto_create_container DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#auto_create_container}
   */
   readonly autoCreateContainer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_cloud DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_cloud DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_cloud}
   */
   readonly azureCloud?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_container DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_container DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_container}
   */
   readonly azureContainer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_imds_api_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_imds_api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_imds_api_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_imds_api_version}
   */
   readonly azureImdsApiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_object_key_format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_object_key_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_object_key_format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_object_key_format}
   */
   readonly azureObjectKeyFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_storage_access_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_storage_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_storage_access_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_storage_access_key}
   */
   readonly azureStorageAccessKey?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccessKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_storage_account DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_storage_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_storage_account DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_storage_account}
   */
   readonly azureStorageAccount: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageAccount;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_storage_sas_token DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_storage_sas_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#azure_storage_sas_token DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#azure_storage_sas_token}
   */
   readonly azureStorageSasToken?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageAzureStorageSasToken;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
   */
   readonly buffer?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageBuffer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
   */
   readonly slowFlushLogThreshold?: string;
 }
@@ -17948,15 +17948,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecAzurestorageOu
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsKeyIdMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18105,7 +18105,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsK
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsKeyIdMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsKeyIdMountFromSecretKeyRef;
 }
@@ -18199,15 +18199,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsK
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsKeyIdValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18356,7 +18356,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsK
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsKeyIdValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsKeyIdValueFromSecretKeyRef;
 }
@@ -18450,15 +18450,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsK
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsKeyId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsKeyIdMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsKeyIdValueFrom;
 }
@@ -18610,15 +18610,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsK
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsSecKeyMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18767,7 +18767,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsS
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsSecKeyMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsSecKeyMountFromSecretKeyRef;
 }
@@ -18861,15 +18861,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsS
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsSecKeyValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19018,7 +19018,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsS
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsSecKeyValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsSecKeyValueFromSecretKeyRef;
 }
@@ -19112,15 +19112,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsS
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsSecKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsSecKeyMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsSecKeyValueFrom;
 }
@@ -19272,135 +19272,135 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsS
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchBuffer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
   */
   readonly chunkFullThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
   */
   readonly chunkLimitRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
   */
   readonly chunkLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
   */
   readonly compress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
   */
   readonly delayedCommitTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
   */
   readonly disableChunkBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
   */
   readonly flushAtShutdown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
   */
   readonly flushMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
   */
   readonly flushThreadBurstInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
   */
   readonly flushThreadCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
   */
   readonly flushThreadInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
   */
   readonly overflowAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
   */
   readonly queueLimitLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
   */
   readonly queuedChunksLimitSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
   */
   readonly retryExponentialBackoffBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
   */
   readonly retryForever?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
   */
   readonly retryMaxInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
   */
   readonly retryMaxTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
   */
   readonly retryRandomize?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
   */
   readonly retrySecondaryThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
   */
   readonly retryTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
   */
   readonly retryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
   */
   readonly retryWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
   */
   readonly timekey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
   */
   readonly timekeyUseUtc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
   */
   readonly timekeyWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
   */
   readonly timekeyZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
   */
   readonly totalLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -20422,15 +20422,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchBuff
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#add_newline DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#add_newline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#add_newline DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#add_newline}
   */
   readonly addNewline?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#message_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#message_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#message_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#message_key}
   */
   readonly messageKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -20582,155 +20582,155 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchForm
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#auto_create_stream DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#auto_create_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#auto_create_stream DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#auto_create_stream}
   */
   readonly autoCreateStream?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#aws_instance_profile_credentials_retries DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#aws_instance_profile_credentials_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#aws_instance_profile_credentials_retries DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#aws_instance_profile_credentials_retries}
   */
   readonly awsInstanceProfileCredentialsRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#aws_key_id DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#aws_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#aws_key_id DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#aws_key_id}
   */
   readonly awsKeyId?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsKeyId;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#aws_sec_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#aws_sec_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#aws_sec_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#aws_sec_key}
   */
   readonly awsSecKey?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchAwsSecKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#aws_sts_role_arn DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#aws_sts_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#aws_sts_role_arn DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#aws_sts_role_arn}
   */
   readonly awsStsRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#aws_sts_session_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#aws_sts_session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#aws_sts_session_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#aws_sts_session_name}
   */
   readonly awsStsSessionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#aws_use_sts DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#aws_use_sts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#aws_use_sts DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#aws_use_sts}
   */
   readonly awsUseSts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
   */
   readonly buffer?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchBuffer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#concurrency DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#concurrency DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#concurrency}
   */
   readonly concurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#endpoint DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#endpoint DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#format}
   */
   readonly format?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchFormat;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#http_proxy DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#http_proxy DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#http_proxy}
   */
   readonly httpProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_time_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_time_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_time_key}
   */
   readonly includeTimeKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#json_handler DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#json_handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#json_handler DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#json_handler}
   */
   readonly jsonHandler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#localtime DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#localtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#localtime DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#localtime}
   */
   readonly localtime?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_group_aws_tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_group_aws_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_group_aws_tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_group_aws_tags}
   */
   readonly logGroupAwsTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_group_aws_tags_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_group_aws_tags_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_group_aws_tags_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_group_aws_tags_key}
   */
   readonly logGroupAwsTagsKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_group_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_group_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_group_name}
   */
   readonly logGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_group_name_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_group_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_group_name_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_group_name_key}
   */
   readonly logGroupNameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_rejected_request DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_rejected_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_rejected_request DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_rejected_request}
   */
   readonly logRejectedRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_stream_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_stream_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_stream_name}
   */
   readonly logStreamName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_stream_name_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_stream_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_stream_name_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_stream_name_key}
   */
   readonly logStreamNameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_events_per_batch DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_events_per_batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_events_per_batch DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_events_per_batch}
   */
   readonly maxEventsPerBatch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_message_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_message_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_message_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_message_length}
   */
   readonly maxMessageLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#message_keys DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#message_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#message_keys DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#message_keys}
   */
   readonly messageKeys?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#put_log_events_disable_retry_limit DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#put_log_events_disable_retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#put_log_events_disable_retry_limit DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#put_log_events_disable_retry_limit}
   */
   readonly putLogEventsDisableRetryLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#put_log_events_retry_limit DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#put_log_events_retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#put_log_events_retry_limit DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#put_log_events_retry_limit}
   */
   readonly putLogEventsRetryLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#put_log_events_retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#put_log_events_retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#put_log_events_retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#put_log_events_retry_wait}
   */
   readonly putLogEventsRetryWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#region DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#region DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_log_group_aws_tags_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_log_group_aws_tags_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_log_group_aws_tags_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_log_group_aws_tags_key}
   */
   readonly removeLogGroupAwsTagsKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_log_group_name_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_log_group_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_log_group_name_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_log_group_name_key}
   */
   readonly removeLogGroupNameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_log_stream_name_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_log_stream_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_log_stream_name_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_log_stream_name_key}
   */
   readonly removeLogStreamNameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_retention_in_days DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_retention_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_retention_in_days DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_retention_in_days}
   */
   readonly removeRetentionInDays?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retention_in_days DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retention_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retention_in_days DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retention_in_days}
   */
   readonly retentionInDays?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retention_in_days_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retention_in_days_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retention_in_days_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retention_in_days_key}
   */
   readonly retentionInDaysKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
   */
   readonly slowFlushLogThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_tag_as_group DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_tag_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_tag_as_group DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_tag_as_group}
   */
   readonly useTagAsGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_tag_as_stream DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_tag_as_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_tag_as_stream DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_tag_as_stream}
   */
   readonly useTagAsStream?: boolean | cdktf.IResolvable;
 }
@@ -21894,15 +21894,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecCloudwatchOutp
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKeyMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22051,7 +22051,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKeyM
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKeyMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKeyMountFromSecretKeyRef;
 }
@@ -22145,15 +22145,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKeyM
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKeyValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22302,7 +22302,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKeyV
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKeyValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKeyValueFromSecretKeyRef;
 }
@@ -22396,15 +22396,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKeyV
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKeyMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKeyValueFrom;
 }
@@ -22556,135 +22556,135 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKeyO
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogBuffer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
   */
   readonly chunkFullThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
   */
   readonly chunkLimitRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
   */
   readonly chunkLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
   */
   readonly compress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
   */
   readonly delayedCommitTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
   */
   readonly disableChunkBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
   */
   readonly flushAtShutdown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
   */
   readonly flushMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
   */
   readonly flushThreadBurstInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
   */
   readonly flushThreadCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
   */
   readonly flushThreadInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
   */
   readonly overflowAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
   */
   readonly queueLimitLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
   */
   readonly queuedChunksLimitSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
   */
   readonly retryExponentialBackoffBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
   */
   readonly retryForever?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
   */
   readonly retryMaxInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
   */
   readonly retryMaxTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
   */
   readonly retryRandomize?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
   */
   readonly retrySecondaryThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
   */
   readonly retryTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
   */
   readonly retryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
   */
   readonly retryWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
   */
   readonly timekey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
   */
   readonly timekeyUseUtc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
   */
   readonly timekeyWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
   */
   readonly timekeyZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
   */
   readonly totalLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -23706,91 +23706,91 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogBufferO
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#api_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#api_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#api_key}
   */
   readonly apiKey: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogApiKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
   */
   readonly buffer?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogBuffer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compression_level DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compression_level DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compression_level}
   */
   readonly compressionLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#dd_hostname DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#dd_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#dd_hostname DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#dd_hostname}
   */
   readonly ddHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#dd_source DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#dd_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#dd_source DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#dd_source}
   */
   readonly ddSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#dd_sourcecategory DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#dd_sourcecategory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#dd_sourcecategory DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#dd_sourcecategory}
   */
   readonly ddSourcecategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#dd_tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#dd_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#dd_tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#dd_tags}
   */
   readonly ddTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#host DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#host DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_tag_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_tag_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_tag_key}
   */
   readonly includeTagKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_backoff DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_backoff DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_backoff}
   */
   readonly maxBackoff?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_retries DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_retries DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_retries}
   */
   readonly maxRetries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#no_ssl_validation DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#no_ssl_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#no_ssl_validation DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#no_ssl_validation}
   */
   readonly noSslValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#port DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#port DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#service DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#service DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
   */
   readonly slowFlushLogThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_port DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_port DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_port}
   */
   readonly sslPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tag_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tag_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tag_key}
   */
   readonly tagKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timestamp_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timestamp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timestamp_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timestamp_key}
   */
   readonly timestampKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_compression DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_compression DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_compression}
   */
   readonly useCompression?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_http DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_http DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_http}
   */
   readonly useHttp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_json DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_json DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_json}
   */
   readonly useJson?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_ssl DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_ssl DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
 }
@@ -24490,15 +24490,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecDatadogOutputR
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchApiKeyMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24647,7 +24647,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchA
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchApiKeyMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchApiKeyMountFromSecretKeyRef;
 }
@@ -24741,15 +24741,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchA
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchApiKeyValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24898,7 +24898,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchA
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchApiKeyValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchApiKeyValueFromSecretKeyRef;
 }
@@ -24992,15 +24992,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchA
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchApiKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchApiKeyMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchApiKeyValueFrom;
 }
@@ -25152,135 +25152,135 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchA
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchBuffer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
   */
   readonly chunkFullThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
   */
   readonly chunkLimitRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
   */
   readonly chunkLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
   */
   readonly compress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
   */
   readonly delayedCommitTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
   */
   readonly disableChunkBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
   */
   readonly flushAtShutdown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
   */
   readonly flushMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
   */
   readonly flushThreadBurstInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
   */
   readonly flushThreadCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
   */
   readonly flushThreadInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
   */
   readonly overflowAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
   */
   readonly queueLimitLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
   */
   readonly queuedChunksLimitSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
   */
   readonly retryExponentialBackoffBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
   */
   readonly retryForever?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
   */
   readonly retryMaxInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
   */
   readonly retryMaxTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
   */
   readonly retryRandomize?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
   */
   readonly retrySecondaryThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
   */
   readonly retryTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
   */
   readonly retryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
   */
   readonly retryWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
   */
   readonly timekey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
   */
   readonly timekeyUseUtc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
   */
   readonly timekeyWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
   */
   readonly timekeyZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
   */
   readonly totalLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -26302,15 +26302,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchB
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchCaFileMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26459,7 +26459,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchCaFileMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchCaFileMountFromSecretKeyRef;
 }
@@ -26553,15 +26553,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchCaFileValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26710,7 +26710,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchCaFileValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchCaFileValueFromSecretKeyRef;
 }
@@ -26804,15 +26804,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchCaFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchCaFileMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchCaFileValueFrom;
 }
@@ -26964,15 +26964,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientCertMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27121,7 +27121,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientCertMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientCertMountFromSecretKeyRef;
 }
@@ -27215,15 +27215,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientCertValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27372,7 +27372,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientCertValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientCertValueFromSecretKeyRef;
 }
@@ -27466,15 +27466,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientCert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientCertMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientCertValueFrom;
 }
@@ -27626,15 +27626,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27783,7 +27783,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyMountFromSecretKeyRef;
 }
@@ -27877,15 +27877,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -28034,7 +28034,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyValueFromSecretKeyRef;
 }
@@ -28128,15 +28128,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyValueFrom;
 }
@@ -28288,15 +28288,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyPassMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -28445,7 +28445,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyPassMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyPassMountFromSecretKeyRef;
 }
@@ -28539,15 +28539,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyPassValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -28696,7 +28696,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyPassValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyPassValueFromSecretKeyRef;
 }
@@ -28790,15 +28790,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyPass {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyPassMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyPassValueFrom;
 }
@@ -28950,15 +28950,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchC
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchPasswordMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29107,7 +29107,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchP
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchPasswordMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchPasswordMountFromSecretKeyRef;
 }
@@ -29201,15 +29201,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchP
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchPasswordValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29358,7 +29358,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchP
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchPasswordValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchPasswordValueFromSecretKeyRef;
 }
@@ -29452,15 +29452,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchP
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchPasswordMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchPasswordValueFrom;
 }
@@ -29612,15 +29612,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchP
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchTemplateFileMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29769,7 +29769,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchT
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchTemplateFileMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchTemplateFileMountFromSecretKeyRef;
 }
@@ -29863,15 +29863,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchT
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchTemplateFileValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30020,7 +30020,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchT
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchTemplateFileValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchTemplateFileValueFromSecretKeyRef;
 }
@@ -30114,15 +30114,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchT
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchTemplateFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchTemplateFileMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchTemplateFileValueFrom;
 }
@@ -30274,375 +30274,375 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchT
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#api_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#api_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#api_key}
   */
   readonly apiKey?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchApiKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#application_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#application_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#application_name}
   */
   readonly applicationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
   */
   readonly buffer?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchBuffer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#bulk_message_request_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#bulk_message_request_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#bulk_message_request_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#bulk_message_request_threshold}
   */
   readonly bulkMessageRequestThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ca_file DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ca_file DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchCaFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#client_cert DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#client_cert DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#client_cert}
   */
   readonly clientCert?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientCert;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#client_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#client_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#client_key}
   */
   readonly clientKey?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#client_key_pass DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#client_key_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#client_key_pass DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#client_key_pass}
   */
   readonly clientKeyPass?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchClientKeyPass;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compression_level DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compression_level DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compression_level}
   */
   readonly compressionLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#content_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#content_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#custom_headers DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#custom_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#custom_headers DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#custom_headers}
   */
   readonly customHeaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#customize_template DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#customize_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#customize_template DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#customize_template}
   */
   readonly customizeTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_enable DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_enable DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_enable}
   */
   readonly dataStreamEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_ilm_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_ilm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_ilm_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_ilm_name}
   */
   readonly dataStreamIlmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_ilm_policy DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_ilm_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_ilm_policy DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_ilm_policy}
   */
   readonly dataStreamIlmPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_ilm_policy_overwrite DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_ilm_policy_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_ilm_policy_overwrite DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_ilm_policy_overwrite}
   */
   readonly dataStreamIlmPolicyOverwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_name}
   */
   readonly dataStreamName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_template_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#data_stream_template_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#data_stream_template_name}
   */
   readonly dataStreamTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#default_elasticsearch_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#default_elasticsearch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#default_elasticsearch_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#default_elasticsearch_version}
   */
   readonly defaultElasticsearchVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#deflector_alias DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#deflector_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#deflector_alias DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#deflector_alias}
   */
   readonly deflectorAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#enable_ilm DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#enable_ilm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#enable_ilm DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#enable_ilm}
   */
   readonly enableIlm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#exception_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#exception_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#exception_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#exception_backup}
   */
   readonly exceptionBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#fail_on_detecting_es_version_retry_exceed DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#fail_on_detecting_es_version_retry_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#fail_on_detecting_es_version_retry_exceed DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#fail_on_detecting_es_version_retry_exceed}
   */
   readonly failOnDetectingEsVersionRetryExceed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#fail_on_putting_template_retry_exceed DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#fail_on_putting_template_retry_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#fail_on_putting_template_retry_exceed DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#fail_on_putting_template_retry_exceed}
   */
   readonly failOnPuttingTemplateRetryExceed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flatten_hashes DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flatten_hashes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flatten_hashes DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flatten_hashes}
   */
   readonly flattenHashes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flatten_hashes_separator DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flatten_hashes_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flatten_hashes_separator DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flatten_hashes_separator}
   */
   readonly flattenHashesSeparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#host DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#host DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#hosts DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#hosts DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#hosts}
   */
   readonly hosts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#http_backend DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#http_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#http_backend DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#http_backend}
   */
   readonly httpBackend?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#id_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#id_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#id_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#id_key}
   */
   readonly idKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ignore_exceptions DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ignore_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ignore_exceptions DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ignore_exceptions}
   */
   readonly ignoreExceptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ilm_policy DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ilm_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ilm_policy DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ilm_policy}
   */
   readonly ilmPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ilm_policy_id DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ilm_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ilm_policy_id DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ilm_policy_id}
   */
   readonly ilmPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ilm_policy_overwrite DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ilm_policy_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ilm_policy_overwrite DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ilm_policy_overwrite}
   */
   readonly ilmPolicyOverwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_index_in_url DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_index_in_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_index_in_url DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_index_in_url}
   */
   readonly includeIndexInUrl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_tag_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_tag_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_tag_key}
   */
   readonly includeTagKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_timestamp DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#include_timestamp DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#include_timestamp}
   */
   readonly includeTimestamp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#index_date_pattern DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#index_date_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#index_date_pattern DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#index_date_pattern}
   */
   readonly indexDatePattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#index_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#index_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#index_name}
   */
   readonly indexName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#index_prefix DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#index_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#index_prefix DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#index_prefix}
   */
   readonly indexPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_es_400_reason DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_es_400_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#log_es_400_reason DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#log_es_400_reason}
   */
   readonly logEs400Reason?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_dateformat DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_dateformat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_dateformat DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_dateformat}
   */
   readonly logstashDateformat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_format}
   */
   readonly logstashFormat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_prefix DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_prefix DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_prefix}
   */
   readonly logstashPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_prefix_separator DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_prefix_separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#logstash_prefix_separator DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#logstash_prefix_separator}
   */
   readonly logstashPrefixSeparator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_retry_get_es_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_retry_get_es_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_retry_get_es_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_retry_get_es_version}
   */
   readonly maxRetryGetEsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_retry_putting_template DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_retry_putting_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#max_retry_putting_template DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#max_retry_putting_template}
   */
   readonly maxRetryPuttingTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#password DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#password DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchPassword;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#pipeline DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#pipeline DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#pipeline}
   */
   readonly pipeline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#port DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#port DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#prefer_oj_serializer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#prefer_oj_serializer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#prefer_oj_serializer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#prefer_oj_serializer}
   */
   readonly preferOjSerializer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reconnect_on_error DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reconnect_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reconnect_on_error DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reconnect_on_error}
   */
   readonly reconnectOnError?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reload_after DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reload_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reload_after DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reload_after}
   */
   readonly reloadAfter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reload_connections DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reload_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reload_connections DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reload_connections}
   */
   readonly reloadConnections?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reload_on_failure DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reload_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#reload_on_failure DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#reload_on_failure}
   */
   readonly reloadOnFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_keys DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_keys DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_keys}
   */
   readonly removeKeys?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_keys_on_update DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_keys_on_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_keys_on_update DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_keys_on_update}
   */
   readonly removeKeysOnUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_keys_on_update_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_keys_on_update_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#remove_keys_on_update_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#remove_keys_on_update_key}
   */
   readonly removeKeysOnUpdateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#request_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#request_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#request_timeout}
   */
   readonly requestTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#resurrect_after DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#resurrect_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#resurrect_after DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#resurrect_after}
   */
   readonly resurrectAfter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_tag DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_tag DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_tag}
   */
   readonly retryTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#rollover_index DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#rollover_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#rollover_index DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#rollover_index}
   */
   readonly rolloverIndex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#routing_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#routing_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#routing_key}
   */
   readonly routingKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#scheme DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#scheme DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
   */
   readonly slowFlushLogThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#sniffer_class_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#sniffer_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#sniffer_class_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#sniffer_class_name}
   */
   readonly snifferClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_max_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_max_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_max_version}
   */
   readonly sslMaxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_min_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_min_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_min_version}
   */
   readonly sslMinVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_verify DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_verify DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_verify}
   */
   readonly sslVerify?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ssl_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ssl_version}
   */
   readonly sslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#suppress_doc_wrap DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#suppress_doc_wrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#suppress_doc_wrap DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#suppress_doc_wrap}
   */
   readonly suppressDocWrap?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#suppress_type_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#suppress_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#suppress_type_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#suppress_type_name}
   */
   readonly suppressTypeName?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tag_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tag_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tag_key}
   */
   readonly tagKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#target_index_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#target_index_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#target_index_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#target_index_key}
   */
   readonly targetIndexKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#target_type_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#target_type_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#target_type_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#target_type_key}
   */
   readonly targetTypeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#template_file DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#template_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#template_file DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#template_file}
   */
   readonly templateFile?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchTemplateFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#template_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#template_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#template_name}
   */
   readonly templateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#template_overwrite DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#template_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#template_overwrite DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#template_overwrite}
   */
   readonly templateOverwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#templates DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#templates DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#templates}
   */
   readonly templates?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_key}
   */
   readonly timeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_key_format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_key_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_key_format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_key_format}
   */
   readonly timeKeyFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_parse_error_tag DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_parse_error_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_parse_error_tag DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_parse_error_tag}
   */
   readonly timeParseErrorTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_precision DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_precision DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_precision}
   */
   readonly timePrecision?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type_name}
   */
   readonly typeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#unrecoverable_error_types DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#unrecoverable_error_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#unrecoverable_error_types DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#unrecoverable_error_types}
   */
   readonly unrecoverableErrorTypes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_legacy_template DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_legacy_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#use_legacy_template DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#use_legacy_template}
   */
   readonly useLegacyTemplate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#user DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#user DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#utc_index DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#utc_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#utc_index DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#utc_index}
   */
   readonly utcIndex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#validate_client_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#validate_client_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#validate_client_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#validate_client_version}
   */
   readonly validateClientVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#verify_es_version_at_startup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#verify_es_version_at_startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#verify_es_version_at_startup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#verify_es_version_at_startup}
   */
   readonly verifyEsVersionAtStartup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#with_transporter_log DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#with_transporter_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#with_transporter_log DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#with_transporter_log}
   */
   readonly withTransporterLog?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#write_operation DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#write_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#write_operation DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#write_operation}
   */
   readonly writeOperation?: string;
 }
@@ -33404,135 +33404,135 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecElasticsearchO
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecFileBuffer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
   */
   readonly chunkFullThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
   */
   readonly chunkLimitRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
   */
   readonly chunkLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
   */
   readonly compress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
   */
   readonly delayedCommitTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
   */
   readonly disableChunkBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
   */
   readonly flushAtShutdown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
   */
   readonly flushMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
   */
   readonly flushThreadBurstInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
   */
   readonly flushThreadCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
   */
   readonly flushThreadInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
   */
   readonly overflowAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
   */
   readonly queueLimitLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
   */
   readonly queuedChunksLimitSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
   */
   readonly retryExponentialBackoffBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
   */
   readonly retryForever?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
   */
   readonly retryMaxInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
   */
   readonly retryMaxTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
   */
   readonly retryRandomize?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
   */
   readonly retrySecondaryThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
   */
   readonly retryTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
   */
   readonly retryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
   */
   readonly retryWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
   */
   readonly timekey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
   */
   readonly timekeyUseUtc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
   */
   readonly timekeyWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
   */
   readonly timekeyZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
   */
   readonly totalLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -34554,15 +34554,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecFileBufferOutp
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecFileFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#add_newline DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#add_newline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#add_newline DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#add_newline}
   */
   readonly addNewline?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#message_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#message_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#message_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#message_key}
   */
   readonly messageKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -34714,43 +34714,43 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecFileFormatOutp
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#add_path_suffix DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#add_path_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#add_path_suffix DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#add_path_suffix}
   */
   readonly addPathSuffix?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#append DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#append DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#append}
   */
   readonly append?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
   */
   readonly buffer?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecFileBuffer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
   */
   readonly compress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#format DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#format}
   */
   readonly format?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecFileFormat;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path_suffix DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path_suffix DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path_suffix}
   */
   readonly pathSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#recompress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#recompress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#recompress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#recompress}
   */
   readonly recompress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
   */
   readonly slowFlushLogThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#symlink_path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#symlink_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#symlink_path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#symlink_path}
   */
   readonly symlinkPath?: boolean | cdktf.IResolvable;
 }
@@ -35102,135 +35102,135 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecFileOutputRefe
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardBuffer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
   */
   readonly chunkFullThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
   */
   readonly chunkLimitRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
   */
   readonly chunkLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
   */
   readonly compress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
   */
   readonly delayedCommitTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
   */
   readonly disableChunkBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
   */
   readonly flushAtShutdown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
   */
   readonly flushMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
   */
   readonly flushThreadBurstInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
   */
   readonly flushThreadCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
   */
   readonly flushThreadInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
   */
   readonly overflowAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
   */
   readonly queueLimitLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
   */
   readonly queuedChunksLimitSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
   */
   readonly retryExponentialBackoffBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
   */
   readonly retryForever?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
   */
   readonly retryMaxInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
   */
   readonly retryMaxTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
   */
   readonly retryRandomize?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
   */
   readonly retrySecondaryThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
   */
   readonly retryTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
   */
   readonly retryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
   */
   readonly retryWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
   */
   readonly timekey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
   */
   readonly timekeyUseUtc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
   */
   readonly timekeyWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
   */
   readonly timekeyZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
   */
   readonly totalLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -36252,19 +36252,19 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardBufferO
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#allow_anonymous_source DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#allow_anonymous_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#allow_anonymous_source DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#allow_anonymous_source}
   */
   readonly allowAnonymousSource?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#self_hostname DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#self_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#self_hostname DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#self_hostname}
   */
   readonly selfHostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#shared_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#shared_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#shared_key}
   */
   readonly sharedKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#user_auth DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#user_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#user_auth DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#user_auth}
   */
   readonly userAuth?: boolean | cdktf.IResolvable;
 }
@@ -36439,15 +36439,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardSecurit
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersPasswordMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -36596,7 +36596,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersPasswordMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersPasswordMountFromSecretKeyRef;
 }
@@ -36690,15 +36690,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersPasswordValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -36847,7 +36847,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersPasswordValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersPasswordValueFromSecretKeyRef;
 }
@@ -36941,15 +36941,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersPassword {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersPasswordMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersPasswordValueFrom;
 }
@@ -37101,15 +37101,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersSharedKeyMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -37258,7 +37258,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersSharedKeyMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersSharedKeyMountFromSecretKeyRef;
 }
@@ -37352,15 +37352,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersSharedKeyValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -37509,7 +37509,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersSharedKeyValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersSharedKeyValueFromSecretKeyRef;
 }
@@ -37603,15 +37603,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersSharedKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersSharedKeyMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersSharedKeyValueFrom;
 }
@@ -37763,15 +37763,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersUsernameMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -37920,7 +37920,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersUsernameMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersUsernameMountFromSecretKeyRef;
 }
@@ -38014,15 +38014,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersUsernameValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -38171,7 +38171,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersUsernameValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersUsernameValueFromSecretKeyRef;
 }
@@ -38265,15 +38265,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersUsername {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersUsernameMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersUsernameValueFrom;
 }
@@ -38425,35 +38425,35 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#host DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#host DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#password DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#password DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersPassword;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#port DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#port DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#shared_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#shared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#shared_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#shared_key}
   */
   readonly sharedKey?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersSharedKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#standby DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#standby DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#standby}
   */
   readonly standby?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#username DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#username DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServersUsername;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#weight DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#weight DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -38769,15 +38769,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCertPathMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -38926,7 +38926,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCert
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCertPathMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCertPathMountFromSecretKeyRef;
 }
@@ -39020,15 +39020,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCert
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCertPathValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -39177,7 +39177,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCert
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCertPathValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCertPathValueFromSecretKeyRef;
 }
@@ -39271,15 +39271,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCert
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCertPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCertPathMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCertPathValueFrom;
 }
@@ -39431,15 +39431,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCert
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientCertPathMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -39588,7 +39588,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientCertPathMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientCertPathMountFromSecretKeyRef;
 }
@@ -39682,15 +39682,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientCertPathValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -39839,7 +39839,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientCertPathValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientCertPathValueFromSecretKeyRef;
 }
@@ -39933,15 +39933,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientCertPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientCertPathMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientCertPathValueFrom;
 }
@@ -40093,15 +40093,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPassphraseMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -40250,7 +40250,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPassphraseMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPassphraseMountFromSecretKeyRef;
 }
@@ -40344,15 +40344,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPassphraseValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -40501,7 +40501,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPassphraseValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPassphraseValueFromSecretKeyRef;
 }
@@ -40595,15 +40595,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPassphrase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPassphraseMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPassphraseValueFrom;
 }
@@ -40755,15 +40755,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPathMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -40912,7 +40912,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPathMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPathMountFromSecretKeyRef;
 }
@@ -41006,15 +41006,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPathValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -41163,7 +41163,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPathValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPathValueFromSecretKeyRef;
 }
@@ -41257,15 +41257,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPathMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPathValueFrom;
 }
@@ -41417,139 +41417,139 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClie
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForward {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ack_response_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ack_response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ack_response_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ack_response_timeout}
   */
   readonly ackResponseTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#buffer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#buffer}
   */
   readonly buffer?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardBuffer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#connect_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#connect_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#dns_round_robin DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#dns_round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#dns_round_robin DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#dns_round_robin}
   */
   readonly dnsRoundRobin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#expire_dns_cache DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#expire_dns_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#expire_dns_cache DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#expire_dns_cache}
   */
   readonly expireDnsCache?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#hard_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#hard_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#hard_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#hard_timeout}
   */
   readonly hardTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#heartbeat_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#heartbeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#heartbeat_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#heartbeat_interval}
   */
   readonly heartbeatInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#heartbeat_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#heartbeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#heartbeat_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#heartbeat_type}
   */
   readonly heartbeatType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ignore_network_errors_at_startup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ignore_network_errors_at_startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#ignore_network_errors_at_startup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#ignore_network_errors_at_startup}
   */
   readonly ignoreNetworkErrorsAtStartup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#keepalive DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#keepalive DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#keepalive}
   */
   readonly keepalive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#keepalive_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#keepalive_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#keepalive_timeout}
   */
   readonly keepaliveTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#phi_failure_detector DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#phi_failure_detector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#phi_failure_detector DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#phi_failure_detector}
   */
   readonly phiFailureDetector?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#phi_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#phi_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#phi_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#phi_threshold}
   */
   readonly phiThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#recover_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#recover_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#recover_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#recover_wait}
   */
   readonly recoverWait?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#require_ack_response DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#require_ack_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#require_ack_response DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#require_ack_response}
   */
   readonly requireAckResponse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#security DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#security DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#security}
   */
   readonly security?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardSecurity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#send_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#send_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#send_timeout}
   */
   readonly sendTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#servers DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#servers DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#servers}
   */
   readonly servers: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardServers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#slow_flush_log_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#slow_flush_log_threshold}
   */
   readonly slowFlushLogThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_as_integer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_as_integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#time_as_integer DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#time_as_integer}
   */
   readonly timeAsInteger?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_allow_self_signed_cert DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_allow_self_signed_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_allow_self_signed_cert DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_allow_self_signed_cert}
   */
   readonly tlsAllowSelfSignedCert?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_cert_logical_store_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_cert_logical_store_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_cert_logical_store_name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_cert_logical_store_name}
   */
   readonly tlsCertLogicalStoreName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_cert_path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_cert_path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_cert_path}
   */
   readonly tlsCertPath?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsCertPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_cert_thumbprint DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_cert_thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_cert_thumbprint DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_cert_thumbprint}
   */
   readonly tlsCertThumbprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_cert_use_enterprise_store DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_cert_use_enterprise_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_cert_use_enterprise_store DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_cert_use_enterprise_store}
   */
   readonly tlsCertUseEnterpriseStore?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_ciphers DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_ciphers DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_ciphers}
   */
   readonly tlsCiphers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_client_cert_path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_client_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_client_cert_path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_client_cert_path}
   */
   readonly tlsClientCertPath?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientCertPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_client_private_key_passphrase DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_client_private_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_client_private_key_passphrase DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_client_private_key_passphrase}
   */
   readonly tlsClientPrivateKeyPassphrase?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPassphrase;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_client_private_key_path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_client_private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_client_private_key_path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_client_private_key_path}
   */
   readonly tlsClientPrivateKeyPath?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardTlsClientPrivateKeyPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_insecure_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_insecure_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_insecure_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_insecure_mode}
   */
   readonly tlsInsecureMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_verify_hostname DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_verify_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_verify_hostname DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_verify_hostname}
   */
   readonly tlsVerifyHostname?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tls_version DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tls_version}
   */
   readonly tlsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#transport DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#transport DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#transport}
   */
   readonly transport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#verify_connection_at_startup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#verify_connection_at_startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#verify_connection_at_startup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#verify_connection_at_startup}
   */
   readonly verifyConnectionAtStartup?: boolean | cdktf.IResolvable;
 }
@@ -42597,135 +42597,135 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecForwardOutputR
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsBuffer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_full_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_full_threshold}
   */
   readonly chunkFullThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_records DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_records}
   */
   readonly chunkLimitRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#chunk_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#chunk_limit_size}
   */
   readonly chunkLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#compress DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#compress}
   */
   readonly compress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#delayed_commit_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#delayed_commit_timeout}
   */
   readonly delayedCommitTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disable_chunk_backup DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disable_chunk_backup}
   */
   readonly disableChunkBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#disabled DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_at_shutdown DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_at_shutdown}
   */
   readonly flushAtShutdown?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_mode DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_mode}
   */
   readonly flushMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_burst_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_burst_interval}
   */
   readonly flushThreadBurstInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_count DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_count}
   */
   readonly flushThreadCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#flush_thread_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#flush_thread_interval}
   */
   readonly flushThreadInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#overflow_action DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#overflow_action}
   */
   readonly overflowAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#path DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queue_limit_length DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queue_limit_length}
   */
   readonly queueLimitLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#queued_chunks_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#queued_chunks_limit_size}
   */
   readonly queuedChunksLimitSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_exponential_backoff_base DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_exponential_backoff_base}
   */
   readonly retryExponentialBackoffBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_forever DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_forever}
   */
   readonly retryForever?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_interval DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_interval}
   */
   readonly retryMaxInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_max_times DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_max_times}
   */
   readonly retryMaxTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_randomize DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_randomize}
   */
   readonly retryRandomize?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_secondary_threshold DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_secondary_threshold}
   */
   readonly retrySecondaryThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_timeout DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_timeout}
   */
   readonly retryTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_type}
   */
   readonly retryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#retry_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#retry_wait}
   */
   readonly retryWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#tags DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey}
   */
   readonly timekey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_use_utc DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_use_utc}
   */
   readonly timekeyUseUtc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_wait DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_wait}
   */
   readonly timekeyWait?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#timekey_zone DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#timekey_zone}
   */
   readonly timekeyZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#total_limit_size DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#total_limit_size}
   */
   readonly totalLimitSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -43747,15 +43747,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsBufferOutpu
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentialsJsonMountFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -43904,7 +43904,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentials
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentialsJsonMountFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentialsJsonMountFromSecretKeyRef;
 }
@@ -43998,15 +43998,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentials
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentialsJsonValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#name DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#optional DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -44155,7 +44155,7 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentials
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentialsJsonValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#secret_key_ref DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentialsJsonValueFromSecretKeyRef;
 }
@@ -44249,15 +44249,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentials
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentialsJson {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#mount_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#mount_from}
   */
   readonly mountFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentialsJsonMountFrom;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#value_from DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentialsJsonValueFrom;
 }
@@ -44409,15 +44409,15 @@ export class DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsCredentials
 }
 export interface DataK8SLoggingBanzaicloudIoOutputV1Alpha1ManifestSpecGcsFormat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#add_newline DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#add_newline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#add_newline DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#add_newline}
   */
   readonly addNewline?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#message_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#message_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#message_key DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#message_key}
   */
   readonly messageKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/logging_banzaicloud_io_output_v1alpha1_manifest#type DataK8SLoggingBanzaicloudIoOutputV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }

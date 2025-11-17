@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manif
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestMetadata;
   /**
   * VSphereMachineConfigSpec defines the desired state of VSphereMachineConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manif
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestM
 }
 export interface DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestSpecHostOsConfigurationBottlerocketConfigurationBoot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#boot_kernel_parameters DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#boot_kernel_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#boot_kernel_parameters DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#boot_kernel_parameters}
   */
   readonly bootKernelParameters?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -313,7 +313,7 @@ export interface DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manif
   /**
   * SysctlSettings defines the kernel sysctl settings to set for bottlerocket nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#sysctl_settings DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#sysctl_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#sysctl_settings DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#sysctl_settings}
   */
   readonly sysctlSettings?: { [key: string]: string };
 }
@@ -409,187 +409,187 @@ export interface DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manif
   /**
   * AllowedUnsafeSysctls defines the list of unsafe sysctls that can be set on a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#allowed_unsafe_sysctls DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#allowed_unsafe_sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#allowed_unsafe_sysctls DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#allowed_unsafe_sysctls}
   */
   readonly allowedUnsafeSysctls?: string[];
   /**
   * ClusterDNSIPs defines IP addresses of the DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cluster_dnsi_ps DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cluster_dnsi_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cluster_dnsi_ps DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cluster_dnsi_ps}
   */
   readonly clusterDnsiPs?: string[];
   /**
   * ClusterDomain defines the DNS domain for the cluster, allowing all Kubernetes-run containers to search this domain before the host’s search domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cluster_domain DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cluster_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cluster_domain DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cluster_domain}
   */
   readonly clusterDomain?: string;
   /**
   * ContainerLogMaxFiles specifies the maximum number of container log files that can be present for a container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#container_log_max_files DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#container_log_max_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#container_log_max_files DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#container_log_max_files}
   */
   readonly containerLogMaxFiles?: number;
   /**
   * ContainerLogMaxSize is a quantity defining the maximum size of the container log file before it is rotated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#container_log_max_size DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#container_log_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#container_log_max_size DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#container_log_max_size}
   */
   readonly containerLogMaxSize?: string;
   /**
   * CPUCFSQuota enables CPU CFS quota enforcement for containers that specify CPU limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cpu_cfs_quota DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cpu_cfs_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cpu_cfs_quota DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cpu_cfs_quota}
   */
   readonly cpuCfsQuota?: boolean | cdktf.IResolvable;
   /**
   * CPUManagerPolicy is the name of the policy to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cpu_manager_policy DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cpu_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cpu_manager_policy DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cpu_manager_policy}
   */
   readonly cpuManagerPolicy?: string;
   /**
   * CPUManagerPolicyOptions is a set of key=value which allows to set extra options to fine tune the behaviour of the cpu manager policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cpu_manager_policy_options DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cpu_manager_policy_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cpu_manager_policy_options DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cpu_manager_policy_options}
   */
   readonly cpuManagerPolicyOptions?: { [key: string]: string };
   /**
   * CPUManagerReconcilePeriod is the reconciliation period for the CPU Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cpu_manager_reconcile_period DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cpu_manager_reconcile_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cpu_manager_reconcile_period DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cpu_manager_reconcile_period}
   */
   readonly cpuManagerReconcilePeriod?: string;
   /**
   * EventBurst is the maximum size of a burst of event creations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#event_burst DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#event_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#event_burst DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#event_burst}
   */
   readonly eventBurst?: number;
   /**
   * EventRecordQPS is the maximum event creations per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#event_record_qps DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#event_record_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#event_record_qps DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#event_record_qps}
   */
   readonly eventRecordQps?: number;
   /**
   * EvictionHard is a map of signal names to quantities that defines hard eviction thresholds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#eviction_hard DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#eviction_hard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#eviction_hard DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#eviction_hard}
   */
   readonly evictionHard?: { [key: string]: string };
   /**
   * EvictionMaxPodGracePeriod is the maximum allowed grace period (in seconds) to use when terminating pods in response to a soft eviction threshold being met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#eviction_max_pod_grace_period DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#eviction_max_pod_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#eviction_max_pod_grace_period DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#eviction_max_pod_grace_period}
   */
   readonly evictionMaxPodGracePeriod?: number;
   /**
   * EvictionSoft is a map of signal names to quantities that defines soft eviction thresholds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#eviction_soft DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#eviction_soft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#eviction_soft DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#eviction_soft}
   */
   readonly evictionSoft?: { [key: string]: string };
   /**
   * EvictionSoftGracePeriod is a map of signal names to quantities that defines grace periods for each soft eviction signal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#eviction_soft_grace_period DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#eviction_soft_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#eviction_soft_grace_period DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#eviction_soft_grace_period}
   */
   readonly evictionSoftGracePeriod?: { [key: string]: string };
   /**
   * ImageGCHighThresholdPercent is the percent of disk usage after which image garbage collection is always run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#image_gc_high_threshold_percent DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#image_gc_high_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#image_gc_high_threshold_percent DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#image_gc_high_threshold_percent}
   */
   readonly imageGcHighThresholdPercent?: number;
   /**
   * ImageGCLowThresholdPercent is the percent of disk usage before which image garbage collection is never run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#image_gc_low_threshold_percent DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#image_gc_low_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#image_gc_low_threshold_percent DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#image_gc_low_threshold_percent}
   */
   readonly imageGcLowThresholdPercent?: number;
   /**
   * KubeAPIBurst is the burst to allow while talking with kubernetes API server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#kube_api_burst DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#kube_api_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#kube_api_burst DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#kube_api_burst}
   */
   readonly kubeApiBurst?: number;
   /**
   * KubeAPIQPS is the QPS to use while talking with kubernetes apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#kube_apiqps DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#kube_apiqps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#kube_apiqps DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#kube_apiqps}
   */
   readonly kubeApiqps?: number;
   /**
   * KubeReserved is a set of ResourceName=ResourceQuantity pairs that describe resources reserved for kubernetes system components
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#kube_reserved DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#kube_reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#kube_reserved DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#kube_reserved}
   */
   readonly kubeReserved?: { [key: string]: string };
   /**
   * MaxPods defines the maximum number of pods that can run on a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#max_pods DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#max_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#max_pods DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#max_pods}
   */
   readonly maxPods?: number;
   /**
   * MemoryManagerPolicy is the name of the policy to use by memory manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#memory_manager_policy DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#memory_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#memory_manager_policy DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#memory_manager_policy}
   */
   readonly memoryManagerPolicy?: string;
   /**
   * PodPidsLimit is the maximum number of PIDs in any pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#pod_pids_limit DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#pod_pids_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#pod_pids_limit DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#pod_pids_limit}
   */
   readonly podPidsLimit?: number;
   /**
   * ProviderID sets the unique ID of the instance that an external provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#provider_id DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#provider_id DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#provider_id}
   */
   readonly providerId?: string;
   /**
   * RegistryBurst is the maximum size of bursty pulls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#registry_burst DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#registry_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#registry_burst DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#registry_burst}
   */
   readonly registryBurst?: number;
   /**
   * RegistryPullQPS is the limit of registry pulls per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#registry_pull_qps DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#registry_pull_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#registry_pull_qps DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#registry_pull_qps}
   */
   readonly registryPullQps?: number;
   /**
   * ShutdownGracePeriod specifies the total duration that the node should delay the shutdown and total grace period for pod termination during a node shutdown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#shutdown_grace_period DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#shutdown_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#shutdown_grace_period DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#shutdown_grace_period}
   */
   readonly shutdownGracePeriod?: string;
   /**
   * ShutdownGracePeriodCriticalPods specifies the duration used to terminate critical pods during a node shutdown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#shutdown_grace_period_critical_pods DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#shutdown_grace_period_critical_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#shutdown_grace_period_critical_pods DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#shutdown_grace_period_critical_pods}
   */
   readonly shutdownGracePeriodCriticalPods?: string;
   /**
   * SystemReserved is a set of ResourceName=ResourceQuantity pairs that describe resources reserved for non-kubernetes components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#system_reserved DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#system_reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#system_reserved DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#system_reserved}
   */
   readonly systemReserved?: { [key: string]: string };
   /**
   * TopologyManagerPolicy is the name of the topology manager policy to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#topology_manager_policy DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#topology_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#topology_manager_policy DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#topology_manager_policy}
   */
   readonly topologyManagerPolicy?: string;
   /**
   * TopologyManagerScope represents the scope of topology hint generation that topology manager requests and hint providers generate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#topology_manager_scope DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#topology_manager_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#topology_manager_scope DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#topology_manager_scope}
   */
   readonly topologyManagerScope?: string;
 }
@@ -1555,19 +1555,19 @@ export interface DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manif
   /**
   * Boot defines the boot settings for bottlerocket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#boot DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#boot DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#boot}
   */
   readonly boot?: DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestSpecHostOsConfigurationBottlerocketConfigurationBoot;
   /**
   * Kernel defines the kernel settings for bottlerocket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#kernel DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#kernel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#kernel DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#kernel}
   */
   readonly kernel?: DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestSpecHostOsConfigurationBottlerocketConfigurationKernel;
   /**
   * Kubernetes defines the Kubernetes settings on the host OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#kubernetes DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#kubernetes DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#kubernetes}
   */
   readonly kubernetes?: DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestSpecHostOsConfigurationBottlerocketConfigurationKubernetes;
 }
@@ -1721,13 +1721,13 @@ export interface DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manif
   /**
   * Data defines the cert bundle data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#data DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#data DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#data}
   */
   readonly data: string;
   /**
   * Name defines the cert bundle name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1868,7 +1868,7 @@ export interface DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manif
   /**
   * Servers defines a list of NTP servers to be configured on the host OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#servers DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#servers DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#servers}
   */
   readonly servers: string[];
 }
@@ -1961,17 +1961,17 @@ export interface DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manif
   /**
   * BottlerocketConfiguration defines the Bottlerocket configuration on the host OS. These settings only take effect when the 'osFamily' is bottlerocket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#bottlerocket_configuration DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#bottlerocket_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#bottlerocket_configuration DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#bottlerocket_configuration}
   */
   readonly bottlerocketConfiguration?: DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestSpecHostOsConfigurationBottlerocketConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cert_bundles DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cert_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#cert_bundles DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#cert_bundles}
   */
   readonly certBundles?: DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestSpecHostOsConfigurationCertBundles[] | cdktf.IResolvable;
   /**
   * NTPConfiguration defines the NTP configuration on the host OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#ntp_configuration DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#ntp_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#ntp_configuration DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#ntp_configuration}
   */
   readonly ntpConfiguration?: DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestSpecHostOsConfigurationNtpConfiguration;
 }
@@ -2123,11 +2123,11 @@ export class DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestS
 }
 export interface DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestSpecUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#ssh_authorized_keys DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#ssh_authorized_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#ssh_authorized_keys DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#ssh_authorized_keys}
   */
   readonly sshAuthorizedKeys: string[];
 }
@@ -2268,59 +2268,59 @@ export interface DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manif
   /**
   * CloneMode describes the clone mode to be used when cloning vSphere VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#clone_mode DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#clone_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#clone_mode DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#clone_mode}
   */
   readonly cloneMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#datastore DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#datastore DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#datastore}
   */
   readonly datastore: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#disk_gi_b DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#disk_gi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#disk_gi_b DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#disk_gi_b}
   */
   readonly diskGiB?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#folder DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#folder DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#folder}
   */
   readonly folder: string;
   /**
   * HostOSConfiguration defines the configuration settings on the host OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#host_os_configuration DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#host_os_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#host_os_configuration DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#host_os_configuration}
   */
   readonly hostOsConfiguration?: DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestSpecHostOsConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#memory_mi_b DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#memory_mi_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#memory_mi_b DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#memory_mi_b}
   */
   readonly memoryMiB: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#num_cp_us DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#num_cp_us}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#num_cp_us DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#num_cp_us}
   */
   readonly numCpUs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#os_family DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#os_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#os_family DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#os_family}
   */
   readonly osFamily: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#resource_pool DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#resource_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#resource_pool DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#resource_pool}
   */
   readonly resourcePool: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#storage_policy_name DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#storage_policy_name DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#tags DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#tags DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#tags}
   */
   readonly tags?: string[];
   /**
   * Template field is the template to use for provisioning the VM. It must include the Kubernetes version(s). For example, a template used for Kubernetes 1.27 could be ubuntu-2204-1.27.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#template DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#template DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#template}
   */
   readonly template?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#users DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#users DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest#users}
   */
   readonly users?: DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestSpecUsers[] | cdktf.IResolvable;
 }
@@ -2744,7 +2744,7 @@ export class DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1ManifestS
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest}
 */
 export class DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2760,7 +2760,7 @@ export class DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest 
   * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2772,7 +2772,7 @@ export class DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2783,8 +2783,8 @@ export class DataK8SAnywhereEksAmazonawsComVSphereMachineConfigV1Alpha1Manifest 
       terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_v_sphere_machine_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

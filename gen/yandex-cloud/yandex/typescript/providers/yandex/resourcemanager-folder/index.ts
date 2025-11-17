@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface ResourcemanagerFolderConfig extends cdktf.TerraformMetaArgument
   /**
   * ID of the cloud that the folder belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder#cloud_id ResourcemanagerFolder#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder#cloud_id ResourcemanagerFolder#cloud_id}
   */
   readonly cloudId?: string;
   /**
   * Description of the folder. 0-256 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder#description ResourcemanagerFolder#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder#description ResourcemanagerFolder#description}
   */
   readonly description?: string;
   /**
   * ID of the Folder resource to return.
   *  To get the folder ID, use a [FolderService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder#folder_id ResourcemanagerFolder#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder#folder_id ResourcemanagerFolder#folder_id}
   */
   readonly folderId?: string;
   /**
   * ID of the Folder resource to return.
   *  To get the folder ID, use a [FolderService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder#id ResourcemanagerFolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder#id ResourcemanagerFolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,18 +39,18 @@ export interface ResourcemanagerFolderConfig extends cdktf.TerraformMetaArgument
   /**
   * Resource labels as `` key:value `` pairs. Maximum of 64 per resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder#labels ResourcemanagerFolder#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder#labels ResourcemanagerFolder#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the folder.
   *  The name is unique within the cloud. 3-63 characters long.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder#name ResourcemanagerFolder#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder#name ResourcemanagerFolder#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder#timeouts ResourcemanagerFolder#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder#timeouts ResourcemanagerFolder#timeouts}
   */
   readonly timeouts?: ResourcemanagerFolderTimeouts;
 }
@@ -58,25 +58,25 @@ export interface ResourcemanagerFolderTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder#create ResourcemanagerFolder#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder#create ResourcemanagerFolder#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder#delete ResourcemanagerFolder#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder#delete ResourcemanagerFolder#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder#read ResourcemanagerFolder#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder#read ResourcemanagerFolder#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder#update ResourcemanagerFolder#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder#update ResourcemanagerFolder#update}
   */
   readonly update?: string;
 }
@@ -257,7 +257,7 @@ export class ResourcemanagerFolderTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder yandex_resourcemanager_folder}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder yandex_resourcemanager_folder}
 */
 export class ResourcemanagerFolder extends cdktf.TerraformResource {
 
@@ -273,7 +273,7 @@ export class ResourcemanagerFolder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourcemanagerFolder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourcemanagerFolder to import
-  * @param importFromId The id of the existing ResourcemanagerFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourcemanagerFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourcemanagerFolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class ResourcemanagerFolder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/resourcemanager_folder yandex_resourcemanager_folder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/resourcemanager_folder yandex_resourcemanager_folder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,8 +296,8 @@ export class ResourcemanagerFolder extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_resourcemanager_folder',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

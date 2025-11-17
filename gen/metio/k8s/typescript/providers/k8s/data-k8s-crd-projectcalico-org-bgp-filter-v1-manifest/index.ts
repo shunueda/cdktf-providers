@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#metadata DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#metadata DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#metadata}
   */
   readonly metadata: DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestMetadata;
   /**
   * BGPFilterSpec contains the IPv4 and IPv6 filter rules of the BGP Filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#spec DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#spec DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#spec}
   */
   readonly spec?: DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#annotations DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#annotations DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#labels DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#labels DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#name DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#name DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,11 +185,11 @@ export class DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestMetadataOutputReferenc
 }
 export interface DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecExportV4PrefixLength {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#max DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#max DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#min DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#min DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#min}
   */
   readonly min?: number;
 }
@@ -312,27 +312,27 @@ export class DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecExportV4PrefixLeng
 }
 export interface DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecExportV4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#action DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#action DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#interface DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#interface DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#match_operator DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#match_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#match_operator DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#match_operator}
   */
   readonly matchOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#prefix_length DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#prefix_length DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#prefix_length}
   */
   readonly prefixLength?: DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecExportV4PrefixLength;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#source DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#source DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#source}
   */
   readonly source?: string;
 }
@@ -590,11 +590,11 @@ export class DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecExportV4List exten
 }
 export interface DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecExportV6PrefixLength {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#max DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#max DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#min DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#min DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#min}
   */
   readonly min?: number;
 }
@@ -717,27 +717,27 @@ export class DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecExportV6PrefixLeng
 }
 export interface DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecExportV6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#action DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#action DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#interface DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#interface DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#match_operator DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#match_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#match_operator DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#match_operator}
   */
   readonly matchOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#prefix_length DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#prefix_length DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#prefix_length}
   */
   readonly prefixLength?: DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecExportV6PrefixLength;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#source DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#source DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#source}
   */
   readonly source?: string;
 }
@@ -995,11 +995,11 @@ export class DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecExportV6List exten
 }
 export interface DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecImportV4PrefixLength {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#max DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#max DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#min DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#min DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#min}
   */
   readonly min?: number;
 }
@@ -1122,27 +1122,27 @@ export class DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecImportV4PrefixLeng
 }
 export interface DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecImportV4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#action DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#action DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#interface DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#interface DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#match_operator DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#match_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#match_operator DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#match_operator}
   */
   readonly matchOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#prefix_length DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#prefix_length DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#prefix_length}
   */
   readonly prefixLength?: DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecImportV4PrefixLength;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#source DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#source DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#source}
   */
   readonly source?: string;
 }
@@ -1400,11 +1400,11 @@ export class DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecImportV4List exten
 }
 export interface DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecImportV6PrefixLength {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#max DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#max DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#min DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#min DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#min}
   */
   readonly min?: number;
 }
@@ -1527,27 +1527,27 @@ export class DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecImportV6PrefixLeng
 }
 export interface DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecImportV6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#action DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#action DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#interface DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#interface DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#match_operator DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#match_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#match_operator DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#match_operator}
   */
   readonly matchOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#prefix_length DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#prefix_length DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#prefix_length}
   */
   readonly prefixLength?: DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecImportV6PrefixLength;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#source DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#source DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#source}
   */
   readonly source?: string;
 }
@@ -1807,25 +1807,25 @@ export interface DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpec {
   /**
   * The ordered set of IPv4 BGPFilter rules acting on exporting routes to a peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#export_v4 DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#export_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#export_v4 DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#export_v4}
   */
   readonly exportV4?: DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecExportV4[] | cdktf.IResolvable;
   /**
   * The ordered set of IPv6 BGPFilter rules acting on exporting routes to a peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#export_v6 DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#export_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#export_v6 DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#export_v6}
   */
   readonly exportV6?: DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecExportV6[] | cdktf.IResolvable;
   /**
   * The ordered set of IPv4 BGPFilter rules acting on importing routes from a peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#import_v4 DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#import_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#import_v4 DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#import_v4}
   */
   readonly importV4?: DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecImportV4[] | cdktf.IResolvable;
   /**
   * The ordered set of IPv6 BGPFilter rules acting on importing routes from a peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#import_v6 DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#import_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#import_v6 DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest#import_v6}
   */
   readonly importV6?: DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecImportV6[] | cdktf.IResolvable;
 }
@@ -2006,7 +2006,7 @@ export class DataK8SCrdProjectcalicoOrgBgpFilterV1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest k8s_crd_projectcalico_org_bgp_filter_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest k8s_crd_projectcalico_org_bgp_filter_v1_manifest}
 */
 export class DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest extends cdktf.TerraformDataSource {
 
@@ -2022,7 +2022,7 @@ export class DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2034,7 +2034,7 @@ export class DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest k8s_crd_projectcalico_org_bgp_filter_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/crd_projectcalico_org_bgp_filter_v1_manifest k8s_crd_projectcalico_org_bgp_filter_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2045,8 +2045,8 @@ export class DataK8SCrdProjectcalicoOrgBgpFilterV1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_crd_projectcalico_org_bgp_filter_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

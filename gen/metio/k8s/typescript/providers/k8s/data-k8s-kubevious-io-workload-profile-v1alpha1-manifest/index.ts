@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#metadata DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#metadata DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#spec DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#spec DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#annotations DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#annotations DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#name DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespace DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespace DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,15 +215,15 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestMetadataOutputRefe
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -391,15 +391,15 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAf
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -567,11 +567,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAf
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_fields DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_fields DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -694,11 +694,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAf
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#preference DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#preference DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#weight DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#weight DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -837,15 +837,15 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAf
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1013,15 +1013,15 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAf
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1189,11 +1189,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAf
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_fields DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_fields DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1338,7 +1338,7 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAf
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#node_selector_terms DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#node_selector_terms DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1429,11 +1429,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAf
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1556,15 +1556,15 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAf
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1732,11 +1732,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAff
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1859,15 +1859,15 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAff
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2035,11 +2035,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAff
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2162,19 +2162,19 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAff
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#label_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#label_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespace_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespace_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespaces DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespaces DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#topology_key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#topology_key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2352,11 +2352,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAff
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#pod_affinity_term DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#pod_affinity_term DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#weight DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#weight DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2495,15 +2495,15 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAff
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2671,11 +2671,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAff
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2798,15 +2798,15 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAff
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2974,11 +2974,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAff
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3101,19 +3101,19 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAff
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#label_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#label_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespace_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespace_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespaces DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespaces DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#topology_key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#topology_key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3313,11 +3313,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAff
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3440,15 +3440,15 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAff
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3616,11 +3616,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAnt
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3743,15 +3743,15 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAnt
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3919,11 +3919,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAnt
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4046,19 +4046,19 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAnt
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#label_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#label_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespace_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespace_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespaces DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespaces DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#topology_key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#topology_key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4236,11 +4236,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAnt
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#pod_affinity_term DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#pod_affinity_term DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#weight DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#weight DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4379,15 +4379,15 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAnt
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4555,11 +4555,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAnt
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4682,15 +4682,15 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAnt
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#operator DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#values DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4858,11 +4858,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAnt
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_expressions DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#match_labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4985,19 +4985,19 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAnt
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#label_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#label_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespace_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespace_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespaces DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#namespaces DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#topology_key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#topology_key DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5197,11 +5197,11 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAnt
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5324,15 +5324,15 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAnt
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#node_affinity DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#node_affinity DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#pod_affinity DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#pod_affinity DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#pod_anti_affinity DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#pod_anti_affinity DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityPodAntiAffinity;
 }
@@ -5484,27 +5484,27 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinityOutput
 }
 export interface DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#affinity DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#affinity DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#annotations DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#annotations DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#infra DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#infra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#infra DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#infra}
   */
   readonly infra?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#labels DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#node_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#node_selector DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#replicas DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#replicas DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest#replicas}
   */
   readonly replicas?: string;
 }
@@ -5743,7 +5743,7 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest k8s_kubevious_io_workload_profile_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest k8s_kubevious_io_workload_profile_v1alpha1_manifest}
 */
 export class DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -5759,7 +5759,7 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5771,7 +5771,7 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest k8s_kubevious_io_workload_profile_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubevious_io_workload_profile_v1alpha1_manifest k8s_kubevious_io_workload_profile_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5782,8 +5782,8 @@ export class DataK8SKubeviousIoWorkloadProfileV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_kubevious_io_workload_profile_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

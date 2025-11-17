@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment
+// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EntityEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identity of the Britive application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment#application_id EntityEnvironment#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment#application_id EntityEnvironment#application_id}
   */
   readonly applicationId: string;
   /**
   * The identity of the application entity of type environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment#entity_id EntityEnvironment#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment#entity_id EntityEnvironment#entity_id}
   */
   readonly entityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment#id EntityEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment#id EntityEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface EntityEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The parent group id under which the environment will be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment#parent_group_id EntityEnvironment#parent_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment#parent_group_id EntityEnvironment#parent_group_id}
   */
   readonly parentGroupId: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment#properties EntityEnvironment#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment#properties EntityEnvironment#properties}
   */
   readonly properties?: EntityEnvironmentProperties[] | cdktf.IResolvable;
   /**
   * sensitive_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment#sensitive_properties EntityEnvironment#sensitive_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment#sensitive_properties EntityEnvironment#sensitive_properties}
   */
   readonly sensitiveProperties?: EntityEnvironmentSensitiveProperties[] | cdktf.IResolvable;
 }
@@ -49,13 +49,13 @@ export interface EntityEnvironmentProperties {
   /**
   * Britive application entity environment property name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment#name EntityEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment#name EntityEnvironment#name}
   */
   readonly name: string;
   /**
   * Britive application entity environment property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment#value EntityEnvironment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment#value EntityEnvironment#value}
   */
   readonly value: string;
 }
@@ -196,13 +196,13 @@ export interface EntityEnvironmentSensitiveProperties {
   /**
   * Britive application entity environment property name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment#name EntityEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment#name EntityEnvironment#name}
   */
   readonly name: string;
   /**
   * Britive application entity environment property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment#value EntityEnvironment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment#value EntityEnvironment#value}
   */
   readonly value: string;
 }
@@ -341,7 +341,7 @@ export class EntityEnvironmentSensitivePropertiesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment britive_entity_environment}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment britive_entity_environment}
 */
 export class EntityEnvironment extends cdktf.TerraformResource {
 
@@ -357,7 +357,7 @@ export class EntityEnvironment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EntityEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EntityEnvironment to import
-  * @param importFromId The id of the existing EntityEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EntityEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EntityEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -369,7 +369,7 @@ export class EntityEnvironment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/entity_environment britive_entity_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/entity_environment britive_entity_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -380,8 +380,8 @@ export class EntityEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'britive_entity_environment',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.4',
-        providerVersionConstraint: '2.2.4'
+        providerVersion: '2.2.5',
+        providerVersionConstraint: '2.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

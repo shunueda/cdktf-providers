@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#metadata DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#metadata DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestMetadata;
   /**
   * AppWrapperSpec describes how the App Wrapper will look like.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#spec DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#spec DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#spec}
   */
   readonly spec: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#annotations DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#annotations DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#labels DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#labels DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#name DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#name DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#namespace DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#namespace DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,17 +219,17 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecResourc
   /**
   * ResourceList is a set of (resource name, quantity) pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#limits DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#limits DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#replicas DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#replicas DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#replicas}
   */
   readonly replicas: number;
   /**
   * todo: replace with Containers []Container Contain v1.ResourceRequirements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#requests DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#requests DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#requests}
   */
   readonly requests: { [key: string]: string };
 }
@@ -399,49 +399,49 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecResourc
   /**
   * The number of allocated replicas from this resource type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#allocated DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#allocated DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#allocated}
   */
   readonly allocated?: number;
   /**
   * Optional field that drives completion status of this AppWrapper. This field within an item of an AppWrapper determines the full state of the AppWrapper. The completionstatus field contains a list of conditions that make the associate item considered completed, for instance: - completion conditions could be 'Complete' or 'Failed'. The associated item's level .status.conditions[].type field is monitored for any one of these conditions. Once all items with this option is set and the conditionstatus is met the entire AppWrapper state will be changed to one of the valid AppWrapper completion state. Note: - this is an AND operation for all items where this option is set. See the list of AppWrapper states for a list of valid complete states.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#completionstatus DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#completionstatus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#completionstatus DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#completionstatus}
   */
   readonly completionstatus?: string;
   /**
   * Optional section that specifies resource requirements for non-standard k8s resources, follows same format as that of standard k8s resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#custompodresources DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#custompodresources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#custompodresources DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#custompodresources}
   */
   readonly custompodresources?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecResourcesGenericItemsCustompodresources[] | cdktf.IResolvable;
   /**
   * The template for the resource; it is now a raw text because we don't know for what resource it should be instantiated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#generictemplate DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#generictemplate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#generictemplate DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#generictemplate}
   */
   readonly generictemplate?: { [key: string]: string };
   /**
   * The minimal available pods to run for this AppWrapper; the default value is nil
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#minavailable DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#minavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#minavailable DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#minavailable}
   */
   readonly minavailable?: number;
   /**
   * The priority of this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#priority DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#priority DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * The increasing rate of priority value for this resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#priorityslope DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#priorityslope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#priorityslope DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#priorityslope}
   */
   readonly priorityslope?: number;
   /**
   * Replicas is the number of desired replicas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#replicas DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#replicas DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -760,7 +760,7 @@ export class DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecResourcesGe
 }
 export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#generic_items DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#generic_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#generic_items DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#generic_items}
   */
   readonly genericItems?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecResourcesGenericItems[] | cdktf.IResolvable;
 }
@@ -854,15 +854,15 @@ export class DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecResourcesOu
 }
 export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecSchedulingSpecDispatchDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#expected DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#expected DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#expected}
   */
   readonly expected?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#limit DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#limit DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#overrun DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#overrun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#overrun DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#overrun}
   */
   readonly overrun?: boolean | cdktf.IResolvable;
 }
@@ -1016,37 +1016,37 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecSchedul
   /**
   * Growth strategy to increase the waiting time between requeuing checks. The values available are 'exponential', 'linear', or 'none'. For example, 'exponential' growth would double the 'timeInSeconds' value every time a requeuing event is triggered. If the string value is misspelled or not one of the possible options, the growth behavior is defaulted to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#growth_type DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#growth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#growth_type DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#growth_type}
   */
   readonly growthType?: string;
   /**
   * Value to keep track of the initial wait time. Users cannot set this as it is taken from 'timeInSeconds'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#initial_time_in_seconds DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#initial_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#initial_time_in_seconds DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#initial_time_in_seconds}
   */
   readonly initialTimeInSeconds?: number;
   /**
   * Maximum number of requeuing events allowed. Once this value is reached (e.g., 'numRequeuings = maxNumRequeuings', no more requeuing checks are performed and the generic items are stopped and removed from the cluster (AppWrapper remains deployed).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#max_num_requeuings DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#max_num_requeuings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#max_num_requeuings DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#max_num_requeuings}
   */
   readonly maxNumRequeuings?: number;
   /**
   * Maximum waiting time for requeuing checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#max_time_in_seconds DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#max_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#max_time_in_seconds DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#max_time_in_seconds}
   */
   readonly maxTimeInSeconds?: number;
   /**
   * Field to keep track of how many times a requeuing event has been triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#num_requeuings DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#num_requeuings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#num_requeuings DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#num_requeuings}
   */
   readonly numRequeuings?: number;
   /**
   * Initial waiting time before requeuing conditions are checked. This value is specified by the user, but it may grow as requeuing events happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#time_in_seconds DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#time_in_seconds DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#time_in_seconds}
   */
   readonly timeInSeconds?: number;
 }
@@ -1287,23 +1287,23 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecSchedul
   /**
   * Wall clock duration time of appwrapper in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#dispatch_duration DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#dispatch_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#dispatch_duration DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#dispatch_duration}
   */
   readonly dispatchDuration?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecSchedulingSpecDispatchDuration;
   /**
   * Expected number of pods in running and/or completed state. Requeuing is triggered when the number of running/completed pods is not equal to this value. When not specified, requeuing is disabled and no check is performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#min_available DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#min_available DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#min_available}
   */
   readonly minAvailable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#node_selector DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#node_selector DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Specification of the requeuing strategy based on waiting time. Values in this field control how often the pod check should happen, and if requeuing has reached its maximum number of times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#requeuing DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#requeuing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#requeuing DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#requeuing}
   */
   readonly requeuing?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecSchedulingSpecRequeuing;
 }
@@ -1486,19 +1486,19 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecSelecto
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#key DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#key DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#operator DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#operator DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#values DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#values DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1668,13 +1668,13 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecSelecto
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#match_expressions DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#match_expressions DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#match_labels DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#match_labels DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1799,37 +1799,37 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecService
   /**
   * The application protocol for this port. This field follows standard Kubernetes label syntax. Un-prefixed names are reserved for IANA standard service names (as per RFC-6335 and https://www.iana.org/assignments/service-names). Non-standard protocols should use prefixed names such as mycompany.com/my-custom-protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#app_protocol DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#app_protocol DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
   * The name of this port within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. When considering the endpoints for a Service, this must match the 'name' field in the EndpointPort. Optional if only one ServicePort is defined on this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#name DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#name DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * The port on each node on which this service is exposed when type is NodePort or LoadBalancer. Usually assigned by the system. If a value is specified, in-range, and not in use it will be used, otherwise the operation will fail. If not specified, a port will be allocated if this Service requires one. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type from NodePort to ClusterIP). More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#node_port DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#node_port DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
   * The port that will be exposed by this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#port DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#port DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * The IP protocol for this port. Supports 'TCP', 'UDP', and 'SCTP'. Default is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#protocol DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#protocol DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Number or name of the port to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named port in the target Pod's container ports. If this is not specified, the value of the 'port' field is used (an identity map). This field is ignored for services with clusterIP=None, and should be omitted or set equal to the 'port' field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#target_port DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#target_port DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#target_port}
   */
   readonly targetPort?: string;
 }
@@ -2089,7 +2089,7 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecService
   /**
   * timeoutSeconds specifies the seconds of ClientIP type session sticky time. The value must be >0 && <=86400(for 1 day) if ServiceAffinity == 'ClientIP'. Default value is 10800(for 3 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#timeout_seconds DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#timeout_seconds DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -2185,7 +2185,7 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecService
   /**
   * clientIP contains the configurations of Client IP based session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#client_ip DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#client_ip DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#client_ip}
   */
   readonly clientIp?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecServiceSpecSessionAffinityConfigClientIp;
 }
@@ -2281,115 +2281,115 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecService
   /**
   * allocateLoadBalancerNodePorts defines if NodePorts will be automatically allocated for services with type LoadBalancer. Default is 'true'. It may be set to 'false' if the cluster load-balancer does not rely on NodePorts. If the caller requests specific NodePorts (by specifying a value), those requests will be respected, regardless of this field. This field may only be set for services with type LoadBalancer and will be cleared if the type is changed to any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#allocate_load_balancer_node_ports DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#allocate_load_balancer_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#allocate_load_balancer_node_ports DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#allocate_load_balancer_node_ports}
   */
   readonly allocateLoadBalancerNodePorts?: boolean | cdktf.IResolvable;
   /**
   * ClusterIPs is a list of IP addresses assigned to this service, and are usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be empty) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. If this field is not specified, it will be initialized from the clusterIP field. If this field is specified, clients must ensure that clusterIPs[0] and clusterIP have the same value. This field may hold a maximum of two entries (dual-stack IPs, in either order). These IPs must correspond to the values of the ipFamilies field. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#cluster_i_ps DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#cluster_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#cluster_i_ps DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#cluster_i_ps}
   */
   readonly clusterIPs?: string[];
   /**
   * clusterIP is the IP address of the service and is usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be blank) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#cluster_ip DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#cluster_ip DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#cluster_ip}
   */
   readonly clusterIp?: string;
   /**
   * externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service. These IPs are not managed by Kubernetes. The user is responsible for ensuring that traffic arrives at a node with this IP. A common example is external load-balancers that are not part of the Kubernetes system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#external_i_ps DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#external_i_ps DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#external_i_ps}
   */
   readonly externalIPs?: string[];
   /**
   * externalName is the external reference that discovery mechanisms will return as an alias for this service (e.g. a DNS CNAME record). No proxying will be involved. Must be a lowercase RFC-1123 hostname (https://tools.ietf.org/html/rfc1123) and requires 'type' to be 'ExternalName'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#external_name DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#external_name DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#external_name}
   */
   readonly externalName?: string;
   /**
   * externalTrafficPolicy describes how nodes distribute service traffic they receive on one of the Service's 'externally-facing' addresses (NodePorts, ExternalIPs, and LoadBalancer IPs). If set to 'Local', the proxy will configure the service in a way that assumes that external load balancers will take care of balancing the service traffic between nodes, and so each node will deliver traffic only to the node-local endpoints of the service, without masquerading the client source IP. (Traffic mistakenly sent to a node with no endpoints will be dropped.) The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features). Note that traffic sent to an External IP or LoadBalancer IP from within the cluster will always get 'Cluster' semantics, but clients sending to a NodePort from within the cluster may need to take traffic policy into account when picking a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#external_traffic_policy DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#external_traffic_policy DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * healthCheckNodePort specifies the healthcheck nodePort for the service. This only applies when type is set to LoadBalancer and externalTrafficPolicy is set to Local. If a value is specified, is in-range, and is not in use, it will be used. If not specified, a value will be automatically allocated. External systems (e.g. load-balancers) can use this port to determine if a given node holds endpoints for this service or not. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type). This field cannot be updated once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#health_check_node_port DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#health_check_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#health_check_node_port DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#health_check_node_port}
   */
   readonly healthCheckNodePort?: number;
   /**
   * InternalTrafficPolicy describes how nodes distribute service traffic they receive on the ClusterIP. If set to 'Local', the proxy will assume that pods only want to talk to endpoints of the service on the same node as the pod, dropping the traffic if there are no local endpoints. The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#internal_traffic_policy DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#internal_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#internal_traffic_policy DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#internal_traffic_policy}
   */
   readonly internalTrafficPolicy?: string;
   /**
   * IPFamilies is a list of IP families (e.g. IPv4, IPv6) assigned to this service. This field is usually assigned automatically based on cluster configuration and the ipFamilyPolicy field. If this field is specified manually, the requested family is available in the cluster, and ipFamilyPolicy allows it, it will be used; otherwise creation of the service will fail. This field is conditionally mutable: it allows for adding or removing a secondary IP family, but it does not allow changing the primary IP family of the Service. Valid values are 'IPv4' and 'IPv6'. This field only applies to Services of types ClusterIP, NodePort, and LoadBalancer, and does apply to 'headless' services. This field will be wiped when updating a Service to type ExternalName. This field may hold a maximum of two entries (dual-stack families, in either order). These families must correspond to the values of the clusterIPs field, if specified. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#ip_families DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#ip_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#ip_families DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#ip_families}
   */
   readonly ipFamilies?: string[];
   /**
   * IPFamilyPolicy represents the dual-stack-ness requested or required by this Service. If there is no value provided, then this field will be set to SingleStack. Services can be 'SingleStack' (a single IP family), 'PreferDualStack' (two IP families on dual-stack configured clusters or a single IP family on single-stack clusters), or 'RequireDualStack' (two IP families on dual-stack configured clusters, otherwise fail). The ipFamilies and clusterIPs fields depend on the value of this field. This field will be wiped when updating a service to type ExternalName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#ip_family_policy DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#ip_family_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#ip_family_policy DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#ip_family_policy}
   */
   readonly ipFamilyPolicy?: string;
   /**
   * loadBalancerClass is the class of the load balancer implementation this Service belongs to. If specified, the value of this field must be a label-style identifier, with an optional prefix, e.g. 'internal-vip' or 'example.com/internal-vip'. Unprefixed names are reserved for end-users. This field can only be set when the Service type is 'LoadBalancer'. If not set, the default load balancer implementation is used, today this is typically done through the cloud provider integration, but should apply for any default implementation. If set, it is assumed that a load balancer implementation is watching for Services with a matching class. Any default load balancer implementation (e.g. cloud providers) should ignore Services that set this field. This field can only be set when creating or updating a Service to type 'LoadBalancer'. Once set, it can not be changed. This field will be wiped when a service is updated to a non 'LoadBalancer' type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#load_balancer_class DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#load_balancer_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#load_balancer_class DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#load_balancer_class}
   */
   readonly loadBalancerClass?: string;
   /**
   * Only applies to Service Type: LoadBalancer. This feature depends on whether the underlying cloud-provider supports specifying the loadBalancerIP when a load balancer is created. This field will be ignored if the cloud-provider does not support the feature. Deprecated: This field was under-specified and its meaning varies across implementations, and it cannot support dual-stack. As of Kubernetes v1.24, users are encouraged to use implementation-specific annotations when available. This field may be removed in a future API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#load_balancer_ip DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#load_balancer_ip DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
   * If specified and supported by the platform, this will restrict traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.' More info: https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#load_balancer_source_ranges DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#load_balancer_source_ranges DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
   * The list of ports that are exposed by this service. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#ports DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#ports DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#ports}
   */
   readonly ports?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecServiceSpecPorts[] | cdktf.IResolvable;
   /**
   * publishNotReadyAddresses indicates that any agent which deals with endpoints for this Service should disregard any indications of ready/not-ready. The primary use case for setting this field is for a StatefulSet's Headless Service to propagate SRV DNS records for its Pods for the purpose of peer discovery. The Kubernetes controllers that generate Endpoints and EndpointSlice resources for Services interpret this to mean that all endpoints are considered 'ready' even if the Pods themselves are not. Agents which consume only Kubernetes generated endpoints through the Endpoints or EndpointSlice resources can safely assume this behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#publish_not_ready_addresses DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#publish_not_ready_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#publish_not_ready_addresses DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#publish_not_ready_addresses}
   */
   readonly publishNotReadyAddresses?: boolean | cdktf.IResolvable;
   /**
   * Route service traffic to pods with label keys and values matching this selector. If empty or not present, the service is assumed to have an external process managing its endpoints, which Kubernetes will not modify. Only applies to types ClusterIP, NodePort, and LoadBalancer. Ignored if type is ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#selector DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#selector DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
   * Supports 'ClientIP' and 'None'. Used to maintain session affinity. Enable client IP based session affinity. Must be ClientIP or None. Defaults to None. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#session_affinity DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#session_affinity DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
   * sessionAffinityConfig contains the configurations of session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#session_affinity_config DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#session_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#session_affinity_config DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#session_affinity_config}
   */
   readonly sessionAffinityConfig?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecServiceSpecSessionAffinityConfig;
   /**
   * type determines how the Service is exposed. Defaults to ClusterIP. Valid options are ExternalName, ClusterIP, NodePort, and LoadBalancer. 'ClusterIP' allocates a cluster-internal IP address for load-balancing to endpoints. Endpoints are determined by the selector or if that is not specified, by manual construction of an Endpoints object or EndpointSlice objects. If clusterIP is 'None', no virtual IP is allocated and the endpoints are published as a set of endpoints rather than a virtual IP. 'NodePort' builds on ClusterIP and allocates a port on every node which routes to the same endpoints as the clusterIP. 'LoadBalancer' builds on NodePort and creates an external load-balancer (if supported in the current cloud) which routes to the same endpoints as the clusterIP. 'ExternalName' aliases this service to the specified externalName. Several other fields do not apply to ExternalName services. More info: https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#type DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#type DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -3007,7 +3007,7 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecService
   /**
   * ServiceSpec describes the attributes that a user creates on a service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#spec DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#spec DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#spec}
   */
   readonly spec: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecServiceSpec;
 }
@@ -3098,35 +3098,35 @@ export class DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecServiceOutp
 }
 export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#priority DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#priority DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#priorityslope DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#priorityslope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#priorityslope DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#priorityslope}
   */
   readonly priorityslope?: number;
   /**
   * a collection of AppWrapperResource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#resources DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#resources DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#resources}
   */
   readonly resources: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecResources;
   /**
   * SchedSpec specifies the parameters used for scheduling generic items wrapped inside AppWrappers. It defines the policy for requeuing jobs based on the number of running pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#scheduling_spec DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#scheduling_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#scheduling_spec DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#scheduling_spec}
   */
   readonly schedulingSpec?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecSchedulingSpec;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#selector DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#selector DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#selector}
   */
   readonly selector?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecSelector;
   /**
   * AppWrapperService is App Wrapper service definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#service DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#service DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest#service}
   */
   readonly service?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecService;
 }
@@ -3362,7 +3362,7 @@ export class DataK8SWorkloadCodeflareDevAppWrapperV1Beta1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest k8s_workload_codeflare_dev_app_wrapper_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest k8s_workload_codeflare_dev_app_wrapper_v1beta1_manifest}
 */
 export class DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -3378,7 +3378,7 @@ export class DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3390,7 +3390,7 @@ export class DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest k8s_workload_codeflare_dev_app_wrapper_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta1_manifest k8s_workload_codeflare_dev_app_wrapper_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3401,8 +3401,8 @@ export class DataK8SWorkloadCodeflareDevAppWrapperV1Beta1Manifest extends cdktf.
       terraformResourceType: 'k8s_workload_codeflare_dev_app_wrapper_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

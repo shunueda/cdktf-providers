@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#metadata DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#metadata DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#spec DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#spec DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#annotations DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#annotations DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#labels DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#labels DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#name DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#name DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#namespace DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#namespace DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,11 +215,11 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestMetadataOutputReference 
 }
 export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabaseMysqlPasswordSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#field DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#field DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#name DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#name DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -342,27 +342,27 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabaseMysqlPasswor
 }
 export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabaseMysql {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#database DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#database DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#database}
   */
   readonly database?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#host DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#host DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#password_secret DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#password_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#password_secret DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#password_secret}
   */
   readonly passwordSecret?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabaseMysqlPasswordSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#port DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#port DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#url DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#url DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#username DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#username DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -601,11 +601,11 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabaseMysqlOutputR
 }
 export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabasePostgresPasswordSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#field DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#field DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#name DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#name DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -728,27 +728,27 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabasePostgresPass
 }
 export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabasePostgres {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#database DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#database DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#database}
   */
   readonly database?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#host DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#host DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#password_secret DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#password_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#password_secret DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#password_secret}
   */
   readonly passwordSecret?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabasePostgresPasswordSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#port DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#port DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#url DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#url DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#username DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#username DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -987,15 +987,15 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabasePostgresOutp
 }
 export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabase {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#embedded DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#embedded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#embedded DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#embedded}
   */
   readonly embedded?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#mysql DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#mysql DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#mysql}
   */
   readonly mysql?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabaseMysql;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#postgres DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#postgres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#postgres DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#postgres}
   */
   readonly postgres?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabasePostgres;
 }
@@ -1147,11 +1147,11 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabaseOutputRefere
 }
 export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecImageOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#image DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#image DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#pull_policy DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#pull_policy DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
 }
@@ -1274,11 +1274,11 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecImageOverridesOutput
 }
 export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecRabbitExternalPasswordSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#field DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#field DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#name DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#name DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1401,19 +1401,19 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecRabbitExternalPasswo
 }
 export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecRabbitExternal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#host DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#host DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#password_secret DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#password_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#password_secret DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#password_secret}
   */
   readonly passwordSecret?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecRabbitExternalPasswordSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#port DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#port DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#username DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#username DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -1591,11 +1591,11 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecRabbitExternalOutput
 }
 export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecRabbitManaged {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#resources DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#resources DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#resources}
   */
   readonly resources?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#storage_size DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#storage_size DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#storage_size}
   */
   readonly storageSize?: string;
 }
@@ -1718,11 +1718,11 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecRabbitManagedOutputR
 }
 export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecRabbit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#external DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#external DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#external}
   */
   readonly external?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecRabbitExternal;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#managed DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#managed DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#managed}
   */
   readonly managed?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecRabbitManaged;
 }
@@ -1847,19 +1847,19 @@ export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecSignOnKeycloakIn
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#key DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#key DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#operator DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#operator DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#values DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#values DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2029,13 +2029,13 @@ export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecSignOnKeycloakIn
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#match_expressions DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#match_expressions DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecSignOnKeycloakInstanceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#match_labels DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#match_labels DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2158,13 +2158,13 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecSignOnKeycloakInstan
 }
 export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecSignOnKeycloak {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#hawkbit_url DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#hawkbit_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#hawkbit_url DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#hawkbit_url}
   */
   readonly hawkbitUrl?: string;
   /**
   * Selector for looking up Keycloak Custom Resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#instance_selector DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#instance_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#instance_selector DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#instance_selector}
   */
   readonly instanceSelector?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecSignOnKeycloakInstanceSelector;
 }
@@ -2287,7 +2287,7 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecSignOnKeycloakOutput
 }
 export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecSignOn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#keycloak DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#keycloak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#keycloak DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#keycloak}
   */
   readonly keycloak?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecSignOnKeycloak;
 }
@@ -2381,19 +2381,19 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecSignOnOutputReferenc
 }
 export interface DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#database DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#database DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#database}
   */
   readonly database?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecDatabase;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#image_overrides DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#image_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#image_overrides DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#image_overrides}
   */
   readonly imageOverrides?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecImageOverrides;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#rabbit DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#rabbit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#rabbit DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#rabbit}
   */
   readonly rabbit?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecRabbit;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#sign_on DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#sign_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#sign_on DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest#sign_on}
   */
   readonly signOn?: DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecSignOn;
 }
@@ -2574,7 +2574,7 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest k8s_iot_eclipse_org_hawkbit_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest k8s_iot_eclipse_org_hawkbit_v1alpha1_manifest}
 */
 export class DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2590,7 +2590,7 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2602,7 +2602,7 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest k8s_iot_eclipse_org_hawkbit_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_hawkbit_v1alpha1_manifest k8s_iot_eclipse_org_hawkbit_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2613,8 +2613,8 @@ export class DataK8SIotEclipseOrgHawkbitV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_iot_eclipse_org_hawkbit_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

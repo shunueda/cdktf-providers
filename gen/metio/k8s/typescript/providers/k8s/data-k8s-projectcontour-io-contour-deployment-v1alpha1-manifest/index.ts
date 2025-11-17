@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#metadata DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#metadata DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestMetadata;
   /**
   * ContourDeploymentSpec specifies options for how a Contour instance should be provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#spec DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#spec DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#annotations DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#annotations DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#labels DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#labels DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecCon
   /**
   * The maximum number of pods that can be scheduled above the desired number of pods. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). This can not be 0 if MaxUnavailable is 0. Absolute number is calculated from percentage by rounding up. Defaults to 25%. Example: when this is set to 30%, the new ReplicaSet can be scaled up immediately when the rolling update starts, such that the total number of old and new pods do not exceed 130% of desired pods. Once old pods have been killed, new ReplicaSet can be scaled up further, ensuring that total number of pods running at any time during the update is at most 130% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_surge DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_surge DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
   * The maximum number of pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). Absolute number is calculated from percentage by rounding down. This can not be 0 if MaxSurge is 0. Defaults to 25%. Example: when this is set to 30%, the old ReplicaSet can be scaled down to 70% of desired pods immediately when the rolling update starts. Once new pods are ready, old ReplicaSet can be scaled down further, followed by scaling up the new ReplicaSet, ensuring that the total number of pods available at all times during the update is at least 70% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_unavailable DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_unavailable DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -350,13 +350,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecCon
   /**
   * Rolling update config params. Present only if DeploymentStrategyType = RollingUpdate. --- TODO: Update this to follow our convention for oneOf, whatever we decide it to be.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#rolling_update DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#rolling_update DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecContourDeploymentStrategyRollingUpdate;
   /**
   * Type of deployment. Can be 'Recreate' or 'RollingUpdate'. Default is RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -481,13 +481,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecCon
   /**
   * Replicas is the desired number of replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#replicas DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#replicas DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Strategy describes the deployment strategy to use to replace existing pods with new pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#strategy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#strategy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#strategy}
   */
   readonly strategy?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecContourDeploymentStrategy;
 }
@@ -612,31 +612,31 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecCon
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#effect DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#effect DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#operator DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#operator DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#toleration_seconds DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#toleration_seconds DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#value DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#value DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -870,13 +870,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecCon
   /**
   * NodeSelector is the simplest recommended form of node selection constraint and specifies a map of key-value pairs. For the pod to be eligible to run on a node, the node must have each of the indicated key-value pairs as labels (it can have additional labels as well). If unset, the pod(s) will be scheduled to any available node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#node_selector DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#node_selector DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Tolerations work with taints to ensure that pods are not scheduled onto inappropriate nodes. One or more taints are applied to a node; this marks that the node should not accept any pods that do not tolerate the taints. The default is an empty list. See https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/ for additional details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tolerations DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tolerations DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecContourNodePlacementTolerations[] | cdktf.IResolvable;
 }
@@ -1001,7 +1001,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecCon
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1116,19 +1116,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecCon
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#claims DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#claims DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecContourResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#limits DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#limits DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#requests DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#requests DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1282,55 +1282,55 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecCon
   /**
   * Deployment describes the settings for running contour as a 'Deployment'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#deployment DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#deployment DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#deployment}
   */
   readonly deployment?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecContourDeployment;
   /**
   * DisabledFeatures defines an array of resources that will be ignored by contour reconciler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disabled_features DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disabled_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disabled_features DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disabled_features}
   */
   readonly disabledFeatures?: string[];
   /**
   * KubernetesLogLevel Enable Kubernetes client debug logging with log level. If unset, defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#kubernetes_log_level DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#kubernetes_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#kubernetes_log_level DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#kubernetes_log_level}
   */
   readonly kubernetesLogLevel?: number;
   /**
   * LogLevel sets the log level for Contour Allowed values are 'info', 'debug'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#log_level DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#log_level DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NodePlacement describes node scheduling configuration of Contour pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#node_placement DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#node_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#node_placement DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#node_placement}
   */
   readonly nodePlacement?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecContourNodePlacement;
   /**
   * PodAnnotations defines annotations to add to the Contour pods. the annotations for Prometheus will be appended or overwritten with predefined value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#pod_annotations DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#pod_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#pod_annotations DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#pod_annotations}
   */
   readonly podAnnotations?: { [key: string]: string };
   /**
   * Deprecated: Use 'DeploymentSettings.Replicas' instead. Replicas is the desired number of Contour replicas. If if unset, defaults to 2. if both 'DeploymentSettings.Replicas' and this one is set, use 'DeploymentSettings.Replicas'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#replicas DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#replicas DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Compute Resources required by contour container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resources DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resources DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecContourResources;
   /**
   * WatchNamespaces is an array of namespaces. Setting it will instruct the contour instance to only watch this subset of namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#watch_namespaces DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#watch_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#watch_namespaces DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#watch_namespaces}
   */
   readonly watchNamespaces?: string[];
 }
@@ -1658,13 +1658,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * The maximum number of nodes with an existing available DaemonSet pod that can have an updated DaemonSet pod during during an update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). This can not be 0 if MaxUnavailable is 0. Absolute number is calculated from percentage by rounding up to a minimum of 1. Default value is 0. Example: when this is set to 30%, at most 30% of the total number of nodes that should be running the daemon pod (i.e. status.desiredNumberScheduled) can have their a new pod created before the old pod is marked as deleted. The update starts by launching new pods on 30% of nodes. Once an updated pod is available (Ready for at least minReadySeconds) the old DaemonSet pod on that node is marked deleted. If the old pod becomes unavailable for any reason (Ready transitions to false, is evicted, or is drained) an updated pod is immediatedly created on that node without considering surge limits. Allowing surge implies the possibility that the resources consumed by the daemonset on any given node can double if the readiness check fails, and so resource intensive daemonsets should take into account that they may cause evictions during disruption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_surge DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_surge DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
   * The maximum number of DaemonSet pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of total number of DaemonSet pods at the start of the update (ex: 10%). Absolute number is calculated from percentage by rounding up. This cannot be 0 if MaxSurge is 0 Default value is 1. Example: when this is set to 30%, at most 30% of the total number of nodes that should be running the daemon pod (i.e. status.desiredNumberScheduled) can have their pods stopped for an update at any given time. The update starts by stopping at most 30% of those DaemonSet pods and then brings up new DaemonSet pods in their place. Once the new pods are available, it then proceeds onto other DaemonSet pods, thus ensuring that at least 70% of original number of DaemonSet pods are available at all times during the update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_unavailable DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_unavailable DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -1789,13 +1789,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Rolling update config params. Present only if type = 'RollingUpdate'. --- TODO: Update this to follow our convention for oneOf, whatever we decide it to be. Same as Deployment 'strategy.rollingUpdate'. See https://github.com/kubernetes/kubernetes/issues/35345
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#rolling_update DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#rolling_update DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyDaemonSetUpdateStrategyRollingUpdate;
   /**
   * Type of daemon set update. Can be 'RollingUpdate' or 'OnDelete'. Default is RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1920,7 +1920,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Strategy describes the deployment strategy to use to replace existing DaemonSet pods with new pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#update_strategy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#update_strategy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#update_strategy}
   */
   readonly updateStrategy?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyDaemonSetUpdateStrategy;
 }
@@ -2016,13 +2016,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * The maximum number of pods that can be scheduled above the desired number of pods. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). This can not be 0 if MaxUnavailable is 0. Absolute number is calculated from percentage by rounding up. Defaults to 25%. Example: when this is set to 30%, the new ReplicaSet can be scaled up immediately when the rolling update starts, such that the total number of old and new pods do not exceed 130% of desired pods. Once old pods have been killed, new ReplicaSet can be scaled up further, ensuring that total number of pods running at any time during the update is at most 130% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_surge DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_surge DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
   * The maximum number of pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). Absolute number is calculated from percentage by rounding down. This can not be 0 if MaxSurge is 0. Defaults to 25%. Example: when this is set to 30%, the old ReplicaSet can be scaled down to 70% of desired pods immediately when the rolling update starts. Once new pods are ready, old ReplicaSet can be scaled down further, followed by scaling up the new ReplicaSet, ensuring that the total number of pods available at all times during the update is at least 70% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_unavailable DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_unavailable DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -2147,13 +2147,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Rolling update config params. Present only if DeploymentStrategyType = RollingUpdate. --- TODO: Update this to follow our convention for oneOf, whatever we decide it to be.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#rolling_update DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#rolling_update DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyDeploymentStrategyRollingUpdate;
   /**
   * Type of deployment. Can be 'Recreate' or 'RollingUpdate'. Default is RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2278,13 +2278,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Replicas is the desired number of replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#replicas DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#replicas DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Strategy describes the deployment strategy to use to replace existing pods with new pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#strategy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#strategy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#strategy}
   */
   readonly strategy?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyDeploymentStrategy;
 }
@@ -2409,43 +2409,43 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mount_path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mount_path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mount_propagation DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mount_propagation DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#recursive_read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#recursive_read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#sub_path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#sub_path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#sub_path_expr DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#sub_path_expr DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -2731,25 +2731,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#partition DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#partition DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * readOnly value true will force the readOnly setting in VolumeMounts. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID is unique ID of the persistent disk resource in AWS (Amazon EBS volume). More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_id DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_id DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -2929,37 +2929,37 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * cachingMode is the Host Caching mode: None, Read Only, Read Write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#caching_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#caching_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
   * diskName is the Name of the data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disk_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disk_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
   * diskURI is the URI of data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disk_uri DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disk_uri DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
   * fsType is Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * kind expected values are Shared: multiple blob disks per storage account Dedicated: single blob disk per storage account Managed: azure managed data disk (only in managed availability set). defaults to shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#kind DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#kind DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -3194,19 +3194,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of secret that contains Azure Storage Account Name and Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * shareName is the azure share Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#share_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#share_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -3354,7 +3354,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3450,37 +3450,37 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * monitors is Required: Monitors is a collection of Ceph monitors More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#monitors DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#monitors DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretFile is Optional: SecretFile is the path to key ring for User, default is /etc/ceph/user.secret More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
   * secretRef is Optional: SecretRef is reference to the authentication secret for User, default is empty. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesCephfsSecretRef;
   /**
   * user is optional: User is the rados user name, default is admin More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#user DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#user DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -3718,7 +3718,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3814,25 +3814,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is optional: points to a secret object containing parameters used to connect to OpenStack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesCinderSecretRef;
   /**
   * volumeID used to identify the volume in cinder. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_id DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_id DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -4012,19 +4012,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -4194,25 +4194,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#default_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#default_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#items DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#items DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#optional DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#optional DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4395,7 +4395,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4491,31 +4491,31 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * driver is the name of the CSI driver that handles this volume. Consult with your admin for the correct name as registered in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#driver DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#driver DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType to mount. Ex. 'ext4', 'xfs', 'ntfs'. If not provided, the empty value is passed to the associated CSI driver which will determine the default filesystem to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * nodePublishSecretRef is a reference to the secret object containing sensitive information to pass to the CSI driver to complete the CSI NodePublishVolume and NodeUnpublishVolume calls. This field is optional, and may be empty if no secret is required. If the secret object contains more than one secret, all secret references are passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#node_publish_secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#node_publish_secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesCsiNodePublishSecretRef;
   /**
   * readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeAttributes stores driver-specific properties that are passed to the CSI driver. Consult your driver's documentation for supported values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_attributes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_attributes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -4724,13 +4724,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#api_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#api_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#field_path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#field_path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -4852,19 +4852,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#container_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#container_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#divisor DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#divisor DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resource DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resource DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -5015,25 +5015,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#field_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#field_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resource_field_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resource_field_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -5235,13 +5235,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Optional: mode bits to use on created files by default. Must be a Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#default_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#default_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Items is a list of downward API volume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#items DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#items DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -5366,13 +5366,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#medium DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#medium DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#size_limit DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#size_limit DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -5497,19 +5497,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#api_group DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#api_group DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#kind DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#kind DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5657,25 +5657,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#api_group DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#api_group DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#kind DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#kind DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -5852,13 +5852,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#limits DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#limits DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#requests DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#requests DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5983,19 +5983,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#operator DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#operator DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#values DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#values DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6165,13 +6165,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#match_expressions DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#match_expressions DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#match_labels DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#match_labels DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6296,55 +6296,55 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_modes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_modes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#data_source DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#data_source DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#data_source_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#data_source_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resources DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resources DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#selector DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#selector DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#storage_class_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#storage_class_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Alpha) Using this field requires the VolumeAttributesClass feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_attributes_class_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_attributes_class_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -6672,13 +6672,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#metadata DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#metadata DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The specification for the PersistentVolumeClaim. The entire content is copied unchanged into the PVC that gets created from this template. The same fields as in a PersistentVolumeClaim are also valid here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#spec DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#spec DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -6800,7 +6800,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Will be used to create a stand-alone PVC to provision the volume. The pod in which this EphemeralVolumeSource is embedded will be the owner of the PVC, i.e. the PVC will be deleted together with the pod. The name of the PVC will be '<pod name>-<volume name>' where '<volume name>' is the name from the 'PodSpec.Volumes' array entry. Pod validation will reject the pod if the concatenated name is not valid for a PVC (for example, too long). An existing PVC with that name that is not owned by the pod will *not* be used for the pod to avoid using an unrelated volume by mistake. Starting the pod is then blocked until the unrelated PVC is removed. If such a pre-created PVC is meant to be used by the pod, the PVC has to updated with an owner reference to the pod once the pod exists. Normally this should not be necessary, but it may be useful when manually reconstructing a broken cluster. This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created. Required, must not be nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_claim_template DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_claim_template DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesEphemeralVolumeClaimTemplate;
 }
@@ -6896,31 +6896,31 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * lun is Optional: FC target lun number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#lun DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#lun DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * targetWWNs is Optional: FC target worldwide names (WWNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#target_ww_ns DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#target_ww_ns DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
   * wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#wwids DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#wwids DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -7132,7 +7132,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -7228,31 +7228,31 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * driver is the name of the driver to use for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#driver DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#driver DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default filesystem depends on FlexVolume script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * options is Optional: this field holds extra command options if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#options DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#options DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * readOnly is Optional: defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is Optional: secretRef is reference to the secret object containing sensitive information to pass to the plugin scripts. This may be empty if no secret object is specified. If the secret object contains more than one secret, all secrets are passed to the plugin scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesFlexVolumeSecretRef;
 }
@@ -7461,13 +7461,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * datasetName is Name of the dataset stored as metadata -> name on the dataset for Flocker should be considered as deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#dataset_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#dataset_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * datasetUUID is the UUID of the dataset. This is unique identifier of a Flocker dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#dataset_uuid DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#dataset_uuid DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -7592,25 +7592,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * fsType is filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty). More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#partition DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#partition DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * pdName is unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#pd_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#pd_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -7790,19 +7790,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * directory is the target directory name. Must not contain or start with '..'. If '.' is supplied, the volume directory will be the git repository. Otherwise, if specified, the volume will contain the git repository in the subdirectory with the given name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#directory DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#directory DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#directory}
   */
   readonly directory?: string;
   /**
   * repository is the URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#repository DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#repository DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#repository}
   */
   readonly repository: string;
   /**
   * revision is the commit hash for the specified revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#revision DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#revision DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -7953,19 +7953,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#endpoints DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#endpoints DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * path is the Glusterfs volume path. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -8113,13 +8113,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -8241,7 +8241,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8337,67 +8337,67 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#chap_auth_discovery DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#chap_auth_discovery DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#chap_auth_session DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#chap_auth_session DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#initiator_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#initiator_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is the target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#iqn DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#iqn DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#iscsi_interface DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#iscsi_interface DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun represents iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#lun DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#lun DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#portals DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#portals DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is the CHAP Secret for iSCSI target and initiator authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#target_portal DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#target_portal DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -8774,19 +8774,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#server DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#server DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#server}
   */
   readonly server: string;
 }
@@ -8934,13 +8934,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#claim_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#claim_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -9062,13 +9062,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#pd_id DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#pd_id DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -9190,19 +9190,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_id DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_id DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -9353,19 +9353,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#operator DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#operator DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#values DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#values DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9535,13 +9535,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#match_expressions DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#match_expressions DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#match_labels DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#match_labels DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9666,31 +9666,31 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Select all ClusterTrustBundles that match this label selector. Only has effect if signerName is set. Mutually-exclusive with name. If unset, interpreted as 'match nothing'. If set but empty, interpreted as 'match everything'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#label_selector DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#label_selector DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjectedSourcesClusterTrustBundleLabelSelector;
   /**
   * Select a single ClusterTrustBundle by object name. Mutually-exclusive with signerName and labelSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * If true, don't block pod startup if the referenced ClusterTrustBundle(s) aren't available. If using name, then the named ClusterTrustBundle is allowed not to exist. If using signerName, then the combination of signerName and labelSelector is allowed to match zero ClusterTrustBundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#optional DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#optional DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * Relative path from the volume root to write the bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Select all ClusterTrustBundles that match this signer name. Mutually-exclusive with name. The contents of all selected ClusterTrustBundles will be unified and deduplicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#signer_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#signer_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -9899,19 +9899,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -10081,19 +10081,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#items DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#items DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#optional DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#optional DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10247,13 +10247,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#api_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#api_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#field_path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#field_path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -10375,19 +10375,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#container_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#container_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#divisor DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#divisor DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resource DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resource DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -10538,25 +10538,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#field_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#field_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resource_field_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resource_field_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -10758,7 +10758,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#items DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#items DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -10854,19 +10854,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -11036,19 +11036,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#items DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#items DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#optional DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#optional DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11202,19 +11202,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#audience DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#audience DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#expiration_seconds DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#expiration_seconds DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -11365,31 +11365,31 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * ClusterTrustBundle allows a pod to access the '.spec.trustBundle' field of ClusterTrustBundle objects in an auto-updating file. Alpha, gated by the ClusterTrustBundleProjection feature gate. ClusterTrustBundle objects can either be selected by name, or by the combination of signer name and a label selector. Kubelet performs aggressive normalization of the PEM contents written into the pod filesystem. Esoteric PEM features such as inter-block comments and block headers are stripped. Certificates are deduplicated. The ordering of certificates within the file is arbitrary, and Kubelet may change the order over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cluster_trust_bundle DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cluster_trust_bundle DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjectedSourcesClusterTrustBundle;
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#config_map DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#config_map DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#downward_api DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#downward_api DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#service_account_token DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#service_account_token DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjectedSourcesServiceAccountToken;
 }
@@ -11623,13 +11623,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#default_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#default_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#sources DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#sources DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -11754,37 +11754,37 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#group DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#group DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#registry DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#registry DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tenant DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tenant DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#user DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#user DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -12019,7 +12019,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -12115,49 +12115,49 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#image DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#image DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#keyring DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#keyring DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#monitors DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#monitors DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#pool DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#pool DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#user DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#user DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -12450,7 +12450,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -12546,61 +12546,61 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#gateway DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#gateway DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#protection_domain DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#protection_domain DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ssl_enabled DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ssl_enabled DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#storage_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#storage_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#storage_pool DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#storage_pool DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#system DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#system DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -12948,19 +12948,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -13130,25 +13130,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#default_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#default_mode DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#items DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#items DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#optional DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#optional DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -13331,7 +13331,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -13427,31 +13427,31 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#read_only DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -13663,25 +13663,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fs_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#storage_policy_id DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#storage_policy_id DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#storage_policy_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#storage_policy_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#volume_path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -13861,181 +13861,181 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#aws_elastic_block_store DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#aws_elastic_block_store DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#azure_disk DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#azure_disk DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#azure_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#azure_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cephfs DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cephfs DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cinder DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cinder DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#config_map DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#config_map DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#csi DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#csi DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#downward_api DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#downward_api DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#empty_dir DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#empty_dir DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ephemeral DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ephemeral DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fc DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fc DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#flex_volume DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#flex_volume DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#flocker DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#flocker DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#gce_persistent_disk DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#gce_persistent_disk DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#git_repo DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#git_repo DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#glusterfs DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#glusterfs DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath --- TODO(jonesdl) We need to restrict who can use host directory mounts and who can/can not mount host directories as read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#host_path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#host_path DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#iscsi DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#iscsi DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#nfs DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#nfs DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#persistent_volume_claim DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#persistent_volume_claim DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#photon_persistent_disk DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#photon_persistent_disk DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#portworx_volume DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#portworx_volume DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#projected DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#projected DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#quobyte DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#quobyte DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#rbd DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#rbd DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#scale_io DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#scale_io DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#secret DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#storageos DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#storageos DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#vsphere_volume DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#vsphere_volume DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumesVsphereVolume;
 }
@@ -14991,25 +14991,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * ExternalTrafficPolicy describes how nodes distribute service traffic they receive on one of the Service's 'externally-facing' addresses (NodePorts, ExternalIPs, and LoadBalancer IPs). If unset, defaults to 'Local'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#external_traffic_policy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#external_traffic_policy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * IPFamilyPolicy represents the dual-stack-ness requested or required by this Service. If there is no value provided, then this field will be set to SingleStack. Services can be 'SingleStack' (a single IP family), 'PreferDualStack' (two IP families on dual-stack configured clusters or a single IP family on single-stack clusters), or 'RequireDualStack' (two IP families on dual-stack configured clusters, otherwise fail).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ip_family_policy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ip_family_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ip_family_policy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ip_family_policy}
   */
   readonly ipFamilyPolicy?: string;
   /**
   * ServiceAnnotations is the annotations to add to the provisioned Envoy service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#service_annotations DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#service_annotations DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#service_annotations}
   */
   readonly serviceAnnotations?: { [key: string]: string };
   /**
   * NetworkPublishingType is the type of publishing strategy to use. Valid values are: * LoadBalancerService In this configuration, network endpoints for Envoy use container networking. A Kubernetes LoadBalancer Service is created to publish Envoy network endpoints. See: https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer * NodePortService Publishes Envoy network endpoints using a Kubernetes NodePort Service. In this configuration, Envoy network endpoints use container networking. A Kubernetes NodePort Service is created to publish the network endpoints. See: https://kubernetes.io/docs/concepts/services-networking/service/#nodeport NOTE: When provisioning an Envoy 'NodePortService', use Gateway Listeners' port numbers to populate the Service's node port values, there's no way to auto-allocate them. See: https://github.com/projectcontour/contour/issues/4499 * ClusterIPService Publishes Envoy network endpoints using a Kubernetes ClusterIP Service. In this configuration, Envoy network endpoints use container networking. A Kubernetes ClusterIP Service is created to publish the network endpoints. See: https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types If unset, defaults to LoadBalancerService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -15192,31 +15192,31 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#effect DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#effect DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#operator DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#operator DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#toleration_seconds DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#toleration_seconds DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#value DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#value DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -15450,13 +15450,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * NodeSelector is the simplest recommended form of node selection constraint and specifies a map of key-value pairs. For the pod to be eligible to run on a node, the node must have each of the indicated key-value pairs as labels (it can have additional labels as well). If unset, the pod(s) will be scheduled to any available node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#node_selector DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#node_selector DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Tolerations work with taints to ensure that pods are not scheduled onto inappropriate nodes. One or more taints are applied to a node; this marks that the node should not accept any pods that do not tolerate the taints. The default is an empty list. See https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/ for additional details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tolerations DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tolerations DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyNodePlacementTolerations[] | cdktf.IResolvable;
 }
@@ -15581,7 +15581,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -15696,19 +15696,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#claims DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#claims DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#limits DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#limits DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#requests DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#requests DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -15862,79 +15862,79 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnv
   /**
   * The base ID to use when allocating shared memory regions. if Envoy needs to be run multiple times on the same machine, each running Envoy will need a unique base ID so that the shared memory regions do not conflict. defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#base_id DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#base_id DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#base_id}
   */
   readonly baseId?: number;
   /**
   * DaemonSet describes the settings for running envoy as a 'DaemonSet'. if 'WorkloadType' is 'Deployment',it's must be nil
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#daemon_set DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#daemon_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#daemon_set DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#daemon_set}
   */
   readonly daemonSet?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyDaemonSet;
   /**
   * Deployment describes the settings for running envoy as a 'Deployment'. if 'WorkloadType' is 'DaemonSet',it's must be nil
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#deployment DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#deployment DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#deployment}
   */
   readonly deployment?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyDeployment;
   /**
   * ExtraVolumeMounts holds the extra volume mounts to add (normally used with extraVolumes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#extra_volume_mounts DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#extra_volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#extra_volume_mounts DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#extra_volume_mounts}
   */
   readonly extraVolumeMounts?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumeMounts[] | cdktf.IResolvable;
   /**
   * ExtraVolumes holds the extra volumes to add.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#extra_volumes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#extra_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#extra_volumes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#extra_volumes}
   */
   readonly extraVolumes?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyExtraVolumes[] | cdktf.IResolvable;
   /**
   * LogLevel sets the log level for Envoy. Allowed values are 'trace', 'debug', 'info', 'warn', 'error', 'critical', 'off'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#log_level DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#log_level DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * NetworkPublishing defines how to expose Envoy to a network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#network_publishing DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#network_publishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#network_publishing DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#network_publishing}
   */
   readonly networkPublishing?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyNetworkPublishing;
   /**
   * NodePlacement describes node scheduling configuration of Envoy pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#node_placement DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#node_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#node_placement DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#node_placement}
   */
   readonly nodePlacement?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyNodePlacement;
   /**
   * OverloadMaxHeapSize defines the maximum heap memory of the envoy controlled by the overload manager. When the value is greater than 0, the overload manager is enabled, and when envoy reaches 95% of the maximum heap size, it performs a shrink heap operation, When it reaches 98% of the maximum heap size, Envoy Will stop accepting requests. More info: https://projectcontour.io/docs/main/config/overload-manager/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#overload_max_heap_size DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#overload_max_heap_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#overload_max_heap_size DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#overload_max_heap_size}
   */
   readonly overloadMaxHeapSize?: number;
   /**
   * PodAnnotations defines annotations to add to the Envoy pods. the annotations for Prometheus will be appended or overwritten with predefined value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#pod_annotations DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#pod_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#pod_annotations DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#pod_annotations}
   */
   readonly podAnnotations?: { [key: string]: string };
   /**
   * Deprecated: Use 'DeploymentSettings.Replicas' instead. Replicas is the desired number of Envoy replicas. If WorkloadType is not 'Deployment', this field is ignored. Otherwise, if unset, defaults to 2. if both 'DeploymentSettings.Replicas' and this one is set, use 'DeploymentSettings.Replicas'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#replicas DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#replicas DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Compute Resources required by envoy container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resources DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resources DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoyResources;
   /**
   * WorkloadType is the type of workload to install Envoy as. Choices are DaemonSet and Deployment. If unset, defaults to DaemonSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#workload_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#workload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#workload_type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#workload_type}
   */
   readonly workloadType?: string;
 }
@@ -16378,13 +16378,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Defines the Contour debug address interface. Contour's default is '127.0.0.1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
   * Defines the Contour debug address port. Contour's default is 6060.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -16507,11 +16507,11 @@ export class DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntime
 }
 export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyClientCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -16630,31 +16630,31 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * The maximum number of connections that a single Envoy instance allows to the Kubernetes Service; defaults to 1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_connections DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_connections DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * The maximum number of pending requests that a single Envoy instance allows to the Kubernetes Service; defaults to 1024.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_pending_requests DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_pending_requests DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_pending_requests}
   */
   readonly maxPendingRequests?: number;
   /**
   * The maximum parallel requests a single Envoy instance allows to the Kubernetes Service; defaults to 1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_requests DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_requests DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_requests}
   */
   readonly maxRequests?: number;
   /**
   * The maximum number of parallel retries a single Envoy instance allows to the Kubernetes Service; defaults to 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_retries DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_retries DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * PerHostMaxConnections is the maximum number of connections that Envoy will allow to each individual host in a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#per_host_max_connections DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#per_host_max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#per_host_max_connections DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#per_host_max_connections}
   */
   readonly perHostMaxConnections?: number;
 }
@@ -16866,19 +16866,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * CipherSuites defines the TLS ciphers to be supported by Envoy TLS listeners when negotiating TLS 1.2. Ciphers are validated against the set that Envoy supports by default. This parameter should only be used by advanced users. Note that these will be ignored when TLS 1.3 is in use. This field is optional; when it is undefined, a Contour-managed ciphersuite list will be used, which may be updated to keep it secure. Contour's default list is: - '[ECDHE-ECDSA-AES128-GCM-SHA256|ECDHE-ECDSA-CHACHA20-POLY1305]' - '[ECDHE-RSA-AES128-GCM-SHA256|ECDHE-RSA-CHACHA20-POLY1305]' - 'ECDHE-ECDSA-AES256-GCM-SHA384' - 'ECDHE-RSA-AES256-GCM-SHA384' Ciphers provided are validated against the following list: - '[ECDHE-ECDSA-AES128-GCM-SHA256|ECDHE-ECDSA-CHACHA20-POLY1305]' - '[ECDHE-RSA-AES128-GCM-SHA256|ECDHE-RSA-CHACHA20-POLY1305]' - 'ECDHE-ECDSA-AES128-GCM-SHA256' - 'ECDHE-RSA-AES128-GCM-SHA256' - 'ECDHE-ECDSA-AES128-SHA' - 'ECDHE-RSA-AES128-SHA' - 'AES128-GCM-SHA256' - 'AES128-SHA' - 'ECDHE-ECDSA-AES256-GCM-SHA384' - 'ECDHE-RSA-AES256-GCM-SHA384' - 'ECDHE-ECDSA-AES256-SHA' - 'ECDHE-RSA-AES256-SHA' - 'AES256-GCM-SHA384' - 'AES256-SHA' Contour recommends leaving this undefined unless you are sure you must. See: https://www.envoyproxy.io/docs/envoy/latest/api-v3/extensions/transport_sockets/tls/v3/common.proto#extensions-transport-sockets-tls-v3-tlsparameters Note: This list is a superset of what is valid for stock Envoy builds and those using BoringSSL FIPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cipher_suites DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cipher_suites DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
   * MaximumProtocolVersion is the maximum TLS version this vhost should negotiate. Values: '1.2', '1.3'(default). Other values will produce an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#maximum_protocol_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#maximum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#maximum_protocol_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#maximum_protocol_version}
   */
   readonly maximumProtocolVersion?: string;
   /**
   * MinimumProtocolVersion is the minimum TLS version this vhost should negotiate. Values: '1.2' (default), '1.3'. Other values will produce an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#minimum_protocol_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#minimum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#minimum_protocol_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#minimum_protocol_version}
   */
   readonly minimumProtocolVersion?: string;
 }
@@ -17032,31 +17032,31 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * GlobalCircuitBreakerDefaults specifies default circuit breaker budget across all services. If defined, this will be used as the default for all services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#circuit_breakers DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#circuit_breakers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#circuit_breakers DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#circuit_breakers}
   */
   readonly circuitBreakers?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyClusterCircuitBreakers;
   /**
   * DNSLookupFamily defines how external names are looked up When configured as V4, the DNS resolver will only perform a lookup for addresses in the IPv4 family. If V6 is configured, the DNS resolver will only perform a lookup for addresses in the IPv6 family. If AUTO is configured, the DNS resolver will first perform a lookup for addresses in the IPv6 family and fallback to a lookup for addresses in the IPv4 family. If ALL is specified, the DNS resolver will perform a lookup for both IPv4 and IPv6 families, and return all resolved addresses. When this is used, Happy Eyeballs will be enabled for upstream connections. Refer to Happy Eyeballs Support for more information. Note: This only applies to externalName clusters. See https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/cluster/v3/cluster.proto.html#envoy-v3-api-enum-config-cluster-v3-cluster-dnslookupfamily for more information. Values: 'auto' (default), 'v4', 'v6', 'all'. Other values will produce an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#dns_lookup_family DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#dns_lookup_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#dns_lookup_family DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#dns_lookup_family}
   */
   readonly dnsLookupFamily?: string;
   /**
   * Defines the maximum requests for upstream connections. If not specified, there is no limit. see https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/core/v3/protocol.proto#envoy-v3-api-msg-config-core-v3-httpprotocoloptions for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_requests_per_connection DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_requests_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_requests_per_connection DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_requests_per_connection}
   */
   readonly maxRequestsPerConnection?: number;
   /**
   * Defines the soft limit on size of the cluster’s new connection read and write buffers in bytes. If unspecified, an implementation defined default is applied (1MiB). see https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/cluster/v3/cluster.proto#envoy-v3-api-field-config-cluster-v3-cluster-per-connection-buffer-limit-bytes for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#per_connection_buffer_limit_bytes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#per_connection_buffer_limit_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#per_connection_buffer_limit_bytes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#per_connection_buffer_limit_bytes}
   */
   readonly perConnectionBufferLimitBytes?: number;
   /**
   * UpstreamTLS contains the TLS policy parameters for upstream connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#upstream_tls DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#upstream_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#upstream_tls DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#upstream_tls}
   */
   readonly upstreamTls?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyClusterUpstreamTls;
 }
@@ -17268,13 +17268,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Defines the health address interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
   * Defines the health port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -17399,19 +17399,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * AccessLog defines where Envoy logs are outputted for this listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_log DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_log DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_log}
   */
   readonly accessLog?: string;
   /**
   * Defines an Envoy Listener Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
   * Defines an Envoy listener Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -17565,19 +17565,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * AccessLog defines where Envoy logs are outputted for this listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_log DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_log DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_log}
   */
   readonly accessLog?: string;
   /**
   * Defines an Envoy Listener Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
   * Defines an Envoy listener Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -17731,13 +17731,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Defines the value for IPv4 TOS field (including 6 bit DSCP field) for IP packets originating from Envoy listeners. Single value is applied to all listeners. If listeners are bound to IPv6-only addresses, setting this option will cause an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tos DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tos DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tos}
   */
   readonly tos?: number;
   /**
   * Defines the value for IPv6 Traffic Class field (including 6 bit DSCP field) for IP packets originating from the Envoy listeners. Single value is applied to all listeners. If listeners are bound to IPv4-only addresses, setting this option will cause an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#traffic_class DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#traffic_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#traffic_class DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#traffic_class}
   */
   readonly trafficClass?: number;
 }
@@ -17862,19 +17862,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * CipherSuites defines the TLS ciphers to be supported by Envoy TLS listeners when negotiating TLS 1.2. Ciphers are validated against the set that Envoy supports by default. This parameter should only be used by advanced users. Note that these will be ignored when TLS 1.3 is in use. This field is optional; when it is undefined, a Contour-managed ciphersuite list will be used, which may be updated to keep it secure. Contour's default list is: - '[ECDHE-ECDSA-AES128-GCM-SHA256|ECDHE-ECDSA-CHACHA20-POLY1305]' - '[ECDHE-RSA-AES128-GCM-SHA256|ECDHE-RSA-CHACHA20-POLY1305]' - 'ECDHE-ECDSA-AES256-GCM-SHA384' - 'ECDHE-RSA-AES256-GCM-SHA384' Ciphers provided are validated against the following list: - '[ECDHE-ECDSA-AES128-GCM-SHA256|ECDHE-ECDSA-CHACHA20-POLY1305]' - '[ECDHE-RSA-AES128-GCM-SHA256|ECDHE-RSA-CHACHA20-POLY1305]' - 'ECDHE-ECDSA-AES128-GCM-SHA256' - 'ECDHE-RSA-AES128-GCM-SHA256' - 'ECDHE-ECDSA-AES128-SHA' - 'ECDHE-RSA-AES128-SHA' - 'AES128-GCM-SHA256' - 'AES128-SHA' - 'ECDHE-ECDSA-AES256-GCM-SHA384' - 'ECDHE-RSA-AES256-GCM-SHA384' - 'ECDHE-ECDSA-AES256-SHA' - 'ECDHE-RSA-AES256-SHA' - 'AES256-GCM-SHA384' - 'AES256-SHA' Contour recommends leaving this undefined unless you are sure you must. See: https://www.envoyproxy.io/docs/envoy/latest/api-v3/extensions/transport_sockets/tls/v3/common.proto#extensions-transport-sockets-tls-v3-tlsparameters Note: This list is a superset of what is valid for stock Envoy builds and those using BoringSSL FIPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cipher_suites DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cipher_suites DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
   * MaximumProtocolVersion is the maximum TLS version this vhost should negotiate. Values: '1.2', '1.3'(default). Other values will produce an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#maximum_protocol_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#maximum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#maximum_protocol_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#maximum_protocol_version}
   */
   readonly maximumProtocolVersion?: string;
   /**
   * MinimumProtocolVersion is the minimum TLS version this vhost should negotiate. Values: '1.2' (default), '1.3'. Other values will produce an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#minimum_protocol_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#minimum_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#minimum_protocol_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#minimum_protocol_version}
   */
   readonly minimumProtocolVersion?: string;
 }
@@ -18028,73 +18028,73 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * ConnectionBalancer. If the value is exact, the listener will use the exact connection balancer See https://www.envoyproxy.io/docs/envoy/latest/api-v2/api/v2/listener.proto#envoy-api-msg-listener-connectionbalanceconfig for more information. Values: (empty string): use the default ConnectionBalancer, 'exact': use the Exact ConnectionBalancer. Other values will produce an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#connection_balancer DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#connection_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#connection_balancer DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#connection_balancer}
   */
   readonly connectionBalancer?: string;
   /**
   * DisableAllowChunkedLength disables the RFC-compliant Envoy behavior to strip the 'Content-Length' header if 'Transfer-Encoding: chunked' is also set. This is an emergency off-switch to revert back to Envoy's default behavior in case of failures. Please file an issue if failures are encountered. See: https://github.com/projectcontour/contour/issues/3221 Contour's default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disable_allow_chunked_length DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disable_allow_chunked_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disable_allow_chunked_length DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disable_allow_chunked_length}
   */
   readonly disableAllowChunkedLength?: boolean | cdktf.IResolvable;
   /**
   * DisableMergeSlashes disables Envoy's non-standard merge_slashes path transformation option which strips duplicate slashes from request URL paths. Contour's default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disable_merge_slashes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disable_merge_slashes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disable_merge_slashes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disable_merge_slashes}
   */
   readonly disableMergeSlashes?: boolean | cdktf.IResolvable;
   /**
   * Defines the value for SETTINGS_MAX_CONCURRENT_STREAMS Envoy will advertise in the SETTINGS frame in HTTP/2 connections and the limit for concurrent streams allowed for a peer on a single HTTP/2 connection. It is recommended to not set this lower than 100 but this field can be used to bound resource usage by HTTP/2 connections and mitigate attacks like CVE-2023-44487. The default value when this is not set is unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#http_max_concurrent_streams DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#http_max_concurrent_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#http_max_concurrent_streams DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#http_max_concurrent_streams}
   */
   readonly httpMaxConcurrentStreams?: number;
   /**
   * Defines the limit on number of active connections to a listener. The limit is applied per listener. The default value when this is not set is unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_connections_per_listener DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_connections_per_listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_connections_per_listener DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_connections_per_listener}
   */
   readonly maxConnectionsPerListener?: number;
   /**
   * Defines the maximum requests for downstream connections. If not specified, there is no limit. see https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/core/v3/protocol.proto#envoy-v3-api-msg-config-core-v3-httpprotocoloptions for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_requests_per_connection DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_requests_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_requests_per_connection DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_requests_per_connection}
   */
   readonly maxRequestsPerConnection?: number;
   /**
   * Defines the limit on number of HTTP requests that Envoy will process from a single connection in a single I/O cycle. Requests over this limit are processed in subsequent I/O cycles. Can be used as a mitigation for CVE-2023-44487 when abusive traffic is detected. Configures the http.max_requests_per_io_cycle Envoy runtime setting. The default value when this is not set is no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_requests_per_io_cycle DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_requests_per_io_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_requests_per_io_cycle DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_requests_per_io_cycle}
   */
   readonly maxRequestsPerIoCycle?: number;
   /**
   * Defines the soft limit on size of the listener’s new connection read and write buffers in bytes. If unspecified, an implementation defined default is applied (1MiB). see https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/listener/v3/listener.proto#envoy-v3-api-field-config-listener-v3-listener-per-connection-buffer-limit-bytes for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#per_connection_buffer_limit_bytes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#per_connection_buffer_limit_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#per_connection_buffer_limit_bytes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#per_connection_buffer_limit_bytes}
   */
   readonly perConnectionBufferLimitBytes?: number;
   /**
   * Defines the action to be applied to the Server header on the response path. When configured as overwrite, overwrites any Server header with 'envoy'. When configured as append_if_absent, if a Server header is present, pass it through, otherwise set it to 'envoy'. When configured as pass_through, pass through the value of the Server header, and do not append a header if none is present. Values: 'overwrite' (default), 'append_if_absent', 'pass_through' Other values will produce an error. Contour's default is overwrite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#server_header_transformation DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#server_header_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#server_header_transformation DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#server_header_transformation}
   */
   readonly serverHeaderTransformation?: string;
   /**
   * SocketOptions defines configurable socket options for the listeners. Single set of options are applied to all listeners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#socket_options DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#socket_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#socket_options DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#socket_options}
   */
   readonly socketOptions?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyListenerSocketOptions;
   /**
   * TLS holds various configurable Envoy TLS listener values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tls DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tls DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyListenerTls;
   /**
   * Use PROXY protocol for all listeners. Contour's default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#use_proxy_protocol DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#use_proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#use_proxy_protocol DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#use_proxy_protocol}
   */
   readonly useProxyProtocol?: boolean | cdktf.IResolvable;
 }
@@ -18509,25 +18509,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * AccessLogFormat sets the global access log format. Values: 'envoy' (default), 'json'. Other values will produce an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_log_format DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_log_format DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_log_format}
   */
   readonly accessLogFormat?: string;
   /**
   * AccessLogFormatString sets the access log format when format is set to 'envoy'. When empty, Envoy's default format is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_log_format_string DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_log_format_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_log_format_string DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_log_format_string}
   */
   readonly accessLogFormatString?: string;
   /**
   * AccessLogJSONFields sets the fields that JSON logging will output when AccessLogFormat is json.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_log_json_fields DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_log_json_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_log_json_fields DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_log_json_fields}
   */
   readonly accessLogJsonFields?: string[];
   /**
   * AccessLogLevel sets the verbosity level of the access log. Values: 'info' (default, all requests are logged), 'error' (all non-success requests, i.e. 300+ response code, are logged), 'critical' (all 5xx requests are logged) and 'disabled'. Other values will produce an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_log_level DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#access_log_level DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#access_log_level}
   */
   readonly accessLogLevel?: string;
 }
@@ -18710,19 +18710,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * CA filename.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ca_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ca_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Client certificate filename.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cert_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cert_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Client key filename.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key_file}
   */
   readonly keyFile?: string;
 }
@@ -18876,19 +18876,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Defines the metrics address interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
   * Defines the metrics port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * TLS holds TLS file config details. Metrics and health endpoints cannot have same port number when metrics is served over HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tls DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tls DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyMetricsTls;
 }
@@ -19042,13 +19042,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Configure the port used to access the Envoy Admin interface. If configured to port '0' then the admin interface is disabled. Contour's default is 9001.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#admin_port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#admin_port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#admin_port}
   */
   readonly adminPort?: number;
   /**
   * XffNumTrustedHops defines the number of additional ingress proxy hops from the right side of the x-forwarded-for HTTP header to trust when determining the origin client’s IP address. See https://www.envoyproxy.io/docs/envoy/v1.17.0/api-v3/extensions/filters/network/http_connection_manager/v3/http_connection_manager.proto?highlight=xff_num_trusted_hops for more information. Contour's default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#num_trusted_hops DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#num_trusted_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#num_trusted_hops DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#num_trusted_hops}
   */
   readonly numTrustedHops?: number;
 }
@@ -19171,11 +19171,11 @@ export class DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntime
 }
 export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -19294,43 +19294,43 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * ConnectTimeout defines how long the proxy should wait when establishing connection to upstream service. If not set, a default value of 2 seconds will be used. See https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/cluster/v3/cluster.proto#envoy-v3-api-field-config-cluster-v3-cluster-connect-timeout for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#connect_timeout DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#connect_timeout DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
   * ConnectionIdleTimeout defines how long the proxy should wait while there are no active requests (for HTTP/1.1) or streams (for HTTP/2) before terminating an HTTP connection. Set to 'infinity' to disable the timeout entirely. See https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/core/v3/protocol.proto#envoy-v3-api-field-config-core-v3-httpprotocoloptions-idle-timeout for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#connection_idle_timeout DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#connection_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#connection_idle_timeout DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#connection_idle_timeout}
   */
   readonly connectionIdleTimeout?: string;
   /**
   * ConnectionShutdownGracePeriod defines how long the proxy will wait between sending an initial GOAWAY frame and a second, final GOAWAY frame when terminating an HTTP/2 connection. During this grace period, the proxy will continue to respond to new streams. After the final GOAWAY frame has been sent, the proxy will refuse new streams. See https://www.envoyproxy.io/docs/envoy/latest/api-v3/extensions/filters/network/http_connection_manager/v3/http_connection_manager.proto#envoy-v3-api-field-extensions-filters-network-http-connection-manager-v3-httpconnectionmanager-drain-timeout for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#connection_shutdown_grace_period DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#connection_shutdown_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#connection_shutdown_grace_period DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#connection_shutdown_grace_period}
   */
   readonly connectionShutdownGracePeriod?: string;
   /**
   * DelayedCloseTimeout defines how long envoy will wait, once connection close processing has been initiated, for the downstream peer to close the connection before Envoy closes the socket associated with the connection. Setting this timeout to 'infinity' will disable it, equivalent to setting it to '0' in Envoy. Leaving it unset will result in the Envoy default value being used. See https://www.envoyproxy.io/docs/envoy/latest/api-v3/extensions/filters/network/http_connection_manager/v3/http_connection_manager.proto#envoy-v3-api-field-extensions-filters-network-http-connection-manager-v3-httpconnectionmanager-delayed-close-timeout for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#delayed_close_timeout DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#delayed_close_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#delayed_close_timeout DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#delayed_close_timeout}
   */
   readonly delayedCloseTimeout?: string;
   /**
   * MaxConnectionDuration defines the maximum period of time after an HTTP connection has been established from the client to the proxy before it is closed by the proxy, regardless of whether there has been activity or not. Omit or set to 'infinity' for no max duration. See https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/core/v3/protocol.proto#envoy-v3-api-field-config-core-v3-httpprotocoloptions-max-connection-duration for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_connection_duration DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_connection_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_connection_duration DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_connection_duration}
   */
   readonly maxConnectionDuration?: string;
   /**
   * RequestTimeout sets the client request timeout globally for Contour. Note that this is a timeout for the entire request, not an idle timeout. Omit or set to 'infinity' to disable the timeout entirely. See https://www.envoyproxy.io/docs/envoy/latest/api-v3/extensions/filters/network/http_connection_manager/v3/http_connection_manager.proto#envoy-v3-api-field-extensions-filters-network-http-connection-manager-v3-httpconnectionmanager-request-timeout for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#request_timeout DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#request_timeout DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#request_timeout}
   */
   readonly requestTimeout?: string;
   /**
   * StreamIdleTimeout defines how long the proxy should wait while there is no request activity (for HTTP/1.1) or stream activity (for HTTP/2) before terminating the HTTP request or stream. Set to 'infinity' to disable the timeout entirely. See https://www.envoyproxy.io/docs/envoy/latest/api-v3/extensions/filters/network/http_connection_manager/v3/http_connection_manager.proto#envoy-v3-api-field-extensions-filters-network-http-connection-manager-v3-httpconnectionmanager-stream-idle-timeout for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#stream_idle_timeout DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#stream_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#stream_idle_timeout DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#stream_idle_timeout}
   */
   readonly streamIdleTimeout?: string;
 }
@@ -19600,73 +19600,73 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * ClientCertificate defines the namespace/name of the Kubernetes secret containing the client certificate and private key to be used when establishing TLS connection to upstream cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#client_certificate DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#client_certificate DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#client_certificate}
   */
   readonly clientCertificate?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyClientCertificate;
   /**
   * Cluster holds various configurable Envoy cluster values that can be set in the config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cluster DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cluster DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cluster}
   */
   readonly cluster?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyCluster;
   /**
   * DefaultHTTPVersions defines the default set of HTTPS versions the proxy should accept. HTTP versions are strings of the form 'HTTP/xx'. Supported versions are 'HTTP/1.1' and 'HTTP/2'. Values: 'HTTP/1.1', 'HTTP/2' (default: both). Other values will produce an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#default_http_versions DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#default_http_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#default_http_versions DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#default_http_versions}
   */
   readonly defaultHttpVersions?: string[];
   /**
   * Health defines the endpoint Envoy uses to serve health checks. Contour's default is { address: '0.0.0.0', port: 8002 }.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#health DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#health DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#health}
   */
   readonly health?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyHealth;
   /**
   * Defines the HTTP Listener for Envoy. Contour's default is { address: '0.0.0.0', port: 8080, accessLog: '/dev/stdout' }.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#http DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#http DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyHttp;
   /**
   * Defines the HTTPS Listener for Envoy. Contour's default is { address: '0.0.0.0', port: 8443, accessLog: '/dev/stdout' }.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#https DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#https DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#https}
   */
   readonly https?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyHttps;
   /**
   * Listener hold various configurable Envoy listener values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#listener DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#listener DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#listener}
   */
   readonly listener?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyListener;
   /**
   * Logging defines how Envoy's logs can be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#logging DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#logging DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyLogging;
   /**
   * Metrics defines the endpoint Envoy uses to serve metrics. Contour's default is { address: '0.0.0.0', port: 8002 }.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#metrics DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#metrics DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyMetrics;
   /**
   * Network holds various configurable Envoy network values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#network DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#network DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#network}
   */
   readonly network?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyNetwork;
   /**
   * Service holds Envoy service parameters for setting Ingress status. Contour's default is { namespace: 'projectcontour', name: 'envoy' }.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#service DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#service DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyService;
   /**
   * Timeouts holds various configurable timeouts that can be set in the config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#timeouts DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#timeouts DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#timeouts}
   */
   readonly timeouts?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoyTimeouts;
 }
@@ -20079,11 +20079,11 @@ export class DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntime
 }
 export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsGatewayGatewayRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -20202,7 +20202,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * GatewayRef defines the specific Gateway that this Contour instance corresponds to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#gateway_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#gateway_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#gateway_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#gateway_ref}
   */
   readonly gatewayRef: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsGatewayGatewayRef;
 }
@@ -20295,13 +20295,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Context is a set of key/value pairs that are sent to the authentication server in the check request. If a context is provided at an enclosing scope, the entries are merged such that the inner scope overrides matching keys from the outer scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#context DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#context DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#context}
   */
   readonly context?: { [key: string]: string };
   /**
   * When true, this field disables client request authentication for the scope of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disabled DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disabled DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -20426,19 +20426,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * API version of the referent. If this field is not specified, the default 'projectcontour.io/v1alpha1' will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#api_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#api_version DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. If this field is not specifies, the namespace of the resource that targets the referent will be used. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -20592,19 +20592,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * If AllowPartialMessage is true, then Envoy will buffer the body until MaxRequestBytes are reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#allow_partial_message DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#allow_partial_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#allow_partial_message DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#allow_partial_message}
   */
   readonly allowPartialMessage?: boolean | cdktf.IResolvable;
   /**
   * MaxRequestBytes sets the maximum size of message body ExtAuthz filter will hold in-memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_request_bytes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_request_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_request_bytes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_request_bytes}
   */
   readonly maxRequestBytes?: number;
   /**
   * If PackAsBytes is true, the body sent to Authorization Server is in raw bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#pack_as_bytes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#pack_as_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#pack_as_bytes DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#pack_as_bytes}
   */
   readonly packAsBytes?: boolean | cdktf.IResolvable;
 }
@@ -20758,31 +20758,31 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * AuthPolicy sets a default authorization policy for client requests. This policy will be used unless overridden by individual routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#auth_policy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#auth_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#auth_policy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#auth_policy}
   */
   readonly authPolicy?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsGlobalExtAuthAuthPolicy;
   /**
   * ExtensionServiceRef specifies the extension resource that will authorize client requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#extension_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#extension_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#extension_ref DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#extension_ref}
   */
   readonly extensionRef?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsGlobalExtAuthExtensionRef;
   /**
   * If FailOpen is true, the client request is forwarded to the upstream service even if the authorization server fails to respond. This field should not be set in most cases. It is intended for use only while migrating applications from internal authorization to Contour external authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fail_open DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fail_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fail_open DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fail_open}
   */
   readonly failOpen?: boolean | cdktf.IResolvable;
   /**
   * ResponseTimeout configures maximum time to wait for a check response from the authorization server. Timeout durations are expressed in the Go [Duration format](https://godoc.org/time#ParseDuration). Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'. The string 'infinity' is also a valid input and specifies no timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#response_timeout DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#response_timeout DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#response_timeout}
   */
   readonly responseTimeout?: string;
   /**
   * WithRequestBody specifies configuration for sending the client request's body to authorization server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#with_request_body DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#with_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#with_request_body DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#with_request_body}
   */
   readonly withRequestBody?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsGlobalExtAuthWithRequestBody;
 }
@@ -20994,13 +20994,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Defines the health address interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
   * Defines the health port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
   */
   readonly port?: number;
 }
@@ -21123,11 +21123,11 @@ export class DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntime
 }
 export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsHttpproxyFallbackCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -21246,19 +21246,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * DisablePermitInsecure disables the use of the permitInsecure field in HTTPProxy. Contour's default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disable_permit_insecure DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disable_permit_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disable_permit_insecure DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disable_permit_insecure}
   */
   readonly disablePermitInsecure?: boolean | cdktf.IResolvable;
   /**
   * FallbackCertificate defines the namespace/name of the Kubernetes secret to use as fallback when a non-SNI request is received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fallback_certificate DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fallback_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fallback_certificate DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fallback_certificate}
   */
   readonly fallbackCertificate?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsHttpproxyFallbackCertificate;
   /**
   * Restrict Contour to searching these namespaces for root ingress routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#root_namespaces DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#root_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#root_namespaces DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#root_namespaces}
   */
   readonly rootNamespaces?: string[];
 }
@@ -21412,13 +21412,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Ingress Class Names Contour should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#class_names DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#class_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#class_names DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#class_names}
   */
   readonly classNames?: string[];
   /**
   * Address to set in Ingress object status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#status_address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#status_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#status_address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#status_address}
   */
   readonly statusAddress?: string;
 }
@@ -21543,19 +21543,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * CA filename.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ca_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ca_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Client certificate filename.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cert_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cert_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Client key filename.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key_file}
   */
   readonly keyFile?: string;
 }
@@ -21709,19 +21709,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Defines the metrics address interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
   * Defines the metrics port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * TLS holds TLS file config details. Metrics and health endpoints cannot have same port number when metrics is served over HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tls DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tls DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsMetricsTls;
 }
@@ -21873,11 +21873,11 @@ export class DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntime
 }
 export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsPolicyRequestHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#remove DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#remove DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#remove}
   */
   readonly remove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#set DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#set DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#set}
   */
   readonly set?: { [key: string]: string };
 }
@@ -22000,11 +22000,11 @@ export class DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntime
 }
 export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsPolicyResponseHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#remove DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#remove DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#remove}
   */
   readonly remove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#set DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#set DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#set}
   */
   readonly set?: { [key: string]: string };
 }
@@ -22129,19 +22129,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * ApplyToIngress determines if the Policies will apply to ingress objects Contour's default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#apply_to_ingress DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#apply_to_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#apply_to_ingress DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#apply_to_ingress}
   */
   readonly applyToIngress?: boolean | cdktf.IResolvable;
   /**
   * RequestHeadersPolicy defines the request headers set/removed on all routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#request_headers DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#request_headers DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#request_headers}
   */
   readonly requestHeaders?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsPolicyRequestHeaders;
   /**
   * ResponseHeadersPolicy defines the response headers set/removed on all routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#response_headers DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#response_headers DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#response_headers}
   */
   readonly responseHeaders?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsPolicyResponseHeaders;
 }
@@ -22295,13 +22295,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Key defines the key of the descriptor entry. If not set, the key is set to 'generic_key'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Value defines the value of the descriptor entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#value DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#value DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -22426,13 +22426,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * DescriptorKey defines the key to use on the descriptor entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#descriptor_key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#descriptor_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#descriptor_key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#descriptor_key}
   */
   readonly descriptorKey?: string;
   /**
   * HeaderName defines the name of the header to look for on the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#header_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#header_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#header_name}
   */
   readonly headerName?: string;
 }
@@ -22557,61 +22557,61 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Contains specifies a substring that must be present in the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#contains DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#contains DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#contains}
   */
   readonly contains?: string;
   /**
   * Exact specifies a string that the header value must be equal to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#exact DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#exact DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#exact}
   */
   readonly exact?: string;
   /**
   * IgnoreCase specifies that string matching should be case insensitive. Note that this has no effect on the Regex parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ignore_case DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ignore_case DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of the header to match against. Name is required. Header names are case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * NotContains specifies a substring that must not be present in the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#notcontains DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#notcontains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#notcontains DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#notcontains}
   */
   readonly notcontains?: string;
   /**
   * NoExact specifies a string that the header value must not be equal to. The condition is true if the header has any other value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#notexact DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#notexact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#notexact DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#notexact}
   */
   readonly notexact?: string;
   /**
   * NotPresent specifies that condition is true when the named header is not present. Note that setting NotPresent to false does not make the condition true if the named header is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#notpresent DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#notpresent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#notpresent DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#notpresent}
   */
   readonly notpresent?: boolean | cdktf.IResolvable;
   /**
   * Present specifies that condition is true when the named header is present, regardless of its value. Note that setting Present to false does not make the condition true if the named header is absent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#present DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#present DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#present}
   */
   readonly present?: boolean | cdktf.IResolvable;
   /**
   * Regex specifies a regular expression pattern that must match the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#regex DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#regex DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * TreatMissingAsEmpty specifies if the header match rule specified header does not exist, this header value will be treated as empty. Defaults to false. Unlike the underlying Envoy implementation this is **only** supported for negative matches (e.g. NotContains, NotExact).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#treat_missing_as_empty DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#treat_missing_as_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#treat_missing_as_empty DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#treat_missing_as_empty}
   */
   readonly treatMissingAsEmpty?: boolean | cdktf.IResolvable;
 }
@@ -22987,19 +22987,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * ExpectMatch defines whether the request must positively match the match criteria in order to generate a descriptor entry (i.e. true), or not match the match criteria in order to generate a descriptor entry (i.e. false). The default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#expect_match DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#expect_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#expect_match DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#expect_match}
   */
   readonly expectMatch?: boolean | cdktf.IResolvable;
   /**
   * Headers is a list of 1+ match criteria to apply against the request to determine whether to populate the descriptor entry or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#headers DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#headers DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#headers}
   */
   readonly headers?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsRateLimitServiceDefaultGlobalRateLimitPolicyDescriptorsEntriesRequestHeaderValueMatchHeaders[] | cdktf.IResolvable;
   /**
   * Value defines the value of the descriptor entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#value DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#value DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -23153,25 +23153,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * GenericKey defines a descriptor entry with a static key and value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#generic_key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#generic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#generic_key DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#generic_key}
   */
   readonly genericKey?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsRateLimitServiceDefaultGlobalRateLimitPolicyDescriptorsEntriesGenericKey;
   /**
   * RemoteAddress defines a descriptor entry with a key of 'remote_address' and a value equal to the client's IP address (from x-forwarded-for).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#remote_address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#remote_address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#remote_address}
   */
   readonly remoteAddress?: { [key: string]: string };
   /**
   * RequestHeader defines a descriptor entry that's populated only if a given header is present on the request. The descriptor key is static, and the descriptor value is equal to the value of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#request_header DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#request_header DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#request_header}
   */
   readonly requestHeader?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsRateLimitServiceDefaultGlobalRateLimitPolicyDescriptorsEntriesRequestHeader;
   /**
   * RequestHeaderValueMatch defines a descriptor entry that's populated if the request's headers match a set of 1+ match criteria. The descriptor key is 'header_match', and the descriptor value is static.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#request_header_value_match DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#request_header_value_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#request_header_value_match DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#request_header_value_match}
   */
   readonly requestHeaderValueMatch?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsRateLimitServiceDefaultGlobalRateLimitPolicyDescriptorsEntriesRequestHeaderValueMatch;
 }
@@ -23376,7 +23376,7 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Entries is the list of key-value pair generators.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#entries DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#entries DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#entries}
   */
   readonly entries?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsRateLimitServiceDefaultGlobalRateLimitPolicyDescriptorsEntries[] | cdktf.IResolvable;
 }
@@ -23494,13 +23494,13 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Descriptors defines the list of descriptors that will be generated and sent to the rate limit service. Each descriptor contains 1+ key-value pair entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#descriptors DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#descriptors DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#descriptors}
   */
   readonly descriptors?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsRateLimitServiceDefaultGlobalRateLimitPolicyDescriptors[] | cdktf.IResolvable;
   /**
   * Disabled configures the HTTPProxy to not use the default global rate limit policy defined by the Contour configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disabled DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#disabled DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -23623,11 +23623,11 @@ export class DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntime
 }
 export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsRateLimitServiceExtensionService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -23746,37 +23746,37 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * DefaultGlobalRateLimitPolicy allows setting a default global rate limit policy for every HTTPProxy. HTTPProxy can overwrite this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#default_global_rate_limit_policy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#default_global_rate_limit_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#default_global_rate_limit_policy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#default_global_rate_limit_policy}
   */
   readonly defaultGlobalRateLimitPolicy?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsRateLimitServiceDefaultGlobalRateLimitPolicy;
   /**
   * Domain is passed to the Rate Limit Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#domain DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#domain DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#domain}
   */
   readonly domain?: string;
   /**
   * EnableResourceExhaustedCode enables translating error code 429 to grpc code RESOURCE_EXHAUSTED. When disabled it's translated to UNAVAILABLE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#enable_resource_exhausted_code DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#enable_resource_exhausted_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#enable_resource_exhausted_code DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#enable_resource_exhausted_code}
   */
   readonly enableResourceExhaustedCode?: boolean | cdktf.IResolvable;
   /**
   * EnableXRateLimitHeaders defines whether to include the X-RateLimit headers X-RateLimit-Limit, X-RateLimit-Remaining, and X-RateLimit-Reset (as defined by the IETF Internet-Draft linked below), on responses to clients when the Rate Limit Service is consulted for a request. ref. https://tools.ietf.org/id/draft-polli-ratelimit-headers-03.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#enable_x_rate_limit_headers DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#enable_x_rate_limit_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#enable_x_rate_limit_headers DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#enable_x_rate_limit_headers}
   */
   readonly enableXRateLimitHeaders?: boolean | cdktf.IResolvable;
   /**
   * ExtensionService identifies the extension service defining the RLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#extension_service DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#extension_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#extension_service DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#extension_service}
   */
   readonly extensionService: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsRateLimitServiceExtensionService;
   /**
   * FailOpen defines whether to allow requests to proceed when the Rate Limit Service fails to respond with a valid rate limit decision within the timeout defined on the extension service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fail_open DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fail_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#fail_open DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#fail_open}
   */
   readonly failOpen?: boolean | cdktf.IResolvable;
 }
@@ -24014,19 +24014,19 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Literal is a static custom tag value. Precisely one of Literal, RequestHeaderName must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#literal DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#literal DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#literal}
   */
   readonly literal?: string;
   /**
   * RequestHeaderName indicates which request header the label value is obtained from. Precisely one of Literal, RequestHeaderName must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#request_header_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#request_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#request_header_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#request_header_name}
   */
   readonly requestHeaderName?: string;
   /**
   * TagName is the unique name of the custom tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tag_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tag_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tag_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tag_name}
   */
   readonly tagName: string;
 }
@@ -24197,11 +24197,11 @@ export class DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntime
 }
 export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsTracingExtensionService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#namespace DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -24320,37 +24320,37 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * CustomTags defines a list of custom tags with unique tag name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#custom_tags DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#custom_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#custom_tags DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#custom_tags}
   */
   readonly customTags?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsTracingCustomTags[] | cdktf.IResolvable;
   /**
   * ExtensionService identifies the extension service defining the otel-collector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#extension_service DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#extension_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#extension_service DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#extension_service}
   */
   readonly extensionService: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsTracingExtensionService;
   /**
   * IncludePodDetail defines a flag. If it is true, contour will add the pod name and namespace to the span of the trace. the default is true. Note: The Envoy pods MUST have the HOSTNAME and CONTOUR_NAMESPACE environment variables set for this to work properly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#include_pod_detail DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#include_pod_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#include_pod_detail DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#include_pod_detail}
   */
   readonly includePodDetail?: boolean | cdktf.IResolvable;
   /**
   * MaxPathTagLength defines maximum length of the request path to extract and include in the HttpUrl tag. contour's default is 256.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_path_tag_length DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_path_tag_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#max_path_tag_length DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#max_path_tag_length}
   */
   readonly maxPathTagLength?: number;
   /**
   * OverallSampling defines the sampling rate of trace data. contour's default is 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#overall_sampling DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#overall_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#overall_sampling DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#overall_sampling}
   */
   readonly overallSampling?: string;
   /**
   * ServiceName defines the name for the service. contour's default is contour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#service_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#service_name DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#service_name}
   */
   readonly serviceName?: string;
 }
@@ -24588,25 +24588,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * CA filename.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ca_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ca_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Client certificate filename.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cert_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#cert_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Allow serving the xDS gRPC API without TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#insecure DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#insecure DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Client key filename.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#key_file DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#key_file}
   */
   readonly keyFile?: string;
 }
@@ -24789,25 +24789,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Defines the xDS gRPC API address which Contour will serve. Contour's default is '0.0.0.0'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#address DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
   * Defines the xDS gRPC API port which Contour will serve. Contour's default is 8001.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#port DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * TLS holds TLS file config details. Contour's default is { caFile: '/certs/ca.crt', certFile: '/certs/tls.cert', keyFile: '/certs/tls.key', insecure: false }.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tls DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tls DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsXdsServerTls;
   /**
   * Defines the XDSServer to use for 'contour serve'. Values: 'envoy' (default), 'contour (deprecated)'. Other values will produce an error. Deprecated: this field will be removed in a future release when the 'contour' xDS server implementation is removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#type DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -24990,85 +24990,85 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRun
   /**
   * Debug contains parameters to enable debug logging and debug interfaces inside Contour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#debug DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#debug DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#debug}
   */
   readonly debug?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsDebug;
   /**
   * EnableExternalNameService allows processing of ExternalNameServices Contour's default is false for security reasons.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#enable_external_name_service DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#enable_external_name_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#enable_external_name_service DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#enable_external_name_service}
   */
   readonly enableExternalNameService?: boolean | cdktf.IResolvable;
   /**
   * Envoy contains parameters for Envoy as well as how to optionally configure a managed Envoy fleet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#envoy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#envoy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#envoy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#envoy}
   */
   readonly envoy?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsEnvoy;
   /**
   * FeatureFlags defines toggle to enable new contour features. Available toggles are: useEndpointSlices - Configures contour to fetch endpoint data from k8s endpoint slices. defaults to true, If false then reads endpoint data from the k8s endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#feature_flags DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#feature_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#feature_flags DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#feature_flags}
   */
   readonly featureFlags?: string[];
   /**
   * Gateway contains parameters for the gateway-api Gateway that Contour is configured to serve traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#gateway DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#gateway DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#gateway}
   */
   readonly gateway?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsGateway;
   /**
   * GlobalExternalAuthorization allows envoys external authorization filter to be enabled for all virtual hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#global_ext_auth DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#global_ext_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#global_ext_auth DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#global_ext_auth}
   */
   readonly globalExtAuth?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsGlobalExtAuth;
   /**
   * Health defines the endpoints Contour uses to serve health checks. Contour's default is { address: '0.0.0.0', port: 8000 }.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#health DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#health DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#health}
   */
   readonly health?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsHealth;
   /**
   * HTTPProxy defines parameters on HTTPProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#httpproxy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#httpproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#httpproxy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#httpproxy}
   */
   readonly httpproxy?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsHttpproxy;
   /**
   * Ingress contains parameters for ingress options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ingress DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#ingress DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsIngress;
   /**
   * Metrics defines the endpoint Contour uses to serve metrics. Contour's default is { address: '0.0.0.0', port: 8000 }.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#metrics DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#metrics DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsMetrics;
   /**
   * Policy specifies default policy applied if not overridden by the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#policy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#policy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#policy}
   */
   readonly policy?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsPolicy;
   /**
   * RateLimitService optionally holds properties of the Rate Limit Service to be used for global rate limiting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#rate_limit_service DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#rate_limit_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#rate_limit_service DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#rate_limit_service}
   */
   readonly rateLimitService?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsRateLimitService;
   /**
   * Tracing defines properties for exporting trace data to OpenTelemetry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tracing DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#tracing DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#tracing}
   */
   readonly tracing?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsTracing;
   /**
   * XDSServer contains parameters for the xDS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#xds_server DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#xds_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#xds_server DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#xds_server}
   */
   readonly xdsServer?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettingsXdsServer;
 }
@@ -25541,25 +25541,25 @@ export interface DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpec {
   /**
   * Contour specifies deployment-time settings for the Contour part of the installation, i.e. the xDS server/control plane and associated resources, including things like replica count for the Deployment, and node placement constraints for the pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#contour DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#contour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#contour DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#contour}
   */
   readonly contour?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecContour;
   /**
   * Envoy specifies deployment-time settings for the Envoy part of the installation, i.e. the xDS client/data plane and associated resources, including things like the workload type to use (DaemonSet or Deployment), node placement constraints for the pods, and various options for the Envoy service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#envoy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#envoy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#envoy DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#envoy}
   */
   readonly envoy?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecEnvoy;
   /**
   * ResourceLabels is a set of labels to add to the provisioned Contour resources. Deprecated: use Gateway.Spec.Infrastructure.Labels instead. This field will be removed in a future release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resource_labels DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#resource_labels DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#resource_labels}
   */
   readonly resourceLabels?: { [key: string]: string };
   /**
   * RuntimeSettings is a ContourConfiguration spec to be used when provisioning a Contour instance that will influence aspects of the Contour instance's runtime behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#runtime_settings DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#runtime_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#runtime_settings DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest#runtime_settings}
   */
   readonly runtimeSettings?: DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecRuntimeSettings;
 }
@@ -25740,7 +25740,7 @@ export class DataK8SProjectcontourIoContourDeploymentV1Alpha1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest k8s_projectcontour_io_contour_deployment_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest k8s_projectcontour_io_contour_deployment_v1alpha1_manifest}
 */
 export class DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -25756,7 +25756,7 @@ export class DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -25768,7 +25768,7 @@ export class DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest k8s_projectcontour_io_contour_deployment_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/projectcontour_io_contour_deployment_v1alpha1_manifest k8s_projectcontour_io_contour_deployment_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -25779,8 +25779,8 @@ export class DataK8SProjectcontourIoContourDeploymentV1Alpha1Manifest extends cd
       terraformResourceType: 'k8s_projectcontour_io_contour_deployment_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

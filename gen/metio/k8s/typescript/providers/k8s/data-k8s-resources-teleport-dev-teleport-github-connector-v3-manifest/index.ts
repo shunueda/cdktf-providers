@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SResourcesTeleportDevTeleportGithubConnectorV3ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#metadata DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#metadata DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#metadata}
   */
   readonly metadata: DataK8SResourcesTeleportDevTeleportGithubConnectorV3ManifestMetadata;
   /**
   * GithubConnector resource definition v3 from Teleport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#spec DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#spec DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#spec}
   */
   readonly spec?: DataK8SResourcesTeleportDevTeleportGithubConnectorV3ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SResourcesTeleportDevTeleportGithubConnectorV3ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#annotations DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#annotations DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#labels DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#labels DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#name DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#name DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#namespace DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#namespace DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SResourcesTeleportDevTeleportGithubConnectorV3ManifestSpe
   /**
   * a list of hostnames allowed for https client redirect URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#allowed_https_hostnames DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#allowed_https_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#allowed_https_hostnames DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#allowed_https_hostnames}
   */
   readonly allowedHttpsHostnames?: string[];
   /**
   * a list of CIDRs allowed for HTTP or HTTPS client redirect URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#insecure_allowed_cidr_ranges DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#insecure_allowed_cidr_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#insecure_allowed_cidr_ranges DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#insecure_allowed_cidr_ranges}
   */
   readonly insecureAllowedCidrRanges?: string[];
 }
@@ -350,19 +350,19 @@ export interface DataK8SResourcesTeleportDevTeleportGithubConnectorV3ManifestSpe
   /**
   * Organization is a Github organization a user belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#organization DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#organization DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#organization}
   */
   readonly organization?: string;
   /**
   * Roles is a list of allowed logins for this org/team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#roles DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#roles DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Team is a team within the organization a user belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#team DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#team DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#team}
   */
   readonly team?: string;
 }
@@ -538,49 +538,49 @@ export interface DataK8SResourcesTeleportDevTeleportGithubConnectorV3ManifestSpe
   /**
   * APIEndpointURL is the URL of the API endpoint of the Github instance this connector is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#api_endpoint_url DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#api_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#api_endpoint_url DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#api_endpoint_url}
   */
   readonly apiEndpointUrl?: string;
   /**
   * ClientID is the Github OAuth app client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#client_id DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#client_id DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * ClientRedirectSettings defines which client redirect URLs are allowed for non-browser SSO logins other than the standard localhost ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#client_redirect_settings DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#client_redirect_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#client_redirect_settings DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#client_redirect_settings}
   */
   readonly clientRedirectSettings?: DataK8SResourcesTeleportDevTeleportGithubConnectorV3ManifestSpecClientRedirectSettings;
   /**
   * ClientSecret is the Github OAuth app client secret. This field supports secret lookup. See the operator documentation for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#client_secret DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#client_secret DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Display is the connector display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#display DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#display DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#display}
   */
   readonly display?: string;
   /**
   * EndpointURL is the URL of the GitHub instance this connector is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#endpoint_url DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#endpoint_url DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#endpoint_url}
   */
   readonly endpointUrl?: string;
   /**
   * RedirectURL is the authorization callback URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#redirect_url DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#redirect_url DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
   * TeamsToRoles maps Github team memberships onto allowed roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#teams_to_roles DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#teams_to_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#teams_to_roles DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest#teams_to_roles}
   */
   readonly teamsToRoles?: DataK8SResourcesTeleportDevTeleportGithubConnectorV3ManifestSpecTeamsToRoles[] | cdktf.IResolvable;
 }
@@ -877,7 +877,7 @@ export class DataK8SResourcesTeleportDevTeleportGithubConnectorV3ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest k8s_resources_teleport_dev_teleport_github_connector_v3_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest k8s_resources_teleport_dev_teleport_github_connector_v3_manifest}
 */
 export class DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest extends cdktf.TerraformDataSource {
 
@@ -893,7 +893,7 @@ export class DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest extend
   * Generates CDKTF code for importing a DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest to import
-  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -905,7 +905,7 @@ export class DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest k8s_resources_teleport_dev_teleport_github_connector_v3_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_github_connector_v3_manifest k8s_resources_teleport_dev_teleport_github_connector_v3_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -916,8 +916,8 @@ export class DataK8SResourcesTeleportDevTeleportGithubConnectorV3Manifest extend
       terraformResourceType: 'k8s_resources_teleport_dev_teleport_github_connector_v3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

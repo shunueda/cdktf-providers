@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/waap_security_insight_silence
+// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/waap_security_insight_silence
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface WaapSecurityInsightSilenceConfig extends cdktf.TerraformMetaArg
   /**
   * The author of the silence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/waap_security_insight_silence#author WaapSecurityInsightSilence#author}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/waap_security_insight_silence#author WaapSecurityInsightSilence#author}
   */
   readonly author: string;
   /**
   * A comment explaining the reason for the silence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/waap_security_insight_silence#comment WaapSecurityInsightSilence#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/waap_security_insight_silence#comment WaapSecurityInsightSilence#comment}
   */
   readonly comment: string;
   /**
   * The WAAP domain ID for which the insight silence is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/waap_security_insight_silence#domain_id WaapSecurityInsightSilence#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/waap_security_insight_silence#domain_id WaapSecurityInsightSilence#domain_id}
   */
   readonly domainId: number;
   /**
   * The date and time the silence expires in ISO 8601 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/waap_security_insight_silence#expire_at WaapSecurityInsightSilence#expire_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/waap_security_insight_silence#expire_at WaapSecurityInsightSilence#expire_at}
   */
   readonly expireAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/waap_security_insight_silence#id WaapSecurityInsightSilence#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/waap_security_insight_silence#id WaapSecurityInsightSilence#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface WaapSecurityInsightSilenceConfig extends cdktf.TerraformMetaArg
   /**
   * The slug of the insight type. The insight type can be obtained from the API endpoint /v1/security-insights/types or you can use the gcore_waap_security_insight_type data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/waap_security_insight_silence#insight_type WaapSecurityInsightSilence#insight_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/waap_security_insight_silence#insight_type WaapSecurityInsightSilence#insight_type}
   */
   readonly insightType: string;
   /**
   * A hash table of label names and values that apply to the insight silence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/waap_security_insight_silence#labels WaapSecurityInsightSilence#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/waap_security_insight_silence#labels WaapSecurityInsightSilence#labels}
   */
   readonly labels: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/waap_security_insight_silence gcore_waap_security_insight_silence}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/waap_security_insight_silence gcore_waap_security_insight_silence}
 */
 export class WaapSecurityInsightSilence extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class WaapSecurityInsightSilence extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WaapSecurityInsightSilence resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WaapSecurityInsightSilence to import
-  * @param importFromId The id of the existing WaapSecurityInsightSilence that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/waap_security_insight_silence#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WaapSecurityInsightSilence that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/waap_security_insight_silence#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WaapSecurityInsightSilence to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class WaapSecurityInsightSilence extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/waap_security_insight_silence gcore_waap_security_insight_silence} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/waap_security_insight_silence gcore_waap_security_insight_silence} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class WaapSecurityInsightSilence extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_waap_security_insight_silence',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.3',
-        providerVersionConstraint: '0.31.3'
+        providerVersion: '0.31.4',
+        providerVersionConstraint: '0.31.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -15,19 +15,19 @@ export interface DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manif
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest#metadata DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest#metadata DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1ManifestMetadata;
   /**
   * AmazonCloudWatchAgentSpec defines the desired state of AmazonCloudWatchAgent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest#spec DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest#spec DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1ManifestSpec;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest k8s_cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest k8s_cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest}
 */
 export class DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -43,7 +43,7 @@ export class DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest 
   * Generates CDKTF code for importing a DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -55,7 +55,7 @@ export class DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest k8s_cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest k8s_cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,8 +66,8 @@ export class DataK8SCloudwatchAwsAmazonComAmazonCloudWatchAgentV1Alpha1Manifest 
       terraformResourceType: 'k8s_cloudwatch_aws_amazon_com_amazon_cloud_watch_agent_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

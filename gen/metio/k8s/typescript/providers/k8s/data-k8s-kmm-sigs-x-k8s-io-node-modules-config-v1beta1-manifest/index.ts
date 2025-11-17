@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#metadata DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#metadata DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestMetadata;
   /**
   * NodeModulesConfigSpec describes the desired state of modules on the node More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#spec DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#spec DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#annotations DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#annotations DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#labels DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#labels DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#name DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#name DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModules
   /**
   * Load is an optional list of arguments to be used when loading the kernel module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#load DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#load DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#load}
   */
   readonly load?: string[];
   /**
   * Unload is an optional list of arguments to be used when unloading the kernel module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#unload DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#unload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#unload DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#unload}
   */
   readonly unload?: string[];
 }
@@ -318,13 +318,13 @@ export interface DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModules
   /**
   * Load is an optional list of arguments to be used when loading the kernel module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#load DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#load DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#load}
   */
   readonly load?: string[];
   /**
   * Unload is an optional list of arguments to be used when unloading the kernel module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#unload DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#unload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#unload DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#unload}
   */
   readonly unload?: string[];
 }
@@ -449,43 +449,43 @@ export interface DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModules
   /**
   * Args is an optional list of arguments to be passed to modprobe before the name of the kernel module. The resulting commands will be: 'modprobe ${Args} module_name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#args DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#args DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#args}
   */
   readonly args?: DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModulesConfigModprobeArgs;
   /**
   * DirName is the root directory for modules. It adds '-d ${DirName}' to the modprobe command-line.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#dir_name DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#dir_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#dir_name DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#dir_name}
   */
   readonly dirName?: string;
   /**
   * FirmwarePath is the path of the firmware(s). The firmware(s) will be copied to the host for the kernel to find them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#firmware_path DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#firmware_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#firmware_path DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#firmware_path}
   */
   readonly firmwarePath?: string;
   /**
   * ModuleName is the name of the Module to be loaded. This field can only be unset if rawArgs is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#module_name DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#module_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#module_name DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#module_name}
   */
   readonly moduleName?: string;
   /**
   * ModulesLoadingOrder defines the dependency between kernel modules loading, in case it was not created by depmod (independent kernel modules). The list order should be: upmost module, then the module it depends on and so on. Example: if moduleA depends on first loading moduleB, and moduleB depends on first loading moduleC the entry should look: ModulesLoadingOrder: - moduleA - moduleB - moduleC In order to load all 3 modules, moduleA shoud be defined in the ModuleName parameter of this struct
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#modules_loading_order DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#modules_loading_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#modules_loading_order DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#modules_loading_order}
   */
   readonly modulesLoadingOrder?: string[];
   /**
   * Parameters is an optional list of kernel module parameters to be provided to modprobe. They should be in the form of key=value and will be separated by spaces in the modprobe command. The resulting loading command will be: 'modprobe module_name ${Parameters}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#parameters DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#parameters DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#parameters}
   */
   readonly parameters?: string[];
   /**
   * If RawArgs are specified, they are passed straight to the modprobe binary; all other properties in this object are ignored. The resulting commands will be: 'modprobe ${RawArgs}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#raw_args DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#raw_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#raw_args DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#raw_args}
   */
   readonly rawArgs?: DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModulesConfigModprobeRawArgs;
 }
@@ -753,35 +753,35 @@ export class DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModulesConf
 }
 export interface DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModulesConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#container_image DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#container_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#container_image DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#container_image}
   */
   readonly containerImage: string;
   /**
   * PullPolicy describes a policy for if/when to pull a container image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#image_pull_policy DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#image_pull_policy DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#in_tree_module_to_remove DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#in_tree_module_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#in_tree_module_to_remove DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#in_tree_module_to_remove}
   */
   readonly inTreeModuleToRemove?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#in_tree_modules_to_remove DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#in_tree_modules_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#in_tree_modules_to_remove DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#in_tree_modules_to_remove}
   */
   readonly inTreeModulesToRemove?: string[];
   /**
   * When InsecurePull is true, the container image can be pulled without TLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#insecure_pull DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#insecure_pull}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#insecure_pull DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#insecure_pull}
   */
   readonly insecurePull: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#kernel_version DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#kernel_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#kernel_version DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#kernel_version}
   */
   readonly kernelVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#modprobe DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#modprobe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#modprobe DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#modprobe}
   */
   readonly modprobe: DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModulesConfigModprobe;
 }
@@ -1036,7 +1036,7 @@ export interface DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModules
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#name DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#name DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1130,25 +1130,25 @@ export class DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModulesImag
 }
 export interface DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#config DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#config DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#config}
   */
   readonly config: DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModulesConfig;
   /**
   * LocalObjectReference contains enough information to let you locate the referenced object inside the same namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#image_repo_secret DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#image_repo_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#image_repo_secret DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#image_repo_secret}
   */
   readonly imageRepoSecret?: DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModulesImageRepoSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#name DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#name DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#namespace DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#namespace DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#service_account_name DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#service_account_name DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#service_account_name}
   */
   readonly serviceAccountName: string;
 }
@@ -1370,7 +1370,7 @@ export interface DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpec {
   /**
   * Modules list the spec of all the modules that need to be executed on the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#modules DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#modules DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest#modules}
   */
   readonly modules?: DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecModules[] | cdktf.IResolvable;
 }
@@ -1464,7 +1464,7 @@ export class DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest k8s_kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest k8s_kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest}
 */
 export class DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1480,7 +1480,7 @@ export class DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1492,7 +1492,7 @@ export class DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest k8s_kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest k8s_kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1503,8 +1503,8 @@ export class DataK8SKmmSigsXK8SIoNodeModulesConfigV1Beta1Manifest extends cdktf.
       terraformResourceType: 'k8s_kmm_sigs_x_k8s_io_node_modules_config_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

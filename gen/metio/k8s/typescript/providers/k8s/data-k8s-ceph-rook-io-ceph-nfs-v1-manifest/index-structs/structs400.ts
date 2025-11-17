@@ -23,53 +23,53 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecServer {
   /**
   * The number of active Ganesha servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#active DataK8SCephRookIoCephNfsV1Manifest#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#active DataK8SCephRookIoCephNfsV1Manifest#active}
   */
   readonly active: number;
   /**
   * The annotations-related configuration to add/set on each Pod related object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#annotations DataK8SCephRookIoCephNfsV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#annotations DataK8SCephRookIoCephNfsV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Whether host networking is enabled for the Ganesha server. If not set, the network settings from the cluster CR will be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host_network DataK8SCephRookIoCephNfsV1Manifest#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host_network DataK8SCephRookIoCephNfsV1Manifest#host_network}
   */
   readonly hostNetwork?: boolean | cdktf.IResolvable;
   /**
   * The labels-related configuration to add/set on each Pod related object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#labels DataK8SCephRookIoCephNfsV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#labels DataK8SCephRookIoCephNfsV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * A liveness-probe to verify that Ganesha server has valid run-time state. If LivenessProbe.Disabled is false and LivenessProbe.Probe is nil uses default probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#liveness_probe DataK8SCephRookIoCephNfsV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#liveness_probe DataK8SCephRookIoCephNfsV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbe;
   /**
   * LogLevel set logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#log_level DataK8SCephRookIoCephNfsV1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#log_level DataK8SCephRookIoCephNfsV1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#placement DataK8SCephRookIoCephNfsV1Manifest#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#placement DataK8SCephRookIoCephNfsV1Manifest#placement}
   */
   readonly placement?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacement;
   /**
   * PriorityClassName sets the priority class on the pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#priority_class_name DataK8SCephRookIoCephNfsV1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#priority_class_name DataK8SCephRookIoCephNfsV1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * Resources set resource requests and limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resources DataK8SCephRookIoCephNfsV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resources DataK8SCephRookIoCephNfsV1Manifest#resources}
   */
   readonly resources?: DataK8SCephRookIoCephNfsV1ManifestSpecServerResources;
 }
@@ -394,19 +394,19 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpec {
   /**
   * RADOS is the Ganesha RADOS specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#rados DataK8SCephRookIoCephNfsV1Manifest#rados}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#rados DataK8SCephRookIoCephNfsV1Manifest#rados}
   */
   readonly rados?: DataK8SCephRookIoCephNfsV1ManifestSpecRados;
   /**
   * Security allows specifying security configurations for the NFS cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#security DataK8SCephRookIoCephNfsV1Manifest#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#security DataK8SCephRookIoCephNfsV1Manifest#security}
   */
   readonly security?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurity;
   /**
   * Server is the Ganesha Server specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#server DataK8SCephRookIoCephNfsV1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#server DataK8SCephRookIoCephNfsV1Manifest#server}
   */
   readonly server: DataK8SCephRookIoCephNfsV1ManifestSpecServer;
 }

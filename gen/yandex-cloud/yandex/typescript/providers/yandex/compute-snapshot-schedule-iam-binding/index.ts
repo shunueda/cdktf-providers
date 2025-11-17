@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/compute_snapshot_schedule_iam_binding
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/compute_snapshot_schedule_iam_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -23,31 +23,31 @@ export interface ComputeSnapshotScheduleIamBindingConfig extends cdktf.Terraform
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/compute_snapshot_schedule_iam_binding#members ComputeSnapshotScheduleIamBinding#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/compute_snapshot_schedule_iam_binding#members ComputeSnapshotScheduleIamBinding#members}
   */
   readonly members: string[];
   /**
   * The role that should be assigned. Only one yandex_compute_snapshot_schedule_iam_binding can be used per role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/compute_snapshot_schedule_iam_binding#role ComputeSnapshotScheduleIamBinding#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/compute_snapshot_schedule_iam_binding#role ComputeSnapshotScheduleIamBinding#role}
   */
   readonly role: string;
   /**
   * For test purposes, to compensate IAM operations delay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/compute_snapshot_schedule_iam_binding#sleep_after ComputeSnapshotScheduleIamBinding#sleep_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/compute_snapshot_schedule_iam_binding#sleep_after ComputeSnapshotScheduleIamBinding#sleep_after}
   */
   readonly sleepAfter?: number;
   /**
   * The ID of the compute `snapshot_schedule` to attach the policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/compute_snapshot_schedule_iam_binding#snapshot_schedule_id ComputeSnapshotScheduleIamBinding#snapshot_schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/compute_snapshot_schedule_iam_binding#snapshot_schedule_id ComputeSnapshotScheduleIamBinding#snapshot_schedule_id}
   */
   readonly snapshotScheduleId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/compute_snapshot_schedule_iam_binding yandex_compute_snapshot_schedule_iam_binding}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/compute_snapshot_schedule_iam_binding yandex_compute_snapshot_schedule_iam_binding}
 */
 export class ComputeSnapshotScheduleIamBinding extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ComputeSnapshotScheduleIamBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ComputeSnapshotScheduleIamBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ComputeSnapshotScheduleIamBinding to import
-  * @param importFromId The id of the existing ComputeSnapshotScheduleIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/compute_snapshot_schedule_iam_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ComputeSnapshotScheduleIamBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/compute_snapshot_schedule_iam_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ComputeSnapshotScheduleIamBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ComputeSnapshotScheduleIamBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/compute_snapshot_schedule_iam_binding yandex_compute_snapshot_schedule_iam_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/compute_snapshot_schedule_iam_binding yandex_compute_snapshot_schedule_iam_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ComputeSnapshotScheduleIamBinding extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_compute_snapshot_schedule_iam_binding',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

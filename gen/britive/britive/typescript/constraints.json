@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "britive": "2.2.4"
+    "britive": "2.2.5"
   }
 }

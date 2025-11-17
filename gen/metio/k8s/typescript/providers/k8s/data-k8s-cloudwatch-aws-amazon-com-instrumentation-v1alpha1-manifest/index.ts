@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#metadata DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#metadata DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestMetadata;
   /**
   * InstrumentationSpec defines the desired state of OpenTelemetry SDK and instrumentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#spec DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#spec DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#annotations DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#annotations DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#labels DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#labels DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#namespace DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#namespace DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -382,13 +382,13 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -510,19 +510,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -673,19 +673,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -836,25 +836,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdAttrsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdAttrsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdAttrsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdAttrsValueFromSecretKeyRef;
 }
@@ -1037,19 +1037,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdAttrsValueFrom;
 }
@@ -1222,19 +1222,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1385,13 +1385,13 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -1513,19 +1513,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -1676,19 +1676,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1839,25 +1839,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdEnvValueFromSecretKeyRef;
 }
@@ -2040,19 +2040,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdEnvValueFrom;
 }
@@ -2225,7 +2225,7 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2340,19 +2340,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2506,43 +2506,43 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Attrs defines Apache HTTPD agent specific attributes. The precedence is: 'agent default attributes' > 'instrument spec attributes' . Attributes are documented at https://github.com/open-telemetry/opentelemetry-cpp-contrib/tree/main/instrumentation/otel-webserver-module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#attrs DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#attrs DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#attrs}
   */
   readonly attrs?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdAttrs[] | cdktf.IResolvable;
   /**
   * Location of Apache HTTPD server configuration. Needed only if different from default '/usr/local/apache2/conf'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_path}
   */
   readonly configPath?: string;
   /**
   * Env defines Apache HTTPD specific env vars. There are four layers for env vars' definitions and the precedence order is: 'original container env vars' > 'language specific env vars' > 'common env vars' > 'instrument spec configs' vars'. If the former var had been defined, then the other vars would be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdEnv[] | cdktf.IResolvable;
   /**
   * Image is a container image with Apache SDK and auto-instrumentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Resources describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_requirements DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_requirements DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpdResourceRequirements;
   /**
   * Apache HTTPD server version. One of 2.4 or 2.2. Default is 2.4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#version}
   */
   readonly version?: string;
   /**
   * VolumeSizeLimit defines size limit for volume used for auto-instrumentation. The default size is 200Mi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
   */
   readonly volumeLimitSize?: string;
 }
@@ -2812,19 +2812,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2975,13 +2975,13 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -3103,19 +3103,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -3266,19 +3266,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3429,25 +3429,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecDotnetEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecDotnetEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecDotnetEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecDotnetEnvValueFromSecretKeyRef;
 }
@@ -3630,19 +3630,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecDotnetEnvValueFrom;
 }
@@ -3815,7 +3815,7 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -3930,19 +3930,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecDotnetResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -4096,25 +4096,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Env defines DotNet specific env vars. There are four layers for env vars' definitions and the precedence order is: 'original container env vars' > 'language specific env vars' > 'common env vars' > 'instrument spec configs' vars'. If the former var had been defined, then the other vars would be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecDotnetEnv[] | cdktf.IResolvable;
   /**
   * Image is a container image with DotNet SDK and auto-instrumentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Resources describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_requirements DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_requirements DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecDotnetResourceRequirements;
   /**
   * VolumeSizeLimit defines size limit for volume used for auto-instrumentation. The default size is 200Mi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
   */
   readonly volumeLimitSize?: string;
 }
@@ -4297,19 +4297,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4460,13 +4460,13 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -4588,19 +4588,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -4751,19 +4751,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4914,25 +4914,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecEnvValueFromSecretKeyRef;
 }
@@ -5115,19 +5115,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecEnvValueFrom;
 }
@@ -5300,7 +5300,7 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Endpoint is address of the collector with OTLP endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#endpoint DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#endpoint DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#endpoint}
   */
   readonly endpoint?: string;
 }
@@ -5396,19 +5396,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5559,13 +5559,13 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -5687,19 +5687,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -5850,19 +5850,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6013,25 +6013,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecGoEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecGoEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecGoEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecGoEnvValueFromSecretKeyRef;
 }
@@ -6214,19 +6214,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecGoEnvValueFrom;
 }
@@ -6399,7 +6399,7 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -6514,19 +6514,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecGoResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6680,25 +6680,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Env defines Go specific env vars. There are four layers for env vars' definitions and the precedence order is: 'original container env vars' > 'language specific env vars' > 'common env vars' > 'instrument spec configs' vars'. If the former var had been defined, then the other vars would be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecGoEnv[] | cdktf.IResolvable;
   /**
   * Image is a container image with Go SDK and auto-instrumentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Resources describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_requirements DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_requirements DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecGoResourceRequirements;
   /**
   * VolumeSizeLimit defines size limit for volume used for auto-instrumentation. The default size is 200Mi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
   */
   readonly volumeLimitSize?: string;
 }
@@ -6881,19 +6881,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7044,13 +7044,13 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -7172,19 +7172,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -7335,19 +7335,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7498,25 +7498,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecJavaEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecJavaEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecJavaEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecJavaEnvValueFromSecretKeyRef;
 }
@@ -7699,19 +7699,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecJavaEnvValueFrom;
 }
@@ -7884,7 +7884,7 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -7999,19 +7999,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecJavaResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -8165,25 +8165,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Env defines java specific env vars. There are four layers for env vars' definitions and the precedence order is: 'original container env vars' > 'language specific env vars' > 'common env vars' > 'instrument spec configs' vars'. If the former var had been defined, then the other vars would be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecJavaEnv[] | cdktf.IResolvable;
   /**
   * Image is a container image with javaagent auto-instrumentation JAR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Resources describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resources DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resources DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecJavaResources;
   /**
   * VolumeSizeLimit defines size limit for volume used for auto-instrumentation. The default size is 200Mi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
   */
   readonly volumeLimitSize?: string;
 }
@@ -8366,19 +8366,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8529,13 +8529,13 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -8657,19 +8657,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -8820,19 +8820,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8983,25 +8983,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxAttrsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxAttrsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxAttrsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxAttrsValueFromSecretKeyRef;
 }
@@ -9184,19 +9184,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxAttrsValueFrom;
 }
@@ -9369,19 +9369,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9532,13 +9532,13 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -9660,19 +9660,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -9823,19 +9823,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9986,25 +9986,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxEnvValueFromSecretKeyRef;
 }
@@ -10187,19 +10187,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxEnvValueFrom;
 }
@@ -10372,7 +10372,7 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -10487,19 +10487,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -10653,37 +10653,37 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Attrs defines Nginx agent specific attributes. The precedence order is: 'agent default attributes' > 'instrument spec attributes' . Attributes are documented at https://github.com/open-telemetry/opentelemetry-cpp-contrib/tree/main/instrumentation/otel-webserver-module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#attrs DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#attrs DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#attrs}
   */
   readonly attrs?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxAttrs[] | cdktf.IResolvable;
   /**
   * Location of Nginx configuration file. Needed only if different from default '/etx/nginx/nginx.conf'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_file DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_file DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_file}
   */
   readonly configFile?: string;
   /**
   * Env defines Nginx specific env vars. There are four layers for env vars' definitions and the precedence order is: 'original container env vars' > 'language specific env vars' > 'common env vars' > 'instrument spec configs' vars'. If the former var had been defined, then the other vars would be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxEnv[] | cdktf.IResolvable;
   /**
   * Image is a container image with Nginx SDK and auto-instrumentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Resources describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_requirements DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_requirements DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginxResourceRequirements;
   /**
   * VolumeSizeLimit defines size limit for volume used for auto-instrumentation. The default size is 200Mi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
   */
   readonly volumeLimitSize?: string;
 }
@@ -10924,19 +10924,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11087,13 +11087,13 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -11215,19 +11215,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -11378,19 +11378,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11541,25 +11541,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNodejsEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNodejsEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNodejsEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNodejsEnvValueFromSecretKeyRef;
 }
@@ -11742,19 +11742,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNodejsEnvValueFrom;
 }
@@ -11927,7 +11927,7 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -12042,19 +12042,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNodejsResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -12208,25 +12208,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Env defines nodejs specific env vars. There are four layers for env vars' definitions and the precedence order is: 'original container env vars' > 'language specific env vars' > 'common env vars' > 'instrument spec configs' vars'. If the former var had been defined, then the other vars would be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNodejsEnv[] | cdktf.IResolvable;
   /**
   * Image is a container image with NodeJS SDK and auto-instrumentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Resources describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_requirements DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_requirements DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNodejsResourceRequirements;
   /**
   * VolumeSizeLimit defines size limit for volume used for auto-instrumentation. The default size is 200Mi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
   */
   readonly volumeLimitSize?: string;
 }
@@ -12409,19 +12409,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12572,13 +12572,13 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#api_version DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_path DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -12700,19 +12700,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#container_name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#divisor DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -12863,19 +12863,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#key DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#optional DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13026,25 +13026,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#config_map_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecPythonEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecPythonEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_field_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecPythonEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#secret_key_ref DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecPythonEnvValueFromSecretKeyRef;
 }
@@ -13227,19 +13227,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#value_from DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecPythonEnvValueFrom;
 }
@@ -13412,7 +13412,7 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#name DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -13527,19 +13527,19 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#claims DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecPythonResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#limits DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#requests DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -13693,25 +13693,25 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Env defines python specific env vars. There are four layers for env vars' definitions and the precedence order is: 'original container env vars' > 'language specific env vars' > 'common env vars' > 'instrument spec configs' vars'. If the former var had been defined, then the other vars would be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecPythonEnv[] | cdktf.IResolvable;
   /**
   * Image is a container image with Python SDK and auto-instrumentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#image DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Resources describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_requirements DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_requirements DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecPythonResourceRequirements;
   /**
   * VolumeSizeLimit defines size limit for volume used for auto-instrumentation. The default size is 200Mi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#volume_limit_size DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#volume_limit_size}
   */
   readonly volumeLimitSize?: string;
 }
@@ -13894,13 +13894,13 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * AddK8sUIDAttributes defines whether K8s UID attributes should be collected (e.g. k8s.deployment.uid).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#add_k8s_uid_attributes DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#add_k8s_uid_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#add_k8s_uid_attributes DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#add_k8s_uid_attributes}
   */
   readonly addK8SUidAttributes?: boolean | cdktf.IResolvable;
   /**
   * Attributes defines attributes that are added to the resource. For example environment: dev
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_attributes DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource_attributes DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource_attributes}
   */
   readonly resourceAttributes?: { [key: string]: string };
 }
@@ -14025,13 +14025,13 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * Argument defines sampler argument. The value depends on the sampler type. For instance for parentbased_traceidratio sampler type it is a number in range [0..1] e.g. 0.25. The value will be set in the OTEL_TRACES_SAMPLER_ARG env var.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#argument DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#argument}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#argument DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#argument}
   */
   readonly argument?: string;
   /**
   * Type defines sampler type. The value will be set in the OTEL_TRACES_SAMPLER env var. The value can be for instance parentbased_always_on, parentbased_always_off, parentbased_traceidratio...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#type DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#type DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -14156,73 +14156,73 @@ export interface DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpe
   /**
   * ApacheHttpd defines configuration for Apache HTTPD auto-instrumentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#apache_httpd DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#apache_httpd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#apache_httpd DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#apache_httpd}
   */
   readonly apacheHttpd?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecApacheHttpd;
   /**
   * DotNet defines configuration for DotNet auto-instrumentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#dotnet DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#dotnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#dotnet DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#dotnet}
   */
   readonly dotnet?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecDotnet;
   /**
   * Env defines common env vars. There are four layers for env vars' definitions and the precedence order is: 'original container env vars' > 'language specific env vars' > 'common env vars' > 'instrument spec configs' vars'. If the former var had been defined, then the other vars would be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#env DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecEnv[] | cdktf.IResolvable;
   /**
   * Exporter defines exporter configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#exporter DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#exporter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#exporter DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#exporter}
   */
   readonly exporter?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecExporter;
   /**
   * Go defines configuration for Go auto-instrumentation. When using Go auto-instrumentation you must provide a value for the OTEL_GO_AUTO_TARGET_EXE env var via the Instrumentation env vars or via the instrumentation.opentelemetry.io/otel-go-auto-target-exe pod annotation. Failure to set this value causes instrumentation injection to abort, leaving the original pod unchanged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#go DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#go}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#go DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#go}
   */
   readonly go?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecGo;
   /**
   * Java defines configuration for java auto-instrumentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#java DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#java}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#java DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#java}
   */
   readonly java?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecJava;
   /**
   * Nginx defines configuration for Nginx auto-instrumentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#nginx DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#nginx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#nginx DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#nginx}
   */
   readonly nginx?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNginx;
   /**
   * NodeJS defines configuration for nodejs auto-instrumentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#nodejs DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#nodejs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#nodejs DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#nodejs}
   */
   readonly nodejs?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecNodejs;
   /**
   * Propagators defines inter-process context propagation configuration. Values in this list will be set in the OTEL_PROPAGATORS env var. Enum=tracecontext;baggage;b3;b3multi;jaeger;xray;ottrace;none
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#propagators DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#propagators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#propagators DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#propagators}
   */
   readonly propagators?: string[];
   /**
   * Python defines configuration for python auto-instrumentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#python DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#python}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#python DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#python}
   */
   readonly python?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecPython;
   /**
   * Resource defines the configuration for the resource attributes, as defined by the OpenTelemetry specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#resource DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#resource}
   */
   readonly resource?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecResource;
   /**
   * Sampler defines sampling configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#sampler DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#sampler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#sampler DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest#sampler}
   */
   readonly sampler?: DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecSampler;
 }
@@ -14635,7 +14635,7 @@ export class DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest k8s_cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest k8s_cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest}
 */
 export class DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -14651,7 +14651,7 @@ export class DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest extend
   * Generates CDKTF code for importing a DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -14663,7 +14663,7 @@ export class DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest k8s_cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest k8s_cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -14674,8 +14674,8 @@ export class DataK8SCloudwatchAwsAmazonComInstrumentationV1Alpha1Manifest extend
       terraformResourceType: 'k8s_cloudwatch_aws_amazon_com_instrumentation_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

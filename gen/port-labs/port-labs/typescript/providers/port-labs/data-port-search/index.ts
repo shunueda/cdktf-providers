@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search
+// https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataPortSearchConfig extends cdktf.TerraformMetaArguments {
   /**
   * Attach title to relation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#attach_title_to_relation DataPortSearch#attach_title_to_relation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#attach_title_to_relation DataPortSearch#attach_title_to_relation}
   */
   readonly attachTitleToRelation?: boolean | cdktf.IResolvable;
   /**
   * Properties to exclude from the results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#exclude DataPortSearch#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#exclude DataPortSearch#exclude}
   */
   readonly exclude?: string[];
   /**
   * Exclude calculated properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#exclude_calculated_properties DataPortSearch#exclude_calculated_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#exclude_calculated_properties DataPortSearch#exclude_calculated_properties}
   */
   readonly excludeCalculatedProperties?: boolean | cdktf.IResolvable;
   /**
   * Properties to include in the results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#include DataPortSearch#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#include DataPortSearch#include}
   */
   readonly include?: string[];
   /**
   * The search query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#query DataPortSearch#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#query DataPortSearch#query}
   */
   readonly query: string;
 }
 export interface DataPortSearchEntitiesPropertiesArrayProps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#boolean_items DataPortSearch#boolean_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#boolean_items DataPortSearch#boolean_items}
   */
   readonly booleanItems?: { [key: string]: Array<boolean | cdktf.IResolvable> | cdktf.IResolvable } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#number_items DataPortSearch#number_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#number_items DataPortSearch#number_items}
   */
   readonly numberItems?: { [key: string]: number[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#object_items DataPortSearch#object_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#object_items DataPortSearch#object_items}
   */
   readonly objectItems?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#string_items DataPortSearch#string_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#string_items DataPortSearch#string_items}
   */
   readonly stringItems?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -235,31 +235,31 @@ export interface DataPortSearchEntitiesProperties {
   /**
   * The array properties of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#array_props DataPortSearch#array_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#array_props DataPortSearch#array_props}
   */
   readonly arrayProps?: DataPortSearchEntitiesPropertiesArrayProps;
   /**
   * The bool properties of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#boolean_props DataPortSearch#boolean_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#boolean_props DataPortSearch#boolean_props}
   */
   readonly booleanProps?: { [key: string]: (boolean | cdktf.IResolvable) };
   /**
   * The number properties of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#number_props DataPortSearch#number_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#number_props DataPortSearch#number_props}
   */
   readonly numberProps?: { [key: string]: number };
   /**
   * The object properties of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#object_props DataPortSearch#object_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#object_props DataPortSearch#object_props}
   */
   readonly objectProps?: { [key: string]: string };
   /**
   * The string properties of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#string_props DataPortSearch#string_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#string_props DataPortSearch#string_props}
   */
   readonly stringProps?: { [key: string]: string };
 }
@@ -471,13 +471,13 @@ export interface DataPortSearchEntitiesRelations {
   /**
   * The many relation of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#many_relations DataPortSearch#many_relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#many_relations DataPortSearch#many_relations}
   */
   readonly manyRelations?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The single relation of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#single_relations DataPortSearch#single_relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#single_relations DataPortSearch#single_relations}
   */
   readonly singleRelations?: { [key: string]: string };
 }
@@ -777,43 +777,43 @@ export interface DataPortSearchEntities {
   /**
   * The icon of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#icon DataPortSearch#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#icon DataPortSearch#icon}
   */
   readonly icon?: string;
   /**
   * The properties of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#properties DataPortSearch#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#properties DataPortSearch#properties}
   */
   readonly properties?: DataPortSearchEntitiesProperties;
   /**
   * The relations of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#relations DataPortSearch#relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#relations DataPortSearch#relations}
   */
   readonly relations?: DataPortSearchEntitiesRelations;
   /**
   * The runID of the action run that created the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#run_id DataPortSearch#run_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#run_id DataPortSearch#run_id}
   */
   readonly runId?: string;
   /**
   * The scorecards of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#scorecards DataPortSearch#scorecards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#scorecards DataPortSearch#scorecards}
   */
   readonly scorecards?: { [key: string]: DataPortSearchEntitiesScorecards } | cdktf.IResolvable;
   /**
   * The teams the entity belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#teams DataPortSearch#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#teams DataPortSearch#teams}
   */
   readonly teams?: string[];
   /**
   * The title of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#title DataPortSearch#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#title DataPortSearch#title}
   */
   readonly title?: string;
 }
@@ -1123,7 +1123,7 @@ export class DataPortSearchEntitiesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search port_search}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search port_search}
 */
 export class DataPortSearch extends cdktf.TerraformDataSource {
 
@@ -1139,7 +1139,7 @@ export class DataPortSearch extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPortSearch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPortSearch to import
-  * @param importFromId The id of the existing DataPortSearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPortSearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPortSearch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1151,7 +1151,7 @@ export class DataPortSearch extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.0/docs/data-sources/port_search port_search} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.15.1/docs/data-sources/port_search port_search} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1162,8 +1162,8 @@ export class DataPortSearch extends cdktf.TerraformDataSource {
       terraformResourceType: 'port_search',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.15.0',
-        providerVersionConstraint: '2.15.0'
+        providerVersion: '2.15.1',
+        providerVersionConstraint: '2.15.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

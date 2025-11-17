@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SVeleroIoBackupStorageLocationV1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#metadata DataK8SVeleroIoBackupStorageLocationV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#metadata DataK8SVeleroIoBackupStorageLocationV1Manifest#metadata}
   */
   readonly metadata: DataK8SVeleroIoBackupStorageLocationV1ManifestMetadata;
   /**
   * BackupStorageLocationSpec defines the desired state of a Velero BackupStorageLocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#spec DataK8SVeleroIoBackupStorageLocationV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#spec DataK8SVeleroIoBackupStorageLocationV1Manifest#spec}
   */
   readonly spec?: DataK8SVeleroIoBackupStorageLocationV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SVeleroIoBackupStorageLocationV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#annotations DataK8SVeleroIoBackupStorageLocationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#annotations DataK8SVeleroIoBackupStorageLocationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#labels DataK8SVeleroIoBackupStorageLocationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#labels DataK8SVeleroIoBackupStorageLocationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#name DataK8SVeleroIoBackupStorageLocationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#name DataK8SVeleroIoBackupStorageLocationV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#namespace DataK8SVeleroIoBackupStorageLocationV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#namespace DataK8SVeleroIoBackupStorageLocationV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SVeleroIoBackupStorageLocationV1ManifestSpecCredential {
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#key DataK8SVeleroIoBackupStorageLocationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#key DataK8SVeleroIoBackupStorageLocationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#name DataK8SVeleroIoBackupStorageLocationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#name DataK8SVeleroIoBackupStorageLocationV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#optional DataK8SVeleroIoBackupStorageLocationV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#optional DataK8SVeleroIoBackupStorageLocationV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -382,19 +382,19 @@ export interface DataK8SVeleroIoBackupStorageLocationV1ManifestSpecObjectStorage
   /**
   * Bucket is the bucket to use for object storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#bucket DataK8SVeleroIoBackupStorageLocationV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#bucket DataK8SVeleroIoBackupStorageLocationV1Manifest#bucket}
   */
   readonly bucket: string;
   /**
   * CACert defines a CA bundle to use when verifying TLS connections to the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#ca_cert DataK8SVeleroIoBackupStorageLocationV1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#ca_cert DataK8SVeleroIoBackupStorageLocationV1Manifest#ca_cert}
   */
   readonly caCert?: string;
   /**
   * Prefix is the path inside a bucket to use for Velero storage. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#prefix DataK8SVeleroIoBackupStorageLocationV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#prefix DataK8SVeleroIoBackupStorageLocationV1Manifest#prefix}
   */
   readonly prefix?: string;
 }
@@ -545,49 +545,49 @@ export interface DataK8SVeleroIoBackupStorageLocationV1ManifestSpec {
   /**
   * AccessMode defines the permissions for the backup storage location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#access_mode DataK8SVeleroIoBackupStorageLocationV1Manifest#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#access_mode DataK8SVeleroIoBackupStorageLocationV1Manifest#access_mode}
   */
   readonly accessMode?: string;
   /**
   * BackupSyncPeriod defines how frequently to sync backup API objects from object storage. A value of 0 disables sync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#backup_sync_period DataK8SVeleroIoBackupStorageLocationV1Manifest#backup_sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#backup_sync_period DataK8SVeleroIoBackupStorageLocationV1Manifest#backup_sync_period}
   */
   readonly backupSyncPeriod?: string;
   /**
   * Config is for provider-specific configuration fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#config DataK8SVeleroIoBackupStorageLocationV1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#config DataK8SVeleroIoBackupStorageLocationV1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * Credential contains the credential information intended to be used with this location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#credential DataK8SVeleroIoBackupStorageLocationV1Manifest#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#credential DataK8SVeleroIoBackupStorageLocationV1Manifest#credential}
   */
   readonly credential?: DataK8SVeleroIoBackupStorageLocationV1ManifestSpecCredential;
   /**
   * Default indicates this location is the default backup storage location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#default DataK8SVeleroIoBackupStorageLocationV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#default DataK8SVeleroIoBackupStorageLocationV1Manifest#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * ObjectStorageLocation specifies the settings necessary to connect to a provider's object storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#object_storage DataK8SVeleroIoBackupStorageLocationV1Manifest#object_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#object_storage DataK8SVeleroIoBackupStorageLocationV1Manifest#object_storage}
   */
   readonly objectStorage: DataK8SVeleroIoBackupStorageLocationV1ManifestSpecObjectStorage;
   /**
   * Provider is the provider of the backup storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#provider DataK8SVeleroIoBackupStorageLocationV1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#provider DataK8SVeleroIoBackupStorageLocationV1Manifest#provider}
   */
   readonly provider: string;
   /**
   * ValidationFrequency defines how frequently to validate the corresponding object storage. A value of 0 disables validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#validation_frequency DataK8SVeleroIoBackupStorageLocationV1Manifest#validation_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#validation_frequency DataK8SVeleroIoBackupStorageLocationV1Manifest#validation_frequency}
   */
   readonly validationFrequency?: string;
 }
@@ -878,7 +878,7 @@ export class DataK8SVeleroIoBackupStorageLocationV1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest k8s_velero_io_backup_storage_location_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest k8s_velero_io_backup_storage_location_v1_manifest}
 */
 export class DataK8SVeleroIoBackupStorageLocationV1Manifest extends cdktf.TerraformDataSource {
 
@@ -894,7 +894,7 @@ export class DataK8SVeleroIoBackupStorageLocationV1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SVeleroIoBackupStorageLocationV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SVeleroIoBackupStorageLocationV1Manifest to import
-  * @param importFromId The id of the existing DataK8SVeleroIoBackupStorageLocationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SVeleroIoBackupStorageLocationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SVeleroIoBackupStorageLocationV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -906,7 +906,7 @@ export class DataK8SVeleroIoBackupStorageLocationV1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/velero_io_backup_storage_location_v1_manifest k8s_velero_io_backup_storage_location_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/velero_io_backup_storage_location_v1_manifest k8s_velero_io_backup_storage_location_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -917,8 +917,8 @@ export class DataK8SVeleroIoBackupStorageLocationV1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_velero_io_backup_storage_location_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

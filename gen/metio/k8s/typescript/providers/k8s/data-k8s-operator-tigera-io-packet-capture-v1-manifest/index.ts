@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorTigeraIoPacketCaptureV1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#metadata DataK8SOperatorTigeraIoPacketCaptureV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#metadata DataK8SOperatorTigeraIoPacketCaptureV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorTigeraIoPacketCaptureV1ManifestMetadata;
   /**
   * Specification of the desired state for the PacketCapture.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#spec DataK8SOperatorTigeraIoPacketCaptureV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#spec DataK8SOperatorTigeraIoPacketCaptureV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperatorTigeraIoPacketCaptureV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#annotations DataK8SOperatorTigeraIoPacketCaptureV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#annotations DataK8SOperatorTigeraIoPacketCaptureV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#labels DataK8SOperatorTigeraIoPacketCaptureV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#labels DataK8SOperatorTigeraIoPacketCaptureV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#name DataK8SOperatorTigeraIoPacketCaptureV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#name DataK8SOperatorTigeraIoPacketCaptureV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCapture
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#name DataK8SOperatorTigeraIoPacketCaptureV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#name DataK8SOperatorTigeraIoPacketCaptureV1Manifest#name}
   */
   readonly name: string;
 }
@@ -302,19 +302,19 @@ export interface DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCapture
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#claims DataK8SOperatorTigeraIoPacketCaptureV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#claims DataK8SOperatorTigeraIoPacketCaptureV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCaptureDeploymentSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#limits DataK8SOperatorTigeraIoPacketCaptureV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#limits DataK8SOperatorTigeraIoPacketCaptureV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#requests DataK8SOperatorTigeraIoPacketCaptureV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#requests DataK8SOperatorTigeraIoPacketCaptureV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -468,13 +468,13 @@ export interface DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCapture
   /**
   * Name is an enum which identifies the PacketCapture Deployment container by name. Supported values are: tigera-packetcapture-server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#name DataK8SOperatorTigeraIoPacketCaptureV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#name DataK8SOperatorTigeraIoPacketCaptureV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named PacketCapture Deployment container's resources. If omitted, the PacketCapture Deployment will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#resources DataK8SOperatorTigeraIoPacketCaptureV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#resources DataK8SOperatorTigeraIoPacketCaptureV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCaptureDeploymentSpecTemplateSpecContainersResources;
 }
@@ -618,7 +618,7 @@ export interface DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCapture
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#name DataK8SOperatorTigeraIoPacketCaptureV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#name DataK8SOperatorTigeraIoPacketCaptureV1Manifest#name}
   */
   readonly name: string;
 }
@@ -733,19 +733,19 @@ export interface DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCapture
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#claims DataK8SOperatorTigeraIoPacketCaptureV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#claims DataK8SOperatorTigeraIoPacketCaptureV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCaptureDeploymentSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#limits DataK8SOperatorTigeraIoPacketCaptureV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#limits DataK8SOperatorTigeraIoPacketCaptureV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#requests DataK8SOperatorTigeraIoPacketCaptureV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#requests DataK8SOperatorTigeraIoPacketCaptureV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -899,13 +899,13 @@ export interface DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCapture
   /**
   * Name is an enum which identifies the PacketCapture Deployment init container by name. Supported values are: tigera-packetcapture-server-tls-key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#name DataK8SOperatorTigeraIoPacketCaptureV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#name DataK8SOperatorTigeraIoPacketCaptureV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named PacketCapture Deployment init container's resources. If omitted, the PacketCapture Deployment will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#resources DataK8SOperatorTigeraIoPacketCaptureV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#resources DataK8SOperatorTigeraIoPacketCaptureV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCaptureDeploymentSpecTemplateSpecInitContainersResources;
 }
@@ -1049,13 +1049,13 @@ export interface DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCapture
   /**
   * Containers is a list of PacketCapture containers. If specified, this overrides the specified PacketCapture Deployment containers. If omitted, the PacketCapture Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#containers DataK8SOperatorTigeraIoPacketCaptureV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#containers DataK8SOperatorTigeraIoPacketCaptureV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCaptureDeploymentSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of PacketCapture init containers. If specified, this overrides the specified PacketCapture Deployment init containers. If omitted, the PacketCapture Deployment will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#init_containers DataK8SOperatorTigeraIoPacketCaptureV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#init_containers DataK8SOperatorTigeraIoPacketCaptureV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCaptureDeploymentSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -1180,7 +1180,7 @@ export interface DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCapture
   /**
   * Spec is the PacketCapture Deployment's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#spec DataK8SOperatorTigeraIoPacketCaptureV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#spec DataK8SOperatorTigeraIoPacketCaptureV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCaptureDeploymentSpecTemplateSpec;
 }
@@ -1276,7 +1276,7 @@ export interface DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCapture
   /**
   * Template describes the PacketCapture Deployment pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#template DataK8SOperatorTigeraIoPacketCaptureV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#template DataK8SOperatorTigeraIoPacketCaptureV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCaptureDeploymentSpecTemplate;
 }
@@ -1372,7 +1372,7 @@ export interface DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCapture
   /**
   * Spec is the specification of the PacketCapture Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#spec DataK8SOperatorTigeraIoPacketCaptureV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#spec DataK8SOperatorTigeraIoPacketCaptureV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCaptureDeploymentSpec;
 }
@@ -1468,7 +1468,7 @@ export interface DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpec {
   /**
   * PacketCaptureDeployment configures the PacketCapture Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#packet_capture_deployment DataK8SOperatorTigeraIoPacketCaptureV1Manifest#packet_capture_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#packet_capture_deployment DataK8SOperatorTigeraIoPacketCaptureV1Manifest#packet_capture_deployment}
   */
   readonly packetCaptureDeployment?: DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecPacketCaptureDeployment;
 }
@@ -1562,7 +1562,7 @@ export class DataK8SOperatorTigeraIoPacketCaptureV1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest k8s_operator_tigera_io_packet_capture_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest k8s_operator_tigera_io_packet_capture_v1_manifest}
 */
 export class DataK8SOperatorTigeraIoPacketCaptureV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1578,7 +1578,7 @@ export class DataK8SOperatorTigeraIoPacketCaptureV1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SOperatorTigeraIoPacketCaptureV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorTigeraIoPacketCaptureV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorTigeraIoPacketCaptureV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorTigeraIoPacketCaptureV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorTigeraIoPacketCaptureV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1590,7 +1590,7 @@ export class DataK8SOperatorTigeraIoPacketCaptureV1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest k8s_operator_tigera_io_packet_capture_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_packet_capture_v1_manifest k8s_operator_tigera_io_packet_capture_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1601,8 +1601,8 @@ export class DataK8SOperatorTigeraIoPacketCaptureV1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_operator_tigera_io_packet_capture_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

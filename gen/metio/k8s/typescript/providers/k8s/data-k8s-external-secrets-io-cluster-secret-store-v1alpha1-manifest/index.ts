@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#metadata DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#metadata DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestMetadata;
   /**
   * SecretStoreSpec defines the desired state of SecretStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#spec DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#spec DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#annotations DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#annotations DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#labels DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#labels DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -353,19 +353,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Audience specifies the 'aud' claim for the service account token If the service account uses a well-known annotation for e.g. IRSA or GCP Workload Identity then this audiences will be appended to the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * The name of the ServiceAccount resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -516,25 +516,25 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * the Akeyless Kubernetes auth-method access-id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_id}
   */
   readonly accessId: string;
   /**
   * Kubernetes-auth configuration name in Akeyless-Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#k8s_conf_name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#k8s_conf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#k8s_conf_name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#k8s_conf_name}
   */
   readonly k8SConfName: string;
   /**
   * Optional secret field containing a Kubernetes ServiceAccount JWT used for authenticating with Akeyless. If a name is specified without a key, 'token' is the default. If one is not specified, the one bound to the controller will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAkeylessAuthSecretRefKubernetesAuthSecretRef;
   /**
   * Optional service account field containing the name of a kubernetes ServiceAccount. If the service account is specified, the service account secret token JWT will be used for authenticating with Akeyless. If the service account selector is not supplied, the secretRef will be used instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
   */
   readonly serviceAccountRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAkeylessAuthSecretRefKubernetesAuthServiceAccountRef;
 }
@@ -711,19 +711,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -877,19 +877,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1043,19 +1043,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1209,19 +1209,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The SecretAccessID is used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_id}
   */
   readonly accessId?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAkeylessAuthSecretRefSecretRefAccessId;
   /**
   * A reference to a specific 'key' within a Secret resource, In some instances, 'key' is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_type}
   */
   readonly accessType?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAkeylessAuthSecretRefSecretRefAccessType;
   /**
   * A reference to a specific 'key' within a Secret resource, In some instances, 'key' is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_type_param DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_type_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_type_param DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_type_param}
   */
   readonly accessTypeParam?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAkeylessAuthSecretRefSecretRefAccessTypeParam;
 }
@@ -1375,13 +1375,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Kubernetes authenticates with Akeyless by passing the ServiceAccount token stored in the named Secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#kubernetes_auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#kubernetes_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#kubernetes_auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#kubernetes_auth}
   */
   readonly kubernetesAuth?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAkeylessAuthSecretRefKubernetesAuth;
   /**
   * Reference to a Secret that contains the details to authenticate with Akeyless.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAkeylessAuthSecretRefSecretRef;
 }
@@ -1506,25 +1506,25 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key the value inside of the provider type to use, only used with 'Secret' type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the object located at the provider type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The namespace the Provider type is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * The type of provider to use such as 'Secret', or 'ConfigMap'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -1701,25 +1701,25 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Akeyless GW API Url from which the secrets to be fetched from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#akeyless_gw_api_url DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#akeyless_gw_api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#akeyless_gw_api_url DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#akeyless_gw_api_url}
   */
   readonly akeylessGwApiUrl: string;
   /**
   * Auth configures how the operator authenticates with Akeyless.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth_secret_ref}
   */
   readonly authSecretRef: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAkeylessAuthSecretRef;
   /**
   * PEM/base64 encoded CA bundle used to validate Akeyless Gateway certificate. Only used if the AkeylessGWApiURL URL is using HTTPS protocol. If not set the system root certificates are used to validate the TLS connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_bundle DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_bundle DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * The provider for the CA bundle to use to validate Akeyless Gateway certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_provider DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_provider DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_provider}
   */
   readonly caProvider?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAkeylessCaProvider;
 }
@@ -1894,19 +1894,19 @@ export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProvi
 }
 export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAlibabaAuthRrsa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#oidc_provider_arn DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#oidc_provider_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#oidc_provider_arn DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#oidc_provider_arn}
   */
   readonly oidcProviderArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#oidc_token_file_path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#oidc_token_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#oidc_token_file_path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#oidc_token_file_path}
   */
   readonly oidcTokenFilePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#role_arn DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#role_arn DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#session_name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#session_name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#session_name}
   */
   readonly sessionName: string;
 }
@@ -2077,19 +2077,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2243,19 +2243,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2409,13 +2409,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The AccessKeyID is used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_key_id_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_key_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_key_id_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_key_id_secret_ref}
   */
   readonly accessKeyIdSecretRef: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAlibabaAuthSecretRefAccessKeyIdSecretRef;
   /**
   * The AccessKeySecret is used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_key_secret_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_key_secret_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_key_secret_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_key_secret_secret_ref}
   */
   readonly accessKeySecretSecretRef: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAlibabaAuthSecretRefAccessKeySecretSecretRef;
 }
@@ -2534,13 +2534,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Authenticate against Alibaba using RRSA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#rrsa DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#rrsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#rrsa DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#rrsa}
   */
   readonly rrsa?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAlibabaAuthRrsa;
   /**
   * AlibabaAuthSecretRef holds secret references for Alibaba credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAlibabaAuthSecretRef;
 }
@@ -2665,13 +2665,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * AlibabaAuth contains a secretRef for credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
   */
   readonly auth: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAlibabaAuth;
   /**
   * Alibaba Region to be used for the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#region_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#region_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#region_id}
   */
   readonly regionId: string;
 }
@@ -2790,19 +2790,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Audience specifies the 'aud' claim for the service account token If the service account uses a well-known annotation for e.g. IRSA or GCP Workload Identity then this audiences will be appended to the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * The name of the ServiceAccount resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2953,7 +2953,7 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * A reference to a ServiceAccount resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
   */
   readonly serviceAccountRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAwsAuthJwtServiceAccountRef;
 }
@@ -3049,19 +3049,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3215,19 +3215,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3381,13 +3381,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The AccessKeyID is used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_key_id_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_key_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_key_id_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_key_id_secret_ref}
   */
   readonly accessKeyIdSecretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAwsAuthSecretRefAccessKeyIdSecretRef;
   /**
   * The SecretAccessKey is used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_access_key_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_access_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_access_key_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_access_key_secret_ref}
   */
   readonly secretAccessKeySecretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAwsAuthSecretRefSecretAccessKeySecretRef;
 }
@@ -3512,13 +3512,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Authenticate against AWS using service account tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#jwt DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#jwt DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#jwt}
   */
   readonly jwt?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAwsAuthJwt;
   /**
   * AWSAuthSecretRef holds secret references for AWS credentials both AccessKeyID and SecretAccessKey must be defined in order to properly authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAwsAuthSecretRef;
 }
@@ -3643,25 +3643,25 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Auth defines the information necessary to authenticate against AWS if not set aws sdk will infer credentials from your environment see: https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html#specifying-credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
   */
   readonly auth?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAwsAuth;
   /**
   * AWS Region to be used for the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#region DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#region DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#region}
   */
   readonly region: string;
   /**
   * Role is a Role ARN which the SecretManager provider will assume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#role DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#role DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Service defines which service should be used to fetch the secrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service}
   */
   readonly service: string;
 }
@@ -3838,19 +3838,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -4004,19 +4004,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -4170,13 +4170,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The Azure clientId of the service principle used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#client_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#client_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#client_id}
   */
   readonly clientId?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAzurekvAuthSecretRefClientId;
   /**
   * The Azure ClientSecret of the service principle used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#client_secret DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#client_secret DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAzurekvAuthSecretRefClientSecret;
 }
@@ -4301,19 +4301,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Audience specifies the 'aud' claim for the service account token If the service account uses a well-known annotation for e.g. IRSA or GCP Workload Identity then this audiences will be appended to the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * The name of the ServiceAccount resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -4464,37 +4464,37 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Auth configures how the operator authenticates with Azure. Required for ServicePrincipal auth type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth_secret_ref}
   */
   readonly authSecretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAzurekvAuthSecretRef;
   /**
   * Auth type defines how to authenticate to the keyvault service. Valid values are: - 'ServicePrincipal' (default): Using a service principal (tenantId, clientId, clientSecret) - 'ManagedIdentity': Using Managed Identity assigned to the pod (see aad-pod-identity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth_type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth_type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth_type}
   */
   readonly authType?: string;
   /**
   * If multiple Managed Identity is assigned to the pod, you can select the one to be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#identity_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#identity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#identity_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#identity_id}
   */
   readonly identityId?: string;
   /**
   * ServiceAccountRef specified the service account that should be used when authenticating with WorkloadIdentity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
   */
   readonly serviceAccountRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAzurekvServiceAccountRef;
   /**
   * TenantID configures the Azure Tenant to send requests to. Required for ServicePrincipal auth type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#tenant_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#tenant_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Vault Url from which the secrets to be fetched from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#vault_url DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#vault_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#vault_url DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#vault_url}
   */
   readonly vaultUrl: string;
 }
@@ -4730,19 +4730,19 @@ export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProvi
 }
 export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderFakeData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#value DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#value DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#value_map DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#value_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#value_map DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#value_map}
   */
   readonly valueMap?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#version DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#version DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -4942,7 +4942,7 @@ export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProvi
 }
 export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderFake {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#data DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#data DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#data}
   */
   readonly data: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderFakeData[] | cdktf.IResolvable;
 }
@@ -5035,19 +5035,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -5201,7 +5201,7 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The SecretAccessKey is used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_access_key_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_access_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_access_key_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_access_key_secret_ref}
   */
   readonly secretAccessKeySecretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderGcpsmAuthSecretRefSecretAccessKeySecretRef;
 }
@@ -5297,19 +5297,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Audience specifies the 'aud' claim for the service account token If the service account uses a well-known annotation for e.g. IRSA or GCP Workload Identity then this audiences will be appended to the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * The name of the ServiceAccount resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -5458,21 +5458,21 @@ export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProvi
 }
 export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderGcpsmAuthWorkloadIdentity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#cluster_location DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#cluster_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#cluster_location DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#cluster_location}
   */
   readonly clusterLocation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#cluster_name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#cluster_name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#cluster_project_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#cluster_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#cluster_project_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#cluster_project_id}
   */
   readonly clusterProjectId?: string;
   /**
   * A reference to a ServiceAccount resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
   */
   readonly serviceAccountRef: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderGcpsmAuthWorkloadIdentityServiceAccountRef;
 }
@@ -5644,11 +5644,11 @@ export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProvi
 }
 export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderGcpsmAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderGcpsmAuthSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#workload_identity DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#workload_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#workload_identity DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#workload_identity}
   */
   readonly workloadIdentity?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderGcpsmAuthWorkloadIdentity;
 }
@@ -5773,13 +5773,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Auth defines the information necessary to authenticate against GCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
   */
   readonly auth?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderGcpsmAuth;
   /**
   * ProjectID project where secret is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#project_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#project_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#project_id}
   */
   readonly projectId?: string;
 }
@@ -5904,19 +5904,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6070,7 +6070,7 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * AccessToken is used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_token DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#access_token DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#access_token}
   */
   readonly accessToken?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderGitlabAuthSecretRefAccessToken;
 }
@@ -6164,7 +6164,7 @@ export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProvi
 }
 export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderGitlabAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderGitlabAuthSecretRef;
 }
@@ -6257,19 +6257,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Auth configures how secret-manager authenticates with a GitLab instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
   */
   readonly auth: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderGitlabAuth;
   /**
   * ProjectID specifies a project where secrets are located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#project_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#project_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#project_id}
   */
   readonly projectId?: string;
   /**
   * URL configures the GitLab instance URL. Defaults to https://gitlab.com/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#url DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#url DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -6420,19 +6420,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6586,7 +6586,7 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The SecretAccessKey is used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_api_key_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_api_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_api_key_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_api_key_secret_ref}
   */
   readonly secretApiKeySecretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderIbmAuthSecretRefSecretApiKeySecretRef;
 }
@@ -6680,7 +6680,7 @@ export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProvi
 }
 export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderIbmAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderIbmAuthSecretRef;
 }
@@ -6773,13 +6773,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Auth configures how secret-manager authenticates with the IBM secrets manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
   */
   readonly auth: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderIbmAuth;
   /**
   * ServiceURL is the Endpoint URL that is specific to the Secrets Manager service instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_url DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_url DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_url}
   */
   readonly serviceUrl?: string;
 }
@@ -6901,19 +6901,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7067,19 +7067,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7233,13 +7233,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * A reference to a specific 'key' within a Secret resource, In some instances, 'key' is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#client_cert DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#client_cert DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#client_cert}
   */
   readonly clientCert?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderKubernetesAuthCertClientCert;
   /**
   * A reference to a specific 'key' within a Secret resource, In some instances, 'key' is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#client_key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#client_key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#client_key}
   */
   readonly clientKey?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderKubernetesAuthCertClientKey;
 }
@@ -7364,19 +7364,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Audience specifies the 'aud' claim for the service account token If the service account uses a well-known annotation for e.g. IRSA or GCP Workload Identity then this audiences will be appended to the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * The name of the ServiceAccount resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7527,7 +7527,7 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * A reference to a ServiceAccount resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderKubernetesAuthServiceAccountServiceAccount;
 }
@@ -7623,19 +7623,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7789,7 +7789,7 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * A reference to a specific 'key' within a Secret resource, In some instances, 'key' is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#bearer_token DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#bearer_token DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#bearer_token}
   */
   readonly bearerToken?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderKubernetesAuthTokenBearerToken;
 }
@@ -7885,19 +7885,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * has both clientCert and clientKey as secretKeySelector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#cert DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#cert DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderKubernetesAuthCert;
   /**
   * points to a service account that should be used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderKubernetesAuthServiceAccount;
   /**
   * use static token to authenticate with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#token DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#token DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#token}
   */
   readonly token?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderKubernetesAuthToken;
 }
@@ -8051,25 +8051,25 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key the value inside of the provider type to use, only used with 'Secret' type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the object located at the provider type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The namespace the Provider type is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * The type of provider to use such as 'Secret', or 'ConfigMap'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -8246,19 +8246,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * CABundle is a base64-encoded CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_bundle DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_bundle DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * see: https://external-secrets.io/v0.4.1/spec/#external-secrets.io/v1alpha1.CAProvider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_provider DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_provider DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_provider}
   */
   readonly caProvider?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderKubernetesServerCaProvider;
   /**
   * configures the Kubernetes server Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#url DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#url DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -8412,19 +8412,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Auth configures how secret-manager authenticates with a Kubernetes instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
   */
   readonly auth: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderKubernetesAuth;
   /**
   * Remote namespace to fetch the secrets from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#remote_namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#remote_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#remote_namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#remote_namespace}
   */
   readonly remoteNamespace?: string;
   /**
   * configures the Kubernetes server Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#server DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#server DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#server}
   */
   readonly server?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderKubernetesServer;
 }
@@ -8575,19 +8575,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -8741,19 +8741,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -8907,13 +8907,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Fingerprint is the fingerprint of the API private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#fingerprint DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#fingerprint DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#fingerprint}
   */
   readonly fingerprint: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderOracleAuthSecretRefFingerprint;
   /**
   * PrivateKey is the user's API Signing Key in PEM format, used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#privatekey DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#privatekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#privatekey DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#privatekey}
   */
   readonly privatekey: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderOracleAuthSecretRefPrivatekey;
 }
@@ -9032,19 +9032,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * SecretRef to pass through sensitive information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderOracleAuthSecretRef;
   /**
   * Tenancy is the tenancy OCID where user is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#tenancy DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#tenancy DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#tenancy}
   */
   readonly tenancy: string;
   /**
   * User is an access OCID specific to the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#user DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#user DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#user}
   */
   readonly user: string;
 }
@@ -9189,19 +9189,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Audience specifies the 'aud' claim for the service account token If the service account uses a well-known annotation for e.g. IRSA or GCP Workload Identity then this audiences will be appended to the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * The name of the ServiceAccount resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -9352,43 +9352,43 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Auth configures how secret-manager authenticates with the Oracle Vault. If empty, instance principal is used. Optionally, the authenticating principal type and/or user data may be supplied for the use of workload identity and user principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
   */
   readonly auth?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderOracleAuth;
   /**
   * Compartment is the vault compartment OCID. Required for PushSecret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#compartment DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#compartment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#compartment DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#compartment}
   */
   readonly compartment?: string;
   /**
   * EncryptionKey is the OCID of the encryption key within the vault. Required for PushSecret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#encryption_key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#encryption_key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
   * The type of principal to use for authentication. If left blank, the Auth struct will determine the principal type. This optional field must be specified if using workload identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#principal_type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#principal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#principal_type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#principal_type}
   */
   readonly principalType?: string;
   /**
   * Region is the region where vault is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#region DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#region DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#region}
   */
   readonly region: string;
   /**
   * ServiceAccountRef specified the service account that should be used when authenticating with WorkloadIdentity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
   */
   readonly serviceAccountRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderOracleServiceAccountRef;
   /**
   * Vault is the vault's OCID of the specific vault where secret is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#vault DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#vault DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#vault}
   */
   readonly vault: string;
 }
@@ -9652,19 +9652,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -9818,7 +9818,7 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Username / Password is used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#credentials DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#credentials DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderPassworddepotAuthSecretRefCredentials;
 }
@@ -9912,7 +9912,7 @@ export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProvi
 }
 export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderPassworddepotAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderPassworddepotAuthSecretRef;
 }
@@ -10005,19 +10005,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Auth configures how secret-manager authenticates with a Password Depot instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
   */
   readonly auth: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderPassworddepotAuth;
   /**
   * Database to use as source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#database DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#database DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#database}
   */
   readonly database: string;
   /**
   * URL configures the Password Depot instance URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#host DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#host DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#host}
   */
   readonly host: string;
 }
@@ -10162,19 +10162,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -10328,19 +10328,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Path where the App Role authentication backend is mounted in Vault, e.g: 'approle'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * RoleID configured in the App Role authentication backend when setting up the authentication backend in Vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#role_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#role_id DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#role_id}
   */
   readonly roleId: string;
   /**
   * Reference to a key in a Secret that contains the App Role secret used to authenticate with Vault. The 'key' field must be specified and denotes which entry within the Secret resource is used as the app role secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthAppRoleSecretRef;
 }
@@ -10485,19 +10485,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -10651,19 +10651,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -10817,13 +10817,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * ClientCert is a certificate to authenticate using the Cert Vault authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#client_cert DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#client_cert DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#client_cert}
   */
   readonly clientCert?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthCertClientCert;
   /**
   * SecretRef to a key in a Secret resource containing client private key to authenticate with Vault using the Cert authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthCertSecretRef;
 }
@@ -10948,19 +10948,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Audience specifies the 'aud' claim for the service account token If the service account uses a well-known annotation for e.g. IRSA or GCP Workload Identity then this audiences will be appended to the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * The name of the ServiceAccount resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -11111,19 +11111,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Optional audiences field that will be used to request a temporary Kubernetes service account token for the service account referenced by 'serviceAccountRef'. Defaults to a single audience 'vault' it not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * Optional expiration time in seconds that will be used to request a temporary Kubernetes service account token for the service account referenced by 'serviceAccountRef'. Defaults to 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#expiration_seconds DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#expiration_seconds DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * Service account field containing the name of a kubernetes ServiceAccount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
   */
   readonly serviceAccountRef: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthJwtKubernetesServiceAccountTokenServiceAccountRef;
 }
@@ -11274,19 +11274,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -11440,25 +11440,25 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Optional ServiceAccountToken specifies the Kubernetes service account for which to request a token for with the 'TokenRequest' API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#kubernetes_service_account_token DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#kubernetes_service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#kubernetes_service_account_token DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#kubernetes_service_account_token}
   */
   readonly kubernetesServiceAccountToken?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthJwtKubernetesServiceAccountToken;
   /**
   * Path where the JWT authentication backend is mounted in Vault, e.g: 'jwt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Role is a JWT role to authenticate using the JWT/OIDC Vault authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#role DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#role DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Optional SecretRef that refers to a key in a Secret resource containing JWT token to authenticate with Vault using the JWT/OIDC authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthJwtSecretRef;
 }
@@ -11638,19 +11638,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -11804,19 +11804,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Audience specifies the 'aud' claim for the service account token If the service account uses a well-known annotation for e.g. IRSA or GCP Workload Identity then this audiences will be appended to the list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#audiences DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * The name of the ServiceAccount resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -11967,25 +11967,25 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Path where the Kubernetes authentication backend is mounted in Vault, e.g: 'kubernetes'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#mount_path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#mount_path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * A required field containing the Vault Role to assume. A Role binds a Kubernetes ServiceAccount with a set of Vault policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#role DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#role DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#role}
   */
   readonly role: string;
   /**
   * Optional secret field containing a Kubernetes ServiceAccount JWT used for authenticating with Vault. If a name is specified without a key, 'token' is the default. If one is not specified, the one bound to the controller will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthKubernetesSecretRef;
   /**
   * Optional service account field containing the name of a kubernetes ServiceAccount. If the service account is specified, the service account secret token JWT will be used for authenticating with Vault. If the service account selector is not supplied, the secretRef will be used instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#service_account_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#service_account_ref}
   */
   readonly serviceAccountRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthKubernetesServiceAccountRef;
 }
@@ -12162,19 +12162,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -12328,19 +12328,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Path where the LDAP authentication backend is mounted in Vault, e.g: 'ldap'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * SecretRef to a key in a Secret resource containing password for the LDAP user used to authenticate with Vault using the LDAP authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthLdapSecretRef;
   /**
   * Username is a LDAP user name used to authenticate using the LDAP Vault authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#username DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#username DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#username}
   */
   readonly username: string;
 }
@@ -12488,19 +12488,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -12654,37 +12654,37 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * AppRole authenticates with Vault using the App Role auth mechanism, with the role and secret stored in a Kubernetes Secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#app_role DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#app_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#app_role DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#app_role}
   */
   readonly appRole?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthAppRole;
   /**
   * Cert authenticates with TLS Certificates by passing client certificate, private key and ca certificate Cert authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#cert DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#cert DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthCert;
   /**
   * Jwt authenticates with Vault by passing role and JWT token using the JWT/OIDC authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#jwt DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#jwt DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#jwt}
   */
   readonly jwt?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthJwt;
   /**
   * Kubernetes authenticates with Vault by passing the ServiceAccount token stored in the named Secret resource to the Vault server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#kubernetes DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#kubernetes DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#kubernetes}
   */
   readonly kubernetes?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthKubernetes;
   /**
   * Ldap authenticates with Vault by passing username/password pair using the LDAP authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ldap DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ldap DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ldap}
   */
   readonly ldap?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthLdap;
   /**
   * TokenSecretRef authenticates with Vault by presenting a token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#token_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#token_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#token_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#token_secret_ref}
   */
   readonly tokenSecretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuthTokenSecretRef;
 }
@@ -12925,25 +12925,25 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key the value inside of the provider type to use, only used with 'Secret' type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the object located at the provider type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The namespace the Provider type is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * The type of provider to use such as 'Secret', or 'ConfigMap'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -13120,55 +13120,55 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Auth configures how secret-manager authenticates with the Vault server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
   */
   readonly auth: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultAuth;
   /**
   * PEM encoded CA bundle used to validate Vault server certificate. Only used if the Server URL is using HTTPS protocol. This parameter is ignored for plain HTTP protocol connection. If not set the system root certificates are used to validate the TLS connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_bundle DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_bundle DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * The provider for the CA bundle to use to validate Vault server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_provider DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_provider DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_provider}
   */
   readonly caProvider?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVaultCaProvider;
   /**
   * ForwardInconsistent tells Vault to forward read-after-write requests to the Vault leader instead of simply retrying within a loop. This can increase performance if the option is enabled serverside. https://www.vaultproject.io/docs/configuration/replication#allow_forwarding_via_header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#forward_inconsistent DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#forward_inconsistent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#forward_inconsistent DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#forward_inconsistent}
   */
   readonly forwardInconsistent?: boolean | cdktf.IResolvable;
   /**
   * Name of the vault namespace. Namespaces is a set of features within Vault Enterprise that allows Vault environments to support Secure Multi-tenancy. e.g: 'ns1'. More about namespaces can be found here https://www.vaultproject.io/docs/enterprise/namespaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Path is the mount path of the Vault KV backend endpoint, e.g: 'secret'. The v2 KV secret engine version specific '/data' path suffix for fetching secrets from Vault is optional and will be appended if not present in specified path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * ReadYourWrites ensures isolated read-after-write semantics by providing discovered cluster replication states in each request. More information about eventual consistency in Vault can be found here https://www.vaultproject.io/docs/enterprise/consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#read_your_writes DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#read_your_writes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#read_your_writes DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#read_your_writes}
   */
   readonly readYourWrites?: boolean | cdktf.IResolvable;
   /**
   * Server is the connection address for the Vault server, e.g: 'https://vault.example.com:8200'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#server DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#server DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#server}
   */
   readonly server: string;
   /**
   * Version is the Vault KV secret engine version. This can be either 'v1' or 'v2'. Version defaults to 'v2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#version DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#version DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -13490,25 +13490,25 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key the value inside of the provider type to use, only used with 'Secret' type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the object located at the provider type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The namespace the Provider type is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * The type of provider to use such as 'Secret', or 'ConfigMap'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#type DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -13685,7 +13685,7 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Json path of return value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#json_path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#json_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#json_path DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#json_path}
   */
   readonly jsonPath?: string;
 }
@@ -13781,19 +13781,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -13947,13 +13947,13 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Name of this secret in templates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Secret ref to fill in credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderWebhookSecretsSecretRef;
 }
@@ -14094,55 +14094,55 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#body DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#body DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#body}
   */
   readonly body?: string;
   /**
   * PEM encoded CA bundle used to validate webhook server certificate. Only used if the Server URL is using HTTPS protocol. This parameter is ignored for plain HTTP protocol connection. If not set the system root certificates are used to validate the TLS connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_bundle DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_bundle DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * The provider for the CA bundle to use to validate webhook server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_provider DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_provider DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_provider}
   */
   readonly caProvider?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderWebhookCaProvider;
   /**
   * Headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#headers DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#headers DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Webhook Method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#method DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#method DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Result formatting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#result DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#result DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#result}
   */
   readonly result: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderWebhookResult;
   /**
   * Secrets to fill in templates These secrets will be passed to the templating function as key value pairs under the given name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secrets DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#secrets DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#secrets}
   */
   readonly secrets?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderWebhookSecrets[] | cdktf.IResolvable;
   /**
   * Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#timeout DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#timeout DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * Webhook url to call
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#url DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#url DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -14464,19 +14464,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -14630,7 +14630,7 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The authorized key used for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#authorized_key_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#authorized_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#authorized_key_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#authorized_key_secret_ref}
   */
   readonly authorizedKeySecretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderYandexlockboxAuthAuthorizedKeySecretRef;
 }
@@ -14726,19 +14726,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#key DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The name of the Secret resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#name DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource being referred to. Ignored if referent is not cluster-scoped. cluster-scoped defaults to the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#namespace DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -14892,7 +14892,7 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * A reference to a specific 'key' within a Secret resource, In some instances, 'key' is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#cert_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#cert_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#cert_secret_ref DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#cert_secret_ref}
   */
   readonly certSecretRef?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderYandexlockboxCaProviderCertSecretRef;
 }
@@ -14988,19 +14988,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Yandex.Cloud API endpoint (e.g. 'api.cloud.yandex.net:443')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#api_endpoint DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#api_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#api_endpoint DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#api_endpoint}
   */
   readonly apiEndpoint?: string;
   /**
   * Auth defines the information necessary to authenticate against Yandex Lockbox
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#auth DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#auth}
   */
   readonly auth: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderYandexlockboxAuth;
   /**
   * The provider for the CA bundle to use to validate Yandex.Cloud server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_provider DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ca_provider DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ca_provider}
   */
   readonly caProvider?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderYandexlockboxCaProvider;
 }
@@ -15151,85 +15151,85 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecP
   /**
   * Akeyless configures this store to sync secrets using Akeyless Vault provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#akeyless DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#akeyless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#akeyless DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#akeyless}
   */
   readonly akeyless?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAkeyless;
   /**
   * Alibaba configures this store to sync secrets using Alibaba Cloud provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#alibaba DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#alibaba}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#alibaba DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#alibaba}
   */
   readonly alibaba?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAlibaba;
   /**
   * AWS configures this store to sync secrets using AWS Secret Manager provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#aws DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#aws DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#aws}
   */
   readonly aws?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAws;
   /**
   * AzureKV configures this store to sync secrets using Azure Key Vault provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#azurekv DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#azurekv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#azurekv DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#azurekv}
   */
   readonly azurekv?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderAzurekv;
   /**
   * Fake configures a store with static key/value pairs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#fake DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#fake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#fake DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#fake}
   */
   readonly fake?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderFake;
   /**
   * GCPSM configures this store to sync secrets using Google Cloud Platform Secret Manager provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#gcpsm DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#gcpsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#gcpsm DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#gcpsm}
   */
   readonly gcpsm?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderGcpsm;
   /**
   * GitLab configures this store to sync secrets using GitLab Variables provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#gitlab DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#gitlab DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#gitlab}
   */
   readonly gitlab?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderGitlab;
   /**
   * IBM configures this store to sync secrets using IBM Cloud provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ibm DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ibm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#ibm DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#ibm}
   */
   readonly ibm?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderIbm;
   /**
   * Kubernetes configures this store to sync secrets using a Kubernetes cluster provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#kubernetes DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#kubernetes DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#kubernetes}
   */
   readonly kubernetes?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderKubernetes;
   /**
   * Oracle configures this store to sync secrets using Oracle Vault provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#oracle DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#oracle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#oracle DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#oracle}
   */
   readonly oracle?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderOracle;
   /**
   * Configures a store to sync secrets with a Password Depot instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#passworddepot DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#passworddepot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#passworddepot DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#passworddepot}
   */
   readonly passworddepot?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderPassworddepot;
   /**
   * Vault configures this store to sync secrets using Hashi provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#vault DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#vault DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#vault}
   */
   readonly vault?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderVault;
   /**
   * Webhook configures this store to sync secrets using a generic templated webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#webhook DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#webhook DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#webhook}
   */
   readonly webhook?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderWebhook;
   /**
   * YandexLockbox configures this store to sync secrets using Yandex Lockbox provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#yandexlockbox DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#yandexlockbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#yandexlockbox DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#yandexlockbox}
   */
   readonly yandexlockbox?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProviderYandexlockbox;
 }
@@ -15700,11 +15700,11 @@ export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProvi
 }
 export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecRetrySettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#max_retries DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#max_retries DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#retry_interval DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#retry_interval DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#retry_interval}
   */
   readonly retryInterval?: string;
 }
@@ -15829,19 +15829,19 @@ export interface DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpec 
   /**
   * Used to select the correct ESO controller (think: ingress.ingressClassName) The ESO controller is instantiated with a specific controller name and filters ES based on this property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#controller DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#controller DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#controller}
   */
   readonly controller?: string;
   /**
   * Used to configure the provider. Only one provider may be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#provider DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#provider DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#provider}
   */
   readonly provider: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecProvider;
   /**
   * Used to configure http retries if failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#retry_settings DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#retry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#retry_settings DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest#retry_settings}
   */
   readonly retrySettings?: DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecRetrySettings;
 }
@@ -15990,7 +15990,7 @@ export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest k8s_external_secrets_io_cluster_secret_store_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest k8s_external_secrets_io_cluster_secret_store_v1alpha1_manifest}
 */
 export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -16006,7 +16006,7 @@ export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -16018,7 +16018,7 @@ export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest k8s_external_secrets_io_cluster_secret_store_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/external_secrets_io_cluster_secret_store_v1alpha1_manifest k8s_external_secrets_io_cluster_secret_store_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -16029,8 +16029,8 @@ export class DataK8SExternalSecretsIoClusterSecretStoreV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_external_secrets_io_cluster_secret_store_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

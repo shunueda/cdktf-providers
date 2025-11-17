@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#metadata DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#metadata DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#metadata}
   */
   readonly metadata: DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4ManifestMetadata;
   /**
   * VSphereDeploymentZoneSpec defines the desired state of VSphereDeploymentZone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#spec DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#spec DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#spec}
   */
   readonly spec?: DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#annotations DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#annotations DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#labels DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#labels DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#name DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#name DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4
   /**
   * Folder is the name or inventory path of the folder in which the virtual machine is created/located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#folder DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#folder DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#folder}
   */
   readonly folder?: string;
   /**
   * ResourcePool is the name or inventory path of the resource pool in which the virtual machine is created/located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#resource_pool DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#resource_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#resource_pool DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#resource_pool}
   */
   readonly resourcePool?: string;
 }
@@ -318,25 +318,25 @@ export interface DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4
   /**
   * ControlPlane determines if this failure domain is suitable for use by control plane machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#control_plane DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#control_plane DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#control_plane}
   */
   readonly controlPlane?: boolean | cdktf.IResolvable;
   /**
   * FailureDomain is the name of the VSphereFailureDomain used for this VSphereDeploymentZone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#failure_domain DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#failure_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#failure_domain DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#failure_domain}
   */
   readonly failureDomain?: string;
   /**
   * PlacementConstraint encapsulates the placement constraints used within this deployment zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#placement_constraint DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#placement_constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#placement_constraint DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#placement_constraint}
   */
   readonly placementConstraint: DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4ManifestSpecPlacementConstraint;
   /**
   * Server is the address of the vSphere endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#server DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#server DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest#server}
   */
   readonly server?: string;
 }
@@ -514,7 +514,7 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Mani
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest}
 */
 export class DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest extends cdktf.TerraformDataSource {
 
@@ -530,7 +530,7 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Mani
   * Generates CDKTF code for importing a DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest to import
-  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -542,7 +542,7 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Mani
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest k8s_infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -553,8 +553,8 @@ export class DataK8SInfrastructureClusterXK8SIoVSphereDeploymentZoneV1Alpha4Mani
       terraformResourceType: 'k8s_infrastructure_cluster_x_k8s_io_v_sphere_deployment_zone_v1alpha4_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

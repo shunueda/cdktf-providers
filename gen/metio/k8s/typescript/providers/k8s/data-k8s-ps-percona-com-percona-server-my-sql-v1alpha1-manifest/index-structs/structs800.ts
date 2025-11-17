@@ -153,15 +153,15 @@ dataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarPvCsToHclTe
 DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarPvCsList } from './structs400'
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mode DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mode DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -329,19 +329,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#default_mode DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#default_mode DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#items DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#items DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -522,7 +522,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesStorageosSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -616,23 +616,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesStorageos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#fs_type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#fs_type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#read_only DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#read_only DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesStorageosSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_namespace DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_namespace DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -842,19 +842,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesVsphereVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#fs_type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#fs_type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#storage_policy_id DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#storage_policy_id DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#storage_policy_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#storage_policy_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -1032,127 +1032,127 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#aws_elastic_block_store DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#aws_elastic_block_store DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesAwsElasticBlockStore;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#azure_disk DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#azure_disk DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesAzureDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#azure_file DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#azure_file DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesAzureFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#cephfs DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#cephfs DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesCephfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#cinder DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#cinder DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesCinder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#config_map DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#config_map DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#csi DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#csi DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesCsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#downward_api DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#downward_api DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#empty_dir DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#empty_dir DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#ephemeral DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#ephemeral DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesEphemeral;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#fc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#fc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesFc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#flex_volume DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#flex_volume DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesFlexVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#flocker DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#flocker DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesFlocker;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gce_persistent_disk DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gce_persistent_disk DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesGcePersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#git_repo DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#git_repo DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesGitRepo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#glusterfs DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#glusterfs DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesGlusterfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#image DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#image DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#image}
   */
   readonly image?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesImage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#iscsi DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#iscsi DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesIscsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#nfs DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#nfs DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesNfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#persistent_volume_claim DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#persistent_volume_claim DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesPersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#photon_persistent_disk DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#photon_persistent_disk DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesPhotonPersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#portworx_volume DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#portworx_volume DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesPortworxVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#projected DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#projected DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesProjected;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#quobyte DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#quobyte DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesQuobyte;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#rbd DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#rbd DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesRbd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scale_io DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scale_io DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesScaleIo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#storageos DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#storageos DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesStorageos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#vsphere_volume DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#vsphere_volume DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumesVsphereVolume;
 }
@@ -2135,15 +2135,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2292,11 +2292,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#api_version DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#api_version DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#field_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#field_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -2416,15 +2416,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#container_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#container_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#divisor DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#divisor DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resource DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resource DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -2573,15 +2573,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2730,19 +2730,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#config_map_key_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#config_map_key_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#field_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#field_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resource_field_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resource_field_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret_key_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret_key_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvValueFromSecretKeyRef;
 }
@@ -2923,15 +2923,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value_from DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value_from DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvValueFrom;
 }
@@ -3102,11 +3102,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3229,11 +3229,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3356,15 +3356,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#config_map_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#config_map_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#prefix DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#prefix DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvFromSecretRef;
 }
@@ -3538,7 +3538,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3632,11 +3632,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -3775,23 +3775,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -3998,7 +3998,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -4089,11 +4089,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -4213,19 +4213,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sleep DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sleep DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePostStartTcpSocket;
 }
@@ -4406,7 +4406,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -4500,11 +4500,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -4643,23 +4643,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -4866,7 +4866,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -4957,11 +4957,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -5081,19 +5081,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sleep DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sleep DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sleep}
   */
   readonly sleep?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePreStopTcpSocket;
 }
@@ -5274,11 +5274,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#post_start DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#post_start DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#post_start}
   */
   readonly postStart?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#pre_stop DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#pre_stop DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecyclePreStop;
 }
@@ -5401,7 +5401,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -5495,11 +5495,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -5619,11 +5619,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -5762,23 +5762,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -5985,11 +5985,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -6109,43 +6109,43 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#failure_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#failure_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grpc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grpc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#initial_delay_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#initial_delay_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#success_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#success_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_grace_period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_grace_period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#timeout_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#timeout_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -6500,23 +6500,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#container_port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#container_port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_ip DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_ip DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#protocol DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#protocol DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -6745,7 +6745,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -6839,11 +6839,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -6963,11 +6963,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -7106,23 +7106,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -7329,11 +7329,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -7453,43 +7453,43 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#failure_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#failure_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grpc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grpc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#initial_delay_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#initial_delay_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#success_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#success_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_grace_period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_grace_period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#timeout_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#timeout_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -7844,11 +7844,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsResizePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resource_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resource_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#restart_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#restart_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -7987,11 +7987,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#request DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#request DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -8133,15 +8133,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#claims DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#claims DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#limits DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#limits DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#requests DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#requests DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -8293,11 +8293,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -8417,11 +8417,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#add DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#add DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#drop DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#drop DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -8544,19 +8544,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#level DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#level DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#role DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#role DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#user DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#user DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -8737,11 +8737,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -8861,19 +8861,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gmsa_credential_spec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gmsa_credential_spec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_process DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_process DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_user_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_user_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -9054,51 +9054,51 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#allow_privilege_escalation DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#allow_privilege_escalation DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#app_armor_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#app_armor_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#capabilities DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#capabilities DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#privileged DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#privileged DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#proc_mount DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#proc_mount DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#read_only_root_filesystem DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#read_only_root_filesystem DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_group DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_group DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_non_root DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_non_root DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_user DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_user DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#se_linux_options DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#se_linux_options DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#seccomp_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#seccomp_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#windows_options DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#windows_options DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsSecurityContextWindowsOptions;
 }
@@ -9511,7 +9511,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -9605,11 +9605,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -9729,11 +9729,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -9872,23 +9872,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -10095,11 +10095,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -10219,43 +10219,43 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#failure_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#failure_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grpc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grpc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#initial_delay_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#initial_delay_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#success_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#success_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_grace_period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_grace_period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#timeout_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#timeout_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -10610,11 +10610,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#device_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#device_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -10753,31 +10753,31 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mount_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mount_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mount_propagation DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mount_propagation DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#read_only DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#read_only DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#recursive_read_only DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#recursive_read_only DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sub_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sub_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sub_path_expr DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sub_path_expr DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -11061,99 +11061,99 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#args DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#args DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#env DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#env DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#env_from DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#env_from DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#image DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#image DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#image_pull_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#image_pull_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#lifecycle DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#lifecycle DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#liveness_probe DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#liveness_probe DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#ports DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#ports DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#readiness_probe DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#readiness_probe DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resize_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resize_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsResizePolicy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resources DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resources DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#restart_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#restart_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#security_context DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#security_context DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#startup_probe DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#startup_probe DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#stdin DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#stdin DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#stdin_once DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#stdin_once DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_message_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_message_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_message_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_message_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tty DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tty DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_devices DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_devices DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_mounts DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_mounts DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarsVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#working_dir DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#working_dir DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -11933,7 +11933,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidec
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -12027,11 +12027,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStart
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -12151,11 +12151,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStart
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -12294,23 +12294,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStart
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -12517,11 +12517,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStart
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -12641,43 +12641,43 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStart
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#failure_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#failure_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grpc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grpc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#initial_delay_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#initial_delay_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#success_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#success_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_grace_period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_grace_period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#timeout_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#timeout_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -13032,23 +13032,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStart
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#effect DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#effect DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#toleration_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#toleration_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -13280,15 +13280,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlToler
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13456,11 +13456,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlTopol
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13583,35 +13583,35 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlTopol
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#max_skew DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#max_skew DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#min_domains DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#min_domains DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#node_affinity_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#node_affinity_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#node_taints_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#node_taints_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#when_unsatisfiable DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#when_unsatisfiable DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -13921,11 +13921,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlTopol
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#medium DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#medium DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#size_limit DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#size_limit DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -14048,11 +14048,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolum
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -14172,15 +14172,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolum
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecPersistentVolumeClaimDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#api_group DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#api_group DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#kind DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#kind DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -14326,19 +14326,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolum
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecPersistentVolumeClaimDataSourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#api_group DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#api_group DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#kind DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#kind DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespace DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespace DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -14513,11 +14513,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolum
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecPersistentVolumeClaimResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#limits DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#limits DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#requests DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#requests DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -14640,15 +14640,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolum
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecPersistentVolumeClaimSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14816,11 +14816,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolum
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecPersistentVolumeClaimSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecPersistentVolumeClaimSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14943,39 +14943,39 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolum
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#access_modes DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#access_modes DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#data_source DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#data_source DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecPersistentVolumeClaimDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#data_source_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#data_source_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecPersistentVolumeClaimDataSourceRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resources DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resources DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecPersistentVolumeClaimResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecPersistentVolumeClaimSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#storage_class_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#storage_class_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_attributes_class_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_attributes_class_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_mode DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_mode DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -15301,15 +15301,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolum
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#empty_dir DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#empty_dir DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#persistent_volume_claim DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#persistent_volume_claim DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpecPersistentVolumeClaim;
 }
@@ -15461,131 +15461,131 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolum
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysql {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#affinity DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#affinity DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#annotations DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#annotations DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#auto_recovery DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#auto_recovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#auto_recovery DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#auto_recovery}
   */
   readonly autoRecovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#cluster_type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#cluster_type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#cluster_type}
   */
   readonly clusterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#configuration DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#configuration DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#container_security_context DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#container_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#container_security_context DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#container_security_context}
   */
   readonly containerSecurityContext?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlContainerSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#env DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#env DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#env_from DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#env_from DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#expose DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#expose DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#expose}
   */
   readonly expose?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlExpose;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grace_period DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grace_period DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grace_period}
   */
   readonly gracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#image DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#image DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#image_pull_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#image_pull_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#image_pull_secrets DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#image_pull_secrets DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlImagePullSecrets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#init_image DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#init_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#init_image DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#init_image}
   */
   readonly initImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#liveness_probe DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#liveness_probe DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#node_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#node_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#pod_security_context DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#pod_security_context DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlPodSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#priority_class_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#priority_class_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#readiness_probe DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#readiness_probe DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resources DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resources DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#runtime_class_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#runtime_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#runtime_class_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#runtime_class_name}
   */
   readonly runtimeClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheduler_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheduler_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service_account_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service_account_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sidecar_pv_cs DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sidecar_pv_cs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sidecar_pv_cs DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sidecar_pv_cs}
   */
   readonly sidecarPvCs?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarPvCs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sidecar_volumes DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sidecar_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sidecar_volumes DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sidecar_volumes}
   */
   readonly sidecarVolumes?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecarVolumes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sidecars DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sidecars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sidecars DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sidecars}
   */
   readonly sidecars?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlSidecars[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#size DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#size DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#startup_probe DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#startup_probe DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tolerations DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tolerations DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#topology_spread_constraints DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#topology_spread_constraints DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_spec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#volume_spec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#volume_spec}
   */
   readonly volumeSpec?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlVolumeSpec;
 }
@@ -16575,15 +16575,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecMysqlOutpu
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16751,15 +16751,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16927,11 +16927,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_fields DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_fields DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -17054,11 +17054,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#preference DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#preference DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#weight DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#weight DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -17197,15 +17197,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17373,15 +17373,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17549,11 +17549,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_fields DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_fields DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -17698,7 +17698,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#node_selector_terms DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#node_selector_terms DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -17789,11 +17789,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -17916,15 +17916,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18092,11 +18092,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18219,15 +18219,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18395,11 +18395,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18522,27 +18522,27 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -18778,11 +18778,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#pod_affinity_term DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#pod_affinity_term DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#weight DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#weight DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -18921,15 +18921,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19097,11 +19097,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19224,15 +19224,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19400,11 +19400,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19527,27 +19527,27 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -19805,11 +19805,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -19932,15 +19932,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20108,11 +20108,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20235,15 +20235,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20411,11 +20411,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20538,27 +20538,27 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -20794,11 +20794,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#pod_affinity_term DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#pod_affinity_term DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#weight DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#weight DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -20937,15 +20937,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21113,11 +21113,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21240,15 +21240,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#operator DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#values DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21416,11 +21416,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_expressions DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21543,27 +21543,27 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#label_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#match_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#mismatch_label_keys DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespace_selector DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#namespaces DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#topology_key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -21821,11 +21821,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -21948,15 +21948,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvanced {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#node_affinity DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#node_affinity DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#pod_affinity DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#pod_affinity DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#pod_anti_affinity DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#pod_anti_affinity DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvancedPodAntiAffinity;
 }
@@ -22108,11 +22108,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#advanced DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#advanced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#advanced DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#advanced}
   */
   readonly advanced?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorAffinityAdvanced;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#anti_affinity_topology_key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#anti_affinity_topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#anti_affinity_topology_key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#anti_affinity_topology_key}
   */
   readonly antiAffinityTopologyKey?: string;
 }
@@ -22235,11 +22235,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorContainerSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -22359,11 +22359,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorContainerSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#add DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#add DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#drop DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#drop DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -22486,19 +22486,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorContainerSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#level DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#level DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#role DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#role DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#user DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#user DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -22679,11 +22679,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorContainerSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -22803,19 +22803,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorContainerSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gmsa_credential_spec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gmsa_credential_spec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_process DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_process DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_user_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_user_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -22996,51 +22996,51 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorContainerSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#allow_privilege_escalation DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#allow_privilege_escalation DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#app_armor_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#app_armor_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorContainerSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#capabilities DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#capabilities DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorContainerSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#privileged DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#privileged DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#proc_mount DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#proc_mount DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#read_only_root_filesystem DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#read_only_root_filesystem DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_group DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_group DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_non_root DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_non_root DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_user DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_user DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#se_linux_options DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#se_linux_options DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorContainerSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#seccomp_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#seccomp_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorContainerSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#windows_options DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#windows_options DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorContainerSecurityContextWindowsOptions;
 }
@@ -23453,15 +23453,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23610,11 +23610,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#api_version DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#api_version DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#field_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#field_path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -23734,15 +23734,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#container_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#container_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#divisor DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#divisor DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resource DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resource DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -23891,15 +23891,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#key DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24048,19 +24048,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#config_map_key_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#config_map_key_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#field_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#field_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resource_field_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#resource_field_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret_key_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret_key_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvValueFromSecretKeyRef;
 }
@@ -24241,15 +24241,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value_from DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value_from DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvValueFrom;
 }
@@ -24420,11 +24420,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24547,11 +24547,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#optional DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24674,15 +24674,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#config_map_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#config_map_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#prefix DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#prefix DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#secret_ref DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorEnvFromSecretRef;
 }
@@ -24856,31 +24856,31 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorExpose {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#annotations DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#annotations DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#external_traffic_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#external_traffic_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#internal_traffic_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#internal_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#internal_traffic_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#internal_traffic_policy}
   */
   readonly internalTrafficPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#labels DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#load_balancer_ip DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#load_balancer_ip DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#load_balancer_source_ranges DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#load_balancer_source_ranges DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -25148,7 +25148,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -25264,7 +25264,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -25358,11 +25358,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -25482,11 +25482,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -25625,23 +25625,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -25848,11 +25848,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -25972,43 +25972,43 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#failure_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#failure_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grpc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grpc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#initial_delay_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#initial_delay_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#success_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#success_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_grace_period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_grace_period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#timeout_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#timeout_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -26363,11 +26363,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorPodSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -26487,19 +26487,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorPodSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#level DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#level DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#role DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#role DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#user DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#user DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -26680,11 +26680,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorPodSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#localhost_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#type DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -26804,11 +26804,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorPodSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -26947,19 +26947,19 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorPodSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gmsa_credential_spec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gmsa_credential_spec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#gmsa_credential_spec_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_process DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host_process DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_user_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_user_name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -27140,51 +27140,51 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorPodSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#app_armor_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#app_armor_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorPodSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#fs_group DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#fs_group DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#fs_group_change_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#fs_group_change_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_group DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_group DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_non_root DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_non_root DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_user DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#run_as_user DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#se_linux_options DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#se_linux_options DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorPodSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#seccomp_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#seccomp_profile DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorPodSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#supplemental_groups DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#supplemental_groups DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#supplemental_groups_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#supplemental_groups_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#supplemental_groups_policy DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#supplemental_groups_policy}
   */
   readonly supplementalGroupsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sysctls DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#sysctls DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#windows_options DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#windows_options DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorPodSecurityContextWindowsOptions;
 }
@@ -27597,7 +27597,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -27691,11 +27691,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -27815,11 +27815,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -27958,23 +27958,23 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_headers DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#path DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#scheme DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -28181,11 +28181,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#host DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -28305,43 +28305,43 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#exec DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#failure_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#failure_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grpc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#grpc DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#http_get DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#initial_delay_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#initial_delay_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#success_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#success_threshold DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#tcp_socket DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_grace_period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#termination_grace_period_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#timeout_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#timeout_seconds DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -28696,11 +28696,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#request DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#request DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -28842,15 +28842,15 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#claims DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#claims DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#limits DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#limits DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#requests DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#requests DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -29002,7 +29002,7 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#command DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -29096,11 +29096,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#port DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#service DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -29220,11 +29220,11 @@ export class DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestrat
 }
 export interface DataK8SPsPerconaComPerconaServerMySqlV1Alpha1ManifestSpecOrchestratorStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#name DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ps_percona_com_percona_server_my_sql_v1alpha1_manifest#value DataK8SPsPerconaComPerconaServerMySqlV1Alpha1Manifest#value}
   */
   readonly value: string;
 }

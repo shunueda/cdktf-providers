@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestCo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#spec DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#spec DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestMe
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,13 +185,13 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * Operator specifies the operation. If omitted, defaults to 'overwrite'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the value(s) that will be applied to annotations/labels of resource. If Operator is 'addIfAbsent', items in Value (empty is not allowed) will be added in annotations/labels. - For 'addIfAbsent' Operator, the keys in Value cannot conflict with annotations/labels. If Operator is 'overwrite', items in Value which match in annotations/labels will be replaced. If Operator is 'delete', items in Value which match in annotations/labels will be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -335,19 +335,19 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * ContainerName targets the specified container or init container in the pod template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#container_name}
   */
   readonly containerName: string;
   /**
   * Operator specifies the operation. If omitted, defaults to 'overwrite'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the value(s) that will be applied to command/args of ContainerName. If Operator is 'append', items in Value (empty is not allowed) will be appended to command/args. If Operator is 'overwrite', current command/args of ContainerName will be completely replaced by Value. If Operator is 'delete', items in Value that match in command/args will be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value: string[];
 }
@@ -517,19 +517,19 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * ContainerName targets the specified container or init container in the pod template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#container_name}
   */
   readonly containerName: string;
   /**
   * Operator specifies the operation. If omitted, defaults to 'overwrite'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the value(s) that will be applied to command/args of ContainerName. If Operator is 'append', items in Value (empty is not allowed) will be appended to command/args. If Operator is 'overwrite', current command/args of ContainerName will be completely replaced by Value. If Operator is 'delete', items in Value that match in command/args will be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value: string[];
 }
@@ -699,19 +699,19 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#optional DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#optional DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -862,13 +862,13 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#api_version DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#api_version DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#field_path DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#field_path DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -990,19 +990,19 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#divisor DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#divisor DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#resource DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#resource DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -1153,19 +1153,19 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#optional DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#optional DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1316,25 +1316,25 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#config_map_key_ref DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#config_map_key_ref DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersEnvsValueValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#field_ref DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#field_ref DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersEnvsValueValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#resource_field_ref DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#resource_field_ref DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersEnvsValueValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#secret_key_ref DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#secret_key_ref DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersEnvsValueValueFromSecretKeyRef;
 }
@@ -1517,19 +1517,19 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value_from DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value_from DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersEnvsValueValueFrom;
 }
@@ -1702,19 +1702,19 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * ContainerName targets the specified container or init container in the pod template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#container_name DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#container_name}
   */
   readonly containerName: string;
   /**
   * Operator specifies the operation. If omitted, defaults to 'overwrite'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * List of environment variables to set in the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersEnvsValue[] | cdktf.IResolvable;
 }
@@ -1884,19 +1884,19 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * ImageComponent is the part of the image to override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#image_component DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#image_component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#image_component DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#image_component}
   */
   readonly imageComponent: string;
   /**
   * Operator specifies the operation. If omitted, defaults to 'overwrite'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the value required by the operation. For 'addIfAbsent' Operator, the old value of ImageComponent should be empty, and the Value shouldn't be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2069,19 +2069,19 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * ContainerNames are ignored when ImagePath is set. If empty, the image override rule applies to all containers. Otherwise, this override targets the specified container(s) or init container(s) in the pod template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#container_names DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#container_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#container_names DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#container_names}
   */
   readonly containerNames?: string[];
   /**
   * ImagePath indicates the image path to target. For Example: /spec/template/spec/containers/0/image If empty, the system will automatically resolve the image path if the resource type is Pod, CronJob, Deployment, StatefulSet, DaemonSet or Job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#image_path DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#image_path DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#image_path}
   */
   readonly imagePath?: string;
   /**
   * Operations are the specific operations to be performed on ContainerNames or ImagePath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operations DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operations DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operations}
   */
   readonly operations: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersImageOperations[] | cdktf.IResolvable;
 }
@@ -2254,19 +2254,19 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * Operator specifies the operation. If omitted, defaults to 'replace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Path is a JSON pointer (RFC 6901) specifying the location within the resource document where the operation is performed. Each key in the path should be prefixed with '/', while '~' and '/' should be escaped as '~0' and '~1' respectively. For example, to add a label 'kubeadmiral.io/label', the path should be '/metadata/labels/kubeadmiral.io~1label'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#path DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#path DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Value is the value(s) required by the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -2439,13 +2439,13 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * Operator specifies the operation. If omitted, defaults to 'overwrite'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the value(s) that will be applied to annotations/labels of resource. If Operator is 'addIfAbsent', items in Value (empty is not allowed) will be added in annotations/labels. - For 'addIfAbsent' Operator, the keys in Value cannot conflict with annotations/labels. If Operator is 'overwrite', items in Value which match in annotations/labels will be replaced. If Operator is 'delete', items in Value which match in annotations/labels will be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#value DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -2589,43 +2589,43 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * Annotation specifies overriders that apply to the resource annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersAnnotations[] | cdktf.IResolvable;
   /**
   * Args specifies overriders that apply to the container arguments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#args DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#args DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#args}
   */
   readonly args?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersArgs[] | cdktf.IResolvable;
   /**
   * Command specifies overriders that apply to the container commands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#command DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#command DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#command}
   */
   readonly command?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersCommand[] | cdktf.IResolvable;
   /**
   * Envs specifies overriders that apply to the container envs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#envs DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#envs DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#envs}
   */
   readonly envs?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersEnvs[] | cdktf.IResolvable;
   /**
   * Image specifies the overriders that apply to the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#image DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#image DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#image}
   */
   readonly image?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersImage[] | cdktf.IResolvable;
   /**
   * JsonPatch specifies overriders in a syntax similar to RFC6902 JSON Patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#jsonpatch DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#jsonpatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#jsonpatch DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#jsonpatch}
   */
   readonly jsonpatch?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersJsonpatch[] | cdktf.IResolvable;
   /**
   * Label specifies overriders that apply to the resource labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverridersLabels[] | cdktf.IResolvable;
 }
@@ -2893,17 +2893,17 @@ export class DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOv
 }
 export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesTargetClustersClusterAffinityMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * ClusterSelectorOperator is the set of operators that can be used in a cluster selector requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#values DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#values DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#values}
   */
   readonly values: string[];
 }
@@ -3068,17 +3068,17 @@ export class DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOv
 }
 export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesTargetClustersClusterAffinityMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#key DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * ClusterSelectorOperator is the set of operators that can be used in a cluster selector requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#operator DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#values DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#values DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#values}
   */
   readonly values: string[];
 }
@@ -3245,13 +3245,13 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * A list of cluster selector requirements by cluster labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#match_expressions DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#match_expressions DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesTargetClustersClusterAffinityMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of cluster selector requirements by cluster fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#match_fields DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#match_fields DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesTargetClustersClusterAffinityMatchFields[] | cdktf.IResolvable;
 }
@@ -3398,19 +3398,19 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * ClusterAffinity selects FederatedClusters by matching their labels and fields against expressions. If multiple terms are specified, their results are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#cluster_affinity DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#cluster_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#cluster_affinity DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#cluster_affinity}
   */
   readonly clusterAffinity?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesTargetClustersClusterAffinity[] | cdktf.IResolvable;
   /**
   * ClusterSelector selects FederatedClusters by their labels. Empty labels selects all FederatedClusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#cluster_selector DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#cluster_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#cluster_selector DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#cluster_selector}
   */
   readonly clusterSelector?: { [key: string]: string };
   /**
   * Clusters selects FederatedClusters by their names. Empty Clusters selects all FederatedClusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#clusters DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#clusters DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#clusters}
   */
   readonly clusters?: string[];
 }
@@ -3564,13 +3564,13 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * Overriders specify the overriders to be applied in the target clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#overriders DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#overriders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#overriders DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#overriders}
   */
   readonly overriders?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesOverriders;
   /**
   * TargetClusters selects the clusters in which the overriders in this rule should be applied. If multiple types of selectors are specified, the overall result is the intersection of all of them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#target_clusters DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#target_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#target_clusters DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#target_clusters}
   */
   readonly targetClusters?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRulesTargetClusters;
 }
@@ -3717,7 +3717,7 @@ export interface DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSp
   /**
   * OverrideRules specify the override rules. Each rule specifies the overriders and the clusters these overriders should be applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#override_rules DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#override_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#override_rules DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest#override_rules}
   */
   readonly overrideRules?: DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOverrideRules[] | cdktf.IResolvable;
 }
@@ -3811,7 +3811,7 @@ export class DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1ManifestSpecOu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest k8s_core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest k8s_core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest}
 */
 export class DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3827,7 +3827,7 @@ export class DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest exten
   * Generates CDKTF code for importing a DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3839,7 +3839,7 @@ export class DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest k8s_core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest k8s_core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3850,8 +3850,8 @@ export class DataK8SCoreKubeadmiralIoClusterOverridePolicyV1Alpha1Manifest exten
       terraformResourceType: 'k8s_core_kubeadmiral_io_cluster_override_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

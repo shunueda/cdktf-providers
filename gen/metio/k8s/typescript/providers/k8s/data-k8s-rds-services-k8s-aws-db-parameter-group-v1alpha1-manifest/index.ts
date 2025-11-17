@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#metadata DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#metadata DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1ManifestMetadata;
   /**
   * DBParameterGroupSpec defines the desired state of DBParameterGroup. Contains the details of an Amazon RDS DB parameter group. This data type is used as a response element in the DescribeDBParameterGroups action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#spec DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#spec DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#annotations DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#annotations DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#labels DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#labels DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#namespace DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1ManifestMetadataOut
 }
 export interface DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#key DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#key DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#value DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#value DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -368,29 +368,29 @@ export interface DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1ManifestSpec {
   /**
   * The description for the DB parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#description DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#description DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#description}
   */
   readonly description: string;
   /**
   * The DB parameter group family name. A DB parameter group can be associated with one and only one DB parameter group family, and can be applied only to a DB instance running a database engine and engine version compatible with that DB parameter group family. To list all of the available parameter group families for a DB engine, use the following command: aws rds describe-db-engine-versions --query 'DBEngineVersions[].DBParameterGroupFamily' --engine <engine> For example, to list all of the available parameter group families for the MySQL DB engine, use the following command: aws rds describe-db-engine-versions --query 'DBEngineVersions[].DBParameterGroupFamily' --engine mysql The output contains duplicates. The following are the valid DB engine values: * aurora (for MySQL 5.6-compatible Aurora) * aurora-mysql (for MySQL 5.7-compatible and MySQL 8.0-compatible Aurora) * aurora-postgresql * mariadb * mysql * oracle-ee * oracle-ee-cdb * oracle-se2 * oracle-se2-cdb * postgres * sqlserver-ee * sqlserver-se * sqlserver-ex * sqlserver-web
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#family DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#family DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#family}
   */
   readonly family: string;
   /**
   * The name of the DB parameter group. Constraints: * Must be 1 to 255 letters, numbers, or hyphens. * First character must be a letter * Can't end with a hyphen or contain two consecutive hyphens This value is stored as a lowercase string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#name DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#parameter_overrides DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#parameter_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#parameter_overrides DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#parameter_overrides}
   */
   readonly parameterOverrides?: { [key: string]: string };
   /**
   * Tags to assign to the DB parameter group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#tags DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#tags DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -591,7 +591,7 @@ export class DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest k8s_rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest k8s_rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest}
 */
 export class DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -607,7 +607,7 @@ export class DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -619,7 +619,7 @@ export class DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest k8s_rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest k8s_rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -630,8 +630,8 @@ export class DataK8SRdsServicesK8SAwsDbParameterGroupV1Alpha1Manifest extends cd
       terraformResourceType: 'k8s_rds_services_k8s_aws_db_parameter_group_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

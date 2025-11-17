@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCouchbaseComCouchbaseBucketV2ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#metadata DataK8SCouchbaseComCouchbaseBucketV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#metadata DataK8SCouchbaseComCouchbaseBucketV2Manifest#metadata}
   */
   readonly metadata: DataK8SCouchbaseComCouchbaseBucketV2ManifestMetadata;
   /**
   * CouchbaseBucketSpec is the specification for a Couchbase bucket resource, and allows the bucket to be customized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#spec DataK8SCouchbaseComCouchbaseBucketV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#spec DataK8SCouchbaseComCouchbaseBucketV2Manifest#spec}
   */
   readonly spec?: DataK8SCouchbaseComCouchbaseBucketV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCouchbaseComCouchbaseBucketV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#annotations DataK8SCouchbaseComCouchbaseBucketV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#annotations DataK8SCouchbaseComCouchbaseBucketV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#labels DataK8SCouchbaseComCouchbaseBucketV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#labels DataK8SCouchbaseComCouchbaseBucketV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#name DataK8SCouchbaseComCouchbaseBucketV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#name DataK8SCouchbaseComCouchbaseBucketV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#namespace DataK8SCouchbaseComCouchbaseBucketV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#namespace DataK8SCouchbaseComCouchbaseBucketV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SCouchbaseComCouchbaseBucketV2ManifestSpecScopesResources
   /**
   * Kind indicates the kind of resource that is being referenced. A scope can only reference 'CouchbaseScope' and 'CouchbaseScopeGroup' resource kinds. This field defaults to 'CouchbaseScope' if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#kind DataK8SCouchbaseComCouchbaseBucketV2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#kind DataK8SCouchbaseComCouchbaseBucketV2Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the name of the Kubernetes resource name that is being referenced. Legal scope names have a maximum length of 251 characters and may be composed of any character from 'a-z', 'A-Z', '0-9' and '_-%'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#name DataK8SCouchbaseComCouchbaseBucketV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#name DataK8SCouchbaseComCouchbaseBucketV2Manifest#name}
   */
   readonly name: string;
 }
@@ -369,19 +369,19 @@ export interface DataK8SCouchbaseComCouchbaseBucketV2ManifestSpecScopesSelectorM
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#key DataK8SCouchbaseComCouchbaseBucketV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#key DataK8SCouchbaseComCouchbaseBucketV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#operator DataK8SCouchbaseComCouchbaseBucketV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#operator DataK8SCouchbaseComCouchbaseBucketV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#values DataK8SCouchbaseComCouchbaseBucketV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#values DataK8SCouchbaseComCouchbaseBucketV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -551,13 +551,13 @@ export interface DataK8SCouchbaseComCouchbaseBucketV2ManifestSpecScopesSelector 
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseBucketV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseBucketV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseBucketV2ManifestSpecScopesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseBucketV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseBucketV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -682,19 +682,19 @@ export interface DataK8SCouchbaseComCouchbaseBucketV2ManifestSpecScopes {
   /**
   * Managed defines whether scopes are managed for this bucket. This field is 'false' by default, and the Operator will take no actions that will affect scopes and collections in this bucket. The default scope and collection will be present. When set to 'true', the Operator will manage user defined scopes, and optionally, their collections as defined by the 'CouchbaseScope', 'CouchbaseScopeGroup', 'CouchbaseCollection' and 'CouchbaseCollectionGroup' resource documentation. If this field is set to 'false' while the already managed, then the Operator will leave whatever configuration is already present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#managed DataK8SCouchbaseComCouchbaseBucketV2Manifest#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#managed DataK8SCouchbaseComCouchbaseBucketV2Manifest#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * Resources is an explicit list of named resources that will be considered for inclusion in this bucket. If a resource reference doesn't match a resource, then no error conditions are raised due to undefined resource creation ordering and eventual consistency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#resources DataK8SCouchbaseComCouchbaseBucketV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#resources DataK8SCouchbaseComCouchbaseBucketV2Manifest#resources}
   */
   readonly resources?: DataK8SCouchbaseComCouchbaseBucketV2ManifestSpecScopesResources[] | cdktf.IResolvable;
   /**
   * Selector allows resources to be implicitly considered for inclusion in this bucket. More info: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#labelselector-v1-meta
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#selector DataK8SCouchbaseComCouchbaseBucketV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#selector DataK8SCouchbaseComCouchbaseBucketV2Manifest#selector}
   */
   readonly selector?: DataK8SCouchbaseComCouchbaseBucketV2ManifestSpecScopesSelector;
 }
@@ -848,85 +848,85 @@ export interface DataK8SCouchbaseComCouchbaseBucketV2ManifestSpec {
   /**
   * CompressionMode defines how Couchbase server handles document compression. When off, documents are stored in memory, and transferred to the client uncompressed. When passive, documents are stored compressed in memory, and transferred to the client compressed when requested. When active, documents are stored compresses in memory and when transferred to the client. This field must be 'off', 'passive' or 'active', defaulting to 'passive'. Be aware 'off' in YAML 1.2 is a boolean, so must be quoted as a string in configuration files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#compression_mode DataK8SCouchbaseComCouchbaseBucketV2Manifest#compression_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#compression_mode DataK8SCouchbaseComCouchbaseBucketV2Manifest#compression_mode}
   */
   readonly compressionMode?: string;
   /**
   * ConflictResolution defines how XDCR handles concurrent write conflicts. Sequence number based resolution selects the document with the highest sequence number as the most recent. Timestamp based resolution selects the document that was written to most recently as the most recent. This field must be 'seqno' (sequence based), or 'lww' (timestamp based), defaulting to 'seqno'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#conflict_resolution DataK8SCouchbaseComCouchbaseBucketV2Manifest#conflict_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#conflict_resolution DataK8SCouchbaseComCouchbaseBucketV2Manifest#conflict_resolution}
   */
   readonly conflictResolution?: string;
   /**
   * EnableFlush defines whether a client can delete all documents in a bucket. This field defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#enable_flush DataK8SCouchbaseComCouchbaseBucketV2Manifest#enable_flush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#enable_flush DataK8SCouchbaseComCouchbaseBucketV2Manifest#enable_flush}
   */
   readonly enableFlush?: boolean | cdktf.IResolvable;
   /**
   * EnableIndexReplica defines whether indexes for this bucket are replicated. This field defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#enable_index_replica DataK8SCouchbaseComCouchbaseBucketV2Manifest#enable_index_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#enable_index_replica DataK8SCouchbaseComCouchbaseBucketV2Manifest#enable_index_replica}
   */
   readonly enableIndexReplica?: boolean | cdktf.IResolvable;
   /**
   * EvictionPolicy controls how Couchbase handles memory exhaustion. Value only eviction flushes documents to disk but maintains document metadata in memory in order to improve query performance. Full eviction removes all data from memory after the document is flushed to disk. This field must be 'valueOnly' or 'fullEviction', defaulting to 'valueOnly'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#eviction_policy DataK8SCouchbaseComCouchbaseBucketV2Manifest#eviction_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#eviction_policy DataK8SCouchbaseComCouchbaseBucketV2Manifest#eviction_policy}
   */
   readonly evictionPolicy?: string;
   /**
   * IOPriority controls how many threads a bucket has, per pod, to process reads and writes. This field must be 'low' or 'high', defaulting to 'low'. Modification of this field will cause a temporary service disruption as threads are restarted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#io_priority DataK8SCouchbaseComCouchbaseBucketV2Manifest#io_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#io_priority DataK8SCouchbaseComCouchbaseBucketV2Manifest#io_priority}
   */
   readonly ioPriority?: string;
   /**
   * MaxTTL defines how long a document is permitted to exist for, without modification, until it is automatically deleted. This is a default and maximum time-to-live and may be set to a lower value by the client. If the client specifies a higher value, then it is truncated to the maximum durability. Documents are removed by Couchbase, after they have expired, when either accessed, the expiry pager is run, or the bucket is compacted. When set to 0, then documents are not expired by default. This field must be a duration in the range 0-2147483648s, defaulting to 0. More info: https://golang.org/pkg/time/#ParseDuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#max_ttl DataK8SCouchbaseComCouchbaseBucketV2Manifest#max_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#max_ttl DataK8SCouchbaseComCouchbaseBucketV2Manifest#max_ttl}
   */
   readonly maxTtl?: string;
   /**
   * MemoryQuota is a memory limit to the size of a bucket. When this limit is exceeded, documents will be evicted from memory to disk as defined by the eviction policy. The memory quota is defined per Couchbase pod running the data service. This field defaults to, and must be greater than or equal to 100Mi. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#memory_quota DataK8SCouchbaseComCouchbaseBucketV2Manifest#memory_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#memory_quota DataK8SCouchbaseComCouchbaseBucketV2Manifest#memory_quota}
   */
   readonly memoryQuota?: string;
   /**
   * MiniumumDurability defines how durable a document write is by default, and can be made more durable by the client. This feature enables ACID transactions. When none, Couchbase server will respond when the document is in memory, it will become eventually consistent across the cluster. When majority, Couchbase server will respond when the document is replicated to at least half of the pods running the data service in the cluster. When majorityAndPersistActive, Couchbase server will respond when the document is replicated to at least half of the pods running the data service in the cluster and the document has been persisted to disk on the document master pod. When persistToMajority, Couchbase server will respond when the document is replicated and persisted to disk on at least half of the pods running the data service in the cluster. This field must be either 'none', 'majority', 'majorityAndPersistActive' or 'persistToMajority', defaulting to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#minimum_durability DataK8SCouchbaseComCouchbaseBucketV2Manifest#minimum_durability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#minimum_durability DataK8SCouchbaseComCouchbaseBucketV2Manifest#minimum_durability}
   */
   readonly minimumDurability?: string;
   /**
   * Name is the name of the bucket within Couchbase server. By default the Operator will use the 'metadata.name' field to define the bucket name. The 'metadata.name' field only supports a subset of the supported character set. When specified, this field overrides 'metadata.name'. Legal bucket names have a maximum length of 100 characters and may be composed of any character from 'a-z', 'A-Z', '0-9' and '-_%.'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#name DataK8SCouchbaseComCouchbaseBucketV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#name DataK8SCouchbaseComCouchbaseBucketV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Rank determines the bucket’s place in the order in which the rebalance process handles the buckets on the cluster. The higher a bucket’s assigned integer (in relation to the integers assigned other buckets), the sooner in the rebalance process the bucket is handled. This assignment of rank allows a cluster’s most mission-critical data to be rebalanced with top priority. This option is only supported for Couchbase Server 7.6.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#rank DataK8SCouchbaseComCouchbaseBucketV2Manifest#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#rank DataK8SCouchbaseComCouchbaseBucketV2Manifest#rank}
   */
   readonly rank?: number;
   /**
   * Replicas defines how many copies of documents Couchbase server maintains. This directly affects how fault tolerant a Couchbase cluster is. With a single replica, the cluster can tolerate one data pod going down and still service requests without data loss. The number of replicas also affect memory use. With a single replica, the effective memory quota for documents is halved, with two replicas it is one third. The number of replicas must be between 0 and 3, defaulting to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#replicas DataK8SCouchbaseComCouchbaseBucketV2Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#replicas DataK8SCouchbaseComCouchbaseBucketV2Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Scopes defines whether the Operator manages scopes for the bucket or not, and the set of scopes defined for the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#scopes DataK8SCouchbaseComCouchbaseBucketV2Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#scopes DataK8SCouchbaseComCouchbaseBucketV2Manifest#scopes}
   */
   readonly scopes?: DataK8SCouchbaseComCouchbaseBucketV2ManifestSpecScopes;
   /**
   * StorageBackend to be assigned to and used by the bucket. Only valid for Couchbase Server 7.0.0 onward. Two different backend storage mechanisms can be used - 'couchstore' or 'magma', defaulting to 'couchstore'. Note: 'magma' is only valid for Couchbase Server 7.1.0 onward.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#storage_backend DataK8SCouchbaseComCouchbaseBucketV2Manifest#storage_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#storage_backend DataK8SCouchbaseComCouchbaseBucketV2Manifest#storage_backend}
   */
   readonly storageBackend?: string;
 }
@@ -1397,7 +1397,7 @@ export class DataK8SCouchbaseComCouchbaseBucketV2ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest k8s_couchbase_com_couchbase_bucket_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest k8s_couchbase_com_couchbase_bucket_v2_manifest}
 */
 export class DataK8SCouchbaseComCouchbaseBucketV2Manifest extends cdktf.TerraformDataSource {
 
@@ -1413,7 +1413,7 @@ export class DataK8SCouchbaseComCouchbaseBucketV2Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SCouchbaseComCouchbaseBucketV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCouchbaseComCouchbaseBucketV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseBucketV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseBucketV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCouchbaseComCouchbaseBucketV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1425,7 +1425,7 @@ export class DataK8SCouchbaseComCouchbaseBucketV2Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest k8s_couchbase_com_couchbase_bucket_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_bucket_v2_manifest k8s_couchbase_com_couchbase_bucket_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1436,8 +1436,8 @@ export class DataK8SCouchbaseComCouchbaseBucketV2Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_couchbase_com_couchbase_bucket_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

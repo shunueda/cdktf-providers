@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app
+// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FastedgeAppConfig extends cdktf.TerraformMetaArguments {
   /**
   * WebAssembly binary id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app#binary FastedgeApp#binary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app#binary FastedgeApp#binary}
   */
   readonly binary?: number;
   /**
   * Application comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app#comment FastedgeApp#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app#comment FastedgeApp#comment}
   */
   readonly comment?: string;
   /**
   * Logging enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app#debug FastedgeApp#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app#debug FastedgeApp#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * Environment variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app#env FastedgeApp#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app#env FastedgeApp#env}
   */
   readonly env?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app#id FastedgeApp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app#id FastedgeApp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface FastedgeAppConfig extends cdktf.TerraformMetaArguments {
   /**
   * Application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app#name FastedgeApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app#name FastedgeApp#name}
   */
   readonly name?: string;
   /**
   * Response headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app#rsp_headers FastedgeApp#rsp_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app#rsp_headers FastedgeApp#rsp_headers}
   */
   readonly rspHeaders?: { [key: string]: string };
   /**
   * Secret variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app#secrets FastedgeApp#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app#secrets FastedgeApp#secrets}
   */
   readonly secrets?: { [key: string]: number };
   /**
   * Status code. Possible values are: enabled, disabled, suspended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app#status FastedgeApp#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app#status FastedgeApp#status}
   */
   readonly status: string;
   /**
   * Application template id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app#template FastedgeApp#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app#template FastedgeApp#template}
   */
   readonly template?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app gcore_fastedge_app}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app gcore_fastedge_app}
 */
 export class FastedgeApp extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class FastedgeApp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FastedgeApp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FastedgeApp to import
-  * @param importFromId The id of the existing FastedgeApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FastedgeApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FastedgeApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class FastedgeApp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/fastedge_app gcore_fastedge_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/fastedge_app gcore_fastedge_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class FastedgeApp extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_fastedge_app',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.3',
-        providerVersionConstraint: '0.31.3'
+        providerVersion: '0.31.4',
+        providerVersionConstraint: '0.31.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

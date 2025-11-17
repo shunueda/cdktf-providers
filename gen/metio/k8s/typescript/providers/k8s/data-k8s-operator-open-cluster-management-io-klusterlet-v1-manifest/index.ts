@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#metadata DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#metadata DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestMetadata;
   /**
   * Spec represents the desired deployment configuration of Klusterlet agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#spec DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#spec DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#annotations DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#annotations DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#labels DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#labels DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#name DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#name DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecD
   /**
   * Mode can be Default, Hosted, Singleton or SingletonHosted. It is Default mode if not specified In Default mode, all klusterlet related resources are deployed on the managed cluster. In Hosted mode, only crd and configurations are installed on the spoke/managed cluster. Controllers run in another cluster (defined as management-cluster) and connect to the mangaged cluster with the kubeconfig in secret of 'external-managed-kubeconfig'(a kubeconfig of managed-cluster with cluster-admin permission). In Singleton mode, registration/work agent is started as a single deployment. In SingletonHosted mode, agent is started as a single deployment in hosted mode. Note: Do not modify the Mode field once it's applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#mode DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#mode DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -283,13 +283,13 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecE
   /**
   * CABundle is the ca bundle to connect to apiserver of the managed cluster. System certs are used if it is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#ca_bundle DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#ca_bundle DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * URL is the url of apiserver endpoint of the managed cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#url DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#url DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -436,13 +436,13 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecH
   /**
   * Hostname for the above IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#hostname DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#hostname DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#hostname}
   */
   readonly hostname: string;
   /**
   * IP address of the host file entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#ip DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#ip DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#ip}
   */
   readonly ip: string;
 }
@@ -561,31 +561,31 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecN
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#effect DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#effect DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#key DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#key DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#operator DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#operator DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#toleration_seconds DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#toleration_seconds DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#value DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#value DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -819,13 +819,13 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecN
   /**
   * NodeSelector defines which Nodes the Pods are scheduled on. The default is an empty list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#node_selector DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#node_selector DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Tolerations are attached by pods to tolerate any taint that matches the triple <key,value,effect> using the matching operator <operator>. The default is an empty list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#tolerations DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#tolerations DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecNodePlacementTolerations[] | cdktf.IResolvable;
 }
@@ -950,7 +950,7 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecR
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#name DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#name DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1068,13 +1068,13 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecR
   /**
   * HubConnectionTimeoutSeconds is used to set the timeout of connecting to the hub cluster. When agent loses the connection to the hub over the timeout seconds, the agent do a rebootstrap. By default is 10 mins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#hub_connection_timeout_seconds DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#hub_connection_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#hub_connection_timeout_seconds DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#hub_connection_timeout_seconds}
   */
   readonly hubConnectionTimeoutSeconds?: number;
   /**
   * KubeConfigSecrets is a list of secret names. The secrets are in the same namespace where the agent controller runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#kube_config_secrets DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#kube_config_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#kube_config_secrets DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#kube_config_secrets}
   */
   readonly kubeConfigSecrets?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecRegistrationConfigurationBootstrapKubeConfigsLocalSecretsConfigKubeConfigSecrets[] | cdktf.IResolvable;
 }
@@ -1199,13 +1199,13 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecR
   /**
   * LocalSecretsConfig include a list of secrets that contains the kubeconfigs for ordered bootstrap kubeconifigs. The secrets must be in the same namespace where the agent controller runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#local_secrets_config DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#local_secrets_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#local_secrets_config DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#local_secrets_config}
   */
   readonly localSecretsConfig?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecRegistrationConfigurationBootstrapKubeConfigsLocalSecretsConfig;
   /**
   * Type specifies the type of priority bootstrap kubeconfigs. By default, it is set to None, representing no priority bootstrap kubeconfigs are set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#type DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#type DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1330,13 +1330,13 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecR
   /**
   * Feature is the key of feature gate. e.g. featuregate/Foo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#feature DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#feature DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#feature}
   */
   readonly feature: string;
   /**
   * Mode is either Enable, Disable, '' where '' is Disable by default. In Enable mode, a valid feature gate 'featuregate/Foo' will be set to '--featuregate/Foo=true'. In Disable mode, a valid feature gate 'featuregate/Foo' will be set to '--featuregate/Foo=false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#mode DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#mode DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -1480,13 +1480,13 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecR
   /**
   * The arn of the hub cluster (ie: an EKS cluster). This will be required to pass information to hub, which hub will use to create IAM identities for this klusterlet. Example - arn:eks:us-west-2:12345678910:cluster/hub-cluster1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#hub_cluster_arn DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#hub_cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#hub_cluster_arn DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#hub_cluster_arn}
   */
   readonly hubClusterArn?: string;
   /**
   * The arn of the managed cluster (ie: an EKS cluster). This will be required to generate the md5hash which will be used as a suffix to create IAM role on hub as well as used by kluslerlet-agent, to assume role suffixed with the md5hash, on startup. Example - arn:eks:us-west-2:12345678910:cluster/managed-cluster1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#managed_cluster_arn DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#managed_cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#managed_cluster_arn DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#managed_cluster_arn}
   */
   readonly managedClusterArn?: string;
 }
@@ -1611,13 +1611,13 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecR
   /**
   * Type of the authentication used by managedcluster to register as well as pull work from hub. Possible values are csr and awsirsa.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#auth_type DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#auth_type DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#auth_type}
   */
   readonly authType?: string;
   /**
   * Contain the details required for registering with hub cluster (ie: an EKS cluster) using AWS IAM roles for service account. This is required only when the authType is awsirsa.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#aws_irsa DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#aws_irsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#aws_irsa DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#aws_irsa}
   */
   readonly awsIrsa?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecRegistrationConfigurationRegistrationDriverAwsIrsa;
 }
@@ -1742,43 +1742,43 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecR
   /**
   * BootstrapKubeConfigs defines the ordered list of bootstrap kubeconfigs. The order decides which bootstrap kubeconfig to use first when rebootstrap. When the agent loses the connection to the current hub over HubConnectionTimeoutSeconds, or the managedcluster CR is set 'hubAcceptsClient=false' on the hub, the controller marks the related bootstrap kubeconfig as 'failed'. A failed bootstrapkubeconfig won't be used for the duration specified by SkipFailedBootstrapKubeConfigSeconds. But if the user updates the content of a failed bootstrapkubeconfig, the 'failed' mark will be cleared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#bootstrap_kube_configs DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#bootstrap_kube_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#bootstrap_kube_configs DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#bootstrap_kube_configs}
   */
   readonly bootstrapKubeConfigs?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecRegistrationConfigurationBootstrapKubeConfigs;
   /**
   * clientCertExpirationSeconds represents the seconds of a client certificate to expire. If it is not set or 0, the default duration seconds will be set by the hub cluster. If the value is larger than the max signing duration seconds set on the hub cluster, the max signing duration seconds will be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#client_cert_expiration_seconds DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#client_cert_expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#client_cert_expiration_seconds DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#client_cert_expiration_seconds}
   */
   readonly clientCertExpirationSeconds?: number;
   /**
   * ClusterAnnotations is annotations with the reserve prefix 'agent.open-cluster-management.io' set on ManagedCluster when creating only, other actors can update it afterwards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#cluster_annotations DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#cluster_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#cluster_annotations DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#cluster_annotations}
   */
   readonly clusterAnnotations?: { [key: string]: string };
   /**
   * FeatureGates represents the list of feature gates for registration If it is set empty, default feature gates will be used. If it is set, featuregate/Foo is an example of one item in FeatureGates: 1. If featuregate/Foo does not exist, registration-operator will discard it 2. If featuregate/Foo exists and is false by default. It is now possible to set featuregate/Foo=[false|true] 3. If featuregate/Foo exists and is true by default. If a cluster-admin upgrading from 1 to 2 wants to continue having featuregate/Foo=false, he can set featuregate/Foo=false before upgrading. Let's say the cluster-admin wants featuregate/Foo=false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#feature_gates DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#feature_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#feature_gates DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#feature_gates}
   */
   readonly featureGates?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecRegistrationConfigurationFeatureGates[] | cdktf.IResolvable;
   /**
   * KubeAPIBurst indicates the maximum burst of the throttle while talking with apiserver of hub cluster from the spoke cluster. If it is set empty, use the default value: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#kube_api_burst DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#kube_api_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#kube_api_burst DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#kube_api_burst}
   */
   readonly kubeApiBurst?: number;
   /**
   * KubeAPIQPS indicates the maximum QPS while talking with apiserver of hub cluster from the spoke cluster. If it is set empty, use the default value: 50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#kube_apiqps DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#kube_apiqps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#kube_apiqps DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#kube_apiqps}
   */
   readonly kubeApiqps?: number;
   /**
   * This provides driver details required to register with hub
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#registration_driver DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#registration_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#registration_driver DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#registration_driver}
   */
   readonly registrationDriver?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecRegistrationConfigurationRegistrationDriver;
 }
@@ -2048,7 +2048,7 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecR
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#name DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#name DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2163,19 +2163,19 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecR
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#claims DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#claims DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecResourceRequirementResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#limits DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#limits DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#requests DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#requests DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2329,11 +2329,11 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecR
   /**
   * ResourceRequirements defines resource requests and limits when Type is ResourceQosClassResourceRequirement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#resource_requirements DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#resource_requirements DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecResourceRequirementResourceRequirements;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#type DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#type DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2458,13 +2458,13 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecW
   /**
   * Feature is the key of feature gate. e.g. featuregate/Foo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#feature DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#feature DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#feature}
   */
   readonly feature: string;
   /**
   * Mode is either Enable, Disable, '' where '' is Disable by default. In Enable mode, a valid feature gate 'featuregate/Foo' will be set to '--featuregate/Foo=true'. In Disable mode, a valid feature gate 'featuregate/Foo' will be set to '--featuregate/Foo=false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#mode DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#mode DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -2608,25 +2608,25 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecW
   /**
   * AppliedManifestWorkEvictionGracePeriod is the eviction grace period the work agent will wait before evicting the AppliedManifestWorks, whose corresponding ManifestWorks are missing on the hub cluster, from the managed cluster. If not present, the default value of the work agent will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#applied_manifest_work_eviction_grace_period DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#applied_manifest_work_eviction_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#applied_manifest_work_eviction_grace_period DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#applied_manifest_work_eviction_grace_period}
   */
   readonly appliedManifestWorkEvictionGracePeriod?: string;
   /**
   * FeatureGates represents the list of feature gates for work If it is set empty, default feature gates will be used. If it is set, featuregate/Foo is an example of one item in FeatureGates: 1. If featuregate/Foo does not exist, registration-operator will discard it 2. If featuregate/Foo exists and is false by default. It is now possible to set featuregate/Foo=[false|true] 3. If featuregate/Foo exists and is true by default. If a cluster-admin upgrading from 1 to 2 wants to continue having featuregate/Foo=false, he can set featuregate/Foo=false before upgrading. Let's say the cluster-admin wants featuregate/Foo=false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#feature_gates DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#feature_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#feature_gates DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#feature_gates}
   */
   readonly featureGates?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecWorkConfigurationFeatureGates[] | cdktf.IResolvable;
   /**
   * KubeAPIBurst indicates the maximum burst of the throttle while talking with apiserver of hub cluster from the spoke cluster. If it is set empty, use the default value: 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#kube_api_burst DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#kube_api_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#kube_api_burst DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#kube_api_burst}
   */
   readonly kubeApiBurst?: number;
   /**
   * KubeAPIQPS indicates the maximum QPS while talking with apiserver of hub cluster from the spoke cluster. If it is set empty, use the default value: 50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#kube_apiqps DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#kube_apiqps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#kube_apiqps DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#kube_apiqps}
   */
   readonly kubeApiqps?: number;
 }
@@ -2809,79 +2809,79 @@ export interface DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpec 
   /**
   * ClusterName is the name of the managed cluster to be created on hub. The Klusterlet agent generates a random name if it is not set, or discovers the appropriate cluster name on OpenShift.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#cluster_name DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#cluster_name DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * DeployOption contains the options of deploying a klusterlet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#deploy_option DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#deploy_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#deploy_option DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#deploy_option}
   */
   readonly deployOption?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecDeployOption;
   /**
   * ExternalServerURLs represents a list of apiserver urls and ca bundles that is accessible externally If it is set empty, managed cluster has no externally accessible url that hub cluster can visit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#external_server_urls DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#external_server_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#external_server_urls DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#external_server_urls}
   */
   readonly externalServerUrls?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecExternalServerUrls[] | cdktf.IResolvable;
   /**
   * HubApiServerHostAlias contains the host alias for hub api server. registration-agent and work-agent will use it to communicate with hub api server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#hub_api_server_host_alias DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#hub_api_server_host_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#hub_api_server_host_alias DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#hub_api_server_host_alias}
   */
   readonly hubApiServerHostAlias?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecHubApiServerHostAlias;
   /**
   * ImagePullSpec represents the desired image configuration of agent, it takes effect only when singleton mode is set. quay.io/open-cluster-management.io/registration-operator:latest will be used if unspecified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#image_pull_spec DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#image_pull_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#image_pull_spec DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#image_pull_spec}
   */
   readonly imagePullSpec?: string;
   /**
   * Namespace is the namespace to deploy the agent on the managed cluster. The namespace must have a prefix of 'open-cluster-management-', and if it is not set, the namespace of 'open-cluster-management-agent' is used to deploy agent. In addition, the add-ons are deployed to the namespace of '{Namespace}-addon'. In the Hosted mode, this namespace still exists on the managed cluster to contain necessary resources, like service accounts, roles and rolebindings, while the agent is deployed to the namespace with the same name as klusterlet on the management cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#namespace DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#namespace DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * NodePlacement enables explicit control over the scheduling of the deployed pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#node_placement DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#node_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#node_placement DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#node_placement}
   */
   readonly nodePlacement?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecNodePlacement;
   /**
   * PriorityClassName is the name of the PriorityClass that will be used by the deployed klusterlet agent. It will be ignored when the PriorityClass/v1 API is not available on the managed cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#priority_class_name DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#priority_class_name DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * RegistrationConfiguration contains the configuration of registration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#registration_configuration DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#registration_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#registration_configuration DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#registration_configuration}
   */
   readonly registrationConfiguration?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecRegistrationConfiguration;
   /**
   * RegistrationImagePullSpec represents the desired image configuration of registration agent. quay.io/open-cluster-management.io/registration:latest will be used if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#registration_image_pull_spec DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#registration_image_pull_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#registration_image_pull_spec DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#registration_image_pull_spec}
   */
   readonly registrationImagePullSpec?: string;
   /**
   * ResourceRequirement specify QoS classes of deployments managed by klusterlet. It applies to all the containers in the deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#resource_requirement DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#resource_requirement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#resource_requirement DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#resource_requirement}
   */
   readonly resourceRequirement?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecResourceRequirement;
   /**
   * WorkConfiguration contains the configuration of work
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#work_configuration DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#work_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#work_configuration DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#work_configuration}
   */
   readonly workConfiguration?: DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecWorkConfiguration;
   /**
   * WorkImagePullSpec represents the desired image configuration of work agent. quay.io/open-cluster-management.io/work:latest will be used if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#work_image_pull_spec DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#work_image_pull_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#work_image_pull_spec DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest#work_image_pull_spec}
   */
   readonly workImagePullSpec?: string;
 }
@@ -3323,7 +3323,7 @@ export class DataK8SOperatorOpenClusterManagementIoKlusterletV1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest k8s_operator_open_cluster_management_io_klusterlet_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest k8s_operator_open_cluster_management_io_klusterlet_v1_manifest}
 */
 export class DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest extends cdktf.TerraformDataSource {
 
@@ -3339,7 +3339,7 @@ export class DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest extends 
   * Generates CDKTF code for importing a DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3351,7 +3351,7 @@ export class DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest k8s_operator_open_cluster_management_io_klusterlet_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_open_cluster_management_io_klusterlet_v1_manifest k8s_operator_open_cluster_management_io_klusterlet_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3362,8 +3362,8 @@ export class DataK8SOperatorOpenClusterManagementIoKlusterletV1Manifest extends 
       terraformResourceType: 'k8s_operator_open_cluster_management_io_klusterlet_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

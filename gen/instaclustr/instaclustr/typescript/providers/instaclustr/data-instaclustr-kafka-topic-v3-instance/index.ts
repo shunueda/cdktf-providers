@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_topic_v3_instance
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_topic_v3_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataInstaclustrKafkaTopicV3InstanceConfig extends cdktf.Terrafo
   /**
   * ID of the Kafka cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_topic_v3_instance#cluster_id DataInstaclustrKafkaTopicV3Instance#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_topic_v3_instance#cluster_id DataInstaclustrKafkaTopicV3Instance#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Indicates if the cluster is currently performing any operation such as being created, updated, or deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_topic_v3_instance#current_operation_status DataInstaclustrKafkaTopicV3Instance#current_operation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_topic_v3_instance#current_operation_status DataInstaclustrKafkaTopicV3Instance#current_operation_status}
   */
   readonly currentOperationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_topic_v3_instance#id DataInstaclustrKafkaTopicV3Instance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_topic_v3_instance#id DataInstaclustrKafkaTopicV3Instance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface DataInstaclustrKafkaTopicV3InstanceConfig extends cdktf.Terrafo
   /**
   * Topic partition count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_topic_v3_instance#partitions DataInstaclustrKafkaTopicV3Instance#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_topic_v3_instance#partitions DataInstaclustrKafkaTopicV3Instance#partitions}
   */
   readonly partitions?: number;
   /**
   * Replication factor for Topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_topic_v3_instance#replication_factor DataInstaclustrKafkaTopicV3Instance#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_topic_v3_instance#replication_factor DataInstaclustrKafkaTopicV3Instance#replication_factor}
   */
   readonly replicationFactor?: number;
   /**
   * Kafka Topic name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_topic_v3_instance#topic DataInstaclustrKafkaTopicV3Instance#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_topic_v3_instance#topic DataInstaclustrKafkaTopicV3Instance#topic}
   */
   readonly topic?: string;
   /**
   * configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_topic_v3_instance#configs DataInstaclustrKafkaTopicV3Instance#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_topic_v3_instance#configs DataInstaclustrKafkaTopicV3Instance#configs}
   */
   readonly configs?: DataInstaclustrKafkaTopicV3InstanceConfigs[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface DataInstaclustrKafkaTopicV3InstanceConfigs {
   /**
   * Kafka Topic config key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_topic_v3_instance#key DataInstaclustrKafkaTopicV3Instance#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_topic_v3_instance#key DataInstaclustrKafkaTopicV3Instance#key}
   */
   readonly key?: string;
   /**
   * Kafka Topic config value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_topic_v3_instance#value DataInstaclustrKafkaTopicV3Instance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_topic_v3_instance#value DataInstaclustrKafkaTopicV3Instance#value}
   */
   readonly value?: string;
 }
@@ -206,7 +206,7 @@ export class DataInstaclustrKafkaTopicV3InstanceConfigsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_topic_v3_instance instaclustr_kafka_topic_v3_instance}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_topic_v3_instance instaclustr_kafka_topic_v3_instance}
 */
 export class DataInstaclustrKafkaTopicV3Instance extends cdktf.TerraformDataSource {
 
@@ -222,7 +222,7 @@ export class DataInstaclustrKafkaTopicV3Instance extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataInstaclustrKafkaTopicV3Instance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrKafkaTopicV3Instance to import
-  * @param importFromId The id of the existing DataInstaclustrKafkaTopicV3Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_topic_v3_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrKafkaTopicV3Instance that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_topic_v3_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrKafkaTopicV3Instance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class DataInstaclustrKafkaTopicV3Instance extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/data-sources/kafka_topic_v3_instance instaclustr_kafka_topic_v3_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/data-sources/kafka_topic_v3_instance instaclustr_kafka_topic_v3_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class DataInstaclustrKafkaTopicV3Instance extends cdktf.TerraformDataSour
       terraformResourceType: 'instaclustr_kafka_topic_v3_instance',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.26',
-        providerVersionConstraint: '2.1.26'
+        providerVersion: '2.1.28',
+        providerVersionConstraint: '2.1.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

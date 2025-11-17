@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#metadata DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#metadata DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestMetadata;
   /**
   * MetricAlarmSpec defines the desired state of MetricAlarm. The details about a metric alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#spec DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#spec DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#annotations DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#annotations DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#labels DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#labels DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#name DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#name DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#namespace DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#namespace DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestMetadataO
 }
 export interface DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#name DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#name DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#value DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#value DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -366,11 +366,11 @@ export class DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecDimen
 }
 export interface DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecMetricsMetricStatMetricDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#name DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#name DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#value DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#value DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -515,15 +515,15 @@ export class DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecMetri
 }
 export interface DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecMetricsMetricStatMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#dimensions DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#dimensions DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#dimensions}
   */
   readonly dimensions?: DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecMetricsMetricStatMetricDimensions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#metric_name DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#metric_name DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#namespace DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#namespace DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -677,19 +677,19 @@ export interface DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecM
   /**
   * Represents a specific metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#metric DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#metric DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#metric}
   */
   readonly metric?: DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecMetricsMetricStatMetric;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#period DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#period DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#stat DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#stat DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#stat}
   */
   readonly stat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#unit DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#unit DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#unit}
   */
   readonly unit?: string;
 }
@@ -870,36 +870,36 @@ export class DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecMetri
 }
 export interface DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#account_id DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#account_id DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#expression DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#expression DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#id DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#id DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#label DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#label DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#label}
   */
   readonly label?: string;
   /**
   * This structure defines the metric to be returned, along with the statistics, period, and units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#metric_stat DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#metric_stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#metric_stat DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#metric_stat}
   */
   readonly metricStat?: DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecMetricsMetricStat;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#period DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#period DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#return_data DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#return_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#return_data DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#return_data}
   */
   readonly returnData?: boolean | cdktf.IResolvable;
 }
@@ -1189,11 +1189,11 @@ export class DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecMetri
 }
 export interface DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#key DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#key DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#value DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#value DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1340,133 +1340,133 @@ export interface DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpec 
   /**
   * Indicates whether actions should be executed during any changes to the alarm state. The default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#actions_enabled DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#actions_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#actions_enabled DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#actions_enabled}
   */
   readonly actionsEnabled?: boolean | cdktf.IResolvable;
   /**
   * The actions to execute when this alarm transitions to the ALARM state from any other state. Each action is specified as an Amazon Resource Name (ARN). Valid values: EC2 actions: * arn:aws:automate:region:ec2:stop * arn:aws:automate:region:ec2:terminate * arn:aws:automate:region:ec2:reboot * arn:aws:automate:region:ec2:recover * arn:aws:swf:region:account-id:action/actions/AWS_EC2.InstanceId.Stop/1.0 * arn:aws:swf:region:account-id:action/actions/AWS_EC2.InstanceId.Terminate/1.0 * arn:aws:swf:region:account-id:action/actions/AWS_EC2.InstanceId.Reboot/1.0 * arn:aws:swf:region:account-id:action/actions/AWS_EC2.InstanceId.Recover/1.0 Autoscaling action: * arn:aws:autoscaling:region:account-id:scalingPolicy:policy-id:autoScalingGroupName/group-friendly-name:policyName/policy-friendly-name SNS notification action: * arn:aws:sns:region:account-id:sns-topic-name:autoScalingGroupName/group-friendly-name:policyName/policy-friendly-name SSM integration actions: * arn:aws:ssm:region:account-id:opsitem:severity#CATEGORY=category-name * arn:aws:ssm-incidents::account-id:responseplan/response-plan-name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#alarm_actions DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#alarm_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#alarm_actions DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#alarm_actions}
   */
   readonly alarmActions?: string[];
   /**
   * The description for the alarm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#alarm_description DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#alarm_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#alarm_description DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#alarm_description}
   */
   readonly alarmDescription?: string;
   /**
   * The arithmetic operation to use when comparing the specified statistic and threshold. The specified statistic value is used as the first operand. The values LessThanLowerOrGreaterThanUpperThreshold, LessThanLowerThreshold, and GreaterThanUpperThreshold are used only for alarms based on anomaly detection models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#comparison_operator DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#comparison_operator DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#comparison_operator}
   */
   readonly comparisonOperator: string;
   /**
   * The number of data points that must be breaching to trigger the alarm. This is used only if you are setting an 'M out of N' alarm. In that case, this value is the M. For more information, see Evaluating an Alarm (https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/AlarmThatSendsEmail.html#alarm-evaluation) in the Amazon CloudWatch User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#datapoints_to_alarm DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#datapoints_to_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#datapoints_to_alarm DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#datapoints_to_alarm}
   */
   readonly datapointsToAlarm?: number;
   /**
   * The dimensions for the metric specified in MetricName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#dimensions DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#dimensions DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#dimensions}
   */
   readonly dimensions?: DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecDimensions[] | cdktf.IResolvable;
   /**
   * Used only for alarms based on percentiles. If you specify ignore, the alarm state does not change during periods with too few data points to be statistically significant. If you specify evaluate or omit this parameter, the alarm is always evaluated and possibly changes state no matter how many data points are available. For more information, see Percentile-Based CloudWatch Alarms and Low Data Samples (https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/AlarmThatSendsEmail.html#percentiles-with-low-samples). Valid Values: evaluate | ignore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#evaluate_low_sample_count_percentile DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#evaluate_low_sample_count_percentile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#evaluate_low_sample_count_percentile DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#evaluate_low_sample_count_percentile}
   */
   readonly evaluateLowSampleCountPercentile?: string;
   /**
   * The number of periods over which data is compared to the specified threshold. If you are setting an alarm that requires that a number of consecutive data points be breaching to trigger the alarm, this value specifies that number. If you are setting an 'M out of N' alarm, this value is the N. An alarm's total current evaluation period can be no longer than one day, so this number multiplied by Period cannot be more than 86,400 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#evaluation_periods DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#evaluation_periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#evaluation_periods DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#evaluation_periods}
   */
   readonly evaluationPeriods: number;
   /**
   * The extended statistic for the metric specified in MetricName. When you call PutMetricAlarm and specify a MetricName, you must specify either Statistic or ExtendedStatistic but not both. If you specify ExtendedStatistic, the following are valid values: * p90 * tm90 * tc90 * ts90 * wm90 * IQM * PR(n:m) where n and m are values of the metric * TC(X%:X%) where X is between 10 and 90 inclusive. * TM(X%:X%) where X is between 10 and 90 inclusive. * TS(X%:X%) where X is between 10 and 90 inclusive. * WM(X%:X%) where X is between 10 and 90 inclusive. For more information about these extended statistics, see CloudWatch statistics definitions (https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Statistics-definitions.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#extended_statistic DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#extended_statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#extended_statistic DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#extended_statistic}
   */
   readonly extendedStatistic?: string;
   /**
   * The actions to execute when this alarm transitions to the INSUFFICIENT_DATA state from any other state. Each action is specified as an Amazon Resource Name (ARN). Valid values: EC2 actions: * arn:aws:automate:region:ec2:stop * arn:aws:automate:region:ec2:terminate * arn:aws:automate:region:ec2:reboot * arn:aws:automate:region:ec2:recover * arn:aws:swf:region:account-id:action/actions/AWS_EC2.InstanceId.Stop/1.0 * arn:aws:swf:region:account-id:action/actions/AWS_EC2.InstanceId.Terminate/1.0 * arn:aws:swf:region:account-id:action/actions/AWS_EC2.InstanceId.Reboot/1.0 * arn:aws:swf:region:account-id:action/actions/AWS_EC2.InstanceId.Recover/1.0 Autoscaling action: * arn:aws:autoscaling:region:account-id:scalingPolicy:policy-id:autoScalingGroupName/group-friendly-name:policyName/policy-friendly-name SNS notification action: * arn:aws:sns:region:account-id:sns-topic-name:autoScalingGroupName/group-friendly-name:policyName/policy-friendly-name SSM integration actions: * arn:aws:ssm:region:account-id:opsitem:severity#CATEGORY=category-name * arn:aws:ssm-incidents::account-id:responseplan/response-plan-name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#insufficient_data_actions DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#insufficient_data_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#insufficient_data_actions DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#insufficient_data_actions}
   */
   readonly insufficientDataActions?: string[];
   /**
   * The name for the metric associated with the alarm. For each PutMetricAlarm operation, you must specify either MetricName or a Metrics array. If you are creating an alarm based on a math expression, you cannot specify this parameter, or any of the Namespace, Dimensions, Period, Unit, Statistic, or ExtendedStatistic parameters. Instead, you specify all this information in the Metrics array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#metric_name DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#metric_name DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#metric_name}
   */
   readonly metricName?: string;
   /**
   * An array of MetricDataQuery structures that enable you to create an alarm based on the result of a metric math expression. For each PutMetricAlarm operation, you must specify either MetricName or a Metrics array. Each item in the Metrics array either retrieves a metric or performs a math expression. One item in the Metrics array is the expression that the alarm watches. You designate this expression by setting ReturnData to true for this object in the array. For more information, see MetricDataQuery (https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_MetricDataQuery.html). If you use the Metrics parameter, you cannot include the Namespace, MetricName, Dimensions, Period, Unit, Statistic, or ExtendedStatistic parameters of PutMetricAlarm in the same operation. Instead, you retrieve the metrics you are using in your math expression as part of the Metrics array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#metrics DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#metrics DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecMetrics[] | cdktf.IResolvable;
   /**
   * The name for the alarm. This name must be unique within the Region. The name must contain only UTF-8 characters, and can't contain ASCII control characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#name DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#name DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The namespace for the metric associated specified in MetricName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#namespace DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#namespace DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * The actions to execute when this alarm transitions to an OK state from any other state. Each action is specified as an Amazon Resource Name (ARN). Valid values: EC2 actions: * arn:aws:automate:region:ec2:stop * arn:aws:automate:region:ec2:terminate * arn:aws:automate:region:ec2:reboot * arn:aws:automate:region:ec2:recover * arn:aws:swf:region:account-id:action/actions/AWS_EC2.InstanceId.Stop/1.0 * arn:aws:swf:region:account-id:action/actions/AWS_EC2.InstanceId.Terminate/1.0 * arn:aws:swf:region:account-id:action/actions/AWS_EC2.InstanceId.Reboot/1.0 * arn:aws:swf:region:account-id:action/actions/AWS_EC2.InstanceId.Recover/1.0 Autoscaling action: * arn:aws:autoscaling:region:account-id:scalingPolicy:policy-id:autoScalingGroupName/group-friendly-name:policyName/policy-friendly-name SNS notification action: * arn:aws:sns:region:account-id:sns-topic-name:autoScalingGroupName/group-friendly-name:policyName/policy-friendly-name SSM integration actions: * arn:aws:ssm:region:account-id:opsitem:severity#CATEGORY=category-name * arn:aws:ssm-incidents::account-id:responseplan/response-plan-name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#o_k_actions DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#o_k_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#o_k_actions DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#o_k_actions}
   */
   readonly oKActions?: string[];
   /**
   * The length, in seconds, used each time the metric specified in MetricName is evaluated. Valid values are 10, 30, and any multiple of 60. Period is required for alarms based on static thresholds. If you are creating an alarm based on a metric math expression, you specify the period for each metric within the objects in the Metrics array. Be sure to specify 10 or 30 only for metrics that are stored by a PutMetricData call with a StorageResolution of 1. If you specify a period of 10 or 30 for a metric that does not have sub-minute resolution, the alarm still attempts to gather data at the period rate that you specify. In this case, it does not receive data for the attempts that do not correspond to a one-minute data resolution, and the alarm might often lapse into INSUFFICENT_DATA status. Specifying 10 or 30 also sets this alarm as a high-resolution alarm, which has a higher charge than other alarms. For more information about pricing, see Amazon CloudWatch Pricing (https://aws.amazon.com/cloudwatch/pricing/). An alarm's total current evaluation period can be no longer than one day, so Period multiplied by EvaluationPeriods cannot be more than 86,400 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#period DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#period DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#period}
   */
   readonly period?: number;
   /**
   * The statistic for the metric specified in MetricName, other than percentile. For percentile statistics, use ExtendedStatistic. When you call PutMetricAlarm and specify a MetricName, you must specify either Statistic or ExtendedStatistic, but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#statistic DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#statistic DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#statistic}
   */
   readonly statistic?: string;
   /**
   * A list of key-value pairs to associate with the alarm. You can associate as many as 50 tags with an alarm. To be able to associate tags with the alarm when you create the alarm, you must have the cloudwatch:TagResource permission. Tags can help you organize and categorize your resources. You can also use them to scope user permissions by granting a user permission to access or change only resources with certain tag values. If you are using this operation to update an existing alarm, any tags you specify in this parameter are ignored. To change the tags of an existing alarm, use TagResource (https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_TagResource.html) or UntagResource (https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_UntagResource.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#tags DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#tags DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * The value against which the specified statistic is compared. This parameter is required for alarms based on static thresholds, but should not be used for alarms based on anomaly detection models.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#threshold DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#threshold DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#threshold}
   */
   readonly threshold?: number;
   /**
   * If this is an alarm based on an anomaly detection model, make this value match the ID of the ANOMALY_DETECTION_BAND function. For an example of how to use this parameter, see the Anomaly Detection Model Alarm example on this page. If your alarm uses this parameter, it cannot have Auto Scaling actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#threshold_metric_id DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#threshold_metric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#threshold_metric_id DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#threshold_metric_id}
   */
   readonly thresholdMetricId?: string;
   /**
   * Sets how this alarm is to handle missing data points. If TreatMissingData is omitted, the default behavior of missing is used. For more information, see Configuring How CloudWatch Alarms Treats Missing Data (https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/AlarmThatSendsEmail.html#alarms-and-missing-data). Valid Values: breaching | notBreaching | ignore | missing Alarms that evaluate metrics in the AWS/DynamoDB namespace always ignore missing data even if you choose a different option for TreatMissingData. When an AWS/DynamoDB metric has missing data, alarms that evaluate that metric remain in their current state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#treat_missing_data DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#treat_missing_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#treat_missing_data DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#treat_missing_data}
   */
   readonly treatMissingData?: string;
   /**
   * The unit of measure for the statistic. For example, the units for the Amazon EC2 NetworkIn metric are Bytes because NetworkIn tracks the number of bytes that an instance receives on all network interfaces. You can also specify a unit when you create a custom metric. Units help provide conceptual meaning to your data. Metric data points that specify a unit of measure, such as Percent, are aggregated separately. If you are creating an alarm based on a metric math expression, you can specify the unit for each metric (if needed) within the objects in the Metrics array. If you don't specify Unit, CloudWatch retrieves all unit types that have been published for the metric and attempts to evaluate the alarm. Usually, metrics are published with only one unit, so the alarm works as intended. However, if the metric is published with multiple types of units and you don't specify a unit, the alarm's behavior is not defined and it behaves unpredictably. We recommend omitting Unit so that you don't inadvertently specify an incorrect unit that is not published for this metric. Doing so causes the alarm to be stuck in the INSUFFICIENT DATA state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#unit DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#unit DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest#unit}
   */
   readonly unit?: string;
 }
@@ -2160,7 +2160,7 @@ export class DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest k8s_cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest k8s_cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest}
 */
 export class DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2176,7 +2176,7 @@ export class DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2188,7 +2188,7 @@ export class DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest k8s_cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest k8s_cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2199,8 +2199,8 @@ export class DataK8SCloudwatchServicesK8SAwsMetricAlarmV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_cloudwatch_services_k8s_aws_metric_alarm_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -103,13 +103,13 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#service DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#service DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#service}
   */
   readonly service?: string;
 }
@@ -231,13 +231,13 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#value DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#value DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#value}
   */
   readonly value: string;
 }
@@ -378,31 +378,31 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#host DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#host DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#http_headers DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#http_headers DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#scheme DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#scheme DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -611,13 +611,13 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#host DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#host DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
   */
   readonly port: string;
 }
@@ -739,61 +739,61 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#exec DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#exec DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#exec}
   */
   readonly exec?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#failure_threshold DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#failure_threshold DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#grpc DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#grpc DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#grpc}
   */
   readonly grpc?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#http_get DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#http_get DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#http_get}
   */
   readonly httpGet?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#initial_delay_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#initial_delay_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#period_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#period_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#success_threshold DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#success_threshold DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#tcp_socket DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#tcp_socket DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#termination_grace_period_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#termination_grace_period_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#timeout_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#timeout_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -1150,13 +1150,13 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#resource_name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#resource_name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#restart_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#restart_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -1297,13 +1297,13 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#request DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#request DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#request}
   */
   readonly request?: string;
 }
@@ -1447,19 +1447,19 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#claims DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#claims DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#claims}
   */
   readonly claims?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#limits DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#limits DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#requests DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#requests DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1613,13 +1613,13 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#localhost_profile DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#localhost_profile DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#type DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#type DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#type}
   */
   readonly type: string;
 }
@@ -1741,13 +1741,13 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#add DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#add DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#drop DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#drop DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -1872,25 +1872,25 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#level DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#level DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#role DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#role DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#type DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#type DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#user DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#user DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#user}
   */
   readonly user?: string;
 }
@@ -2073,13 +2073,13 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#localhost_profile DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#localhost_profile DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#type DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#type DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#type}
   */
   readonly type: string;
 }
@@ -2201,25 +2201,25 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#gmsa_credential_spec DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#gmsa_credential_spec DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#gmsa_credential_spec_name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#gmsa_credential_spec_name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#host_process DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#host_process DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#run_as_user_name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#run_as_user_name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -2402,73 +2402,73 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#allow_privilege_escalation DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#allow_privilege_escalation DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * appArmorProfile is the AppArmor options to use by this container. If set, this profile overrides the pod's appArmorProfile. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#app_armor_profile DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#app_armor_profile DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsSecurityContextAppArmorProfile;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#capabilities DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#capabilities DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#capabilities}
   */
   readonly capabilities?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#privileged DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#privileged DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default value is Default which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#proc_mount DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#proc_mount DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#read_only_root_filesystem DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#read_only_root_filesystem DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#run_as_group DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#run_as_group DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#run_as_non_root DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#run_as_non_root DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#run_as_user DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#run_as_user DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#se_linux_options DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#se_linux_options DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#seccomp_profile DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#seccomp_profile DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#windows_options DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#windows_options DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsSecurityContextWindowsOptions;
 }
@@ -2883,7 +2883,7 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#command DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#command DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#command}
   */
   readonly command?: string[];
 }
@@ -2979,13 +2979,13 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#service DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#service DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#service}
   */
   readonly service?: string;
 }
@@ -3107,13 +3107,13 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#value DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#value DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#value}
   */
   readonly value: string;
 }
@@ -3254,31 +3254,31 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#host DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#host DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#http_headers DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#http_headers DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#scheme DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#scheme DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -3487,13 +3487,13 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#host DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#host DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
   */
   readonly port: string;
 }
@@ -3615,61 +3615,61 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#exec DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#exec DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#exec}
   */
   readonly exec?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#failure_threshold DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#failure_threshold DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#grpc DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#grpc DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#grpc}
   */
   readonly grpc?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#http_get DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#http_get DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#http_get}
   */
   readonly httpGet?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#initial_delay_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#initial_delay_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#period_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#period_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#success_threshold DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#success_threshold DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#tcp_socket DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#tcp_socket DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#termination_grace_period_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#termination_grace_period_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#timeout_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#timeout_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -4026,13 +4026,13 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#device_path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#device_path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
   */
   readonly name: string;
 }
@@ -4173,43 +4173,43 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#mount_path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#mount_path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#mount_propagation DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#mount_propagation DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#read_only DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#read_only DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#recursive_read_only DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#recursive_read_only DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#sub_path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#sub_path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#sub_path_expr DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#sub_path_expr DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -4495,145 +4495,145 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Arguments to the entrypoint. The container image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#args DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#args DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The container image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#command DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#command DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#env DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#env DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#env}
   */
   readonly env?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#env_from DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#env_from DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#env_from}
   */
   readonly envFrom?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#image DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#image DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#image_pull_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#image_pull_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Actions that the management system should take in response to container lifecycle events. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#lifecycle DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#lifecycle DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsLifecycle;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#liveness_probe DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#liveness_probe DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsLivenessProbe;
   /**
   * Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * List of ports to expose from the container. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default '0.0.0.0' address inside a container will be accessible from the network. Modifying this array with strategic merge patch may corrupt the data. For more information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#ports DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#ports DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#ports}
   */
   readonly ports?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsPorts[] | cdktf.IResolvable;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#readiness_probe DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#readiness_probe DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#resize_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#resize_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsResizePolicy[] | cdktf.IResolvable;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#resources DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#resources DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#resources}
   */
   readonly resources?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsResources;
   /**
   * RestartPolicy defines the restart behavior of individual containers in a pod. This field may only be set for init containers, and the only allowed value is 'Always'. For non-init containers or when this field is not specified, the restart behavior is defined by the Pod's restart policy and the container type. Setting the RestartPolicy as 'Always' for the init container will have the following effect: this init container will be continually restarted on exit until all regular containers have terminated. Once all regular containers have completed, all init containers with restartPolicy 'Always' will be shut down. This lifecycle differs from normal init containers and is often referred to as a 'sidecar' container. Although this init container still starts in the init container sequence, it does not wait for the container to complete before proceeding to the next init container. Instead, the next init container starts immediately after this init container is started, or after any startupProbe has successfully completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#restart_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#restart_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#security_context DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#security_context DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#security_context}
   */
   readonly securityContext?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsSecurityContext;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#startup_probe DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#startup_probe DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#stdin DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#stdin DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#stdin_once DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#stdin_once DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#termination_message_path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#termination_message_path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#termination_message_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#termination_message_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#tty DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#tty DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#volume_devices DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#volume_devices DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#volume_mounts DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#volume_mounts DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecarsVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#working_dir DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#working_dir DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -5415,31 +5415,31 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#effect DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#effect DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#key DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#key DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#operator DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#operator DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#toleration_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#toleration_seconds DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#value DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#value DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -5673,19 +5673,19 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#key DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#key DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#operator DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#operator DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#values DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#values DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5855,13 +5855,13 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#match_expressions DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#match_expressions DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#match_labels DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#match_labels DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5986,49 +5986,49 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#label_selector DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#label_selector DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#match_label_keys DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#match_label_keys DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#max_skew DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#max_skew DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#min_domains DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#min_domains DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#node_affinity_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#node_affinity_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#node_taints_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#node_taints_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#topology_key DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#topology_key DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#when_unsatisfiable DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#when_unsatisfiable DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -6340,103 +6340,103 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBounc
   /**
   * Scheduling constraints of a PgBouncer pod. Changing this value causes PgBouncer to restart. More info: https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#affinity DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#affinity DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#affinity}
   */
   readonly affinity?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerAffinity;
   /**
   * Configuration settings for the PgBouncer process. Changes to any of these values will be automatically reloaded without validation. Be careful, as you may put PgBouncer into an unusable state. More info: https://www.pgbouncer.org/usage.html#reload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#config DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#config DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#config}
   */
   readonly config?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerConfig;
   /**
   * Configuration for pgBouncer default sidecar containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#containers DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#containers DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#containers}
   */
   readonly containers?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerContainers;
   /**
   * A secret projection containing a certificate and key with which to encrypt connections to PgBouncer. The 'tls.crt', 'tls.key', and 'ca.crt' paths must be PEM-encoded certificates and keys. Changing this value causes PgBouncer to restart. More info: https://kubernetes.io/docs/concepts/configuration/secret/#projection-of-secret-keys-to-specific-paths
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#custom_tls_secret DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#custom_tls_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#custom_tls_secret DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#custom_tls_secret}
   */
   readonly customTlsSecret?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerCustomTlsSecret;
   /**
   * Specification of the service that exposes PgBouncer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#expose DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#expose DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#expose}
   */
   readonly expose?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerExpose;
   /**
   * Allow SUPERUSERs to connect through PGBouncer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#expose_superusers DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#expose_superusers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#expose_superusers DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#expose_superusers}
   */
   readonly exposeSuperusers?: boolean | cdktf.IResolvable;
   /**
   * Name of a container image that can run PgBouncer 1.15 or newer. Changing this value causes PgBouncer to restart. The image may also be set using the RELATED_IMAGE_PGBOUNCER environment variable. More info: https://kubernetes.io/docs/concepts/containers/images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#image DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#image DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#image}
   */
   readonly image?: string;
   /**
   * Metadata contains metadata for custom resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#metadata DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#metadata DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#metadata}
   */
   readonly metadata?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerMetadata;
   /**
   * Minimum number of pods that should be available at a time. Defaults to one when the replicas field is greater than one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#min_available DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#min_available DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#min_available}
   */
   readonly minAvailable?: string;
   /**
   * Port on which PgBouncer should listen for client connections. Changing this value causes PgBouncer to restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
   */
   readonly port?: number;
   /**
   * Priority class name for the pgBouncer pod. Changing this value causes PostgreSQL to restart. More info: https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#priority_class_name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#priority_class_name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * Number of desired PgBouncer pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#replicas DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#replicas DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Compute resources of a PgBouncer container. Changing this value causes PgBouncer to restart. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#resources DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#resources DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#resources}
   */
   readonly resources?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerResources;
   /**
   * SecurityContext defines the security settings for PGBouncer pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#security_context DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#security_context DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#security_context}
   */
   readonly securityContext?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSecurityContext;
   /**
   * Custom sidecars for a PgBouncer pod. Changing this value causes PgBouncer to restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#sidecars DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#sidecars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#sidecars DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#sidecars}
   */
   readonly sidecars?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerSidecars[] | cdktf.IResolvable;
   /**
   * Tolerations of a PgBouncer pod. Changing this value causes PgBouncer to restart. More info: https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#tolerations DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#tolerations DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#tolerations}
   */
   readonly tolerations?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerTolerations[] | cdktf.IResolvable;
   /**
   * Topology spread constraints of a PgBouncer pod. Changing this value causes PgBouncer to restart. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#topology_spread_constraints DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#topology_spread_constraints DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncerTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -6996,7 +6996,7 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxy {
   /**
   * Defines a PgBouncer proxy and connection pooler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#pg_bouncer DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#pg_bouncer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#pg_bouncer DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#pg_bouncer}
   */
   readonly pgBouncer: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxyPgBouncer;
 }
@@ -7089,19 +7089,19 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecretsCusto
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#key DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#key DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#mode DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#mode DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#path}
   */
   readonly path: string;
 }
@@ -7271,19 +7271,19 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecretsCusto
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#items DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#items DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#items}
   */
   readonly items?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecretsCustomReplicationTlsSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#optional DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#optional DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7437,19 +7437,19 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecretsCusto
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#key DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#key DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#mode DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#mode DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#path}
   */
   readonly path: string;
 }
@@ -7619,19 +7619,19 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecretsCusto
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#items DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#items DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#items}
   */
   readonly items?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecretsCustomRootCatlsSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#optional DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#optional DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7785,19 +7785,19 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecretsCusto
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#key DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#key DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#mode DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#mode DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#path DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#path}
   */
   readonly path: string;
 }
@@ -7967,19 +7967,19 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecretsCusto
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#items DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#items DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#items}
   */
   readonly items?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecretsCustomTlsSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#optional DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#optional DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8133,19 +8133,19 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecrets {
   /**
   * The secret containing the replication client certificates and keys for secure connections to the PostgreSQL server. It will need to contain the client TLS certificate, TLS key and the Certificate Authority certificate with the data keys set to tls.crt, tls.key and ca.crt, respectively. NOTE: If CustomReplicationClientTLSSecret is provided, CustomTLSSecret MUST be provided and the ca.crt provided must be the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#custom_replication_tls_secret DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#custom_replication_tls_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#custom_replication_tls_secret DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#custom_replication_tls_secret}
   */
   readonly customReplicationTlsSecret?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecretsCustomReplicationTlsSecret;
   /**
   * The secret containing the root CA certificate and key for secure connections to the PostgreSQL server. It will need to contain the CA TLS certificate and CA TLS key with the data keys set to root.crt and root.key, respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#custom_root_catls_secret DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#custom_root_catls_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#custom_root_catls_secret DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#custom_root_catls_secret}
   */
   readonly customRootCatlsSecret?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecretsCustomRootCatlsSecret;
   /**
   * The secret containing the Certificates and Keys to encrypt PostgreSQL traffic will need to contain the server TLS certificate, TLS key and the Certificate Authority certificate with the data keys set to tls.crt, tls.key and ca.crt, respectively. It will then be mounted as a volume projection to the '/pgconf/tls' directory. For more information on Kubernetes secret projections, please see https://k8s.io/docs/concepts/configuration/secret/#projection-of-secret-keys-to-specific-paths NOTE: If CustomTLSSecret is provided, CustomReplicationClientTLSSecret MUST be provided and the ca.crt provided must be the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#custom_tls_secret DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#custom_tls_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#custom_tls_secret DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#custom_tls_secret}
   */
   readonly customTlsSecret?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecretsCustomTlsSecret;
 }
@@ -8299,25 +8299,25 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecStandby {
   /**
   * Whether or not the PostgreSQL cluster should be read-only. When this is true, WAL files are applied from a pgBackRest repository or another PostgreSQL server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#enabled DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#enabled DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Network address of the PostgreSQL server to follow via streaming replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#host DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#host DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#host}
   */
   readonly host?: string;
   /**
   * Network port of the PostgreSQL server to follow via streaming replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
   */
   readonly port?: number;
   /**
   * The name of the pgBackRest repository to follow for WAL files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#repo_name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#repo_name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#repo_name}
   */
   readonly repoName?: string;
 }
@@ -8500,7 +8500,7 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecUsersPasswor
   /**
   * Type of password to generate. Defaults to ASCII. Valid options are ASCII and AlphaNumeric. 'ASCII' passwords contain letters, numbers, and symbols from the US-ASCII character set. 'AlphaNumeric' passwords contain letters and numbers from the US-ASCII character set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#type DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#type DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#type}
   */
   readonly type: string;
 }
@@ -8593,31 +8593,31 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecUsers {
   /**
   * Databases to which this user can connect and create objects. Removing a database from this list does NOT revoke access. This field is ignored for the 'postgres' user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#databases DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#databases DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#databases}
   */
   readonly databases?: string[];
   /**
   * The name of this PostgreSQL user. The value may contain only lowercase letters, numbers, and hyphen so that it fits into Kubernetes metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * ALTER ROLE options except for PASSWORD. This field is ignored for the 'postgres' user. More info: https://www.postgresql.org/docs/current/role-attributes.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#options DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#options DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#options}
   */
   readonly options?: string;
   /**
   * Properties of the password generated for this user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#password DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#password DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#password}
   */
   readonly password?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecUsersPassword;
   /**
   * The secret name to generate user, password, connection info this PostgreSQL user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#secret_name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#secret_name DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -8848,135 +8848,135 @@ export interface DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpec {
   /**
   * PostgreSQL backup configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#backups DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#backups DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#backups}
   */
   readonly backups: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecBackups;
   /**
   * Version of the operator. Update this to new version after operator upgrade to apply changes to Kubernetes objects. Default is the latest version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#cr_version DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#cr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#cr_version DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#cr_version}
   */
   readonly crVersion?: string;
   /**
   * Specifies a data source for bootstrapping the PostgreSQL cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#data_source DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#data_source DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#data_source}
   */
   readonly dataSource?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecDataSource;
   /**
   * DatabaseInitSQL defines a ConfigMap containing custom SQL that will be run after the cluster is initialized. This ConfigMap must be in the same namespace as the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#database_init_sql DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#database_init_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#database_init_sql DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#database_init_sql}
   */
   readonly databaseInitSql?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecDatabaseInitSql;
   /**
   * Specification of the service that exposes the PostgreSQL primary instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#expose DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#expose DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#expose}
   */
   readonly expose?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecExpose;
   /**
   * Specification of the service that exposes PostgreSQL replica instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#expose_replicas DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#expose_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#expose_replicas DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#expose_replicas}
   */
   readonly exposeReplicas?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecExposeReplicas;
   /**
   * The specification of extensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#extensions DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#extensions DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#extensions}
   */
   readonly extensions?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecExtensions;
   /**
   * The image name to use for PostgreSQL containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#image DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#image DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#image}
   */
   readonly image?: string;
   /**
   * ImagePullPolicy is used to determine when Kubernetes will attempt to pull (download) container images. More info: https://kubernetes.io/docs/concepts/containers/images/#image-pull-policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#image_pull_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#image_pull_policy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * The image pull secrets used to pull from a private registry Changing this value causes all running pods to restart. https://k8s.io/docs/tasks/configure-pod-container/pull-image-private-registry/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#image_pull_secrets DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#image_pull_secrets DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Specifies one or more sets of PostgreSQL pods that replicate data for this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#instances DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#instances DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#instances}
   */
   readonly instances: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecInstances[] | cdktf.IResolvable;
   /**
   * Metadata contains metadata for custom resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#metadata DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#metadata DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#metadata}
   */
   readonly metadata?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecMetadata;
   /**
   * Whether or not the PostgreSQL cluster is being deployed to an OpenShift environment. If the field is unset, the operator will automatically detect the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#openshift DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#openshift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#openshift DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#openshift}
   */
   readonly openshift?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#patroni DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#patroni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#patroni DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#patroni}
   */
   readonly patroni?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecPatroni;
   /**
   * Whether or not the PostgreSQL cluster should be stopped. When this is true, workloads are scaled to zero and CronJobs are suspended. Other resources, such as Services and Volumes, remain in place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#pause DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#pause DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#pause}
   */
   readonly pause?: boolean | cdktf.IResolvable;
   /**
   * The specification of PMM sidecars.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#pmm DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#pmm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#pmm DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#pmm}
   */
   readonly pmm?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecPmm;
   /**
   * The port on which PostgreSQL should listen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#port DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#port}
   */
   readonly port?: number;
   /**
   * The major version of PostgreSQL installed in the PostgreSQL image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#postgres_version DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#postgres_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#postgres_version DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#postgres_version}
   */
   readonly postgresVersion: number;
   /**
   * The specification of a proxy that connects to PostgreSQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#proxy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#proxy DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#proxy}
   */
   readonly proxy?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#secrets DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#secrets DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#secrets}
   */
   readonly secrets?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecSecrets;
   /**
   * Run this cluster as a read-only copy of an existing cluster or archive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#standby DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#standby DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#standby}
   */
   readonly standby?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecStandby;
   /**
   * Suspends the rollout and reconciliation of changes made to the PostgresCluster spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#unmanaged DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#unmanaged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#unmanaged DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#unmanaged}
   */
   readonly unmanaged?: boolean | cdktf.IResolvable;
   /**
   * Users to create inside PostgreSQL and the databases they should access. The default creates one user that can access one database matching the PostgresCluster name. An empty list creates no users. Removing a user from this list does NOT drop the user nor revoke their access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#users DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/pgv2_percona_com_percona_pg_cluster_v2_manifest#users DataK8SPgv2PerconaComPerconaPgClusterV2Manifest#users}
   */
   readonly users?: DataK8SPgv2PerconaComPerconaPgClusterV2ManifestSpecUsers[] | cdktf.IResolvable;
 }

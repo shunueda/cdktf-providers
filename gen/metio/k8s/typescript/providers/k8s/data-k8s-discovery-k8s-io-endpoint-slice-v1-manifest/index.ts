@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataK8SDiscoveryK8SIoEndpointSliceV1ManifestConfig extends cdkt
   /**
   * addressType specifies the type of address carried by this EndpointSlice. All addresses in this slice must be the same type. This field is immutable after creation. The following address types are currently supported: * IPv4: Represents an IPv4 Address. * IPv6: Represents an IPv6 Address. * FQDN: Represents a Fully Qualified Domain Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#address_type DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#address_type DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#address_type}
   */
   readonly addressType: string;
   /**
   * endpoints is a list of unique endpoints in this slice. Each slice may include a maximum of 1000 endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#endpoints DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#endpoints DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#endpoints}
   */
   readonly endpoints: DataK8SDiscoveryK8SIoEndpointSliceV1ManifestEndpoints[] | cdktf.IResolvable;
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#metadata DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#metadata DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#metadata}
   */
   readonly metadata: DataK8SDiscoveryK8SIoEndpointSliceV1ManifestMetadata;
   /**
   * ports specifies the list of network ports exposed by each endpoint in this slice. Each port must have a unique name. When ports is empty, it indicates that there are no defined ports. When a port is defined with a nil port value, it indicates 'all ports'. Each slice may include a maximum of 100 ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#ports DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#ports DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#ports}
   */
   readonly ports?: DataK8SDiscoveryK8SIoEndpointSliceV1ManifestPorts[] | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface DataK8SDiscoveryK8SIoEndpointSliceV1ManifestEndpointsConditions
   /**
   * ready indicates that this endpoint is prepared to receive traffic, according to whatever system is managing the endpoint. A nil value indicates an unknown state. In most cases consumers should interpret this unknown state as ready. For compatibility reasons, ready should never be 'true' for terminating endpoints, except when the normal readiness behavior is being explicitly overridden, for example when the associated Service has set the publishNotReadyAddresses flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#ready DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#ready DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#ready}
   */
   readonly ready?: boolean | cdktf.IResolvable;
   /**
   * serving is identical to ready except that it is set regardless of the terminating state of endpoints. This condition should be set to true for a ready endpoint that is terminating. If nil, consumers should defer to the ready condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#serving DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#serving}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#serving DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#serving}
   */
   readonly serving?: boolean | cdktf.IResolvable;
   /**
   * terminating indicates that this endpoint is terminating. A nil value indicates an unknown state. Consumers should interpret this unknown state to mean that the endpoint is not terminating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#terminating DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#terminating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#terminating DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#terminating}
   */
   readonly terminating?: boolean | cdktf.IResolvable;
 }
@@ -202,7 +202,7 @@ export interface DataK8SDiscoveryK8SIoEndpointSliceV1ManifestEndpointsHintsForZo
   /**
   * name represents the name of the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#name DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#name DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -317,7 +317,7 @@ export interface DataK8SDiscoveryK8SIoEndpointSliceV1ManifestEndpointsHints {
   /**
   * forZones indicates the zone(s) this endpoint should be consumed by to enable topology aware routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#for_zones DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#for_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#for_zones DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#for_zones}
   */
   readonly forZones?: DataK8SDiscoveryK8SIoEndpointSliceV1ManifestEndpointsHintsForZones[] | cdktf.IResolvable;
 }
@@ -413,43 +413,43 @@ export interface DataK8SDiscoveryK8SIoEndpointSliceV1ManifestEndpointsTargetRef 
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#api_version DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#api_version DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#field_path DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#field_path DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#kind DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#kind DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#name DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#name DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#namespace DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#namespace DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#resource_version DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#resource_version DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#uid DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#uid DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -719,49 +719,49 @@ export interface DataK8SDiscoveryK8SIoEndpointSliceV1ManifestEndpoints {
   /**
   * addresses of this endpoint. The contents of this field are interpreted according to the corresponding EndpointSlice addressType field. Consumers must handle different types of addresses in the context of their own capabilities. This must contain at least one address but no more than 100. These are all assumed to be fungible and clients may choose to only use the first element. Refer to: https://issue.k8s.io/106267
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#addresses DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#addresses DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#addresses}
   */
   readonly addresses: string[];
   /**
   * EndpointConditions represents the current condition of an endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#conditions DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#conditions DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#conditions}
   */
   readonly conditions?: DataK8SDiscoveryK8SIoEndpointSliceV1ManifestEndpointsConditions;
   /**
   * deprecatedTopology contains topology information part of the v1beta1 API. This field is deprecated, and will be removed when the v1beta1 API is removed (no sooner than kubernetes v1.24). While this field can hold values, it is not writable through the v1 API, and any attempts to write to it will be silently ignored. Topology information can be found in the zone and nodeName fields instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#deprecated_topology DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#deprecated_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#deprecated_topology DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#deprecated_topology}
   */
   readonly deprecatedTopology?: { [key: string]: string };
   /**
   * EndpointHints provides hints describing how an endpoint should be consumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#hints DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#hints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#hints DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#hints}
   */
   readonly hints?: DataK8SDiscoveryK8SIoEndpointSliceV1ManifestEndpointsHints;
   /**
   * hostname of this endpoint. This field may be used by consumers of endpoints to distinguish endpoints from each other (e.g. in DNS names). Multiple endpoints which use the same hostname should be considered fungible (e.g. multiple A values in DNS). Must be lowercase and pass DNS Label (RFC 1123) validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#hostname DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#hostname DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * nodeName represents the name of the Node hosting this endpoint. This can be used to determine endpoints local to a Node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#node_name DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#node_name DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
   * ObjectReference contains enough information to let you inspect or modify the referred object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#target_ref DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#target_ref DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SDiscoveryK8SIoEndpointSliceV1ManifestEndpointsTargetRef;
   /**
   * zone is the name of the Zone this endpoint exists in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#zone DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#zone DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#zone}
   */
   readonly zone?: string;
 }
@@ -1079,25 +1079,25 @@ export interface DataK8SDiscoveryK8SIoEndpointSliceV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#annotations DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#annotations DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#labels DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#labels DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#name DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#name DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#namespace DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#namespace DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -1274,25 +1274,25 @@ export interface DataK8SDiscoveryK8SIoEndpointSliceV1ManifestPorts {
   /**
   * The application protocol for this port. This is used as a hint for implementations to offer richer behavior for protocols that they understand. This field follows standard Kubernetes label syntax. Valid values are either: * Un-prefixed protocol names - reserved for IANA standard service names (as per RFC-6335 and https://www.iana.org/assignments/service-names). * Kubernetes-defined prefixed names: * 'kubernetes.io/h2c' - HTTP/2 prior knowledge over cleartext as described in https://www.rfc-editor.org/rfc/rfc9113.html#name-starting-http-2-with-prior- * 'kubernetes.io/ws' - WebSocket over cleartext as described in https://www.rfc-editor.org/rfc/rfc6455 * 'kubernetes.io/wss' - WebSocket over TLS as described in https://www.rfc-editor.org/rfc/rfc6455 * Other protocols should use implementation-defined prefixed names such as mycompany.com/my-custom-protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#app_protocol DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#app_protocol DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
   * name represents the name of this port. All ports in an EndpointSlice must have a unique name. If the EndpointSlice is derived from a Kubernetes service, this corresponds to the Service.ports[].name. Name must either be an empty string or pass DNS_LABEL validation: * must be no more than 63 characters long. * must consist of lower case alphanumeric characters or '-'. * must start and end with an alphanumeric character. Default is empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#name DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#name DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#name}
   */
   readonly name?: string;
   /**
   * port represents the port number of the endpoint. If this is not specified, ports are not restricted and must be interpreted in the context of the specific consumer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#port DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#port DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#port}
   */
   readonly port?: number;
   /**
   * protocol represents the IP protocol for this port. Must be UDP, TCP, or SCTP. Default is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#protocol DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#protocol DataK8SDiscoveryK8SIoEndpointSliceV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -1495,7 +1495,7 @@ export class DataK8SDiscoveryK8SIoEndpointSliceV1ManifestPortsList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest k8s_discovery_k8s_io_endpoint_slice_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest k8s_discovery_k8s_io_endpoint_slice_v1_manifest}
 */
 export class DataK8SDiscoveryK8SIoEndpointSliceV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1511,7 +1511,7 @@ export class DataK8SDiscoveryK8SIoEndpointSliceV1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SDiscoveryK8SIoEndpointSliceV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDiscoveryK8SIoEndpointSliceV1Manifest to import
-  * @param importFromId The id of the existing DataK8SDiscoveryK8SIoEndpointSliceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDiscoveryK8SIoEndpointSliceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDiscoveryK8SIoEndpointSliceV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1523,7 +1523,7 @@ export class DataK8SDiscoveryK8SIoEndpointSliceV1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest k8s_discovery_k8s_io_endpoint_slice_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/discovery_k8s_io_endpoint_slice_v1_manifest k8s_discovery_k8s_io_endpoint_slice_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1534,8 +1534,8 @@ export class DataK8SDiscoveryK8SIoEndpointSliceV1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_discovery_k8s_io_endpoint_slice_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

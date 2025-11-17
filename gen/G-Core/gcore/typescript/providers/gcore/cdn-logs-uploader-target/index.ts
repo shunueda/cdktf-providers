@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target
+// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CdnLogsUploaderTargetConfig extends cdktf.TerraformMetaArgument
   /**
   * Description of the target. Default value is empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#description CdnLogsUploaderTarget#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#description CdnLogsUploaderTarget#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#id CdnLogsUploaderTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#id CdnLogsUploaderTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CdnLogsUploaderTargetConfig extends cdktf.TerraformMetaArgument
   /**
   * Name of the target. Default value is "Target".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#name CdnLogsUploaderTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#name CdnLogsUploaderTarget#name}
   */
   readonly name?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#config CdnLogsUploaderTarget#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#config CdnLogsUploaderTarget#config}
   */
   readonly config: CdnLogsUploaderTargetConfigA;
 }
@@ -37,31 +37,31 @@ export interface CdnLogsUploaderTargetConfigFtp {
   /**
   * Directory on the FTP server where logs will be uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
   */
   readonly directory?: string;
   /**
   * Hostname or IP address of the FTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#hostname CdnLogsUploaderTarget#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#hostname CdnLogsUploaderTarget#hostname}
   */
   readonly hostname: string;
   /**
   * Password for the FTP account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#password CdnLogsUploaderTarget#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#password CdnLogsUploaderTarget#password}
   */
   readonly password: string;
   /**
   * Timeout for the FTP connection in seconds. Default value is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#timeout_seconds CdnLogsUploaderTarget#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#timeout_seconds CdnLogsUploaderTarget#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * Username for the FTP account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#user CdnLogsUploaderTarget#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#user CdnLogsUploaderTarget#user}
   */
   readonly user: string;
 }
@@ -254,25 +254,25 @@ export interface CdnLogsUploaderTargetConfigHttpAppendResponseActions {
   /**
   * Action to perform if the response matches the specified criteria. Supported values are 'drop', 'retry', and 'append'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#action CdnLogsUploaderTarget#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#action CdnLogsUploaderTarget#action}
   */
   readonly action: string;
   /**
   * Default value is empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#description CdnLogsUploaderTarget#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#description CdnLogsUploaderTarget#description}
   */
   readonly description?: string;
   /**
   * Payload to match in the response. If not specified, no payload will be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#match_payload CdnLogsUploaderTarget#match_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#match_payload CdnLogsUploaderTarget#match_payload}
   */
   readonly matchPayload?: string;
   /**
   * HTTP status code to match. If not specified, no status code will be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#match_status_code CdnLogsUploaderTarget#match_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#match_status_code CdnLogsUploaderTarget#match_status_code}
   */
   readonly matchStatusCode?: number;
 }
@@ -472,37 +472,37 @@ export class CdnLogsUploaderTargetConfigHttpAppendResponseActionsList extends cd
 }
 export interface CdnLogsUploaderTargetConfigHttpAppend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#headers CdnLogsUploaderTarget#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#headers CdnLogsUploaderTarget#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * HTTP method to use for the request. Supported values are 'POST' and 'PUT'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#method CdnLogsUploaderTarget#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#method CdnLogsUploaderTarget#method}
   */
   readonly method?: string;
   /**
   * Timeout for the HTTP request in seconds. Default value is 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#timeout_seconds CdnLogsUploaderTarget#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#timeout_seconds CdnLogsUploaderTarget#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * URL to which logs should be uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#url CdnLogsUploaderTarget#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#url CdnLogsUploaderTarget#url}
   */
   readonly url: string;
   /**
   * Default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#use_compression CdnLogsUploaderTarget#use_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#use_compression CdnLogsUploaderTarget#use_compression}
   */
   readonly useCompression?: boolean | cdktf.IResolvable;
   /**
   * response_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#response_actions CdnLogsUploaderTarget#response_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#response_actions CdnLogsUploaderTarget#response_actions}
   */
   readonly responseActions?: CdnLogsUploaderTargetConfigHttpAppendResponseActions[] | cdktf.IResolvable;
 }
@@ -730,13 +730,13 @@ export interface CdnLogsUploaderTargetConfigHttpAuthConfig {
   /**
   * Name of the header to which the token will be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#header_name CdnLogsUploaderTarget#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#header_name CdnLogsUploaderTarget#header_name}
   */
   readonly headerName: string;
   /**
   * Token to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#token CdnLogsUploaderTarget#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#token CdnLogsUploaderTarget#token}
   */
   readonly token: string;
 }
@@ -845,13 +845,13 @@ export interface CdnLogsUploaderTargetConfigHttpAuth {
   /**
   * Type of authentication. Supported values are 'token'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#type CdnLogsUploaderTarget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#type CdnLogsUploaderTarget#type}
   */
   readonly type: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#config CdnLogsUploaderTarget#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#config CdnLogsUploaderTarget#config}
   */
   readonly config: CdnLogsUploaderTargetConfigHttpAuthConfig;
 }
@@ -960,25 +960,25 @@ export interface CdnLogsUploaderTargetConfigHttpRetryResponseActions {
   /**
   * Action to perform if the response matches the specified criteria. Supported values are 'drop', 'retry', and 'append'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#action CdnLogsUploaderTarget#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#action CdnLogsUploaderTarget#action}
   */
   readonly action: string;
   /**
   * Default value is empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#description CdnLogsUploaderTarget#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#description CdnLogsUploaderTarget#description}
   */
   readonly description?: string;
   /**
   * Payload to match in the response. If not specified, no payload will be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#match_payload CdnLogsUploaderTarget#match_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#match_payload CdnLogsUploaderTarget#match_payload}
   */
   readonly matchPayload?: string;
   /**
   * HTTP status code to match. If not specified, no status code will be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#match_status_code CdnLogsUploaderTarget#match_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#match_status_code CdnLogsUploaderTarget#match_status_code}
   */
   readonly matchStatusCode?: number;
 }
@@ -1178,37 +1178,37 @@ export class CdnLogsUploaderTargetConfigHttpRetryResponseActionsList extends cdk
 }
 export interface CdnLogsUploaderTargetConfigHttpRetry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#headers CdnLogsUploaderTarget#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#headers CdnLogsUploaderTarget#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * HTTP method to use for the request. Supported values are 'POST' and 'PUT'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#method CdnLogsUploaderTarget#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#method CdnLogsUploaderTarget#method}
   */
   readonly method?: string;
   /**
   * Timeout for the HTTP request in seconds. Default value is 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#timeout_seconds CdnLogsUploaderTarget#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#timeout_seconds CdnLogsUploaderTarget#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * URL to which logs should be uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#url CdnLogsUploaderTarget#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#url CdnLogsUploaderTarget#url}
   */
   readonly url: string;
   /**
   * Default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#use_compression CdnLogsUploaderTarget#use_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#use_compression CdnLogsUploaderTarget#use_compression}
   */
   readonly useCompression?: boolean | cdktf.IResolvable;
   /**
   * response_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#response_actions CdnLogsUploaderTarget#response_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#response_actions CdnLogsUploaderTarget#response_actions}
   */
   readonly responseActions?: CdnLogsUploaderTargetConfigHttpRetryResponseActions[] | cdktf.IResolvable;
 }
@@ -1436,25 +1436,25 @@ export interface CdnLogsUploaderTargetConfigHttpUploadResponseActions {
   /**
   * Action to perform if the response matches the specified criteria. Supported values are 'drop', 'retry', and 'append'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#action CdnLogsUploaderTarget#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#action CdnLogsUploaderTarget#action}
   */
   readonly action: string;
   /**
   * Default value is empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#description CdnLogsUploaderTarget#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#description CdnLogsUploaderTarget#description}
   */
   readonly description?: string;
   /**
   * Payload to match in the response. If not specified, no payload will be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#match_payload CdnLogsUploaderTarget#match_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#match_payload CdnLogsUploaderTarget#match_payload}
   */
   readonly matchPayload?: string;
   /**
   * HTTP status code to match. If not specified, no status code will be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#match_status_code CdnLogsUploaderTarget#match_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#match_status_code CdnLogsUploaderTarget#match_status_code}
   */
   readonly matchStatusCode?: number;
 }
@@ -1654,37 +1654,37 @@ export class CdnLogsUploaderTargetConfigHttpUploadResponseActionsList extends cd
 }
 export interface CdnLogsUploaderTargetConfigHttpUpload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#headers CdnLogsUploaderTarget#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#headers CdnLogsUploaderTarget#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * HTTP method to use for the request. Supported values are 'POST' and 'PUT'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#method CdnLogsUploaderTarget#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#method CdnLogsUploaderTarget#method}
   */
   readonly method?: string;
   /**
   * Timeout for the HTTP request in seconds. Default value is 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#timeout_seconds CdnLogsUploaderTarget#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#timeout_seconds CdnLogsUploaderTarget#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * URL to which logs should be uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#url CdnLogsUploaderTarget#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#url CdnLogsUploaderTarget#url}
   */
   readonly url: string;
   /**
   * Default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#use_compression CdnLogsUploaderTarget#use_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#use_compression CdnLogsUploaderTarget#use_compression}
   */
   readonly useCompression?: boolean | cdktf.IResolvable;
   /**
   * response_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#response_actions CdnLogsUploaderTarget#response_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#response_actions CdnLogsUploaderTarget#response_actions}
   */
   readonly responseActions?: CdnLogsUploaderTargetConfigHttpUploadResponseActions[] | cdktf.IResolvable;
 }
@@ -1912,31 +1912,31 @@ export interface CdnLogsUploaderTargetConfigHttp {
   /**
   * Content type of the logs being uploaded. Supported values are 'json' and 'text'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#content_type CdnLogsUploaderTarget#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#content_type CdnLogsUploaderTarget#content_type}
   */
   readonly contentType?: string;
   /**
   * append block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#append CdnLogsUploaderTarget#append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#append CdnLogsUploaderTarget#append}
   */
   readonly append?: CdnLogsUploaderTargetConfigHttpAppend;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#auth CdnLogsUploaderTarget#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#auth CdnLogsUploaderTarget#auth}
   */
   readonly auth?: CdnLogsUploaderTargetConfigHttpAuth;
   /**
   * retry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#retry CdnLogsUploaderTarget#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#retry CdnLogsUploaderTarget#retry}
   */
   readonly retry?: CdnLogsUploaderTargetConfigHttpRetry;
   /**
   * upload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#upload CdnLogsUploaderTarget#upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#upload CdnLogsUploaderTarget#upload}
   */
   readonly upload: CdnLogsUploaderTargetConfigHttpUpload;
 }
@@ -2135,31 +2135,31 @@ export interface CdnLogsUploaderTargetConfigS3Amazon {
   /**
   * Access key ID for the Amazon S3 account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#access_key_id CdnLogsUploaderTarget#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#access_key_id CdnLogsUploaderTarget#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * Name of the Amazon S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#bucket_name CdnLogsUploaderTarget#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#bucket_name CdnLogsUploaderTarget#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Directory in the Amazon S3 bucket where logs will be uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
   */
   readonly directory?: string;
   /**
   * Region of the Amazon S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#region CdnLogsUploaderTarget#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#region CdnLogsUploaderTarget#region}
   */
   readonly region: string;
   /**
   * Secret access key for the Amazon S3 account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#secret_access_key CdnLogsUploaderTarget#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#secret_access_key CdnLogsUploaderTarget#secret_access_key}
   */
   readonly secretAccessKey: string;
 }
@@ -2349,43 +2349,43 @@ export interface CdnLogsUploaderTargetConfigS3Gcore {
   /**
   * Access key ID for the S3-compatible storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#access_key_id CdnLogsUploaderTarget#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#access_key_id CdnLogsUploaderTarget#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * Name of the S3-compatible storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#bucket_name CdnLogsUploaderTarget#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#bucket_name CdnLogsUploaderTarget#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Directory in the S3-compatible storage bucket where logs will be uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
   */
   readonly directory?: string;
   /**
   * Endpoint of the S3-compatible storage service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#endpoint CdnLogsUploaderTarget#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#endpoint CdnLogsUploaderTarget#endpoint}
   */
   readonly endpoint: string;
   /**
   * Region of the S3-compatible storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#region CdnLogsUploaderTarget#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#region CdnLogsUploaderTarget#region}
   */
   readonly region: string;
   /**
   * Secret access key for the S3-compatible storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#secret_access_key CdnLogsUploaderTarget#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#secret_access_key CdnLogsUploaderTarget#secret_access_key}
   */
   readonly secretAccessKey: string;
   /**
   * Default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#use_path_style CdnLogsUploaderTarget#use_path_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#use_path_style CdnLogsUploaderTarget#use_path_style}
   */
   readonly usePathStyle?: boolean | cdktf.IResolvable;
 }
@@ -2630,31 +2630,31 @@ export interface CdnLogsUploaderTargetConfigS3Oss {
   /**
   * Access key ID for the OSS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#access_key_id CdnLogsUploaderTarget#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#access_key_id CdnLogsUploaderTarget#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * Name of the OSS bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#bucket_name CdnLogsUploaderTarget#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#bucket_name CdnLogsUploaderTarget#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Directory in the OSS bucket where logs will be uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
   */
   readonly directory?: string;
   /**
   * Region of the OSS bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#region CdnLogsUploaderTarget#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#region CdnLogsUploaderTarget#region}
   */
   readonly region?: string;
   /**
   * Secret access key for the OSS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#secret_access_key CdnLogsUploaderTarget#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#secret_access_key CdnLogsUploaderTarget#secret_access_key}
   */
   readonly secretAccessKey: string;
 }
@@ -2847,43 +2847,43 @@ export interface CdnLogsUploaderTargetConfigS3Other {
   /**
   * Access key ID for the S3-compatible storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#access_key_id CdnLogsUploaderTarget#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#access_key_id CdnLogsUploaderTarget#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * Name of the S3-compatible storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#bucket_name CdnLogsUploaderTarget#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#bucket_name CdnLogsUploaderTarget#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Directory in the S3-compatible storage bucket where logs will be uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
   */
   readonly directory?: string;
   /**
   * Endpoint of the S3-compatible storage service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#endpoint CdnLogsUploaderTarget#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#endpoint CdnLogsUploaderTarget#endpoint}
   */
   readonly endpoint: string;
   /**
   * Region of the S3-compatible storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#region CdnLogsUploaderTarget#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#region CdnLogsUploaderTarget#region}
   */
   readonly region: string;
   /**
   * Secret access key for the S3-compatible storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#secret_access_key CdnLogsUploaderTarget#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#secret_access_key CdnLogsUploaderTarget#secret_access_key}
   */
   readonly secretAccessKey: string;
   /**
   * Default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#use_path_style CdnLogsUploaderTarget#use_path_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#use_path_style CdnLogsUploaderTarget#use_path_style}
   */
   readonly usePathStyle?: boolean | cdktf.IResolvable;
 }
@@ -3128,43 +3128,43 @@ export interface CdnLogsUploaderTargetConfigS3V1 {
   /**
   * Access key ID for the S3-compatible storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#access_key_id CdnLogsUploaderTarget#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#access_key_id CdnLogsUploaderTarget#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * Name of the S3-compatible storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#bucket_name CdnLogsUploaderTarget#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#bucket_name CdnLogsUploaderTarget#bucket_name}
   */
   readonly bucketName: string;
   /**
   * Directory in the S3-compatible storage bucket where logs will be uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
   */
   readonly directory?: string;
   /**
   * Endpoint of the S3-compatible storage service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#endpoint CdnLogsUploaderTarget#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#endpoint CdnLogsUploaderTarget#endpoint}
   */
   readonly endpoint: string;
   /**
   * Region of the S3-compatible storage bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#region CdnLogsUploaderTarget#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#region CdnLogsUploaderTarget#region}
   */
   readonly region: string;
   /**
   * Secret access key for the S3-compatible storage account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#secret_access_key CdnLogsUploaderTarget#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#secret_access_key CdnLogsUploaderTarget#secret_access_key}
   */
   readonly secretAccessKey: string;
   /**
   * Default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#use_path_style CdnLogsUploaderTarget#use_path_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#use_path_style CdnLogsUploaderTarget#use_path_style}
   */
   readonly usePathStyle?: boolean | cdktf.IResolvable;
 }
@@ -3409,43 +3409,43 @@ export interface CdnLogsUploaderTargetConfigSftp {
   /**
   * Directory on the SFTP server where logs will be uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#directory CdnLogsUploaderTarget#directory}
   */
   readonly directory?: string;
   /**
   * Hostname or IP address of the SFTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#hostname CdnLogsUploaderTarget#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#hostname CdnLogsUploaderTarget#hostname}
   */
   readonly hostname: string;
   /**
   * Passphrase for the private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#key_passphrase CdnLogsUploaderTarget#key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#key_passphrase CdnLogsUploaderTarget#key_passphrase}
   */
   readonly keyPassphrase?: string;
   /**
   * Password for the SFTP account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#password CdnLogsUploaderTarget#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#password CdnLogsUploaderTarget#password}
   */
   readonly password?: string;
   /**
   * Private key for the SFTP account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#private_key CdnLogsUploaderTarget#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#private_key CdnLogsUploaderTarget#private_key}
   */
   readonly privateKey?: string;
   /**
   * Timeout for the SFTP connection in seconds. Default value is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#timeout_seconds CdnLogsUploaderTarget#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#timeout_seconds CdnLogsUploaderTarget#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * Username for the SFTP account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#user CdnLogsUploaderTarget#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#user CdnLogsUploaderTarget#user}
   */
   readonly user: string;
 }
@@ -3699,49 +3699,49 @@ export interface CdnLogsUploaderTargetConfigA {
   /**
   * ftp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#ftp CdnLogsUploaderTarget#ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#ftp CdnLogsUploaderTarget#ftp}
   */
   readonly ftp?: CdnLogsUploaderTargetConfigFtp;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#http CdnLogsUploaderTarget#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#http CdnLogsUploaderTarget#http}
   */
   readonly http?: CdnLogsUploaderTargetConfigHttp;
   /**
   * s3_amazon block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#s3_amazon CdnLogsUploaderTarget#s3_amazon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#s3_amazon CdnLogsUploaderTarget#s3_amazon}
   */
   readonly s3Amazon?: CdnLogsUploaderTargetConfigS3Amazon;
   /**
   * s3_gcore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#s3_gcore CdnLogsUploaderTarget#s3_gcore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#s3_gcore CdnLogsUploaderTarget#s3_gcore}
   */
   readonly s3Gcore?: CdnLogsUploaderTargetConfigS3Gcore;
   /**
   * s3_oss block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#s3_oss CdnLogsUploaderTarget#s3_oss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#s3_oss CdnLogsUploaderTarget#s3_oss}
   */
   readonly s3Oss?: CdnLogsUploaderTargetConfigS3Oss;
   /**
   * s3_other block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#s3_other CdnLogsUploaderTarget#s3_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#s3_other CdnLogsUploaderTarget#s3_other}
   */
   readonly s3Other?: CdnLogsUploaderTargetConfigS3Other;
   /**
   * s3_v1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#s3_v1 CdnLogsUploaderTarget#s3_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#s3_v1 CdnLogsUploaderTarget#s3_v1}
   */
   readonly s3V1?: CdnLogsUploaderTargetConfigS3V1;
   /**
   * sftp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#sftp CdnLogsUploaderTarget#sftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#sftp CdnLogsUploaderTarget#sftp}
   */
   readonly sftp?: CdnLogsUploaderTargetConfigSftp;
 }
@@ -4028,7 +4028,7 @@ export class CdnLogsUploaderTargetConfigAOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target gcore_cdn_logs_uploader_target}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target gcore_cdn_logs_uploader_target}
 */
 export class CdnLogsUploaderTarget extends cdktf.TerraformResource {
 
@@ -4044,7 +4044,7 @@ export class CdnLogsUploaderTarget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnLogsUploaderTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnLogsUploaderTarget to import
-  * @param importFromId The id of the existing CdnLogsUploaderTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnLogsUploaderTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnLogsUploaderTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4056,7 +4056,7 @@ export class CdnLogsUploaderTarget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_logs_uploader_target gcore_cdn_logs_uploader_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_logs_uploader_target gcore_cdn_logs_uploader_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4067,8 +4067,8 @@ export class CdnLogsUploaderTarget extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_cdn_logs_uploader_target',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.3',
-        providerVersionConstraint: '0.31.3'
+        providerVersion: '0.31.4',
+        providerVersionConstraint: '0.31.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#metadata DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#metadata DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestMetadata;
   /**
   * ConfigurationSpec defines the desired state of a Configuration resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#spec DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#spec DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#annotations DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#annotations DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#labels DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#labels DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestSpecConfigI
   /**
   * Holds the configuration keys and values. This field is a workaround for issues found in kubebuilder and code-generator. Refer to https://github.com/kubernetes-sigs/kubebuilder/issues/528 and https://github.com/kubernetes/code-generator/issues/50 for more details. Represents the content of the configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#content DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#content DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#content}
   */
   readonly content?: string;
   /**
   * Represents the updated parameters for a single configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#parameters DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#parameters DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#parameters}
   */
   readonly parameters?: { [key: string]: string };
 }
@@ -350,19 +350,19 @@ export interface DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestSpecConfigI
   /**
   * Specifies the namespace of the referenced configuration template ConfigMap object. An empty namespace is equivalent to the 'default' namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Defines the strategy for merging externally imported templates into component templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#policy DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#policy DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#policy}
   */
   readonly policy?: string;
   /**
   * Specifies the name of the referenced configuration template ConfigMap object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#template_ref DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#template_ref DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#template_ref}
   */
   readonly templateRef: string;
 }
@@ -513,73 +513,73 @@ export interface DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestSpecConfigI
   /**
   * Specifies the containers to inject the ConfigMap parameters as environment variables. This is useful when application images accept parameters through environment variables and generate the final configuration file in the startup script based on these variables. This field allows users to specify a list of container names, and KubeBlocks will inject the environment variables converted from the ConfigMap into these designated containers. This provides a flexible way to pass the configuration items from the ConfigMap to the container without modifying the image. Deprecated: 'asEnvFrom' has been deprecated since 0.9.0 and will be removed in 0.10.0. Use 'injectEnvTo' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#as_env_from DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#as_env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#as_env_from DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#as_env_from}
   */
   readonly asEnvFrom?: string[];
   /**
   * Whether to store the final rendered parameters as a secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#as_secret DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#as_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#as_secret DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#as_secret}
   */
   readonly asSecret?: boolean | cdktf.IResolvable;
   /**
   * Specifies the name of the referenced configuration constraints object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#constraint_ref DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#constraint_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#constraint_ref DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#constraint_ref}
   */
   readonly constraintRef?: string;
   /**
   * The operator attempts to set default file permissions for scripts (0555) and configurations (0444). However, certain database engines may require different file permissions. You can specify the desired file permissions here. Must be specified as an octal value between 0000 and 0777 (inclusive), or as a decimal value between 0 and 511 (inclusive). YAML supports both octal and decimal values for file permissions. Please note that this setting only affects the permissions of the files themselves. Directories within the specified path are not impacted by this setting. It's important to be aware that this setting might conflict with other options that influence the file mode, such as fsGroup. In such cases, the resulting file mode may have additional bits set. Refers to documents of k8s.ConfigMapVolumeSource.defaultMode for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#default_mode DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#default_mode DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Specifies the containers to inject the ConfigMap parameters as environment variables. This is useful when application images accept parameters through environment variables and generate the final configuration file in the startup script based on these variables. This field allows users to specify a list of container names, and KubeBlocks will inject the environment variables converted from the ConfigMap into these designated containers. This provides a flexible way to pass the configuration items from the ConfigMap to the container without modifying the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#inject_env_to DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#inject_env_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#inject_env_to DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#inject_env_to}
   */
   readonly injectEnvTo?: string[];
   /**
   * Specifies the configuration files within the ConfigMap that support dynamic updates. A configuration template (provided in the form of a ConfigMap) may contain templates for multiple configuration files. Each configuration file corresponds to a key in the ConfigMap. Some of these configuration files may support dynamic modification and reloading without requiring a pod restart. If empty or omitted, all configuration files in the ConfigMap are assumed to support dynamic updates, and ConfigConstraint applies to all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#keys DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#keys DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#keys}
   */
   readonly keys?: string[];
   /**
   * Specifies the secondary rendered config spec for pod-specific customization. The template is rendered inside the pod (by the 'config-manager' sidecar container) and merged with the main template's render result to generate the final configuration file. This field is intended to handle scenarios where different pods within the same Component have varying configurations. It allows for pod-specific customization of the configuration. Note: This field will be deprecated in future versions, and the functionality will be moved to 'cluster.spec.componentSpecs[*].instances[*]'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#legacy_rendered_config_spec DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#legacy_rendered_config_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#legacy_rendered_config_spec DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#legacy_rendered_config_spec}
   */
   readonly legacyRenderedConfigSpec?: DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestSpecConfigItemDetailsConfigSpecLegacyRenderedConfigSpec;
   /**
   * Specifies the name of the configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specifies the namespace of the referenced configuration template ConfigMap object. An empty namespace is equivalent to the 'default' namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specifies whether the configuration needs to be re-rendered after v-scale or h-scale operations to reflect changes. In some scenarios, the configuration may need to be updated to reflect the changes in resource allocation or cluster topology. Examples: - Redis: adjust maxmemory after v-scale operation. - MySQL: increase max connections after v-scale operation. - Zookeeper: update zoo.cfg with new node addresses after h-scale operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#re_render_resource_types DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#re_render_resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#re_render_resource_types DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#re_render_resource_types}
   */
   readonly reRenderResourceTypes?: string[];
   /**
   * Specifies the name of the referenced configuration template ConfigMap object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#template_ref DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#template_ref DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#template_ref}
   */
   readonly templateRef?: string;
   /**
   * Refers to the volume name of PodTemplate. The configuration file produced through the configuration template will be mounted to the corresponding volume. Must be a DNS_LABEL name. The volume name must be defined in podSpec.containers[*].volumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#volume_name DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#volume_name DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -991,19 +991,19 @@ export interface DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestSpecConfigI
   /**
   * Specifies the namespace of the referenced configuration template ConfigMap object. An empty namespace is equivalent to the 'default' namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#namespace DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Defines the strategy for merging externally imported templates into component templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#policy DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#policy DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#policy}
   */
   readonly policy?: string;
   /**
   * Specifies the name of the referenced configuration template ConfigMap object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#template_ref DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#template_ref DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#template_ref}
   */
   readonly templateRef: string;
 }
@@ -1154,37 +1154,37 @@ export interface DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestSpecConfigI
   /**
   * Specifies the user-defined configuration parameters. When provided, the parameter values in 'configFileParams' override the default configuration parameters. This allows users to override the default configuration according to their specific needs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#config_file_params DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#config_file_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#config_file_params DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#config_file_params}
   */
   readonly configFileParams?: DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestSpecConfigItemDetailsConfigFileParams;
   /**
   * Specifies the name of the configuration template (a ConfigMap), ConfigConstraint, and other miscellaneous options. The configuration template is a ConfigMap that contains multiple configuration files. Each configuration file is stored as a key-value pair within the ConfigMap. ConfigConstraint allows defining constraints and validation rules for configuration parameters. It ensures that the configuration adheres to certain requirements and limitations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#config_spec DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#config_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#config_spec DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#config_spec}
   */
   readonly configSpec?: DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestSpecConfigItemDetailsConfigSpec;
   /**
   * Specifies the user-defined configuration template. When provided, the 'importTemplateRef' overrides the default configuration template specified in 'configSpec.templateRef'. This allows users to customize the configuration template according to their specific requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#import_template_ref DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#import_template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#import_template_ref DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#import_template_ref}
   */
   readonly importTemplateRef?: DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestSpecConfigItemDetailsImportTemplateRef;
   /**
   * Defines the unique identifier of the configuration template. It must be a string of maximum 63 characters, and can only include lowercase alphanumeric characters, hyphens, and periods. The name must start and end with an alphanumeric character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#name DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * External controllers can trigger a configuration rerender by modifying this field. Note: Currently, the 'payload' field is opaque and its content is not interpreted by the system. Modifying this field will cause a rerender, regardless of the specific content of this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#payload DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#payload DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#payload}
   */
   readonly payload?: { [key: string]: string };
   /**
   * Deprecated: No longer used. Please use 'Payload' instead. Previously represented the version of the configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#version DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#version DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1444,19 +1444,19 @@ export interface DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestSpec {
   /**
   * Specifies the name of the Cluster that this configuration is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#cluster_ref DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#cluster_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#cluster_ref DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#cluster_ref}
   */
   readonly clusterRef: string;
   /**
   * Represents the name of the Component that this configuration pertains to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#component_name DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#component_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#component_name DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#component_name}
   */
   readonly componentName: string;
   /**
   * ConfigItemDetails is an array of ConfigurationItemDetail objects. Each ConfigurationItemDetail corresponds to a configuration template, which is a ConfigMap that contains multiple configuration files. Each configuration file is stored as a key-value pair within the ConfigMap. The ConfigurationItemDetail includes information such as: - The configuration template (a ConfigMap) - The corresponding ConfigConstraint (constraints and validation rules for the configuration) - Volume mounts (for mounting the configuration files)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#config_item_details DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#config_item_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#config_item_details DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest#config_item_details}
   */
   readonly configItemDetails?: DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestSpecConfigItemDetails[] | cdktf.IResolvable;
 }
@@ -1602,7 +1602,7 @@ export class DataK8SAppsKubeblocksIoConfigurationV1Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest k8s_apps_kubeblocks_io_configuration_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest k8s_apps_kubeblocks_io_configuration_v1alpha1_manifest}
 */
 export class DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1618,7 +1618,7 @@ export class DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1630,7 +1630,7 @@ export class DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest k8s_apps_kubeblocks_io_configuration_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeblocks_io_configuration_v1alpha1_manifest k8s_apps_kubeblocks_io_configuration_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1641,8 +1641,8 @@ export class DataK8SAppsKubeblocksIoConfigurationV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_apps_kubeblocks_io_configuration_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

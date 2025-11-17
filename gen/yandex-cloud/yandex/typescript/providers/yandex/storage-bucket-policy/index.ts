@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket_policy
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_bucket_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface StorageBucketPolicyConfig extends cdktf.TerraformMetaArguments 
   /**
   * The access key to use when applying changes. This value can also be provided as `storage_access_key` specified in provider config (explicitly or within `shared_credentials_file`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket_policy#access_key StorageBucketPolicy#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_bucket_policy#access_key StorageBucketPolicy#access_key}
   */
   readonly accessKey?: string;
   /**
   * The name of the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket_policy#bucket StorageBucketPolicy#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_bucket_policy#bucket StorageBucketPolicy#bucket}
   */
   readonly bucket: string;
   /**
   * The text of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket_policy#policy StorageBucketPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_bucket_policy#policy StorageBucketPolicy#policy}
   */
   readonly policy: string;
   /**
   * The secret key to use when applying changes. This value can also be provided as `storage_secret_key` specified in provider config (explicitly or within `shared_credentials_file`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket_policy#secret_key StorageBucketPolicy#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_bucket_policy#secret_key StorageBucketPolicy#secret_key}
   */
   readonly secretKey?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket_policy yandex_storage_bucket_policy}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_bucket_policy yandex_storage_bucket_policy}
 */
 export class StorageBucketPolicy extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class StorageBucketPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageBucketPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageBucketPolicy to import
-  * @param importFromId The id of the existing StorageBucketPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageBucketPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_bucket_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageBucketPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class StorageBucketPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/storage_bucket_policy yandex_storage_bucket_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/storage_bucket_policy yandex_storage_bucket_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class StorageBucketPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_storage_bucket_policy',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

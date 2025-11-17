@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestMetadata;
   /**
   * VirtualGatewaySpec defines the desired state of VirtualGateway refers to https://docs.aws.amazon.com/app-mesh/latest/userguide/virtual_gateways.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#spec DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#spec DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#annotations DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#annotations DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#labels DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#labels DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDef
   /**
   * The certificate chain for the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_chain DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_chain DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_chain}
   */
   readonly certificateChain: string;
   /**
   * The private key for a certificate stored on the file system of the virtual Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#private_key DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#private_key DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#private_key}
   */
   readonly privateKey: string;
 }
@@ -344,7 +344,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDef
   /**
   * The certificate trust chain for a certificate issued via SDS cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#secret_name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#secret_name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -437,13 +437,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDef
   /**
   * An object that represents a TLS cert via a local file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#file DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#file DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#file}
   */
   readonly file?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDefaultsClientPolicyTlsCertificateFile;
   /**
   * An object that represents a TLS cert via SDS entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#sds DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#sds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#sds DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#sds}
   */
   readonly sds?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDefaultsClientPolicyTlsCertificateSds;
 }
@@ -568,7 +568,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDef
   /**
   * Exact is a required field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#exact}
   */
   readonly exact: string[];
 }
@@ -661,7 +661,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDef
   /**
   * Match is a required field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match}
   */
   readonly match: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDefaultsClientPolicyTlsValidationSubjectAlternativeNamesMatch;
 }
@@ -754,7 +754,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDef
   /**
   * One or more ACM Amazon Resource Name (ARN)s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_authority_ar_ns DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_authority_ar_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_authority_ar_ns DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_authority_ar_ns}
   */
   readonly certificateAuthorityArNs: string[];
 }
@@ -847,7 +847,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDef
   /**
   * The certificate trust chain for a certificate stored on the file system of the virtual Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_chain DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_chain DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_chain}
   */
   readonly certificateChain: string;
 }
@@ -940,7 +940,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDef
   /**
   * The certificate trust chain for a certificate issued via SDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#secret_name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#secret_name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -1033,19 +1033,19 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDef
   /**
   * A reference to an object that represents a TLS validation context trust for an AWS Certicate Manager (ACM) certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#acm DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#acm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#acm DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#acm}
   */
   readonly acm?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDefaultsClientPolicyTlsValidationTrustAcm;
   /**
   * An object that represents a TLS validation context trust for a local file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#file DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#file DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#file}
   */
   readonly file?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDefaultsClientPolicyTlsValidationTrustFile;
   /**
   * An object that represents a TLS validation context trust for a SDS certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#sds DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#sds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#sds DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#sds}
   */
   readonly sds?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDefaultsClientPolicyTlsValidationTrustSds;
 }
@@ -1199,13 +1199,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDef
   /**
   * Possible alternative names to consider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#subject_alternative_names DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#subject_alternative_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#subject_alternative_names DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#subject_alternative_names}
   */
   readonly subjectAlternativeNames?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDefaultsClientPolicyTlsValidationSubjectAlternativeNames;
   /**
   * A reference to an object that represents a TLS validation context trust
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#trust DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#trust DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#trust}
   */
   readonly trust: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDefaultsClientPolicyTlsValidationTrust;
 }
@@ -1327,25 +1327,25 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDef
   /**
   * A reference to an object that represents TLS certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate}
   */
   readonly certificate?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDefaultsClientPolicyTlsCertificate;
   /**
   * Whether the policy is enforced. If unspecified, default settings from AWS API will be applied. Refer to AWS Docs for default settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#enforce DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#enforce DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
   * The range of ports that the policy is enforced for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#ports DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#ports DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#ports}
   */
   readonly ports?: string[];
   /**
   * A reference to an object that represents a TLS validation context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#validation DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#validation DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#validation}
   */
   readonly validation: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDefaultsClientPolicyTlsValidation;
 }
@@ -1525,7 +1525,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDef
   /**
   * A reference to an object that represents a Transport Layer Security (TLS) client policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#tls DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#tls DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#tls}
   */
   readonly tls?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDefaultsClientPolicyTls;
 }
@@ -1621,7 +1621,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDef
   /**
   * A reference to an object that represents a client policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#client_policy DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#client_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#client_policy DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#client_policy}
   */
   readonly clientPolicy?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDefaultsClientPolicy;
 }
@@ -1717,19 +1717,19 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecGatewayRou
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#key DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#key DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#operator DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#operator DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#values DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#values DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1899,13 +1899,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecGatewayRou
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match_expressions DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match_expressions DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecGatewayRouteSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match_labels DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match_labels DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2030,7 +2030,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersC
   /**
   * Represents the maximum number of inflight requests that an envoy can concurrently support across all the hosts in the upstream cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#max_requests DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#max_requests DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#max_requests}
   */
   readonly maxRequests: number;
 }
@@ -2123,13 +2123,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersC
   /**
   * Represents the maximum number of outbound TCP connections the envoy can establish concurrently with all the hosts in the upstream cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#max_connections DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#max_connections DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#max_connections}
   */
   readonly maxConnections: number;
   /**
   * Represents the number of overflowing requests after max_connections that an envoy will queue to an upstream cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#max_pending_requests DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#max_pending_requests DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#max_pending_requests}
   */
   readonly maxPendingRequests?: number;
 }
@@ -2251,7 +2251,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersC
   /**
   * Represents the maximum number of inflight requests that an envoy can concurrently support across all the hosts in the upstream cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#max_requests DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#max_requests DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#max_requests}
   */
   readonly maxRequests: number;
 }
@@ -2344,19 +2344,19 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersC
   /**
   * Specifies grpc connection pool settings for the virtual gateway listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#grpc DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#grpc DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#grpc}
   */
   readonly grpc?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersConnectionPoolGrpc;
   /**
   * Specifies http connection pool settings for the virtual gateway listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#http DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#http DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#http}
   */
   readonly http?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersConnectionPoolHttp;
   /**
   * Specifies http2 connection pool settings for the virtual gateway listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#http2 DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#http2 DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#http2}
   */
   readonly http2?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersConnectionPoolHttp2;
 }
@@ -2510,43 +2510,43 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersH
   /**
   * The number of consecutive successful health checks that must occur before declaring listener healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#healthy_threshold DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#healthy_threshold DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
   * The time period in milliseconds between each health check execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#interval_millis DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#interval_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#interval_millis DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#interval_millis}
   */
   readonly intervalMillis: number;
   /**
   * The destination path for the health check request. This value is only used if the specified protocol is http or http2. For any other protocol, this value is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#path DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#path DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#path}
   */
   readonly path?: string;
   /**
   * The destination port for the health check request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * The protocol for the health check request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#protocol DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#protocol DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#protocol}
   */
   readonly protocol: string;
   /**
   * The amount of time to wait when receiving a response from the health check, in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#timeout_millis DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#timeout_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#timeout_millis DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#timeout_millis}
   */
   readonly timeoutMillis: number;
   /**
   * The number of consecutive failed health checks that must occur before declaring a virtual Gateway unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#unhealthy_threshold DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#unhealthy_threshold DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#unhealthy_threshold}
   */
   readonly unhealthyThreshold: number;
 }
@@ -2804,13 +2804,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersP
   /**
   * The port used for the port mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#port DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#port}
   */
   readonly port: number;
   /**
   * The protocol used for the port mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#protocol DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#protocol DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -2929,7 +2929,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersT
   /**
   * The Amazon Resource Name (ARN) for the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_arn DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_arn DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_arn}
   */
   readonly certificateArn: string;
 }
@@ -3022,13 +3022,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersT
   /**
   * The certificate chain for the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_chain DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_chain DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_chain}
   */
   readonly certificateChain: string;
   /**
   * The private key for a certificate stored on the file system of the virtual Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#private_key DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#private_key DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#private_key}
   */
   readonly privateKey: string;
 }
@@ -3147,7 +3147,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersT
   /**
   * The certificate trust chain for a certificate issued via SDS cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#secret_name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#secret_name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -3240,19 +3240,19 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersT
   /**
   * A reference to an object that represents an AWS Certificate Manager (ACM) certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#acm DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#acm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#acm DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#acm}
   */
   readonly acm?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersTlsCertificateAcm;
   /**
   * A reference to an object that represents a local file certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#file DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#file DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#file}
   */
   readonly file?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersTlsCertificateFile;
   /**
   * A reference to an object that represents an SDS issued certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#sds DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#sds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#sds DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#sds}
   */
   readonly sds?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersTlsCertificateSds;
 }
@@ -3406,7 +3406,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersT
   /**
   * Exact is a required field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#exact DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#exact}
   */
   readonly exact: string[];
 }
@@ -3499,7 +3499,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersT
   /**
   * Match is a required field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match}
   */
   readonly match: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersTlsValidationSubjectAlternativeNamesMatch;
 }
@@ -3592,7 +3592,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersT
   /**
   * One or more ACM Amazon Resource Name (ARN)s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_authority_ar_ns DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_authority_ar_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_authority_ar_ns DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_authority_ar_ns}
   */
   readonly certificateAuthorityArNs: string[];
 }
@@ -3685,7 +3685,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersT
   /**
   * The certificate trust chain for a certificate stored on the file system of the virtual Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_chain DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate_chain DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate_chain}
   */
   readonly certificateChain: string;
 }
@@ -3778,7 +3778,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersT
   /**
   * The certificate trust chain for a certificate issued via SDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#secret_name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#secret_name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -3871,19 +3871,19 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersT
   /**
   * A reference to an object that represents a TLS validation context trust for an AWS Certicate Manager (ACM) certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#acm DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#acm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#acm DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#acm}
   */
   readonly acm?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersTlsValidationTrustAcm;
   /**
   * An object that represents a TLS validation context trust for a local file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#file DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#file DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#file}
   */
   readonly file?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersTlsValidationTrustFile;
   /**
   * An object that represents a TLS validation context trust for an SDS system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#sds DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#sds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#sds DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#sds}
   */
   readonly sds?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersTlsValidationTrustSds;
 }
@@ -4037,11 +4037,11 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersT
   /**
   * Possible alternate names to consider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#subject_alternative_names DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#subject_alternative_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#subject_alternative_names DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#subject_alternative_names}
   */
   readonly subjectAlternativeNames?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersTlsValidationSubjectAlternativeNames;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#trust DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#trust DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#trust}
   */
   readonly trust: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersTlsValidationTrust;
 }
@@ -4163,19 +4163,19 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersT
   /**
   * A reference to an object that represents a listener's TLS certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#certificate DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#certificate}
   */
   readonly certificate: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersTlsCertificate;
   /**
   * ListenerTLS mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#mode DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#mode DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#mode}
   */
   readonly mode: string;
   /**
   * A reference to an object that represents Validation context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#validation DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#validation DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#validation}
   */
   readonly validation?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersTlsValidation;
 }
@@ -4323,25 +4323,25 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListeners 
   /**
   * The connection pool settings for the listener
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#connection_pool DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#connection_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#connection_pool DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#connection_pool}
   */
   readonly connectionPool?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersConnectionPool;
   /**
   * The health check information for the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#health_check DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#health_check DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#health_check}
   */
   readonly healthCheck?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersHealthCheck;
   /**
   * The port mapping information for the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#port_mapping DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#port_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#port_mapping DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#port_mapping}
   */
   readonly portMapping: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersPortMapping;
   /**
   * A reference to an object that represents the Transport Layer Security (TLS) properties for a listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#tls DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#tls DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#tls}
   */
   readonly tls?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListenersTls;
 }
@@ -4543,13 +4543,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecLoggingAcc
   /**
   * The name of the field in the JSON object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#key DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#key DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * The format string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#value DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -4690,13 +4690,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecLoggingAcc
   /**
   * Output specified fields as a JSON object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#json DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#json DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#json}
   */
   readonly json?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecLoggingAccessLogFileFormatJson[] | cdktf.IResolvable;
   /**
   * Custom format string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#text DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#text DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#text}
   */
   readonly text?: string;
 }
@@ -4821,13 +4821,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecLoggingAcc
   /**
   * Structured access log output format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#format DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#format DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#format}
   */
   readonly format?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecLoggingAccessLogFileFormat;
   /**
   * The file path to write access logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#path DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#path DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#path}
   */
   readonly path: string;
 }
@@ -4949,7 +4949,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecLoggingAcc
   /**
   * The file object to send virtual gateway access logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#file DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#file DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#file}
   */
   readonly file?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecLoggingAccessLogFile;
 }
@@ -5045,7 +5045,7 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecLogging {
   /**
   * The access log configuration for a virtual Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#access_log DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#access_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#access_log DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#access_log}
   */
   readonly accessLog?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecLoggingAccessLog;
 }
@@ -5141,13 +5141,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecMeshRef {
   /**
   * Name is the name of Mesh CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * UID is the UID of Mesh CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#uid DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#uid DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#uid}
   */
   readonly uid: string;
 }
@@ -5266,19 +5266,19 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecNamespaceS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#key DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#key DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#operator DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#operator DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#values DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#values DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5448,13 +5448,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecNamespaceS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match_expressions DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match_expressions DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match_labels DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match_labels DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5579,19 +5579,19 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecPodSelecto
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#key DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#key DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#operator DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#operator DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#values DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#values DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5761,13 +5761,13 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecPodSelecto
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match_expressions DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match_expressions DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match_labels DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#match_labels DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5892,49 +5892,49 @@ export interface DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpec {
   /**
   * AWSName is the AppMesh VirtualGateway object's name. If unspecified or empty, it defaults to be '${name}_${namespace}' of k8s VirtualGateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#aws_name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#aws_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#aws_name DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#aws_name}
   */
   readonly awsName?: string;
   /**
   * A reference to an object that represents the defaults for backend GatewayRoutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#backend_defaults DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#backend_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#backend_defaults DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#backend_defaults}
   */
   readonly backendDefaults?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecBackendDefaults;
   /**
   * GatewayRouteSelector selects GatewayRoutes using labels to designate GatewayRoute membership. If not specified it selects all GatewayRoutes in that namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#gateway_route_selector DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#gateway_route_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#gateway_route_selector DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#gateway_route_selector}
   */
   readonly gatewayRouteSelector?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecGatewayRouteSelector;
   /**
   * The listener that the virtual gateway is expected to receive inbound traffic from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#listeners DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#listeners DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#listeners}
   */
   readonly listeners?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecListeners[] | cdktf.IResolvable;
   /**
   * The inbound and outbound access logging information for the virtual gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#logging DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#logging DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#logging}
   */
   readonly logging?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecLogging;
   /**
   * A reference to k8s Mesh CR that this VirtualGateway belongs to. The admission controller populates it using Meshes's selector, and prevents users from setting this field. Populated by the system. Read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#mesh_ref DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#mesh_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#mesh_ref DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#mesh_ref}
   */
   readonly meshRef?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecMeshRef;
   /**
   * NamespaceSelector selects Namespaces using labels to designate GatewayRoute membership. This field follows standard label selector semantics; if present but empty, it selects all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#namespace_selector DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#namespace_selector DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecNamespaceSelector;
   /**
   * PodSelector selects Pods using labels to designate VirtualGateway membership. This field follows standard label selector semantics: if present but empty, it selects all pods within namespace. if absent, it selects no pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#pod_selector DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#pod_selector DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecPodSelector;
 }
@@ -6231,7 +6231,7 @@ export class DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest k8s_appmesh_k8s_aws_virtual_gateway_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest k8s_appmesh_k8s_aws_virtual_gateway_v1beta2_manifest}
 */
 export class DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -6247,7 +6247,7 @@ export class DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6259,7 +6259,7 @@ export class DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest k8s_appmesh_k8s_aws_virtual_gateway_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/appmesh_k8s_aws_virtual_gateway_v1beta2_manifest k8s_appmesh_k8s_aws_virtual_gateway_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6270,8 +6270,8 @@ export class DataK8SAppmeshK8SAwsVirtualGatewayV1Beta2Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_appmesh_k8s_aws_virtual_gateway_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

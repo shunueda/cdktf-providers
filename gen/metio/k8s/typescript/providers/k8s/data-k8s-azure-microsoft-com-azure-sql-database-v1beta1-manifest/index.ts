@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#metadata DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#metadata DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1ManifestMetadata;
   /**
   * AzureSqlDatabaseSpec defines the desired state of AzureSqlDatabase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#spec DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#spec DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#annotations DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#annotations DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#labels DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#labels DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#name DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#name DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#namespace DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#namespace DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1ManifestSpecShor
   /**
   * RetentionDays is the backup retention period in days. This is how many days Point-in-Time Restore will be supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#retention_days DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#retention_days DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#retention_days}
   */
   readonly retentionDays: number;
 }
@@ -312,31 +312,31 @@ export interface DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1ManifestSpecSku 
   /**
   * Capacity - Capacity of the particular SKU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#capacity DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#capacity DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#capacity}
   */
   readonly capacity?: number;
   /**
   * Family - If the service has different generations of hardware, for the same SKU, then that can be captured here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#family DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#family DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#family}
   */
   readonly family?: string;
   /**
   * Name - The name of the SKU, typically, a letter + Number code, e.g. P3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#name DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#name DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Size - Size of the particular SKU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#size DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#size DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#size}
   */
   readonly size?: string;
   /**
   * optional Tier - The tier or edition of the particular SKU, e.g. Basic, Premium.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#tier DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#tier DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#tier}
   */
   readonly tier?: string;
 }
@@ -543,59 +543,59 @@ export class DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1ManifestSpecSkuOutpu
 }
 export interface DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#db_name DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#db_name DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#db_name}
   */
   readonly dbName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#edition DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#edition DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#edition}
   */
   readonly edition: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#elastic_pool_id DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#elastic_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#elastic_pool_id DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#elastic_pool_id}
   */
   readonly elasticPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#location DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#location DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#max_size DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#max_size DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#max_size}
   */
   readonly maxSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#monthly_retention DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#monthly_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#monthly_retention DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#monthly_retention}
   */
   readonly monthlyRetention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#resource_group DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#resource_group DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#resource_group}
   */
   readonly resourceGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#server DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#server DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#server}
   */
   readonly server: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#short_term_retention_policy DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#short_term_retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#short_term_retention_policy DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#short_term_retention_policy}
   */
   readonly shortTermRetentionPolicy?: DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1ManifestSpecShortTermRetentionPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#sku DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#sku DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#sku}
   */
   readonly sku?: DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1ManifestSpecSku;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#subscription_id DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#subscription_id DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#week_of_year DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#week_of_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#week_of_year DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#week_of_year}
   */
   readonly weekOfYear?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#weekly_retention DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#weekly_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#weekly_retention DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#weekly_retention}
   */
   readonly weeklyRetention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#yearly_retention DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#yearly_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#yearly_retention DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest#yearly_retention}
   */
   readonly yearlyRetention?: string;
 }
@@ -1054,7 +1054,7 @@ export class DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest k8s_azure_microsoft_com_azure_sql_database_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest k8s_azure_microsoft_com_azure_sql_database_v1beta1_manifest}
 */
 export class DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1070,7 +1070,7 @@ export class DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1082,7 +1082,7 @@ export class DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest k8s_azure_microsoft_com_azure_sql_database_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/azure_microsoft_com_azure_sql_database_v1beta1_manifest k8s_azure_microsoft_com_azure_sql_database_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1093,8 +1093,8 @@ export class DataK8SAzureMicrosoftComAzureSqlDatabaseV1Beta1Manifest extends cdk
       terraformResourceType: 'k8s_azure_microsoft_com_azure_sql_database_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

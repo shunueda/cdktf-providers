@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#metadata DataK8SClaudieIoInputManifestV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#metadata DataK8SClaudieIoInputManifestV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SClaudieIoInputManifestV1Beta1ManifestMetadata;
   /**
   * Specification of the desired behaviour of the InputManifest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#spec DataK8SClaudieIoInputManifestV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#spec DataK8SClaudieIoInputManifestV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#annotations DataK8SClaudieIoInputManifestV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#annotations DataK8SClaudieIoInputManifestV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#labels DataK8SClaudieIoInputManifestV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#labels DataK8SClaudieIoInputManifestV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#namespace DataK8SClaudieIoInputManifestV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#namespace DataK8SClaudieIoInputManifestV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecKubernetesClust
   /**
   * List of nodepool names, that will represent compute nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#compute DataK8SClaudieIoInputManifestV1Beta1Manifest#compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#compute DataK8SClaudieIoInputManifestV1Beta1Manifest#compute}
   */
   readonly compute: string[];
   /**
   * List of nodepool names, that will represent control plane nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#control DataK8SClaudieIoInputManifestV1Beta1Manifest#control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#control DataK8SClaudieIoInputManifestV1Beta1Manifest#control}
   */
   readonly control: string[];
 }
@@ -344,25 +344,25 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecKubernetesClust
   /**
   * Name of the Kubernetes cluster. Each cluster will have a random hash appended to the name, so the whole name will be of format <name>-<hash>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Network range for the VPN of the cluster. The value should be defined in format A.B.C.D/mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#network DataK8SClaudieIoInputManifestV1Beta1Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#network DataK8SClaudieIoInputManifestV1Beta1Manifest#network}
   */
   readonly network: string;
   /**
   * List of nodepool names this cluster will use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#pools DataK8SClaudieIoInputManifestV1Beta1Manifest#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#pools DataK8SClaudieIoInputManifestV1Beta1Manifest#pools}
   */
   readonly pools: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecKubernetesClustersPools;
   /**
   * Version should be defined in format vX.Y. In terms of supported versions of Kubernetes, Claudie follows kubeone releases and their supported versions. The current kubeone version used in Claudie is 1.5. To see the list of supported versions, please refer to kubeone documentation. https://docs.kubermatic.com/kubeone/v1.8/architecture/compatibility/supported-versions/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#version DataK8SClaudieIoInputManifestV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#version DataK8SClaudieIoInputManifestV1Beta1Manifest#version}
   */
   readonly version: string;
 }
@@ -555,7 +555,7 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecKubernetes {
   /**
   * List of Kubernetes clusters Claudie will create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#clusters DataK8SClaudieIoInputManifestV1Beta1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#clusters DataK8SClaudieIoInputManifestV1Beta1Manifest#clusters}
   */
   readonly clusters?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecKubernetesClusters[] | cdktf.IResolvable;
 }
@@ -651,19 +651,19 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecLoadBalancersCl
   /**
   * DNS zone inside of which the records will be created. GCP/AWS/OCI/Azure/Cloudflare/Hetzner DNS zone is accepted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#dns_zone DataK8SClaudieIoInputManifestV1Beta1Manifest#dns_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#dns_zone DataK8SClaudieIoInputManifestV1Beta1Manifest#dns_zone}
   */
   readonly dnsZone: string;
   /**
   * Custom hostname for your A record. If left empty, the hostname will be a random hash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#hostname DataK8SClaudieIoInputManifestV1Beta1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#hostname DataK8SClaudieIoInputManifestV1Beta1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * Name of provider to be used for creating an A record entry in defined DNS zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#provider DataK8SClaudieIoInputManifestV1Beta1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#provider DataK8SClaudieIoInputManifestV1Beta1Manifest#provider}
   */
   readonly provider: string;
 }
@@ -811,31 +811,31 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecLoadBalancersCl
   /**
   * Specification of the loadbalancer's DNS record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#dns DataK8SClaudieIoInputManifestV1Beta1Manifest#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#dns DataK8SClaudieIoInputManifestV1Beta1Manifest#dns}
   */
   readonly dns?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecLoadBalancersClustersDns;
   /**
   * Name of the loadbalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * List of nodepool names this loadbalancer will use. Remember, that nodepools defined in nodepools are only 'blueprints'. The actual nodepool will be created once referenced here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#pools DataK8SClaudieIoInputManifestV1Beta1Manifest#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#pools DataK8SClaudieIoInputManifestV1Beta1Manifest#pools}
   */
   readonly pools: string[];
   /**
   * List of roles the loadbalancer uses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#roles DataK8SClaudieIoInputManifestV1Beta1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#roles DataK8SClaudieIoInputManifestV1Beta1Manifest#roles}
   */
   readonly roles: string[];
   /**
   * Name of the Kubernetes cluster targeted by this loadbalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#targeted_k8s DataK8SClaudieIoInputManifestV1Beta1Manifest#targeted_k8s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#targeted_k8s DataK8SClaudieIoInputManifestV1Beta1Manifest#targeted_k8s}
   */
   readonly targetedK8S: string;
 }
@@ -1057,31 +1057,31 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecLoadBalancersRo
   /**
   * Name of the role. Used as a reference in clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Port of the incoming traffic on the loadbalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#port DataK8SClaudieIoInputManifestV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#port DataK8SClaudieIoInputManifestV1Beta1Manifest#port}
   */
   readonly port: number;
   /**
   * Protocol of the rule. Allowed values are: tcp, udp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#protocol DataK8SClaudieIoInputManifestV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#protocol DataK8SClaudieIoInputManifestV1Beta1Manifest#protocol}
   */
   readonly protocol: string;
   /**
   * Defines nodepools of the targeted K8s cluster, from which nodes will be used for loadbalancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#target_pools DataK8SClaudieIoInputManifestV1Beta1Manifest#target_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#target_pools DataK8SClaudieIoInputManifestV1Beta1Manifest#target_pools}
   */
   readonly targetPools: string[];
   /**
   * Port where loadbalancer forwards the traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#target_port DataK8SClaudieIoInputManifestV1Beta1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#target_port DataK8SClaudieIoInputManifestV1Beta1Manifest#target_port}
   */
   readonly targetPort: number;
 }
@@ -1300,13 +1300,13 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecLoadBalancers {
   /**
   * A list of load balancers clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#clusters DataK8SClaudieIoInputManifestV1Beta1Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#clusters DataK8SClaudieIoInputManifestV1Beta1Manifest#clusters}
   */
   readonly clusters?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecLoadBalancersClusters[] | cdktf.IResolvable;
   /**
   * List of roles loadbalancers use to forward the traffic. Single role can be used in multiple loadbalancer clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#roles DataK8SClaudieIoInputManifestV1Beta1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#roles DataK8SClaudieIoInputManifestV1Beta1Manifest#roles}
   */
   readonly roles?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecLoadBalancersRoles[] | cdktf.IResolvable;
 }
@@ -1431,13 +1431,13 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsDynami
   /**
   * Maximum number of nodes in nodepool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#max DataK8SClaudieIoInputManifestV1Beta1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#max DataK8SClaudieIoInputManifestV1Beta1Manifest#max}
   */
   readonly max?: number;
   /**
   * Minimum number of nodes in nodepool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#min DataK8SClaudieIoInputManifestV1Beta1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#min DataK8SClaudieIoInputManifestV1Beta1Manifest#min}
   */
   readonly min?: number;
 }
@@ -1562,11 +1562,11 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsDynami
   /**
   * CpuCount specifies the number of CPU cores to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#cpu_count DataK8SClaudieIoInputManifestV1Beta1Manifest#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#cpu_count DataK8SClaudieIoInputManifestV1Beta1Manifest#cpu_count}
   */
   readonly cpuCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#memory DataK8SClaudieIoInputManifestV1Beta1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#memory DataK8SClaudieIoInputManifestV1Beta1Manifest#memory}
   */
   readonly memory: number;
 }
@@ -1685,19 +1685,19 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsDynami
   /**
   * Name of the provider instance specified in providers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Region of the nodepool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#region DataK8SClaudieIoInputManifestV1Beta1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#region DataK8SClaudieIoInputManifestV1Beta1Manifest#region}
   */
   readonly region: string;
   /**
   * Zone of the nodepool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#zone DataK8SClaudieIoInputManifestV1Beta1Manifest#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#zone DataK8SClaudieIoInputManifestV1Beta1Manifest#zone}
   */
   readonly zone?: string;
 }
@@ -1845,25 +1845,25 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsDynami
   /**
   * Required. The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#effect DataK8SClaudieIoInputManifestV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#effect DataK8SClaudieIoInputManifestV1Beta1Manifest#effect}
   */
   readonly effect: string;
   /**
   * Required. The taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#key DataK8SClaudieIoInputManifestV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#key DataK8SClaudieIoInputManifestV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#time_added DataK8SClaudieIoInputManifestV1Beta1Manifest#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#time_added DataK8SClaudieIoInputManifestV1Beta1Manifest#time_added}
   */
   readonly timeAdded?: string;
   /**
   * The taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#value DataK8SClaudieIoInputManifestV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#value DataK8SClaudieIoInputManifestV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2062,67 +2062,67 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsDynami
   /**
   * User defined annotations for this nodepool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#annotations DataK8SClaudieIoInputManifestV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#annotations DataK8SClaudieIoInputManifestV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Autoscaler configuration for this nodepool. Mutually exclusive with count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#autoscaler DataK8SClaudieIoInputManifestV1Beta1Manifest#autoscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#autoscaler DataK8SClaudieIoInputManifestV1Beta1Manifest#autoscaler}
   */
   readonly autoscaler?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsDynamicAutoscaler;
   /**
   * Number of the nodes in the nodepool. Mutually exclusive with autoscaler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#count DataK8SClaudieIoInputManifestV1Beta1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#count DataK8SClaudieIoInputManifestV1Beta1Manifest#count}
   */
   readonly count?: number;
   /**
   * OS image of the machine. Currently, only Ubuntu 22.04 AMD64 images are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#image DataK8SClaudieIoInputManifestV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#image DataK8SClaudieIoInputManifestV1Beta1Manifest#image}
   */
   readonly image: string;
   /**
   * User defined labels for this nodepool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#labels DataK8SClaudieIoInputManifestV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#labels DataK8SClaudieIoInputManifestV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * MachineSpec further describe the properties of the selected server type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#machine_spec DataK8SClaudieIoInputManifestV1Beta1Manifest#machine_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#machine_spec DataK8SClaudieIoInputManifestV1Beta1Manifest#machine_spec}
   */
   readonly machineSpec?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsDynamicMachineSpec;
   /**
   * Name of the nodepool. Each nodepool will have a random hash appended to the name, so the whole name will be of format <name>-<hash>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Collection of provider data to be used while creating the nodepool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#provider_spec DataK8SClaudieIoInputManifestV1Beta1Manifest#provider_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#provider_spec DataK8SClaudieIoInputManifestV1Beta1Manifest#provider_spec}
   */
   readonly providerSpec: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsDynamicProviderSpec;
   /**
   *  Type of the machines in the nodepool. Currently, only AMD64 machines are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#server_type DataK8SClaudieIoInputManifestV1Beta1Manifest#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#server_type DataK8SClaudieIoInputManifestV1Beta1Manifest#server_type}
   */
   readonly serverType: string;
   /**
   * Size of the storage disk on the nodes in the nodepool in GB. The OS disk is created automatically with predefined size of 100GB for kubernetes nodes and 50GB for Loadbalancer nodes. The value must be either -1 (no disk is created), or >= 50. If no value is specified, 50 is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#storage_disk_size DataK8SClaudieIoInputManifestV1Beta1Manifest#storage_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#storage_disk_size DataK8SClaudieIoInputManifestV1Beta1Manifest#storage_disk_size}
   */
   readonly storageDiskSize?: number;
   /**
   * User defined taints for this nodepool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#taints DataK8SClaudieIoInputManifestV1Beta1Manifest#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#taints DataK8SClaudieIoInputManifestV1Beta1Manifest#taints}
   */
   readonly taints?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsDynamicTaints[] | cdktf.IResolvable;
 }
@@ -2518,13 +2518,13 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsStatic
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#namespace DataK8SClaudieIoInputManifestV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#namespace DataK8SClaudieIoInputManifestV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2649,19 +2649,19 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsStatic
   /**
   * Endpoint under which Claudie will access this node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#endpoint DataK8SClaudieIoInputManifestV1Beta1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#endpoint DataK8SClaudieIoInputManifestV1Beta1Manifest#endpoint}
   */
   readonly endpoint: string;
   /**
   * Secret reference to the private key of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#secret_ref DataK8SClaudieIoInputManifestV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#secret_ref DataK8SClaudieIoInputManifestV1Beta1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsStaticNodesSecretRef;
   /**
   * Username with root access. Used in SSH connection also.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#username DataK8SClaudieIoInputManifestV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#username DataK8SClaudieIoInputManifestV1Beta1Manifest#username}
   */
   readonly username?: string;
 }
@@ -2831,25 +2831,25 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsStatic
   /**
   * Required. The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#effect DataK8SClaudieIoInputManifestV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#effect DataK8SClaudieIoInputManifestV1Beta1Manifest#effect}
   */
   readonly effect: string;
   /**
   * Required. The taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#key DataK8SClaudieIoInputManifestV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#key DataK8SClaudieIoInputManifestV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#time_added DataK8SClaudieIoInputManifestV1Beta1Manifest#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#time_added DataK8SClaudieIoInputManifestV1Beta1Manifest#time_added}
   */
   readonly timeAdded?: string;
   /**
   * The taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#value DataK8SClaudieIoInputManifestV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#value DataK8SClaudieIoInputManifestV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3046,27 +3046,27 @@ export class DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsStaticTain
 }
 export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsStatic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#annotations DataK8SClaudieIoInputManifestV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#annotations DataK8SClaudieIoInputManifestV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#labels DataK8SClaudieIoInputManifestV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#labels DataK8SClaudieIoInputManifestV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the nodepool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * List of static nodes for a particular static nodepool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#nodes DataK8SClaudieIoInputManifestV1Beta1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#nodes DataK8SClaudieIoInputManifestV1Beta1Manifest#nodes}
   */
   readonly nodes: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsStaticNodes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#taints DataK8SClaudieIoInputManifestV1Beta1Manifest#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#taints DataK8SClaudieIoInputManifestV1Beta1Manifest#taints}
   */
   readonly taints?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsStaticTaints[] | cdktf.IResolvable;
 }
@@ -3294,13 +3294,13 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePools {
   /**
   * Dynamic nodepools define nodepools dynamically created by Claudie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#dynamic DataK8SClaudieIoInputManifestV1Beta1Manifest#dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#dynamic DataK8SClaudieIoInputManifestV1Beta1Manifest#dynamic}
   */
   readonly dynamic?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsDynamic[] | cdktf.IResolvable;
   /**
   * Static nodepools define nodepools of already existing nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#static DataK8SClaudieIoInputManifestV1Beta1Manifest#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#static DataK8SClaudieIoInputManifestV1Beta1Manifest#static}
   */
   readonly static?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePoolsStatic[] | cdktf.IResolvable;
 }
@@ -3425,13 +3425,13 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecProvidersSecret
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#namespace DataK8SClaudieIoInputManifestV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#namespace DataK8SClaudieIoInputManifestV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3554,15 +3554,15 @@ export class DataK8SClaudieIoInputManifestV1Beta1ManifestSpecProvidersSecretRefO
 }
 export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecProvidersTemplates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#path DataK8SClaudieIoInputManifestV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#path DataK8SClaudieIoInputManifestV1Beta1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#repository DataK8SClaudieIoInputManifestV1Beta1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#repository DataK8SClaudieIoInputManifestV1Beta1Manifest#repository}
   */
   readonly repository: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#tag DataK8SClaudieIoInputManifestV1Beta1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#tag DataK8SClaudieIoInputManifestV1Beta1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -3710,25 +3710,25 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpecProviders {
   /**
   * Name is the name of the provider specification. It has to be unique across all providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#name DataK8SClaudieIoInputManifestV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * ProviderType type of a provider. A list of available providers can be found at https://docs.claudie.io/v0.8.1/input-manifest/providers/aws/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#provider_type DataK8SClaudieIoInputManifestV1Beta1Manifest#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#provider_type DataK8SClaudieIoInputManifestV1Beta1Manifest#provider_type}
   */
   readonly providerType: string;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#secret_ref DataK8SClaudieIoInputManifestV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#secret_ref DataK8SClaudieIoInputManifestV1Beta1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecProvidersSecretRef;
   /**
   * External templates for building the cluster infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#templates DataK8SClaudieIoInputManifestV1Beta1Manifest#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#templates DataK8SClaudieIoInputManifestV1Beta1Manifest#templates}
   */
   readonly templates?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecProvidersTemplates;
 }
@@ -3924,25 +3924,25 @@ export interface DataK8SClaudieIoInputManifestV1Beta1ManifestSpec {
   /**
   * Kubernetes list of Kubernetes cluster this manifest will manage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#kubernetes DataK8SClaudieIoInputManifestV1Beta1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#kubernetes DataK8SClaudieIoInputManifestV1Beta1Manifest#kubernetes}
   */
   readonly kubernetes?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecKubernetes;
   /**
   * LoadBalancers list of loadbalancer clusters the Kubernetes clusters may use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#load_balancers DataK8SClaudieIoInputManifestV1Beta1Manifest#load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#load_balancers DataK8SClaudieIoInputManifestV1Beta1Manifest#load_balancers}
   */
   readonly loadBalancers?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecLoadBalancers;
   /**
   * NodePool is a map of dynamic nodepools and static nodepools which will be used to form kubernetes or loadbalancer clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#node_pools DataK8SClaudieIoInputManifestV1Beta1Manifest#node_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#node_pools DataK8SClaudieIoInputManifestV1Beta1Manifest#node_pools}
   */
   readonly nodePools?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecNodePools;
   /**
   * Providers list of defined cloud provider configuration that will be used while infrastructure provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#providers DataK8SClaudieIoInputManifestV1Beta1Manifest#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#providers DataK8SClaudieIoInputManifestV1Beta1Manifest#providers}
   */
   readonly providers?: DataK8SClaudieIoInputManifestV1Beta1ManifestSpecProviders[] | cdktf.IResolvable;
 }
@@ -4123,7 +4123,7 @@ export class DataK8SClaudieIoInputManifestV1Beta1ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest k8s_claudie_io_input_manifest_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest k8s_claudie_io_input_manifest_v1beta1_manifest}
 */
 export class DataK8SClaudieIoInputManifestV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -4139,7 +4139,7 @@ export class DataK8SClaudieIoInputManifestV1Beta1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SClaudieIoInputManifestV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SClaudieIoInputManifestV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SClaudieIoInputManifestV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SClaudieIoInputManifestV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SClaudieIoInputManifestV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4151,7 +4151,7 @@ export class DataK8SClaudieIoInputManifestV1Beta1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest k8s_claudie_io_input_manifest_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/claudie_io_input_manifest_v1beta1_manifest k8s_claudie_io_input_manifest_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4162,8 +4162,8 @@ export class DataK8SClaudieIoInputManifestV1Beta1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_claudie_io_input_manifest_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

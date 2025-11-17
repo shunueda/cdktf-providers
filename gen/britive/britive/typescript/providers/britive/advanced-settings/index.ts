@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings
+// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AdvancedSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#id AdvancedSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#id AdvancedSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface AdvancedSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Britive resource id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#resource_id AdvancedSettings#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#resource_id AdvancedSettings#resource_id}
   */
   readonly resourceId: string;
   /**
   * Britive resource type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#resource_type AdvancedSettings#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#resource_type AdvancedSettings#resource_type}
   */
   readonly resourceType: string;
   /**
   * im block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#im AdvancedSettings#im}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#im AdvancedSettings#im}
   */
   readonly im?: AdvancedSettingsIm;
   /**
   * itsm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#itsm AdvancedSettings#itsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#itsm AdvancedSettings#itsm}
   */
   readonly itsm?: AdvancedSettingsItsm;
   /**
   * justification_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#justification_settings AdvancedSettings#justification_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#justification_settings AdvancedSettings#justification_settings}
   */
   readonly justificationSettings?: AdvancedSettingsJustificationSettings;
 }
@@ -49,25 +49,25 @@ export interface AdvancedSettingsIm {
   /**
   * IM Connection id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#connection_id AdvancedSettings#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#connection_id AdvancedSettings#connection_id}
   */
   readonly connectionId: string;
   /**
   * IM Connection type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#connection_type AdvancedSettings#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#connection_type AdvancedSettings#connection_type}
   */
   readonly connectionType: string;
   /**
   * IM Escalation Policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#escalation_policies AdvancedSettings#escalation_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#escalation_policies AdvancedSettings#escalation_policies}
   */
   readonly escalationPolicies: string[];
   /**
   * IM auto approval toggle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#is_auto_approval_enabled AdvancedSettings#is_auto_approval_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#is_auto_approval_enabled AdvancedSettings#is_auto_approval_enabled}
   */
   readonly isAutoApprovalEnabled: boolean | cdktf.IResolvable;
 }
@@ -233,13 +233,13 @@ export interface AdvancedSettingsItsmItsmFilterCriteria {
   /**
   * filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#filter AdvancedSettings#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#filter AdvancedSettings#filter}
   */
   readonly filter: string;
   /**
   * supported ticket type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#supported_ticket_type AdvancedSettings#supported_ticket_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#supported_ticket_type AdvancedSettings#supported_ticket_type}
   */
   readonly supportedTicketType: string;
 }
@@ -380,25 +380,25 @@ export interface AdvancedSettingsItsm {
   /**
   * ITSM Connection id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#connection_id AdvancedSettings#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#connection_id AdvancedSettings#connection_id}
   */
   readonly connectionId: string;
   /**
   * ITSM Connection type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#connection_type AdvancedSettings#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#connection_type AdvancedSettings#connection_type}
   */
   readonly connectionType: string;
   /**
   * itsm comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#is_itsm_enabled AdvancedSettings#is_itsm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#is_itsm_enabled AdvancedSettings#is_itsm_enabled}
   */
   readonly isItsmEnabled: boolean | cdktf.IResolvable;
   /**
   * itsm_filter_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#itsm_filter_criteria AdvancedSettings#itsm_filter_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#itsm_filter_criteria AdvancedSettings#itsm_filter_criteria}
   */
   readonly itsmFilterCriteria: AdvancedSettingsItsmItsmFilterCriteria[] | cdktf.IResolvable;
 }
@@ -564,13 +564,13 @@ export interface AdvancedSettingsJustificationSettings {
   /**
   * Resource justification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#is_justification_required AdvancedSettings#is_justification_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#is_justification_required AdvancedSettings#is_justification_required}
   */
   readonly isJustificationRequired: boolean | cdktf.IResolvable;
   /**
   * Resource justification Regular Expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#justification_regex AdvancedSettings#justification_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#justification_regex AdvancedSettings#justification_regex}
   */
   readonly justificationRegex?: string;
 }
@@ -685,7 +685,7 @@ export class AdvancedSettingsJustificationSettingsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings britive_advanced_settings}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings britive_advanced_settings}
 */
 export class AdvancedSettings extends cdktf.TerraformResource {
 
@@ -701,7 +701,7 @@ export class AdvancedSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdvancedSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdvancedSettings to import
-  * @param importFromId The id of the existing AdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdvancedSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdvancedSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -713,7 +713,7 @@ export class AdvancedSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/advanced_settings britive_advanced_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/advanced_settings britive_advanced_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -724,8 +724,8 @@ export class AdvancedSettings extends cdktf.TerraformResource {
       terraformResourceType: 'britive_advanced_settings',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.4',
-        providerVersionConstraint: '2.2.4'
+        providerVersion: '2.2.5',
+        providerVersionConstraint: '2.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

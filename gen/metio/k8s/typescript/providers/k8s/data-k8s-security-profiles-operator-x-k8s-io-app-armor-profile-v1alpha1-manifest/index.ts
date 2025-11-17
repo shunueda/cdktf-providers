@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Man
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#metadata DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#metadata DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestMetadata;
   /**
   * AppArmorProfileSpec defines the desired state of AppArmorProfile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#spec DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#spec DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Man
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#annotations DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#annotations DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#labels DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#labels DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#name DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#name DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#namespace DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#namespace DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifes
 }
 export interface DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpecAbstractCapability {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allowed_capabilities DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allowed_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allowed_capabilities DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allowed_capabilities}
   */
   readonly allowedCapabilities?: string[];
 }
@@ -311,11 +311,11 @@ export class DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifes
 }
 export interface DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpecAbstractExecutable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allowed_executables DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allowed_executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allowed_executables DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allowed_executables}
   */
   readonly allowedExecutables?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allowed_libraries DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allowed_libraries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allowed_libraries DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allowed_libraries}
   */
   readonly allowedLibraries?: string[];
 }
@@ -438,15 +438,15 @@ export class DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifes
 }
 export interface DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpecAbstractFilesystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#read_only_paths DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#read_only_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#read_only_paths DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#read_only_paths}
   */
   readonly readOnlyPaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#read_write_paths DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#read_write_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#read_write_paths DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#read_write_paths}
   */
   readonly readWritePaths?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#write_only_paths DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#write_only_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#write_only_paths DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#write_only_paths}
   */
   readonly writeOnlyPaths?: string[];
 }
@@ -598,11 +598,11 @@ export class DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifes
 }
 export interface DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpecAbstractNetworkAllowedProtocols {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allow_tcp DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allow_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allow_tcp DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allow_tcp}
   */
   readonly allowTcp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allow_udp DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allow_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allow_udp DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allow_udp}
   */
   readonly allowUdp?: boolean | cdktf.IResolvable;
 }
@@ -725,11 +725,11 @@ export class DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifes
 }
 export interface DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpecAbstractNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allow_raw DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allow_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allow_raw DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allow_raw}
   */
   readonly allowRaw?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allowed_protocols DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allowed_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#allowed_protocols DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#allowed_protocols}
   */
   readonly allowedProtocols?: DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpecAbstractNetworkAllowedProtocols;
 }
@@ -852,19 +852,19 @@ export class DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifes
 }
 export interface DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpecAbstract {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#capability DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#capability DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#capability}
   */
   readonly capability?: DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpecAbstractCapability;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#executable DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#executable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#executable DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#executable}
   */
   readonly executable?: DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpecAbstractExecutable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#filesystem DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#filesystem DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#filesystem}
   */
   readonly filesystem?: DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpecAbstractFilesystem;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#network DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#network DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#network}
   */
   readonly network?: DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpecAbstractNetwork;
 }
@@ -1045,11 +1045,11 @@ export class DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifes
 }
 export interface DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#abstract DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#abstract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#abstract DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#abstract}
   */
   readonly abstract?: DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1ManifestSpecAbstract;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#policy DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#policy DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest#policy}
   */
   readonly policy?: string;
 }
@@ -1172,7 +1172,7 @@ export class DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifes
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest k8s_security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest k8s_security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest}
 */
 export class DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1188,7 +1188,7 @@ export class DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifes
   * Generates CDKTF code for importing a DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1200,7 +1200,7 @@ export class DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest k8s_security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest k8s_security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1211,8 +1211,8 @@ export class DataK8SSecurityProfilesOperatorXK8SIoAppArmorProfileV1Alpha1Manifes
       terraformResourceType: 'k8s_security_profiles_operator_x_k8s_io_app_armor_profile_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy
+// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Type of access for the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy#access_type Policy#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy#access_type Policy#access_type}
   */
   readonly accessType?: string;
   /**
   * Condition of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy#condition Policy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy#condition Policy#condition}
   */
   readonly condition?: string;
   /**
   * The description of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy#description Policy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy#description Policy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy#id Policy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy#id Policy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Is the policy active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy#is_active Policy#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy#is_active Policy#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Is the policy a draft
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy#is_draft Policy#is_draft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy#is_draft Policy#is_draft}
   */
   readonly isDraft?: boolean | cdktf.IResolvable;
   /**
   * Is the policy read only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy#is_read_only Policy#is_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy#is_read_only Policy#is_read_only}
   */
   readonly isReadOnly?: boolean | cdktf.IResolvable;
   /**
   * Members of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy#members Policy#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy#members Policy#members}
   */
   readonly members?: string;
   /**
   * Name of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy#name Policy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy#name Policy#name}
   */
   readonly name: string;
   /**
   * Permissions of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy#permissions Policy#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy#permissions Policy#permissions}
   */
   readonly permissions?: string;
   /**
   * Roles of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy#roles Policy#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy#roles Policy#roles}
   */
   readonly roles?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy britive_policy}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy britive_policy}
 */
 export class Policy extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class Policy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Policy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Policy to import
-  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Policy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class Policy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/policy britive_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/policy britive_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class Policy extends cdktf.TerraformResource {
       terraformResourceType: 'britive_policy',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.4',
-        providerVersionConstraint: '2.2.4'
+        providerVersion: '2.2.5',
+        providerVersionConstraint: '2.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

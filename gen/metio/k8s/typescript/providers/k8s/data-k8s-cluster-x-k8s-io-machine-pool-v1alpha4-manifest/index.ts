@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#metadata DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#metadata DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#metadata}
   */
   readonly metadata: DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestMetadata;
   /**
   * MachinePoolSpec defines the desired state of MachinePool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#spec DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#spec DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#spec}
   */
   readonly spec?: DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#annotations DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#annotations DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#labels DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#labels DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#name DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#name DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#namespace DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#namespace DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpecTemplateMeta
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#annotations DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#annotations DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#labels DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#labels DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -350,43 +350,43 @@ export interface DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpecTemplateSpec
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#api_version DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#api_version DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#field_path DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#field_path DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#kind DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#kind DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#name DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#name DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#namespace DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#namespace DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#resource_version DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#resource_version DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#uid DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#uid DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -656,13 +656,13 @@ export interface DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpecTemplateSpec
   /**
   * ConfigRef is a reference to a bootstrap provider-specific resource that holds configuration details. The reference is optional to allow users/operators to specify Bootstrap.DataSecretName without the need of a controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#config_ref DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#config_ref DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#config_ref}
   */
   readonly configRef?: DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpecTemplateSpecBootstrapConfigRef;
   /**
   * DataSecretName is the name of the secret that stores the bootstrap data script. If nil, the Machine should remain in the Pending state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#data_secret_name DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#data_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#data_secret_name DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#data_secret_name}
   */
   readonly dataSecretName?: string;
 }
@@ -787,43 +787,43 @@ export interface DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpecTemplateSpec
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#api_version DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#api_version DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#field_path DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#field_path DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#kind DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#kind DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#name DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#name DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#namespace DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#namespace DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#resource_version DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#resource_version DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#uid DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#uid DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1093,43 +1093,43 @@ export interface DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpecTemplateSpec
   /**
   * Bootstrap is a reference to a local struct which encapsulates fields to configure the Machine’s bootstrapping mechanism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#bootstrap DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#bootstrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#bootstrap DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#bootstrap}
   */
   readonly bootstrap: DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpecTemplateSpecBootstrap;
   /**
   * ClusterName is the name of the Cluster this object belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#cluster_name DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#cluster_name DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#cluster_name}
   */
   readonly clusterName: string;
   /**
   * FailureDomain is the failure domain the machine will be created in. Must match a key in the FailureDomains map stored on the cluster object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#failure_domain DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#failure_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#failure_domain DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#failure_domain}
   */
   readonly failureDomain?: string;
   /**
   * InfrastructureRef is a required reference to a custom resource offered by an infrastructure provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#infrastructure_ref DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#infrastructure_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#infrastructure_ref DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#infrastructure_ref}
   */
   readonly infrastructureRef: DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpecTemplateSpecInfrastructureRef;
   /**
   * NodeDrainTimeout is the total amount of time that the controller will spend on draining a node. The default value is 0, meaning that the node can be drained without any time limitations. NOTE: NodeDrainTimeout is different from 'kubectl drain --timeout'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#node_drain_timeout DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#node_drain_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#node_drain_timeout DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#node_drain_timeout}
   */
   readonly nodeDrainTimeout?: string;
   /**
   * ProviderID is the identification ID of the machine provided by the provider. This field must match the provider ID as seen on the node object corresponding to this machine. This field is required by higher level consumers of cluster-api. Example use case is cluster autoscaler with cluster-api as provider. Clean-up logic in the autoscaler compares machines to nodes to find out machines at provider which could not get registered as Kubernetes nodes. With cluster-api as a generic out-of-tree provider for autoscaler, this field is required by autoscaler to be able to have a provider view of the list of machines. Another list of nodes is queried from the k8s apiserver and then a comparison is done to find out unregistered machines and are marked for delete. This field will be set by the actuators and consumed by higher level entities like autoscaler that will be interfacing with cluster-api as generic provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#provider_id DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#provider_id DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#provider_id}
   */
   readonly providerId?: string;
   /**
   * Version defines the desired Kubernetes version. This field is meant to be optionally used by bootstrap providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#version DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#version DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#version}
   */
   readonly version?: string;
 }
@@ -1390,13 +1390,13 @@ export interface DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpecTemplate {
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#metadata DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#metadata DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#metadata}
   */
   readonly metadata?: DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpecTemplateMetadata;
   /**
   * Specification of the desired behavior of the machine. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#spec DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#spec DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#spec}
   */
   readonly spec?: DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpecTemplateSpec;
 }
@@ -1521,37 +1521,37 @@ export interface DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpec {
   /**
   * ClusterName is the name of the Cluster this object belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#cluster_name DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#cluster_name DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#cluster_name}
   */
   readonly clusterName: string;
   /**
   * FailureDomains is the list of failure domains this MachinePool should be attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#failure_domains DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#failure_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#failure_domains DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#failure_domains}
   */
   readonly failureDomains?: string[];
   /**
   * Minimum number of seconds for which a newly created machine instances should be ready. Defaults to 0 (machine instance will be considered available as soon as it is ready)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#min_ready_seconds DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#min_ready_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#min_ready_seconds DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#min_ready_seconds}
   */
   readonly minReadySeconds?: number;
   /**
   * ProviderIDList are the identification IDs of machine instances provided by the provider. This field must match the provider IDs as seen on the node objects corresponding to a machine pool's machine instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#provider_id_list DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#provider_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#provider_id_list DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#provider_id_list}
   */
   readonly providerIdList?: string[];
   /**
   * Number of desired machines. Defaults to 1. This is a pointer to distinguish between explicit zero and not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#replicas DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#replicas DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Template describes the machines that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#template DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#template DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest#template}
   */
   readonly template: DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpecTemplate;
 }
@@ -1784,7 +1784,7 @@ export class DataK8SClusterXK8SIoMachinePoolV1Alpha4ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest k8s_cluster_x_k8s_io_machine_pool_v1alpha4_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest k8s_cluster_x_k8s_io_machine_pool_v1alpha4_manifest}
 */
 export class DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest extends cdktf.TerraformDataSource {
 
@@ -1800,7 +1800,7 @@ export class DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest to import
-  * @param importFromId The id of the existing DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1812,7 +1812,7 @@ export class DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest k8s_cluster_x_k8s_io_machine_pool_v1alpha4_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cluster_x_k8s_io_machine_pool_v1alpha4_manifest k8s_cluster_x_k8s_io_machine_pool_v1alpha4_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1823,8 +1823,8 @@ export class DataK8SClusterXK8SIoMachinePoolV1Alpha4Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_cluster_x_k8s_io_machine_pool_v1alpha4_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

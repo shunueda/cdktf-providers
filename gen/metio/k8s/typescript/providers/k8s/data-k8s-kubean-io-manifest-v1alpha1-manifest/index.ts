@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SKubeanIoManifestV1Alpha1ManifestConfig extends cdktf.Ter
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#metadata DataK8SKubeanIoManifestV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#metadata DataK8SKubeanIoManifestV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKubeanIoManifestV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#spec DataK8SKubeanIoManifestV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#spec DataK8SKubeanIoManifestV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SKubeanIoManifestV1Alpha1ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SKubeanIoManifestV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#annotations DataK8SKubeanIoManifestV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#annotations DataK8SKubeanIoManifestV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#labels DataK8SKubeanIoManifestV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#labels DataK8SKubeanIoManifestV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#name DataK8SKubeanIoManifestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#name DataK8SKubeanIoManifestV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -183,15 +183,15 @@ export class DataK8SKubeanIoManifestV1Alpha1ManifestMetadataOutputReference exte
 }
 export interface DataK8SKubeanIoManifestV1Alpha1ManifestSpecComponents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#default_version DataK8SKubeanIoManifestV1Alpha1Manifest#default_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#default_version DataK8SKubeanIoManifestV1Alpha1Manifest#default_version}
   */
   readonly defaultVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#name DataK8SKubeanIoManifestV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#name DataK8SKubeanIoManifestV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#version_range DataK8SKubeanIoManifestV1Alpha1Manifest#version_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#version_range DataK8SKubeanIoManifestV1Alpha1Manifest#version_range}
   */
   readonly versionRange?: string[];
 }
@@ -362,15 +362,15 @@ export class DataK8SKubeanIoManifestV1Alpha1ManifestSpecComponentsList extends c
 }
 export interface DataK8SKubeanIoManifestV1Alpha1ManifestSpecDocker {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#default_version DataK8SKubeanIoManifestV1Alpha1Manifest#default_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#default_version DataK8SKubeanIoManifestV1Alpha1Manifest#default_version}
   */
   readonly defaultVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#os DataK8SKubeanIoManifestV1Alpha1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#os DataK8SKubeanIoManifestV1Alpha1Manifest#os}
   */
   readonly os: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#version_range DataK8SKubeanIoManifestV1Alpha1Manifest#version_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#version_range DataK8SKubeanIoManifestV1Alpha1Manifest#version_range}
   */
   readonly versionRange?: string[];
 }
@@ -541,11 +541,11 @@ export class DataK8SKubeanIoManifestV1Alpha1ManifestSpecDockerList extends cdktf
 }
 export interface DataK8SKubeanIoManifestV1Alpha1ManifestSpecLocalServiceHostsMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#address DataK8SKubeanIoManifestV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#address DataK8SKubeanIoManifestV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#domain DataK8SKubeanIoManifestV1Alpha1Manifest#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#domain DataK8SKubeanIoManifestV1Alpha1Manifest#domain}
   */
   readonly domain?: string;
 }
@@ -690,15 +690,15 @@ export class DataK8SKubeanIoManifestV1Alpha1ManifestSpecLocalServiceHostsMapList
 }
 export interface DataK8SKubeanIoManifestV1Alpha1ManifestSpecLocalServiceImageRepoAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#image_repo_address DataK8SKubeanIoManifestV1Alpha1Manifest#image_repo_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#image_repo_address DataK8SKubeanIoManifestV1Alpha1Manifest#image_repo_address}
   */
   readonly imageRepoAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#password_base64 DataK8SKubeanIoManifestV1Alpha1Manifest#password_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#password_base64 DataK8SKubeanIoManifestV1Alpha1Manifest#password_base64}
   */
   readonly passwordBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#user_name DataK8SKubeanIoManifestV1Alpha1Manifest#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#user_name DataK8SKubeanIoManifestV1Alpha1Manifest#user_name}
   */
   readonly userName?: string;
 }
@@ -872,27 +872,27 @@ export class DataK8SKubeanIoManifestV1Alpha1ManifestSpecLocalServiceImageRepoAut
 }
 export interface DataK8SKubeanIoManifestV1Alpha1ManifestSpecLocalService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#files_repo DataK8SKubeanIoManifestV1Alpha1Manifest#files_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#files_repo DataK8SKubeanIoManifestV1Alpha1Manifest#files_repo}
   */
   readonly filesRepo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#hosts_map DataK8SKubeanIoManifestV1Alpha1Manifest#hosts_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#hosts_map DataK8SKubeanIoManifestV1Alpha1Manifest#hosts_map}
   */
   readonly hostsMap?: DataK8SKubeanIoManifestV1Alpha1ManifestSpecLocalServiceHostsMap[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#image_repo DataK8SKubeanIoManifestV1Alpha1Manifest#image_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#image_repo DataK8SKubeanIoManifestV1Alpha1Manifest#image_repo}
   */
   readonly imageRepo?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#image_repo_auth DataK8SKubeanIoManifestV1Alpha1Manifest#image_repo_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#image_repo_auth DataK8SKubeanIoManifestV1Alpha1Manifest#image_repo_auth}
   */
   readonly imageRepoAuth?: DataK8SKubeanIoManifestV1Alpha1ManifestSpecLocalServiceImageRepoAuth[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#image_repo_scheme DataK8SKubeanIoManifestV1Alpha1Manifest#image_repo_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#image_repo_scheme DataK8SKubeanIoManifestV1Alpha1Manifest#image_repo_scheme}
   */
   readonly imageRepoScheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#yum_repos DataK8SKubeanIoManifestV1Alpha1Manifest#yum_repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#yum_repos DataK8SKubeanIoManifestV1Alpha1Manifest#yum_repos}
   */
   readonly yumRepos?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -1131,25 +1131,25 @@ export class DataK8SKubeanIoManifestV1Alpha1ManifestSpecLocalServiceOutputRefere
 }
 export interface DataK8SKubeanIoManifestV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#components DataK8SKubeanIoManifestV1Alpha1Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#components DataK8SKubeanIoManifestV1Alpha1Manifest#components}
   */
   readonly components?: DataK8SKubeanIoManifestV1Alpha1ManifestSpecComponents[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#docker DataK8SKubeanIoManifestV1Alpha1Manifest#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#docker DataK8SKubeanIoManifestV1Alpha1Manifest#docker}
   */
   readonly docker?: DataK8SKubeanIoManifestV1Alpha1ManifestSpecDocker[] | cdktf.IResolvable;
   /**
   * KubeanVersion , the tag of kubean-io
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#kubean_version DataK8SKubeanIoManifestV1Alpha1Manifest#kubean_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#kubean_version DataK8SKubeanIoManifestV1Alpha1Manifest#kubean_version}
   */
   readonly kubeanVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#kubespray_version DataK8SKubeanIoManifestV1Alpha1Manifest#kubespray_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#kubespray_version DataK8SKubeanIoManifestV1Alpha1Manifest#kubespray_version}
   */
   readonly kubesprayVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#local_service DataK8SKubeanIoManifestV1Alpha1Manifest#local_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#local_service DataK8SKubeanIoManifestV1Alpha1Manifest#local_service}
   */
   readonly localService?: DataK8SKubeanIoManifestV1Alpha1ManifestSpecLocalService;
 }
@@ -1359,7 +1359,7 @@ export class DataK8SKubeanIoManifestV1Alpha1ManifestSpecOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest k8s_kubean_io_manifest_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest k8s_kubean_io_manifest_v1alpha1_manifest}
 */
 export class DataK8SKubeanIoManifestV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1375,7 +1375,7 @@ export class DataK8SKubeanIoManifestV1Alpha1Manifest extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataK8SKubeanIoManifestV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKubeanIoManifestV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKubeanIoManifestV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKubeanIoManifestV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKubeanIoManifestV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1387,7 +1387,7 @@ export class DataK8SKubeanIoManifestV1Alpha1Manifest extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kubean_io_manifest_v1alpha1_manifest k8s_kubean_io_manifest_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kubean_io_manifest_v1alpha1_manifest k8s_kubean_io_manifest_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1398,8 +1398,8 @@ export class DataK8SKubeanIoManifestV1Alpha1Manifest extends cdktf.TerraformData
       terraformResourceType: 'k8s_kubean_io_manifest_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

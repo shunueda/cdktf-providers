@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKeycloakOrgKeycloakBackupV1Alpha1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#metadata DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#metadata DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKeycloakOrgKeycloakBackupV1Alpha1ManifestMetadata;
   /**
   * KeycloakBackupSpec defines the desired state of KeycloakBackup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#spec DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#spec DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKeycloakOrgKeycloakBackupV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKeycloakOrgKeycloakBackupV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#annotations DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#annotations DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#labels DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#labels DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#namespace DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#namespace DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SKeycloakOrgKeycloakBackupV1Alpha1ManifestSpecAws {
   /**
   * Provides a secret name used for connecting to AWS S3 Service. The secret needs to be in the following form: apiVersion: v1 kind: Secret metadata: name: <Secret name> type: Opaque stringData: AWS_S3_BUCKET_NAME: <S3 Bucket Name> AWS_ACCESS_KEY_ID: <AWS Access Key ID> AWS_SECRET_ACCESS_KEY: <AWS Secret Key> For more information, please refer to the Operator documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#credentials_secret_name DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#credentials_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#credentials_secret_name DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#credentials_secret_name}
   */
   readonly credentialsSecretName?: string;
   /**
   * If provided, the database backup will be encrypted. Provides a secret name used for encrypting database data. The secret needs to be in the following form: apiVersion: v1 kind: Secret metadata: name: <Secret name> type: Opaque stringData: GPG_PUBLIC_KEY: <GPG Public Key> GPG_TRUST_MODEL: <GPG Trust Model> GPG_RECIPIENT: <GPG Recipient> For more information, please refer to the Operator documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#encryption_key_secret_name DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#encryption_key_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#encryption_key_secret_name DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#encryption_key_secret_name}
   */
   readonly encryptionKeySecretName?: string;
   /**
   * If specified, it will be used as a schedule for creating a CronJob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#schedule DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#schedule DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#schedule}
   */
   readonly schedule?: string;
 }
@@ -385,19 +385,19 @@ export interface DataK8SKeycloakOrgKeycloakBackupV1Alpha1ManifestSpecInstanceSel
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -567,13 +567,13 @@ export interface DataK8SKeycloakOrgKeycloakBackupV1Alpha1ManifestSpecInstanceSel
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKeycloakOrgKeycloakBackupV1Alpha1ManifestSpecInstanceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#match_labels DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#match_labels DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -698,25 +698,25 @@ export interface DataK8SKeycloakOrgKeycloakBackupV1Alpha1ManifestSpec {
   /**
   * If provided, an automatic database backup will be created on AWS S3 instead of a local Persistent Volume. If this property is not provided - a local Persistent Volume backup will be chosen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#aws DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#aws DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#aws}
   */
   readonly aws?: DataK8SKeycloakOrgKeycloakBackupV1Alpha1ManifestSpecAws;
   /**
   * Selector for looking up Keycloak Custom Resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#instance_selector DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#instance_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#instance_selector DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#instance_selector}
   */
   readonly instanceSelector?: DataK8SKeycloakOrgKeycloakBackupV1Alpha1ManifestSpecInstanceSelector;
   /**
   * Controls automatic restore behavior. Currently not implemented. In the future this will be used to trigger automatic restore for a given KeycloakBackup. Each backup will correspond to a single snapshot of the database (stored either in a Persistent Volume or AWS). If a user wants to restore it, all he/she needs to do is to change this flag to true. Potentially, it will be possible to restore a single backup multiple times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#restore DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#restore DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#restore}
   */
   readonly restore?: boolean | cdktf.IResolvable;
   /**
   * Name of the StorageClass for Postgresql Backup Persistent Volume Claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#storage_class_name DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#storage_class_name DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
 }
@@ -897,7 +897,7 @@ export class DataK8SKeycloakOrgKeycloakBackupV1Alpha1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest k8s_keycloak_org_keycloak_backup_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest k8s_keycloak_org_keycloak_backup_v1alpha1_manifest}
 */
 export class DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -913,7 +913,7 @@ export class DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -925,7 +925,7 @@ export class DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest k8s_keycloak_org_keycloak_backup_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/keycloak_org_keycloak_backup_v1alpha1_manifest k8s_keycloak_org_keycloak_backup_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -936,8 +936,8 @@ export class DataK8SKeycloakOrgKeycloakBackupV1Alpha1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_keycloak_org_keycloak_backup_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

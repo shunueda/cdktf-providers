@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#metadata DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#metadata DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestMetadata;
   /**
   * PodHttpChaosSpec defines the desired state of PodHttpChaos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#spec DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#spec DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#annotations DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#annotations DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#labels DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#labels DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#name DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#name DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#namespace DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#namespace DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecRulesActions
   /**
   * Type represents the patch type, only support 'JSON' as [merge patch json](https://tools.ietf.org/html/rfc7396) currently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#type DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#type DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * Value is the patch contents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#value DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#value DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -344,19 +344,19 @@ export interface DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecRulesActions
   /**
   * Body is a rule to patch message body of target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#body DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#body DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#body}
   */
   readonly body?: DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecRulesActionsPatchBody;
   /**
   * Headers is a rule to append http headers of target. For example: '[['Set-Cookie', '<one cookie>'], ['Set-Cookie', '<another cookie>']]'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#headers DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#headers DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#headers}
   */
   readonly headers?: string[];
   /**
   * Queries is a rule to append uri queries of target(Request only). For example: '[['foo', 'bar'], ['foo', 'unknown']]'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#queries DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#queries DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#queries}
   */
   readonly queries?: string[];
 }
@@ -510,37 +510,37 @@ export interface DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecRulesActions
   /**
   * Body is a rule to replace http message body in target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#body DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#body DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#body}
   */
   readonly body?: string;
   /**
   * Code is a rule to replace http status code in response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#code DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#code DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#code}
   */
   readonly code?: number;
   /**
   * Headers is a rule to replace http headers of target. The key-value pairs represent header name and header value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#headers DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#headers DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Method is a rule to replace http method in request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Path is rule to to replace uri path in http request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Queries is a rule to replace uri queries in http request. For example, with value '{ 'foo': 'unknown' }', the '/?foo=bar' will be altered to '/?foo=unknown',
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#queries DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#queries DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#queries}
   */
   readonly queries?: { [key: string]: string };
 }
@@ -781,25 +781,25 @@ export interface DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecRulesActions
   /**
   * Abort is a rule to abort a http session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#abort DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#abort DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#abort}
   */
   readonly abort?: boolean | cdktf.IResolvable;
   /**
   * Delay represents the delay of the target request/response. A duration string is a possibly unsigned sequence of decimal numbers, each with optional fraction and a unit suffix, such as '300ms', '2h45m'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#delay DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#delay DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#delay}
   */
   readonly delay?: string;
   /**
   * Patch is a rule to patch some contents in target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#patch DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#patch DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#patch}
   */
   readonly patch?: DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecRulesActionsPatch;
   /**
   * Replace is a rule to replace some contents in target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#replace DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#replace DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#replace}
   */
   readonly replace?: DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecRulesActionsReplace;
 }
@@ -982,37 +982,37 @@ export interface DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecRulesSelecto
   /**
   * Code is a rule to select target by http status code in response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#code DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#code DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#code}
   */
   readonly code?: number;
   /**
   * Method is a rule to select target by http method in request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#method DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Path is a rule to select target by uri path in http request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#path DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Port is a rule to select server listening on specific port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * RequestHeaders is a rule to select target by http headers in request. The key-value pairs represent header name and header value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#request_headers DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#request_headers DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#request_headers}
   */
   readonly requestHeaders?: { [key: string]: string };
   /**
   * ResponseHeaders is a rule to select target by http headers in response. The key-value pairs represent header name and header value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#response_headers DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#response_headers DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#response_headers}
   */
   readonly responseHeaders?: { [key: string]: string };
 }
@@ -1253,31 +1253,31 @@ export interface DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecRules {
   /**
   * Actions contains rules to inject target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#actions DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#actions DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#actions}
   */
   readonly actions: DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecRulesActions;
   /**
   * Port represents the target port to be proxy of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#port DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Selector contains the rules to select target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#selector DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#selector DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#selector}
   */
   readonly selector: DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecRulesSelector;
   /**
   * Source represents the source of current rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#source DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#source DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#source}
   */
   readonly source?: string;
   /**
   * Target is the object to be selected and injected, <Request|Response>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#target DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#target DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#target}
   */
   readonly target: string;
 }
@@ -1499,31 +1499,31 @@ export interface DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecTls {
   /**
   * CAName represents the data name of ca file in secret, 'ca.crt' for example
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#ca_name DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#ca_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#ca_name DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#ca_name}
   */
   readonly caName?: string;
   /**
   * CertName represents the data name of cert file in secret, 'tls.crt' for example
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#cert_name DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#cert_name DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#cert_name}
   */
   readonly certName: string;
   /**
   * KeyName represents the data name of key file in secret, 'tls.key' for example
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#key_name DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#key_name DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#key_name}
   */
   readonly keyName: string;
   /**
   * SecretName represents the name of required secret resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * SecretNamespace represents the namespace of required secret resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#secret_namespace DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#secret_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#secret_namespace DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#secret_namespace}
   */
   readonly secretNamespace: string;
 }
@@ -1723,13 +1723,13 @@ export interface DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpec {
   /**
   * Rules are a list of injection rule for http request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#rules DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#rules DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#rules}
   */
   readonly rules?: DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecRules[] | cdktf.IResolvable;
   /**
   * TLS is the tls config, will be override if there are multiple HTTPChaos experiments are applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#tls DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#tls DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecTls;
 }
@@ -1852,7 +1852,7 @@ export class DataK8SChaosMeshOrgPodHttpChaosV1Alpha1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest k8s_chaos_mesh_org_pod_http_chaos_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest k8s_chaos_mesh_org_pod_http_chaos_v1alpha1_manifest}
 */
 export class DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1868,7 +1868,7 @@ export class DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1880,7 +1880,7 @@ export class DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest k8s_chaos_mesh_org_pod_http_chaos_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/chaos_mesh_org_pod_http_chaos_v1alpha1_manifest k8s_chaos_mesh_org_pod_http_chaos_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1891,8 +1891,8 @@ export class DataK8SChaosMeshOrgPodHttpChaosV1Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_chaos_mesh_org_pod_http_chaos_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

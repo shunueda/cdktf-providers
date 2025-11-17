@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STestsTestkubeIoScriptV1ManifestConfig extends cdktf.Terr
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#metadata DataK8STestsTestkubeIoScriptV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#metadata DataK8STestsTestkubeIoScriptV1Manifest#metadata}
   */
   readonly metadata: DataK8STestsTestkubeIoScriptV1ManifestMetadata;
   /**
   * ScriptSpec defines the desired state of Script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#spec DataK8STestsTestkubeIoScriptV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#spec DataK8STestsTestkubeIoScriptV1Manifest#spec}
   */
   readonly spec?: DataK8STestsTestkubeIoScriptV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STestsTestkubeIoScriptV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#annotations DataK8STestsTestkubeIoScriptV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#annotations DataK8STestsTestkubeIoScriptV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#labels DataK8STestsTestkubeIoScriptV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#labels DataK8STestsTestkubeIoScriptV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#name DataK8STestsTestkubeIoScriptV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#name DataK8STestsTestkubeIoScriptV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#namespace DataK8STestsTestkubeIoScriptV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#namespace DataK8STestsTestkubeIoScriptV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,37 +219,37 @@ export interface DataK8STestsTestkubeIoScriptV1ManifestSpecRepository {
   /**
   * branch/tag name for checkout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#branch DataK8STestsTestkubeIoScriptV1Manifest#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#branch DataK8STestsTestkubeIoScriptV1Manifest#branch}
   */
   readonly branch: string;
   /**
   * if needed we can checkout particular path (dir or file) in case of BIG/mono repositories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#path DataK8STestsTestkubeIoScriptV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#path DataK8STestsTestkubeIoScriptV1Manifest#path}
   */
   readonly path?: string;
   /**
   * git auth token for private repositories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#token DataK8STestsTestkubeIoScriptV1Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#token DataK8STestsTestkubeIoScriptV1Manifest#token}
   */
   readonly token?: string;
   /**
   * Type_ repository type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#type DataK8STestsTestkubeIoScriptV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#type DataK8STestsTestkubeIoScriptV1Manifest#type}
   */
   readonly type: string;
   /**
   * Uri of content file or git directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#uri DataK8STestsTestkubeIoScriptV1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#uri DataK8STestsTestkubeIoScriptV1Manifest#uri}
   */
   readonly uri: string;
   /**
   * git auth username for private repositories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#username DataK8STestsTestkubeIoScriptV1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#username DataK8STestsTestkubeIoScriptV1Manifest#username}
   */
   readonly username?: string;
 }
@@ -481,41 +481,41 @@ export interface DataK8STestsTestkubeIoScriptV1ManifestSpec {
   /**
   * script content as string (content depends from executor)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#content DataK8STestsTestkubeIoScriptV1Manifest#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#content DataK8STestsTestkubeIoScriptV1Manifest#content}
   */
   readonly content?: string;
   /**
   * script content type can be: - direct content - created from file, - git repo directory checkout in case when test is some kind of project or have more than one file,
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#input_type DataK8STestsTestkubeIoScriptV1Manifest#input_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#input_type DataK8STestsTestkubeIoScriptV1Manifest#input_type}
   */
   readonly inputType?: string;
   /**
   * script execution custom name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#name DataK8STestsTestkubeIoScriptV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#name DataK8STestsTestkubeIoScriptV1Manifest#name}
   */
   readonly name?: string;
   /**
   * execution params passed to executor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#params DataK8STestsTestkubeIoScriptV1Manifest#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#params DataK8STestsTestkubeIoScriptV1Manifest#params}
   */
   readonly params?: { [key: string]: string };
   /**
   * repository details if exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#repository DataK8STestsTestkubeIoScriptV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#repository DataK8STestsTestkubeIoScriptV1Manifest#repository}
   */
   readonly repository?: DataK8STestsTestkubeIoScriptV1ManifestSpecRepository;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#tags DataK8STestsTestkubeIoScriptV1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#tags DataK8STestsTestkubeIoScriptV1Manifest#tags}
   */
   readonly tags?: string[];
   /**
   * script type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#type DataK8STestsTestkubeIoScriptV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#type DataK8STestsTestkubeIoScriptV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -783,7 +783,7 @@ export class DataK8STestsTestkubeIoScriptV1ManifestSpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest k8s_tests_testkube_io_script_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest k8s_tests_testkube_io_script_v1_manifest}
 */
 export class DataK8STestsTestkubeIoScriptV1Manifest extends cdktf.TerraformDataSource {
 
@@ -799,7 +799,7 @@ export class DataK8STestsTestkubeIoScriptV1Manifest extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataK8STestsTestkubeIoScriptV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STestsTestkubeIoScriptV1Manifest to import
-  * @param importFromId The id of the existing DataK8STestsTestkubeIoScriptV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STestsTestkubeIoScriptV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STestsTestkubeIoScriptV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -811,7 +811,7 @@ export class DataK8STestsTestkubeIoScriptV1Manifest extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/tests_testkube_io_script_v1_manifest k8s_tests_testkube_io_script_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/tests_testkube_io_script_v1_manifest k8s_tests_testkube_io_script_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -822,8 +822,8 @@ export class DataK8STestsTestkubeIoScriptV1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_tests_testkube_io_script_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `data_k8s_networking_istio_io_envoy_filter_v1alpha3_manifest`
 
-Refer to the Terraform Registry for docs: [`data_k8s_networking_istio_io_envoy_filter_v1alpha3_manifest`](https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_envoy_filter_v1alpha3_manifest).
+Refer to the Terraform Registry for docs: [`data_k8s_networking_istio_io_envoy_filter_v1alpha3_manifest`](https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_envoy_filter_v1alpha3_manifest).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#metadata DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#metadata DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestMetadata;
   /**
   * A [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) is a cluster-global Kubernetes resource that defines a category of secrets that the Secret Operator knows how to provision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#spec DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#spec DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#annotations DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#annotations DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#labels DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#labels DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * The amount of bits used for generating the RSA keypair. Currently, '2048', '3072' and '4096' are supported. Defaults to '2048' bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#length DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#length DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#length}
   */
   readonly length: number;
 }
@@ -278,7 +278,7 @@ export class DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendAu
 }
 export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendAutoTlsCaKeyGeneration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#rsa DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#rsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#rsa DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#rsa}
   */
   readonly rsa?: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendAutoTlsCaKeyGenerationRsa;
 }
@@ -374,13 +374,13 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * Name of the Secret being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the Secret being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#namespace DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#namespace DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -499,25 +499,25 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * Whether the certificate authority should be managed by Secret Operator, including being generated if it does not already exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#auto_generate DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#auto_generate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#auto_generate DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#auto_generate}
   */
   readonly autoGenerate?: boolean | cdktf.IResolvable;
   /**
   * The lifetime of each generated certificate authority. Should always be more than double 'maxCertificateLifetime'. If 'autoGenerate: true' then the Secret Operator will prepare a new CA certificate the old CA approaches expiration. If 'autoGenerate: false' then the Secret Operator will log a warning instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#ca_certificate_lifetime DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#ca_certificate_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#ca_certificate_lifetime DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#ca_certificate_lifetime}
   */
   readonly caCertificateLifetime?: string;
   /**
   * The algorithm used to generate a key pair and required configuration settings. Currently only RSA and a key length of 2048, 3072 or 4096 bits can be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#key_generation DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#key_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#key_generation DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#key_generation}
   */
   readonly keyGeneration?: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendAutoTlsCaKeyGeneration;
   /**
   * Reference (name and namespace) to a Kubernetes Secret object where the CA certificate and key is stored in the keys 'ca.crt' and 'ca.key' respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#secret DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#secret DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#secret}
   */
   readonly secret: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendAutoTlsCaSecret;
 }
@@ -697,13 +697,13 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * Configures the certificate authority used to issue Pod certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#ca DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#ca DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#ca}
   */
   readonly ca: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendAutoTlsCa;
   /**
   * Maximum lifetime the created certificates are allowed to have. In case consumers request a longer lifetime than allowed by this setting, the lifetime will be the minimum of both, so this setting takes precedence. The default value is 15 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#max_certificate_lifetime DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#max_certificate_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#max_certificate_lifetime DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#max_certificate_lifetime}
   */
   readonly maxCertificateLifetime?: string;
 }
@@ -825,13 +825,13 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * The kind of the issuer, Issuer or ClusterIssuer. If Issuer then it must be in the same namespace as the Pods using it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#kind DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#kind DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * The name of the issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -950,13 +950,13 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * The default lifetime of certificates. Defaults to 1 day. This may need to be increased for external issuers that impose rate limits (such as Let's Encrypt).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#default_certificate_lifetime DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#default_certificate_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#default_certificate_lifetime DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#default_certificate_lifetime}
   */
   readonly defaultCertificateLifetime?: string;
   /**
   * A reference to the cert-manager issuer that the certificates should be requested from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#issuer DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#issuer DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#issuer}
   */
   readonly issuer: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendExperimentalCertManagerIssuer;
 }
@@ -1078,13 +1078,13 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * The Secret objects are located in a single global namespace. Should be used for secrets that are provisioned by the cluster administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The Secret objects are located in the same namespace as the Pod object. Should be used for Secrets that are provisioned by the application administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#pod DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#pod DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#pod}
   */
   readonly pod?: { [key: string]: string };
 }
@@ -1209,7 +1209,7 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * Configures the namespace searched for Secret objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#search_namespace DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#search_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#search_namespace DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#search_namespace}
   */
   readonly searchNamespace: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendK8SSearchSearchNamespace;
 }
@@ -1302,13 +1302,13 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * A prefix to be prepended to generated samAccountNames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#prefix DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#prefix DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The total length of generated samAccountNames, _including_ 'prefix'. Must be larger than the length of 'prefix', but at most '20'. Note that this should be as large as possible, to minimize the risk of collisions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#total_length DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#total_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#total_length DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#total_length}
   */
   readonly totalLength?: number;
 }
@@ -1433,13 +1433,13 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * Name of the Secret being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the Secret being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#namespace DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#namespace DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -1558,13 +1558,13 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * Name of the Secret being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the Secret being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#namespace DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#namespace DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -1683,37 +1683,37 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * Allows samAccountName generation for new accounts to be customized. Note that setting this field (even if empty) makes the Secret Operator take over the generation duty from the domain controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#experimental_generate_sam_account_name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#experimental_generate_sam_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#experimental_generate_sam_account_name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#experimental_generate_sam_account_name}
   */
   readonly experimentalGenerateSamAccountName?: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendKerberosKeytabAdminActiveDirectoryExperimentalGenerateSamAccountName;
   /**
   * An AD LDAP server, such as the AD Domain Controller. This must match the server’s FQDN, or GSSAPI authentication will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#ldap_server DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#ldap_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#ldap_server DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#ldap_server}
   */
   readonly ldapServer: string;
   /**
   * Reference (name and namespace) to a Kubernetes Secret object containing the TLS CA (in 'ca.crt') that the LDAP server’s certificate should be authenticated against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#ldap_tls_ca_secret DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#ldap_tls_ca_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#ldap_tls_ca_secret DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#ldap_tls_ca_secret}
   */
   readonly ldapTlsCaSecret: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendKerberosKeytabAdminActiveDirectoryLdapTlsCaSecret;
   /**
   * Reference (name and namespace) to a Kubernetes Secret object where workload passwords will be stored. This must not be accessible to end users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#password_cache_secret DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#password_cache_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#password_cache_secret DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#password_cache_secret}
   */
   readonly passwordCacheSecret: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendKerberosKeytabAdminActiveDirectoryPasswordCacheSecret;
   /**
   * The root Distinguished Name (DN) for AD-managed schemas, typically 'CN=Schema,CN=Configuration,{domain_dn}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#schema_distinguished_name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#schema_distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#schema_distinguished_name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#schema_distinguished_name}
   */
   readonly schemaDistinguishedName: string;
   /**
   * The root Distinguished Name (DN) where service accounts should be provisioned, typically 'CN=Users,{domain_dn}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#user_distinguished_name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#user_distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#user_distinguished_name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#user_distinguished_name}
   */
   readonly userDistinguishedName: string;
 }
@@ -1939,7 +1939,7 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * The hostname of the Kerberos Admin Server. This should be provided by the Kerberos administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#kadmin_server DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#kadmin_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#kadmin_server DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#kadmin_server}
   */
   readonly kadminServer: string;
 }
@@ -2032,13 +2032,13 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * Credentials should be provisioned in a Microsoft Active Directory domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#active_directory DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#active_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#active_directory DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#active_directory}
   */
   readonly activeDirectory?: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendKerberosKeytabAdminActiveDirectory;
   /**
   * Credentials should be provisioned in a MIT Kerberos Admin Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#mit DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#mit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#mit DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#mit}
   */
   readonly mit?: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendKerberosKeytabAdminMit;
 }
@@ -2163,13 +2163,13 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * Name of the Secret being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the Secret being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#namespace DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#namespace DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -2288,31 +2288,31 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * Kerberos admin configuration settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#admin DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#admin DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#admin}
   */
   readonly admin: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendKerberosKeytabAdmin;
   /**
   * Reference ('name' and 'namespace') to a K8s Secret object where a keytab with administrative privileges is stored in the key 'keytab'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#admin_keytab_secret DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#admin_keytab_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#admin_keytab_secret DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#admin_keytab_secret}
   */
   readonly adminKeytabSecret: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendKerberosKeytabAdminKeytabSecret;
   /**
   * The admin principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#admin_principal DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#admin_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#admin_principal DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#admin_principal}
   */
   readonly adminPrincipal: string;
   /**
   * The hostname of the Kerberos Key Distribution Center (KDC). This should be provided by the Kerberos administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#kdc DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#kdc DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#kdc}
   */
   readonly kdc: string;
   /**
   * The name of the Kerberos realm. This should be provided by the Kerberos administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#realm_name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#realm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#realm_name DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#realm_name}
   */
   readonly realmName: string;
 }
@@ -2509,25 +2509,25 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBacke
   /**
   * The ['autoTls' backend](https://docs.stackable.tech/home/nightly/secret-operator/secretclass#backend-autotls) issues a TLS certificate signed by the Secret Operator. The certificate authority can be provided by the administrator, or managed automatically by the Secret Operator. A new certificate and key pair will be generated and signed for each Pod, keys or certificates are never reused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#auto_tls DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#auto_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#auto_tls DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#auto_tls}
   */
   readonly autoTls?: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendAutoTls;
   /**
   * The ['experimentalCertManager' backend][1] injects a TLS certificate issued by [cert-manager](https://cert-manager.io/). A new certificate will be requested the first time it is used by a Pod, it will be reused after that (subject to cert-manager renewal rules). [1]: https://docs.stackable.tech/home/nightly/secret-operator/secretclass#backend-certmanager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#experimental_cert_manager DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#experimental_cert_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#experimental_cert_manager DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#experimental_cert_manager}
   */
   readonly experimentalCertManager?: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendExperimentalCertManager;
   /**
   * The ['k8sSearch' backend](https://docs.stackable.tech/home/nightly/secret-operator/secretclass#backend-k8ssearch) can be used to mount Secrets across namespaces into Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#k8s_search DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#k8s_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#k8s_search DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#k8s_search}
   */
   readonly k8SSearch?: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendK8SSearch;
   /**
   * The ['kerberosKeytab' backend](https://docs.stackable.tech/home/nightly/secret-operator/secretclass#backend-kerberoskeytab) creates a Kerberos keytab file for a selected realm. The Kerberos KDC and administrator credentials must be provided by the administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#kerberos_keytab DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#kerberos_keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#kerberos_keytab DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#kerberos_keytab}
   */
   readonly kerberosKeytab?: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackendKerberosKeytab;
 }
@@ -2710,7 +2710,7 @@ export interface DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpec {
   /**
   * Each SecretClass is associated with a single [backend](https://docs.stackable.tech/home/nightly/secret-operator/secretclass#backend), which dictates the mechanism for issuing that kind of Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#backend DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#backend DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest#backend}
   */
   readonly backend: DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecBackend;
 }
@@ -2801,7 +2801,7 @@ export class DataK8SSecretsStackableTechSecretClassV1Alpha1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest k8s_secrets_stackable_tech_secret_class_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest k8s_secrets_stackable_tech_secret_class_v1alpha1_manifest}
 */
 export class DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2817,7 +2817,7 @@ export class DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2829,7 +2829,7 @@ export class DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest k8s_secrets_stackable_tech_secret_class_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/secrets_stackable_tech_secret_class_v1alpha1_manifest k8s_secrets_stackable_tech_secret_class_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2840,8 +2840,8 @@ export class DataK8SSecretsStackableTechSecretClassV1Alpha1Manifest extends cdkt
       terraformResourceType: 'k8s_secrets_stackable_tech_secret_class_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkingIstioIoWorkloadEntryV1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#metadata DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#metadata DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkingIstioIoWorkloadEntryV1ManifestMetadata;
   /**
   * Configuration affecting VMs onboarded into the mesh. See more details at: https://istio.io/docs/reference/config/networking/workload-entry.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#spec DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#spec DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#spec}
   */
   readonly spec: DataK8SNetworkingIstioIoWorkloadEntryV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkingIstioIoWorkloadEntryV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#annotations DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#annotations DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#labels DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#labels DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#name DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#name DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#namespace DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#namespace DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,43 +219,43 @@ export interface DataK8SNetworkingIstioIoWorkloadEntryV1ManifestSpec {
   /**
   * Address associated with the network endpoint without the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#address DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#address DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#address}
   */
   readonly address?: string;
   /**
   * One or more labels associated with the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#labels DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#labels DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The locality associated with the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#locality DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#locality DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#locality}
   */
   readonly locality?: string;
   /**
   * Network enables Istio to group endpoints resident in the same L3 domain/network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#network DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#network DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#network}
   */
   readonly network?: string;
   /**
   * Set of ports associated with the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#ports DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#ports DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#ports}
   */
   readonly ports?: { [key: string]: string };
   /**
   * The service account associated with the workload if a sidecar is present in the workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#service_account DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#service_account DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * The load balancing weight associated with the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#weight DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#weight DataK8SNetworkingIstioIoWorkloadEntryV1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -523,7 +523,7 @@ export class DataK8SNetworkingIstioIoWorkloadEntryV1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest k8s_networking_istio_io_workload_entry_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest k8s_networking_istio_io_workload_entry_v1_manifest}
 */
 export class DataK8SNetworkingIstioIoWorkloadEntryV1Manifest extends cdktf.TerraformDataSource {
 
@@ -539,7 +539,7 @@ export class DataK8SNetworkingIstioIoWorkloadEntryV1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SNetworkingIstioIoWorkloadEntryV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkingIstioIoWorkloadEntryV1Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkingIstioIoWorkloadEntryV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkingIstioIoWorkloadEntryV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkingIstioIoWorkloadEntryV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -551,7 +551,7 @@ export class DataK8SNetworkingIstioIoWorkloadEntryV1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_workload_entry_v1_manifest k8s_networking_istio_io_workload_entry_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_workload_entry_v1_manifest k8s_networking_istio_io_workload_entry_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -562,8 +562,8 @@ export class DataK8SNetworkingIstioIoWorkloadEntryV1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_networking_istio_io_workload_entry_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

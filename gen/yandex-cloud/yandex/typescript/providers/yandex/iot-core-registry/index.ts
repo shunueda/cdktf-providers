@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface IotCoreRegistryConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of certificate's fingerprints for the IoT Core Registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#certificates IotCoreRegistry#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#certificates IotCoreRegistry#certificates}
   */
   readonly certificates?: string[];
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#description IotCoreRegistry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#description IotCoreRegistry#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#folder_id IotCoreRegistry#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#folder_id IotCoreRegistry#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#id IotCoreRegistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#id IotCoreRegistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface IotCoreRegistryConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#labels IotCoreRegistry#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#labels IotCoreRegistry#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#name IotCoreRegistry#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#name IotCoreRegistry#name}
   */
   readonly name: string;
   /**
   * A set of passwords's id for the IoT Core Registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#passwords IotCoreRegistry#passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#passwords IotCoreRegistry#passwords}
   */
   readonly passwords?: string[];
   /**
   * log_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#log_options IotCoreRegistry#log_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#log_options IotCoreRegistry#log_options}
   */
   readonly logOptions?: IotCoreRegistryLogOptions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#timeouts IotCoreRegistry#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#timeouts IotCoreRegistry#timeouts}
   */
   readonly timeouts?: IotCoreRegistryTimeouts;
 }
@@ -67,25 +67,25 @@ export interface IotCoreRegistryLogOptions {
   /**
   * Is logging for registry disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#disabled IotCoreRegistry#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#disabled IotCoreRegistry#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Log entries are written to default log group for specified folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#folder_id IotCoreRegistry#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#folder_id IotCoreRegistry#folder_id}
   */
   readonly folderId?: string;
   /**
   * Log entries are written to specified log group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#log_group_id IotCoreRegistry#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#log_group_id IotCoreRegistry#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * Minimum log entry level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#min_level IotCoreRegistry#min_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#min_level IotCoreRegistry#min_level}
   */
   readonly minLevel?: string;
 }
@@ -256,15 +256,15 @@ export class IotCoreRegistryLogOptionsOutputReference extends cdktf.ComplexObjec
 }
 export interface IotCoreRegistryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#create IotCoreRegistry#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#create IotCoreRegistry#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#delete IotCoreRegistry#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#delete IotCoreRegistry#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#update IotCoreRegistry#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#update IotCoreRegistry#update}
   */
   readonly update?: string;
 }
@@ -416,7 +416,7 @@ export class IotCoreRegistryTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry yandex_iot_core_registry}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry yandex_iot_core_registry}
 */
 export class IotCoreRegistry extends cdktf.TerraformResource {
 
@@ -432,7 +432,7 @@ export class IotCoreRegistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IotCoreRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotCoreRegistry to import
-  * @param importFromId The id of the existing IotCoreRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotCoreRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotCoreRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -444,7 +444,7 @@ export class IotCoreRegistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iot_core_registry yandex_iot_core_registry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iot_core_registry yandex_iot_core_registry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -455,8 +455,8 @@ export class IotCoreRegistry extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_iot_core_registry',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -83,19 +83,19 @@ export interface DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoDexEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#name DataK8SArgoprojIoArgoCdV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#name DataK8SArgoprojIoArgoCdV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#value DataK8SArgoprojIoArgoCdV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#value DataK8SArgoprojIoArgoCdV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#value_from DataK8SArgoprojIoArgoCdV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#value_from DataK8SArgoprojIoArgoCdV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoDexEnvValueFrom;
 }
@@ -268,7 +268,7 @@ export interface DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoDexResourcesClaims
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#name DataK8SArgoprojIoArgoCdV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#name DataK8SArgoprojIoArgoCdV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -383,19 +383,19 @@ export interface DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoDexResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#claims DataK8SArgoprojIoArgoCdV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#claims DataK8SArgoprojIoArgoCdV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoDexResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#limits DataK8SArgoprojIoArgoCdV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#limits DataK8SArgoprojIoArgoCdV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#requests DataK8SArgoprojIoArgoCdV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#requests DataK8SArgoprojIoArgoCdV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -549,43 +549,43 @@ export interface DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoDex {
   /**
   * Config is the dex connector configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#config DataK8SArgoprojIoArgoCdV1Beta1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#config DataK8SArgoprojIoArgoCdV1Beta1Manifest#config}
   */
   readonly config?: string;
   /**
   * Env lets you specify environment variables for Dex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#env DataK8SArgoprojIoArgoCdV1Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#env DataK8SArgoprojIoArgoCdV1Beta1Manifest#env}
   */
   readonly env?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoDexEnv[] | cdktf.IResolvable;
   /**
   * Optional list of required groups a user must be a member of
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#groups DataK8SArgoprojIoArgoCdV1Beta1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#groups DataK8SArgoprojIoArgoCdV1Beta1Manifest#groups}
   */
   readonly groups?: string[];
   /**
   * Image is the Dex container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#image DataK8SArgoprojIoArgoCdV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#image DataK8SArgoprojIoArgoCdV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * OpenShiftOAuth enables OpenShift OAuth authentication for the Dex server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#open_shift_o_auth DataK8SArgoprojIoArgoCdV1Beta1Manifest#open_shift_o_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#open_shift_o_auth DataK8SArgoprojIoArgoCdV1Beta1Manifest#open_shift_o_auth}
   */
   readonly openShiftOAuth?: boolean | cdktf.IResolvable;
   /**
   * Resources defines the Compute Resources required by the container for Dex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resources DataK8SArgoprojIoArgoCdV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resources DataK8SArgoprojIoArgoCdV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoDexResources;
   /**
   * Version is the Dex container image tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#version DataK8SArgoprojIoArgoCdV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#version DataK8SArgoprojIoArgoCdV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -855,7 +855,7 @@ export interface DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoKeycloakResourcesC
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#name DataK8SArgoprojIoArgoCdV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#name DataK8SArgoprojIoArgoCdV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -970,19 +970,19 @@ export interface DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoKeycloakResources 
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#claims DataK8SArgoprojIoArgoCdV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#claims DataK8SArgoprojIoArgoCdV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoKeycloakResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#limits DataK8SArgoprojIoArgoCdV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#limits DataK8SArgoprojIoArgoCdV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#requests DataK8SArgoprojIoArgoCdV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#requests DataK8SArgoprojIoArgoCdV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1136,37 +1136,37 @@ export interface DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoKeycloak {
   /**
   * Host is the hostname to use for Ingress/Route resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#host DataK8SArgoprojIoArgoCdV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#host DataK8SArgoprojIoArgoCdV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
   * Image is the Keycloak container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#image DataK8SArgoprojIoArgoCdV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#image DataK8SArgoprojIoArgoCdV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * Resources defines the Compute Resources required by the container for Keycloak.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resources DataK8SArgoprojIoArgoCdV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resources DataK8SArgoprojIoArgoCdV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoKeycloakResources;
   /**
   * Custom root CA certificate for communicating with the Keycloak OIDC provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#root_ca DataK8SArgoprojIoArgoCdV1Beta1Manifest#root_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#root_ca DataK8SArgoprojIoArgoCdV1Beta1Manifest#root_ca}
   */
   readonly rootCa?: string;
   /**
   * VerifyTLS set to false disables strict TLS validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#verify_tls DataK8SArgoprojIoArgoCdV1Beta1Manifest#verify_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#verify_tls DataK8SArgoprojIoArgoCdV1Beta1Manifest#verify_tls}
   */
   readonly verifyTls?: boolean | cdktf.IResolvable;
   /**
   * Version is the Keycloak container image tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#version DataK8SArgoprojIoArgoCdV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#version DataK8SArgoprojIoArgoCdV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1407,19 +1407,19 @@ export interface DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSso {
   /**
   * Dex contains the configuration for Argo CD dex authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#dex DataK8SArgoprojIoArgoCdV1Beta1Manifest#dex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#dex DataK8SArgoprojIoArgoCdV1Beta1Manifest#dex}
   */
   readonly dex?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoDex;
   /**
   * Keycloak contains the configuration for Argo CD keycloak authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#keycloak DataK8SArgoprojIoArgoCdV1Beta1Manifest#keycloak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#keycloak DataK8SArgoprojIoArgoCdV1Beta1Manifest#keycloak}
   */
   readonly keycloak?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSsoKeycloak;
   /**
   * Provider installs and configures the given SSO Provider with Argo CD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#provider DataK8SArgoprojIoArgoCdV1Beta1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#provider DataK8SArgoprojIoArgoCdV1Beta1Manifest#provider}
   */
   readonly provider?: string;
 }
@@ -1573,13 +1573,13 @@ export interface DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecTlsCa {
   /**
   * ConfigMapName is the name of the ConfigMap containing the CA Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#config_map_name DataK8SArgoprojIoArgoCdV1Beta1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#config_map_name DataK8SArgoprojIoArgoCdV1Beta1Manifest#config_map_name}
   */
   readonly configMapName?: string;
   /**
   * SecretName is the name of the Secret containing the CA Certificate and Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#secret_name DataK8SArgoprojIoArgoCdV1Beta1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#secret_name DataK8SArgoprojIoArgoCdV1Beta1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -1704,13 +1704,13 @@ export interface DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecTls {
   /**
   * CA defines the CA options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#ca DataK8SArgoprojIoArgoCdV1Beta1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#ca DataK8SArgoprojIoArgoCdV1Beta1Manifest#ca}
   */
   readonly ca?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecTlsCa;
   /**
   * InitialCerts defines custom TLS certificates upon creation of the cluster for connecting Git repositories via HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#initial_certs DataK8SArgoprojIoArgoCdV1Beta1Manifest#initial_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#initial_certs DataK8SArgoprojIoArgoCdV1Beta1Manifest#initial_certs}
   */
   readonly initialCerts?: { [key: string]: string };
 }
@@ -1835,259 +1835,259 @@ export interface DataK8SArgoprojIoArgoCdV1Beta1ManifestSpec {
   /**
   * AggregatedClusterRoles will allow users to have aggregated ClusterRoles for a cluster scoped instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#aggregated_cluster_roles DataK8SArgoprojIoArgoCdV1Beta1Manifest#aggregated_cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#aggregated_cluster_roles DataK8SArgoprojIoArgoCdV1Beta1Manifest#aggregated_cluster_roles}
   */
   readonly aggregatedClusterRoles?: boolean | cdktf.IResolvable;
   /**
   * ApplicationInstanceLabelKey is the key name where Argo CD injects the app name as a tracking label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#application_instance_label_key DataK8SArgoprojIoArgoCdV1Beta1Manifest#application_instance_label_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#application_instance_label_key DataK8SArgoprojIoArgoCdV1Beta1Manifest#application_instance_label_key}
   */
   readonly applicationInstanceLabelKey?: string;
   /**
   * ArgoCDApplicationSet defines whether the Argo CD ApplicationSet controller should be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#application_set DataK8SArgoprojIoArgoCdV1Beta1Manifest#application_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#application_set DataK8SArgoprojIoArgoCdV1Beta1Manifest#application_set}
   */
   readonly applicationSet?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecApplicationSet;
   /**
   * Banner defines an additional banner to be displayed in Argo CD UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#banner DataK8SArgoprojIoArgoCdV1Beta1Manifest#banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#banner DataK8SArgoprojIoArgoCdV1Beta1Manifest#banner}
   */
   readonly banner?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecBanner;
   /**
   * ConfigManagementPlugins is used to specify additional config management plugins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#config_management_plugins DataK8SArgoprojIoArgoCdV1Beta1Manifest#config_management_plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#config_management_plugins DataK8SArgoprojIoArgoCdV1Beta1Manifest#config_management_plugins}
   */
   readonly configManagementPlugins?: string;
   /**
   * Controller defines the Application Controller options for ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#controller DataK8SArgoprojIoArgoCdV1Beta1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#controller DataK8SArgoprojIoArgoCdV1Beta1Manifest#controller}
   */
   readonly controller?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecController;
   /**
   * DefaultClusterScopedRoleDisabled will disable creation of default ClusterRoles for a cluster scoped instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#default_cluster_scoped_role_disabled DataK8SArgoprojIoArgoCdV1Beta1Manifest#default_cluster_scoped_role_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#default_cluster_scoped_role_disabled DataK8SArgoprojIoArgoCdV1Beta1Manifest#default_cluster_scoped_role_disabled}
   */
   readonly defaultClusterScopedRoleDisabled?: boolean | cdktf.IResolvable;
   /**
   * DisableAdmin will disable the admin user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#disable_admin DataK8SArgoprojIoArgoCdV1Beta1Manifest#disable_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#disable_admin DataK8SArgoprojIoArgoCdV1Beta1Manifest#disable_admin}
   */
   readonly disableAdmin?: boolean | cdktf.IResolvable;
   /**
   * ExtraConfig can be used to add fields to Argo CD configmap that are not supported by Argo CD CRD. Note: ExtraConfig takes precedence over Argo CD CRD. For example, A user sets 'argocd.Spec.DisableAdmin' = true and also 'a.Spec.ExtraConfig['admin.enabled']' = true. In this case, operator updates Argo CD Configmap as follows -> argocd-cm.Data['admin.enabled'] = true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#extra_config DataK8SArgoprojIoArgoCdV1Beta1Manifest#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#extra_config DataK8SArgoprojIoArgoCdV1Beta1Manifest#extra_config}
   */
   readonly extraConfig?: { [key: string]: string };
   /**
   * GAAnonymizeUsers toggles user IDs being hashed before sending to google analytics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#ga_anonymize_users DataK8SArgoprojIoArgoCdV1Beta1Manifest#ga_anonymize_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#ga_anonymize_users DataK8SArgoprojIoArgoCdV1Beta1Manifest#ga_anonymize_users}
   */
   readonly gaAnonymizeUsers?: boolean | cdktf.IResolvable;
   /**
   * GATrackingID is the google analytics tracking ID to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#ga_tracking_id DataK8SArgoprojIoArgoCdV1Beta1Manifest#ga_tracking_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#ga_tracking_id DataK8SArgoprojIoArgoCdV1Beta1Manifest#ga_tracking_id}
   */
   readonly gaTrackingId?: string;
   /**
   * Deprecated: Grafana defines the Grafana server options for ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#grafana DataK8SArgoprojIoArgoCdV1Beta1Manifest#grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#grafana DataK8SArgoprojIoArgoCdV1Beta1Manifest#grafana}
   */
   readonly grafana?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecGrafana;
   /**
   * HA options for High Availability support for the Redis component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#ha DataK8SArgoprojIoArgoCdV1Beta1Manifest#ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#ha DataK8SArgoprojIoArgoCdV1Beta1Manifest#ha}
   */
   readonly ha?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecHa;
   /**
   * HelpChatText is the text for getting chat help, defaults to 'Chat now!'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#help_chat_text DataK8SArgoprojIoArgoCdV1Beta1Manifest#help_chat_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#help_chat_text DataK8SArgoprojIoArgoCdV1Beta1Manifest#help_chat_text}
   */
   readonly helpChatText?: string;
   /**
   * HelpChatURL is the URL for getting chat help, this will typically be your Slack channel for support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#help_chat_url DataK8SArgoprojIoArgoCdV1Beta1Manifest#help_chat_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#help_chat_url DataK8SArgoprojIoArgoCdV1Beta1Manifest#help_chat_url}
   */
   readonly helpChatUrl?: string;
   /**
   * Image is the ArgoCD container image for all ArgoCD components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#image DataK8SArgoprojIoArgoCdV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#image DataK8SArgoprojIoArgoCdV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
   * Import is the import/restore options for ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#import DataK8SArgoprojIoArgoCdV1Beta1Manifest#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#import DataK8SArgoprojIoArgoCdV1Beta1Manifest#import}
   */
   readonly import?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecImport;
   /**
   * InitialRepositories to configure Argo CD with upon creation of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#initial_repositories DataK8SArgoprojIoArgoCdV1Beta1Manifest#initial_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#initial_repositories DataK8SArgoprojIoArgoCdV1Beta1Manifest#initial_repositories}
   */
   readonly initialRepositories?: string;
   /**
   * InitialSSHKnownHosts defines the SSH known hosts data upon creation of the cluster for connecting Git repositories via SSH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#initial_ssh_known_hosts DataK8SArgoprojIoArgoCdV1Beta1Manifest#initial_ssh_known_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#initial_ssh_known_hosts DataK8SArgoprojIoArgoCdV1Beta1Manifest#initial_ssh_known_hosts}
   */
   readonly initialSshKnownHosts?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecInitialSshKnownHosts;
   /**
   * KustomizeBuildOptions is used to specify build options/parameters to use with 'kustomize build'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#kustomize_build_options DataK8SArgoprojIoArgoCdV1Beta1Manifest#kustomize_build_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#kustomize_build_options DataK8SArgoprojIoArgoCdV1Beta1Manifest#kustomize_build_options}
   */
   readonly kustomizeBuildOptions?: string;
   /**
   * KustomizeVersions is a listing of configured versions of Kustomize to be made available within ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#kustomize_versions DataK8SArgoprojIoArgoCdV1Beta1Manifest#kustomize_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#kustomize_versions DataK8SArgoprojIoArgoCdV1Beta1Manifest#kustomize_versions}
   */
   readonly kustomizeVersions?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecKustomizeVersions[] | cdktf.IResolvable;
   /**
   * Monitoring defines whether workload status monitoring configuration for this instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#monitoring DataK8SArgoprojIoArgoCdV1Beta1Manifest#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#monitoring DataK8SArgoprojIoArgoCdV1Beta1Manifest#monitoring}
   */
   readonly monitoring?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecMonitoring;
   /**
   * NodePlacement defines NodeSelectors and Taints for Argo CD workloads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#node_placement DataK8SArgoprojIoArgoCdV1Beta1Manifest#node_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#node_placement DataK8SArgoprojIoArgoCdV1Beta1Manifest#node_placement}
   */
   readonly nodePlacement?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecNodePlacement;
   /**
   * Notifications defines whether the Argo CD Notifications controller should be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#notifications DataK8SArgoprojIoArgoCdV1Beta1Manifest#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#notifications DataK8SArgoprojIoArgoCdV1Beta1Manifest#notifications}
   */
   readonly notifications?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecNotifications;
   /**
   * OIDCConfig is the OIDC configuration as an alternative to dex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#oidc_config DataK8SArgoprojIoArgoCdV1Beta1Manifest#oidc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#oidc_config DataK8SArgoprojIoArgoCdV1Beta1Manifest#oidc_config}
   */
   readonly oidcConfig?: string;
   /**
   * Prometheus defines the Prometheus server options for ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#prometheus DataK8SArgoprojIoArgoCdV1Beta1Manifest#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#prometheus DataK8SArgoprojIoArgoCdV1Beta1Manifest#prometheus}
   */
   readonly prometheus?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecPrometheus;
   /**
   * RBAC defines the RBAC configuration for Argo CD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#rbac DataK8SArgoprojIoArgoCdV1Beta1Manifest#rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#rbac DataK8SArgoprojIoArgoCdV1Beta1Manifest#rbac}
   */
   readonly rbac?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecRbac;
   /**
   * Redis defines the Redis server options for ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#redis DataK8SArgoprojIoArgoCdV1Beta1Manifest#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#redis DataK8SArgoprojIoArgoCdV1Beta1Manifest#redis}
   */
   readonly redis?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecRedis;
   /**
   * Repo defines the repo server options for Argo CD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#repo DataK8SArgoprojIoArgoCdV1Beta1Manifest#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#repo DataK8SArgoprojIoArgoCdV1Beta1Manifest#repo}
   */
   readonly repo?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecRepo;
   /**
   * RepositoryCredentials are the Git pull credentials to configure Argo CD with upon creation of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#repository_credentials DataK8SArgoprojIoArgoCdV1Beta1Manifest#repository_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#repository_credentials DataK8SArgoprojIoArgoCdV1Beta1Manifest#repository_credentials}
   */
   readonly repositoryCredentials?: string;
   /**
   * ResourceActions customizes resource action behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resource_actions DataK8SArgoprojIoArgoCdV1Beta1Manifest#resource_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resource_actions DataK8SArgoprojIoArgoCdV1Beta1Manifest#resource_actions}
   */
   readonly resourceActions?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecResourceActions[] | cdktf.IResolvable;
   /**
   * ResourceExclusions is used to completely ignore entire classes of resource group/kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resource_exclusions DataK8SArgoprojIoArgoCdV1Beta1Manifest#resource_exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resource_exclusions DataK8SArgoprojIoArgoCdV1Beta1Manifest#resource_exclusions}
   */
   readonly resourceExclusions?: string;
   /**
   * ResourceHealthChecks customizes resource health check behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resource_health_checks DataK8SArgoprojIoArgoCdV1Beta1Manifest#resource_health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resource_health_checks DataK8SArgoprojIoArgoCdV1Beta1Manifest#resource_health_checks}
   */
   readonly resourceHealthChecks?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecResourceHealthChecks[] | cdktf.IResolvable;
   /**
   * ResourceIgnoreDifferences customizes resource ignore difference behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resource_ignore_differences DataK8SArgoprojIoArgoCdV1Beta1Manifest#resource_ignore_differences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resource_ignore_differences DataK8SArgoprojIoArgoCdV1Beta1Manifest#resource_ignore_differences}
   */
   readonly resourceIgnoreDifferences?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecResourceIgnoreDifferences;
   /**
   * ResourceInclusions is used to only include specific group/kinds in the reconciliation process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resource_inclusions DataK8SArgoprojIoArgoCdV1Beta1Manifest#resource_inclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resource_inclusions DataK8SArgoprojIoArgoCdV1Beta1Manifest#resource_inclusions}
   */
   readonly resourceInclusions?: string;
   /**
   * ResourceTrackingMethod defines how Argo CD should track resources that it manages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resource_tracking_method DataK8SArgoprojIoArgoCdV1Beta1Manifest#resource_tracking_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#resource_tracking_method DataK8SArgoprojIoArgoCdV1Beta1Manifest#resource_tracking_method}
   */
   readonly resourceTrackingMethod?: string;
   /**
   * Server defines the options for the ArgoCD Server component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#server DataK8SArgoprojIoArgoCdV1Beta1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#server DataK8SArgoprojIoArgoCdV1Beta1Manifest#server}
   */
   readonly server?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecServer;
   /**
   * SourceNamespaces defines the namespaces application resources are allowed to be created in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#source_namespaces DataK8SArgoprojIoArgoCdV1Beta1Manifest#source_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#source_namespaces DataK8SArgoprojIoArgoCdV1Beta1Manifest#source_namespaces}
   */
   readonly sourceNamespaces?: string[];
   /**
   * SSO defines the Single Sign-on configuration for Argo CD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#sso DataK8SArgoprojIoArgoCdV1Beta1Manifest#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#sso DataK8SArgoprojIoArgoCdV1Beta1Manifest#sso}
   */
   readonly sso?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecSso;
   /**
   * StatusBadgeEnabled toggles application status badge feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#status_badge_enabled DataK8SArgoprojIoArgoCdV1Beta1Manifest#status_badge_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#status_badge_enabled DataK8SArgoprojIoArgoCdV1Beta1Manifest#status_badge_enabled}
   */
   readonly statusBadgeEnabled?: boolean | cdktf.IResolvable;
   /**
   * TLS defines the TLS options for ArgoCD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#tls DataK8SArgoprojIoArgoCdV1Beta1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#tls DataK8SArgoprojIoArgoCdV1Beta1Manifest#tls}
   */
   readonly tls?: DataK8SArgoprojIoArgoCdV1Beta1ManifestSpecTls;
   /**
   * UsersAnonymousEnabled toggles anonymous user access. The anonymous users get default role permissions specified argocd-rbac-cm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#users_anonymous_enabled DataK8SArgoprojIoArgoCdV1Beta1Manifest#users_anonymous_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#users_anonymous_enabled DataK8SArgoprojIoArgoCdV1Beta1Manifest#users_anonymous_enabled}
   */
   readonly usersAnonymousEnabled?: boolean | cdktf.IResolvable;
   /**
   * Version is the tag to use with the ArgoCD container image for all ArgoCD components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#version DataK8SArgoprojIoArgoCdV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_v1beta1_manifest#version DataK8SArgoprojIoArgoCdV1Beta1Manifest#version}
   */
   readonly version?: string;
 }

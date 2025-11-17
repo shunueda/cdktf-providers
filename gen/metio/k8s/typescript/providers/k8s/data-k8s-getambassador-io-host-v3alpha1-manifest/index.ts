@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGetambassadorIoHostV3Alpha1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#metadata DataK8SGetambassadorIoHostV3Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#metadata DataK8SGetambassadorIoHostV3Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SGetambassadorIoHostV3Alpha1ManifestMetadata;
   /**
   * HostSpec defines the desired state of Host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#spec DataK8SGetambassadorIoHostV3Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#spec DataK8SGetambassadorIoHostV3Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SGetambassadorIoHostV3Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGetambassadorIoHostV3Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#annotations DataK8SGetambassadorIoHostV3Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#annotations DataK8SGetambassadorIoHostV3Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#labels DataK8SGetambassadorIoHostV3Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#labels DataK8SGetambassadorIoHostV3Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#name DataK8SGetambassadorIoHostV3Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#name DataK8SGetambassadorIoHostV3Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#namespace DataK8SGetambassadorIoHostV3Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#namespace DataK8SGetambassadorIoHostV3Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SGetambassadorIoHostV3Alpha1ManifestSpecAcmeProviderPriva
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#name DataK8SGetambassadorIoHostV3Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#name DataK8SGetambassadorIoHostV3Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -315,23 +315,23 @@ export interface DataK8SGetambassadorIoHostV3Alpha1ManifestSpecAcmeProvider {
   /**
   * Specifies who to talk ACME with to get certs. Defaults to Let's Encrypt; if 'none' (case-insensitive), do not try to do ACME for this Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#authority DataK8SGetambassadorIoHostV3Alpha1Manifest#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#authority DataK8SGetambassadorIoHostV3Alpha1Manifest#authority}
   */
   readonly authority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#email DataK8SGetambassadorIoHostV3Alpha1Manifest#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#email DataK8SGetambassadorIoHostV3Alpha1Manifest#email}
   */
   readonly email?: string;
   /**
   * Specifies the Kubernetes Secret to use to store the private key of the ACME account (essentially, where to store the auto-generated password for the auto-created ACME account). You should not normally need to set this--the default value is based on a combination of the ACME authority being registered wit and the email address associated with the account. Note that this is a native-Kubernetes-style core.v1.LocalObjectReference, not an Ambassador-style '{name}.{namespace}' string. Because we're opinionated, it does not support referencing a Secret in another namespace (because most native Kubernetes resources don't support that), but if we ever abandon that opinion and decide to support non-local references it, it would be by adding a 'namespace:' field by changing it from a core.v1.LocalObjectReference to a core.v1.SecretReference, not by adopting the '{name}.{namespace}' notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#private_key_secret DataK8SGetambassadorIoHostV3Alpha1Manifest#private_key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#private_key_secret DataK8SGetambassadorIoHostV3Alpha1Manifest#private_key_secret}
   */
   readonly privateKeySecret?: DataK8SGetambassadorIoHostV3Alpha1ManifestSpecAcmeProviderPrivateKeySecret;
   /**
   * This is normally set automatically
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#registration DataK8SGetambassadorIoHostV3Alpha1Manifest#registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#registration DataK8SGetambassadorIoHostV3Alpha1Manifest#registration}
   */
   readonly registration?: string;
 }
@@ -514,19 +514,19 @@ export interface DataK8SGetambassadorIoHostV3Alpha1ManifestSpecMappingSelectorMa
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#key DataK8SGetambassadorIoHostV3Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#key DataK8SGetambassadorIoHostV3Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#operator DataK8SGetambassadorIoHostV3Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#operator DataK8SGetambassadorIoHostV3Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#values DataK8SGetambassadorIoHostV3Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#values DataK8SGetambassadorIoHostV3Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -696,13 +696,13 @@ export interface DataK8SGetambassadorIoHostV3Alpha1ManifestSpecMappingSelector {
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#match_expressions DataK8SGetambassadorIoHostV3Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#match_expressions DataK8SGetambassadorIoHostV3Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGetambassadorIoHostV3Alpha1ManifestSpecMappingSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#match_labels DataK8SGetambassadorIoHostV3Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#match_labels DataK8SGetambassadorIoHostV3Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -827,13 +827,13 @@ export interface DataK8SGetambassadorIoHostV3Alpha1ManifestSpecPreviewUrl {
   /**
   * Is the Preview URL feature enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#enabled DataK8SGetambassadorIoHostV3Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#enabled DataK8SGetambassadorIoHostV3Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * What type of Preview URL is allowed?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#type DataK8SGetambassadorIoHostV3Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#type DataK8SGetambassadorIoHostV3Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -956,11 +956,11 @@ export class DataK8SGetambassadorIoHostV3Alpha1ManifestSpecPreviewUrlOutputRefer
 }
 export interface DataK8SGetambassadorIoHostV3Alpha1ManifestSpecRequestPolicyInsecure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#action DataK8SGetambassadorIoHostV3Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#action DataK8SGetambassadorIoHostV3Alpha1Manifest#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#additional_port DataK8SGetambassadorIoHostV3Alpha1Manifest#additional_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#additional_port DataK8SGetambassadorIoHostV3Alpha1Manifest#additional_port}
   */
   readonly additionalPort?: number;
 }
@@ -1083,7 +1083,7 @@ export class DataK8SGetambassadorIoHostV3Alpha1ManifestSpecRequestPolicyInsecure
 }
 export interface DataK8SGetambassadorIoHostV3Alpha1ManifestSpecRequestPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#insecure DataK8SGetambassadorIoHostV3Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#insecure DataK8SGetambassadorIoHostV3Alpha1Manifest#insecure}
   */
   readonly insecure?: DataK8SGetambassadorIoHostV3Alpha1ManifestSpecRequestPolicyInsecure;
 }
@@ -1179,19 +1179,19 @@ export interface DataK8SGetambassadorIoHostV3Alpha1ManifestSpecSelectorMatchExpr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#key DataK8SGetambassadorIoHostV3Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#key DataK8SGetambassadorIoHostV3Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#operator DataK8SGetambassadorIoHostV3Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#operator DataK8SGetambassadorIoHostV3Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#values DataK8SGetambassadorIoHostV3Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#values DataK8SGetambassadorIoHostV3Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1361,13 +1361,13 @@ export interface DataK8SGetambassadorIoHostV3Alpha1ManifestSpecSelector {
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#match_expressions DataK8SGetambassadorIoHostV3Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#match_expressions DataK8SGetambassadorIoHostV3Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SGetambassadorIoHostV3Alpha1ManifestSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#match_labels DataK8SGetambassadorIoHostV3Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#match_labels DataK8SGetambassadorIoHostV3Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1490,55 +1490,55 @@ export class DataK8SGetambassadorIoHostV3Alpha1ManifestSpecSelectorOutputReferen
 }
 export interface DataK8SGetambassadorIoHostV3Alpha1ManifestSpecTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#alpn_protocols DataK8SGetambassadorIoHostV3Alpha1Manifest#alpn_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#alpn_protocols DataK8SGetambassadorIoHostV3Alpha1Manifest#alpn_protocols}
   */
   readonly alpnProtocols?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#ca_secret DataK8SGetambassadorIoHostV3Alpha1Manifest#ca_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#ca_secret DataK8SGetambassadorIoHostV3Alpha1Manifest#ca_secret}
   */
   readonly caSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#cacert_chain_file DataK8SGetambassadorIoHostV3Alpha1Manifest#cacert_chain_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#cacert_chain_file DataK8SGetambassadorIoHostV3Alpha1Manifest#cacert_chain_file}
   */
   readonly cacertChainFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#cert_chain_file DataK8SGetambassadorIoHostV3Alpha1Manifest#cert_chain_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#cert_chain_file DataK8SGetambassadorIoHostV3Alpha1Manifest#cert_chain_file}
   */
   readonly certChainFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#cert_required DataK8SGetambassadorIoHostV3Alpha1Manifest#cert_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#cert_required DataK8SGetambassadorIoHostV3Alpha1Manifest#cert_required}
   */
   readonly certRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#cipher_suites DataK8SGetambassadorIoHostV3Alpha1Manifest#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#cipher_suites DataK8SGetambassadorIoHostV3Alpha1Manifest#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#crl_secret DataK8SGetambassadorIoHostV3Alpha1Manifest#crl_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#crl_secret DataK8SGetambassadorIoHostV3Alpha1Manifest#crl_secret}
   */
   readonly crlSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#ecdh_curves DataK8SGetambassadorIoHostV3Alpha1Manifest#ecdh_curves}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#ecdh_curves DataK8SGetambassadorIoHostV3Alpha1Manifest#ecdh_curves}
   */
   readonly ecdhCurves?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#max_tls_version DataK8SGetambassadorIoHostV3Alpha1Manifest#max_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#max_tls_version DataK8SGetambassadorIoHostV3Alpha1Manifest#max_tls_version}
   */
   readonly maxTlsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#min_tls_version DataK8SGetambassadorIoHostV3Alpha1Manifest#min_tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#min_tls_version DataK8SGetambassadorIoHostV3Alpha1Manifest#min_tls_version}
   */
   readonly minTlsVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#private_key_file DataK8SGetambassadorIoHostV3Alpha1Manifest#private_key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#private_key_file DataK8SGetambassadorIoHostV3Alpha1Manifest#private_key_file}
   */
   readonly privateKeyFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#redirect_cleartext_from DataK8SGetambassadorIoHostV3Alpha1Manifest#redirect_cleartext_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#redirect_cleartext_from DataK8SGetambassadorIoHostV3Alpha1Manifest#redirect_cleartext_from}
   */
   readonly redirectCleartextFrom?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#sni DataK8SGetambassadorIoHostV3Alpha1Manifest#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#sni DataK8SGetambassadorIoHostV3Alpha1Manifest#sni}
   */
   readonly sni?: string;
 }
@@ -1982,7 +1982,7 @@ export interface DataK8SGetambassadorIoHostV3Alpha1ManifestSpecTlsContext {
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#name DataK8SGetambassadorIoHostV3Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#name DataK8SGetambassadorIoHostV3Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2078,13 +2078,13 @@ export interface DataK8SGetambassadorIoHostV3Alpha1ManifestSpecTlsSecret {
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#name DataK8SGetambassadorIoHostV3Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#name DataK8SGetambassadorIoHostV3Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#namespace DataK8SGetambassadorIoHostV3Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#namespace DataK8SGetambassadorIoHostV3Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2209,61 +2209,61 @@ export interface DataK8SGetambassadorIoHostV3Alpha1ManifestSpec {
   /**
   * Specifies whether/who to talk ACME with to automatically manage the $tlsSecret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#acme_provider DataK8SGetambassadorIoHostV3Alpha1Manifest#acme_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#acme_provider DataK8SGetambassadorIoHostV3Alpha1Manifest#acme_provider}
   */
   readonly acmeProvider?: DataK8SGetambassadorIoHostV3Alpha1ManifestSpecAcmeProvider;
   /**
   * Common to all Ambassador objects (and optional).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#ambassador_id DataK8SGetambassadorIoHostV3Alpha1Manifest#ambassador_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#ambassador_id DataK8SGetambassadorIoHostV3Alpha1Manifest#ambassador_id}
   */
   readonly ambassadorId?: string[];
   /**
   * Hostname by which the Ambassador can be reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#hostname DataK8SGetambassadorIoHostV3Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#hostname DataK8SGetambassadorIoHostV3Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * Selector for Mappings we'll associate with this Host. At the moment, Selector and MappingSelector are synonyms, but that will change soon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#mapping_selector DataK8SGetambassadorIoHostV3Alpha1Manifest#mapping_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#mapping_selector DataK8SGetambassadorIoHostV3Alpha1Manifest#mapping_selector}
   */
   readonly mappingSelector?: DataK8SGetambassadorIoHostV3Alpha1ManifestSpecMappingSelector;
   /**
   * Configuration for the Preview URL feature of Service Preview. Defaults to preview URLs not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#preview_url DataK8SGetambassadorIoHostV3Alpha1Manifest#preview_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#preview_url DataK8SGetambassadorIoHostV3Alpha1Manifest#preview_url}
   */
   readonly previewUrl?: DataK8SGetambassadorIoHostV3Alpha1ManifestSpecPreviewUrl;
   /**
   * Request policy definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#request_policy DataK8SGetambassadorIoHostV3Alpha1Manifest#request_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#request_policy DataK8SGetambassadorIoHostV3Alpha1Manifest#request_policy}
   */
   readonly requestPolicy?: DataK8SGetambassadorIoHostV3Alpha1ManifestSpecRequestPolicy;
   /**
   * DEPRECATED: Selector by which we can find further configuration. Use MappingSelector instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#selector DataK8SGetambassadorIoHostV3Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#selector DataK8SGetambassadorIoHostV3Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SGetambassadorIoHostV3Alpha1ManifestSpecSelector;
   /**
   * TLS configuration. It is not valid to specify both 'tlsContext' and 'tls'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#tls DataK8SGetambassadorIoHostV3Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#tls DataK8SGetambassadorIoHostV3Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SGetambassadorIoHostV3Alpha1ManifestSpecTls;
   /**
   * Name of the TLSContext the Host resource is linked with. It is not valid to specify both 'tlsContext' and 'tls'. Note that this is a native-Kubernetes-style core.v1.LocalObjectReference, not an Ambassador-style '{name}.{namespace}' string. Because we're opinionated, it does not support referencing a Secret in another namespace (because most native Kubernetes resources don't support that), but if we ever abandon that opinion and decide to support non-local references it, it would be by adding a 'namespace:' field by changing it from a core.v1.LocalObjectReference to a core.v1.SecretReference, not by adopting the '{name}.{namespace}' notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#tls_context DataK8SGetambassadorIoHostV3Alpha1Manifest#tls_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#tls_context DataK8SGetambassadorIoHostV3Alpha1Manifest#tls_context}
   */
   readonly tlsContext?: DataK8SGetambassadorIoHostV3Alpha1ManifestSpecTlsContext;
   /**
   * Name of the Kubernetes secret into which to save generated certificates. If ACME is enabled (see $acmeProvider), then the default is $hostname; otherwise the default is ''. If the value is '', then we do not do TLS for this Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#tls_secret DataK8SGetambassadorIoHostV3Alpha1Manifest#tls_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#tls_secret DataK8SGetambassadorIoHostV3Alpha1Manifest#tls_secret}
   */
   readonly tlsSecret?: DataK8SGetambassadorIoHostV3Alpha1ManifestSpecTlsSecret;
 }
@@ -2618,7 +2618,7 @@ export class DataK8SGetambassadorIoHostV3Alpha1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest k8s_getambassador_io_host_v3alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest k8s_getambassador_io_host_v3alpha1_manifest}
 */
 export class DataK8SGetambassadorIoHostV3Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2634,7 +2634,7 @@ export class DataK8SGetambassadorIoHostV3Alpha1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SGetambassadorIoHostV3Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGetambassadorIoHostV3Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SGetambassadorIoHostV3Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGetambassadorIoHostV3Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGetambassadorIoHostV3Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2646,7 +2646,7 @@ export class DataK8SGetambassadorIoHostV3Alpha1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/getambassador_io_host_v3alpha1_manifest k8s_getambassador_io_host_v3alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/getambassador_io_host_v3alpha1_manifest k8s_getambassador_io_host_v3alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2657,8 +2657,8 @@ export class DataK8SGetambassadorIoHostV3Alpha1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_getambassador_io_host_v3alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

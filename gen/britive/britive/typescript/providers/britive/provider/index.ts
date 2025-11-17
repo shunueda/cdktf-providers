@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.4/docs
+// https://registry.terraform.io/providers/britive/britive/2.2.5/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface BritiveProviderConfig {
   /**
   * This is the file path for Britive provider configuration. The default configuration path is ~/.britive/tf.config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs#config_path BritiveProvider#config_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs#config_path BritiveProvider#config_path}
   */
   readonly configPath?: string;
   /**
   * This is the Britive Tenant URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs#tenant BritiveProvider#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs#tenant BritiveProvider#tenant}
   */
   readonly tenant?: string;
   /**
   * This is the API Token to interact with your Britive API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs#token BritiveProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs#token BritiveProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs#alias BritiveProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs#alias BritiveProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs britive}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs britive}
 */
 export class BritiveProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class BritiveProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a BritiveProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BritiveProvider to import
-  * @param importFromId The id of the existing BritiveProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BritiveProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BritiveProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class BritiveProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs britive} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs britive} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class BritiveProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'britive',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.4',
-        providerVersionConstraint: '2.2.4'
+        providerVersion: '2.2.5',
+        providerVersionConstraint: '2.2.5'
       },
       terraformProviderSource: 'britive/britive'
     });

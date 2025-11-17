@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/connectionmanager_connection
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/connectionmanager_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,7 +12,7 @@ export interface DataYandexConnectionmanagerConnectionConfig extends cdktf.Terra
   * filename: yandex/cloud/connectionmanager/v1/connection_service.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/connectionmanager_connection#connection_id DataYandexConnectionmanagerConnection#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/connectionmanager_connection#connection_id DataYandexConnectionmanagerConnection#connection_id}
   */
   readonly connectionId?: string;
   /**
@@ -20,7 +20,7 @@ export interface DataYandexConnectionmanagerConnectionConfig extends cdktf.Terra
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/connectionmanager_connection#folder_id DataYandexConnectionmanagerConnection#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/connectionmanager_connection#folder_id DataYandexConnectionmanagerConnection#folder_id}
   */
   readonly folderId?: string;
   /**
@@ -28,14 +28,14 @@ export interface DataYandexConnectionmanagerConnectionConfig extends cdktf.Terra
   * filename: yandex/cloud/connectionmanager/v1/connection_service.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/connectionmanager_connection#id DataYandexConnectionmanagerConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/connectionmanager_connection#id DataYandexConnectionmanagerConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/connectionmanager_connection#timeouts DataYandexConnectionmanagerConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/connectionmanager_connection#timeouts DataYandexConnectionmanagerConnection#timeouts}
   */
   readonly timeouts?: DataYandexConnectionmanagerConnectionTimeouts;
 }
@@ -45,7 +45,7 @@ export interface DataYandexConnectionmanagerConnectionLockboxSecret {
   * filename: yandex/cloud/connectionmanager/v1/connection.proto
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/connectionmanager_connection#id DataYandexConnectionmanagerConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/connectionmanager_connection#id DataYandexConnectionmanagerConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5981,6 +5981,726 @@ export class DataYandexConnectionmanagerConnectionParamsRedisOutputReference ext
     return this.getNumberListAttribute('databases');
   }
 }
+export interface DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions {
+}
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptionsToTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptionsToHclTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // excluded_punctuation - computed: true, optional: false, required: false
+  public get excludedPunctuation() {
+    return this.getStringAttribute('excluded_punctuation');
+  }
+
+  // include_digits - computed: true, optional: false, required: false
+  public get includeDigits() {
+    return this.getBooleanAttribute('include_digits');
+  }
+
+  // include_lowercase - computed: true, optional: false, required: false
+  public get includeLowercase() {
+    return this.getBooleanAttribute('include_lowercase');
+  }
+
+  // include_punctuation - computed: true, optional: false, required: false
+  public get includePunctuation() {
+    return this.getBooleanAttribute('include_punctuation');
+  }
+
+  // include_uppercase - computed: true, optional: false, required: false
+  public get includeUppercase() {
+    return this.getBooleanAttribute('include_uppercase');
+  }
+
+  // included_punctuation - computed: true, optional: false, required: false
+  public get includedPunctuation() {
+    return this.getStringAttribute('included_punctuation');
+  }
+
+  // length - computed: true, optional: false, required: false
+  public get length() {
+    return this.getNumberAttribute('length');
+  }
+}
+export interface DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptions {
+}
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsToTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsToHclTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptions): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // cookie - computed: true, optional: false, required: false
+  public get cookie() {
+    return this.getStringAttribute('cookie');
+  }
+
+  // lockbox_password_generation_options - computed: true, optional: false, required: false
+  private _lockboxPasswordGenerationOptions = new DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptionsOutputReference(this, "lockbox_password_generation_options");
+  public get lockboxPasswordGenerationOptions() {
+    return this._lockboxPasswordGenerationOptions;
+  }
+}
+export interface DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPassword {
+}
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordToTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPassword): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordToHclTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPassword): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPassword | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPassword | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // lockbox_secret_key - computed: true, optional: false, required: false
+  public get lockboxSecretKey() {
+    return this.getStringAttribute('lockbox_secret_key');
+  }
+
+  // password_generation_options - computed: true, optional: false, required: false
+  private _passwordGenerationOptions = new DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordPasswordGenerationOptionsOutputReference(this, "password_generation_options");
+  public get passwordGenerationOptions() {
+    return this._passwordGenerationOptions;
+  }
+
+  // raw - computed: true, optional: false, required: false
+  public get raw() {
+    return this.getStringAttribute('raw');
+  }
+}
+export interface DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPassword {
+}
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordToTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPassword): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordToHclTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPassword): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPassword | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPassword | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // password - computed: true, optional: false, required: false
+  private _password = new DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordPasswordOutputReference(this, "password");
+  public get password() {
+    return this._password;
+  }
+
+  // user - computed: true, optional: false, required: false
+  public get user() {
+    return this.getStringAttribute('user');
+  }
+}
+export interface DataYandexConnectionmanagerConnectionParamsStoredocAuth {
+}
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocAuthToTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocAuth): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocAuthToHclTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocAuth): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexConnectionmanagerConnectionParamsStoredocAuthOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexConnectionmanagerConnectionParamsStoredocAuth | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexConnectionmanagerConnectionParamsStoredocAuth | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // auth_source - computed: true, optional: false, required: false
+  public get authSource() {
+    return this.getStringAttribute('auth_source');
+  }
+
+  // user_password - computed: true, optional: false, required: false
+  private _userPassword = new DataYandexConnectionmanagerConnectionParamsStoredocAuthUserPasswordOutputReference(this, "user_password");
+  public get userPassword() {
+    return this._userPassword;
+  }
+}
+export interface DataYandexConnectionmanagerConnectionParamsStoredocClusterHosts {
+}
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocClusterHostsToTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocClusterHosts): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocClusterHostsToHclTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocClusterHosts): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexConnectionmanagerConnectionParamsStoredocClusterHostsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataYandexConnectionmanagerConnectionParamsStoredocClusterHosts | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexConnectionmanagerConnectionParamsStoredocClusterHosts | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // health - computed: true, optional: false, required: false
+  public get health() {
+    return this.getStringAttribute('health');
+  }
+
+  // host - computed: true, optional: false, required: false
+  public get host() {
+    return this.getStringAttribute('host');
+  }
+
+  // port - computed: true, optional: false, required: false
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+
+  // role - computed: true, optional: false, required: false
+  public get role() {
+    return this.getStringAttribute('role');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataYandexConnectionmanagerConnectionParamsStoredocClusterHostsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataYandexConnectionmanagerConnectionParamsStoredocClusterHostsOutputReference {
+    return new DataYandexConnectionmanagerConnectionParamsStoredocClusterHostsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsDisabled {
+}
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsDisabledToTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsDisabled): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsDisabledToHclTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsDisabled): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsDisabledOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsDisabled | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsDisabled | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+}
+export interface DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsTls {
+}
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsTlsToTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsTls): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsTlsToHclTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsTls): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsTlsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsTls | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsTls | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // ca_certificate - computed: true, optional: false, required: false
+  public get caCertificate() {
+    return this.getStringAttribute('ca_certificate');
+  }
+}
+export interface DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParams {
+}
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsToTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsToHclTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParams): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParams | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParams | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // disabled - computed: true, optional: false, required: false
+  private _disabled = new DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsDisabledOutputReference(this, "disabled");
+  public get disabled() {
+    return this._disabled;
+  }
+
+  // tls - computed: true, optional: false, required: false
+  private _tls = new DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsTlsOutputReference(this, "tls");
+  public get tls() {
+    return this._tls;
+  }
+}
+export interface DataYandexConnectionmanagerConnectionParamsStoredocCluster {
+}
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocClusterToTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocCluster): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocClusterToHclTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredocCluster): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexConnectionmanagerConnectionParamsStoredocClusterOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexConnectionmanagerConnectionParamsStoredocCluster | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexConnectionmanagerConnectionParamsStoredocCluster | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // hosts - computed: true, optional: false, required: false
+  private _hosts = new DataYandexConnectionmanagerConnectionParamsStoredocClusterHostsList(this, "hosts", false);
+  public get hosts() {
+    return this._hosts;
+  }
+
+  // tls_params - computed: true, optional: false, required: false
+  private _tlsParams = new DataYandexConnectionmanagerConnectionParamsStoredocClusterTlsParamsOutputReference(this, "tls_params");
+  public get tlsParams() {
+    return this._tlsParams;
+  }
+}
+export interface DataYandexConnectionmanagerConnectionParamsStoredoc {
+}
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocToTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredoc): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataYandexConnectionmanagerConnectionParamsStoredocToHclTerraform(struct?: DataYandexConnectionmanagerConnectionParamsStoredoc): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataYandexConnectionmanagerConnectionParamsStoredocOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataYandexConnectionmanagerConnectionParamsStoredoc | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataYandexConnectionmanagerConnectionParamsStoredoc | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // auth - computed: true, optional: false, required: false
+  private _auth = new DataYandexConnectionmanagerConnectionParamsStoredocAuthOutputReference(this, "auth");
+  public get auth() {
+    return this._auth;
+  }
+
+  // cluster - computed: true, optional: false, required: false
+  private _cluster = new DataYandexConnectionmanagerConnectionParamsStoredocClusterOutputReference(this, "cluster");
+  public get cluster() {
+    return this._cluster;
+  }
+
+  // databases - computed: true, optional: false, required: false
+  public get databases() {
+    return this.getListAttribute('databases');
+  }
+
+  // managed_cluster_id - computed: true, optional: false, required: false
+  public get managedClusterId() {
+    return this.getStringAttribute('managed_cluster_id');
+  }
+}
 export interface DataYandexConnectionmanagerConnectionParamsTrinoAuthUserPasswordPasswordPasswordGenerationOptionsLockboxPasswordGenerationOptions {
 }
 
@@ -7467,6 +8187,12 @@ export class DataYandexConnectionmanagerConnectionParamsOutputReference extends 
     return this._redis;
   }
 
+  // storedoc - computed: true, optional: false, required: false
+  private _storedoc = new DataYandexConnectionmanagerConnectionParamsStoredocOutputReference(this, "storedoc");
+  public get storedoc() {
+    return this._storedoc;
+  }
+
   // trino - computed: true, optional: false, required: false
   private _trino = new DataYandexConnectionmanagerConnectionParamsTrinoOutputReference(this, "trino");
   public get trino() {
@@ -7483,25 +8209,25 @@ export interface DataYandexConnectionmanagerConnectionTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/connectionmanager_connection#create DataYandexConnectionmanagerConnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/connectionmanager_connection#create DataYandexConnectionmanagerConnection#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/connectionmanager_connection#delete DataYandexConnectionmanagerConnection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/connectionmanager_connection#delete DataYandexConnectionmanagerConnection#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/connectionmanager_connection#read DataYandexConnectionmanagerConnection#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/connectionmanager_connection#read DataYandexConnectionmanagerConnection#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/connectionmanager_connection#update DataYandexConnectionmanagerConnection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/connectionmanager_connection#update DataYandexConnectionmanagerConnection#update}
   */
   readonly update?: string;
 }
@@ -7682,7 +8408,7 @@ export class DataYandexConnectionmanagerConnectionTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/connectionmanager_connection yandex_connectionmanager_connection}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/connectionmanager_connection yandex_connectionmanager_connection}
 */
 export class DataYandexConnectionmanagerConnection extends cdktf.TerraformDataSource {
 
@@ -7698,7 +8424,7 @@ export class DataYandexConnectionmanagerConnection extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataYandexConnectionmanagerConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataYandexConnectionmanagerConnection to import
-  * @param importFromId The id of the existing DataYandexConnectionmanagerConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/connectionmanager_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataYandexConnectionmanagerConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/connectionmanager_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataYandexConnectionmanagerConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7710,7 +8436,7 @@ export class DataYandexConnectionmanagerConnection extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/data-sources/connectionmanager_connection yandex_connectionmanager_connection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/data-sources/connectionmanager_connection yandex_connectionmanager_connection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7721,8 +8447,8 @@ export class DataYandexConnectionmanagerConnection extends cdktf.TerraformDataSo
       terraformResourceType: 'yandex_connectionmanager_connection',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

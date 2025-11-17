@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#metadata DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#metadata DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestMetadata;
   /**
   * ClusterQueueSpec defines the desired state of ClusterQueue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#spec DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#spec DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#annotations DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#annotations DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#labels DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#labels DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#name DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#name DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecAdmissionCheck
   /**
   * name is an AdmissionCheck's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#name DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#name DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * onFlavors is a list of ResourceFlavors' names that this AdmissionCheck should run for. If empty, the AdmissionCheck will run for all workloads submitted to the ClusterQueue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#on_flavors DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#on_flavors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#on_flavors DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#on_flavors}
   */
   readonly onFlavors?: string[];
 }
@@ -337,7 +337,7 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecAdmissionCheck
   /**
   * admissionChecks is a list of strategies for AdmissionChecks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#admission_checks DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#admission_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#admission_checks DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#admission_checks}
   */
   readonly admissionChecks?: DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecAdmissionChecksStrategyAdmissionChecks[] | cdktf.IResolvable;
 }
@@ -433,7 +433,7 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecFairSharing {
   /**
   * weight gives a comparative advantage to this ClusterQueue when competing for unused resources in the cohort against other ClusterQueues. The share of a ClusterQueue is based on the dominant resource usage above nominal quotas for each resource, divided by the weight. Admission prioritizes scheduling workloads from ClusterQueues with the lowest share and preempting workloads from the ClusterQueues with the highest share. A zero weight implies infinite share value, meaning that this ClusterQueue will always be at disadvantage against other ClusterQueues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#weight DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#weight DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#weight}
   */
   readonly weight?: string;
 }
@@ -529,13 +529,13 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecFlavorFungibil
   /**
   * whenCanBorrow determines whether a workload should try the next flavor before borrowing in current flavor. The possible values are: - 'Borrow' (default): allocate in current flavor if borrowing is possible. - 'TryNextFlavor': try next flavor even if the current flavor has enough resources to borrow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#when_can_borrow DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#when_can_borrow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#when_can_borrow DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#when_can_borrow}
   */
   readonly whenCanBorrow?: string;
   /**
   * whenCanPreempt determines whether a workload should try the next flavor before borrowing in current flavor. The possible values are: - 'Preempt': allocate in current flavor if it's possible to preempt some workloads. - 'TryNextFlavor' (default): try next flavor even if there are enough candidates for preemption in the current flavor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#when_can_preempt DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#when_can_preempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#when_can_preempt DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#when_can_preempt}
   */
   readonly whenCanPreempt?: string;
 }
@@ -660,19 +660,19 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecNamespaceSelec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#key DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#key DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#operator DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#operator DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#values DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#values DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -842,13 +842,13 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecNamespaceSelec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#match_expressions DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#match_expressions DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#match_labels DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#match_labels DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -973,13 +973,13 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecPreemptionBorr
   /**
   * maxPriorityThreshold allows to restrict the set of workloads which might be preempted by a borrowing workload, to only workloads with priority less than or equal to the specified threshold priority. When the threshold is not specified, then any workload satisfying the policy can be preempted by the borrowing workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#max_priority_threshold DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#max_priority_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#max_priority_threshold DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#max_priority_threshold}
   */
   readonly maxPriorityThreshold?: number;
   /**
   * policy determines the policy for preemption to reclaim quota within cohort while borrowing. Possible values are: - 'Never' (default): do not allow for preemption, in other ClusterQueues within the cohort, for a borrowing workload. - 'LowerPriority': allow preemption, in other ClusterQueues within the cohort, for a borrowing workload, but only if the preempted workloads are of lower priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#policy DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#policy DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#policy}
   */
   readonly policy?: string;
 }
@@ -1104,19 +1104,19 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecPreemption {
   /**
   * borrowWithinCohort provides configuration to allow preemption within cohort while borrowing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#borrow_within_cohort DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#borrow_within_cohort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#borrow_within_cohort DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#borrow_within_cohort}
   */
   readonly borrowWithinCohort?: DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecPreemptionBorrowWithinCohort;
   /**
   * reclaimWithinCohort determines whether a pending Workload can preempt Workloads from other ClusterQueues in the cohort that are using more than their nominal quota. The possible values are: - 'Never' (default): do not preempt Workloads in the cohort. - 'LowerPriority': if the pending Workload fits within the nominal quota of its ClusterQueue, only preempt Workloads in the cohort that have lower priority than the pending Workload. - 'Any': if the pending Workload fits within the nominal quota of its ClusterQueue, preempt any Workload in the cohort, irrespective of priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#reclaim_within_cohort DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#reclaim_within_cohort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#reclaim_within_cohort DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#reclaim_within_cohort}
   */
   readonly reclaimWithinCohort?: string;
   /**
   * withinClusterQueue determines whether a pending Workload that doesn't fit within the nominal quota for its ClusterQueue, can preempt active Workloads in the ClusterQueue. The possible values are: - 'Never' (default): do not preempt Workloads in the ClusterQueue. - 'LowerPriority': only preempt Workloads in the ClusterQueue that have lower priority than the pending Workload. - 'LowerOrNewerEqualPriority': only preempt Workloads in the ClusterQueue that either have a lower priority than the pending workload or equal priority and are newer than the pending workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#within_cluster_queue DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#within_cluster_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#within_cluster_queue DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#within_cluster_queue}
   */
   readonly withinClusterQueue?: string;
 }
@@ -1270,25 +1270,25 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecResourceGroups
   /**
   * borrowingLimit is the maximum amount of quota for the [flavor, resource] combination that this ClusterQueue is allowed to borrow from the unused quota of other ClusterQueues in the same cohort. In total, at a given time, Workloads in a ClusterQueue can consume a quantity of quota equal to nominalQuota+borrowingLimit, assuming the other ClusterQueues in the cohort have enough unused quota. If null, it means that there is no borrowing limit. If not null, it must be non-negative. borrowingLimit must be null if spec.cohort is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#borrowing_limit DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#borrowing_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#borrowing_limit DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#borrowing_limit}
   */
   readonly borrowingLimit?: string;
   /**
   * lendingLimit is the maximum amount of unused quota for the [flavor, resource] combination that this ClusterQueue can lend to other ClusterQueues in the same cohort. In total, at a given time, ClusterQueue reserves for its exclusive use a quantity of quota equals to nominalQuota - lendingLimit. If null, it means that there is no lending limit, meaning that all the nominalQuota can be borrowed by other clusterQueues in the cohort. If not null, it must be non-negative. lendingLimit must be null if spec.cohort is empty. This field is in beta stage and is enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#lending_limit DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#lending_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#lending_limit DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#lending_limit}
   */
   readonly lendingLimit?: string;
   /**
   * name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#name DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#name DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * nominalQuota is the quantity of this resource that is available for Workloads admitted by this ClusterQueue at a point in time. The nominalQuota must be non-negative. nominalQuota should represent the resources in the cluster available for running jobs (after discounting resources consumed by system components and pods not managed by kueue). In an autoscaled cluster, nominalQuota should account for resources that can be provided by a component such as Kubernetes cluster-autoscaler. If the ClusterQueue belongs to a cohort, the sum of the quotas for each (flavor, resource) combination defines the maximum quantity that can be allocated by a ClusterQueue in the cohort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#nominal_quota DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#nominal_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#nominal_quota DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#nominal_quota}
   */
   readonly nominalQuota: string;
 }
@@ -1487,13 +1487,13 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecResourceGroups
   /**
   * name of this flavor. The name should match the .metadata.name of a ResourceFlavor. If a matching ResourceFlavor does not exist, the ClusterQueue will have an Active condition set to False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#name DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#name DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * resources is the list of quotas for this flavor per resource. There could be up to 16 resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#resources DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#resources DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#resources}
   */
   readonly resources: DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecResourceGroupsFlavorsResources[] | cdktf.IResolvable;
 }
@@ -1634,13 +1634,13 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecResourceGroups
   /**
   * coveredResources is the list of resources covered by the flavors in this group. Examples: cpu, memory, vendor.com/gpu. The list cannot be empty and it can contain up to 16 resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#covered_resources DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#covered_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#covered_resources DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#covered_resources}
   */
   readonly coveredResources: string[];
   /**
   * flavors is the list of flavors that provide the resources of this group. Typically, different flavors represent different hardware models (e.g., gpu models, cpu architectures) or pricing models (on-demand vs spot cpus). Each flavor MUST list all the resources listed for this group in the same order as the .resources field. The list cannot be empty and it can contain up to 16 flavors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#flavors DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#flavors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#flavors DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#flavors}
   */
   readonly flavors: DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecResourceGroupsFlavors[] | cdktf.IResolvable;
 }
@@ -1781,61 +1781,61 @@ export interface DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpec {
   /**
   * admissionChecks lists the AdmissionChecks required by this ClusterQueue. Cannot be used along with AdmissionCheckStrategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#admission_checks DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#admission_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#admission_checks DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#admission_checks}
   */
   readonly admissionChecks?: string[];
   /**
   * admissionCheckStrategy defines a list of strategies to determine which ResourceFlavors require AdmissionChecks. This property cannot be used in conjunction with the 'admissionChecks' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#admission_checks_strategy DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#admission_checks_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#admission_checks_strategy DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#admission_checks_strategy}
   */
   readonly admissionChecksStrategy?: DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecAdmissionChecksStrategy;
   /**
   * cohort that this ClusterQueue belongs to. CQs that belong to the same cohort can borrow unused resources from each other. A CQ can be a member of a single borrowing cohort. A workload submitted to a queue referencing this CQ can borrow quota from any CQ in the cohort. Only quota for the [resource, flavor] pairs listed in the CQ can be borrowed. If empty, this ClusterQueue cannot borrow from any other ClusterQueue and vice versa. A cohort is a name that links CQs together, but it doesn't reference any object. Validation of a cohort name is equivalent to that of object names: subdomain in DNS (RFC 1123).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#cohort DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#cohort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#cohort DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#cohort}
   */
   readonly cohort?: string;
   /**
   * fairSharing defines the properties of the ClusterQueue when participating in fair sharing. The values are only relevant if fair sharing is enabled in the Kueue configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#fair_sharing DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#fair_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#fair_sharing DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#fair_sharing}
   */
   readonly fairSharing?: DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecFairSharing;
   /**
   * flavorFungibility defines whether a workload should try the next flavor before borrowing or preempting in the flavor being evaluated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#flavor_fungibility DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#flavor_fungibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#flavor_fungibility DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#flavor_fungibility}
   */
   readonly flavorFungibility?: DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecFlavorFungibility;
   /**
   * namespaceSelector defines which namespaces are allowed to submit workloads to this clusterQueue. Beyond this basic support for policy, a policy agent like Gatekeeper should be used to enforce more advanced policies. Defaults to null which is a nothing selector (no namespaces eligible). If set to an empty selector '{}', then all namespaces are eligible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#namespace_selector DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#namespace_selector DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecNamespaceSelector;
   /**
   * preemption describes policies to preempt Workloads from this ClusterQueue or the ClusterQueue's cohort. Preemption can happen in two scenarios: - When a Workload fits within the nominal quota of the ClusterQueue, but the quota is currently borrowed by other ClusterQueues in the cohort. Preempting Workloads in other ClusterQueues allows this ClusterQueue to reclaim its nominal quota. - When a Workload doesn't fit within the nominal quota of the ClusterQueue and there are admitted Workloads in the ClusterQueue with lower priority. The preemption algorithm tries to find a minimal set of Workloads to preempt to accomomdate the pending Workload, preempting Workloads with lower priority first.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#preemption DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#preemption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#preemption DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#preemption}
   */
   readonly preemption?: DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecPreemption;
   /**
   * QueueingStrategy indicates the queueing strategy of the workloads across the queues in this ClusterQueue. Current Supported Strategies: - StrictFIFO: workloads are ordered strictly by creation time. Older workloads that can't be admitted will block admitting newer workloads even if they fit available quota. - BestEffortFIFO: workloads are ordered by creation time, however older workloads that can't be admitted will not block admitting newer workloads that fit existing quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#queueing_strategy DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#queueing_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#queueing_strategy DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#queueing_strategy}
   */
   readonly queueingStrategy?: string;
   /**
   * resourceGroups describes groups of resources. Each resource group defines the list of resources and a list of flavors that provide quotas for these resources. Each resource and each flavor can only form part of one resource group. resourceGroups can be up to 16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#resource_groups DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#resource_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#resource_groups DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#resource_groups}
   */
   readonly resourceGroups?: DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecResourceGroups[] | cdktf.IResolvable;
   /**
   * stopPolicy - if set to a value different from None, the ClusterQueue is considered Inactive, no new reservation being made. Depending on its value, its associated workloads will: - None - Workloads are admitted - HoldAndDrain - Admitted workloads are evicted and Reserving workloads will cancel the reservation. - Hold - Admitted workloads will run to completion and Reserving workloads will cancel the reservation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#stop_policy DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#stop_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#stop_policy DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest#stop_policy}
   */
   readonly stopPolicy?: string;
 }
@@ -2190,7 +2190,7 @@ export class DataK8SKueueXK8SIoClusterQueueV1Beta1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest k8s_kueue_x_k8s_io_cluster_queue_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest k8s_kueue_x_k8s_io_cluster_queue_v1beta1_manifest}
 */
 export class DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -2206,7 +2206,7 @@ export class DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2218,7 +2218,7 @@ export class DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest k8s_kueue_x_k8s_io_cluster_queue_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kueue_x_k8s_io_cluster_queue_v1beta1_manifest k8s_kueue_x_k8s_io_cluster_queue_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2229,8 +2229,8 @@ export class DataK8SKueueXK8SIoClusterQueueV1Beta1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_kueue_x_k8s_io_cluster_queue_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

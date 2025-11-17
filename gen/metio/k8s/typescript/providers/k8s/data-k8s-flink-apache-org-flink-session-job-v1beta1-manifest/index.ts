@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#metadata DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#metadata DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#spec DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#spec DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#annotations DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#annotations DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#labels DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#labels DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#namespace DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#namespace DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,47 +215,47 @@ export class DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1ManifestMetadataOutputRe
 }
 export interface DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1ManifestSpecJob {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#allow_non_restored_state DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#allow_non_restored_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#allow_non_restored_state DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#allow_non_restored_state}
   */
   readonly allowNonRestoredState?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#args DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#args DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#checkpoint_trigger_nonce DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#checkpoint_trigger_nonce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#checkpoint_trigger_nonce DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#checkpoint_trigger_nonce}
   */
   readonly checkpointTriggerNonce?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#entry_class DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#entry_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#entry_class DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#entry_class}
   */
   readonly entryClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#initial_savepoint_path DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#initial_savepoint_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#initial_savepoint_path DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#initial_savepoint_path}
   */
   readonly initialSavepointPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#jar_uri DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#jar_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#jar_uri DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#jar_uri}
   */
   readonly jarUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#parallelism DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#parallelism DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#parallelism}
   */
   readonly parallelism?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#savepoint_redeploy_nonce DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#savepoint_redeploy_nonce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#savepoint_redeploy_nonce DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#savepoint_redeploy_nonce}
   */
   readonly savepointRedeployNonce?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#savepoint_trigger_nonce DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#savepoint_trigger_nonce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#savepoint_trigger_nonce DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#savepoint_trigger_nonce}
   */
   readonly savepointTriggerNonce?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#state DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#state DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#upgrade_mode DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#upgrade_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#upgrade_mode DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#upgrade_mode}
   */
   readonly upgradeMode?: string;
 }
@@ -639,19 +639,19 @@ export class DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1ManifestSpecJobOutputRef
 }
 export interface DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#deployment_name DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#deployment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#deployment_name DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#deployment_name}
   */
   readonly deploymentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#flink_configuration DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#flink_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#flink_configuration DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#flink_configuration}
   */
   readonly flinkConfiguration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#job DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#job DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#job}
   */
   readonly job?: DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1ManifestSpecJob;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#restart_nonce DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#restart_nonce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#restart_nonce DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest#restart_nonce}
   */
   readonly restartNonce?: number;
 }
@@ -832,7 +832,7 @@ export class DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest k8s_flink_apache_org_flink_session_job_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest k8s_flink_apache_org_flink_session_job_v1beta1_manifest}
 */
 export class DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -848,7 +848,7 @@ export class DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -860,7 +860,7 @@ export class DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest k8s_flink_apache_org_flink_session_job_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flink_apache_org_flink_session_job_v1beta1_manifest k8s_flink_apache_org_flink_session_job_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -871,8 +871,8 @@ export class DataK8SFlinkApacheOrgFlinkSessionJobV1Beta1Manifest extends cdktf.T
       terraformResourceType: 'k8s_flink_apache_org_flink_session_job_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

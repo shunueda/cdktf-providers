@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,59 +8,59 @@ import * as cdktf from 'cdktf';
 
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#configuration DataK8SAcidZalanDoOperatorConfigurationV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#configuration DataK8SAcidZalanDoOperatorConfigurationV1Manifest#configuration}
   */
   readonly configuration: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfiguration;
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#metadata DataK8SAcidZalanDoOperatorConfigurationV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#metadata DataK8SAcidZalanDoOperatorConfigurationV1Manifest#metadata}
   */
   readonly metadata: DataK8SAcidZalanDoOperatorConfigurationV1ManifestMetadata;
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationAwsOrGcp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#additional_secret_mount DataK8SAcidZalanDoOperatorConfigurationV1Manifest#additional_secret_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#additional_secret_mount DataK8SAcidZalanDoOperatorConfigurationV1Manifest#additional_secret_mount}
   */
   readonly additionalSecretMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#additional_secret_mount_path DataK8SAcidZalanDoOperatorConfigurationV1Manifest#additional_secret_mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#additional_secret_mount_path DataK8SAcidZalanDoOperatorConfigurationV1Manifest#additional_secret_mount_path}
   */
   readonly additionalSecretMountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#aws_region DataK8SAcidZalanDoOperatorConfigurationV1Manifest#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#aws_region DataK8SAcidZalanDoOperatorConfigurationV1Manifest#aws_region}
   */
   readonly awsRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_ebs_gp3_migration DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_ebs_gp3_migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_ebs_gp3_migration DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_ebs_gp3_migration}
   */
   readonly enableEbsGp3Migration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_ebs_gp3_migration_max_size DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_ebs_gp3_migration_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_ebs_gp3_migration_max_size DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_ebs_gp3_migration_max_size}
   */
   readonly enableEbsGp3MigrationMaxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#gcp_credentials DataK8SAcidZalanDoOperatorConfigurationV1Manifest#gcp_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#gcp_credentials DataK8SAcidZalanDoOperatorConfigurationV1Manifest#gcp_credentials}
   */
   readonly gcpCredentials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#kube_iam_role DataK8SAcidZalanDoOperatorConfigurationV1Manifest#kube_iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#kube_iam_role DataK8SAcidZalanDoOperatorConfigurationV1Manifest#kube_iam_role}
   */
   readonly kubeIamRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#log_s3_bucket DataK8SAcidZalanDoOperatorConfigurationV1Manifest#log_s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#log_s3_bucket DataK8SAcidZalanDoOperatorConfigurationV1Manifest#log_s3_bucket}
   */
   readonly logS3Bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#wal_az_storage_account DataK8SAcidZalanDoOperatorConfigurationV1Manifest#wal_az_storage_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#wal_az_storage_account DataK8SAcidZalanDoOperatorConfigurationV1Manifest#wal_az_storage_account}
   */
   readonly walAzStorageAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#wal_gs_bucket DataK8SAcidZalanDoOperatorConfigurationV1Manifest#wal_gs_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#wal_gs_bucket DataK8SAcidZalanDoOperatorConfigurationV1Manifest#wal_gs_bucket}
   */
   readonly walGsBucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#wal_s3_bucket DataK8SAcidZalanDoOperatorConfigurationV1Manifest#wal_s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#wal_s3_bucket DataK8SAcidZalanDoOperatorConfigurationV1Manifest#wal_s3_bucket}
   */
   readonly walS3Bucket?: string;
 }
@@ -444,43 +444,43 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationAwsOr
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationConnectionPooler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_default_cpu_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_default_cpu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_default_cpu_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_default_cpu_limit}
   */
   readonly connectionPoolerDefaultCpuLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_default_cpu_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_default_cpu_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_default_cpu_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_default_cpu_request}
   */
   readonly connectionPoolerDefaultCpuRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_default_memory_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_default_memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_default_memory_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_default_memory_limit}
   */
   readonly connectionPoolerDefaultMemoryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_default_memory_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_default_memory_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_default_memory_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_default_memory_request}
   */
   readonly connectionPoolerDefaultMemoryRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_image DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_image DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_image}
   */
   readonly connectionPoolerImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_max_db_connections DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_max_db_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_max_db_connections DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_max_db_connections}
   */
   readonly connectionPoolerMaxDbConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_mode DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_mode DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_mode}
   */
   readonly connectionPoolerMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_number_of_instances DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_number_of_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_number_of_instances DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_number_of_instances}
   */
   readonly connectionPoolerNumberOfInstances?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_schema DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_schema DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_schema}
   */
   readonly connectionPoolerSchema?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_user DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler_user DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler_user}
   */
   readonly connectionPoolerUser?: string;
 }
@@ -835,11 +835,11 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationConne
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationDebug {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#debug_logging DataK8SAcidZalanDoOperatorConfigurationV1Manifest#debug_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#debug_logging DataK8SAcidZalanDoOperatorConfigurationV1Manifest#debug_logging}
   */
   readonly debugLogging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_database_access DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_database_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_database_access DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_database_access}
   */
   readonly enableDatabaseAccess?: boolean | cdktf.IResolvable;
 }
@@ -962,35 +962,35 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationDebug
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationKubernetesInfrastructureRolesSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#defaultrolevalue DataK8SAcidZalanDoOperatorConfigurationV1Manifest#defaultrolevalue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#defaultrolevalue DataK8SAcidZalanDoOperatorConfigurationV1Manifest#defaultrolevalue}
   */
   readonly defaultrolevalue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#defaultuservalue DataK8SAcidZalanDoOperatorConfigurationV1Manifest#defaultuservalue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#defaultuservalue DataK8SAcidZalanDoOperatorConfigurationV1Manifest#defaultuservalue}
   */
   readonly defaultuservalue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#details DataK8SAcidZalanDoOperatorConfigurationV1Manifest#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#details DataK8SAcidZalanDoOperatorConfigurationV1Manifest#details}
   */
   readonly details?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#passwordkey DataK8SAcidZalanDoOperatorConfigurationV1Manifest#passwordkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#passwordkey DataK8SAcidZalanDoOperatorConfigurationV1Manifest#passwordkey}
   */
   readonly passwordkey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#rolekey DataK8SAcidZalanDoOperatorConfigurationV1Manifest#rolekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#rolekey DataK8SAcidZalanDoOperatorConfigurationV1Manifest#rolekey}
   */
   readonly rolekey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#secretname DataK8SAcidZalanDoOperatorConfigurationV1Manifest#secretname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#secretname DataK8SAcidZalanDoOperatorConfigurationV1Manifest#secretname}
   */
   readonly secretname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#template DataK8SAcidZalanDoOperatorConfigurationV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#template DataK8SAcidZalanDoOperatorConfigurationV1Manifest#template}
   */
   readonly template?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#userkey DataK8SAcidZalanDoOperatorConfigurationV1Manifest#userkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#userkey DataK8SAcidZalanDoOperatorConfigurationV1Manifest#userkey}
   */
   readonly userkey: string;
 }
@@ -1300,11 +1300,11 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationKuber
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationKubernetesPersistentVolumeClaimRetentionPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#when_deleted DataK8SAcidZalanDoOperatorConfigurationV1Manifest#when_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#when_deleted DataK8SAcidZalanDoOperatorConfigurationV1Manifest#when_deleted}
   */
   readonly whenDeleted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#when_scaled DataK8SAcidZalanDoOperatorConfigurationV1Manifest#when_scaled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#when_scaled DataK8SAcidZalanDoOperatorConfigurationV1Manifest#when_scaled}
   */
   readonly whenScaled?: string;
 }
@@ -1427,207 +1427,207 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationKuber
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationKubernetes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#additional_pod_capabilities DataK8SAcidZalanDoOperatorConfigurationV1Manifest#additional_pod_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#additional_pod_capabilities DataK8SAcidZalanDoOperatorConfigurationV1Manifest#additional_pod_capabilities}
   */
   readonly additionalPodCapabilities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#cluster_domain DataK8SAcidZalanDoOperatorConfigurationV1Manifest#cluster_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#cluster_domain DataK8SAcidZalanDoOperatorConfigurationV1Manifest#cluster_domain}
   */
   readonly clusterDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#cluster_labels DataK8SAcidZalanDoOperatorConfigurationV1Manifest#cluster_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#cluster_labels DataK8SAcidZalanDoOperatorConfigurationV1Manifest#cluster_labels}
   */
   readonly clusterLabels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#cluster_name_label DataK8SAcidZalanDoOperatorConfigurationV1Manifest#cluster_name_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#cluster_name_label DataK8SAcidZalanDoOperatorConfigurationV1Manifest#cluster_name_label}
   */
   readonly clusterNameLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#custom_pod_annotations DataK8SAcidZalanDoOperatorConfigurationV1Manifest#custom_pod_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#custom_pod_annotations DataK8SAcidZalanDoOperatorConfigurationV1Manifest#custom_pod_annotations}
   */
   readonly customPodAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#delete_annotation_date_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#delete_annotation_date_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#delete_annotation_date_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#delete_annotation_date_key}
   */
   readonly deleteAnnotationDateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#delete_annotation_name_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#delete_annotation_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#delete_annotation_name_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#delete_annotation_name_key}
   */
   readonly deleteAnnotationNameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#downscaler_annotations DataK8SAcidZalanDoOperatorConfigurationV1Manifest#downscaler_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#downscaler_annotations DataK8SAcidZalanDoOperatorConfigurationV1Manifest#downscaler_annotations}
   */
   readonly downscalerAnnotations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_cross_namespace_secret DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_cross_namespace_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_cross_namespace_secret DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_cross_namespace_secret}
   */
   readonly enableCrossNamespaceSecret?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_finalizers DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_finalizers DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_finalizers}
   */
   readonly enableFinalizers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_init_containers DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_init_containers DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_init_containers}
   */
   readonly enableInitContainers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_owner_references DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_owner_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_owner_references DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_owner_references}
   */
   readonly enableOwnerReferences?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_persistent_volume_claim_deletion DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_persistent_volume_claim_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_persistent_volume_claim_deletion DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_persistent_volume_claim_deletion}
   */
   readonly enablePersistentVolumeClaimDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_pod_antiaffinity DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_pod_antiaffinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_pod_antiaffinity DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_pod_antiaffinity}
   */
   readonly enablePodAntiaffinity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_pod_disruption_budget DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_pod_disruption_budget DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_pod_disruption_budget}
   */
   readonly enablePodDisruptionBudget?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_readiness_probe DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_readiness_probe DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_readiness_probe}
   */
   readonly enableReadinessProbe?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_secrets_deletion DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_secrets_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_secrets_deletion DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_secrets_deletion}
   */
   readonly enableSecretsDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_sidecars DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_sidecars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_sidecars DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_sidecars}
   */
   readonly enableSidecars?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#ignored_annotations DataK8SAcidZalanDoOperatorConfigurationV1Manifest#ignored_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#ignored_annotations DataK8SAcidZalanDoOperatorConfigurationV1Manifest#ignored_annotations}
   */
   readonly ignoredAnnotations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#infrastructure_roles_secret_name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#infrastructure_roles_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#infrastructure_roles_secret_name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#infrastructure_roles_secret_name}
   */
   readonly infrastructureRolesSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#infrastructure_roles_secrets DataK8SAcidZalanDoOperatorConfigurationV1Manifest#infrastructure_roles_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#infrastructure_roles_secrets DataK8SAcidZalanDoOperatorConfigurationV1Manifest#infrastructure_roles_secrets}
   */
   readonly infrastructureRolesSecrets?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationKubernetesInfrastructureRolesSecrets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#inherited_annotations DataK8SAcidZalanDoOperatorConfigurationV1Manifest#inherited_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#inherited_annotations DataK8SAcidZalanDoOperatorConfigurationV1Manifest#inherited_annotations}
   */
   readonly inheritedAnnotations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#inherited_labels DataK8SAcidZalanDoOperatorConfigurationV1Manifest#inherited_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#inherited_labels DataK8SAcidZalanDoOperatorConfigurationV1Manifest#inherited_labels}
   */
   readonly inheritedLabels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#master_pod_move_timeout DataK8SAcidZalanDoOperatorConfigurationV1Manifest#master_pod_move_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#master_pod_move_timeout DataK8SAcidZalanDoOperatorConfigurationV1Manifest#master_pod_move_timeout}
   */
   readonly masterPodMoveTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#node_readiness_label DataK8SAcidZalanDoOperatorConfigurationV1Manifest#node_readiness_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#node_readiness_label DataK8SAcidZalanDoOperatorConfigurationV1Manifest#node_readiness_label}
   */
   readonly nodeReadinessLabel?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#node_readiness_label_merge DataK8SAcidZalanDoOperatorConfigurationV1Manifest#node_readiness_label_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#node_readiness_label_merge DataK8SAcidZalanDoOperatorConfigurationV1Manifest#node_readiness_label_merge}
   */
   readonly nodeReadinessLabelMerge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#oauth_token_secret_name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#oauth_token_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#oauth_token_secret_name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#oauth_token_secret_name}
   */
   readonly oauthTokenSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pdb_master_label_selector DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pdb_master_label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pdb_master_label_selector DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pdb_master_label_selector}
   */
   readonly pdbMasterLabelSelector?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pdb_name_format DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pdb_name_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pdb_name_format DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pdb_name_format}
   */
   readonly pdbNameFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#persistent_volume_claim_retention_policy DataK8SAcidZalanDoOperatorConfigurationV1Manifest#persistent_volume_claim_retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#persistent_volume_claim_retention_policy DataK8SAcidZalanDoOperatorConfigurationV1Manifest#persistent_volume_claim_retention_policy}
   */
   readonly persistentVolumeClaimRetentionPolicy?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationKubernetesPersistentVolumeClaimRetentionPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_antiaffinity_preferred_during_scheduling DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_antiaffinity_preferred_during_scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_antiaffinity_preferred_during_scheduling DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_antiaffinity_preferred_during_scheduling}
   */
   readonly podAntiaffinityPreferredDuringScheduling?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_antiaffinity_topology_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_antiaffinity_topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_antiaffinity_topology_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_antiaffinity_topology_key}
   */
   readonly podAntiaffinityTopologyKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_environment_configmap DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_environment_configmap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_environment_configmap DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_environment_configmap}
   */
   readonly podEnvironmentConfigmap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_environment_secret DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_environment_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_environment_secret DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_environment_secret}
   */
   readonly podEnvironmentSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_management_policy DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_management_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_management_policy DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_management_policy}
   */
   readonly podManagementPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_priority_class_name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_priority_class_name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_priority_class_name}
   */
   readonly podPriorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_role_label DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_role_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_role_label DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_role_label}
   */
   readonly podRoleLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_service_account_definition DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_service_account_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_service_account_definition DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_service_account_definition}
   */
   readonly podServiceAccountDefinition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_service_account_name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_service_account_name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_service_account_name}
   */
   readonly podServiceAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_service_account_role_binding_definition DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_service_account_role_binding_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_service_account_role_binding_definition DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_service_account_role_binding_definition}
   */
   readonly podServiceAccountRoleBindingDefinition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_terminate_grace_period DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_terminate_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_terminate_grace_period DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_terminate_grace_period}
   */
   readonly podTerminateGracePeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#secret_name_template DataK8SAcidZalanDoOperatorConfigurationV1Manifest#secret_name_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#secret_name_template DataK8SAcidZalanDoOperatorConfigurationV1Manifest#secret_name_template}
   */
   readonly secretNameTemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#share_pgsocket_with_sidecars DataK8SAcidZalanDoOperatorConfigurationV1Manifest#share_pgsocket_with_sidecars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#share_pgsocket_with_sidecars DataK8SAcidZalanDoOperatorConfigurationV1Manifest#share_pgsocket_with_sidecars}
   */
   readonly sharePgsocketWithSidecars?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#spilo_allow_privilege_escalation DataK8SAcidZalanDoOperatorConfigurationV1Manifest#spilo_allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#spilo_allow_privilege_escalation DataK8SAcidZalanDoOperatorConfigurationV1Manifest#spilo_allow_privilege_escalation}
   */
   readonly spiloAllowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#spilo_fsgroup DataK8SAcidZalanDoOperatorConfigurationV1Manifest#spilo_fsgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#spilo_fsgroup DataK8SAcidZalanDoOperatorConfigurationV1Manifest#spilo_fsgroup}
   */
   readonly spiloFsgroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#spilo_privileged DataK8SAcidZalanDoOperatorConfigurationV1Manifest#spilo_privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#spilo_privileged DataK8SAcidZalanDoOperatorConfigurationV1Manifest#spilo_privileged}
   */
   readonly spiloPrivileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#spilo_runasgroup DataK8SAcidZalanDoOperatorConfigurationV1Manifest#spilo_runasgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#spilo_runasgroup DataK8SAcidZalanDoOperatorConfigurationV1Manifest#spilo_runasgroup}
   */
   readonly spiloRunasgroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#spilo_runasuser DataK8SAcidZalanDoOperatorConfigurationV1Manifest#spilo_runasuser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#spilo_runasuser DataK8SAcidZalanDoOperatorConfigurationV1Manifest#spilo_runasuser}
   */
   readonly spiloRunasuser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#storage_resize_mode DataK8SAcidZalanDoOperatorConfigurationV1Manifest#storage_resize_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#storage_resize_mode DataK8SAcidZalanDoOperatorConfigurationV1Manifest#storage_resize_mode}
   */
   readonly storageResizeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#toleration DataK8SAcidZalanDoOperatorConfigurationV1Manifest#toleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#toleration DataK8SAcidZalanDoOperatorConfigurationV1Manifest#toleration}
   */
   readonly toleration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#watched_namespace DataK8SAcidZalanDoOperatorConfigurationV1Manifest#watched_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#watched_namespace DataK8SAcidZalanDoOperatorConfigurationV1Manifest#watched_namespace}
   */
   readonly watchedNamespace?: string;
 }
@@ -3171,47 +3171,47 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationKuber
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationLoadBalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#custom_service_annotations DataK8SAcidZalanDoOperatorConfigurationV1Manifest#custom_service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#custom_service_annotations DataK8SAcidZalanDoOperatorConfigurationV1Manifest#custom_service_annotations}
   */
   readonly customServiceAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#db_hosted_zone DataK8SAcidZalanDoOperatorConfigurationV1Manifest#db_hosted_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#db_hosted_zone DataK8SAcidZalanDoOperatorConfigurationV1Manifest#db_hosted_zone}
   */
   readonly dbHostedZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_master_load_balancer DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_master_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_master_load_balancer DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_master_load_balancer}
   */
   readonly enableMasterLoadBalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_master_pooler_load_balancer DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_master_pooler_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_master_pooler_load_balancer DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_master_pooler_load_balancer}
   */
   readonly enableMasterPoolerLoadBalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_replica_load_balancer DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_replica_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_replica_load_balancer DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_replica_load_balancer}
   */
   readonly enableReplicaLoadBalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_replica_pooler_load_balancer DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_replica_pooler_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_replica_pooler_load_balancer DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_replica_pooler_load_balancer}
   */
   readonly enableReplicaPoolerLoadBalancer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#external_traffic_policy DataK8SAcidZalanDoOperatorConfigurationV1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#external_traffic_policy DataK8SAcidZalanDoOperatorConfigurationV1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#master_dns_name_format DataK8SAcidZalanDoOperatorConfigurationV1Manifest#master_dns_name_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#master_dns_name_format DataK8SAcidZalanDoOperatorConfigurationV1Manifest#master_dns_name_format}
   */
   readonly masterDnsNameFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#master_legacy_dns_name_format DataK8SAcidZalanDoOperatorConfigurationV1Manifest#master_legacy_dns_name_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#master_legacy_dns_name_format DataK8SAcidZalanDoOperatorConfigurationV1Manifest#master_legacy_dns_name_format}
   */
   readonly masterLegacyDnsNameFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#replica_dns_name_format DataK8SAcidZalanDoOperatorConfigurationV1Manifest#replica_dns_name_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#replica_dns_name_format DataK8SAcidZalanDoOperatorConfigurationV1Manifest#replica_dns_name_format}
   */
   readonly replicaDnsNameFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#replica_legacy_dns_name_format DataK8SAcidZalanDoOperatorConfigurationV1Manifest#replica_legacy_dns_name_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#replica_legacy_dns_name_format DataK8SAcidZalanDoOperatorConfigurationV1Manifest#replica_legacy_dns_name_format}
   */
   readonly replicaLegacyDnsNameFormat?: string;
 }
@@ -3595,15 +3595,15 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationLoadB
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationLoggingRestApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#api_port DataK8SAcidZalanDoOperatorConfigurationV1Manifest#api_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#api_port DataK8SAcidZalanDoOperatorConfigurationV1Manifest#api_port}
   */
   readonly apiPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#cluster_history_entries DataK8SAcidZalanDoOperatorConfigurationV1Manifest#cluster_history_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#cluster_history_entries DataK8SAcidZalanDoOperatorConfigurationV1Manifest#cluster_history_entries}
   */
   readonly clusterHistoryEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#ring_log_lines DataK8SAcidZalanDoOperatorConfigurationV1Manifest#ring_log_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#ring_log_lines DataK8SAcidZalanDoOperatorConfigurationV1Manifest#ring_log_lines}
   */
   readonly ringLogLines?: number;
 }
@@ -3755,87 +3755,87 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationLoggi
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationLogicalBackup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_azure_storage_account_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_azure_storage_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_azure_storage_account_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_azure_storage_account_key}
   */
   readonly logicalBackupAzureStorageAccountKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_azure_storage_account_name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_azure_storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_azure_storage_account_name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_azure_storage_account_name}
   */
   readonly logicalBackupAzureStorageAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_azure_storage_container DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_azure_storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_azure_storage_container DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_azure_storage_container}
   */
   readonly logicalBackupAzureStorageContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_cpu_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_cpu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_cpu_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_cpu_limit}
   */
   readonly logicalBackupCpuLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_cpu_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_cpu_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_cpu_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_cpu_request}
   */
   readonly logicalBackupCpuRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_cronjob_environment_secret DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_cronjob_environment_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_cronjob_environment_secret DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_cronjob_environment_secret}
   */
   readonly logicalBackupCronjobEnvironmentSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_docker_image DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_docker_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_docker_image DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_docker_image}
   */
   readonly logicalBackupDockerImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_google_application_credentials DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_google_application_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_google_application_credentials DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_google_application_credentials}
   */
   readonly logicalBackupGoogleApplicationCredentials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_job_prefix DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_job_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_job_prefix DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_job_prefix}
   */
   readonly logicalBackupJobPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_memory_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_memory_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_memory_limit}
   */
   readonly logicalBackupMemoryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_memory_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_memory_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_memory_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_memory_request}
   */
   readonly logicalBackupMemoryRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_provider DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_provider DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_provider}
   */
   readonly logicalBackupProvider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_access_key_id DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_access_key_id DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_access_key_id}
   */
   readonly logicalBackupS3AccessKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_bucket DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_bucket DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_bucket}
   */
   readonly logicalBackupS3Bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_bucket_prefix DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_bucket_prefix DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_bucket_prefix}
   */
   readonly logicalBackupS3BucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_endpoint DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_endpoint DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_endpoint}
   */
   readonly logicalBackupS3Endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_region DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_region DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_region}
   */
   readonly logicalBackupS3Region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_retention_time DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_retention_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_retention_time DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_retention_time}
   */
   readonly logicalBackupS3RetentionTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_secret_access_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_secret_access_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_secret_access_key}
   */
   readonly logicalBackupS3SecretAccessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_sse DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_sse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_s3_sse DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_s3_sse}
   */
   readonly logicalBackupS3Sse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_schedule DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup_schedule DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup_schedule}
   */
   readonly logicalBackupSchedule?: string;
 }
@@ -4509,19 +4509,19 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationLogic
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationMajorVersionUpgrade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#major_version_upgrade_mode DataK8SAcidZalanDoOperatorConfigurationV1Manifest#major_version_upgrade_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#major_version_upgrade_mode DataK8SAcidZalanDoOperatorConfigurationV1Manifest#major_version_upgrade_mode}
   */
   readonly majorVersionUpgradeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#major_version_upgrade_team_allow_list DataK8SAcidZalanDoOperatorConfigurationV1Manifest#major_version_upgrade_team_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#major_version_upgrade_team_allow_list DataK8SAcidZalanDoOperatorConfigurationV1Manifest#major_version_upgrade_team_allow_list}
   */
   readonly majorVersionUpgradeTeamAllowList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#minimal_major_version DataK8SAcidZalanDoOperatorConfigurationV1Manifest#minimal_major_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#minimal_major_version DataK8SAcidZalanDoOperatorConfigurationV1Manifest#minimal_major_version}
   */
   readonly minimalMajorVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#target_major_version DataK8SAcidZalanDoOperatorConfigurationV1Manifest#target_major_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#target_major_version DataK8SAcidZalanDoOperatorConfigurationV1Manifest#target_major_version}
   */
   readonly targetMajorVersion?: string;
 }
@@ -4702,7 +4702,7 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationMajor
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationPatroni {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_patroni_failsafe_mode DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_patroni_failsafe_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_patroni_failsafe_mode DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_patroni_failsafe_mode}
   */
   readonly enablePatroniFailsafeMode?: boolean | cdktf.IResolvable;
 }
@@ -4796,35 +4796,35 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationPatro
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationPostgresPodResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#default_cpu_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#default_cpu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#default_cpu_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#default_cpu_limit}
   */
   readonly defaultCpuLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#default_cpu_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#default_cpu_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#default_cpu_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#default_cpu_request}
   */
   readonly defaultCpuRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#default_memory_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#default_memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#default_memory_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#default_memory_limit}
   */
   readonly defaultMemoryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#default_memory_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#default_memory_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#default_memory_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#default_memory_request}
   */
   readonly defaultMemoryRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#max_cpu_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#max_cpu_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#max_cpu_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#max_cpu_request}
   */
   readonly maxCpuRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#max_memory_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#max_memory_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#max_memory_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#max_memory_request}
   */
   readonly maxMemoryRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#min_cpu_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#min_cpu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#min_cpu_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#min_cpu_limit}
   */
   readonly minCpuLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#min_memory_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#min_memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#min_memory_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#min_memory_limit}
   */
   readonly minMemoryLimit?: string;
 }
@@ -5121,31 +5121,31 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationPostg
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationScalyr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_api_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_api_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_api_key}
   */
   readonly scalyrApiKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_cpu_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_cpu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_cpu_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_cpu_limit}
   */
   readonly scalyrCpuLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_cpu_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_cpu_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_cpu_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_cpu_request}
   */
   readonly scalyrCpuRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_image DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_image DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_image}
   */
   readonly scalyrImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_memory_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_memory_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_memory_limit}
   */
   readonly scalyrMemoryLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_memory_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_memory_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_memory_request DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_memory_request}
   */
   readonly scalyrMemoryRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_server_url DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr_server_url DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr_server_url}
   */
   readonly scalyrServerUrl?: string;
 }
@@ -5413,59 +5413,59 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationScaly
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationTeamsApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_admin_role_for_users DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_admin_role_for_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_admin_role_for_users DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_admin_role_for_users}
   */
   readonly enableAdminRoleForUsers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_postgres_team_crd DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_postgres_team_crd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_postgres_team_crd DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_postgres_team_crd}
   */
   readonly enablePostgresTeamCrd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_postgres_team_crd_superusers DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_postgres_team_crd_superusers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_postgres_team_crd_superusers DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_postgres_team_crd_superusers}
   */
   readonly enablePostgresTeamCrdSuperusers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_team_member_deprecation DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_team_member_deprecation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_team_member_deprecation DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_team_member_deprecation}
   */
   readonly enableTeamMemberDeprecation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_team_superuser DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_team_superuser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_team_superuser DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_team_superuser}
   */
   readonly enableTeamSuperuser?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_teams_api DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_teams_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_teams_api DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_teams_api}
   */
   readonly enableTeamsApi?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pam_configuration DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pam_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pam_configuration DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pam_configuration}
   */
   readonly pamConfiguration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pam_role_name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pam_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pam_role_name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pam_role_name}
   */
   readonly pamRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#postgres_superuser_teams DataK8SAcidZalanDoOperatorConfigurationV1Manifest#postgres_superuser_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#postgres_superuser_teams DataK8SAcidZalanDoOperatorConfigurationV1Manifest#postgres_superuser_teams}
   */
   readonly postgresSuperuserTeams?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#protected_role_names DataK8SAcidZalanDoOperatorConfigurationV1Manifest#protected_role_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#protected_role_names DataK8SAcidZalanDoOperatorConfigurationV1Manifest#protected_role_names}
   */
   readonly protectedRoleNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#role_deletion_suffix DataK8SAcidZalanDoOperatorConfigurationV1Manifest#role_deletion_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#role_deletion_suffix DataK8SAcidZalanDoOperatorConfigurationV1Manifest#role_deletion_suffix}
   */
   readonly roleDeletionSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#team_admin_role DataK8SAcidZalanDoOperatorConfigurationV1Manifest#team_admin_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#team_admin_role DataK8SAcidZalanDoOperatorConfigurationV1Manifest#team_admin_role}
   */
   readonly teamAdminRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#team_api_role_configuration DataK8SAcidZalanDoOperatorConfigurationV1Manifest#team_api_role_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#team_api_role_configuration DataK8SAcidZalanDoOperatorConfigurationV1Manifest#team_api_role_configuration}
   */
   readonly teamApiRoleConfiguration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#teams_api_url DataK8SAcidZalanDoOperatorConfigurationV1Manifest#teams_api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#teams_api_url DataK8SAcidZalanDoOperatorConfigurationV1Manifest#teams_api_url}
   */
   readonly teamsApiUrl?: string;
 }
@@ -5936,35 +5936,35 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationTeams
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#patroni_api_check_interval DataK8SAcidZalanDoOperatorConfigurationV1Manifest#patroni_api_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#patroni_api_check_interval DataK8SAcidZalanDoOperatorConfigurationV1Manifest#patroni_api_check_interval}
   */
   readonly patroniApiCheckInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#patroni_api_check_timeout DataK8SAcidZalanDoOperatorConfigurationV1Manifest#patroni_api_check_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#patroni_api_check_timeout DataK8SAcidZalanDoOperatorConfigurationV1Manifest#patroni_api_check_timeout}
   */
   readonly patroniApiCheckTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_deletion_wait_timeout DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_deletion_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_deletion_wait_timeout DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_deletion_wait_timeout}
   */
   readonly podDeletionWaitTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_label_wait_timeout DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_label_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#pod_label_wait_timeout DataK8SAcidZalanDoOperatorConfigurationV1Manifest#pod_label_wait_timeout}
   */
   readonly podLabelWaitTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#ready_wait_interval DataK8SAcidZalanDoOperatorConfigurationV1Manifest#ready_wait_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#ready_wait_interval DataK8SAcidZalanDoOperatorConfigurationV1Manifest#ready_wait_interval}
   */
   readonly readyWaitInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#ready_wait_timeout DataK8SAcidZalanDoOperatorConfigurationV1Manifest#ready_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#ready_wait_timeout DataK8SAcidZalanDoOperatorConfigurationV1Manifest#ready_wait_timeout}
   */
   readonly readyWaitTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#resource_check_interval DataK8SAcidZalanDoOperatorConfigurationV1Manifest#resource_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#resource_check_interval DataK8SAcidZalanDoOperatorConfigurationV1Manifest#resource_check_interval}
   */
   readonly resourceCheckInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#resource_check_timeout DataK8SAcidZalanDoOperatorConfigurationV1Manifest#resource_check_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#resource_check_timeout DataK8SAcidZalanDoOperatorConfigurationV1Manifest#resource_check_timeout}
   */
   readonly resourceCheckTimeout?: string;
 }
@@ -6261,27 +6261,27 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationTimeo
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#additional_owner_roles DataK8SAcidZalanDoOperatorConfigurationV1Manifest#additional_owner_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#additional_owner_roles DataK8SAcidZalanDoOperatorConfigurationV1Manifest#additional_owner_roles}
   */
   readonly additionalOwnerRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_password_rotation DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_password_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_password_rotation DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_password_rotation}
   */
   readonly enablePasswordRotation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#password_rotation_interval DataK8SAcidZalanDoOperatorConfigurationV1Manifest#password_rotation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#password_rotation_interval DataK8SAcidZalanDoOperatorConfigurationV1Manifest#password_rotation_interval}
   */
   readonly passwordRotationInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#password_rotation_user_retention DataK8SAcidZalanDoOperatorConfigurationV1Manifest#password_rotation_user_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#password_rotation_user_retention DataK8SAcidZalanDoOperatorConfigurationV1Manifest#password_rotation_user_retention}
   */
   readonly passwordRotationUserRetention?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#replication_username DataK8SAcidZalanDoOperatorConfigurationV1Manifest#replication_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#replication_username DataK8SAcidZalanDoOperatorConfigurationV1Manifest#replication_username}
   */
   readonly replicationUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#super_username DataK8SAcidZalanDoOperatorConfigurationV1Manifest#super_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#super_username DataK8SAcidZalanDoOperatorConfigurationV1Manifest#super_username}
   */
   readonly superUsername?: string;
 }
@@ -6520,145 +6520,145 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationUsers
 }
 export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#aws_or_gcp DataK8SAcidZalanDoOperatorConfigurationV1Manifest#aws_or_gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#aws_or_gcp DataK8SAcidZalanDoOperatorConfigurationV1Manifest#aws_or_gcp}
   */
   readonly awsOrGcp?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationAwsOrGcp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#connection_pooler DataK8SAcidZalanDoOperatorConfigurationV1Manifest#connection_pooler}
   */
   readonly connectionPooler?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationConnectionPooler;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#crd_categories DataK8SAcidZalanDoOperatorConfigurationV1Manifest#crd_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#crd_categories DataK8SAcidZalanDoOperatorConfigurationV1Manifest#crd_categories}
   */
   readonly crdCategories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#debug DataK8SAcidZalanDoOperatorConfigurationV1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#debug DataK8SAcidZalanDoOperatorConfigurationV1Manifest#debug}
   */
   readonly debug?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationDebug;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#docker_image DataK8SAcidZalanDoOperatorConfigurationV1Manifest#docker_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#docker_image DataK8SAcidZalanDoOperatorConfigurationV1Manifest#docker_image}
   */
   readonly dockerImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_crd_registration DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_crd_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_crd_registration DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_crd_registration}
   */
   readonly enableCrdRegistration?: boolean | cdktf.IResolvable;
   /**
   * deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_crd_validation DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_crd_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_crd_validation DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_crd_validation}
   */
   readonly enableCrdValidation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_lazy_spilo_upgrade DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_lazy_spilo_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_lazy_spilo_upgrade DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_lazy_spilo_upgrade}
   */
   readonly enableLazySpiloUpgrade?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_pgversion_env_var DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_pgversion_env_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_pgversion_env_var DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_pgversion_env_var}
   */
   readonly enablePgversionEnvVar?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_shm_volume DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_shm_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_shm_volume DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_shm_volume}
   */
   readonly enableShmVolume?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_spilo_wal_path_compat DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_spilo_wal_path_compat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_spilo_wal_path_compat DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_spilo_wal_path_compat}
   */
   readonly enableSpiloWalPathCompat?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_team_id_clustername_prefix DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_team_id_clustername_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#enable_team_id_clustername_prefix DataK8SAcidZalanDoOperatorConfigurationV1Manifest#enable_team_id_clustername_prefix}
   */
   readonly enableTeamIdClusternamePrefix?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#etcd_host DataK8SAcidZalanDoOperatorConfigurationV1Manifest#etcd_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#etcd_host DataK8SAcidZalanDoOperatorConfigurationV1Manifest#etcd_host}
   */
   readonly etcdHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#ignore_instance_limits_annotation_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#ignore_instance_limits_annotation_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#ignore_instance_limits_annotation_key DataK8SAcidZalanDoOperatorConfigurationV1Manifest#ignore_instance_limits_annotation_key}
   */
   readonly ignoreInstanceLimitsAnnotationKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#kubernetes DataK8SAcidZalanDoOperatorConfigurationV1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#kubernetes DataK8SAcidZalanDoOperatorConfigurationV1Manifest#kubernetes}
   */
   readonly kubernetes?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationKubernetes;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#kubernetes_use_configmaps DataK8SAcidZalanDoOperatorConfigurationV1Manifest#kubernetes_use_configmaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#kubernetes_use_configmaps DataK8SAcidZalanDoOperatorConfigurationV1Manifest#kubernetes_use_configmaps}
   */
   readonly kubernetesUseConfigmaps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#load_balancer DataK8SAcidZalanDoOperatorConfigurationV1Manifest#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#load_balancer DataK8SAcidZalanDoOperatorConfigurationV1Manifest#load_balancer}
   */
   readonly loadBalancer?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationLoadBalancer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logging_rest_api DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logging_rest_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logging_rest_api DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logging_rest_api}
   */
   readonly loggingRestApi?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationLoggingRestApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#logical_backup DataK8SAcidZalanDoOperatorConfigurationV1Manifest#logical_backup}
   */
   readonly logicalBackup?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationLogicalBackup;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#major_version_upgrade DataK8SAcidZalanDoOperatorConfigurationV1Manifest#major_version_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#major_version_upgrade DataK8SAcidZalanDoOperatorConfigurationV1Manifest#major_version_upgrade}
   */
   readonly majorVersionUpgrade?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationMajorVersionUpgrade;
   /**
   * -1 = disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#max_instances DataK8SAcidZalanDoOperatorConfigurationV1Manifest#max_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#max_instances DataK8SAcidZalanDoOperatorConfigurationV1Manifest#max_instances}
   */
   readonly maxInstances?: number;
   /**
   * -1 = disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#min_instances DataK8SAcidZalanDoOperatorConfigurationV1Manifest#min_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#min_instances DataK8SAcidZalanDoOperatorConfigurationV1Manifest#min_instances}
   */
   readonly minInstances?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#patroni DataK8SAcidZalanDoOperatorConfigurationV1Manifest#patroni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#patroni DataK8SAcidZalanDoOperatorConfigurationV1Manifest#patroni}
   */
   readonly patroni?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationPatroni;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#postgres_pod_resources DataK8SAcidZalanDoOperatorConfigurationV1Manifest#postgres_pod_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#postgres_pod_resources DataK8SAcidZalanDoOperatorConfigurationV1Manifest#postgres_pod_resources}
   */
   readonly postgresPodResources?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationPostgresPodResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#repair_period DataK8SAcidZalanDoOperatorConfigurationV1Manifest#repair_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#repair_period DataK8SAcidZalanDoOperatorConfigurationV1Manifest#repair_period}
   */
   readonly repairPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#resync_period DataK8SAcidZalanDoOperatorConfigurationV1Manifest#resync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#resync_period DataK8SAcidZalanDoOperatorConfigurationV1Manifest#resync_period}
   */
   readonly resyncPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#scalyr DataK8SAcidZalanDoOperatorConfigurationV1Manifest#scalyr}
   */
   readonly scalyr?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationScalyr;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#set_memory_request_to_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#set_memory_request_to_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#set_memory_request_to_limit DataK8SAcidZalanDoOperatorConfigurationV1Manifest#set_memory_request_to_limit}
   */
   readonly setMemoryRequestToLimit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#sidecar_docker_images DataK8SAcidZalanDoOperatorConfigurationV1Manifest#sidecar_docker_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#sidecar_docker_images DataK8SAcidZalanDoOperatorConfigurationV1Manifest#sidecar_docker_images}
   */
   readonly sidecarDockerImages?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#sidecars DataK8SAcidZalanDoOperatorConfigurationV1Manifest#sidecars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#sidecars DataK8SAcidZalanDoOperatorConfigurationV1Manifest#sidecars}
   */
   readonly sidecars?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#teams_api DataK8SAcidZalanDoOperatorConfigurationV1Manifest#teams_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#teams_api DataK8SAcidZalanDoOperatorConfigurationV1Manifest#teams_api}
   */
   readonly teamsApi?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationTeamsApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#timeouts DataK8SAcidZalanDoOperatorConfigurationV1Manifest#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#timeouts DataK8SAcidZalanDoOperatorConfigurationV1Manifest#timeouts}
   */
   readonly timeouts?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationTimeouts;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#users DataK8SAcidZalanDoOperatorConfigurationV1Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#users DataK8SAcidZalanDoOperatorConfigurationV1Manifest#users}
   */
   readonly users?: DataK8SAcidZalanDoOperatorConfigurationV1ManifestConfigurationUsers;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#workers DataK8SAcidZalanDoOperatorConfigurationV1Manifest#workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#workers DataK8SAcidZalanDoOperatorConfigurationV1Manifest#workers}
   */
   readonly workers?: number;
 }
@@ -7711,25 +7711,25 @@ export interface DataK8SAcidZalanDoOperatorConfigurationV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#annotations DataK8SAcidZalanDoOperatorConfigurationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#annotations DataK8SAcidZalanDoOperatorConfigurationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#labels DataK8SAcidZalanDoOperatorConfigurationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#labels DataK8SAcidZalanDoOperatorConfigurationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#name DataK8SAcidZalanDoOperatorConfigurationV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#namespace DataK8SAcidZalanDoOperatorConfigurationV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#namespace DataK8SAcidZalanDoOperatorConfigurationV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -7904,7 +7904,7 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1ManifestMetadataOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest k8s_acid_zalan_do_operator_configuration_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest k8s_acid_zalan_do_operator_configuration_v1_manifest}
 */
 export class DataK8SAcidZalanDoOperatorConfigurationV1Manifest extends cdktf.TerraformDataSource {
 
@@ -7920,7 +7920,7 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SAcidZalanDoOperatorConfigurationV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAcidZalanDoOperatorConfigurationV1Manifest to import
-  * @param importFromId The id of the existing DataK8SAcidZalanDoOperatorConfigurationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAcidZalanDoOperatorConfigurationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAcidZalanDoOperatorConfigurationV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7932,7 +7932,7 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest k8s_acid_zalan_do_operator_configuration_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/acid_zalan_do_operator_configuration_v1_manifest k8s_acid_zalan_do_operator_configuration_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7943,8 +7943,8 @@ export class DataK8SAcidZalanDoOperatorConfigurationV1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_acid_zalan_do_operator_configuration_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

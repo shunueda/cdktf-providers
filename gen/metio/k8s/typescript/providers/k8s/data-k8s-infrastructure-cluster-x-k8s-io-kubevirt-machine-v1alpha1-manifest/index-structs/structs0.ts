@@ -3,25 +3,25 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#annotations DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#annotations DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -198,43 +198,43 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#api_version DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#api_version DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#field_path DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#field_path DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#resource_version DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#resource_version DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#uid DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#uid DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -504,7 +504,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * CheckStrategy describes how CAPK controller will validate a successful CAPI bootstrap. Following specified method, CAPK will try to retrieve the state of the CAPI Sentinel file from the VM. Possible values are: 'none' or 'ssh' (default is 'ssh') and this value is validated by apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#check_strategy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#check_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#check_strategy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#check_strategy}
   */
   readonly checkStrategy?: string;
 }
@@ -600,13 +600,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Current is the identifier of the snapshot created for this checkpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#current DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#current DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#current}
   */
   readonly current: string;
   /**
   * Previous is the identifier of the snapshot from the previous checkpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#previous DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#previous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#previous DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#previous}
   */
   readonly previous: string;
 }
@@ -747,19 +747,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#api_group DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#api_group DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -907,25 +907,25 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#api_group DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#api_group DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1102,13 +1102,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#limits DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#limits DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#requests DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#requests DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1233,19 +1233,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1415,13 +1415,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecPvcSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1546,55 +1546,55 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#access_modes DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#access_modes DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#data_source DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#data_source DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecPvcDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#data_source_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#data_source_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecPvcDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#resources DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#resources DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecPvcResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecPvcSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#storage_class_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#storage_class_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Alpha) Using this field requires the VolumeAttributesClass feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#volume_attributes_class_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#volume_attributes_class_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#volume_mode DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#volume_mode DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#volume_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#volume_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -1922,13 +1922,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * SecretRef provides the secret reference needed to access the GCS source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: string;
   /**
   * URL is the url of the GCS source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -2050,31 +2050,31 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * CertConfigMap is a configmap reference, containing a Certificate Authority(CA) public key, and a base64 encoded pem certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cert_config_map DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cert_config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cert_config_map DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cert_config_map}
   */
   readonly certConfigMap?: string;
   /**
   * ExtraHeaders is a list of strings containing extra headers to include with HTTP transfer requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#extra_headers DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#extra_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#extra_headers DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#extra_headers}
   */
   readonly extraHeaders?: string[];
   /**
   * SecretExtraHeaders is a list of Secret references, each containing an extra HTTP header that may include sensitive information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_extra_headers DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_extra_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_extra_headers DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_extra_headers}
   */
   readonly secretExtraHeaders?: string[];
   /**
   * SecretRef A Secret reference, the secret should contain accessKeyId (user name) base64 encoded, and secretKey (password) also base64 encoded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: string;
   /**
   * URL is the URL of the http(s) endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -2283,25 +2283,25 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * CertConfigMap provides a reference to the CA cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cert_config_map DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cert_config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cert_config_map DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cert_config_map}
   */
   readonly certConfigMap?: string;
   /**
   * DiskID provides id of a disk to be imported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#disk_id DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#disk_id DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#disk_id}
   */
   readonly diskId: string;
   /**
   * SecretRef provides the secret reference needed to access the ovirt-engine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: string;
   /**
   * URL is the URL of the ovirt-engine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -2478,13 +2478,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * The name of the source PVC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The namespace of the source PVC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -2603,31 +2603,31 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * CertConfigMap provides a reference to the Registry certs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cert_config_map DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cert_config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cert_config_map DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cert_config_map}
   */
   readonly certConfigMap?: string;
   /**
   * ImageStream is the name of image stream for import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#image_stream DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#image_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#image_stream DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#image_stream}
   */
   readonly imageStream?: string;
   /**
   * PullMethod can be either 'pod' (default import), or 'node' (node docker cache based import)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pull_method DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pull_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pull_method DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pull_method}
   */
   readonly pullMethod?: string;
   /**
   * SecretRef provides the secret reference needed to access the Registry source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: string;
   /**
   * URL is the url of the registry source (starting with the scheme: docker, oci-archive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -2839,19 +2839,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * CertConfigMap is a configmap reference, containing a Certificate Authority(CA) public key, and a base64 encoded pem certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cert_config_map DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cert_config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cert_config_map DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cert_config_map}
   */
   readonly certConfigMap?: string;
   /**
   * SecretRef provides the secret reference needed to access the S3 source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: string;
   /**
   * URL is the url of the S3 source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -3002,13 +3002,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * The name of the source VolumeSnapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The namespace of the source VolumeSnapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -3127,37 +3127,37 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * BackingFile is the path to the virtual hard disk to migrate from vCenter/ESXi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#backing_file DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#backing_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#backing_file DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#backing_file}
   */
   readonly backingFile?: string;
   /**
   * InitImageURL is an optional URL to an image containing an extracted VDDK library, overrides v2v-vmware config map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#init_image_url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#init_image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#init_image_url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#init_image_url}
   */
   readonly initImageUrl?: string;
   /**
   * SecretRef provides a reference to a secret containing the username and password needed to access the vCenter or ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: string;
   /**
   * Thumbprint is the certificate thumbprint of the vCenter or ESXi host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#thumbprint DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#thumbprint DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#thumbprint}
   */
   readonly thumbprint?: string;
   /**
   * URL is the URL of the vCenter or ESXi host with the VM to migrate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#url DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#url}
   */
   readonly url?: string;
   /**
   * UUID is the UUID of the virtual machine that the backing file is attached to in vCenter/ESXi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#uuid DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#uuid DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#uuid}
   */
   readonly uuid?: string;
 }
@@ -3398,61 +3398,61 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * DataVolumeBlankImage provides the parameters to create a new raw blank image for the PVC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#blank DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#blank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#blank DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#blank}
   */
   readonly blank?: { [key: string]: string };
   /**
   * DataVolumeSourceGCS provides the parameters to create a Data Volume from an GCS source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#gcs DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#gcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#gcs DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#gcs}
   */
   readonly gcs?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecSourceGcs;
   /**
   * DataVolumeSourceHTTP can be either an http or https endpoint, with an optional basic auth user name and password, and an optional configmap containing additional CAs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#http DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#http DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecSourceHttp;
   /**
   * DataVolumeSourceImageIO provides the parameters to create a Data Volume from an imageio source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#imageio DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#imageio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#imageio DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#imageio}
   */
   readonly imageio?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecSourceImageio;
   /**
   * DataVolumeSourcePVC provides the parameters to create a Data Volume from an existing PVC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pvc DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pvc DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pvc}
   */
   readonly pvc?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecSourcePvc;
   /**
   * DataVolumeSourceRegistry provides the parameters to create a Data Volume from an registry source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#registry DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#registry DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#registry}
   */
   readonly registry?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecSourceRegistry;
   /**
   * DataVolumeSourceS3 provides the parameters to create a Data Volume from an S3 source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#s3 DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#s3 DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#s3}
   */
   readonly s3?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecSourceS3;
   /**
   * DataVolumeSourceSnapshot provides the parameters to create a Data Volume from an existing VolumeSnapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#snapshot DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#snapshot DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#snapshot}
   */
   readonly snapshot?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecSourceSnapshot;
   /**
   * DataVolumeSourceUpload provides the parameters to create a Data Volume by uploading the source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#upload DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#upload DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#upload}
   */
   readonly upload?: { [key: string]: string };
   /**
   * DataVolumeSourceVDDK provides the parameters to create a Data Volume from a Vmware source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vddk DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vddk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vddk DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vddk}
   */
   readonly vddk?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecSourceVddk;
 }
@@ -3809,19 +3809,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * The kind of the source reference, currently only 'DataSource' is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * The name of the source reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The namespace of the source reference, defaults to the DataVolume namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3969,19 +3969,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#api_group DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#api_group DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -4129,25 +4129,25 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#api_group DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#api_group DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -4324,7 +4324,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -4439,19 +4439,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#claims DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#claims DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecStorageResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#limits DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#limits DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#requests DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#requests DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -4605,19 +4605,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4787,13 +4787,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecStorageSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4918,49 +4918,49 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * AccessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#access_modes DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#access_modes DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * This field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) * An existing custom resource that implements data population (Alpha) In order to use custom resource types that implement data population, the AnyVolumeDataSource feature gate must be enabled. If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. If the AnyVolumeDataSource feature gate is enabled, this field will always have the same contents as the DataSourceRef field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#data_source DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#data_source DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecStorageDataSource;
   /**
   * Specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any local object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the DataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, both fields (DataSource and DataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. There are two important differences between DataSource and DataSourceRef: * While DataSource only allows two specific types of objects, DataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While DataSource ignores disallowed values (dropping them), DataSourceRef preserves all values, and generates an error if a disallowed value is specified. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#data_source_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#data_source_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecStorageDataSourceRef;
   /**
   * Resources represents the minimum resources the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#resources DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#resources DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecStorageResources;
   /**
   * A label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecStorageSelector;
   /**
   * Name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#storage_class_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#storage_class_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#volume_mode DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#volume_mode DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * VolumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#volume_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#volume_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -5259,55 +5259,55 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Checkpoints is a list of DataVolumeCheckpoints, representing stages in a multistage import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#checkpoints DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#checkpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#checkpoints DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#checkpoints}
   */
   readonly checkpoints?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecCheckpoints[] | cdktf.IResolvable;
   /**
   * DataVolumeContentType options: 'kubevirt', 'archive'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#content_type DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#content_type DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
   * FinalCheckpoint indicates whether the current DataVolumeCheckpoint is the final checkpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#final_checkpoint DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#final_checkpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#final_checkpoint DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#final_checkpoint}
   */
   readonly finalCheckpoint?: boolean | cdktf.IResolvable;
   /**
   * Preallocation controls whether storage for DataVolumes should be allocated in advance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#preallocation DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#preallocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#preallocation DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#preallocation}
   */
   readonly preallocation?: boolean | cdktf.IResolvable;
   /**
   * PriorityClassName for Importer, Cloner and Uploader pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#priority_class_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#priority_class_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * PVC is the PVC specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pvc DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pvc DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pvc}
   */
   readonly pvc?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecPvc;
   /**
   * Source is the src of the data for the requested DataVolume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#source DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#source DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#source}
   */
   readonly source?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecSource;
   /**
   * SourceRef is an indirect reference to the source of data for the requested DataVolume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#source_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#source_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#source_ref}
   */
   readonly sourceRef?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecSourceRef;
   /**
   * Storage is the requested storage specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#storage DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#storage DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpecStorage;
 }
@@ -5635,29 +5635,29 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#api_version DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#api_version DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#metadata DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#metadata DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * DataVolumeSpec contains the DataVolume specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#spec DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#spec DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecDataVolumeTemplatesSpec;
   /**
   * DataVolumeTemplateDummyStatus is here simply for backwards compatibility with a previous API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#status DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#status DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#status}
   */
   readonly status?: { [key: string]: string };
 }
@@ -5888,31 +5888,31 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * InferFromVolume lists the name of a volume that should be used to infer or discover the instancetype to be used through known annotations on the underlying resource. Once applied to the InstancetypeMatcher this field is removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#infer_from_volume DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#infer_from_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#infer_from_volume DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#infer_from_volume}
   */
   readonly inferFromVolume?: string;
   /**
   * InferFromVolumeFailurePolicy controls what should happen on failure when inferring the instancetype. Allowed values are: 'RejectInferFromVolumeFailure' and 'IgnoreInferFromVolumeFailure'. If not specified, 'RejectInferFromVolumeFailure' is used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#infer_from_volume_failure_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#infer_from_volume_failure_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#infer_from_volume_failure_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#infer_from_volume_failure_policy}
   */
   readonly inferFromVolumeFailurePolicy?: string;
   /**
   * Kind specifies which instancetype resource is referenced. Allowed values are: 'VirtualMachineInstancetype' and 'VirtualMachineClusterInstancetype'. If not specified, 'VirtualMachineClusterInstancetype' is used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the name of the VirtualMachineInstancetype or VirtualMachineClusterInstancetype
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * RevisionName specifies a ControllerRevision containing a specific copy of the VirtualMachineInstancetype or VirtualMachineClusterInstancetype to be used. This is initially captured the first time the instancetype is applied to the VirtualMachineInstance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#revision_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#revision_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#revision_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#revision_name}
   */
   readonly revisionName?: string;
 }
@@ -6124,31 +6124,31 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * InferFromVolume lists the name of a volume that should be used to infer or discover the preference to be used through known annotations on the underlying resource. Once applied to the PreferenceMatcher this field is removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#infer_from_volume DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#infer_from_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#infer_from_volume DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#infer_from_volume}
   */
   readonly inferFromVolume?: string;
   /**
   * InferFromVolumeFailurePolicy controls what should happen on failure when preference the instancetype. Allowed values are: 'RejectInferFromVolumeFailure' and 'IgnoreInferFromVolumeFailure'. If not specified, 'RejectInferFromVolumeFailure' is used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#infer_from_volume_failure_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#infer_from_volume_failure_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#infer_from_volume_failure_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#infer_from_volume_failure_policy}
   */
   readonly inferFromVolumeFailurePolicy?: string;
   /**
   * Kind specifies which preference resource is referenced. Allowed values are: 'VirtualMachinePreference' and 'VirtualMachineClusterPreference'. If not specified, 'VirtualMachineClusterPreference' is used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kind DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the name of the VirtualMachinePreference or VirtualMachineClusterPreference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * RevisionName specifies a ControllerRevision containing a specific copy of the VirtualMachinePreference or VirtualMachineClusterPreference to be used. This is initially captured the first time the instancetype is applied to the VirtualMachineInstance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#revision_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#revision_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#revision_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#revision_name}
   */
   readonly revisionName?: string;
 }
@@ -6360,7 +6360,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Users represents a list of guest users that should have the ssh public keys added to their authorized_keys file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#users DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#users DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#users}
   */
   readonly users: string[];
 }
@@ -6453,19 +6453,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * ConfigDrivePropagation means that the ssh public keys are injected into the VM using metadata using the configDrive cloud-init provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#config_drive DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#config_drive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#config_drive DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#config_drive}
   */
   readonly configDrive?: { [key: string]: string };
   /**
   * NoCloudPropagation means that the ssh public keys are injected into the VM using metadata using the noCloud cloud-init provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#no_cloud DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#no_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#no_cloud DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#no_cloud}
   */
   readonly noCloud?: { [key: string]: string };
   /**
   * QemuGuestAgentAccessCredentailPropagation means ssh public keys are dynamically injected into the vm at runtime via the qemu guest agent. This feature requires the qemu guest agent to be running within the guest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#qemu_guest_agent DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#qemu_guest_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#qemu_guest_agent DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#qemu_guest_agent}
   */
   readonly qemuGuestAgent?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAccessCredentialsSshPublicKeyPropagationMethodQemuGuestAgent;
 }
@@ -6619,7 +6619,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * SecretName represents the name of the secret in the VMI's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -6712,7 +6712,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Secret means that the access credential is pulled from a kubernetes secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAccessCredentialsSshPublicKeySourceSecret;
 }
@@ -6808,13 +6808,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * PropagationMethod represents how the public key is injected into the vm guest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#propagation_method DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#propagation_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#propagation_method DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#propagation_method}
   */
   readonly propagationMethod: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAccessCredentialsSshPublicKeyPropagationMethod;
   /**
   * Source represents where the public keys are pulled from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#source DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#source DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#source}
   */
   readonly source: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAccessCredentialsSshPublicKeySource;
 }
@@ -6933,7 +6933,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * QemuGuestAgentAccessCredentailPropagation means passwords are dynamically injected into the vm at runtime via the qemu guest agent. This feature requires the qemu guest agent to be running within the guest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#qemu_guest_agent DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#qemu_guest_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#qemu_guest_agent DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#qemu_guest_agent}
   */
   readonly qemuGuestAgent?: { [key: string]: string };
 }
@@ -7029,7 +7029,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * SecretName represents the name of the secret in the VMI's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -7122,7 +7122,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Secret means that the access credential is pulled from a kubernetes secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secret DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAccessCredentialsUserPasswordSourceSecret;
 }
@@ -7218,13 +7218,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * propagationMethod represents how the user passwords are injected into the vm guest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#propagation_method DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#propagation_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#propagation_method DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#propagation_method}
   */
   readonly propagationMethod: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAccessCredentialsUserPasswordPropagationMethod;
   /**
   * Source represents where the user passwords are pulled from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#source DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#source DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#source}
   */
   readonly source: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAccessCredentialsUserPasswordSource;
 }
@@ -7343,13 +7343,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * SSHPublicKey represents the source and method of applying a ssh public key into a guest virtual machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#ssh_public_key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#ssh_public_key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#ssh_public_key}
   */
   readonly sshPublicKey?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAccessCredentialsSshPublicKey;
   /**
   * UserPassword represents the source and method for applying a guest user's password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#user_password DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#user_password DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#user_password}
   */
   readonly userPassword?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAccessCredentialsUserPassword;
 }
@@ -7496,19 +7496,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7678,19 +7678,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7860,13 +7860,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_fields DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_fields DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -7991,13 +7991,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#preference DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#preference DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#weight DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#weight DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -8138,19 +8138,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8320,19 +8320,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8502,13 +8502,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_fields DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_fields DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -8655,7 +8655,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#node_selector_terms DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#node_selector_terms DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -8748,13 +8748,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -8879,19 +8879,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9061,13 +9061,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9192,19 +9192,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9374,13 +9374,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9505,37 +9505,37 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#label_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#label_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#mismatch_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#mismatch_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespaces DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespaces DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#topology_key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#topology_key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -9773,13 +9773,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pod_affinity_term DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pod_affinity_term DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#weight DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#weight DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -9920,19 +9920,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10102,13 +10102,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10233,19 +10233,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10415,13 +10415,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10546,37 +10546,37 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#label_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#label_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#mismatch_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#mismatch_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespaces DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespaces DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#topology_key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#topology_key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -10836,13 +10836,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -10967,19 +10967,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11149,13 +11149,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11280,19 +11280,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11462,13 +11462,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11593,37 +11593,37 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#label_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#label_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#mismatch_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#mismatch_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespaces DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespaces DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#topology_key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#topology_key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -11861,13 +11861,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pod_affinity_term DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pod_affinity_term DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#weight DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#weight DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -12008,19 +12008,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12190,13 +12190,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12321,19 +12321,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#operator DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#values DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12503,13 +12503,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_expressions DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_labels DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12634,37 +12634,37 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#label_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#label_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#mismatch_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#mismatch_label_keys DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespace_selector DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespaces DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#namespaces DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#topology_key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#topology_key DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -12924,13 +12924,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -13055,19 +13055,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#node_affinity DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#node_affinity DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pod_affinity DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pod_affinity DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pod_anti_affinity DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pod_anti_affinity DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecAffinityPodAntiAffinity;
 }
@@ -13221,11 +13221,11 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#value DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#value DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -13372,19 +13372,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * A list of DNS name server IP addresses. This will be appended to the base nameservers generated from DNSPolicy. Duplicated nameservers will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#nameservers DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#nameservers DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
   * A list of DNS resolver options. This will be merged with the base options generated from DNSPolicy. Duplicated entries will be removed. Resolution options given in Options will override those that appear in the base DNSPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#options DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#options DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#options}
   */
   readonly options?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDnsConfigOptions[] | cdktf.IResolvable;
   /**
   * A list of DNS search domains for host-name lookup. This will be appended to the base search paths generated from DNSPolicy. Duplicated search paths will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#searches DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#searches DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -13536,23 +13536,23 @@ export class DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSp
 }
 export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainChassis {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#asset DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#asset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#asset DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#asset}
   */
   readonly asset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#manufacturer DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#manufacturer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#manufacturer DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#manufacturer}
   */
   readonly manufacturer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#serial DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#serial DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#serial}
   */
   readonly serial?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#sku DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#sku DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#sku}
   */
   readonly sku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#version DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#version DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -13764,13 +13764,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled set to false makes sure that the machine type or a preset can't add the timer. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#present DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#present DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#present}
   */
   readonly present?: boolean | cdktf.IResolvable;
   /**
   * TickPolicy determines what happens when QEMU misses a deadline for injecting a tick to the guest. One of 'delay', 'catchup', 'merge', 'discard'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tick_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tick_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tick_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tick_policy}
   */
   readonly tickPolicy?: string;
 }
@@ -13895,7 +13895,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled set to false makes sure that the machine type or a preset can't add the timer. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#present DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#present DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#present}
   */
   readonly present?: boolean | cdktf.IResolvable;
 }
@@ -13991,7 +13991,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled set to false makes sure that the machine type or a preset can't add the timer. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#present DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#present DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#present}
   */
   readonly present?: boolean | cdktf.IResolvable;
 }
@@ -14087,13 +14087,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled set to false makes sure that the machine type or a preset can't add the timer. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#present DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#present DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#present}
   */
   readonly present?: boolean | cdktf.IResolvable;
   /**
   * TickPolicy determines what happens when QEMU misses a deadline for injecting a tick to the guest. One of 'delay', 'catchup', 'discard'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tick_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tick_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tick_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tick_policy}
   */
   readonly tickPolicy?: string;
 }
@@ -14218,19 +14218,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled set to false makes sure that the machine type or a preset can't add the timer. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#present DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#present DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#present}
   */
   readonly present?: boolean | cdktf.IResolvable;
   /**
   * TickPolicy determines what happens when QEMU misses a deadline for injecting a tick to the guest. One of 'delay', 'catchup'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tick_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tick_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tick_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tick_policy}
   */
   readonly tickPolicy?: string;
   /**
   * Track the guest or the wall clock.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#track DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#track DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#track}
   */
   readonly track?: string;
 }
@@ -14384,31 +14384,31 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * HPET (High Precision Event Timer) - multiple timers with periodic interrupts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#hpet DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#hpet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#hpet DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#hpet}
   */
   readonly hpet?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainClockTimerHpet;
   /**
   * Hyperv (Hypervclock) - lets guests read the host’s wall clock time (paravirtualized). For windows guests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#hyperv DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#hyperv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#hyperv DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#hyperv}
   */
   readonly hyperv?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainClockTimerHyperv;
   /**
   * KVM (KVM clock) - lets guests read the host’s wall clock time (paravirtualized). For linux guests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kvm DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kvm DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kvm}
   */
   readonly kvm?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainClockTimerKvm;
   /**
   * PIT (Programmable Interval Timer) - a timer with periodic interrupts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pit DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pit DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pit}
   */
   readonly pit?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainClockTimerPit;
   /**
   * RTC (Real Time Clock) - a continuously running timer with periodic interrupts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#rtc DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#rtc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#rtc DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#rtc}
   */
   readonly rtc?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainClockTimerRtc;
 }
@@ -14620,7 +14620,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * OffsetSeconds specifies an offset in seconds, relative to UTC. If set, guest changes to the clock will be kept during reboots and not reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#offset_seconds DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#offset_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#offset_seconds DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#offset_seconds}
   */
   readonly offsetSeconds?: number;
 }
@@ -14716,19 +14716,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Timer specifies whih timers are attached to the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#timer DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#timer DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#timer}
   */
   readonly timer?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainClockTimer;
   /**
   * Timezone sets the guest clock to the specified timezone. Zone name follows the TZ environment variable format (e.g. 'America/New_York').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#timezone DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#timezone DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#timezone}
   */
   readonly timezone?: string;
   /**
   * UTC sets the guest clock to UTC on each boot. If an offset is specified, guest changes to the clock will be kept during reboots and are not reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#utc DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#utc DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#utc}
   */
   readonly utc?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainClockUtc;
 }
@@ -14882,13 +14882,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Name of the CPU feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Policy is the CPU feature attribute which can have the following attributes: force - The virtual CPU will claim the feature is supported regardless of it being supported by host CPU. require - Guest creation will fail unless the feature is supported by the host CPU or the hypervisor is able to emulate it. optional - The feature will be supported by virtual CPU if and only if it is supported by host CPU. disable - The feature will not be supported by virtual CPU. forbid - Guest creation will fail if the feature is supported by host CPU. Defaults to require
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#policy}
   */
   readonly policy?: string;
 }
@@ -15032,7 +15032,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * GuestMappingPassthrough will create an efficient guest topology based on host CPUs exclusively assigned to a pod. The created topology ensures that memory and CPUs on the virtual numa nodes never cross boundaries of host numa nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#guest_mapping_passthrough DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#guest_mapping_passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#guest_mapping_passthrough DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#guest_mapping_passthrough}
   */
   readonly guestMappingPassthrough?: { [key: string]: string };
 }
@@ -15128,7 +15128,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Mask defines the vcpu mask expression that defines which vcpus are used for realtime. Format matches libvirt's expressions. Example: '0-3,^1','0,2,3','2-3'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#mask DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#mask DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#mask}
   */
   readonly mask?: string;
 }
@@ -15224,61 +15224,61 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Cores specifies the number of cores inside the vmi. Must be a value greater or equal 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cores DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cores DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cores}
   */
   readonly cores?: number;
   /**
   * DedicatedCPUPlacement requests the scheduler to place the VirtualMachineInstance on a node with enough dedicated pCPUs and pin the vCPUs to it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#dedicated_cpu_placement DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#dedicated_cpu_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#dedicated_cpu_placement DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#dedicated_cpu_placement}
   */
   readonly dedicatedCpuPlacement?: boolean | cdktf.IResolvable;
   /**
   * Features specifies the CPU features list inside the VMI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#features DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#features DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#features}
   */
   readonly features?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainCpuFeatures[] | cdktf.IResolvable;
   /**
   * IsolateEmulatorThread requests one more dedicated pCPU to be allocated for the VMI to place the emulator thread on it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#isolate_emulator_thread DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#isolate_emulator_thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#isolate_emulator_thread DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#isolate_emulator_thread}
   */
   readonly isolateEmulatorThread?: boolean | cdktf.IResolvable;
   /**
   * MaxSockets specifies the maximum amount of sockets that can be hotplugged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#max_sockets DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#max_sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#max_sockets DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#max_sockets}
   */
   readonly maxSockets?: number;
   /**
   * Model specifies the CPU model inside the VMI. List of available models https://github.com/libvirt/libvirt/tree/master/src/cpu_map. It is possible to specify special cases like 'host-passthrough' to get the same CPU as the node and 'host-model' to get CPU closest to the node one. Defaults to host-model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#model DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#model DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#model}
   */
   readonly model?: string;
   /**
   * NUMA allows specifying settings for the guest NUMA topology
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#numa DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#numa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#numa DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#numa}
   */
   readonly numa?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainCpuNuma;
   /**
   * Realtime instructs the virt-launcher to tune the VMI for lower latency, optional for real time workloads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#realtime DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#realtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#realtime DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#realtime}
   */
   readonly realtime?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainCpuRealtime;
   /**
   * Sockets specifies the number of sockets inside the vmi. Must be a value greater or equal 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#sockets DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#sockets DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#sockets}
   */
   readonly sockets?: number;
   /**
   * Threads specifies the number of threads inside the vmi. Must be a value greater or equal 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#threads DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#threads DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#threads}
   */
   readonly threads?: number;
 }
@@ -15633,11 +15633,11 @@ export class DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSp
 }
 export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesDisksBlockSizeCustom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#logical DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#logical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#logical DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#logical}
   */
   readonly logical: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#physical DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#physical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#physical DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#physical}
   */
   readonly physical: number;
 }
@@ -15756,7 +15756,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -15852,13 +15852,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * CustomBlockSize represents the desired logical and physical block size for a VM disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#custom DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#custom DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesDisksBlockSizeCustom;
   /**
   * Represents if a feature is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_volume DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#match_volume DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#match_volume}
   */
   readonly matchVolume?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesDisksBlockSizeMatchVolume;
 }
@@ -15983,19 +15983,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Bus indicates the type of disk device to emulate. supported values: virtio, sata, scsi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bus DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bus DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bus}
   */
   readonly bus?: string;
   /**
   * ReadOnly. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#readonly DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#readonly DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
   /**
   * Tray indicates if the tray of the device is open or closed. Allowed values are 'open' and 'closed'. Defaults to closed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tray DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tray}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tray DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tray}
   */
   readonly tray?: string;
 }
@@ -16149,19 +16149,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Bus indicates the type of disk device to emulate. supported values: virtio, sata, scsi, usb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bus DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bus DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bus}
   */
   readonly bus?: string;
   /**
   * If specified, the virtual disk will be placed on the guests pci address with the specified PCI address. For example: 0000:81:01.10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pci_address DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pci_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pci_address DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pci_address}
   */
   readonly pciAddress?: string;
   /**
   * ReadOnly. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#readonly DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#readonly DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
 }
@@ -16315,19 +16315,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Bus indicates the type of disk device to emulate. supported values: virtio, sata, scsi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bus DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bus DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bus}
   */
   readonly bus?: string;
   /**
   * ReadOnly. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#readonly DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#readonly DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
   /**
   * Reservation indicates if the disk needs to support the persistent reservation for the SCSI disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#reservation DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#reservation DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#reservation}
   */
   readonly reservation?: boolean | cdktf.IResolvable;
 }
@@ -16481,79 +16481,79 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * If specified, the virtual disk will be presented with the given block sizes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#block_size DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#block_size DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#block_size}
   */
   readonly blockSize?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesDisksBlockSize;
   /**
   * BootOrder is an integer value > 0, used to determine ordering of boot devices. Lower values take precedence. Each disk or interface that has a boot order must have a unique value. Disks without a boot order are not tried if a disk with a boot order exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#boot_order DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#boot_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#boot_order DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#boot_order}
   */
   readonly bootOrder?: number;
   /**
   * Cache specifies which kvm disk cache mode should be used. Supported values are: CacheNone, CacheWriteThrough.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cache DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cache DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cache}
   */
   readonly cache?: string;
   /**
   * Attach a volume as a cdrom to the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cdrom DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cdrom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cdrom DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cdrom}
   */
   readonly cdrom?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesDisksCdrom;
   /**
   * dedicatedIOThread indicates this disk should have an exclusive IO Thread. Enabling this implies useIOThreads = true. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#dedicated_io_thread DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#dedicated_io_thread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#dedicated_io_thread DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#dedicated_io_thread}
   */
   readonly dedicatedIoThread?: boolean | cdktf.IResolvable;
   /**
   * Attach a volume as a disk to the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#disk DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#disk DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#disk}
   */
   readonly disk?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesDisksDisk;
   /**
   * If specified, it can change the default error policy (stop) for the disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#error_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#error_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#error_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#error_policy}
   */
   readonly errorPolicy?: string;
   /**
   * IO specifies which QEMU disk IO mode should be used. Supported values are: native, default, threads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#io DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#io DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#io}
   */
   readonly io?: string;
   /**
   * Attach a volume as a LUN to the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#lun DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#lun DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#lun}
   */
   readonly lun?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesDisksLun;
   /**
   * Name is the device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Serial provides the ability to specify a serial number for the disk device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#serial DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#serial DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#serial}
   */
   readonly serial?: string;
   /**
   * If specified the disk is made sharable and multiple write from different VMs are permitted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#shareable DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#shareable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#shareable DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#shareable}
   */
   readonly shareable?: boolean | cdktf.IResolvable;
   /**
   * If specified, disk address and its tag will be provided to the guest via config drive metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tag DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tag DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -17016,13 +17016,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Name is the device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Virtiofs is supported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#virtiofs DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#virtiofs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#virtiofs DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#virtiofs}
   */
   readonly virtiofs: { [key: string]: string };
 }
@@ -17163,7 +17163,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -17259,13 +17259,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if a display addapter backed by a vGPU should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Enables a boot framebuffer, until the guest OS loads a real GPU driver Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#ram_fb DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#ram_fb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#ram_fb DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#ram_fb}
   */
   readonly ramFb?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesGpusVirtualGpuOptionsDisplayRamFb;
 }
@@ -17388,7 +17388,7 @@ export class DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSp
 }
 export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesGpusVirtualGpuOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#display DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#display DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#display}
   */
   readonly display?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesGpusVirtualGpuOptionsDisplay;
 }
@@ -17482,23 +17482,23 @@ export class DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSp
 }
 export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesGpus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#device_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#device_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#device_name}
   */
   readonly deviceName: string;
   /**
   * Name of the GPU device as exposed by a device plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * If specified, the virtual network interface address and its tag will be provided to the guest via config drive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tag DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tag DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#virtual_gpu_options DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#virtual_gpu_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#virtual_gpu_options DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#virtual_gpu_options}
   */
   readonly virtualGpuOptions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesGpusVirtualGpuOptions;
 }
@@ -17697,17 +17697,17 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * DeviceName is the resource name of the host device exposed by a device plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#device_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#device_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#device_name}
   */
   readonly deviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * If specified, the virtual network interface address and its tag will be provided to the guest via config drive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tag DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tag DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -17877,19 +17877,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Bus indicates the bus of input device to emulate. Supported values: virtio, usb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bus DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bus DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bus}
   */
   readonly bus?: string;
   /**
   * Name is the device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Type indicated the type of input device. Supported values: tablet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#type DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#type DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -18059,7 +18059,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Name references to the binding name as denined in the kubevirt CR. version: 1alphav1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -18152,13 +18152,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Option is an Integer value from 224-254 Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#option DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#option DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#option}
   */
   readonly option: number;
   /**
   * Value is a String value for the Option provided Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#value DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#value DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -18299,25 +18299,25 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * If specified will pass option 67 to interface's DHCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#boot_file_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#boot_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#boot_file_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#boot_file_name}
   */
   readonly bootFileName?: string;
   /**
   * If specified will pass the configured NTP server to the VM via DHCP option 042.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#ntp_servers DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#ntp_servers DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
   * If specified will pass extra DHCP options for private use, range: 224-254
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#private_options DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#private_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#private_options DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#private_options}
   */
   readonly privateOptions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesInterfacesDhcpOptionsPrivateOptions[] | cdktf.IResolvable;
   /**
   * If specified will pass option 66 to interface's DHCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tftp_server_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tftp_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tftp_server_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tftp_server_name}
   */
   readonly tftpServerName?: string;
 }
@@ -18500,19 +18500,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Number of port to expose for the virtual machine. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#port DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#port DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Protocol for port. Must be UDP or TCP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#protocol DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#protocol DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -18685,103 +18685,103 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * If specified, the ACPI index is used to provide network interface device naming, that is stable across changes in PCI addresses assigned to the device. This value is required to be unique across all devices and be between 1 and (16*1024-1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#acpi_index DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#acpi_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#acpi_index DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#acpi_index}
   */
   readonly acpiIndex?: number;
   /**
   * Binding specifies the binding plugin that will be used to connect the interface to the guest. It provides an alternative to InterfaceBindingMethod. version: 1alphav1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#binding DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#binding DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#binding}
   */
   readonly binding?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesInterfacesBinding;
   /**
   * BootOrder is an integer value > 0, used to determine ordering of boot devices. Lower values take precedence. Each interface or disk that has a boot order must have a unique value. Interfaces without a boot order are not tried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#boot_order DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#boot_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#boot_order DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#boot_order}
   */
   readonly bootOrder?: number;
   /**
   * InterfaceBridge connects to a given network via a linux bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bridge DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bridge DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bridge}
   */
   readonly bridge?: { [key: string]: string };
   /**
   * If specified the network interface will pass additional DHCP options to the VMI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#dhcp_options DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#dhcp_options DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#dhcp_options}
   */
   readonly dhcpOptions?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesInterfacesDhcpOptions;
   /**
   * Interface MAC address. For example: de:ad:00:00:be:af or DE-AD-00-00-BE-AF.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#mac_address DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#mac_address DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#mac_address}
   */
   readonly macAddress?: string;
   /**
   * Deprecated, please refer to Kubevirt user guide for alternatives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#macvtap DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#macvtap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#macvtap DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#macvtap}
   */
   readonly macvtap?: { [key: string]: string };
   /**
   * InterfaceMasquerade connects to a given network using netfilter rules to nat the traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#masquerade DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#masquerade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#masquerade DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#masquerade}
   */
   readonly masquerade?: { [key: string]: string };
   /**
   * Interface model. One of: e1000, e1000e, ne2k_pci, pcnet, rtl8139, virtio. Defaults to virtio. TODO:(ihar) switch to enums once opengen-api supports them. See: https://github.com/kubernetes/kube-openapi/issues/51
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#model DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#model DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#model}
   */
   readonly model?: string;
   /**
   * Logical name of the interface as well as a reference to the associated networks. Must match the Name of a Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Deprecated, please refer to Kubevirt user guide for alternatives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#passt DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#passt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#passt DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#passt}
   */
   readonly passt?: { [key: string]: string };
   /**
   * If specified, the virtual network interface will be placed on the guests pci address with the specified PCI address. For example: 0000:81:01.10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pci_address DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pci_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pci_address DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pci_address}
   */
   readonly pciAddress?: string;
   /**
   * List of ports to be forwarded to the virtual machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#ports DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#ports DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesInterfacesPorts[] | cdktf.IResolvable;
   /**
   * InterfaceSlirp connects to a given network using QEMU user networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#slirp DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#slirp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#slirp DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#slirp}
   */
   readonly slirp?: { [key: string]: string };
   /**
   * InterfaceSRIOV connects to a given network by passing-through an SR-IOV PCI device via vfio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#sriov DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#sriov}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#sriov DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#sriov}
   */
   readonly sriov?: { [key: string]: string };
   /**
   * State represents the requested operational state of the interface. The (only) value supported is 'absent', expressing a request to remove the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#state DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#state DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#state}
   */
   readonly state?: string;
   /**
   * If specified, the virtual network interface address and its tag will be provided to the guest via config drive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tag DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tag DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -19360,13 +19360,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * We only support ich9 or ac97. If SoundDevice is not set: No sound card is emulated. If SoundDevice is set but Model is not: ich9
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#model DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#model DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#model}
   */
   readonly model?: string;
   /**
   * User's defined name for this sound device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -19488,7 +19488,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Persistent indicates the state of the TPM device should be kept accross reboots Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#persistent DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#persistent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#persistent DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#persistent}
   */
   readonly persistent?: boolean | cdktf.IResolvable;
 }
@@ -19584,7 +19584,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * The action to take. Valid values are poweroff, reset, shutdown. Defaults to reset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#action DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#action DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#action}
   */
   readonly action?: string;
 }
@@ -19680,13 +19680,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * i6300esb watchdog device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#i6300esb DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#i6300esb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#i6300esb DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#i6300esb}
   */
   readonly i6300Esb?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesWatchdogI6300Esb;
   /**
   * Name of the watchdog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -19808,139 +19808,139 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Whether to attach the default graphics device or not. VNC will not be available if set to false. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#autoattach_graphics_device DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#autoattach_graphics_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#autoattach_graphics_device DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#autoattach_graphics_device}
   */
   readonly autoattachGraphicsDevice?: boolean | cdktf.IResolvable;
   /**
   * Whether to attach an Input Device. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#autoattach_input_device DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#autoattach_input_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#autoattach_input_device DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#autoattach_input_device}
   */
   readonly autoattachInputDevice?: boolean | cdktf.IResolvable;
   /**
   * Whether to attach the Memory balloon device with default period. Period can be adjusted in virt-config. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#autoattach_mem_balloon DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#autoattach_mem_balloon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#autoattach_mem_balloon DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#autoattach_mem_balloon}
   */
   readonly autoattachMemBalloon?: boolean | cdktf.IResolvable;
   /**
   * Whether to attach a pod network interface. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#autoattach_pod_interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#autoattach_pod_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#autoattach_pod_interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#autoattach_pod_interface}
   */
   readonly autoattachPodInterface?: boolean | cdktf.IResolvable;
   /**
   * Whether to attach the default virtio-serial console or not. Serial console access will not be available if set to false. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#autoattach_serial_console DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#autoattach_serial_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#autoattach_serial_console DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#autoattach_serial_console}
   */
   readonly autoattachSerialConsole?: boolean | cdktf.IResolvable;
   /**
   * Whether to attach the VSOCK CID to the VM or not. VSOCK access will be available if set to true. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#autoattach_vsock DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#autoattach_vsock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#autoattach_vsock DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#autoattach_vsock}
   */
   readonly autoattachVsock?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to enable virtio multi-queue for block devices. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#block_multi_queue DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#block_multi_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#block_multi_queue DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#block_multi_queue}
   */
   readonly blockMultiQueue?: boolean | cdktf.IResolvable;
   /**
   * To configure and access client devices such as redirecting USB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#client_passthrough DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#client_passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#client_passthrough DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#client_passthrough}
   */
   readonly clientPassthrough?: { [key: string]: string };
   /**
   * DisableHotplug disabled the ability to hotplug disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#disable_hotplug DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#disable_hotplug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#disable_hotplug DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#disable_hotplug}
   */
   readonly disableHotplug?: boolean | cdktf.IResolvable;
   /**
   * Disks describes disks, cdroms and luns which are connected to the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#disks DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#disks DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#disks}
   */
   readonly disks?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesDisks[] | cdktf.IResolvable;
   /**
   * DownwardMetrics creates a virtio serials for exposing the downward metrics to the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#downward_metrics DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#downward_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#downward_metrics DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#downward_metrics}
   */
   readonly downwardMetrics?: { [key: string]: string };
   /**
   * Filesystems describes filesystem which is connected to the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#filesystems DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#filesystems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#filesystems DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#filesystems}
   */
   readonly filesystems?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesFilesystems[] | cdktf.IResolvable;
   /**
   * Whether to attach a GPU device to the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#gpus DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#gpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#gpus DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#gpus}
   */
   readonly gpus?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesGpus[] | cdktf.IResolvable;
   /**
   * Whether to attach a host device to the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#host_devices DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#host_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#host_devices DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#host_devices}
   */
   readonly hostDevices?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesHostDevices[] | cdktf.IResolvable;
   /**
   * Inputs describe input devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#inputs DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#inputs DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#inputs}
   */
   readonly inputs?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesInputs[] | cdktf.IResolvable;
   /**
   * Interfaces describe network interfaces which are added to the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#interfaces DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#interfaces DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#interfaces}
   */
   readonly interfaces?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesInterfaces[] | cdktf.IResolvable;
   /**
   * Whether to log the auto-attached default serial console or not. Serial console logs will be collect to a file and then streamed from a named 'guest-console-log'. Not relevant if autoattachSerialConsole is disabled. Defaults to cluster wide setting on VirtualMachineOptions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#log_serial_console DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#log_serial_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#log_serial_console DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#log_serial_console}
   */
   readonly logSerialConsole?: boolean | cdktf.IResolvable;
   /**
   * If specified, virtual network interfaces configured with a virtio bus will also enable the vhost multiqueue feature for network devices. The number of queues created depends on additional factors of the VirtualMachineInstance, like the number of guest CPUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#network_interface_multiqueue DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#network_interface_multiqueue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#network_interface_multiqueue DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#network_interface_multiqueue}
   */
   readonly networkInterfaceMultiqueue?: boolean | cdktf.IResolvable;
   /**
   * Whether to have random number generator from host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#rng DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#rng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#rng DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#rng}
   */
   readonly rng?: { [key: string]: string };
   /**
   * Whether to emulate a sound device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#sound DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#sound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#sound DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#sound}
   */
   readonly sound?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesSound;
   /**
   * Whether to emulate a TPM device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tpm DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tpm DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tpm}
   */
   readonly tpm?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesTpm;
   /**
   * Fall back to legacy virtio 0.9 support if virtio bus is selected on devices. This is helpful for old machines like CentOS6 or RHEL6 which do not understand virtio_non_transitional (virtio 1.0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#use_virtio_transitional DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#use_virtio_transitional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#use_virtio_transitional DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#use_virtio_transitional}
   */
   readonly useVirtioTransitional?: boolean | cdktf.IResolvable;
   /**
   * Watchdog describes a watchdog device which can be added to the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#watchdog DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#watchdog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#watchdog DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#watchdog}
   */
   readonly watchdog?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevicesWatchdog;
 }
@@ -20674,7 +20674,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -20770,13 +20770,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * EndOfInterrupt enables the end of interrupt notification in the guest. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#end_of_interrupt DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#end_of_interrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#end_of_interrupt DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#end_of_interrupt}
   */
   readonly endOfInterrupt?: boolean | cdktf.IResolvable;
 }
@@ -20901,7 +20901,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -20997,7 +20997,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -21093,7 +21093,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -21189,7 +21189,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -21285,7 +21285,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -21381,7 +21381,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -21477,7 +21477,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -21573,13 +21573,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Retries indicates the number of retries. Must be a value greater or equal 4096. Defaults to 4096.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#spinlocks DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#spinlocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#spinlocks DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#spinlocks}
   */
   readonly spinlocks?: number;
 }
@@ -21704,7 +21704,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -21800,7 +21800,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -21896,11 +21896,11 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Represents if a feature is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#direct DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#direct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#direct DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#direct}
   */
   readonly direct?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervSynictimerDirect;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -22025,7 +22025,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -22121,7 +22121,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -22217,13 +22217,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * VendorID sets the hypervisor vendor id, visible to the vmi. String up to twelve characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vendorid DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vendorid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vendorid DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vendorid}
   */
   readonly vendorid?: string;
 }
@@ -22348,7 +22348,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -22444,85 +22444,85 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * EVMCS Speeds up L2 vmexits, but disables other virtualization features. Requires vapic. Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#evmcs DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#evmcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#evmcs DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#evmcs}
   */
   readonly evmcs?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervEvmcs;
   /**
   * Frequencies improves the TSC clock source handling for Hyper-V on KVM. Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#frequencies DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#frequencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#frequencies DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#frequencies}
   */
   readonly frequencies?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervFrequencies;
   /**
   * IPI improves performances in overcommited environments. Requires vpindex. Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#ipi DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#ipi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#ipi DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#ipi}
   */
   readonly ipi?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervIpi;
   /**
   * Reenlightenment enables the notifications on TSC frequency changes. Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#reenlightenment DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#reenlightenment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#reenlightenment DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#reenlightenment}
   */
   readonly reenlightenment?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervReenlightenment;
   /**
   * Relaxed instructs the guest OS to disable watchdog timeouts. Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#relaxed DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#relaxed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#relaxed DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#relaxed}
   */
   readonly relaxed?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervRelaxed;
   /**
   * Reset enables Hyperv reboot/reset for the vmi. Requires synic. Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#reset DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#reset DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#reset}
   */
   readonly reset?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervReset;
   /**
   * Runtime improves the time accounting to improve scheduling in the guest. Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#runtime DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#runtime DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#runtime}
   */
   readonly runtime?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervRuntime;
   /**
   * Spinlocks allows to configure the spinlock retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#spinlocks DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#spinlocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#spinlocks DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#spinlocks}
   */
   readonly spinlocks?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervSpinlocks;
   /**
   * SyNIC enables the Synthetic Interrupt Controller. Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#synic DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#synic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#synic DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#synic}
   */
   readonly synic?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervSynic;
   /**
   * SyNICTimer enables Synthetic Interrupt Controller Timers, reducing CPU load. Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#synictimer DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#synictimer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#synictimer DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#synictimer}
   */
   readonly synictimer?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervSynictimer;
   /**
   * TLBFlush improves performances in overcommited environments. Requires vpindex. Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tlbflush DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tlbflush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tlbflush DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tlbflush}
   */
   readonly tlbflush?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervTlbflush;
   /**
   * VAPIC improves the paravirtualized handling of interrupts. Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vapic DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vapic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vapic DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vapic}
   */
   readonly vapic?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervVapic;
   /**
   * VendorID allows setting the hypervisor vendor id. Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vendorid DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vendorid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vendorid DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vendorid}
   */
   readonly vendorid?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervVendorid;
   /**
   * VPIndex enables the Virtual Processor Index to help windows identifying virtual processors. Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vpindex DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vpindex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vpindex DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vpindex}
   */
   readonly vpindex?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHypervVpindex;
 }
@@ -22995,7 +22995,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Hide the KVM hypervisor from standard MSR based discovery. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#hidden DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#hidden DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#hidden}
   */
   readonly hidden?: boolean | cdktf.IResolvable;
 }
@@ -23091,7 +23091,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -23187,7 +23187,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Enabled determines if the feature should be enabled or disabled on the guest. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#enabled DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -23283,37 +23283,37 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * ACPI enables/disables ACPI inside the guest. Defaults to enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#acpi DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#acpi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#acpi DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#acpi}
   */
   readonly acpi?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesAcpi;
   /**
   * Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#apic DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#apic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#apic DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#apic}
   */
   readonly apic?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesApic;
   /**
   * Defaults to the machine type setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#hyperv DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#hyperv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#hyperv DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#hyperv}
   */
   readonly hyperv?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesHyperv;
   /**
   * Configure how KVM presence is exposed to the guest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kvm DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kvm DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kvm}
   */
   readonly kvm?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesKvm;
   /**
   * Notify the guest that the host supports paravirtual spinlocks. For older kernels this feature should be explicitly disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pvspinlock DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pvspinlock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pvspinlock DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pvspinlock}
   */
   readonly pvspinlock?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesPvspinlock;
   /**
   * SMM enables/disables System Management Mode. TSEG not yet implemented.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#smm DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#smm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#smm DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#smm}
   */
   readonly smm?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeaturesSmm;
 }
@@ -23554,7 +23554,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * SlicNameRef should match the volume name of a secret object. The data in the secret should be a binary blob that follows the ACPI SLIC standard, see: https://learn.microsoft.com/en-us/previous-versions/windows/hardware/design/dn653305(v=vs.85)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#slic_name_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#slic_name_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#slic_name_ref DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#slic_name_ref}
   */
   readonly slicNameRef?: string;
 }
@@ -23650,7 +23650,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * If set, the BIOS output will be transmitted over serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#use_serial DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#use_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#use_serial DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#use_serial}
   */
   readonly useSerial?: boolean | cdktf.IResolvable;
 }
@@ -23746,13 +23746,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * If set to true, Persistent will persist the EFI NVRAM across reboots. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#persistent DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#persistent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#persistent DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#persistent}
   */
   readonly persistent?: boolean | cdktf.IResolvable;
   /**
   * If set, SecureBoot will be enabled and the OVMF roms will be swapped for SecureBoot-enabled ones. Requires SMM to be enabled. Defaults to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secure_boot DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#secure_boot DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#secure_boot}
   */
   readonly secureBoot?: boolean | cdktf.IResolvable;
 }
@@ -23877,13 +23877,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * If set (default), BIOS will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bios DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bios DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bios}
   */
   readonly bios?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFirmwareBootloaderBios;
   /**
   * If set, EFI will be used instead of BIOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#efi DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#efi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#efi DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#efi}
   */
   readonly efi?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFirmwareBootloaderEfi;
 }
@@ -24008,31 +24008,31 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Image that contains initrd / kernel files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#image DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#image DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#image_pull_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#image_pull_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * ImagePullSecret is the name of the Docker registry secret required to pull the image. The secret must already exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#image_pull_secret DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#image_pull_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#image_pull_secret DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#image_pull_secret}
   */
   readonly imagePullSecret?: string;
   /**
   * the fully-qualified path to the ramdisk image in the host OS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#initrd_path DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#initrd_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#initrd_path DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#initrd_path}
   */
   readonly initrdPath?: string;
   /**
   * The fully-qualified path to the kernel image in the host OS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kernel_path DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kernel_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kernel_path DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kernel_path}
   */
   readonly kernelPath?: string;
 }
@@ -24241,13 +24241,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Container defines the container that containes kernel artifacts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#container DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#container DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#container}
   */
   readonly container?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFirmwareKernelBootContainer;
   /**
   * Arguments to be passed to the kernel at boot time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kernel_args DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kernel_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kernel_args DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kernel_args}
   */
   readonly kernelArgs?: string;
 }
@@ -24372,31 +24372,31 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Information that can be set in the ACPI table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#acpi DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#acpi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#acpi DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#acpi}
   */
   readonly acpi?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFirmwareAcpi;
   /**
   * Settings to control the bootloader that is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bootloader DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bootloader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#bootloader DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#bootloader}
   */
   readonly bootloader?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFirmwareBootloader;
   /**
   * Settings to set the kernel for booting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kernel_boot DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kernel_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#kernel_boot DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#kernel_boot}
   */
   readonly kernelBoot?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFirmwareKernelBoot;
   /**
   * The system-serial-number in SMBIOS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#serial DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#serial DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#serial}
   */
   readonly serial?: string;
   /**
   * UUID reported by the vmi bios. Defaults to a random generated uid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#uuid DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#uuid DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#uuid}
   */
   readonly uuid?: string;
 }
@@ -24608,7 +24608,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * SEV-ES is required. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#encrypted_state DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#encrypted_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#encrypted_state DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#encrypted_state}
   */
   readonly encryptedState?: boolean | cdktf.IResolvable;
 }
@@ -24704,25 +24704,25 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * If specified, run the attestation process for a vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#attestation DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#attestation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#attestation DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#attestation}
   */
   readonly attestation?: { [key: string]: string };
   /**
   * Base64 encoded guest owner's Diffie-Hellman key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#dh_cert DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#dh_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#dh_cert DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#dh_cert}
   */
   readonly dhCert?: string;
   /**
   * Guest policy flags as defined in AMD SEV API specification. Note: due to security reasons it is not allowed to enable guest debugging. Therefore NoDebug flag is not exposed to users and is always true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#policy}
   */
   readonly policy?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainLaunchSecuritySevPolicy;
   /**
   * Base64 encoded session blob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#session DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#session DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#session}
   */
   readonly session?: string;
 }
@@ -24905,7 +24905,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * AMD Secure Encrypted Virtualization (SEV).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#sev DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#sev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#sev DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#sev}
   */
   readonly sev?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainLaunchSecuritySev;
 }
@@ -25001,7 +25001,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * QEMU machine type is the actual chipset of the VirtualMachineInstance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#type DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#type DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -25097,7 +25097,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * PageSize specifies the hugepage size, for x86_64 architecture valid values are 1Gi and 2Mi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#page_size DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#page_size DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#page_size}
   */
   readonly pageSize?: string;
 }
@@ -25193,19 +25193,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Guest allows to specifying the amount of memory which is visible inside the Guest OS. The Guest must lie between Requests and Limits from the resources section. Defaults to the requested memory in the resources section if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#guest DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#guest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#guest DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#guest}
   */
   readonly guest?: string;
   /**
   * Hugepages allow to use hugepages for the VirtualMachineInstance instead of regular memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#hugepages DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#hugepages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#hugepages DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#hugepages}
   */
   readonly hugepages?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainMemoryHugepages;
   /**
   * MaxGuest allows to specify the maximum amount of memory which is visible inside the Guest OS. The delta between MaxGuest and Guest is the amount of memory that can be hot(un)plugged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#max_guest DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#max_guest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#max_guest DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#max_guest}
   */
   readonly maxGuest?: string;
 }
@@ -25359,19 +25359,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Limits describes the maximum amount of compute resources allowed. Valid resource keys are 'memory' and 'cpu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#limits DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#limits DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Don't ask the scheduler to take the guest-management overhead into account. Instead put the overhead only into the container's memory limit. This can lead to crashes if all memory is in use on a node. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#overcommit_guest_overhead DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#overcommit_guest_overhead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#overcommit_guest_overhead DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#overcommit_guest_overhead}
   */
   readonly overcommitGuestOverhead?: boolean | cdktf.IResolvable;
   /**
   * Requests is a description of the initial vmi resources. Valid resource keys are 'memory' and 'cpu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#requests DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#requests DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -25525,67 +25525,67 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Chassis specifies the chassis info passed to the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#chassis DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#chassis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#chassis DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#chassis}
   */
   readonly chassis?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainChassis;
   /**
   * Clock sets the clock and timers of the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#clock DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#clock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#clock DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#clock}
   */
   readonly clock?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainClock;
   /**
   * CPU allow specified the detailed CPU topology inside the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cpu DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#cpu DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainCpu;
   /**
   * Devices allows adding disks, network interfaces, and others
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#devices DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#devices DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#devices}
   */
   readonly devices: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainDevices;
   /**
   * Features like acpi, apic, hyperv, smm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#features DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#features DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#features}
   */
   readonly features?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFeatures;
   /**
   * Firmware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#firmware DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#firmware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#firmware DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#firmware}
   */
   readonly firmware?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainFirmware;
   /**
   * Controls whether or not disks will share IOThreads. Omitting IOThreadsPolicy disables use of IOThreads. One of: shared, auto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#io_threads_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#io_threads_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#io_threads_policy DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#io_threads_policy}
   */
   readonly ioThreadsPolicy?: string;
   /**
   * Launch Security setting of the vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#launch_security DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#launch_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#launch_security DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#launch_security}
   */
   readonly launchSecurity?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainLaunchSecurity;
   /**
   * Machine type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#machine DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#machine DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#machine}
   */
   readonly machine?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainMachine;
   /**
   * Memory allow specifying the VMI memory features.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#memory DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#memory DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainMemory;
   /**
   * Resources describes the Compute Resources required by this vmi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#resources DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#resources DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecDomainResources;
 }
@@ -25968,7 +25968,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#command DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#command DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -26064,13 +26064,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#value DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#value DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -26211,31 +26211,31 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#host DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#host DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#http_headers DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#http_headers DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#path DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#path DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#port DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#port DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#scheme DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#scheme DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -26444,13 +26444,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#host DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#host DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#port DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#port DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -26572,55 +26572,55 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * One and only one of the following should be specified. Exec specifies the action to take, it will be executed on the guest through the qemu-guest-agent. If the guest agent is not available, this probe will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#exec DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#exec DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#failure_threshold DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#failure_threshold DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GuestAgentPing contacts the qemu-guest-agent for availability checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#guest_agent_ping DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#guest_agent_ping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#guest_agent_ping DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#guest_agent_ping}
   */
   readonly guestAgentPing?: { [key: string]: string };
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#http_get DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#http_get DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecLivenessProbeHttpGet;
   /**
   * Number of seconds after the VirtualMachineInstance has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#initial_delay_seconds DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#initial_delay_seconds DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#period_seconds DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#period_seconds DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#success_threshold DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#success_threshold DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port. TCP hooks not yet supported TODO: implement a realistic TCP lifecycle hook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tcp_socket DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#tcp_socket DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecLivenessProbeTcpSocket;
   /**
   * Number of seconds after which the probe times out. For exec probes the timeout fails the probe but does not terminate the command running on the guest. This means a blocking command can result in an increasing load on the guest. A small buffer will be added to the resulting workload exec probe to compensate for delays caused by the qemu guest exec mechanism. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#timeout_seconds DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#timeout_seconds DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -26948,13 +26948,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Select the default network and add it to the multus-cni.io/default-network annotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#default DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#default DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * References to a NetworkAttachmentDefinition CRD object. Format: <networkName>, <namespace>/<networkName>. If namespace is not specified, VMI namespace is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#network_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#network_name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#network_name}
   */
   readonly networkName: string;
 }
@@ -27076,13 +27076,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * IPv6 CIDR for the vm network. Defaults to fd10:0:2::/120 if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vm_i_pv6_network_cidr DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vm_i_pv6_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vm_i_pv6_network_cidr DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vm_i_pv6_network_cidr}
   */
   readonly vmIPv6NetworkCidr?: string;
   /**
   * CIDR for vm network. Default 10.0.2.0/24 if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vm_network_cidr DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vm_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#vm_network_cidr DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#vm_network_cidr}
   */
   readonly vmNetworkCidr?: string;
 }
@@ -27207,19 +27207,19 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Represents the multus cni network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#multus DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#multus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#multus DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#multus}
   */
   readonly multus?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecNetworksMultus;
   /**
   * Network name. Must be a DNS_LABEL and unique within the vm. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Represents the stock pod network interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pod DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#pod DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#pod}
   */
   readonly pod?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecNetworksPod;
 }
@@ -27392,7 +27392,7 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#command DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#command DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -27488,13 +27488,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#name DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#value DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#value DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -27635,31 +27635,31 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#host DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#host DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#http_headers DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#http_headers DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1ManifestSpecVirtualMachineTemplateSpecTemplateSpecReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#path DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#path DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#port DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#port DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#scheme DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#scheme DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -27868,13 +27868,13 @@ export interface DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manife
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#host DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#host DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#port DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/infrastructure_cluster_x_k8s_io_kubevirt_machine_v1alpha1_manifest#port DataK8SInfrastructureClusterXK8SIoKubevirtMachineV1Alpha1Manifest#port}
   */
   readonly port: string;
 }

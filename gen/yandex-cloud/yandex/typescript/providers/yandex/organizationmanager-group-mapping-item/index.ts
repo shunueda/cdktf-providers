@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_group_mapping_item
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group_mapping_item
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OrganizationmanagerGroupMappingItemConfig extends cdktf.Terrafo
   /**
   * ID of the external group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_group_mapping_item#external_group_id OrganizationmanagerGroupMappingItem#external_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group_mapping_item#external_group_id OrganizationmanagerGroupMappingItem#external_group_id}
   */
   readonly externalGroupId: string;
   /**
   * ID of the SAML Federation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_group_mapping_item#federation_id OrganizationmanagerGroupMappingItem#federation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group_mapping_item#federation_id OrganizationmanagerGroupMappingItem#federation_id}
   */
   readonly federationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_group_mapping_item#id OrganizationmanagerGroupMappingItem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group_mapping_item#id OrganizationmanagerGroupMappingItem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,27 +29,27 @@ export interface OrganizationmanagerGroupMappingItemConfig extends cdktf.Terrafo
   /**
   * ID of the internal group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_group_mapping_item#internal_group_id OrganizationmanagerGroupMappingItem#internal_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group_mapping_item#internal_group_id OrganizationmanagerGroupMappingItem#internal_group_id}
   */
   readonly internalGroupId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_group_mapping_item#timeouts OrganizationmanagerGroupMappingItem#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group_mapping_item#timeouts OrganizationmanagerGroupMappingItem#timeouts}
   */
   readonly timeouts?: OrganizationmanagerGroupMappingItemTimeouts;
 }
 export interface OrganizationmanagerGroupMappingItemTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_group_mapping_item#create OrganizationmanagerGroupMappingItem#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group_mapping_item#create OrganizationmanagerGroupMappingItem#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_group_mapping_item#delete OrganizationmanagerGroupMappingItem#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group_mapping_item#delete OrganizationmanagerGroupMappingItem#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_group_mapping_item#read OrganizationmanagerGroupMappingItem#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group_mapping_item#read OrganizationmanagerGroupMappingItem#read}
   */
   readonly read?: string;
 }
@@ -201,7 +201,7 @@ export class OrganizationmanagerGroupMappingItemTimeoutsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_group_mapping_item yandex_organizationmanager_group_mapping_item}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group_mapping_item yandex_organizationmanager_group_mapping_item}
 */
 export class OrganizationmanagerGroupMappingItem extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class OrganizationmanagerGroupMappingItem extends cdktf.TerraformResource
   * Generates CDKTF code for importing a OrganizationmanagerGroupMappingItem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationmanagerGroupMappingItem to import
-  * @param importFromId The id of the existing OrganizationmanagerGroupMappingItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_group_mapping_item#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationmanagerGroupMappingItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group_mapping_item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationmanagerGroupMappingItem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class OrganizationmanagerGroupMappingItem extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_group_mapping_item yandex_organizationmanager_group_mapping_item} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_group_mapping_item yandex_organizationmanager_group_mapping_item} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class OrganizationmanagerGroupMappingItem extends cdktf.TerraformResource
       terraformResourceType: 'yandex_organizationmanager_group_mapping_item',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

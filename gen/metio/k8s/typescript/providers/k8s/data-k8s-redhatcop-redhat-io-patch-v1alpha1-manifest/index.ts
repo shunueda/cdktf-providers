@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#metadata DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#metadata DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestMetadata;
   /**
   * PatchSpec defines the desired state of Patch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#spec DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#spec DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#annotations DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#annotations DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#labels DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#labels DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#name DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#name DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#namespace DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#namespace DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,31 +219,31 @@ export interface DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatchesSourceO
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#api_version DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#api_version DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#field_path DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#field_path DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#kind DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#kind DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#name DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#name DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#namespace DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#namespace DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -477,19 +477,19 @@ export interface DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatchesTargetO
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#key DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#key DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#operator DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#operator DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#values DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#values DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -659,13 +659,13 @@ export interface DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatchesTargetO
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#match_expressions DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#match_expressions DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatchesTargetObjectRefAnnotationSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#match_labels DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#match_labels DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -790,19 +790,19 @@ export interface DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatchesTargetO
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#key DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#key DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#operator DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#operator DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#values DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#values DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -972,13 +972,13 @@ export interface DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatchesTargetO
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#match_expressions DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#match_expressions DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatchesTargetObjectRefLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#match_labels DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#match_labels DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1103,37 +1103,37 @@ export interface DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatchesTargetO
   /**
   * AnnotationSelector selects objects by label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#annotation_selector DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#annotation_selector DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#annotation_selector}
   */
   readonly annotationSelector?: DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatchesTargetObjectRefAnnotationSelector;
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#api_version DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#api_version DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#kind DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#kind DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * LabelSelector selects objects by label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#label_selector DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#label_selector DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatchesTargetObjectRefLabelSelector;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#name DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#name DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#namespace DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#namespace DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1374,25 +1374,25 @@ export interface DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatches {
   /**
   * PatchTemplate is a go template that will be resolved using the SourceObjectRefs as parameters. The result must be a valid patch based on the pacth type and the target object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#patch_template DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#patch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#patch_template DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#patch_template}
   */
   readonly patchTemplate?: string;
   /**
   * PatchType is the type of patch to be applied, one of 'application/json-patch+json```application/merge-patch+json','application/strategic-merge-patch+json','application/apply-patch+yaml' default:='application/strategic-merge-patch+json'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#patch_type DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#patch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#patch_type DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#patch_type}
   */
   readonly patchType?: string;
   /**
   * SourceObjectRefs is an arrays of refereces to source objects that will be used as input for the template processing. These refernces must resolve to single instance. The resolution rule is as follows (+ present, - absent): the King and APIVersion field are mandatory -Namespace +Name: resolves to cluster-level object <Name>. If Kind is namespaced, this results in an error. -Namespace -Name: results in an error Name manespaces Namespace are evaluated as golang templates with the input of the template being the target object. When selecting multiple target, this allows for having specific source objects for each target. ResourceVersion and UID are always ignored If FieldPath is specified, the restuned object is calculated from the path, so for example if FieldPath=.spec, the only the spec portion of the object is returned. The target object is always added as element zero of the array of the SourceObjectRefs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#source_object_refs DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#source_object_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#source_object_refs DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#source_object_refs}
   */
   readonly sourceObjectRefs?: DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatchesSourceObjectRefs[] | cdktf.IResolvable;
   /**
   * TargetObjectRef is a reference to the object to which the pacth should be applied. the King and APIVersion field are mandatory the Name and Namespace field have the following meaning (+ present, - absent) -Namespace +Name: apply the patch to the cluster-level object <Name>. If Kind is namespaced, this results in an error. -Namespace -Name: if the kind is namespaced apply the patch to all of the objects in all of the namespaces. If the kind is not namespaced, apply the patch to all of the cluster level objects. The lable selector can be used to further filter the selected objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#target_object_ref DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#target_object_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#target_object_ref DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#target_object_ref}
   */
   readonly targetObjectRef?: DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatchesTargetObjectRef;
 }
@@ -1575,7 +1575,7 @@ export interface DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecServiceAccount
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#name DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#name DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1671,13 +1671,13 @@ export interface DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpec {
   /**
   * Patches is a list of patches that should be enforced at runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#patches DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#patches DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#patches}
   */
   readonly patches?: DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecPatches;
   /**
   * ServiceAccountRef is the service account to be used to run the controllers associated with this configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#service_account_ref DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#service_account_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#service_account_ref DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest#service_account_ref}
   */
   readonly serviceAccountRef?: DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecServiceAccountRef;
 }
@@ -1800,7 +1800,7 @@ export class DataK8SRedhatcopRedhatIoPatchV1Alpha1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest k8s_redhatcop_redhat_io_patch_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest k8s_redhatcop_redhat_io_patch_v1alpha1_manifest}
 */
 export class DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1816,7 +1816,7 @@ export class DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1828,7 +1828,7 @@ export class DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest k8s_redhatcop_redhat_io_patch_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/redhatcop_redhat_io_patch_v1alpha1_manifest k8s_redhatcop_redhat_io_patch_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1839,8 +1839,8 @@ export class DataK8SRedhatcopRedhatIoPatchV1Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_redhatcop_redhat_io_patch_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

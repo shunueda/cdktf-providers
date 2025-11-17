@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SPolicyPodDisruptionBudgetV1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#metadata DataK8SPolicyPodDisruptionBudgetV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#metadata DataK8SPolicyPodDisruptionBudgetV1Manifest#metadata}
   */
   readonly metadata: DataK8SPolicyPodDisruptionBudgetV1ManifestMetadata;
   /**
   * PodDisruptionBudgetSpec is a description of a PodDisruptionBudget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#spec DataK8SPolicyPodDisruptionBudgetV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#spec DataK8SPolicyPodDisruptionBudgetV1Manifest#spec}
   */
   readonly spec?: DataK8SPolicyPodDisruptionBudgetV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SPolicyPodDisruptionBudgetV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#annotations DataK8SPolicyPodDisruptionBudgetV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#annotations DataK8SPolicyPodDisruptionBudgetV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#labels DataK8SPolicyPodDisruptionBudgetV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#labels DataK8SPolicyPodDisruptionBudgetV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#name DataK8SPolicyPodDisruptionBudgetV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#name DataK8SPolicyPodDisruptionBudgetV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#namespace DataK8SPolicyPodDisruptionBudgetV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#namespace DataK8SPolicyPodDisruptionBudgetV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SPolicyPodDisruptionBudgetV1ManifestSpecSelectorMatchExpr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#key DataK8SPolicyPodDisruptionBudgetV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#key DataK8SPolicyPodDisruptionBudgetV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#operator DataK8SPolicyPodDisruptionBudgetV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#operator DataK8SPolicyPodDisruptionBudgetV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#values DataK8SPolicyPodDisruptionBudgetV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#values DataK8SPolicyPodDisruptionBudgetV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,13 +401,13 @@ export interface DataK8SPolicyPodDisruptionBudgetV1ManifestSpecSelector {
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#match_expressions DataK8SPolicyPodDisruptionBudgetV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#match_expressions DataK8SPolicyPodDisruptionBudgetV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyPodDisruptionBudgetV1ManifestSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#match_labels DataK8SPolicyPodDisruptionBudgetV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#match_labels DataK8SPolicyPodDisruptionBudgetV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -532,25 +532,25 @@ export interface DataK8SPolicyPodDisruptionBudgetV1ManifestSpec {
   /**
   * IntOrString is a type that can hold an int32 or a string. When used in JSON or YAML marshalling and unmarshalling, it produces or consumes the inner type. This allows you to have, for example, a JSON field that can accept a name or number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#max_unavailable DataK8SPolicyPodDisruptionBudgetV1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#max_unavailable DataK8SPolicyPodDisruptionBudgetV1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
   /**
   * IntOrString is a type that can hold an int32 or a string. When used in JSON or YAML marshalling and unmarshalling, it produces or consumes the inner type. This allows you to have, for example, a JSON field that can accept a name or number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#min_available DataK8SPolicyPodDisruptionBudgetV1Manifest#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#min_available DataK8SPolicyPodDisruptionBudgetV1Manifest#min_available}
   */
   readonly minAvailable?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#selector DataK8SPolicyPodDisruptionBudgetV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#selector DataK8SPolicyPodDisruptionBudgetV1Manifest#selector}
   */
   readonly selector?: DataK8SPolicyPodDisruptionBudgetV1ManifestSpecSelector;
   /**
   * UnhealthyPodEvictionPolicy defines the criteria for when unhealthy pods should be considered for eviction. Current implementation considers healthy pods, as pods that have status.conditions item with type='Ready',status='True'. Valid policies are IfHealthyBudget and AlwaysAllow. If no policy is specified, the default behavior will be used, which corresponds to the IfHealthyBudget policy. IfHealthyBudget policy means that running pods (status.phase='Running'), but not yet healthy can be evicted only if the guarded application is not disrupted (status.currentHealthy is at least equal to status.desiredHealthy). Healthy pods will be subject to the PDB for eviction. AlwaysAllow policy means that all running pods (status.phase='Running'), but not yet healthy are considered disrupted and can be evicted regardless of whether the criteria in a PDB is met. This means perspective running pods of a disrupted application might not get a chance to become healthy. Healthy pods will be subject to the PDB for eviction. Additional policies may be added in the future. Clients making eviction decisions should disallow eviction of unhealthy pods if they encounter an unrecognized policy in this field. This field is beta-level. The eviction API uses this field when the feature gate PDBUnhealthyPodEvictionPolicy is enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#unhealthy_pod_eviction_policy DataK8SPolicyPodDisruptionBudgetV1Manifest#unhealthy_pod_eviction_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#unhealthy_pod_eviction_policy DataK8SPolicyPodDisruptionBudgetV1Manifest#unhealthy_pod_eviction_policy}
   */
   readonly unhealthyPodEvictionPolicy?: string;
 }
@@ -731,7 +731,7 @@ export class DataK8SPolicyPodDisruptionBudgetV1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest k8s_policy_pod_disruption_budget_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest k8s_policy_pod_disruption_budget_v1_manifest}
 */
 export class DataK8SPolicyPodDisruptionBudgetV1Manifest extends cdktf.TerraformDataSource {
 
@@ -747,7 +747,7 @@ export class DataK8SPolicyPodDisruptionBudgetV1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SPolicyPodDisruptionBudgetV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPolicyPodDisruptionBudgetV1Manifest to import
-  * @param importFromId The id of the existing DataK8SPolicyPodDisruptionBudgetV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPolicyPodDisruptionBudgetV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPolicyPodDisruptionBudgetV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -759,7 +759,7 @@ export class DataK8SPolicyPodDisruptionBudgetV1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_pod_disruption_budget_v1_manifest k8s_policy_pod_disruption_budget_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_pod_disruption_budget_v1_manifest k8s_policy_pod_disruption_budget_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -770,8 +770,8 @@ export class DataK8SPolicyPodDisruptionBudgetV1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_policy_pod_disruption_budget_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorVictoriametricsComVmRuleV1Beta1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#metadata DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#metadata DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorVictoriametricsComVmRuleV1Beta1ManifestMetadata;
   /**
   * VMRuleSpec defines the desired state of VMRule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#spec DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#spec DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#spec}
   */
   readonly spec: DataK8SOperatorVictoriametricsComVmRuleV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOperatorVictoriametricsComVmRuleV1Beta1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#annotations DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#annotations DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#namespace DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#namespace DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,55 +219,55 @@ export interface DataK8SOperatorVictoriametricsComVmRuleV1Beta1ManifestSpecGroup
   /**
   * Alert is a name for alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#alert DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#alert DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#alert}
   */
   readonly alert?: string;
   /**
   * Annotations will be added to rule configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#annotations DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#annotations DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Debug enables logging for rule it useful for tracking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#debug DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#debug DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * Expr is query, that will be evaluated at dataSource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#expr DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#expr DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#expr}
   */
   readonly expr?: string;
   /**
   * For evaluation interval in time.Duration format 30s, 1m, 1h or nanoseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#for DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#for DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#for}
   */
   readonly for?: string;
   /**
   * KeepFiringFor will make alert continue firing for this long even when the alerting expression no longer has results. Use time.Duration format, 30s, 1m, 1h or nanoseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#keep_firing_for DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#keep_firing_for}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#keep_firing_for DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#keep_firing_for}
   */
   readonly keepFiringFor?: string;
   /**
   * Labels will be added to rule configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Record represents a query, that will be recorded to dataSource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#record DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#record DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#record}
   */
   readonly record?: string;
   /**
   * UpdateEntriesLimit defines max number of rule's state updates stored in memory. Overrides '-rule.updateEntriesLimit' in vmalert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#update_entries_limit DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#update_entries_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#update_entries_limit DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#update_entries_limit}
   */
   readonly updateEntriesLimit?: number;
 }
@@ -617,91 +617,91 @@ export interface DataK8SOperatorVictoriametricsComVmRuleV1Beta1ManifestSpecGroup
   /**
   * Concurrency defines how many rules execute at once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#concurrency DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#concurrency DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Optional The evaluation timestamp will be aligned with group's interval, instead of using the actual timestamp that evaluation happens at. It is enabled by default to get more predictable results and to visually align with graphs plotted via Grafana or vmui.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#eval_alignment DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#eval_alignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#eval_alignment DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#eval_alignment}
   */
   readonly evalAlignment?: boolean | cdktf.IResolvable;
   /**
   * Optional Adjust the 'time' parameter of group evaluation requests to compensate intentional query delay from the datasource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#eval_delay DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#eval_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#eval_delay DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#eval_delay}
   */
   readonly evalDelay?: string;
   /**
   * Optional Group will be evaluated at the exact offset in the range of [0...interval].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#eval_offset DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#eval_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#eval_offset DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#eval_offset}
   */
   readonly evalOffset?: string;
   /**
   * ExtraFilterLabels optional list of label filters applied to every rule's request within a group. Is compatible only with VM datasource. See more details [here](https://docs.victoriametrics.com/#prometheus-querying-api-enhancements) Deprecated, use params instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#extra_filter_labels DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#extra_filter_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#extra_filter_labels DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#extra_filter_labels}
   */
   readonly extraFilterLabels?: { [key: string]: string };
   /**
   * Headers contains optional HTTP headers added to each rule request Must be in form 'header-name: value' For example: headers: - 'CustomHeader: foo' - 'CustomHeader2: bar'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#headers DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#headers DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#headers}
   */
   readonly headers?: string[];
   /**
   * evaluation interval for group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#interval DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#interval DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Labels optional list of labels added to every rule within a group. It has priority over the external labels. Labels are commonly used for adding environment or tenant-specific tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Limit the number of alerts an alerting rule and series a recording rule can produce
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#limit DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#limit DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#limit}
   */
   readonly limit?: number;
   /**
   * Name of group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * NotifierHeaders contains optional HTTP headers added to each alert request which will send to notifier Must be in form 'header-name: value' For example: headers: - 'CustomHeader: foo' - 'CustomHeader2: bar'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#notifier_headers DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#notifier_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#notifier_headers DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#notifier_headers}
   */
   readonly notifierHeaders?: string[];
   /**
   * Params optional HTTP URL parameters added to each rule request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#params DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#params DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#params}
   */
   readonly params?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Rules list of alert rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#rules DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#rules DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#rules}
   */
   readonly rules: DataK8SOperatorVictoriametricsComVmRuleV1Beta1ManifestSpecGroupsRules[] | cdktf.IResolvable;
   /**
   * Tenant id for group, can be used only with enterprise version of vmalert. See more details [here](https://docs.victoriametrics.com/vmalert#multitenancy).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#tenant DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#tenant DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * Type defines datasource type for enterprise version of vmalert possible values - prometheus,graphite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1219,7 +1219,7 @@ export interface DataK8SOperatorVictoriametricsComVmRuleV1Beta1ManifestSpec {
   /**
   * Groups list of group rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#groups DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#groups DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest#groups}
   */
   readonly groups: DataK8SOperatorVictoriametricsComVmRuleV1Beta1ManifestSpecGroups[] | cdktf.IResolvable;
 }
@@ -1310,7 +1310,7 @@ export class DataK8SOperatorVictoriametricsComVmRuleV1Beta1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest k8s_operator_victoriametrics_com_vm_rule_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest k8s_operator_victoriametrics_com_vm_rule_v1beta1_manifest}
 */
 export class DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1326,7 +1326,7 @@ export class DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1338,7 +1338,7 @@ export class DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest k8s_operator_victoriametrics_com_vm_rule_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_victoriametrics_com_vm_rule_v1beta1_manifest k8s_operator_victoriametrics_com_vm_rule_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1349,8 +1349,8 @@ export class DataK8SOperatorVictoriametricsComVmRuleV1Beta1Manifest extends cdkt
       terraformResourceType: 'k8s_operator_victoriametrics_com_vm_rule_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

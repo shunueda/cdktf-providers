@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestConfig extends cdktf.Terrafo
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#metadata DataK8SCiliumIoCiliumNodeV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#metadata DataK8SCiliumIoCiliumNodeV2Manifest#metadata}
   */
   readonly metadata: DataK8SCiliumIoCiliumNodeV2ManifestMetadata;
   /**
   * Spec defines the desired specification/configuration of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#spec DataK8SCiliumIoCiliumNodeV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#spec DataK8SCiliumIoCiliumNodeV2Manifest#spec}
   */
   readonly spec: DataK8SCiliumIoCiliumNodeV2ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#annotations DataK8SCiliumIoCiliumNodeV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#annotations DataK8SCiliumIoCiliumNodeV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#labels DataK8SCiliumIoCiliumNodeV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#labels DataK8SCiliumIoCiliumNodeV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#name DataK8SCiliumIoCiliumNodeV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#name DataK8SCiliumIoCiliumNodeV2Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecAddresses {
   /**
   * IP is an IP of a node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#ip DataK8SCiliumIoCiliumNodeV2Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#ip DataK8SCiliumIoCiliumNodeV2Manifest#ip}
   */
   readonly ip?: string;
   /**
   * Type is the type of the node address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#type DataK8SCiliumIoCiliumNodeV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#type DataK8SCiliumIoCiliumNodeV2Manifest#type}
   */
   readonly type?: string;
 }
@@ -340,49 +340,49 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecAlibabaCloud {
   /**
   * AvailabilityZone is the availability zone to use when allocating ENIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#availability_zone DataK8SCiliumIoCiliumNodeV2Manifest#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#availability_zone DataK8SCiliumIoCiliumNodeV2Manifest#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * CIDRBlock is vpc ipv4 CIDR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#cidr_block DataK8SCiliumIoCiliumNodeV2Manifest#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#cidr_block DataK8SCiliumIoCiliumNodeV2Manifest#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
   * InstanceType is the ECS instance type, e.g. 'ecs.g6.2xlarge'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#instance_type DataK8SCiliumIoCiliumNodeV2Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#instance_type DataK8SCiliumIoCiliumNodeV2Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
   * SecurityGroupTags is the list of tags to use when evaluating which security groups to use for the ENI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#security_group_tags DataK8SCiliumIoCiliumNodeV2Manifest#security_group_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#security_group_tags DataK8SCiliumIoCiliumNodeV2Manifest#security_group_tags}
   */
   readonly securityGroupTags?: { [key: string]: string };
   /**
   * SecurityGroups is the list of security groups to attach to any ENI that is created and attached to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#security_groups DataK8SCiliumIoCiliumNodeV2Manifest#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#security_groups DataK8SCiliumIoCiliumNodeV2Manifest#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * VPCID is the VPC ID to use when allocating ENIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#vpc_id DataK8SCiliumIoCiliumNodeV2Manifest#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#vpc_id DataK8SCiliumIoCiliumNodeV2Manifest#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * VSwitchTags is the list of tags to use when evaluating which vSwitch to use for the ENI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#vswitch_tags DataK8SCiliumIoCiliumNodeV2Manifest#vswitch_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#vswitch_tags DataK8SCiliumIoCiliumNodeV2Manifest#vswitch_tags}
   */
   readonly vswitchTags?: { [key: string]: string };
   /**
   * VSwitches is the ID of vSwitch available for ENI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#vswitches DataK8SCiliumIoCiliumNodeV2Manifest#vswitches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#vswitches DataK8SCiliumIoCiliumNodeV2Manifest#vswitches}
   */
   readonly vswitches?: string[];
 }
@@ -681,7 +681,7 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecAzure {
   /**
   * InterfaceName is the name of the interface the cilium-operator will use to allocate all the IPs on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#interface_name DataK8SCiliumIoCiliumNodeV2Manifest#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#interface_name DataK8SCiliumIoCiliumNodeV2Manifest#interface_name}
   */
   readonly interfaceName?: string;
 }
@@ -777,7 +777,7 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecEncryption {
   /**
   * Key is the index to the key to use for encryption or 0 if encryption is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#key DataK8SCiliumIoCiliumNodeV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#key DataK8SCiliumIoCiliumNodeV2Manifest#key}
   */
   readonly key?: number;
 }
@@ -873,103 +873,103 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecEni {
   /**
   * AvailabilityZone is the availability zone to use when allocating ENIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#availability_zone DataK8SCiliumIoCiliumNodeV2Manifest#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#availability_zone DataK8SCiliumIoCiliumNodeV2Manifest#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * DeleteOnTermination defines that the ENI should be deleted when the associated instance is terminated. If the parameter is not set the default behavior is to delete the ENI on instance termination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#delete_on_termination DataK8SCiliumIoCiliumNodeV2Manifest#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#delete_on_termination DataK8SCiliumIoCiliumNodeV2Manifest#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktf.IResolvable;
   /**
   * DisablePrefixDelegation determines whether ENI prefix delegation should be disabled on this node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#disable_prefix_delegation DataK8SCiliumIoCiliumNodeV2Manifest#disable_prefix_delegation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#disable_prefix_delegation DataK8SCiliumIoCiliumNodeV2Manifest#disable_prefix_delegation}
   */
   readonly disablePrefixDelegation?: boolean | cdktf.IResolvable;
   /**
   * ExcludeInterfaceTags is the list of tags to use when excluding ENIs for Cilium IP allocation. Any interface matching this set of tags will not be managed by Cilium.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#exclude_interface_tags DataK8SCiliumIoCiliumNodeV2Manifest#exclude_interface_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#exclude_interface_tags DataK8SCiliumIoCiliumNodeV2Manifest#exclude_interface_tags}
   */
   readonly excludeInterfaceTags?: { [key: string]: string };
   /**
   * FirstInterfaceIndex is the index of the first ENI to use for IP allocation, e.g. if the node has eth0, eth1, eth2 and FirstInterfaceIndex is set to 1, then only eth1 and eth2 will be used for IP allocation, eth0 will be ignored for PodIP allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#first_interface_index DataK8SCiliumIoCiliumNodeV2Manifest#first_interface_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#first_interface_index DataK8SCiliumIoCiliumNodeV2Manifest#first_interface_index}
   */
   readonly firstInterfaceIndex?: number;
   /**
   * InstanceID is the AWS InstanceId of the node. The InstanceID is used to retrieve AWS metadata for the node. OBSOLETE: This field is obsolete, please use Spec.InstanceID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#instance_id DataK8SCiliumIoCiliumNodeV2Manifest#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#instance_id DataK8SCiliumIoCiliumNodeV2Manifest#instance_id}
   */
   readonly instanceId?: string;
   /**
   * InstanceType is the AWS EC2 instance type, e.g. 'm5.large'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#instance_type DataK8SCiliumIoCiliumNodeV2Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#instance_type DataK8SCiliumIoCiliumNodeV2Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
   * MaxAboveWatermark is the maximum number of addresses to allocate beyond the addresses needed to reach the PreAllocate watermark. Going above the watermark can help reduce the number of API calls to allocate IPs, e.g. when a new ENI is allocated, as many secondary IPs as possible are allocated. Limiting the amount can help reduce waste of IPs. OBSOLETE: This field is obsolete, please use Spec.IPAM.MaxAboveWatermark
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#max_above_watermark DataK8SCiliumIoCiliumNodeV2Manifest#max_above_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#max_above_watermark DataK8SCiliumIoCiliumNodeV2Manifest#max_above_watermark}
   */
   readonly maxAboveWatermark?: number;
   /**
   * MinAllocate is the minimum number of IPs that must be allocated when the node is first bootstrapped. It defines the minimum base socket of addresses that must be available. After reaching this watermark, the PreAllocate and MaxAboveWatermark logic takes over to continue allocating IPs. OBSOLETE: This field is obsolete, please use Spec.IPAM.MinAllocate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#min_allocate DataK8SCiliumIoCiliumNodeV2Manifest#min_allocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#min_allocate DataK8SCiliumIoCiliumNodeV2Manifest#min_allocate}
   */
   readonly minAllocate?: number;
   /**
   * NodeSubnetID is the subnet of the primary ENI the instance was brought up with. It is used as a sensible default subnet to create ENIs in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#node_subnet_id DataK8SCiliumIoCiliumNodeV2Manifest#node_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#node_subnet_id DataK8SCiliumIoCiliumNodeV2Manifest#node_subnet_id}
   */
   readonly nodeSubnetId?: string;
   /**
   * PreAllocate defines the number of IP addresses that must be available for allocation in the IPAMspec. It defines the buffer of addresses available immediately without requiring cilium-operator to get involved. OBSOLETE: This field is obsolete, please use Spec.IPAM.PreAllocate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#pre_allocate DataK8SCiliumIoCiliumNodeV2Manifest#pre_allocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#pre_allocate DataK8SCiliumIoCiliumNodeV2Manifest#pre_allocate}
   */
   readonly preAllocate?: number;
   /**
   * SecurityGroupTags is the list of tags to use when evaliating what AWS security groups to use for the ENI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#security_group_tags DataK8SCiliumIoCiliumNodeV2Manifest#security_group_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#security_group_tags DataK8SCiliumIoCiliumNodeV2Manifest#security_group_tags}
   */
   readonly securityGroupTags?: { [key: string]: string };
   /**
   * SecurityGroups is the list of security groups to attach to any ENI that is created and attached to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#security_groups DataK8SCiliumIoCiliumNodeV2Manifest#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#security_groups DataK8SCiliumIoCiliumNodeV2Manifest#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * SubnetIDs is the list of subnet ids to use when evaluating what AWS subnets to use for ENI and IP allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#subnet_ids DataK8SCiliumIoCiliumNodeV2Manifest#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#subnet_ids DataK8SCiliumIoCiliumNodeV2Manifest#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * SubnetTags is the list of tags to use when evaluating what AWS subnets to use for ENI and IP allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#subnet_tags DataK8SCiliumIoCiliumNodeV2Manifest#subnet_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#subnet_tags DataK8SCiliumIoCiliumNodeV2Manifest#subnet_tags}
   */
   readonly subnetTags?: { [key: string]: string };
   /**
   * UsePrimaryAddress determines whether an ENI's primary address should be available for allocations on the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#use_primary_address DataK8SCiliumIoCiliumNodeV2Manifest#use_primary_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#use_primary_address DataK8SCiliumIoCiliumNodeV2Manifest#use_primary_address}
   */
   readonly usePrimaryAddress?: boolean | cdktf.IResolvable;
   /**
   * VpcID is the VPC ID to use when allocating ENIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#vpc_id DataK8SCiliumIoCiliumNodeV2Manifest#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#vpc_id DataK8SCiliumIoCiliumNodeV2Manifest#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -1529,13 +1529,13 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecHealth {
   /**
   * IPv4 is the IPv4 address of the IPv4 health endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv4 DataK8SCiliumIoCiliumNodeV2Manifest#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv4 DataK8SCiliumIoCiliumNodeV2Manifest#ipv4}
   */
   readonly ipv4?: string;
   /**
   * IPv6 is the IPv6 address of the IPv4 health endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv6 DataK8SCiliumIoCiliumNodeV2Manifest#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv6 DataK8SCiliumIoCiliumNodeV2Manifest#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -1658,11 +1658,11 @@ export class DataK8SCiliumIoCiliumNodeV2ManifestSpecHealthOutputReference extend
 }
 export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecIngress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv4 DataK8SCiliumIoCiliumNodeV2Manifest#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv4 DataK8SCiliumIoCiliumNodeV2Manifest#ipv4}
   */
   readonly ipv4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv6 DataK8SCiliumIoCiliumNodeV2Manifest#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv6 DataK8SCiliumIoCiliumNodeV2Manifest#ipv6}
   */
   readonly ipv6?: string;
 }
@@ -1787,13 +1787,13 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecIpamIpv6Pool {
   /**
   * Owner is the owner of the IP. This field is set if the IP has been allocated. It will be set to the pod name or another identifier representing the usage of the IP The owner field is left blank for an entry in Spec.IPAM.Pool and filled out as the IP is used and also added to Status.IPAM.Used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#owner DataK8SCiliumIoCiliumNodeV2Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#owner DataK8SCiliumIoCiliumNodeV2Manifest#owner}
   */
   readonly owner?: string;
   /**
   * Resource is set for both available and allocated IPs, it represents what resource the IP is associated with, e.g. in combination with AWS ENI, this will refer to the ID of the ENI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#resource DataK8SCiliumIoCiliumNodeV2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#resource DataK8SCiliumIoCiliumNodeV2Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -1918,13 +1918,13 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecIpamPool {
   /**
   * Owner is the owner of the IP. This field is set if the IP has been allocated. It will be set to the pod name or another identifier representing the usage of the IP The owner field is left blank for an entry in Spec.IPAM.Pool and filled out as the IP is used and also added to Status.IPAM.Used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#owner DataK8SCiliumIoCiliumNodeV2Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#owner DataK8SCiliumIoCiliumNodeV2Manifest#owner}
   */
   readonly owner?: string;
   /**
   * Resource is set for both available and allocated IPs, it represents what resource the IP is associated with, e.g. in combination with AWS ENI, this will refer to the ID of the ENI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#resource DataK8SCiliumIoCiliumNodeV2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#resource DataK8SCiliumIoCiliumNodeV2Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -2049,13 +2049,13 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecIpamPoolsAllocated {
   /**
   * CIDRs contains a list of pod CIDRs currently allocated from this pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#cidrs DataK8SCiliumIoCiliumNodeV2Manifest#cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#cidrs DataK8SCiliumIoCiliumNodeV2Manifest#cidrs}
   */
   readonly cidrs?: string[];
   /**
   * Pool is the name of the IPAM pool backing this allocation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#pool DataK8SCiliumIoCiliumNodeV2Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#pool DataK8SCiliumIoCiliumNodeV2Manifest#pool}
   */
   readonly pool: string;
 }
@@ -2199,13 +2199,13 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecIpamPoolsRequestedNeeded
   /**
   * IPv4Addrs contains the number of requested IPv4 addresses out of a given pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv4_addrs DataK8SCiliumIoCiliumNodeV2Manifest#ipv4_addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv4_addrs DataK8SCiliumIoCiliumNodeV2Manifest#ipv4_addrs}
   */
   readonly ipv4Addrs?: number;
   /**
   * IPv6Addrs contains the number of requested IPv6 addresses out of a given pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv6_addrs DataK8SCiliumIoCiliumNodeV2Manifest#ipv6_addrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv6_addrs DataK8SCiliumIoCiliumNodeV2Manifest#ipv6_addrs}
   */
   readonly ipv6Addrs?: number;
 }
@@ -2330,13 +2330,13 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecIpamPoolsRequested {
   /**
   * Needed indicates how many IPs out of the above Pool this node requests from the operator. The operator runs a reconciliation loop to ensure each node always has enough PodCIDRs allocated in each pool to fulfill the requested number of IPs here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#needed DataK8SCiliumIoCiliumNodeV2Manifest#needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#needed DataK8SCiliumIoCiliumNodeV2Manifest#needed}
   */
   readonly needed?: DataK8SCiliumIoCiliumNodeV2ManifestSpecIpamPoolsRequestedNeeded;
   /**
   * Pool is the name of the IPAM pool backing this request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#pool DataK8SCiliumIoCiliumNodeV2Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#pool DataK8SCiliumIoCiliumNodeV2Manifest#pool}
   */
   readonly pool: string;
 }
@@ -2480,13 +2480,13 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecIpamPools {
   /**
   * Allocated contains the list of pooled CIDR assigned to this node. The operator will add new pod CIDRs to this field, whereas the agent will remove CIDRs it has released.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#allocated DataK8SCiliumIoCiliumNodeV2Manifest#allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#allocated DataK8SCiliumIoCiliumNodeV2Manifest#allocated}
   */
   readonly allocated?: DataK8SCiliumIoCiliumNodeV2ManifestSpecIpamPoolsAllocated[] | cdktf.IResolvable;
   /**
   * Requested contains a list of IPAM pool requests, i.e. indicates how many addresses this node requests out of each pool listed here. This field is owned and written to by cilium-agent and read by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#requested DataK8SCiliumIoCiliumNodeV2Manifest#requested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#requested DataK8SCiliumIoCiliumNodeV2Manifest#requested}
   */
   readonly requested?: DataK8SCiliumIoCiliumNodeV2ManifestSpecIpamPoolsRequested[] | cdktf.IResolvable;
 }
@@ -2611,55 +2611,55 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpecIpam {
   /**
   * IPv6Pool is the list of IPv6 addresses available to the node for allocation. When an IPv6 address is used, it will remain on this list but will be added to Status.IPAM.IPv6Used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv6_pool DataK8SCiliumIoCiliumNodeV2Manifest#ipv6_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipv6_pool DataK8SCiliumIoCiliumNodeV2Manifest#ipv6_pool}
   */
   readonly ipv6Pool?: DataK8SCiliumIoCiliumNodeV2ManifestSpecIpamIpv6Pool;
   /**
   * MaxAboveWatermark is the maximum number of addresses to allocate beyond the addresses needed to reach the PreAllocate watermark. Going above the watermark can help reduce the number of API calls to allocate IPs, e.g. when a new ENI is allocated, as many secondary IPs as possible are allocated. Limiting the amount can help reduce waste of IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#max_above_watermark DataK8SCiliumIoCiliumNodeV2Manifest#max_above_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#max_above_watermark DataK8SCiliumIoCiliumNodeV2Manifest#max_above_watermark}
   */
   readonly maxAboveWatermark?: number;
   /**
   * MaxAllocate is the maximum number of IPs that can be allocated to the node. When the current amount of allocated IPs will approach this value, the considered value for PreAllocate will decrease down to 0 in order to not attempt to allocate more addresses than defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#max_allocate DataK8SCiliumIoCiliumNodeV2Manifest#max_allocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#max_allocate DataK8SCiliumIoCiliumNodeV2Manifest#max_allocate}
   */
   readonly maxAllocate?: number;
   /**
   * MinAllocate is the minimum number of IPs that must be allocated when the node is first bootstrapped. It defines the minimum base socket of addresses that must be available. After reaching this watermark, the PreAllocate and MaxAboveWatermark logic takes over to continue allocating IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#min_allocate DataK8SCiliumIoCiliumNodeV2Manifest#min_allocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#min_allocate DataK8SCiliumIoCiliumNodeV2Manifest#min_allocate}
   */
   readonly minAllocate?: number;
   /**
   * PodCIDRs is the list of CIDRs available to the node for allocation. When an IP is used, the IP will be added to Status.IPAM.Used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#pod_cidrs DataK8SCiliumIoCiliumNodeV2Manifest#pod_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#pod_cidrs DataK8SCiliumIoCiliumNodeV2Manifest#pod_cidrs}
   */
   readonly podCidrs?: string[];
   /**
   * Pool is the list of IPv4 addresses available to the node for allocation. When an IPv4 address is used, it will remain on this list but will be added to Status.IPAM.Used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#pool DataK8SCiliumIoCiliumNodeV2Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#pool DataK8SCiliumIoCiliumNodeV2Manifest#pool}
   */
   readonly pool?: DataK8SCiliumIoCiliumNodeV2ManifestSpecIpamPool;
   /**
   * Pools contains the list of assigned IPAM pools for this node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#pools DataK8SCiliumIoCiliumNodeV2Manifest#pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#pools DataK8SCiliumIoCiliumNodeV2Manifest#pools}
   */
   readonly pools?: DataK8SCiliumIoCiliumNodeV2ManifestSpecIpamPools;
   /**
   * PreAllocate defines the number of IP addresses that must be available for allocation in the IPAMspec. It defines the buffer of addresses available immediately without requiring cilium-operator to get involved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#pre_allocate DataK8SCiliumIoCiliumNodeV2Manifest#pre_allocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#pre_allocate DataK8SCiliumIoCiliumNodeV2Manifest#pre_allocate}
   */
   readonly preAllocate?: number;
   /**
   * StaticIPTags are used to determine the pool of IPs from which to attribute a static IP to the node. For example in AWS this is used to filter Elastic IP Addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#static_ip_tags DataK8SCiliumIoCiliumNodeV2Manifest#static_ip_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#static_ip_tags DataK8SCiliumIoCiliumNodeV2Manifest#static_ip_tags}
   */
   readonly staticIpTags?: { [key: string]: string };
 }
@@ -2987,67 +2987,67 @@ export interface DataK8SCiliumIoCiliumNodeV2ManifestSpec {
   /**
   * Addresses is the list of all node addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#addresses DataK8SCiliumIoCiliumNodeV2Manifest#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#addresses DataK8SCiliumIoCiliumNodeV2Manifest#addresses}
   */
   readonly addresses?: DataK8SCiliumIoCiliumNodeV2ManifestSpecAddresses[] | cdktf.IResolvable;
   /**
   * AlibabaCloud is the AlibabaCloud IPAM specific configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#alibaba_cloud DataK8SCiliumIoCiliumNodeV2Manifest#alibaba_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#alibaba_cloud DataK8SCiliumIoCiliumNodeV2Manifest#alibaba_cloud}
   */
   readonly alibabaCloud?: DataK8SCiliumIoCiliumNodeV2ManifestSpecAlibabaCloud;
   /**
   * Azure is the Azure IPAM specific configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#azure DataK8SCiliumIoCiliumNodeV2Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#azure DataK8SCiliumIoCiliumNodeV2Manifest#azure}
   */
   readonly azure?: DataK8SCiliumIoCiliumNodeV2ManifestSpecAzure;
   /**
   * BootID is a unique node identifier generated on boot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#bootid DataK8SCiliumIoCiliumNodeV2Manifest#bootid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#bootid DataK8SCiliumIoCiliumNodeV2Manifest#bootid}
   */
   readonly bootid?: string;
   /**
   * Encryption is the encryption configuration of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#encryption DataK8SCiliumIoCiliumNodeV2Manifest#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#encryption DataK8SCiliumIoCiliumNodeV2Manifest#encryption}
   */
   readonly encryption?: DataK8SCiliumIoCiliumNodeV2ManifestSpecEncryption;
   /**
   * ENI is the AWS ENI specific configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#eni DataK8SCiliumIoCiliumNodeV2Manifest#eni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#eni DataK8SCiliumIoCiliumNodeV2Manifest#eni}
   */
   readonly eni?: DataK8SCiliumIoCiliumNodeV2ManifestSpecEni;
   /**
   * HealthAddressing is the addressing information for health connectivity checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#health DataK8SCiliumIoCiliumNodeV2Manifest#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#health DataK8SCiliumIoCiliumNodeV2Manifest#health}
   */
   readonly health?: DataK8SCiliumIoCiliumNodeV2ManifestSpecHealth;
   /**
   * IngressAddressing is the addressing information for Ingress listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#ingress DataK8SCiliumIoCiliumNodeV2Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#ingress DataK8SCiliumIoCiliumNodeV2Manifest#ingress}
   */
   readonly ingress?: DataK8SCiliumIoCiliumNodeV2ManifestSpecIngress;
   /**
   * InstanceID is the identifier of the node. This is different from the node name which is typically the FQDN of the node. The InstanceID typically refers to the identifier used by the cloud provider or some other means of identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#instance_id DataK8SCiliumIoCiliumNodeV2Manifest#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#instance_id DataK8SCiliumIoCiliumNodeV2Manifest#instance_id}
   */
   readonly instanceId?: string;
   /**
   * IPAM is the address management specification. This section can be populated by a user or it can be automatically populated by an IPAM operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipam DataK8SCiliumIoCiliumNodeV2Manifest#ipam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#ipam DataK8SCiliumIoCiliumNodeV2Manifest#ipam}
   */
   readonly ipam?: DataK8SCiliumIoCiliumNodeV2ManifestSpecIpam;
   /**
   * NodeIdentity is the Cilium numeric identity allocated for the node, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#nodeidentity DataK8SCiliumIoCiliumNodeV2Manifest#nodeidentity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#nodeidentity DataK8SCiliumIoCiliumNodeV2Manifest#nodeidentity}
   */
   readonly nodeidentity?: number;
 }
@@ -3431,7 +3431,7 @@ export class DataK8SCiliumIoCiliumNodeV2ManifestSpecOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest k8s_cilium_io_cilium_node_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest k8s_cilium_io_cilium_node_v2_manifest}
 */
 export class DataK8SCiliumIoCiliumNodeV2Manifest extends cdktf.TerraformDataSource {
 
@@ -3447,7 +3447,7 @@ export class DataK8SCiliumIoCiliumNodeV2Manifest extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataK8SCiliumIoCiliumNodeV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCiliumIoCiliumNodeV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCiliumIoCiliumNodeV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCiliumIoCiliumNodeV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCiliumIoCiliumNodeV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3459,7 +3459,7 @@ export class DataK8SCiliumIoCiliumNodeV2Manifest extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/cilium_io_cilium_node_v2_manifest k8s_cilium_io_cilium_node_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/cilium_io_cilium_node_v2_manifest k8s_cilium_io_cilium_node_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3470,8 +3470,8 @@ export class DataK8SCiliumIoCiliumNodeV2Manifest extends cdktf.TerraformDataSour
       terraformResourceType: 'k8s_cilium_io_cilium_node_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

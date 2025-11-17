@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#metadata DataK8SHiveOpenshiftIoHiveConfigV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#metadata DataK8SHiveOpenshiftIoHiveConfigV1Manifest#metadata}
   */
   readonly metadata: DataK8SHiveOpenshiftIoHiveConfigV1ManifestMetadata;
   /**
   * HiveConfigSpec defines the desired state of Hive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#spec DataK8SHiveOpenshiftIoHiveConfigV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#spec DataK8SHiveOpenshiftIoHiveConfigV1Manifest#spec}
   */
   readonly spec?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#annotations DataK8SHiveOpenshiftIoHiveConfigV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#annotations DataK8SHiveOpenshiftIoHiveConfigV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#labels DataK8SHiveOpenshiftIoHiveConfigV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#labels DataK8SHiveOpenshiftIoHiveConfigV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAdditionalCertifi
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -305,13 +305,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecArgoCdConfig {
   /**
   * Enabled dictates if ArgoCD gitops integration is enabled. If not specified, the default is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#enabled DataK8SHiveOpenshiftIoHiveConfigV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#enabled DataK8SHiveOpenshiftIoHiveConfigV1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Namespace specifies the namespace where ArgoCD is installed. Used for the location of cluster secrets. Defaults to 'argocd'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#namespace DataK8SHiveOpenshiftIoHiveConfigV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#namespace DataK8SHiveOpenshiftIoHiveConfigV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -433,7 +433,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLinkAss
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -529,15 +529,15 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLinkAss
   /**
   * CredentialsSecretRef references a secret in the TargetNamespace that will be used to authenticate with AWS for associating the VPC with the Private HostedZone created for PrivateLink. When not provided, the common credentials for the controller should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLinkAssociatedVpCsCredentialsSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#region DataK8SHiveOpenshiftIoHiveConfigV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#region DataK8SHiveOpenshiftIoHiveConfigV1Manifest#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#vpc_id DataK8SHiveOpenshiftIoHiveConfigV1Manifest#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#vpc_id DataK8SHiveOpenshiftIoHiveConfigV1Manifest#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -707,7 +707,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLinkCre
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -801,11 +801,11 @@ export class DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLinkCredent
 }
 export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLinkEndpointVpcInventorySubnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#availability_zone DataK8SHiveOpenshiftIoHiveConfigV1Manifest#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#availability_zone DataK8SHiveOpenshiftIoHiveConfigV1Manifest#availability_zone}
   */
   readonly availabilityZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#subnet_id DataK8SHiveOpenshiftIoHiveConfigV1Manifest#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#subnet_id DataK8SHiveOpenshiftIoHiveConfigV1Manifest#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -944,15 +944,15 @@ export class DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLinkEndpoin
 }
 export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLinkEndpointVpcInventory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#region DataK8SHiveOpenshiftIoHiveConfigV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#region DataK8SHiveOpenshiftIoHiveConfigV1Manifest#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#subnets DataK8SHiveOpenshiftIoHiveConfigV1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#subnets DataK8SHiveOpenshiftIoHiveConfigV1Manifest#subnets}
   */
   readonly subnets: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLinkEndpointVpcInventorySubnets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#vpc_id DataK8SHiveOpenshiftIoHiveConfigV1Manifest#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#vpc_id DataK8SHiveOpenshiftIoHiveConfigV1Manifest#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -1119,25 +1119,25 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLink {
   /**
   * AssociatedVPCs is the list of VPCs that should be able to resolve the DNS addresses setup for Private Link. This allows clients in VPC to resolve the AWS PrivateLink address using AWS's default DNS resolver for Private Route53 Hosted Zones. This list should at minimum include the VPC where the current Hive controller is running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#associated_vp_cs DataK8SHiveOpenshiftIoHiveConfigV1Manifest#associated_vp_cs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#associated_vp_cs DataK8SHiveOpenshiftIoHiveConfigV1Manifest#associated_vp_cs}
   */
   readonly associatedVpCs?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLinkAssociatedVpCs[] | cdktf.IResolvable;
   /**
   * CredentialsSecretRef references a secret in the TargetNamespace that will be used to authenticate with AWS for creating the resources for AWS PrivateLink.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLinkCredentialsSecretRef;
   /**
   * DNSRecordType defines what type of DNS record should be created in Private Hosted Zone for the customer cluster's API endpoint (which is the VPC Endpoint's regional DNS name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#dns_record_type DataK8SHiveOpenshiftIoHiveConfigV1Manifest#dns_record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#dns_record_type DataK8SHiveOpenshiftIoHiveConfigV1Manifest#dns_record_type}
   */
   readonly dnsRecordType?: string;
   /**
   * EndpointVPCInventory is a list of VPCs and the corresponding subnets in various AWS regions. The controller uses this list to choose a VPC for creating AWS VPC Endpoints. Since the VPC Endpoints must be in the same region as the ClusterDeployment, we must have VPCs in that region to be able to setup Private Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#endpoint_vpc_inventory DataK8SHiveOpenshiftIoHiveConfigV1Manifest#endpoint_vpc_inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#endpoint_vpc_inventory DataK8SHiveOpenshiftIoHiveConfigV1Manifest#endpoint_vpc_inventory}
   */
   readonly endpointVpcInventory?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLinkEndpointVpcInventory[] | cdktf.IResolvable;
 }
@@ -1317,13 +1317,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecBackupVelero {
   /**
   * Enabled dictates if Velero backup integration is enabled. If not specified, the default is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#enabled DataK8SHiveOpenshiftIoHiveConfigV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#enabled DataK8SHiveOpenshiftIoHiveConfigV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Namespace specifies in which namespace velero backup objects should be created. If not specified, the default is a namespace named 'velero'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#namespace DataK8SHiveOpenshiftIoHiveConfigV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#namespace DataK8SHiveOpenshiftIoHiveConfigV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1448,13 +1448,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecBackup {
   /**
   * MinBackupPeriodSeconds specifies that a minimum of MinBackupPeriodSeconds will occur in between each backup. This is used to rate limit backups. This potentially batches together multiple changes into 1 backup. No backups will be lost as changes that happen during this interval are queued up and will result in a backup happening once the interval has been completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#min_backup_period_seconds DataK8SHiveOpenshiftIoHiveConfigV1Manifest#min_backup_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#min_backup_period_seconds DataK8SHiveOpenshiftIoHiveConfigV1Manifest#min_backup_period_seconds}
   */
   readonly minBackupPeriodSeconds?: number;
   /**
   * Velero specifies configuration for the Velero backup integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#velero DataK8SHiveOpenshiftIoHiveConfigV1Manifest#velero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#velero DataK8SHiveOpenshiftIoHiveConfigV1Manifest#velero}
   */
   readonly velero?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecBackupVelero;
 }
@@ -1579,13 +1579,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfig
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#request DataK8SHiveOpenshiftIoHiveConfigV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#request DataK8SHiveOpenshiftIoHiveConfigV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -1729,19 +1729,19 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfig
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#claims DataK8SHiveOpenshiftIoHiveConfigV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#claims DataK8SHiveOpenshiftIoHiveConfigV1Manifest#claims}
   */
   readonly claims?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfigControllersConfigResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#limits DataK8SHiveOpenshiftIoHiveConfigV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#limits DataK8SHiveOpenshiftIoHiveConfigV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#requests DataK8SHiveOpenshiftIoHiveConfigV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#requests DataK8SHiveOpenshiftIoHiveConfigV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1895,43 +1895,43 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfig
   /**
   * ClientBurst specifies client rate limiter burst for a controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#client_burst DataK8SHiveOpenshiftIoHiveConfigV1Manifest#client_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#client_burst DataK8SHiveOpenshiftIoHiveConfigV1Manifest#client_burst}
   */
   readonly clientBurst?: number;
   /**
   * ClientQPS specifies client rate limiter QPS for a controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#client_qps DataK8SHiveOpenshiftIoHiveConfigV1Manifest#client_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#client_qps DataK8SHiveOpenshiftIoHiveConfigV1Manifest#client_qps}
   */
   readonly clientQps?: number;
   /**
   * ConcurrentReconciles specifies number of concurrent reconciles for a controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#concurrent_reconciles DataK8SHiveOpenshiftIoHiveConfigV1Manifest#concurrent_reconciles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#concurrent_reconciles DataK8SHiveOpenshiftIoHiveConfigV1Manifest#concurrent_reconciles}
   */
   readonly concurrentReconciles?: number;
   /**
   * QueueBurst specifies workqueue rate limiter burst for a controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#queue_burst DataK8SHiveOpenshiftIoHiveConfigV1Manifest#queue_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#queue_burst DataK8SHiveOpenshiftIoHiveConfigV1Manifest#queue_burst}
   */
   readonly queueBurst?: number;
   /**
   * QueueQPS specifies workqueue rate limiter QPS for a controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#queue_qps DataK8SHiveOpenshiftIoHiveConfigV1Manifest#queue_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#queue_qps DataK8SHiveOpenshiftIoHiveConfigV1Manifest#queue_qps}
   */
   readonly queueQps?: number;
   /**
   * Replicas specifies the number of replicas the specific controller pod should use. This is ONLY for controllers that have been split out into their own pods. This is ignored for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#replicas DataK8SHiveOpenshiftIoHiveConfigV1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#replicas DataK8SHiveOpenshiftIoHiveConfigV1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources describes the compute resource requirements of the controller container. This is ONLY for controllers that have been split out into their own pods. This is ignored for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#resources DataK8SHiveOpenshiftIoHiveConfigV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#resources DataK8SHiveOpenshiftIoHiveConfigV1Manifest#resources}
   */
   readonly resources?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfigControllersConfigResources;
 }
@@ -2201,13 +2201,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfig
   /**
   * ControllerConfig contains the configuration for the controller specified by Name field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#config}
   */
   readonly config: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfigControllersConfig;
   /**
   * Name specifies the name of the controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2348,13 +2348,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfig
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#request DataK8SHiveOpenshiftIoHiveConfigV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#request DataK8SHiveOpenshiftIoHiveConfigV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -2498,19 +2498,19 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfig
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#claims DataK8SHiveOpenshiftIoHiveConfigV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#claims DataK8SHiveOpenshiftIoHiveConfigV1Manifest#claims}
   */
   readonly claims?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfigDefaultResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#limits DataK8SHiveOpenshiftIoHiveConfigV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#limits DataK8SHiveOpenshiftIoHiveConfigV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#requests DataK8SHiveOpenshiftIoHiveConfigV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#requests DataK8SHiveOpenshiftIoHiveConfigV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2664,43 +2664,43 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfig
   /**
   * ClientBurst specifies client rate limiter burst for a controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#client_burst DataK8SHiveOpenshiftIoHiveConfigV1Manifest#client_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#client_burst DataK8SHiveOpenshiftIoHiveConfigV1Manifest#client_burst}
   */
   readonly clientBurst?: number;
   /**
   * ClientQPS specifies client rate limiter QPS for a controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#client_qps DataK8SHiveOpenshiftIoHiveConfigV1Manifest#client_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#client_qps DataK8SHiveOpenshiftIoHiveConfigV1Manifest#client_qps}
   */
   readonly clientQps?: number;
   /**
   * ConcurrentReconciles specifies number of concurrent reconciles for a controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#concurrent_reconciles DataK8SHiveOpenshiftIoHiveConfigV1Manifest#concurrent_reconciles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#concurrent_reconciles DataK8SHiveOpenshiftIoHiveConfigV1Manifest#concurrent_reconciles}
   */
   readonly concurrentReconciles?: number;
   /**
   * QueueBurst specifies workqueue rate limiter burst for a controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#queue_burst DataK8SHiveOpenshiftIoHiveConfigV1Manifest#queue_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#queue_burst DataK8SHiveOpenshiftIoHiveConfigV1Manifest#queue_burst}
   */
   readonly queueBurst?: number;
   /**
   * QueueQPS specifies workqueue rate limiter QPS for a controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#queue_qps DataK8SHiveOpenshiftIoHiveConfigV1Manifest#queue_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#queue_qps DataK8SHiveOpenshiftIoHiveConfigV1Manifest#queue_qps}
   */
   readonly queueQps?: number;
   /**
   * Replicas specifies the number of replicas the specific controller pod should use. This is ONLY for controllers that have been split out into their own pods. This is ignored for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#replicas DataK8SHiveOpenshiftIoHiveConfigV1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#replicas DataK8SHiveOpenshiftIoHiveConfigV1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources describes the compute resource requirements of the controller container. This is ONLY for controllers that have been split out into their own pods. This is ignored for all others.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#resources DataK8SHiveOpenshiftIoHiveConfigV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#resources DataK8SHiveOpenshiftIoHiveConfigV1Manifest#resources}
   */
   readonly resources?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfigDefaultResources;
 }
@@ -2970,13 +2970,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfig
   /**
   * Controllers contains a list of configurations for different controllers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#controllers DataK8SHiveOpenshiftIoHiveConfigV1Manifest#controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#controllers DataK8SHiveOpenshiftIoHiveConfigV1Manifest#controllers}
   */
   readonly controllers?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfigControllers[] | cdktf.IResolvable;
   /**
   * Default specifies default configuration for all the controllers, can be used to override following coded defaults default for concurrent reconciles is 5 default for client qps is 5 default for client burst is 10 default for queue qps is 10 default for queue burst is 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#default DataK8SHiveOpenshiftIoHiveConfigV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#default DataK8SHiveOpenshiftIoHiveConfigV1Manifest#default}
   */
   readonly default?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfigDefault;
 }
@@ -3101,13 +3101,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecDeploymentConfigR
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#request DataK8SHiveOpenshiftIoHiveConfigV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#request DataK8SHiveOpenshiftIoHiveConfigV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -3251,19 +3251,19 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecDeploymentConfigR
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#claims DataK8SHiveOpenshiftIoHiveConfigV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#claims DataK8SHiveOpenshiftIoHiveConfigV1Manifest#claims}
   */
   readonly claims?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecDeploymentConfigResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#limits DataK8SHiveOpenshiftIoHiveConfigV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#limits DataK8SHiveOpenshiftIoHiveConfigV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#requests DataK8SHiveOpenshiftIoHiveConfigV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#requests DataK8SHiveOpenshiftIoHiveConfigV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -3417,13 +3417,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecDeploymentConfig 
   /**
   * DeploymentName is the name of one of the Deployments/StatefulSets managed by hive-operator. NOTE: At this time each deployment has only one container. In the future, we may provide a way to specify which container this DeploymentConfig will be applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#deployment_name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#deployment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#deployment_name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#deployment_name}
   */
   readonly deploymentName: string;
   /**
   * Resources allows customization of the resource (memory, CPU, etc.) limits and requests used by containers in the Deployment/StatefulSet named by DeploymentName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#resources DataK8SHiveOpenshiftIoHiveConfigV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#resources DataK8SHiveOpenshiftIoHiveConfigV1Manifest#resources}
   */
   readonly resources?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecDeploymentConfigResources;
 }
@@ -3567,7 +3567,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecFailedProvisionCo
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3663,25 +3663,25 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecFailedProvisionCo
   /**
   * Bucket is the S3 bucket to store the logs in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#bucket DataK8SHiveOpenshiftIoHiveConfigV1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#bucket DataK8SHiveOpenshiftIoHiveConfigV1Manifest#bucket}
   */
   readonly bucket?: string;
   /**
   * CredentialsSecretRef references a secret in the TargetNamespace that will be used to authenticate with AWS S3. It will need permission to upload logs to S3. Secret should have keys named aws_access_key_id and aws_secret_access_key that contain the AWS credentials. Example Secret: data: aws_access_key_id: minio aws_secret_access_key: minio123
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecFailedProvisionConfigAwsCredentialsSecretRef;
   /**
   * Region is the AWS region to use for S3 operations. This defaults to us-east-1. For AWS China, use cn-northwest-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#region DataK8SHiveOpenshiftIoHiveConfigV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#region DataK8SHiveOpenshiftIoHiveConfigV1Manifest#region}
   */
   readonly region?: string;
   /**
   * ServiceEndpoint is the url to connect to an S3 compatible provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#service_endpoint DataK8SHiveOpenshiftIoHiveConfigV1Manifest#service_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#service_endpoint DataK8SHiveOpenshiftIoHiveConfigV1Manifest#service_endpoint}
   */
   readonly serviceEndpoint?: string;
 }
@@ -3861,19 +3861,19 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecFailedProvisionCo
   /**
   * FailedProvisionAWSConfig contains AWS-specific info to upload log files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#aws DataK8SHiveOpenshiftIoHiveConfigV1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#aws DataK8SHiveOpenshiftIoHiveConfigV1Manifest#aws}
   */
   readonly aws?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecFailedProvisionConfigAws;
   /**
   * RetryReasons is a list of installFailingReason strings from the [additional-]install-log-regexes ConfigMaps. If specified, Hive will only retry a failed installation if it results in one of the listed reasons. If omitted (not the same thing as empty!), Hive will retry regardless of the failure reason. (The total number of install attempts is still constrained by ClusterDeployment.Spec.InstallAttemptsLimit.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#retry_reasons DataK8SHiveOpenshiftIoHiveConfigV1Manifest#retry_reasons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#retry_reasons DataK8SHiveOpenshiftIoHiveConfigV1Manifest#retry_reasons}
   */
   readonly retryReasons?: string[];
   /**
   * DEPRECATED: This flag is no longer respected and will be removed in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#skip_gather_logs DataK8SHiveOpenshiftIoHiveConfigV1Manifest#skip_gather_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#skip_gather_logs DataK8SHiveOpenshiftIoHiveConfigV1Manifest#skip_gather_logs}
   */
   readonly skipGatherLogs?: boolean | cdktf.IResolvable;
 }
@@ -4027,7 +4027,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecFeatureGatesCusto
   /**
   * enabled is a list of all feature gates that you want to force on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#enabled DataK8SHiveOpenshiftIoHiveConfigV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#enabled DataK8SHiveOpenshiftIoHiveConfigV1Manifest#enabled}
   */
   readonly enabled?: string[];
 }
@@ -4123,13 +4123,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecFeatureGates {
   /**
   * custom allows the enabling or disabling of any feature. Because of its nature, this setting cannot be validated. If you have any typos or accidentally apply invalid combinations might cause unknown behavior. featureSet must equal 'Custom' must be set to use this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#custom DataK8SHiveOpenshiftIoHiveConfigV1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#custom DataK8SHiveOpenshiftIoHiveConfigV1Manifest#custom}
   */
   readonly custom?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecFeatureGatesCustom;
   /**
   * featureSet changes the list of features in the cluster. The default is empty. Be very careful adjusting this setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#feature_set DataK8SHiveOpenshiftIoHiveConfigV1Manifest#feature_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#feature_set DataK8SHiveOpenshiftIoHiveConfigV1Manifest#feature_set}
   */
   readonly featureSet?: string;
 }
@@ -4254,7 +4254,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecGlobalPullSecretR
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4350,7 +4350,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomainsAws
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4446,13 +4446,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomainsAws
   /**
   * CredentialsSecretRef references a secret in the TargetNamespace that will be used to authenticate with AWS Route53. It will need permission to manage entries for the domain listed in the parent ManageDNSConfig object. Secret should have AWS keys named 'aws_access_key_id' and 'aws_secret_access_key'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomainsAwsCredentialsSecretRef;
   /**
   * Region is the AWS region to use for route53 operations. This defaults to us-east-1. For AWS China, use cn-northwest-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#region DataK8SHiveOpenshiftIoHiveConfigV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#region DataK8SHiveOpenshiftIoHiveConfigV1Manifest#region}
   */
   readonly region?: string;
 }
@@ -4574,7 +4574,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomainsAzu
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4670,19 +4670,19 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomainsAzu
   /**
   * CloudName is the name of the Azure cloud environment which can be used to configure the Azure SDK with the appropriate Azure API endpoints. If empty, the value is equal to 'AzurePublicCloud'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#cloud_name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#cloud_name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * CredentialsSecretRef references a secret in the TargetNamespace that will be used to authenticate with Azure DNS. It wil need permission to manage entries in each of the managed domains listed in the parent ManageDNSConfig object. Secret should have a key named 'osServicePrincipal.json'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomainsAzureCredentialsSecretRef;
   /**
   * ResourceGroupName specifies the Azure resource group containing the DNS zones for the domains being managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#resource_group_name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#resource_group_name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#resource_group_name}
   */
   readonly resourceGroupName: string;
 }
@@ -4830,7 +4830,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomainsGcp
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4926,7 +4926,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomainsGcp
   /**
   * CredentialsSecretRef references a secret in the TargetNamespace that will be used to authenticate with GCP DNS. It will need permission to manage entries in each of the managed domains for this cluster. listed in the parent ManageDNSConfig object. Secret should have a key named 'osServiceAccount.json'. The credentials must specify the project to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomainsGcpCredentialsSecretRef;
 }
@@ -5019,25 +5019,25 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomains {
   /**
   * AWS contains AWS-specific settings for external DNS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#aws DataK8SHiveOpenshiftIoHiveConfigV1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#aws DataK8SHiveOpenshiftIoHiveConfigV1Manifest#aws}
   */
   readonly aws?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomainsAws;
   /**
   * Azure contains Azure-specific settings for external DNS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#azure DataK8SHiveOpenshiftIoHiveConfigV1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#azure DataK8SHiveOpenshiftIoHiveConfigV1Manifest#azure}
   */
   readonly azure?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomainsAzure;
   /**
   * Domains is the list of domains that hive will be managing entries for with the provided credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#domains DataK8SHiveOpenshiftIoHiveConfigV1Manifest#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#domains DataK8SHiveOpenshiftIoHiveConfigV1Manifest#domains}
   */
   readonly domains: string[];
   /**
   * GCP contains GCP-specific settings for external DNS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#gcp DataK8SHiveOpenshiftIoHiveConfigV1Manifest#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#gcp DataK8SHiveOpenshiftIoHiveConfigV1Manifest#gcp}
   */
   readonly gcp?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomainsGcp;
 }
@@ -5239,13 +5239,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecMetricsConfigMetr
   /**
   * Duration is the minimum time taken - the relevant metric will be logged only if the value reported by that metric is more than the time mentioned here. For example, if a user opts-in for current clusters stopping and mentions 1 hour here, only the clusters stopping for more than an hour will be reported. This is a Duration value; see https://pkg.go.dev/time#ParseDuration for accepted formats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#duration DataK8SHiveOpenshiftIoHiveConfigV1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#duration DataK8SHiveOpenshiftIoHiveConfigV1Manifest#duration}
   */
   readonly duration: string;
   /**
   * Name of the metric. It will correspond to an optional relevant metric in hive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name: string;
 }
@@ -5386,13 +5386,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecMetricsConfig {
   /**
   * AdditionalClusterDeploymentLabels allows configuration of additional labels to be applied to certain metrics. The keys can be any string value suitable for a metric label (see https://prometheus.io/docs/concepts/data_model/#metric-names-and-labels). The values can be any ClusterDeployment label key (from metadata.labels). When observing an affected metric, hive will label it with the specified metric key, and copy the value from the specified ClusterDeployment label. For example, including {'ocp_major_version': 'hive.openshift.io/version-major'} will cause affected metrics to include a label key ocp_major_version with the value from the hive.openshift.io/version-major ClusterDeployment label -- e.g. '4'. NOTE: Avoid ClusterDeployment labels whose values are unbounded, such as those representing cluster names or IDs, as these will cause your prometheus database to grow indefinitely. Affected metrics are those whose type implements the metricsWithDynamicLabels interface found in pkg/controller/metrics/metrics_with_dynamic_labels.go
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#additional_cluster_deployment_labels DataK8SHiveOpenshiftIoHiveConfigV1Manifest#additional_cluster_deployment_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#additional_cluster_deployment_labels DataK8SHiveOpenshiftIoHiveConfigV1Manifest#additional_cluster_deployment_labels}
   */
   readonly additionalClusterDeploymentLabels?: { [key: string]: string };
   /**
   * Optional metrics and their configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#metrics_with_duration DataK8SHiveOpenshiftIoHiveConfigV1Manifest#metrics_with_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#metrics_with_duration DataK8SHiveOpenshiftIoHiveConfigV1Manifest#metrics_with_duration}
   */
   readonly metricsWithDuration?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecMetricsConfigMetricsWithDuration[] | cdktf.IResolvable;
 }
@@ -5517,7 +5517,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecPrivateLinkGcpCre
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -5611,11 +5611,11 @@ export class DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecPrivateLinkGcpCredent
 }
 export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecPrivateLinkGcpEndpointVpcInventorySubnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#region DataK8SHiveOpenshiftIoHiveConfigV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#region DataK8SHiveOpenshiftIoHiveConfigV1Manifest#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#subnet DataK8SHiveOpenshiftIoHiveConfigV1Manifest#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#subnet DataK8SHiveOpenshiftIoHiveConfigV1Manifest#subnet}
   */
   readonly subnet: string;
 }
@@ -5754,11 +5754,11 @@ export class DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecPrivateLinkGcpEndpoin
 }
 export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecPrivateLinkGcpEndpointVpcInventory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#network DataK8SHiveOpenshiftIoHiveConfigV1Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#network DataK8SHiveOpenshiftIoHiveConfigV1Manifest#network}
   */
   readonly network: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#subnets DataK8SHiveOpenshiftIoHiveConfigV1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#subnets DataK8SHiveOpenshiftIoHiveConfigV1Manifest#subnets}
   */
   readonly subnets: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecPrivateLinkGcpEndpointVpcInventorySubnets[] | cdktf.IResolvable;
 }
@@ -5899,13 +5899,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecPrivateLinkGcp {
   /**
   * CredentialsSecretRef references a secret in the TargetNamespace that will be used to authenticate with GCP for creating the resources for GCP Private Service Connect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecPrivateLinkGcpCredentialsSecretRef;
   /**
   * EndpointVPCInventory is a list of VPCs and the corresponding subnets in various GCP regions. The controller uses this list to choose a VPC for creating GCP Endpoints. Since the VPC Endpoints must be in the same region as the ClusterDeployment, we must have VPCs in that region to be able to setup Private Service Connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#endpoint_vpc_inventory DataK8SHiveOpenshiftIoHiveConfigV1Manifest#endpoint_vpc_inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#endpoint_vpc_inventory DataK8SHiveOpenshiftIoHiveConfigV1Manifest#endpoint_vpc_inventory}
   */
   readonly endpointVpcInventory?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecPrivateLinkGcpEndpointVpcInventory[] | cdktf.IResolvable;
 }
@@ -6027,7 +6027,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecPrivateLink {
   /**
   * GCP is the configuration for GCP hub and link resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#gcp DataK8SHiveOpenshiftIoHiveConfigV1Manifest#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#gcp DataK8SHiveOpenshiftIoHiveConfigV1Manifest#gcp}
   */
   readonly gcp?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecPrivateLinkGcp;
 }
@@ -6123,13 +6123,13 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecReleaseImageVerif
   /**
   * Name of the ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#namespace DataK8SHiveOpenshiftIoHiveConfigV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#namespace DataK8SHiveOpenshiftIoHiveConfigV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -6248,7 +6248,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecServiceProviderCr
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#name DataK8SHiveOpenshiftIoHiveConfigV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6344,7 +6344,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecServiceProviderCr
   /**
   * CredentialsSecretRef references a secret in the TargetNamespace that will be used to authenticate with AWS to become the Service Provider. Being a Service Provider allows the controllers to assume the role in customer AWS accounts to manager clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#credentials_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#credentials_secret_ref}
   */
   readonly credentialsSecretRef?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecServiceProviderCredentialsConfigAwsCredentialsSecretRef;
 }
@@ -6440,7 +6440,7 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecServiceProviderCr
   /**
   * AWS is used to configure credentials related to being a service provider on AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#aws DataK8SHiveOpenshiftIoHiveConfigV1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#aws DataK8SHiveOpenshiftIoHiveConfigV1Manifest#aws}
   */
   readonly aws?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecServiceProviderCredentialsConfigAws;
 }
@@ -6536,145 +6536,145 @@ export interface DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpec {
   /**
   * AdditionalCertificateAuthoritiesSecretRef is a list of references to secrets in the TargetNamespace that contain an additional Certificate Authority to use when communicating with target clusters. These certificate authorities will be used in addition to any self-signed CA generated by each cluster on installation. The cert data should be stored in the Secret key named 'ca.crt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#additional_certificate_authorities_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#additional_certificate_authorities_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#additional_certificate_authorities_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#additional_certificate_authorities_secret_ref}
   */
   readonly additionalCertificateAuthoritiesSecretRef?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAdditionalCertificateAuthoritiesSecretRef[] | cdktf.IResolvable;
   /**
   * ArgoCD specifies configuration for ArgoCD integration. If enabled, Hive will automatically add provisioned clusters to ArgoCD, and remove them when they are deprovisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#argo_cd_config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#argo_cd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#argo_cd_config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#argo_cd_config}
   */
   readonly argoCdConfig?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecArgoCdConfig;
   /**
   * AWSPrivateLink defines the configuration for the aws-private-link controller. It provides 3 major pieces of information required by the controller, 1. The Credentials that should be used to create AWS PrivateLink resources other than what exist in the customer's account. 2. A list of VPCs that can be used by the controller to choose one to create AWS VPC Endpoints for the AWS VPC Endpoint Services created for ClusterDeployments in their corresponding regions. 3. A list of VPCs that should be able to resolve the DNS addresses setup for Private Link.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#aws_private_link DataK8SHiveOpenshiftIoHiveConfigV1Manifest#aws_private_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#aws_private_link DataK8SHiveOpenshiftIoHiveConfigV1Manifest#aws_private_link}
   */
   readonly awsPrivateLink?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecAwsPrivateLink;
   /**
   * Backup specifies configuration for backup integration. If absent, backup integration will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#backup DataK8SHiveOpenshiftIoHiveConfigV1Manifest#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#backup DataK8SHiveOpenshiftIoHiveConfigV1Manifest#backup}
   */
   readonly backup?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecBackup;
   /**
   * ClusterVersionPollInterval is a string duration indicating how much time must pass before checking whether we need to update the hive.openshift.io/version* labels on ClusterDeployment. If zero or unset, we'll only reconcile when the ClusterDeployment changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#cluster_version_poll_interval DataK8SHiveOpenshiftIoHiveConfigV1Manifest#cluster_version_poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#cluster_version_poll_interval DataK8SHiveOpenshiftIoHiveConfigV1Manifest#cluster_version_poll_interval}
   */
   readonly clusterVersionPollInterval?: string;
   /**
   * ControllersConfig is used to configure different hive controllers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#controllers_config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#controllers_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#controllers_config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#controllers_config}
   */
   readonly controllersConfig?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecControllersConfig;
   /**
   * DeleteProtection can be set to 'enabled' to turn on automatic delete protection for ClusterDeployments. When enabled, Hive will add the 'hive.openshift.io/protected-delete' annotation to new ClusterDeployments. Once a ClusterDeployment has been installed, a user must remove the annotation from a ClusterDeployment prior to deleting it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#delete_protection DataK8SHiveOpenshiftIoHiveConfigV1Manifest#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#delete_protection DataK8SHiveOpenshiftIoHiveConfigV1Manifest#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * DeploymentConfig is used to configure (pods/containers of) the Deployments generated by hive-operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#deployment_config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#deployment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#deployment_config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#deployment_config}
   */
   readonly deploymentConfig?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecDeploymentConfig[] | cdktf.IResolvable;
   /**
   * DeprovisionsDisabled can be set to true to block deprovision jobs from running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#deprovisions_disabled DataK8SHiveOpenshiftIoHiveConfigV1Manifest#deprovisions_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#deprovisions_disabled DataK8SHiveOpenshiftIoHiveConfigV1Manifest#deprovisions_disabled}
   */
   readonly deprovisionsDisabled?: boolean | cdktf.IResolvable;
   /**
   * DisabledControllers allows selectively disabling Hive controllers by name. The name of an individual controller matches the name of the controller as seen in the Hive logging output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#disabled_controllers DataK8SHiveOpenshiftIoHiveConfigV1Manifest#disabled_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#disabled_controllers DataK8SHiveOpenshiftIoHiveConfigV1Manifest#disabled_controllers}
   */
   readonly disabledControllers?: string[];
   /**
   * ExportMetrics has been disabled and has no effect. If upgrading from a version where it was active, please be aware of the following in your HiveConfig.Spec.TargetNamespace (default 'hive' if unset): 1) ServiceMonitors named hive-controllers and hive-clustersync; 2) Role and RoleBinding named prometheus-k8s; 3) The 'openshift.io/cluster-monitoring' metadata.label on the Namespace itself. You may wish to delete these resources. Or you may wish to continue using them to enable monitoring in your environment; but be aware that hive will no longer reconcile them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#export_metrics DataK8SHiveOpenshiftIoHiveConfigV1Manifest#export_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#export_metrics DataK8SHiveOpenshiftIoHiveConfigV1Manifest#export_metrics}
   */
   readonly exportMetrics?: boolean | cdktf.IResolvable;
   /**
   * FailedProvisionConfig is used to configure settings related to handling provision failures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#failed_provision_config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#failed_provision_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#failed_provision_config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#failed_provision_config}
   */
   readonly failedProvisionConfig?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecFailedProvisionConfig;
   /**
   * FeatureGateSelection allows selecting feature gates for the controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#feature_gates DataK8SHiveOpenshiftIoHiveConfigV1Manifest#feature_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#feature_gates DataK8SHiveOpenshiftIoHiveConfigV1Manifest#feature_gates}
   */
   readonly featureGates?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecFeatureGates;
   /**
   * GlobalPullSecretRef is used to specify a pull secret that will be used globally by all of the cluster deployments. For each cluster deployment, the contents of GlobalPullSecret will be merged with the specific pull secret for a cluster deployment(if specified), with precedence given to the contents of the pull secret for the cluster deployment. The global pull secret is assumed to be in the TargetNamespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#global_pull_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#global_pull_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#global_pull_secret_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#global_pull_secret_ref}
   */
   readonly globalPullSecretRef?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecGlobalPullSecretRef;
   /**
   * LogLevel is the level of logging to use for the Hive controllers. Acceptable levels, from coarsest to finest, are panic, fatal, error, warn, info, debug, and trace. The default level is info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#log_level DataK8SHiveOpenshiftIoHiveConfigV1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#log_level DataK8SHiveOpenshiftIoHiveConfigV1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * MachinePoolPollInterval is a string duration indicating how much time must pass before checking whether remote resources related to MachinePools need to be reapplied. Set to zero to disable polling -- we'll only reconcile when hub objects change. The default interval is 30m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#machine_pool_poll_interval DataK8SHiveOpenshiftIoHiveConfigV1Manifest#machine_pool_poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#machine_pool_poll_interval DataK8SHiveOpenshiftIoHiveConfigV1Manifest#machine_pool_poll_interval}
   */
   readonly machinePoolPollInterval?: string;
   /**
   * MaintenanceMode can be set to true to disable the hive controllers in situations where we need to ensure nothing is running that will add or act upon finalizers on Hive types. This should rarely be needed. Sets replicas to 0 for the hive-controllers deployment to accomplish this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#maintenance_mode DataK8SHiveOpenshiftIoHiveConfigV1Manifest#maintenance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#maintenance_mode DataK8SHiveOpenshiftIoHiveConfigV1Manifest#maintenance_mode}
   */
   readonly maintenanceMode?: boolean | cdktf.IResolvable;
   /**
   * ManagedDomains is the list of DNS domains that are managed by the Hive cluster When specifying 'manageDNS: true' in a ClusterDeployment, the ClusterDeployment's baseDomain should be a direct child of one of these domains, otherwise the ClusterDeployment creation will result in a validation error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#managed_domains DataK8SHiveOpenshiftIoHiveConfigV1Manifest#managed_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#managed_domains DataK8SHiveOpenshiftIoHiveConfigV1Manifest#managed_domains}
   */
   readonly managedDomains?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecManagedDomains[] | cdktf.IResolvable;
   /**
   * MetricsConfig encapsulates metrics specific configurations, like opting in for certain metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#metrics_config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#metrics_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#metrics_config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#metrics_config}
   */
   readonly metricsConfig?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecMetricsConfig;
   /**
   * PrivateLink is used to configure the privatelink controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#private_link DataK8SHiveOpenshiftIoHiveConfigV1Manifest#private_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#private_link DataK8SHiveOpenshiftIoHiveConfigV1Manifest#private_link}
   */
   readonly privateLink?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecPrivateLink;
   /**
   * ReleaseImageVerificationConfigMapRef is a reference to the ConfigMap that will be used to verify release images. The config map structure is exactly the same as the config map used for verification of release images for OpenShift 4 during upgrades. Therefore you can usually set this to the config map shipped as part of OpenShift (openshift-config-managed/release-verification). See https://github.com/openshift/cluster-update-keys for more details. The keys within the config map in the data field define how verification is performed: verifier-public-key-*: One or more GPG public keys in ASCII form that must have signed the release image by digest. store-*: A URL (scheme file://, http://, or https://) location that contains signatures. These signatures are in the atomic container signature format. The URL will have the digest of the image appended to it as '<STORE>/<ALGO>=<DIGEST>/signature-<NUMBER>' as described in the container image signing format. The docker-image-manifest section of the signature must match the release image digest. Signatures are searched starting at NUMBER 1 and incrementing if the signature exists but is not valid. The signature is a GPG signed and encrypted JSON message. The file store is provided for testing only at the current time, although future versions of the CVO might allow host mounting of signatures. See https://github.com/containers/image/blob/ab49b0a48428c623a8f03b41b9083d48966b34a9/docs/signature-protocols.md for a description of the signature store The returned verifier will require that any new release image will only be considered verified if each provided public key has signed the release image digest. The signature may be in any store and the lookup order is internally defined. If not set, no verification will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#release_image_verification_config_map_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#release_image_verification_config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#release_image_verification_config_map_ref DataK8SHiveOpenshiftIoHiveConfigV1Manifest#release_image_verification_config_map_ref}
   */
   readonly releaseImageVerificationConfigMapRef?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecReleaseImageVerificationConfigMapRef;
   /**
   * ServiceProviderCredentialsConfig is used to configure credentials related to being a service provider on various cloud platforms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#service_provider_credentials_config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#service_provider_credentials_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#service_provider_credentials_config DataK8SHiveOpenshiftIoHiveConfigV1Manifest#service_provider_credentials_config}
   */
   readonly serviceProviderCredentialsConfig?: DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecServiceProviderCredentialsConfig;
   /**
   * SyncSetReapplyInterval is a string duration indicating how much time must pass before SyncSet resources will be reapplied. The default reapply interval is two hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#sync_set_reapply_interval DataK8SHiveOpenshiftIoHiveConfigV1Manifest#sync_set_reapply_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#sync_set_reapply_interval DataK8SHiveOpenshiftIoHiveConfigV1Manifest#sync_set_reapply_interval}
   */
   readonly syncSetReapplyInterval?: string;
   /**
   * TargetNamespace is the namespace where the core Hive components should be run. Defaults to 'hive'. Will be created if it does not already exist. All resource references in HiveConfig can be assumed to be in the TargetNamespace. NOTE: Whereas it is possible to edit this value, causing hive to 'move' its core components to the new namespace, the old namespace is not deleted, as it will still contain resources created by kubernetes and/or other OpenShift controllers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#target_namespace DataK8SHiveOpenshiftIoHiveConfigV1Manifest#target_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#target_namespace DataK8SHiveOpenshiftIoHiveConfigV1Manifest#target_namespace}
   */
   readonly targetNamespace?: string;
 }
@@ -7435,7 +7435,7 @@ export class DataK8SHiveOpenshiftIoHiveConfigV1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest k8s_hive_openshift_io_hive_config_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest k8s_hive_openshift_io_hive_config_v1_manifest}
 */
 export class DataK8SHiveOpenshiftIoHiveConfigV1Manifest extends cdktf.TerraformDataSource {
 
@@ -7451,7 +7451,7 @@ export class DataK8SHiveOpenshiftIoHiveConfigV1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SHiveOpenshiftIoHiveConfigV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHiveOpenshiftIoHiveConfigV1Manifest to import
-  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoHiveConfigV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoHiveConfigV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHiveOpenshiftIoHiveConfigV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7463,7 +7463,7 @@ export class DataK8SHiveOpenshiftIoHiveConfigV1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_hive_config_v1_manifest k8s_hive_openshift_io_hive_config_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_hive_config_v1_manifest k8s_hive_openshift_io_hive_config_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7474,8 +7474,8 @@ export class DataK8SHiveOpenshiftIoHiveConfigV1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_hive_openshift_io_hive_config_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

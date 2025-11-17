@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SControlK8SsandraIoCassandraTaskV1Alpha1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#metadata DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#metadata DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SControlK8SsandraIoCassandraTaskV1Alpha1ManifestMetadata;
   /**
   * CassandraTaskSpec defines the desired state of CassandraTask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#spec DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#spec DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SControlK8SsandraIoCassandraTaskV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SControlK8SsandraIoCassandraTaskV1Alpha1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#annotations DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#annotations DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#labels DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#labels DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#name DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#name DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#namespace DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#namespace DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,43 +219,43 @@ export interface DataK8SControlK8SsandraIoCassandraTaskV1Alpha1ManifestSpecDatac
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#api_version DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#api_version DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#field_path DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#field_path DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#kind DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#kind DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#name DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#name DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#namespace DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#namespace DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#resource_version DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#resource_version DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#uid DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#uid DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -523,61 +523,61 @@ export class DataK8SControlK8SsandraIoCassandraTaskV1Alpha1ManifestSpecDatacente
 }
 export interface DataK8SControlK8SsandraIoCassandraTaskV1Alpha1ManifestSpecJobsArgs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#end_token DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#end_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#end_token DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#end_token}
   */
   readonly endToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#jobs DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#jobs DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#jobs}
   */
   readonly jobs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#keyspace_name DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#keyspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#keyspace_name DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#keyspace_name}
   */
   readonly keyspaceName?: string;
   /**
   * NewTokens is a map of pod names to their newly-assigned tokens. Required for the move command, ignored otherwise. Pods referenced in this map must exist; any existing pod not referenced in this map will not be moved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#new_tokens DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#new_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#new_tokens DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#new_tokens}
   */
   readonly newTokens?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#no_snapshot DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#no_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#no_snapshot DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#no_snapshot}
   */
   readonly noSnapshot?: boolean | cdktf.IResolvable;
   /**
   * Scrub arguments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#no_validate DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#no_validate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#no_validate DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#no_validate}
   */
   readonly noValidate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#pod_name DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#pod_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#pod_name DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#pod_name}
   */
   readonly podName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#rack DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#rack DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#rack}
   */
   readonly rack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#skip_corrupted DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#skip_corrupted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#skip_corrupted DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#skip_corrupted}
   */
   readonly skipCorrupted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#source_datacenter DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#source_datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#source_datacenter DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#source_datacenter}
   */
   readonly sourceDatacenter?: string;
   /**
   * Compaction arguments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#split_output DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#split_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#split_output DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#split_output}
   */
   readonly splitOutput?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#start_token DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#start_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#start_token DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#start_token}
   */
   readonly startToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#tables DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#tables DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#tables}
   */
   readonly tables?: string[];
 }
@@ -1021,17 +1021,17 @@ export interface DataK8SControlK8SsandraIoCassandraTaskV1Alpha1ManifestSpecJobs 
   /**
   * Arguments are additional parameters for the command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#args DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#args DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#args}
   */
   readonly args?: DataK8SControlK8SsandraIoCassandraTaskV1Alpha1ManifestSpecJobsArgs;
   /**
   * Command defines what is run against Cassandra pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#command DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#command DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#name DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#name DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1201,37 +1201,37 @@ export interface DataK8SControlK8SsandraIoCassandraTaskV1Alpha1ManifestSpec {
   /**
   * Specifics if this task can be run concurrently with other active tasks. Valid values are: - 'Allow': allows multiple Tasks to run concurrently on Cassandra cluster - 'Forbid' (default): only a single task is executed at once The 'Allow' property is only valid if all the other active Tasks have 'Allow' as well.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#concurrency_policy DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#concurrency_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#concurrency_policy DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#concurrency_policy}
   */
   readonly concurrencyPolicy?: string;
   /**
   * Which datacenter this task is targetting. Note, this must be a datacenter which the current cass-operator can access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#datacenter DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#datacenter DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#datacenter}
   */
   readonly datacenter?: DataK8SControlK8SsandraIoCassandraTaskV1Alpha1ManifestSpecDatacenter;
   /**
   * Jobs defines the jobs this task will execute (and their order)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#jobs DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#jobs DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#jobs}
   */
   readonly jobs?: DataK8SControlK8SsandraIoCassandraTaskV1Alpha1ManifestSpecJobs[] | cdktf.IResolvable;
   /**
   * RestartPolicy indicates the behavior n case of failure. Default is Never.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#restart_policy DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#restart_policy DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * ScheduledTime indicates the earliest possible time this task is executed. This does not necessarily equal to the time it is actually executed (if other tasks are blocking for example). If not set, the task will be executed immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#scheduled_time DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#scheduled_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#scheduled_time DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#scheduled_time}
   */
   readonly scheduledTime?: string;
   /**
   * TTLSecondsAfterFinished defines how long the completed job will kept before being cleaned up. If set to 0 the task will not be cleaned up by the cass-operator. If unset, the default time (86400s) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#ttl_seconds_after_finished DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#ttl_seconds_after_finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#ttl_seconds_after_finished DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest#ttl_seconds_after_finished}
   */
   readonly ttlSecondsAfterFinished?: number;
 }
@@ -1470,7 +1470,7 @@ export class DataK8SControlK8SsandraIoCassandraTaskV1Alpha1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest k8s_control_k8ssandra_io_cassandra_task_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest k8s_control_k8ssandra_io_cassandra_task_v1alpha1_manifest}
 */
 export class DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1486,7 +1486,7 @@ export class DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1498,7 +1498,7 @@ export class DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest k8s_control_k8ssandra_io_cassandra_task_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/control_k8ssandra_io_cassandra_task_v1alpha1_manifest k8s_control_k8ssandra_io_cassandra_task_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1509,8 +1509,8 @@ export class DataK8SControlK8SsandraIoCassandraTaskV1Alpha1Manifest extends cdkt
       terraformResourceType: 'k8s_control_k8ssandra_io_cassandra_task_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

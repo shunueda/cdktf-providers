@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#metadata DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#metadata DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestMetadata;
   /**
   * HelmReleaseSpec defines the desired state of a Helm release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#spec DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#spec DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#spec}
   */
   readonly spec?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#annotations DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#annotations DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#labels DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#labels DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChartMe
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#annotations DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#annotations DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#labels DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#labels DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -350,25 +350,25 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChartSp
   /**
   * APIVersion of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#api_version DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#api_version DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kind DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kind DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -545,7 +545,7 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChartSp
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -638,13 +638,13 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChartSp
   /**
   * Provider specifies the technology used to sign the OCI Helm chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#provider DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#provider DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#provider}
   */
   readonly provider: string;
   /**
   * SecretRef specifies the Kubernetes Secret containing the trusted public keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#secret_ref DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#secret_ref DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChartSpecVerifySecretRef;
 }
@@ -766,55 +766,55 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChartSp
   /**
   * The name or path the Helm chart is available at in the SourceRef.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#chart DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#chart DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#chart}
   */
   readonly chart: string;
   /**
   * IgnoreMissingValuesFiles controls whether to silently ignore missing values files rather than failing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#ignore_missing_values_files DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#ignore_missing_values_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#ignore_missing_values_files DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#ignore_missing_values_files}
   */
   readonly ignoreMissingValuesFiles?: boolean | cdktf.IResolvable;
   /**
   * Interval at which to check the v1.Source for updates. Defaults to 'HelmReleaseSpec.Interval'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#interval DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#interval DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Determines what enables the creation of a new artifact. Valid values are ('ChartVersion', 'Revision'). See the documentation of the values for an explanation on their behavior. Defaults to ChartVersion when omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#reconcile_strategy DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#reconcile_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#reconcile_strategy DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#reconcile_strategy}
   */
   readonly reconcileStrategy?: string;
   /**
   * The name and namespace of the v1.Source the chart is available at.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#source_ref DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#source_ref DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#source_ref}
   */
   readonly sourceRef: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChartSpecSourceRef;
   /**
   * Alternative values file to use as the default chart values, expected to be a relative path in the SourceRef. Deprecated in favor of ValuesFiles, for backwards compatibility the file defined here is merged before the ValuesFiles items. Ignored when omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#values_file DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#values_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#values_file DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#values_file}
   */
   readonly valuesFile?: string;
   /**
   * Alternative list of values files to use as the chart values (values.yaml is not included by default), expected to be a relative path in the SourceRef. Values files are merged in the order of this list with the last file overriding the first. Ignored when omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#values_files DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#values_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#values_files DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#values_files}
   */
   readonly valuesFiles?: string[];
   /**
   * Verify contains the secret name containing the trusted public keys used to verify the signature and specifies which provider to use to check whether OCI image is authentic. This field is only supported for OCI sources. Chart dependencies, which are not bundled in the umbrella chart artifact, are not verified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#verify DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#verify DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#verify}
   */
   readonly verify?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChartSpecVerify;
   /**
   * Version semver expression, ignored for charts from v1beta2.GitRepository and v1beta2.Bucket sources. Defaults to latest when omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#version DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#version DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#version}
   */
   readonly version?: string;
 }
@@ -1136,13 +1136,13 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChart {
   /**
   * ObjectMeta holds the template for metadata like labels and annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#metadata DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#metadata DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChartMetadata;
   /**
   * Spec holds the template for the v1beta2.HelmChartSpec for this HelmRelease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#spec DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#spec DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#spec}
   */
   readonly spec: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChartSpec;
 }
@@ -1264,25 +1264,25 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChartRe
   /**
   * APIVersion of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#api_version DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#api_version DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kind DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kind DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referent, defaults to the namespace of the Kubernetes resource object that contains the reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1459,13 +1459,13 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecDepends
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referent, when not specified it acts as LocalObjectReference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1609,43 +1609,43 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecDriftDe
   /**
   * AnnotationSelector is a string that follows the label selection expression https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#api It matches with the resource annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#annotation_selector DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#annotation_selector DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
   * Group is the API group to select resources from. Together with Version and Kind it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#group DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#group DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind of the API Group to select resources from. Together with Group and Version it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kind DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kind DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kind}
   */
   readonly kind?: string;
   /**
   * LabelSelector is a string that follows the label selection expression https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#api It matches with the resource labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#label_selector DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#label_selector DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#label_selector}
   */
   readonly labelSelector?: string;
   /**
   * Name to match resources with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace to select resources from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Version of the API Group to select resources from. Together with Group and Kind it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#version DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#version DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#version}
   */
   readonly version?: string;
 }
@@ -1915,13 +1915,13 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecDriftDe
   /**
   * Paths is a list of JSON Pointer (RFC 6901) paths to be excluded from consideration in a Kubernetes object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#paths DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#paths DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#paths}
   */
   readonly paths: string[];
   /**
   * Target is a selector for specifying Kubernetes objects to which this rule applies. If Target is not set, the Paths will be ignored for all Kubernetes objects within the manifest of the Helm release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#target DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#target DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#target}
   */
   readonly target?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecDriftDetectionIgnoreTarget;
 }
@@ -2065,13 +2065,13 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecDriftDe
   /**
   * Ignore contains a list of rules for specifying which changes to ignore during diffing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#ignore DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#ignore DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#ignore}
   */
   readonly ignore?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecDriftDetectionIgnore[] | cdktf.IResolvable;
   /**
   * Mode defines how differences should be handled between the Helm manifest and the manifest currently applied to the cluster. If not explicitly set, it defaults to DiffModeDisabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#mode DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#mode DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -2196,19 +2196,19 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecInstall
   /**
   * IgnoreTestFailures tells the controller to skip remediation when the Helm tests are run after an install action but fail. Defaults to 'Test.IgnoreFailures'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#ignore_test_failures DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#ignore_test_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#ignore_test_failures DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#ignore_test_failures}
   */
   readonly ignoreTestFailures?: boolean | cdktf.IResolvable;
   /**
   * RemediateLastFailure tells the controller to remediate the last failure, when no retries remain. Defaults to 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#remediate_last_failure DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#remediate_last_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#remediate_last_failure DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#remediate_last_failure}
   */
   readonly remediateLastFailure?: boolean | cdktf.IResolvable;
   /**
   * Retries is the number of retries that should be attempted on failures before bailing. Remediation, using an uninstall, is performed between each attempt. Defaults to '0', a negative integer equals to unlimited retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#retries DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#retries DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#retries}
   */
   readonly retries?: number;
 }
@@ -2362,61 +2362,61 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecInstall
   /**
   * CRDs upgrade CRDs from the Helm Chart's crds directory according to the CRD upgrade policy provided here. Valid values are 'Skip', 'Create' or 'CreateReplace'. Default is 'Create' and if omitted CRDs are installed but not updated. Skip: do neither install nor replace (update) any CRDs. Create: new CRDs are created, existing CRDs are neither updated nor deleted. CreateReplace: new CRDs are created, existing CRDs are updated (replaced) but not deleted. By default, CRDs are applied (installed) during Helm install action. With this option users can opt in to CRD replace existing CRDs on Helm install actions, which is not (yet) natively supported by Helm. https://helm.sh/docs/chart_best_practices/custom_resource_definitions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#crds DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#crds DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#crds}
   */
   readonly crds?: string;
   /**
   * CreateNamespace tells the Helm install action to create the HelmReleaseSpec.TargetNamespace if it does not exist yet. On uninstall, the namespace will not be garbage collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#create_namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#create_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#create_namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#create_namespace}
   */
   readonly createNamespace?: boolean | cdktf.IResolvable;
   /**
   * DisableHooks prevents hooks from running during the Helm install action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_hooks DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_hooks DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_hooks}
   */
   readonly disableHooks?: boolean | cdktf.IResolvable;
   /**
   * DisableOpenAPIValidation prevents the Helm install action from validating rendered templates against the Kubernetes OpenAPI Schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_open_api_validation DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_open_api_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_open_api_validation DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_open_api_validation}
   */
   readonly disableOpenApiValidation?: boolean | cdktf.IResolvable;
   /**
   * DisableWait disables the waiting for resources to be ready after a Helm install has been performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait}
   */
   readonly disableWait?: boolean | cdktf.IResolvable;
   /**
   * DisableWaitForJobs disables waiting for jobs to complete after a Helm install has been performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait_for_jobs DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait_for_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait_for_jobs DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait_for_jobs}
   */
   readonly disableWaitForJobs?: boolean | cdktf.IResolvable;
   /**
   * Remediation holds the remediation configuration for when the Helm install action for the HelmRelease fails. The default is to not perform any action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#remediation DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#remediation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#remediation DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#remediation}
   */
   readonly remediation?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecInstallRemediation;
   /**
   * Replace tells the Helm install action to re-use the 'ReleaseName', but only if that name is a deleted release which remains in the history.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#replace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#replace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#replace}
   */
   readonly replace?: boolean | cdktf.IResolvable;
   /**
   * SkipCRDs tells the Helm install action to not install any CRDs. By default, CRDs are installed if not already present. Deprecated use CRD policy ('crds') attribute with value 'Skip' instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#skip_cr_ds DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#skip_cr_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#skip_cr_ds DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#skip_cr_ds}
   */
   readonly skipCrDs?: boolean | cdktf.IResolvable;
   /**
   * Timeout is the time to wait for any individual Kubernetes operation (like Jobs for hooks) during the performance of a Helm install action. Defaults to 'HelmReleaseSpec.Timeout'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#timeout DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#timeout DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -2773,13 +2773,13 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecKubeCon
   /**
   * Key in the Secret, when not specified an implementation-specific default key is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#key DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#key DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -2901,7 +2901,7 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecKubeCon
   /**
   * SecretRef holds the name of a secret that contains a key with the kubeconfig file as the value. If no key is set, the key will default to 'value'. It is recommended that the kubeconfig is self-contained, and the secret is regularly updated if credentials such as a cloud-access-token expire. Cloud specific 'cmd-path' auth helpers will not function without adding binaries and credentials to the Pod that is responsible for reconciling Kubernetes resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#secret_ref DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#secret_ref DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#secret_ref}
   */
   readonly secretRef: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecKubeConfigSecretRef;
 }
@@ -2994,25 +2994,25 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRen
   /**
   * Digest is the value used to replace the original image tag. If digest is present NewTag value is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#digest DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#digest DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#digest}
   */
   readonly digest?: string;
   /**
   * Name is a tag-less image name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * NewName is the value used to replace the original name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#new_name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#new_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#new_name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#new_name}
   */
   readonly newName?: string;
   /**
   * NewTag is the value used to replace the original tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#new_tag DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#new_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#new_tag DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#new_tag}
   */
   readonly newTag?: string;
 }
@@ -3214,43 +3214,43 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRen
   /**
   * AnnotationSelector is a string that follows the label selection expression https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#api It matches with the resource annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#annotation_selector DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#annotation_selector DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
   * Group is the API group to select resources from. Together with Version and Kind it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#group DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#group DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind of the API Group to select resources from. Together with Group and Version it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kind DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kind DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kind}
   */
   readonly kind?: string;
   /**
   * LabelSelector is a string that follows the label selection expression https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#api It matches with the resource labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#label_selector DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#label_selector DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#label_selector}
   */
   readonly labelSelector?: string;
   /**
   * Name to match resources with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace to select resources from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Version of the API Group to select resources from. Together with Group and Kind it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#version DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#version DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#version}
   */
   readonly version?: string;
 }
@@ -3520,13 +3520,13 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRen
   /**
   * Patch contains an inline StrategicMerge patch or an inline JSON6902 patch with an array of operation objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#patch DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#patch DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#patch}
   */
   readonly patch: string;
   /**
   * Target points to the resources that the patch document should be applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#target DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#target DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#target}
   */
   readonly target?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRenderersKustomizePatchesTarget;
 }
@@ -3670,25 +3670,25 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRen
   /**
   * From contains a JSON-pointer value that references a location within the target document where the operation is performed. The meaning of the value depends on the value of Op, and is NOT taken into account by all operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#from DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#from DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#from}
   */
   readonly from?: string;
   /**
   * Op indicates the operation to perform. Its value MUST be one of 'add', 'remove', 'replace', 'move', 'copy', or 'test'. https://datatracker.ietf.org/doc/html/rfc6902#section-4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#op DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#op DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#op}
   */
   readonly op: string;
   /**
   * Path contains the JSON-pointer value that references a location within the target document where the operation is performed. The meaning of the value depends on the value of Op.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#path DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#path DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#path}
   */
   readonly path: string;
   /**
   * Value contains a valid JSON structure. The meaning of the value depends on the value of Op, and is NOT taken into account by all operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#value DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#value DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -3887,43 +3887,43 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRen
   /**
   * AnnotationSelector is a string that follows the label selection expression https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#api It matches with the resource annotations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#annotation_selector DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#annotation_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#annotation_selector DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#annotation_selector}
   */
   readonly annotationSelector?: string;
   /**
   * Group is the API group to select resources from. Together with Version and Kind it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#group DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#group DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind of the API Group to select resources from. Together with Group and Version it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kind DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kind DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kind}
   */
   readonly kind?: string;
   /**
   * LabelSelector is a string that follows the label selection expression https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#api It matches with the resource labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#label_selector DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#label_selector DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#label_selector}
   */
   readonly labelSelector?: string;
   /**
   * Name to match resources with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace to select resources from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Version of the API Group to select resources from. Together with Group and Kind it is capable of unambiguously identifying and/or selecting resources. https://github.com/kubernetes/community/blob/master/contributors/design-proposals/api-machinery/api-group.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#version DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#version DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#version}
   */
   readonly version?: string;
 }
@@ -4193,13 +4193,13 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRen
   /**
   * Patch contains the JSON6902 patch document with an array of operation objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#patch DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#patch DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#patch}
   */
   readonly patch: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRenderersKustomizePatchesJson6902Patch[] | cdktf.IResolvable;
   /**
   * Target points to the resources that the patch document should be applied to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#target DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#target DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#target}
   */
   readonly target: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRenderersKustomizePatchesJson6902Target;
 }
@@ -4340,25 +4340,25 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRen
   /**
   * Images is a list of (image name, new name, new tag or digest) for changing image names, tags or digests. This can also be achieved with a patch, but this operator is simpler to specify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#images DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#images DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#images}
   */
   readonly images?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRenderersKustomizeImages[] | cdktf.IResolvable;
   /**
   * Strategic merge and JSON patches, defined as inline YAML objects, capable of targeting objects based on kind, label and annotation selectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#patches DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#patches DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#patches}
   */
   readonly patches?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRenderersKustomizePatches[] | cdktf.IResolvable;
   /**
   * JSON 6902 patches, defined as inline YAML objects. Deprecated: use Patches instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#patches_json6902 DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#patches_json6902}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#patches_json6902 DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#patches_json6902}
   */
   readonly patchesJson6902?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRenderersKustomizePatchesJson6902[] | cdktf.IResolvable;
   /**
   * Strategic merge patches, defined as inline YAML objects. Deprecated: use Patches instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#patches_strategic_merge DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#patches_strategic_merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#patches_strategic_merge DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#patches_strategic_merge}
   */
   readonly patchesStrategicMerge?: string[];
 }
@@ -4541,7 +4541,7 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRen
   /**
   * Kustomization to apply as PostRenderer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kustomize DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kustomize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kustomize DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kustomize}
   */
   readonly kustomize?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRenderersKustomize;
 }
@@ -4659,43 +4659,43 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecRollbac
   /**
   * CleanupOnFail allows deletion of new resources created during the Helm rollback action when it fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#cleanup_on_fail DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#cleanup_on_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#cleanup_on_fail DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#cleanup_on_fail}
   */
   readonly cleanupOnFail?: boolean | cdktf.IResolvable;
   /**
   * DisableHooks prevents hooks from running during the Helm rollback action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_hooks DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_hooks DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_hooks}
   */
   readonly disableHooks?: boolean | cdktf.IResolvable;
   /**
   * DisableWait disables the waiting for resources to be ready after a Helm rollback has been performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait}
   */
   readonly disableWait?: boolean | cdktf.IResolvable;
   /**
   * DisableWaitForJobs disables waiting for jobs to complete after a Helm rollback has been performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait_for_jobs DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait_for_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait_for_jobs DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait_for_jobs}
   */
   readonly disableWaitForJobs?: boolean | cdktf.IResolvable;
   /**
   * Force forces resource updates through a replacement strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#force DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#force DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * Recreate performs pod restarts for the resource if applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#recreate DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#recreate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#recreate DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#recreate}
   */
   readonly recreate?: boolean | cdktf.IResolvable;
   /**
   * Timeout is the time to wait for any individual Kubernetes operation (like Jobs for hooks) during the performance of a Helm rollback action. Defaults to 'HelmReleaseSpec.Timeout'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#timeout DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#timeout DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -4965,13 +4965,13 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecTestFil
   /**
   * Exclude specifies whether the named test should be excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#exclude DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#exclude DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#exclude}
   */
   readonly exclude?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of the test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -5115,25 +5115,25 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecTest {
   /**
   * Enable enables Helm test actions for this HelmRelease after an Helm install or upgrade action has been performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#enable DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#enable DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Filters is a list of tests to run or exclude from running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#filters DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#filters DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#filters}
   */
   readonly filters?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecTestFilters[] | cdktf.IResolvable;
   /**
   * IgnoreFailures tells the controller to skip remediation when the Helm tests are run but fail. Can be overwritten for tests run after install or upgrade actions in 'Install.IgnoreTestFailures' and 'Upgrade.IgnoreTestFailures'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#ignore_failures DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#ignore_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#ignore_failures DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#ignore_failures}
   */
   readonly ignoreFailures?: boolean | cdktf.IResolvable;
   /**
   * Timeout is the time to wait for any individual Kubernetes operation during the performance of a Helm test action. Defaults to 'HelmReleaseSpec.Timeout'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#timeout DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#timeout DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -5316,31 +5316,31 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecUninsta
   /**
   * DeletionPropagation specifies the deletion propagation policy when a Helm uninstall is performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#deletion_propagation DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#deletion_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#deletion_propagation DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#deletion_propagation}
   */
   readonly deletionPropagation?: string;
   /**
   * DisableHooks prevents hooks from running during the Helm rollback action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_hooks DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_hooks DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_hooks}
   */
   readonly disableHooks?: boolean | cdktf.IResolvable;
   /**
   * DisableWait disables waiting for all the resources to be deleted after a Helm uninstall is performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait}
   */
   readonly disableWait?: boolean | cdktf.IResolvable;
   /**
   * KeepHistory tells Helm to remove all associated resources and mark the release as deleted, but retain the release history.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#keep_history DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#keep_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#keep_history DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#keep_history}
   */
   readonly keepHistory?: boolean | cdktf.IResolvable;
   /**
   * Timeout is the time to wait for any individual Kubernetes operation (like Jobs for hooks) during the performance of a Helm uninstall action. Defaults to 'HelmReleaseSpec.Timeout'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#timeout DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#timeout DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -5552,25 +5552,25 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecUpgrade
   /**
   * IgnoreTestFailures tells the controller to skip remediation when the Helm tests are run after an upgrade action but fail. Defaults to 'Test.IgnoreFailures'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#ignore_test_failures DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#ignore_test_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#ignore_test_failures DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#ignore_test_failures}
   */
   readonly ignoreTestFailures?: boolean | cdktf.IResolvable;
   /**
   * RemediateLastFailure tells the controller to remediate the last failure, when no retries remain. Defaults to 'false' unless 'Retries' is greater than 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#remediate_last_failure DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#remediate_last_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#remediate_last_failure DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#remediate_last_failure}
   */
   readonly remediateLastFailure?: boolean | cdktf.IResolvable;
   /**
   * Retries is the number of retries that should be attempted on failures before bailing. Remediation, using 'Strategy', is performed between each attempt. Defaults to '0', a negative integer equals to unlimited retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#retries DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#retries DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#retries}
   */
   readonly retries?: number;
   /**
   * Strategy to use for failure remediation. Defaults to 'rollback'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#strategy DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#strategy DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -5753,61 +5753,61 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecUpgrade
   /**
   * CleanupOnFail allows deletion of new resources created during the Helm upgrade action when it fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#cleanup_on_fail DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#cleanup_on_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#cleanup_on_fail DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#cleanup_on_fail}
   */
   readonly cleanupOnFail?: boolean | cdktf.IResolvable;
   /**
   * CRDs upgrade CRDs from the Helm Chart's crds directory according to the CRD upgrade policy provided here. Valid values are 'Skip', 'Create' or 'CreateReplace'. Default is 'Skip' and if omitted CRDs are neither installed nor upgraded. Skip: do neither install nor replace (update) any CRDs. Create: new CRDs are created, existing CRDs are neither updated nor deleted. CreateReplace: new CRDs are created, existing CRDs are updated (replaced) but not deleted. By default, CRDs are not applied during Helm upgrade action. With this option users can opt-in to CRD upgrade, which is not (yet) natively supported by Helm. https://helm.sh/docs/chart_best_practices/custom_resource_definitions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#crds DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#crds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#crds DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#crds}
   */
   readonly crds?: string;
   /**
   * DisableHooks prevents hooks from running during the Helm upgrade action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_hooks DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_hooks DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_hooks}
   */
   readonly disableHooks?: boolean | cdktf.IResolvable;
   /**
   * DisableOpenAPIValidation prevents the Helm upgrade action from validating rendered templates against the Kubernetes OpenAPI Schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_open_api_validation DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_open_api_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_open_api_validation DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_open_api_validation}
   */
   readonly disableOpenApiValidation?: boolean | cdktf.IResolvable;
   /**
   * DisableWait disables the waiting for resources to be ready after a Helm upgrade has been performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait}
   */
   readonly disableWait?: boolean | cdktf.IResolvable;
   /**
   * DisableWaitForJobs disables waiting for jobs to complete after a Helm upgrade has been performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait_for_jobs DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait_for_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#disable_wait_for_jobs DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#disable_wait_for_jobs}
   */
   readonly disableWaitForJobs?: boolean | cdktf.IResolvable;
   /**
   * Force forces resource updates through a replacement strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#force DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#force DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * PreserveValues will make Helm reuse the last release's values and merge in overrides from 'Values'. Setting this flag makes the HelmRelease non-declarative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#preserve_values DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#preserve_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#preserve_values DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#preserve_values}
   */
   readonly preserveValues?: boolean | cdktf.IResolvable;
   /**
   * Remediation holds the remediation configuration for when the Helm upgrade action for the HelmRelease fails. The default is to not perform any action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#remediation DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#remediation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#remediation DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#remediation}
   */
   readonly remediation?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecUpgradeRemediation;
   /**
   * Timeout is the time to wait for any individual Kubernetes operation (like Jobs for hooks) during the performance of a Helm upgrade action. Defaults to 'HelmReleaseSpec.Timeout'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#timeout DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#timeout DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -6164,31 +6164,31 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecValuesF
   /**
   * Kind of the values referent, valid values are ('Secret', 'ConfigMap').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kind DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kind DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the values referent. Should reside in the same namespace as the referring resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Optional marks this ValuesReference as optional. When set, a not found error for the values reference is ignored, but any ValuesKey, TargetPath or transient error will still result in a reconciliation failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#optional DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#optional DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * TargetPath is the YAML dot notation path the value should be merged at. When set, the ValuesKey is expected to be a single flat value. Defaults to 'None', which results in the values getting merged at the root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#target_path DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#target_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#target_path DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#target_path}
   */
   readonly targetPath?: string;
   /**
   * ValuesKey is the data key where the values.yaml or a specific value can be found at. Defaults to 'values.yaml'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#values_key DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#values_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#values_key DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#values_key}
   */
   readonly valuesKey?: string;
 }
@@ -6416,133 +6416,133 @@ export interface DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpec {
   /**
   * Chart defines the template of the v1beta2.HelmChart that should be created for this HelmRelease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#chart DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#chart DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#chart}
   */
   readonly chart?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChart;
   /**
   * ChartRef holds a reference to a source controller resource containing the Helm chart artifact. Note: this field is provisional to the v2 API, and not actively used by v2beta2 HelmReleases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#chart_ref DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#chart_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#chart_ref DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#chart_ref}
   */
   readonly chartRef?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecChartRef;
   /**
   * DependsOn may contain a meta.NamespacedObjectReference slice with references to HelmRelease resources that must be ready before this HelmRelease can be reconciled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#depends_on DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#depends_on DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#depends_on}
   */
   readonly dependsOn?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecDependsOn[] | cdktf.IResolvable;
   /**
   * DriftDetection holds the configuration for detecting and handling differences between the manifest in the Helm storage and the resources currently existing in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#drift_detection DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#drift_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#drift_detection DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#drift_detection}
   */
   readonly driftDetection?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecDriftDetection;
   /**
   * Install holds the configuration for Helm install actions for this HelmRelease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#install DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#install DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#install}
   */
   readonly install?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecInstall;
   /**
   * Interval at which to reconcile the Helm release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#interval DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#interval DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#interval}
   */
   readonly interval: string;
   /**
   * KubeConfig for reconciling the HelmRelease on a remote cluster. When used in combination with HelmReleaseSpec.ServiceAccountName, forces the controller to act on behalf of that Service Account at the target cluster. If the --default-service-account flag is set, its value will be used as a controller level fallback for when HelmReleaseSpec.ServiceAccountName is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kube_config DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#kube_config DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#kube_config}
   */
   readonly kubeConfig?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecKubeConfig;
   /**
   * MaxHistory is the number of revisions saved by Helm for this HelmRelease. Use '0' for an unlimited number of revisions; defaults to '5'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#max_history DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#max_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#max_history DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#max_history}
   */
   readonly maxHistory?: number;
   /**
   * PersistentClient tells the controller to use a persistent Kubernetes client for this release. When enabled, the client will be reused for the duration of the reconciliation, instead of being created and destroyed for each (step of a) Helm action. This can improve performance, but may cause issues with some Helm charts that for example do create Custom Resource Definitions during installation outside Helm's CRD lifecycle hooks, which are then not observed to be available by e.g. post-install hooks. If not set, it defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#persistent_client DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#persistent_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#persistent_client DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#persistent_client}
   */
   readonly persistentClient?: boolean | cdktf.IResolvable;
   /**
   * PostRenderers holds an array of Helm PostRenderers, which will be applied in order of their definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#post_renderers DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#post_renderers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#post_renderers DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#post_renderers}
   */
   readonly postRenderers?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecPostRenderers[] | cdktf.IResolvable;
   /**
   * ReleaseName used for the Helm release. Defaults to a composition of '[TargetNamespace-]Name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#release_name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#release_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#release_name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#release_name}
   */
   readonly releaseName?: string;
   /**
   * Rollback holds the configuration for Helm rollback actions for this HelmRelease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#rollback DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#rollback DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#rollback}
   */
   readonly rollback?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecRollback;
   /**
   * The name of the Kubernetes service account to impersonate when reconciling this HelmRelease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#service_account_name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#service_account_name DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * StorageNamespace used for the Helm storage. Defaults to the namespace of the HelmRelease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#storage_namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#storage_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#storage_namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#storage_namespace}
   */
   readonly storageNamespace?: string;
   /**
   * Suspend tells the controller to suspend reconciliation for this HelmRelease, it does not apply to already started reconciliations. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#suspend DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#suspend DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
   /**
   * TargetNamespace to target when performing operations for the HelmRelease. Defaults to the namespace of the HelmRelease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#target_namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#target_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#target_namespace DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#target_namespace}
   */
   readonly targetNamespace?: string;
   /**
   * Test holds the configuration for Helm test actions for this HelmRelease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#test DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#test DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#test}
   */
   readonly test?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecTest;
   /**
   * Timeout is the time to wait for any individual Kubernetes operation (like Jobs for hooks) during the performance of a Helm action. Defaults to '5m0s'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#timeout DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#timeout DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * Uninstall holds the configuration for Helm uninstall actions for this HelmRelease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#uninstall DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#uninstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#uninstall DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#uninstall}
   */
   readonly uninstall?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecUninstall;
   /**
   * Upgrade holds the configuration for Helm upgrade actions for this HelmRelease.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#upgrade DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#upgrade DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#upgrade}
   */
   readonly upgrade?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecUpgrade;
   /**
   * Values holds the values for this Helm release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#values DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#values DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#values}
   */
   readonly values?: { [key: string]: string };
   /**
   * ValuesFrom holds references to resources containing Helm values for this HelmRelease, and information about how they should be merged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#values_from DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#values_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#values_from DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest#values_from}
   */
   readonly valuesFrom?: DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecValuesFrom[] | cdktf.IResolvable;
 }
@@ -7242,7 +7242,7 @@ export class DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest k8s_helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest k8s_helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest}
 */
 export class DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -7258,7 +7258,7 @@ export class DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7270,7 +7270,7 @@ export class DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest k8s_helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest k8s_helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7281,8 +7281,8 @@ export class DataK8SHelmToolkitFluxcdIoHelmReleaseV2Beta2Manifest extends cdktf.
       terraformResourceType: 'k8s_helm_toolkit_fluxcd_io_helm_release_v2beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

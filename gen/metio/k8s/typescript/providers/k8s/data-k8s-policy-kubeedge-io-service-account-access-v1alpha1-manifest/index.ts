@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#metadata DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#metadata DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestMetadata;
   /**
   * Spec represents the specification of rbac.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#spec DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#spec DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#annotations DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#annotations DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#labels DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#labels DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,23 +217,23 @@ export class DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestMetadata
 }
 export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessClusterRoleBindingClusterRoleBindingMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#annotations DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#annotations DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#finalizers DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#finalizers DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#labels DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#labels DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -445,19 +445,19 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * APIGroup is the group for the resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_group DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_group DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_group}
   */
   readonly apiGroup: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -602,25 +602,25 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_group DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_group DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -819,31 +819,31 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_version DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_version DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Standard object's metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#metadata DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#metadata DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessClusterRoleBindingClusterRoleBindingMetadata;
   /**
   * RoleRef can only reference a ClusterRole in the global namespace. If the RoleRef cannot be resolved, the Authorizer must return an error. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#role_ref DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#role_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#role_ref DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#role_ref}
   */
   readonly roleRef: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessClusterRoleBindingClusterRoleBindingRoleRef;
   /**
   * Subjects holds references to the objects the role applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#subjects DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#subjects DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#subjects}
   */
   readonly subjects?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessClusterRoleBindingClusterRoleBindingSubjects[] | cdktf.IResolvable;
 }
@@ -1052,31 +1052,31 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * APIGroups is the name of the APIGroup that contains the resources. If multiple API groups are specified, any action requested against one of the enumerated resources in any API group will be allowed. '' represents the core API group and '*' represents all API groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_groups DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_groups DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_groups}
   */
   readonly apiGroups?: string[];
   /**
   * NonResourceURLs is a set of partial urls that a user should have access to. *s are allowed, but only as the full, final step in the path Since non-resource URLs are not namespaced, this field is only applicable for ClusterRoles referenced from a ClusterRoleBinding. Rules can either apply to API resources (such as 'pods' or 'secrets') or non-resource URL paths (such as '/api'), but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#non_resource_urls DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#non_resource_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#non_resource_urls DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#non_resource_urls}
   */
   readonly nonResourceUrls?: string[];
   /**
   * ResourceNames is an optional white list of names that the rule applies to. An empty set means that everything is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#resource_names DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#resource_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#resource_names DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#resource_names}
   */
   readonly resourceNames?: string[];
   /**
   * Resources is a list of resources this rule applies to. '*' represents all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#resources DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#resources DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#resources}
   */
   readonly resources?: string[];
   /**
   * Verbs is a list of Verbs that apply to ALL the ResourceKinds contained in this rule. '*' represents all verbs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#verbs DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#verbs DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#verbs}
   */
   readonly verbs: string[];
 }
@@ -1307,13 +1307,13 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * ClusterRoleBinding represents rbac ClusterRoleBinding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#cluster_role_binding DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#cluster_role_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#cluster_role_binding DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#cluster_role_binding}
   */
   readonly clusterRoleBinding?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessClusterRoleBindingClusterRoleBinding;
   /**
   * Rules contains role rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#rules DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#rules DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#rules}
   */
   readonly rules?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessClusterRoleBindingRules[] | cdktf.IResolvable;
 }
@@ -1458,23 +1458,23 @@ export class DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAcce
 }
 export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessRoleBindingRoleBindingMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#annotations DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#annotations DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#finalizers DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#finalizers DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#labels DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#labels DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1686,19 +1686,19 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * APIGroup is the group for the resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_group DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_group DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_group}
   */
   readonly apiGroup: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1843,25 +1843,25 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_group DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_group DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2060,31 +2060,31 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_version DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_version DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Standard object's metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#metadata DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#metadata DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessRoleBindingRoleBindingMetadata;
   /**
   * RoleRef can reference a Role in the current namespace or a ClusterRole in the global namespace. If the RoleRef cannot be resolved, the Authorizer must return an error. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#role_ref DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#role_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#role_ref DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#role_ref}
   */
   readonly roleRef: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessRoleBindingRoleBindingRoleRef;
   /**
   * Subjects holds references to the objects the role applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#subjects DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#subjects DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#subjects}
   */
   readonly subjects?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessRoleBindingRoleBindingSubjects[] | cdktf.IResolvable;
 }
@@ -2293,31 +2293,31 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * APIGroups is the name of the APIGroup that contains the resources. If multiple API groups are specified, any action requested against one of the enumerated resources in any API group will be allowed. '' represents the core API group and '*' represents all API groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_groups DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_groups DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_groups}
   */
   readonly apiGroups?: string[];
   /**
   * NonResourceURLs is a set of partial urls that a user should have access to. *s are allowed, but only as the full, final step in the path Since non-resource URLs are not namespaced, this field is only applicable for ClusterRoles referenced from a ClusterRoleBinding. Rules can either apply to API resources (such as 'pods' or 'secrets') or non-resource URL paths (such as '/api'), but not both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#non_resource_urls DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#non_resource_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#non_resource_urls DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#non_resource_urls}
   */
   readonly nonResourceUrls?: string[];
   /**
   * ResourceNames is an optional white list of names that the rule applies to. An empty set means that everything is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#resource_names DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#resource_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#resource_names DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#resource_names}
   */
   readonly resourceNames?: string[];
   /**
   * Resources is a list of resources this rule applies to. '*' represents all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#resources DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#resources DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#resources}
   */
   readonly resources?: string[];
   /**
   * Verbs is a list of Verbs that apply to ALL the ResourceKinds contained in this rule. '*' represents all verbs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#verbs DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#verbs DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#verbs}
   */
   readonly verbs: string[];
 }
@@ -2548,13 +2548,13 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * RoleBinding represents rbac rolebinding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#role_binding DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#role_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#role_binding DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#role_binding}
   */
   readonly roleBinding?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessRoleBindingRoleBinding;
   /**
   * Rules contains role rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#rules DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#rules DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#rules}
   */
   readonly rules?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessRoleBindingRules[] | cdktf.IResolvable;
 }
@@ -2701,7 +2701,7 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2817,23 +2817,23 @@ export class DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecServ
 }
 export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecServiceAccountMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#annotations DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#annotations DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#finalizers DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#finalizers DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#labels DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#labels DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3045,43 +3045,43 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_version DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_version DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#field_path DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#field_path DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#name DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#namespace DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#resource_version DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#resource_version DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#uid DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#uid DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -3373,37 +3373,37 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_version DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#api_version DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * AutomountServiceAccountToken indicates whether pods running as this service account should have an API token automatically mounted. Can be overridden at the pod level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#automount_service_account_token DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#automount_service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#automount_service_account_token DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#automount_service_account_token}
   */
   readonly automountServiceAccountToken?: boolean | cdktf.IResolvable;
   /**
   * ImagePullSecrets is a list of references to secrets in the same namespace to use for pulling any images in pods that reference this ServiceAccount. ImagePullSecrets are distinct from Secrets because Secrets can be mounted in the pod, but ImagePullSecrets are only accessed by the kubelet. More info: https://kubernetes.io/docs/concepts/containers/images/#specifying-imagepullsecrets-on-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#image_pull_secrets DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#image_pull_secrets DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecServiceAccountImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#kind DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#metadata DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#metadata DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecServiceAccountMetadata;
   /**
   * Secrets is a list of the secrets in the same namespace that pods running using this ServiceAccount are allowed to use. Pods are only limited to this list if this service account has a 'kubernetes.io/enforce-mountable-secrets' annotation set to 'true'. This field should not be used to find auto-generated service account token secrets for use outside of pods. Instead, tokens can be requested directly using the TokenRequest API, or service account token secrets can be manually created. More info: https://kubernetes.io/docs/concepts/configuration/secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#secrets DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#secrets DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#secrets}
   */
   readonly secrets?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecServiceAccountSecrets[] | cdktf.IResolvable;
 }
@@ -3644,25 +3644,25 @@ export interface DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpec
   /**
   * AccessClusterRoleBinding represents rbac ClusterRoleBinding plus detailed ClusterRole info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#access_cluster_role_binding DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#access_cluster_role_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#access_cluster_role_binding DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#access_cluster_role_binding}
   */
   readonly accessClusterRoleBinding?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessClusterRoleBinding[] | cdktf.IResolvable;
   /**
   * AccessRoleBinding represents rbac rolebinding plus detailed role info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#access_role_binding DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#access_role_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#access_role_binding DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#access_role_binding}
   */
   readonly accessRoleBinding?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecAccessRoleBinding[] | cdktf.IResolvable;
   /**
   * ServiceAccount is one-to-one corresponding relations with the serviceaccountaccess.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#service_account DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#service_account DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecServiceAccount;
   /**
   * ServiceAccountUID is the uid of serviceaccount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#service_account_uid DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#service_account_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#service_account_uid DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest#service_account_uid}
   */
   readonly serviceAccountUid?: string;
 }
@@ -3843,7 +3843,7 @@ export class DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest k8s_policy_kubeedge_io_service_account_access_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest k8s_policy_kubeedge_io_service_account_access_v1alpha1_manifest}
 */
 export class DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3859,7 +3859,7 @@ export class DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest extends
   * Generates CDKTF code for importing a DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3871,7 +3871,7 @@ export class DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest k8s_policy_kubeedge_io_service_account_access_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/policy_kubeedge_io_service_account_access_v1alpha1_manifest k8s_policy_kubeedge_io_service_account_access_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3882,8 +3882,8 @@ export class DataK8SPolicyKubeedgeIoServiceAccountAccessV1Alpha1Manifest extends
       terraformResourceType: 'k8s_policy_kubeedge_io_service_account_access_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

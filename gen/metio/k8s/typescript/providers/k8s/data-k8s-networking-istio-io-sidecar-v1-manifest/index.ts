@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#metadata DataK8SNetworkingIstioIoSidecarV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#metadata DataK8SNetworkingIstioIoSidecarV1Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkingIstioIoSidecarV1ManifestMetadata;
   /**
   * Configuration affecting network reachability of a sidecar. See more details at: https://istio.io/docs/reference/config/networking/sidecar.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#spec DataK8SNetworkingIstioIoSidecarV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#spec DataK8SNetworkingIstioIoSidecarV1Manifest#spec}
   */
   readonly spec?: DataK8SNetworkingIstioIoSidecarV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#annotations DataK8SNetworkingIstioIoSidecarV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#annotations DataK8SNetworkingIstioIoSidecarV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#labels DataK8SNetworkingIstioIoSidecarV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#labels DataK8SNetworkingIstioIoSidecarV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#name DataK8SNetworkingIstioIoSidecarV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#name DataK8SNetworkingIstioIoSidecarV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#namespace DataK8SNetworkingIstioIoSidecarV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#namespace DataK8SNetworkingIstioIoSidecarV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,23 +219,23 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecEgressPort {
   /**
   * Label assigned to the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#name DataK8SNetworkingIstioIoSidecarV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#name DataK8SNetworkingIstioIoSidecarV1Manifest#name}
   */
   readonly name?: string;
   /**
   * A valid non-negative integer port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#number DataK8SNetworkingIstioIoSidecarV1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#number DataK8SNetworkingIstioIoSidecarV1Manifest#number}
   */
   readonly number?: number;
   /**
   * The protocol exposed on the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#protocol DataK8SNetworkingIstioIoSidecarV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#protocol DataK8SNetworkingIstioIoSidecarV1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#target_port DataK8SNetworkingIstioIoSidecarV1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#target_port DataK8SNetworkingIstioIoSidecarV1Manifest#target_port}
   */
   readonly targetPort?: number;
 }
@@ -418,25 +418,25 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecEgress {
   /**
   * The IP(IPv4 or IPv6) or the Unix domain socket to which the listener should be bound to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#bind DataK8SNetworkingIstioIoSidecarV1Manifest#bind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#bind DataK8SNetworkingIstioIoSidecarV1Manifest#bind}
   */
   readonly bind?: string;
   /**
   * When the bind address is an IP, the captureMode option dictates how traffic to the listener is expected to be captured (or not). Valid Options: DEFAULT, IPTABLES, NONE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#capture_mode DataK8SNetworkingIstioIoSidecarV1Manifest#capture_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#capture_mode DataK8SNetworkingIstioIoSidecarV1Manifest#capture_mode}
   */
   readonly captureMode?: string;
   /**
   * One or more service hosts exposed by the listener in 'namespace/dnsName' format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#hosts DataK8SNetworkingIstioIoSidecarV1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#hosts DataK8SNetworkingIstioIoSidecarV1Manifest#hosts}
   */
   readonly hosts: string[];
   /**
   * The port associated with the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#port DataK8SNetworkingIstioIoSidecarV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#port DataK8SNetworkingIstioIoSidecarV1Manifest#port}
   */
   readonly port?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecEgressPort;
 }
@@ -638,49 +638,49 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecInboundConnectionP
   /**
   * Specify if http1.1 connection should be upgraded to http2 for the associated destination. Valid Options: DEFAULT, DO_NOT_UPGRADE, UPGRADE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#h2_upgrade_policy DataK8SNetworkingIstioIoSidecarV1Manifest#h2_upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#h2_upgrade_policy DataK8SNetworkingIstioIoSidecarV1Manifest#h2_upgrade_policy}
   */
   readonly h2UpgradePolicy?: string;
   /**
   * Maximum number of requests that will be queued while waiting for a ready connection pool connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#http1_max_pending_requests DataK8SNetworkingIstioIoSidecarV1Manifest#http1_max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#http1_max_pending_requests DataK8SNetworkingIstioIoSidecarV1Manifest#http1_max_pending_requests}
   */
   readonly http1MaxPendingRequests?: number;
   /**
   * Maximum number of active requests to a destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#http2_max_requests DataK8SNetworkingIstioIoSidecarV1Manifest#http2_max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#http2_max_requests DataK8SNetworkingIstioIoSidecarV1Manifest#http2_max_requests}
   */
   readonly http2MaxRequests?: number;
   /**
   * The idle timeout for upstream connection pool connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#idle_timeout DataK8SNetworkingIstioIoSidecarV1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#idle_timeout DataK8SNetworkingIstioIoSidecarV1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * The maximum number of concurrent streams allowed for a peer on one HTTP/2 connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_concurrent_streams DataK8SNetworkingIstioIoSidecarV1Manifest#max_concurrent_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_concurrent_streams DataK8SNetworkingIstioIoSidecarV1Manifest#max_concurrent_streams}
   */
   readonly maxConcurrentStreams?: number;
   /**
   * Maximum number of requests per connection to a backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_requests_per_connection DataK8SNetworkingIstioIoSidecarV1Manifest#max_requests_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_requests_per_connection DataK8SNetworkingIstioIoSidecarV1Manifest#max_requests_per_connection}
   */
   readonly maxRequestsPerConnection?: number;
   /**
   * Maximum number of retries that can be outstanding to all hosts in a cluster at a given time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_retries DataK8SNetworkingIstioIoSidecarV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_retries DataK8SNetworkingIstioIoSidecarV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * If set to true, client protocol will be preserved while initiating connection to backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#use_client_protocol DataK8SNetworkingIstioIoSidecarV1Manifest#use_client_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#use_client_protocol DataK8SNetworkingIstioIoSidecarV1Manifest#use_client_protocol}
   */
   readonly useClientProtocol?: boolean | cdktf.IResolvable;
 }
@@ -979,19 +979,19 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecInboundConnectionP
   /**
   * The time duration between keep-alive probes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#interval DataK8SNetworkingIstioIoSidecarV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#interval DataK8SNetworkingIstioIoSidecarV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Maximum number of keepalive probes to send without response before deciding the connection is dead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#probes DataK8SNetworkingIstioIoSidecarV1Manifest#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#probes DataK8SNetworkingIstioIoSidecarV1Manifest#probes}
   */
   readonly probes?: number;
   /**
   * The time duration a connection needs to be idle before keep-alive probes start being sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#time DataK8SNetworkingIstioIoSidecarV1Manifest#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#time DataK8SNetworkingIstioIoSidecarV1Manifest#time}
   */
   readonly time?: string;
 }
@@ -1145,31 +1145,31 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecInboundConnectionP
   /**
   * TCP connection timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#connect_timeout DataK8SNetworkingIstioIoSidecarV1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#connect_timeout DataK8SNetworkingIstioIoSidecarV1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
   * The idle timeout for TCP connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#idle_timeout DataK8SNetworkingIstioIoSidecarV1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#idle_timeout DataK8SNetworkingIstioIoSidecarV1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * The maximum duration of a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_connection_duration DataK8SNetworkingIstioIoSidecarV1Manifest#max_connection_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_connection_duration DataK8SNetworkingIstioIoSidecarV1Manifest#max_connection_duration}
   */
   readonly maxConnectionDuration?: string;
   /**
   * Maximum number of HTTP1 /TCP connections to a destination host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_connections DataK8SNetworkingIstioIoSidecarV1Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_connections DataK8SNetworkingIstioIoSidecarV1Manifest#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * If set then set SO_KEEPALIVE on the socket to enable TCP Keepalives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#tcp_keepalive DataK8SNetworkingIstioIoSidecarV1Manifest#tcp_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#tcp_keepalive DataK8SNetworkingIstioIoSidecarV1Manifest#tcp_keepalive}
   */
   readonly tcpKeepalive?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecInboundConnectionPoolTcpTcpKeepalive;
 }
@@ -1381,13 +1381,13 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecInboundConnectionP
   /**
   * HTTP connection pool settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#http DataK8SNetworkingIstioIoSidecarV1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#http DataK8SNetworkingIstioIoSidecarV1Manifest#http}
   */
   readonly http?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecInboundConnectionPoolHttp;
   /**
   * Settings common to both HTTP and TCP upstream connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#tcp DataK8SNetworkingIstioIoSidecarV1Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#tcp DataK8SNetworkingIstioIoSidecarV1Manifest#tcp}
   */
   readonly tcp?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecInboundConnectionPoolTcp;
 }
@@ -1512,49 +1512,49 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngressConnectionP
   /**
   * Specify if http1.1 connection should be upgraded to http2 for the associated destination. Valid Options: DEFAULT, DO_NOT_UPGRADE, UPGRADE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#h2_upgrade_policy DataK8SNetworkingIstioIoSidecarV1Manifest#h2_upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#h2_upgrade_policy DataK8SNetworkingIstioIoSidecarV1Manifest#h2_upgrade_policy}
   */
   readonly h2UpgradePolicy?: string;
   /**
   * Maximum number of requests that will be queued while waiting for a ready connection pool connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#http1_max_pending_requests DataK8SNetworkingIstioIoSidecarV1Manifest#http1_max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#http1_max_pending_requests DataK8SNetworkingIstioIoSidecarV1Manifest#http1_max_pending_requests}
   */
   readonly http1MaxPendingRequests?: number;
   /**
   * Maximum number of active requests to a destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#http2_max_requests DataK8SNetworkingIstioIoSidecarV1Manifest#http2_max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#http2_max_requests DataK8SNetworkingIstioIoSidecarV1Manifest#http2_max_requests}
   */
   readonly http2MaxRequests?: number;
   /**
   * The idle timeout for upstream connection pool connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#idle_timeout DataK8SNetworkingIstioIoSidecarV1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#idle_timeout DataK8SNetworkingIstioIoSidecarV1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * The maximum number of concurrent streams allowed for a peer on one HTTP/2 connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_concurrent_streams DataK8SNetworkingIstioIoSidecarV1Manifest#max_concurrent_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_concurrent_streams DataK8SNetworkingIstioIoSidecarV1Manifest#max_concurrent_streams}
   */
   readonly maxConcurrentStreams?: number;
   /**
   * Maximum number of requests per connection to a backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_requests_per_connection DataK8SNetworkingIstioIoSidecarV1Manifest#max_requests_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_requests_per_connection DataK8SNetworkingIstioIoSidecarV1Manifest#max_requests_per_connection}
   */
   readonly maxRequestsPerConnection?: number;
   /**
   * Maximum number of retries that can be outstanding to all hosts in a cluster at a given time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_retries DataK8SNetworkingIstioIoSidecarV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_retries DataK8SNetworkingIstioIoSidecarV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * If set to true, client protocol will be preserved while initiating connection to backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#use_client_protocol DataK8SNetworkingIstioIoSidecarV1Manifest#use_client_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#use_client_protocol DataK8SNetworkingIstioIoSidecarV1Manifest#use_client_protocol}
   */
   readonly useClientProtocol?: boolean | cdktf.IResolvable;
 }
@@ -1853,19 +1853,19 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngressConnectionP
   /**
   * The time duration between keep-alive probes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#interval DataK8SNetworkingIstioIoSidecarV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#interval DataK8SNetworkingIstioIoSidecarV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Maximum number of keepalive probes to send without response before deciding the connection is dead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#probes DataK8SNetworkingIstioIoSidecarV1Manifest#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#probes DataK8SNetworkingIstioIoSidecarV1Manifest#probes}
   */
   readonly probes?: number;
   /**
   * The time duration a connection needs to be idle before keep-alive probes start being sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#time DataK8SNetworkingIstioIoSidecarV1Manifest#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#time DataK8SNetworkingIstioIoSidecarV1Manifest#time}
   */
   readonly time?: string;
 }
@@ -2019,31 +2019,31 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngressConnectionP
   /**
   * TCP connection timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#connect_timeout DataK8SNetworkingIstioIoSidecarV1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#connect_timeout DataK8SNetworkingIstioIoSidecarV1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
   * The idle timeout for TCP connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#idle_timeout DataK8SNetworkingIstioIoSidecarV1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#idle_timeout DataK8SNetworkingIstioIoSidecarV1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * The maximum duration of a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_connection_duration DataK8SNetworkingIstioIoSidecarV1Manifest#max_connection_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_connection_duration DataK8SNetworkingIstioIoSidecarV1Manifest#max_connection_duration}
   */
   readonly maxConnectionDuration?: string;
   /**
   * Maximum number of HTTP1 /TCP connections to a destination host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_connections DataK8SNetworkingIstioIoSidecarV1Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_connections DataK8SNetworkingIstioIoSidecarV1Manifest#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * If set then set SO_KEEPALIVE on the socket to enable TCP Keepalives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#tcp_keepalive DataK8SNetworkingIstioIoSidecarV1Manifest#tcp_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#tcp_keepalive DataK8SNetworkingIstioIoSidecarV1Manifest#tcp_keepalive}
   */
   readonly tcpKeepalive?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngressConnectionPoolTcpTcpKeepalive;
 }
@@ -2255,13 +2255,13 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngressConnectionP
   /**
   * HTTP connection pool settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#http DataK8SNetworkingIstioIoSidecarV1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#http DataK8SNetworkingIstioIoSidecarV1Manifest#http}
   */
   readonly http?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngressConnectionPoolHttp;
   /**
   * Settings common to both HTTP and TCP upstream connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#tcp DataK8SNetworkingIstioIoSidecarV1Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#tcp DataK8SNetworkingIstioIoSidecarV1Manifest#tcp}
   */
   readonly tcp?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngressConnectionPoolTcp;
 }
@@ -2386,23 +2386,23 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngressPort {
   /**
   * Label assigned to the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#name DataK8SNetworkingIstioIoSidecarV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#name DataK8SNetworkingIstioIoSidecarV1Manifest#name}
   */
   readonly name?: string;
   /**
   * A valid non-negative integer port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#number DataK8SNetworkingIstioIoSidecarV1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#number DataK8SNetworkingIstioIoSidecarV1Manifest#number}
   */
   readonly number?: number;
   /**
   * The protocol exposed on the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#protocol DataK8SNetworkingIstioIoSidecarV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#protocol DataK8SNetworkingIstioIoSidecarV1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#target_port DataK8SNetworkingIstioIoSidecarV1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#target_port DataK8SNetworkingIstioIoSidecarV1Manifest#target_port}
   */
   readonly targetPort?: number;
 }
@@ -2585,79 +2585,79 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngressTls {
   /**
   * REQUIRED if mode is 'MUTUAL' or 'OPTIONAL_MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#ca_certificates DataK8SNetworkingIstioIoSidecarV1Manifest#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#ca_certificates DataK8SNetworkingIstioIoSidecarV1Manifest#ca_certificates}
   */
   readonly caCertificates?: string;
   /**
   * OPTIONAL: The path to the file containing the certificate revocation list (CRL) to use in verifying a presented client side certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#ca_crl DataK8SNetworkingIstioIoSidecarV1Manifest#ca_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#ca_crl DataK8SNetworkingIstioIoSidecarV1Manifest#ca_crl}
   */
   readonly caCrl?: string;
   /**
   * Optional: If specified, only support the specified cipher list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#cipher_suites DataK8SNetworkingIstioIoSidecarV1Manifest#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#cipher_suites DataK8SNetworkingIstioIoSidecarV1Manifest#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
   * For gateways running on Kubernetes, the name of the secret that holds the TLS certs including the CA certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#credential_name DataK8SNetworkingIstioIoSidecarV1Manifest#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#credential_name DataK8SNetworkingIstioIoSidecarV1Manifest#credential_name}
   */
   readonly credentialName?: string;
   /**
   * If set to true, the load balancer will send a 301 redirect for all http connections, asking the clients to use HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#https_redirect DataK8SNetworkingIstioIoSidecarV1Manifest#https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#https_redirect DataK8SNetworkingIstioIoSidecarV1Manifest#https_redirect}
   */
   readonly httpsRedirect?: boolean | cdktf.IResolvable;
   /**
   * Optional: Maximum TLS protocol version. Valid Options: TLS_AUTO, TLSV1_0, TLSV1_1, TLSV1_2, TLSV1_3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_protocol_version DataK8SNetworkingIstioIoSidecarV1Manifest#max_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#max_protocol_version DataK8SNetworkingIstioIoSidecarV1Manifest#max_protocol_version}
   */
   readonly maxProtocolVersion?: string;
   /**
   * Optional: Minimum TLS protocol version. Valid Options: TLS_AUTO, TLSV1_0, TLSV1_1, TLSV1_2, TLSV1_3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#min_protocol_version DataK8SNetworkingIstioIoSidecarV1Manifest#min_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#min_protocol_version DataK8SNetworkingIstioIoSidecarV1Manifest#min_protocol_version}
   */
   readonly minProtocolVersion?: string;
   /**
   * Optional: Indicates whether connections to this port should be secured using TLS. Valid Options: PASSTHROUGH, SIMPLE, MUTUAL, AUTO_PASSTHROUGH, ISTIO_MUTUAL, OPTIONAL_MUTUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#mode DataK8SNetworkingIstioIoSidecarV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#mode DataK8SNetworkingIstioIoSidecarV1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * REQUIRED if mode is 'SIMPLE' or 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#private_key DataK8SNetworkingIstioIoSidecarV1Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#private_key DataK8SNetworkingIstioIoSidecarV1Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * REQUIRED if mode is 'SIMPLE' or 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#server_certificate DataK8SNetworkingIstioIoSidecarV1Manifest#server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#server_certificate DataK8SNetworkingIstioIoSidecarV1Manifest#server_certificate}
   */
   readonly serverCertificate?: string;
   /**
   * A list of alternate names to verify the subject identity in the certificate presented by the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#subject_alt_names DataK8SNetworkingIstioIoSidecarV1Manifest#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#subject_alt_names DataK8SNetworkingIstioIoSidecarV1Manifest#subject_alt_names}
   */
   readonly subjectAltNames?: string[];
   /**
   * An optional list of hex-encoded SHA-256 hashes of the authorized client certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#verify_certificate_hash DataK8SNetworkingIstioIoSidecarV1Manifest#verify_certificate_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#verify_certificate_hash DataK8SNetworkingIstioIoSidecarV1Manifest#verify_certificate_hash}
   */
   readonly verifyCertificateHash?: string[];
   /**
   * An optional list of base64-encoded SHA-256 hashes of the SPKIs of authorized client certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#verify_certificate_spki DataK8SNetworkingIstioIoSidecarV1Manifest#verify_certificate_spki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#verify_certificate_spki DataK8SNetworkingIstioIoSidecarV1Manifest#verify_certificate_spki}
   */
   readonly verifyCertificateSpki?: string[];
 }
@@ -3101,37 +3101,37 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngress {
   /**
   * The IP(IPv4 or IPv6) to which the listener should be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#bind DataK8SNetworkingIstioIoSidecarV1Manifest#bind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#bind DataK8SNetworkingIstioIoSidecarV1Manifest#bind}
   */
   readonly bind?: string;
   /**
   * The captureMode option dictates how traffic to the listener is expected to be captured (or not). Valid Options: DEFAULT, IPTABLES, NONE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#capture_mode DataK8SNetworkingIstioIoSidecarV1Manifest#capture_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#capture_mode DataK8SNetworkingIstioIoSidecarV1Manifest#capture_mode}
   */
   readonly captureMode?: string;
   /**
   * Settings controlling the volume of connections Envoy will accept from the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#connection_pool DataK8SNetworkingIstioIoSidecarV1Manifest#connection_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#connection_pool DataK8SNetworkingIstioIoSidecarV1Manifest#connection_pool}
   */
   readonly connectionPool?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngressConnectionPool;
   /**
   * The IP endpoint or Unix domain socket to which traffic should be forwarded to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#default_endpoint DataK8SNetworkingIstioIoSidecarV1Manifest#default_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#default_endpoint DataK8SNetworkingIstioIoSidecarV1Manifest#default_endpoint}
   */
   readonly defaultEndpoint?: string;
   /**
   * The port associated with the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#port DataK8SNetworkingIstioIoSidecarV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#port DataK8SNetworkingIstioIoSidecarV1Manifest#port}
   */
   readonly port: DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngressPort;
   /**
   * Set of TLS related options that will enable TLS termination on the sidecar for requests originating from outside the mesh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#tls DataK8SNetworkingIstioIoSidecarV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#tls DataK8SNetworkingIstioIoSidecarV1Manifest#tls}
   */
   readonly tls?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngressTls;
 }
@@ -3389,7 +3389,7 @@ export class DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngressList extends cd
 }
 export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecOutboundTrafficPolicyEgressProxyPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#number DataK8SNetworkingIstioIoSidecarV1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#number DataK8SNetworkingIstioIoSidecarV1Manifest#number}
   */
   readonly number?: number;
 }
@@ -3485,19 +3485,19 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecOutboundTrafficPol
   /**
   * The name of a service from the service registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#host DataK8SNetworkingIstioIoSidecarV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#host DataK8SNetworkingIstioIoSidecarV1Manifest#host}
   */
   readonly host: string;
   /**
   * Specifies the port on the host that is being addressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#port DataK8SNetworkingIstioIoSidecarV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#port DataK8SNetworkingIstioIoSidecarV1Manifest#port}
   */
   readonly port?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecOutboundTrafficPolicyEgressProxyPort;
   /**
   * The name of a subset within the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#subset DataK8SNetworkingIstioIoSidecarV1Manifest#subset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#subset DataK8SNetworkingIstioIoSidecarV1Manifest#subset}
   */
   readonly subset?: string;
 }
@@ -3646,13 +3646,13 @@ export class DataK8SNetworkingIstioIoSidecarV1ManifestSpecOutboundTrafficPolicyE
 }
 export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecOutboundTrafficPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#egress_proxy DataK8SNetworkingIstioIoSidecarV1Manifest#egress_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#egress_proxy DataK8SNetworkingIstioIoSidecarV1Manifest#egress_proxy}
   */
   readonly egressProxy?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecOutboundTrafficPolicyEgressProxy;
   /**
   *  Valid Options: REGISTRY_ONLY, ALLOW_ANY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#mode DataK8SNetworkingIstioIoSidecarV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#mode DataK8SNetworkingIstioIoSidecarV1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -3777,7 +3777,7 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpecWorkloadSelector {
   /**
   * One or more labels that indicate a specific set of pods/VMs on which the configuration should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#labels DataK8SNetworkingIstioIoSidecarV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#labels DataK8SNetworkingIstioIoSidecarV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -3873,31 +3873,31 @@ export interface DataK8SNetworkingIstioIoSidecarV1ManifestSpec {
   /**
   * Egress specifies the configuration of the sidecar for processing outbound traffic from the attached workload instance to other services in the mesh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#egress DataK8SNetworkingIstioIoSidecarV1Manifest#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#egress DataK8SNetworkingIstioIoSidecarV1Manifest#egress}
   */
   readonly egress?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecEgress[] | cdktf.IResolvable;
   /**
   * Settings controlling the volume of connections Envoy will accept from the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#inbound_connection_pool DataK8SNetworkingIstioIoSidecarV1Manifest#inbound_connection_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#inbound_connection_pool DataK8SNetworkingIstioIoSidecarV1Manifest#inbound_connection_pool}
   */
   readonly inboundConnectionPool?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecInboundConnectionPool;
   /**
   * Ingress specifies the configuration of the sidecar for processing inbound traffic to the attached workload instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#ingress DataK8SNetworkingIstioIoSidecarV1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#ingress DataK8SNetworkingIstioIoSidecarV1Manifest#ingress}
   */
   readonly ingress?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecIngress[] | cdktf.IResolvable;
   /**
   * Set the default behavior of the sidecar for handling outbound traffic from the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#outbound_traffic_policy DataK8SNetworkingIstioIoSidecarV1Manifest#outbound_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#outbound_traffic_policy DataK8SNetworkingIstioIoSidecarV1Manifest#outbound_traffic_policy}
   */
   readonly outboundTrafficPolicy?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecOutboundTrafficPolicy;
   /**
   * Criteria used to select the specific set of pods/VMs on which this 'Sidecar' configuration should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#workload_selector DataK8SNetworkingIstioIoSidecarV1Manifest#workload_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#workload_selector DataK8SNetworkingIstioIoSidecarV1Manifest#workload_selector}
   */
   readonly workloadSelector?: DataK8SNetworkingIstioIoSidecarV1ManifestSpecWorkloadSelector;
 }
@@ -4107,7 +4107,7 @@ export class DataK8SNetworkingIstioIoSidecarV1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest k8s_networking_istio_io_sidecar_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest k8s_networking_istio_io_sidecar_v1_manifest}
 */
 export class DataK8SNetworkingIstioIoSidecarV1Manifest extends cdktf.TerraformDataSource {
 
@@ -4123,7 +4123,7 @@ export class DataK8SNetworkingIstioIoSidecarV1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SNetworkingIstioIoSidecarV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkingIstioIoSidecarV1Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkingIstioIoSidecarV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkingIstioIoSidecarV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkingIstioIoSidecarV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4135,7 +4135,7 @@ export class DataK8SNetworkingIstioIoSidecarV1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/networking_istio_io_sidecar_v1_manifest k8s_networking_istio_io_sidecar_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/networking_istio_io_sidecar_v1_manifest k8s_networking_istio_io_sidecar_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4146,8 +4146,8 @@ export class DataK8SNetworkingIstioIoSidecarV1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_networking_istio_io_sidecar_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

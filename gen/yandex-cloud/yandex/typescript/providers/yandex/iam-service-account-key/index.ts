@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iam_service_account_key
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iam_service_account_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IamServiceAccountKeyConfig extends cdktf.TerraformMetaArguments
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iam_service_account_key#description IamServiceAccountKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iam_service_account_key#description IamServiceAccountKey#description}
   */
   readonly description?: string;
   /**
   * The output format of the keys. `PEM_FILE` is the default format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iam_service_account_key#format IamServiceAccountKey#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iam_service_account_key#format IamServiceAccountKey#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iam_service_account_key#id IamServiceAccountKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iam_service_account_key#id IamServiceAccountKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface IamServiceAccountKeyConfig extends cdktf.TerraformMetaArguments
   /**
   * The algorithm used to generate the key. `RSA_2048` is the default algorithm. Valid values are listed in the [API reference](https://yandex.cloud/docs/iam/api-ref/Key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iam_service_account_key#key_algorithm IamServiceAccountKey#key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iam_service_account_key#key_algorithm IamServiceAccountKey#key_algorithm}
   */
   readonly keyAlgorithm?: string;
   /**
   * An optional PGP key to encrypt the resulting private key material. May either be a base64-encoded public key or a keybase username in the form `keybase:keybaseusername`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iam_service_account_key#pgp_key IamServiceAccountKey#pgp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iam_service_account_key#pgp_key IamServiceAccountKey#pgp_key}
   */
   readonly pgpKey?: string;
   /**
   * ID of the service account to create a pair for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iam_service_account_key#service_account_id IamServiceAccountKey#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iam_service_account_key#service_account_id IamServiceAccountKey#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * output_to_lockbox block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iam_service_account_key#output_to_lockbox IamServiceAccountKey#output_to_lockbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iam_service_account_key#output_to_lockbox IamServiceAccountKey#output_to_lockbox}
   */
   readonly outputToLockbox?: IamServiceAccountKeyOutputToLockbox;
 }
@@ -55,13 +55,13 @@ export interface IamServiceAccountKeyOutputToLockbox {
   /**
   * entry that will store the value of private_key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iam_service_account_key#entry_for_private_key IamServiceAccountKey#entry_for_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iam_service_account_key#entry_for_private_key IamServiceAccountKey#entry_for_private_key}
   */
   readonly entryForPrivateKey: string;
   /**
   * ID of the Lockbox secret where to store the sensible values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iam_service_account_key#secret_id IamServiceAccountKey#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iam_service_account_key#secret_id IamServiceAccountKey#secret_id}
   */
   readonly secretId: string;
 }
@@ -168,7 +168,7 @@ export class IamServiceAccountKeyOutputToLockboxOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iam_service_account_key yandex_iam_service_account_key}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iam_service_account_key yandex_iam_service_account_key}
 */
 export class IamServiceAccountKey extends cdktf.TerraformResource {
 
@@ -184,7 +184,7 @@ export class IamServiceAccountKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IamServiceAccountKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IamServiceAccountKey to import
-  * @param importFromId The id of the existing IamServiceAccountKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iam_service_account_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IamServiceAccountKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iam_service_account_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IamServiceAccountKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class IamServiceAccountKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/iam_service_account_key yandex_iam_service_account_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/iam_service_account_key yandex_iam_service_account_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class IamServiceAccountKey extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_iam_service_account_key',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

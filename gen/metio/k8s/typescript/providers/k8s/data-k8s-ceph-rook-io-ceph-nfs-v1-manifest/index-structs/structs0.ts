@@ -3,25 +3,25 @@ export interface DataK8SCephRookIoCephNfsV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#annotations DataK8SCephRookIoCephNfsV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#annotations DataK8SCephRookIoCephNfsV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#labels DataK8SCephRookIoCephNfsV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#labels DataK8SCephRookIoCephNfsV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespace DataK8SCephRookIoCephNfsV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespace DataK8SCephRookIoCephNfsV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -198,13 +198,13 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecRados {
   /**
   * The namespace inside the Ceph pool (set by 'pool') where shared NFS-Ganesha config is stored. This setting is deprecated as it is internally set to the name of the CephNFS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespace DataK8SCephRookIoCephNfsV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespace DataK8SCephRookIoCephNfsV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * The Ceph pool used store the shared configuration for NFS-Ganesha daemons. This setting is deprecated, as it is internally required to be '.nfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#pool DataK8SCephRookIoCephNfsV1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#pool DataK8SCephRookIoCephNfsV1Manifest#pool}
   */
   readonly pool?: string;
 }
@@ -327,15 +327,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecRadosOutputReference extends 
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -503,19 +503,19 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -696,11 +696,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#medium DataK8SCephRookIoCephNfsV1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#medium DataK8SCephRookIoCephNfsV1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#size_limit DataK8SCephRookIoCephNfsV1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#size_limit DataK8SCephRookIoCephNfsV1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -823,11 +823,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#type DataK8SCephRookIoCephNfsV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#type DataK8SCephRookIoCephNfsV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -947,11 +947,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourcePersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#claim_name DataK8SCephRookIoCephNfsV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#claim_name DataK8SCephRookIoCephNfsV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#read_only DataK8SCephRookIoCephNfsV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#read_only DataK8SCephRookIoCephNfsV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -1071,15 +1071,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1247,11 +1247,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesClusterTrustBundleLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1374,23 +1374,23 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesClusterTrustBundle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesClusterTrustBundleLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#signer_name DataK8SCephRookIoCephNfsV1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#signer_name DataK8SCephRookIoCephNfsV1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -1597,15 +1597,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -1773,15 +1773,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1933,11 +1933,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#api_version DataK8SCephRookIoCephNfsV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#api_version DataK8SCephRookIoCephNfsV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_path DataK8SCephRookIoCephNfsV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_path DataK8SCephRookIoCephNfsV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -2057,15 +2057,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#container_name DataK8SCephRookIoCephNfsV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#container_name DataK8SCephRookIoCephNfsV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#divisor DataK8SCephRookIoCephNfsV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#divisor DataK8SCephRookIoCephNfsV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource DataK8SCephRookIoCephNfsV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource DataK8SCephRookIoCephNfsV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -2214,19 +2214,19 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_ref DataK8SCephRookIoCephNfsV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_ref DataK8SCephRookIoCephNfsV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource_field_ref DataK8SCephRookIoCephNfsV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource_field_ref DataK8SCephRookIoCephNfsV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -2426,7 +2426,7 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -2520,15 +2520,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -2696,15 +2696,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2856,15 +2856,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesServiceAccountToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#audience DataK8SCephRookIoCephNfsV1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#audience DataK8SCephRookIoCephNfsV1Manifest#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#expiration_seconds DataK8SCephRookIoCephNfsV1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#expiration_seconds DataK8SCephRookIoCephNfsV1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -3013,23 +3013,23 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#cluster_trust_bundle DataK8SCephRookIoCephNfsV1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#cluster_trust_bundle DataK8SCephRookIoCephNfsV1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesClusterTrustBundle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
   */
   readonly configMap?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#downward_api DataK8SCephRookIoCephNfsV1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#downward_api DataK8SCephRookIoCephNfsV1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
   */
   readonly secret?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#service_account_token DataK8SCephRookIoCephNfsV1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#service_account_token DataK8SCephRookIoCephNfsV1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSourcesServiceAccountToken;
 }
@@ -3261,11 +3261,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjected {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sources DataK8SCephRookIoCephNfsV1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sources DataK8SCephRookIoCephNfsV1Manifest#sources}
   */
   readonly sources?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjectedSources[] | cdktf.IResolvable;
 }
@@ -3388,15 +3388,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -3564,19 +3564,19 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret_name DataK8SCephRookIoCephNfsV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret_name DataK8SCephRookIoCephNfsV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -3757,27 +3757,27 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
   */
   readonly configMap?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#empty_dir DataK8SCephRookIoCephNfsV1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#empty_dir DataK8SCephRookIoCephNfsV1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host_path DataK8SCephRookIoCephNfsV1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host_path DataK8SCephRookIoCephNfsV1Manifest#host_path}
   */
   readonly hostPath?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#persistent_volume_claim DataK8SCephRookIoCephNfsV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#persistent_volume_claim DataK8SCephRookIoCephNfsV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourcePersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#projected DataK8SCephRookIoCephNfsV1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#projected DataK8SCephRookIoCephNfsV1Manifest#projected}
   */
   readonly projected?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceProjected;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
   */
   readonly secret?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSourceSecret;
 }
@@ -4016,7 +4016,7 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVo
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#volume_source DataK8SCephRookIoCephNfsV1Manifest#volume_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#volume_source DataK8SCephRookIoCephNfsV1Manifest#volume_source}
   */
   readonly volumeSource?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesVolumeSource;
 }
@@ -4110,15 +4110,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFilesOu
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -4286,19 +4286,19 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4479,11 +4479,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#medium DataK8SCephRookIoCephNfsV1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#medium DataK8SCephRookIoCephNfsV1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#size_limit DataK8SCephRookIoCephNfsV1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#size_limit DataK8SCephRookIoCephNfsV1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -4606,11 +4606,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#type DataK8SCephRookIoCephNfsV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#type DataK8SCephRookIoCephNfsV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -4730,11 +4730,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourcePersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#claim_name DataK8SCephRookIoCephNfsV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#claim_name DataK8SCephRookIoCephNfsV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#read_only DataK8SCephRookIoCephNfsV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#read_only DataK8SCephRookIoCephNfsV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -4854,15 +4854,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5030,11 +5030,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesClusterTrustBundleLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5157,23 +5157,23 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesClusterTrustBundle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesClusterTrustBundleLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#signer_name DataK8SCephRookIoCephNfsV1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#signer_name DataK8SCephRookIoCephNfsV1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -5380,15 +5380,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -5556,15 +5556,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5716,11 +5716,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#api_version DataK8SCephRookIoCephNfsV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#api_version DataK8SCephRookIoCephNfsV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_path DataK8SCephRookIoCephNfsV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_path DataK8SCephRookIoCephNfsV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -5840,15 +5840,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#container_name DataK8SCephRookIoCephNfsV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#container_name DataK8SCephRookIoCephNfsV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#divisor DataK8SCephRookIoCephNfsV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#divisor DataK8SCephRookIoCephNfsV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource DataK8SCephRookIoCephNfsV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource DataK8SCephRookIoCephNfsV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -5997,19 +5997,19 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_ref DataK8SCephRookIoCephNfsV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_ref DataK8SCephRookIoCephNfsV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource_field_ref DataK8SCephRookIoCephNfsV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource_field_ref DataK8SCephRookIoCephNfsV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -6209,7 +6209,7 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -6303,15 +6303,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -6479,15 +6479,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6639,15 +6639,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesServiceAccountToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#audience DataK8SCephRookIoCephNfsV1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#audience DataK8SCephRookIoCephNfsV1Manifest#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#expiration_seconds DataK8SCephRookIoCephNfsV1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#expiration_seconds DataK8SCephRookIoCephNfsV1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -6796,23 +6796,23 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#cluster_trust_bundle DataK8SCephRookIoCephNfsV1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#cluster_trust_bundle DataK8SCephRookIoCephNfsV1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesClusterTrustBundle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
   */
   readonly configMap?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#downward_api DataK8SCephRookIoCephNfsV1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#downward_api DataK8SCephRookIoCephNfsV1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
   */
   readonly secret?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#service_account_token DataK8SCephRookIoCephNfsV1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#service_account_token DataK8SCephRookIoCephNfsV1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSourcesServiceAccountToken;
 }
@@ -7044,11 +7044,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjected {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sources DataK8SCephRookIoCephNfsV1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sources DataK8SCephRookIoCephNfsV1Manifest#sources}
   */
   readonly sources?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjectedSources[] | cdktf.IResolvable;
 }
@@ -7171,15 +7171,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -7347,19 +7347,19 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret_name DataK8SCephRookIoCephNfsV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret_name DataK8SCephRookIoCephNfsV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -7540,27 +7540,27 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
   */
   readonly configMap?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#empty_dir DataK8SCephRookIoCephNfsV1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#empty_dir DataK8SCephRookIoCephNfsV1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host_path DataK8SCephRookIoCephNfsV1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host_path DataK8SCephRookIoCephNfsV1Manifest#host_path}
   */
   readonly hostPath?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#persistent_volume_claim DataK8SCephRookIoCephNfsV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#persistent_volume_claim DataK8SCephRookIoCephNfsV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourcePersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#projected DataK8SCephRookIoCephNfsV1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#projected DataK8SCephRookIoCephNfsV1Manifest#projected}
   */
   readonly projected?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceProjected;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
   */
   readonly secret?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSourceSecret;
 }
@@ -7799,7 +7799,7 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVol
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#volume_source DataK8SCephRookIoCephNfsV1Manifest#volume_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#volume_source DataK8SCephRookIoCephNfsV1Manifest#volume_source}
   */
   readonly volumeSource?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFileVolumeSource;
 }
@@ -7895,25 +7895,25 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberos {
   /**
   * ConfigFiles defines where the Kerberos configuration should be sourced from. Config files will be placed into the '/etc/krb5.conf.rook/' directory. If this is left empty, Rook will not add any files. This allows you to manage the files yourself however you wish. For example, you may build them into your custom Ceph container image or use the Vault agent injector to securely add the files via annotations on the CephNFS spec (passed to the NFS server pods). Rook configures Kerberos to log to stderr. We suggest removing logging sections from config files to avoid consuming unnecessary disk space from logging to files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_files DataK8SCephRookIoCephNfsV1Manifest#config_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_files DataK8SCephRookIoCephNfsV1Manifest#config_files}
   */
   readonly configFiles?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosConfigFiles;
   /**
   * DomainName should be set to the Kerberos Realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#domain_name DataK8SCephRookIoCephNfsV1Manifest#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#domain_name DataK8SCephRookIoCephNfsV1Manifest#domain_name}
   */
   readonly domainName?: string;
   /**
   * KeytabFile defines where the Kerberos keytab should be sourced from. The keytab file will be placed into '/etc/krb5.keytab'. If this is left empty, Rook will not add the file. This allows you to manage the 'krb5.keytab' file yourself however you wish. For example, you may build it into your custom Ceph container image or use the Vault agent injector to securely add the file via annotations on the CephNFS spec (passed to the NFS server pods).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#keytab_file DataK8SCephRookIoCephNfsV1Manifest#keytab_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#keytab_file DataK8SCephRookIoCephNfsV1Manifest#keytab_file}
   */
   readonly keytabFile?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosKeytabFile;
   /**
   * PrincipalName corresponds directly to NFS-Ganesha's NFS_KRB5:PrincipalName config. In practice, this is the service prefix of the principal name. The default is 'nfs'. This value is combined with (a) the namespace and name of the CephNFS (with a hyphen between) and (b) the Realm configured in the user-provided krb5.conf to determine the full principal name: <principalName>/<namespace>-<name>@<realm>. e.g., nfs/rook-ceph-my-nfs@example.net. See https://github.com/nfs-ganesha/nfs-ganesha/wiki/RPCSEC_GSS for more detail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#principal_name DataK8SCephRookIoCephNfsV1Manifest#principal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#principal_name DataK8SCephRookIoCephNfsV1Manifest#principal_name}
   */
   readonly principalName?: string;
 }
@@ -8094,15 +8094,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberosOutputReferen
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -8270,19 +8270,19 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8463,11 +8463,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#medium DataK8SCephRookIoCephNfsV1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#medium DataK8SCephRookIoCephNfsV1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#size_limit DataK8SCephRookIoCephNfsV1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#size_limit DataK8SCephRookIoCephNfsV1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -8590,11 +8590,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#type DataK8SCephRookIoCephNfsV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#type DataK8SCephRookIoCephNfsV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -8714,11 +8714,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourcePersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#claim_name DataK8SCephRookIoCephNfsV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#claim_name DataK8SCephRookIoCephNfsV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#read_only DataK8SCephRookIoCephNfsV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#read_only DataK8SCephRookIoCephNfsV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -8838,15 +8838,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9014,11 +9014,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesClusterTrustBundleLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9141,23 +9141,23 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesClusterTrustBundle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesClusterTrustBundleLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#signer_name DataK8SCephRookIoCephNfsV1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#signer_name DataK8SCephRookIoCephNfsV1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -9364,15 +9364,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -9540,15 +9540,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9700,11 +9700,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#api_version DataK8SCephRookIoCephNfsV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#api_version DataK8SCephRookIoCephNfsV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_path DataK8SCephRookIoCephNfsV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_path DataK8SCephRookIoCephNfsV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -9824,15 +9824,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#container_name DataK8SCephRookIoCephNfsV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#container_name DataK8SCephRookIoCephNfsV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#divisor DataK8SCephRookIoCephNfsV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#divisor DataK8SCephRookIoCephNfsV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource DataK8SCephRookIoCephNfsV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource DataK8SCephRookIoCephNfsV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -9981,19 +9981,19 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_ref DataK8SCephRookIoCephNfsV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_ref DataK8SCephRookIoCephNfsV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource_field_ref DataK8SCephRookIoCephNfsV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource_field_ref DataK8SCephRookIoCephNfsV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -10193,7 +10193,7 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -10287,15 +10287,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -10463,15 +10463,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10623,15 +10623,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesServiceAccountToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#audience DataK8SCephRookIoCephNfsV1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#audience DataK8SCephRookIoCephNfsV1Manifest#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#expiration_seconds DataK8SCephRookIoCephNfsV1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#expiration_seconds DataK8SCephRookIoCephNfsV1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -10780,23 +10780,23 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#cluster_trust_bundle DataK8SCephRookIoCephNfsV1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#cluster_trust_bundle DataK8SCephRookIoCephNfsV1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesClusterTrustBundle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
   */
   readonly configMap?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#downward_api DataK8SCephRookIoCephNfsV1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#downward_api DataK8SCephRookIoCephNfsV1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
   */
   readonly secret?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#service_account_token DataK8SCephRookIoCephNfsV1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#service_account_token DataK8SCephRookIoCephNfsV1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSourcesServiceAccountToken;
 }
@@ -11028,11 +11028,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjected {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sources DataK8SCephRookIoCephNfsV1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sources DataK8SCephRookIoCephNfsV1Manifest#sources}
   */
   readonly sources?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjectedSources[] | cdktf.IResolvable;
 }
@@ -11155,15 +11155,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -11331,19 +11331,19 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret_name DataK8SCephRookIoCephNfsV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret_name DataK8SCephRookIoCephNfsV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -11524,27 +11524,27 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditional
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
   */
   readonly configMap?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#empty_dir DataK8SCephRookIoCephNfsV1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#empty_dir DataK8SCephRookIoCephNfsV1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host_path DataK8SCephRookIoCephNfsV1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host_path DataK8SCephRookIoCephNfsV1Manifest#host_path}
   */
   readonly hostPath?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#persistent_volume_claim DataK8SCephRookIoCephNfsV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#persistent_volume_claim DataK8SCephRookIoCephNfsV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourcePersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#projected DataK8SCephRookIoCephNfsV1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#projected DataK8SCephRookIoCephNfsV1Manifest#projected}
   */
   readonly projected?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceProjected;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
   */
   readonly secret?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSourceSecret;
 }
@@ -11785,11 +11785,11 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditi
   /**
   * SubPath defines the sub-path (subdirectory) of the directory root where the volumeSource will be mounted. All files/keys in the volume source's volume will be mounted to the subdirectory. This is not the same as the Kubernetes 'subPath' volume mount option. Each subPath definition must be unique and must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sub_path DataK8SCephRookIoCephNfsV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sub_path DataK8SCephRookIoCephNfsV1Manifest#sub_path}
   */
   readonly subPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#volume_source DataK8SCephRookIoCephNfsV1Manifest#volume_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#volume_source DataK8SCephRookIoCephNfsV1Manifest#volume_source}
   */
   readonly volumeSource: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFilesVolumeSource;
 }
@@ -11930,13 +11930,13 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarResour
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#request DataK8SCephRookIoCephNfsV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#request DataK8SCephRookIoCephNfsV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -12080,19 +12080,19 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarResour
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#claims DataK8SCephRookIoCephNfsV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#claims DataK8SCephRookIoCephNfsV1Manifest#claims}
   */
   readonly claims?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#limits DataK8SCephRookIoCephNfsV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#limits DataK8SCephRookIoCephNfsV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#requests DataK8SCephRookIoCephNfsV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#requests DataK8SCephRookIoCephNfsV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -12244,15 +12244,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarResourcesO
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -12420,19 +12420,19 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12613,11 +12613,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#medium DataK8SCephRookIoCephNfsV1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#medium DataK8SCephRookIoCephNfsV1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#size_limit DataK8SCephRookIoCephNfsV1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#size_limit DataK8SCephRookIoCephNfsV1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -12740,11 +12740,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#type DataK8SCephRookIoCephNfsV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#type DataK8SCephRookIoCephNfsV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -12864,11 +12864,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourcePersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#claim_name DataK8SCephRookIoCephNfsV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#claim_name DataK8SCephRookIoCephNfsV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#read_only DataK8SCephRookIoCephNfsV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#read_only DataK8SCephRookIoCephNfsV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -12988,15 +12988,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13164,11 +13164,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesClusterTrustBundleLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13291,23 +13291,23 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesClusterTrustBundle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesClusterTrustBundleLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#signer_name DataK8SCephRookIoCephNfsV1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#signer_name DataK8SCephRookIoCephNfsV1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -13514,15 +13514,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -13690,15 +13690,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13850,11 +13850,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#api_version DataK8SCephRookIoCephNfsV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#api_version DataK8SCephRookIoCephNfsV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_path DataK8SCephRookIoCephNfsV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_path DataK8SCephRookIoCephNfsV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -13974,15 +13974,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#container_name DataK8SCephRookIoCephNfsV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#container_name DataK8SCephRookIoCephNfsV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#divisor DataK8SCephRookIoCephNfsV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#divisor DataK8SCephRookIoCephNfsV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource DataK8SCephRookIoCephNfsV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource DataK8SCephRookIoCephNfsV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -14131,19 +14131,19 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_ref DataK8SCephRookIoCephNfsV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#field_ref DataK8SCephRookIoCephNfsV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource_field_ref DataK8SCephRookIoCephNfsV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resource_field_ref DataK8SCephRookIoCephNfsV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -14343,7 +14343,7 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -14437,15 +14437,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -14613,15 +14613,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14773,15 +14773,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesServiceAccountToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#audience DataK8SCephRookIoCephNfsV1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#audience DataK8SCephRookIoCephNfsV1Manifest#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#expiration_seconds DataK8SCephRookIoCephNfsV1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#expiration_seconds DataK8SCephRookIoCephNfsV1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -14930,23 +14930,23 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#cluster_trust_bundle DataK8SCephRookIoCephNfsV1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#cluster_trust_bundle DataK8SCephRookIoCephNfsV1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesClusterTrustBundle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
   */
   readonly configMap?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#downward_api DataK8SCephRookIoCephNfsV1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#downward_api DataK8SCephRookIoCephNfsV1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
   */
   readonly secret?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#service_account_token DataK8SCephRookIoCephNfsV1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#service_account_token DataK8SCephRookIoCephNfsV1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSourcesServiceAccountToken;
 }
@@ -15178,11 +15178,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjected {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sources DataK8SCephRookIoCephNfsV1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sources DataK8SCephRookIoCephNfsV1Manifest#sources}
   */
   readonly sources?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjectedSources[] | cdktf.IResolvable;
 }
@@ -15305,15 +15305,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mode DataK8SCephRookIoCephNfsV1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path: string;
 }
@@ -15481,19 +15481,19 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#default_mode DataK8SCephRookIoCephNfsV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#items DataK8SCephRookIoCephNfsV1Manifest#items}
   */
   readonly items?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#optional DataK8SCephRookIoCephNfsV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret_name DataK8SCephRookIoCephNfsV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret_name DataK8SCephRookIoCephNfsV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -15674,27 +15674,27 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#config_map DataK8SCephRookIoCephNfsV1Manifest#config_map}
   */
   readonly configMap?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#empty_dir DataK8SCephRookIoCephNfsV1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#empty_dir DataK8SCephRookIoCephNfsV1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host_path DataK8SCephRookIoCephNfsV1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host_path DataK8SCephRookIoCephNfsV1Manifest#host_path}
   */
   readonly hostPath?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#persistent_volume_claim DataK8SCephRookIoCephNfsV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#persistent_volume_claim DataK8SCephRookIoCephNfsV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourcePersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#projected DataK8SCephRookIoCephNfsV1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#projected DataK8SCephRookIoCephNfsV1Manifest#projected}
   */
   readonly projected?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceProjected;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#secret DataK8SCephRookIoCephNfsV1Manifest#secret}
   */
   readonly secret?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSourceSecret;
 }
@@ -15933,7 +15933,7 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfig
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#volume_source DataK8SCephRookIoCephNfsV1Manifest#volume_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#volume_source DataK8SCephRookIoCephNfsV1Manifest#volume_source}
   */
   readonly volumeSource?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFileVolumeSource;
 }
@@ -16029,31 +16029,31 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecar {
   /**
   * AdditionalFiles defines any number of additional files that should be mounted into the SSSD sidecar with a directory root of '/etc/sssd/rook-additional/'. These files may be referenced by the sssd.conf config file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#additional_files DataK8SCephRookIoCephNfsV1Manifest#additional_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#additional_files DataK8SCephRookIoCephNfsV1Manifest#additional_files}
   */
   readonly additionalFiles?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarAdditionalFiles[] | cdktf.IResolvable;
   /**
   * DebugLevel sets the debug level for SSSD. If unset or set to 0, Rook does nothing. Otherwise, this may be a value between 1 and 10. See SSSD docs for more info: https://sssd.io/troubleshooting/basics.html#sssd-debug-logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#debug_level DataK8SCephRookIoCephNfsV1Manifest#debug_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#debug_level DataK8SCephRookIoCephNfsV1Manifest#debug_level}
   */
   readonly debugLevel?: number;
   /**
   * Image defines the container image that should be used for the SSSD sidecar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#image DataK8SCephRookIoCephNfsV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#image DataK8SCephRookIoCephNfsV1Manifest#image}
   */
   readonly image: string;
   /**
   * Resources allow specifying resource requests/limits on the SSSD sidecar container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resources DataK8SCephRookIoCephNfsV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#resources DataK8SCephRookIoCephNfsV1Manifest#resources}
   */
   readonly resources?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarResources;
   /**
   * SSSDConfigFile defines where the SSSD configuration should be sourced from. The config file will be placed into '/etc/sssd/sssd.conf'. If this is left empty, Rook will not add the file. This allows you to manage the 'sssd.conf' file yourself however you wish. For example, you may build it into your custom Ceph container image or use the Vault agent injector to securely add the file via annotations on the CephNFS spec (passed to the NFS server pods).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sssd_config_file DataK8SCephRookIoCephNfsV1Manifest#sssd_config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sssd_config_file DataK8SCephRookIoCephNfsV1Manifest#sssd_config_file}
   */
   readonly sssdConfigFile?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecarSssdConfigFile;
 }
@@ -16262,7 +16262,7 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssd {
   /**
   * Sidecar tells Rook to run SSSD in a sidecar alongside the NFS-Ganesha server in each NFS pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sidecar DataK8SCephRookIoCephNfsV1Manifest#sidecar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sidecar DataK8SCephRookIoCephNfsV1Manifest#sidecar}
   */
   readonly sidecar?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssdSidecar;
 }
@@ -16358,13 +16358,13 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecSecurity {
   /**
   * Kerberos configures NFS-Ganesha to secure NFS client connections with Kerberos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#kerberos DataK8SCephRookIoCephNfsV1Manifest#kerberos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#kerberos DataK8SCephRookIoCephNfsV1Manifest#kerberos}
   */
   readonly kerberos?: DataK8SCephRookIoCephNfsV1ManifestSpecSecurityKerberos;
   /**
   * SSSD enables integration with System Security Services Daemon (SSSD). SSSD can be used to provide user ID mapping from a number of sources. See https://sssd.io for more information about the SSSD project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sssd DataK8SCephRookIoCephNfsV1Manifest#sssd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#sssd DataK8SCephRookIoCephNfsV1Manifest#sssd}
   */
   readonly sssd?: DataK8SCephRookIoCephNfsV1ManifestSpecSecuritySssd;
 }
@@ -16489,7 +16489,7 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbeProbeE
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#command DataK8SCephRookIoCephNfsV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#command DataK8SCephRookIoCephNfsV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -16585,13 +16585,13 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbeProbeG
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#port DataK8SCephRookIoCephNfsV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#port DataK8SCephRookIoCephNfsV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#service DataK8SCephRookIoCephNfsV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#service DataK8SCephRookIoCephNfsV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -16713,13 +16713,13 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbeProbeH
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#value DataK8SCephRookIoCephNfsV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#value DataK8SCephRookIoCephNfsV1Manifest#value}
   */
   readonly value: string;
 }
@@ -16860,31 +16860,31 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbeProbeH
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host DataK8SCephRookIoCephNfsV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host DataK8SCephRookIoCephNfsV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#http_headers DataK8SCephRookIoCephNfsV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#http_headers DataK8SCephRookIoCephNfsV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbeProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#path DataK8SCephRookIoCephNfsV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#port DataK8SCephRookIoCephNfsV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#port DataK8SCephRookIoCephNfsV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#scheme DataK8SCephRookIoCephNfsV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#scheme DataK8SCephRookIoCephNfsV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -17093,13 +17093,13 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbeProbeT
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host DataK8SCephRookIoCephNfsV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#host DataK8SCephRookIoCephNfsV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#port DataK8SCephRookIoCephNfsV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#port DataK8SCephRookIoCephNfsV1Manifest#port}
   */
   readonly port: string;
 }
@@ -17221,59 +17221,59 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbeProbe 
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#exec DataK8SCephRookIoCephNfsV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#exec DataK8SCephRookIoCephNfsV1Manifest#exec}
   */
   readonly exec?: DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbeProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#failure_threshold DataK8SCephRookIoCephNfsV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#failure_threshold DataK8SCephRookIoCephNfsV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#grpc DataK8SCephRookIoCephNfsV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#grpc DataK8SCephRookIoCephNfsV1Manifest#grpc}
   */
   readonly grpc?: DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbeProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#http_get DataK8SCephRookIoCephNfsV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#http_get DataK8SCephRookIoCephNfsV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbeProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#initial_delay_seconds DataK8SCephRookIoCephNfsV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#initial_delay_seconds DataK8SCephRookIoCephNfsV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#period_seconds DataK8SCephRookIoCephNfsV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#period_seconds DataK8SCephRookIoCephNfsV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#success_threshold DataK8SCephRookIoCephNfsV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#success_threshold DataK8SCephRookIoCephNfsV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#tcp_socket DataK8SCephRookIoCephNfsV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#tcp_socket DataK8SCephRookIoCephNfsV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbeProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#termination_grace_period_seconds DataK8SCephRookIoCephNfsV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#termination_grace_period_seconds DataK8SCephRookIoCephNfsV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#timeout_seconds DataK8SCephRookIoCephNfsV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#timeout_seconds DataK8SCephRookIoCephNfsV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -17630,13 +17630,13 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbe {
   /**
   * Disabled determines whether probe is disable or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#disabled DataK8SCephRookIoCephNfsV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#disabled DataK8SCephRookIoCephNfsV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#probe DataK8SCephRookIoCephNfsV1Manifest#probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#probe DataK8SCephRookIoCephNfsV1Manifest#probe}
   */
   readonly probe?: DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbeProbe;
 }
@@ -17759,15 +17759,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerLivenessProbeOutputRefe
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17935,15 +17935,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityPr
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18111,11 +18111,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityPr
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_fields DataK8SCephRookIoCephNfsV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_fields DataK8SCephRookIoCephNfsV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -18238,11 +18238,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityPr
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#preference DataK8SCephRookIoCephNfsV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#preference DataK8SCephRookIoCephNfsV1Manifest#preference}
   */
   readonly preference: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#weight DataK8SCephRookIoCephNfsV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#weight DataK8SCephRookIoCephNfsV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -18381,15 +18381,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityPr
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18557,15 +18557,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityRe
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18733,11 +18733,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityRe
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_fields DataK8SCephRookIoCephNfsV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_fields DataK8SCephRookIoCephNfsV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -18882,7 +18882,7 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityRe
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#node_selector_terms DataK8SCephRookIoCephNfsV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#node_selector_terms DataK8SCephRookIoCephNfsV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -18973,11 +18973,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityRe
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephNfsV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephNfsV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephNfsV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephNfsV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -19100,15 +19100,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinityOu
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19276,11 +19276,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPre
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19403,15 +19403,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPre
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19579,11 +19579,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPre
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19706,27 +19706,27 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPre
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_label_keys DataK8SCephRookIoCephNfsV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_label_keys DataK8SCephRookIoCephNfsV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephNfsV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephNfsV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespace_selector DataK8SCephRookIoCephNfsV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespace_selector DataK8SCephRookIoCephNfsV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespaces DataK8SCephRookIoCephNfsV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespaces DataK8SCephRookIoCephNfsV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#topology_key DataK8SCephRookIoCephNfsV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#topology_key DataK8SCephRookIoCephNfsV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -19962,11 +19962,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPre
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#pod_affinity_term DataK8SCephRookIoCephNfsV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#pod_affinity_term DataK8SCephRookIoCephNfsV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#weight DataK8SCephRookIoCephNfsV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#weight DataK8SCephRookIoCephNfsV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -20105,15 +20105,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPre
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20281,11 +20281,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityReq
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20408,15 +20408,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityReq
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20584,11 +20584,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityReq
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20711,27 +20711,27 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityReq
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_label_keys DataK8SCephRookIoCephNfsV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_label_keys DataK8SCephRookIoCephNfsV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephNfsV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephNfsV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespace_selector DataK8SCephRookIoCephNfsV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespace_selector DataK8SCephRookIoCephNfsV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespaces DataK8SCephRookIoCephNfsV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespaces DataK8SCephRookIoCephNfsV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#topology_key DataK8SCephRookIoCephNfsV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#topology_key DataK8SCephRookIoCephNfsV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -20989,11 +20989,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityReq
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephNfsV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephNfsV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephNfsV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephNfsV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -21116,15 +21116,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinityOut
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21292,11 +21292,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21419,15 +21419,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21595,11 +21595,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21722,27 +21722,27 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_label_keys DataK8SCephRookIoCephNfsV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_label_keys DataK8SCephRookIoCephNfsV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephNfsV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephNfsV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespace_selector DataK8SCephRookIoCephNfsV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespace_selector DataK8SCephRookIoCephNfsV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespaces DataK8SCephRookIoCephNfsV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespaces DataK8SCephRookIoCephNfsV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#topology_key DataK8SCephRookIoCephNfsV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#topology_key DataK8SCephRookIoCephNfsV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -21978,11 +21978,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#pod_affinity_term DataK8SCephRookIoCephNfsV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#pod_affinity_term DataK8SCephRookIoCephNfsV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#weight DataK8SCephRookIoCephNfsV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#weight DataK8SCephRookIoCephNfsV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -22121,15 +22121,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22297,11 +22297,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22424,15 +22424,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22600,11 +22600,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22727,27 +22727,27 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_label_keys DataK8SCephRookIoCephNfsV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_label_keys DataK8SCephRookIoCephNfsV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephNfsV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephNfsV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespace_selector DataK8SCephRookIoCephNfsV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespace_selector DataK8SCephRookIoCephNfsV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespaces DataK8SCephRookIoCephNfsV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#namespaces DataK8SCephRookIoCephNfsV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#topology_key DataK8SCephRookIoCephNfsV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#topology_key DataK8SCephRookIoCephNfsV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -23005,11 +23005,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephNfsV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephNfsV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephNfsV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephNfsV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -23132,23 +23132,23 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinit
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#effect DataK8SCephRookIoCephNfsV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#effect DataK8SCephRookIoCephNfsV1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#toleration_seconds DataK8SCephRookIoCephNfsV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#toleration_seconds DataK8SCephRookIoCephNfsV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#value DataK8SCephRookIoCephNfsV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#value DataK8SCephRookIoCephNfsV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -23380,15 +23380,15 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementTolerationsLis
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#key DataK8SCephRookIoCephNfsV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#operator DataK8SCephRookIoCephNfsV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#values DataK8SCephRookIoCephNfsV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23556,11 +23556,11 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementTopologySpread
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_expressions DataK8SCephRookIoCephNfsV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_labels DataK8SCephRookIoCephNfsV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23683,35 +23683,35 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementTopologySpread
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#label_selector DataK8SCephRookIoCephNfsV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_label_keys DataK8SCephRookIoCephNfsV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#match_label_keys DataK8SCephRookIoCephNfsV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#max_skew DataK8SCephRookIoCephNfsV1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#max_skew DataK8SCephRookIoCephNfsV1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#min_domains DataK8SCephRookIoCephNfsV1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#min_domains DataK8SCephRookIoCephNfsV1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#node_affinity_policy DataK8SCephRookIoCephNfsV1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#node_affinity_policy DataK8SCephRookIoCephNfsV1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#node_taints_policy DataK8SCephRookIoCephNfsV1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#node_taints_policy DataK8SCephRookIoCephNfsV1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#topology_key DataK8SCephRookIoCephNfsV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#topology_key DataK8SCephRookIoCephNfsV1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#when_unsatisfiable DataK8SCephRookIoCephNfsV1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#when_unsatisfiable DataK8SCephRookIoCephNfsV1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -24021,23 +24021,23 @@ export class DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementTopologySpread
 }
 export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#node_affinity DataK8SCephRookIoCephNfsV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#node_affinity DataK8SCephRookIoCephNfsV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#pod_affinity DataK8SCephRookIoCephNfsV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#pod_affinity DataK8SCephRookIoCephNfsV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#pod_anti_affinity DataK8SCephRookIoCephNfsV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#pod_anti_affinity DataK8SCephRookIoCephNfsV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementPodAntiAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#tolerations DataK8SCephRookIoCephNfsV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#tolerations DataK8SCephRookIoCephNfsV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#topology_spread_constraints DataK8SCephRookIoCephNfsV1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#topology_spread_constraints DataK8SCephRookIoCephNfsV1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SCephRookIoCephNfsV1ManifestSpecServerPlacementTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -24249,13 +24249,13 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerResourcesClaims {
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#name DataK8SCephRookIoCephNfsV1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#request DataK8SCephRookIoCephNfsV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#request DataK8SCephRookIoCephNfsV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -24399,19 +24399,19 @@ export interface DataK8SCephRookIoCephNfsV1ManifestSpecServerResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#claims DataK8SCephRookIoCephNfsV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#claims DataK8SCephRookIoCephNfsV1Manifest#claims}
   */
   readonly claims?: DataK8SCephRookIoCephNfsV1ManifestSpecServerResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#limits DataK8SCephRookIoCephNfsV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#limits DataK8SCephRookIoCephNfsV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#requests DataK8SCephRookIoCephNfsV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ceph_rook_io_ceph_nfs_v1_manifest#requests DataK8SCephRookIoCephNfsV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }

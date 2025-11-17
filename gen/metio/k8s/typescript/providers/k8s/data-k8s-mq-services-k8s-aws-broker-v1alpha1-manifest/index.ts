@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#metadata DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#metadata DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestMetadata;
   /**
   * BrokerSpec defines the desired state of Broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#spec DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#spec DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#annotations DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#annotations DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#labels DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#labels DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#namespace DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#namespace DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,14 +217,14 @@ export class DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestMetadataOutputReferenc
 }
 export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#id DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#id DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#revision DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#revision DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#revision}
   */
   readonly revision?: number;
 }
@@ -347,11 +347,11 @@ export class DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecConfigurationOutpu
 }
 export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecEncryptionOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#kms_key_id DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#kms_key_id DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#use_aws_owned_key DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#use_aws_owned_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#use_aws_owned_key DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#use_aws_owned_key}
   */
   readonly useAwsOwnedKey?: boolean | cdktf.IResolvable;
 }
@@ -474,47 +474,47 @@ export class DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecEncryptionOptionsO
 }
 export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecLdapServerMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#hosts DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#hosts DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#hosts}
   */
   readonly hosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#role_base DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#role_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#role_base DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#role_base}
   */
   readonly roleBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#role_name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#role_name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#role_name}
   */
   readonly roleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#role_search_matching DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#role_search_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#role_search_matching DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#role_search_matching}
   */
   readonly roleSearchMatching?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#role_search_subtree DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#role_search_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#role_search_subtree DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#role_search_subtree}
   */
   readonly roleSearchSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#service_account_password DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#service_account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#service_account_password DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#service_account_password}
   */
   readonly serviceAccountPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#service_account_username DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#service_account_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#service_account_username DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#service_account_username}
   */
   readonly serviceAccountUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#user_base DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#user_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#user_base DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#user_base}
   */
   readonly userBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#user_role_name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#user_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#user_role_name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#user_role_name}
   */
   readonly userRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#user_search_matching DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#user_search_matching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#user_search_matching DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#user_search_matching}
   */
   readonly userSearchMatching?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#user_search_subtree DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#user_search_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#user_search_subtree DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#user_search_subtree}
   */
   readonly userSearchSubtree?: boolean | cdktf.IResolvable;
 }
@@ -898,11 +898,11 @@ export class DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecLdapServerMetadata
 }
 export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecLogs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#audit DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#audit DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#audit}
   */
   readonly audit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#general DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#general}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#general DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#general}
   */
   readonly general?: boolean | cdktf.IResolvable;
 }
@@ -1025,15 +1025,15 @@ export class DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecLogsOutputReferenc
 }
 export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecMaintenanceWindowStartTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#day_of_week DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#day_of_week DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#time_of_day DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#time_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#time_of_day DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#time_of_day}
   */
   readonly timeOfDay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#time_zone DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#time_zone DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -1185,11 +1185,11 @@ export class DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecMaintenanceWindowS
 }
 export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecSecurityGroupRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#namespace DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#namespace DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1314,7 +1314,7 @@ export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecSecurityGroupR
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#from DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#from DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecSecurityGroupRefsFrom;
 }
@@ -1430,11 +1430,11 @@ export class DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecSecurityGroupRefsL
 }
 export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecSubnetRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#namespace DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#namespace DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1559,7 +1559,7 @@ export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecSubnetRefs {
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#from DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#from DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecSubnetRefsFrom;
 }
@@ -1677,19 +1677,19 @@ export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecUsersPassword 
   /**
   * Key is the key within the secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#key DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#key DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#namespace DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#namespace DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1838,21 +1838,21 @@ export class DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecUsersPasswordOutpu
 }
 export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#console_access DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#console_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#console_access DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#console_access}
   */
   readonly consoleAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#groups DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#groups DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#groups}
   */
   readonly groups?: string[];
   /**
   * SecretKeyReference combines a k8s corev1.SecretReference with a specific key within the referred-to Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#password DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#password DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecUsersPassword;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#username DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#username DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -2055,97 +2055,97 @@ export class DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecUsersList extends 
 }
 export interface DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#authentication_strategy DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#authentication_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#authentication_strategy DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#authentication_strategy}
   */
   readonly authenticationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#auto_minor_version_upgrade DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#auto_minor_version_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#auto_minor_version_upgrade DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#auto_minor_version_upgrade}
   */
   readonly autoMinorVersionUpgrade: boolean | cdktf.IResolvable;
   /**
   * A list of information about the configuration. Does not apply to RabbitMQ brokers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#configuration DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#configuration DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#configuration}
   */
   readonly configuration?: DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#creator_request_id DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#creator_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#creator_request_id DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#creator_request_id}
   */
   readonly creatorRequestId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#deployment_mode DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#deployment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#deployment_mode DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#deployment_mode}
   */
   readonly deploymentMode: string;
   /**
   * Does not apply to RabbitMQ brokers. Encryption options for the broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#encryption_options DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#encryption_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#encryption_options DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#encryption_options}
   */
   readonly encryptionOptions?: DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecEncryptionOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#engine_type DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#engine_type DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#engine_type}
   */
   readonly engineType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#engine_version DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#engine_version DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#host_instance_type DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#host_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#host_instance_type DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#host_instance_type}
   */
   readonly hostInstanceType: string;
   /**
   * Optional. The metadata of the LDAP server used to authenticate and authorize connections to the broker. Does not apply to RabbitMQ brokers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#ldap_server_metadata DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#ldap_server_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#ldap_server_metadata DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#ldap_server_metadata}
   */
   readonly ldapServerMetadata?: DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecLdapServerMetadata;
   /**
   * The list of information about logs to be enabled for the specified broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#logs DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#logs DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#logs}
   */
   readonly logs?: DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecLogs;
   /**
   * The scheduled time period relative to UTC during which Amazon MQ begins to apply pending updates or patches to the broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#maintenance_window_start_time DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#maintenance_window_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#maintenance_window_start_time DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#maintenance_window_start_time}
   */
   readonly maintenanceWindowStartTime?: DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecMaintenanceWindowStartTime;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#name DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#publicly_accessible DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#publicly_accessible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#publicly_accessible DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#publicly_accessible}
   */
   readonly publiclyAccessible: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#security_group_refs DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#security_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#security_group_refs DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#security_group_refs}
   */
   readonly securityGroupRefs?: DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecSecurityGroupRefs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#security_groups DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#security_groups DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#storage_type DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#storage_type DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#storage_type}
   */
   readonly storageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#subnet_i_ds DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#subnet_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#subnet_i_ds DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#subnet_i_ds}
   */
   readonly subnetIDs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#subnet_refs DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#subnet_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#subnet_refs DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#subnet_refs}
   */
   readonly subnetRefs?: DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecSubnetRefs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#tags DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#tags DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#users DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#users DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest#users}
   */
   readonly users: DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecUsers[] | cdktf.IResolvable;
 }
@@ -2795,7 +2795,7 @@ export class DataK8SMqServicesK8SAwsBrokerV1Alpha1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest k8s_mq_services_k8s_aws_broker_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest k8s_mq_services_k8s_aws_broker_v1alpha1_manifest}
 */
 export class DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2811,7 +2811,7 @@ export class DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2823,7 +2823,7 @@ export class DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest k8s_mq_services_k8s_aws_broker_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/mq_services_k8s_aws_broker_v1alpha1_manifest k8s_mq_services_k8s_aws_broker_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2834,8 +2834,8 @@ export class DataK8SMqServicesK8SAwsBrokerV1Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_mq_services_k8s_aws_broker_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

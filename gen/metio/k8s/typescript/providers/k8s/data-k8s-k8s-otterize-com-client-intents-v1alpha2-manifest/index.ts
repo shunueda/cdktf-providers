@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#metadata DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#metadata DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestMetadata;
   /**
   * IntentsSpec defines the desired state of ClientIntents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#spec DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#spec DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#annotations DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#annotations DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#labels DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#labels DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#name DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#name DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#namespace DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#namespace DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestMetadataOutputRef
 }
 export interface DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecCallsDatabaseResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#database_name DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#database_name DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#operations DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#operations DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#operations}
   */
   readonly operations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#table DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#table DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#table}
   */
   readonly table?: string;
 }
@@ -396,11 +396,11 @@ export class DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecCallsDatabase
 }
 export interface DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecCallsResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#methods DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#methods DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#methods}
   */
   readonly methods: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#path DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#path DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#path}
   */
   readonly path: string;
 }
@@ -539,11 +539,11 @@ export class DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecCallsResource
 }
 export interface DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecCallsTopics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#name DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#name DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#operations DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#operations DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#operations}
   */
   readonly operations: string[];
 }
@@ -682,23 +682,23 @@ export class DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecCallsTopicsLi
 }
 export interface DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecCalls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#database_resources DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#database_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#database_resources DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#database_resources}
   */
   readonly databaseResources?: DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecCallsDatabaseResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#name DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#name DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#resources DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#resources DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#resources}
   */
   readonly resources?: DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecCallsResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#topics DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#topics DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#topics}
   */
   readonly topics?: DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecCallsTopics[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#type DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#type DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#type}
   */
   readonly type?: string;
 }
@@ -927,7 +927,7 @@ export class DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecCallsList ext
 }
 export interface DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#name DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#name DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#name}
   */
   readonly name: string;
 }
@@ -1018,11 +1018,11 @@ export class DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecServiceOutput
 }
 export interface DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#calls DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#calls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#calls DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#calls}
   */
   readonly calls: DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecCalls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#service DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#service DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest#service}
   */
   readonly service: DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecService;
 }
@@ -1139,7 +1139,7 @@ export class DataK8SK8SOtterizeComClientIntentsV1Alpha2ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest k8s_k8s_otterize_com_client_intents_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest k8s_k8s_otterize_com_client_intents_v1alpha2_manifest}
 */
 export class DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -1155,7 +1155,7 @@ export class DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1167,7 +1167,7 @@ export class DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest k8s_k8s_otterize_com_client_intents_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/k8s_otterize_com_client_intents_v1alpha2_manifest k8s_k8s_otterize_com_client_intents_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1178,8 +1178,8 @@ export class DataK8SK8SOtterizeComClientIntentsV1Alpha2Manifest extends cdktf.Te
       terraformResourceType: 'k8s_k8s_otterize_com_client_intents_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

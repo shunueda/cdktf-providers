@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MonitoringDashboardConfig extends cdktf.TerraformMetaArguments 
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#description MonitoringDashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#description MonitoringDashboard#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#folder_id MonitoringDashboard#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#folder_id MonitoringDashboard#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#id MonitoringDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#id MonitoringDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface MonitoringDashboardConfig extends cdktf.TerraformMetaArguments 
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#labels MonitoringDashboard#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#labels MonitoringDashboard#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#name MonitoringDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#name MonitoringDashboard#name}
   */
   readonly name: string;
   /**
   * Dashboard title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
   */
   readonly title?: string;
   /**
   * parametrization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#parametrization MonitoringDashboard#parametrization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#parametrization MonitoringDashboard#parametrization}
   */
   readonly parametrization?: MonitoringDashboardParametrization[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#timeouts MonitoringDashboard#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#timeouts MonitoringDashboard#timeouts}
   */
   readonly timeouts?: MonitoringDashboardTimeouts;
   /**
   * widgets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#widgets MonitoringDashboard#widgets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#widgets MonitoringDashboard#widgets}
   */
   readonly widgets?: MonitoringDashboardWidgets[] | cdktf.IResolvable;
 }
@@ -67,19 +67,19 @@ export interface MonitoringDashboardParametrizationParametersCustom {
   /**
   * Default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#default_values MonitoringDashboard#default_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#default_values MonitoringDashboard#default_values}
   */
   readonly defaultValues?: string[];
   /**
   * Specifies the multiselectable values of parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#multiselectable MonitoringDashboard#multiselectable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#multiselectable MonitoringDashboard#multiselectable}
   */
   readonly multiselectable?: boolean | cdktf.IResolvable;
   /**
   * Parameter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#values MonitoringDashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#values MonitoringDashboard#values}
   */
   readonly values?: string[];
 }
@@ -255,31 +255,31 @@ export interface MonitoringDashboardParametrizationParametersLabelValues {
   /**
   * Default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#default_values MonitoringDashboard#default_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#default_values MonitoringDashboard#default_values}
   */
   readonly defaultValues?: string[];
   /**
   * Folder ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#folder_id MonitoringDashboard#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#folder_id MonitoringDashboard#folder_id}
   */
   readonly folderId?: string;
   /**
   * Label key to list label values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#label_key MonitoringDashboard#label_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#label_key MonitoringDashboard#label_key}
   */
   readonly labelKey: string;
   /**
   * Specifies the multiselectable values of parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#multiselectable MonitoringDashboard#multiselectable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#multiselectable MonitoringDashboard#multiselectable}
   */
   readonly multiselectable?: boolean | cdktf.IResolvable;
   /**
   * Selectors to select metric label values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#selectors MonitoringDashboard#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#selectors MonitoringDashboard#selectors}
   */
   readonly selectors?: string;
 }
@@ -510,7 +510,7 @@ export interface MonitoringDashboardParametrizationParametersText {
   /**
   * Default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#default_value MonitoringDashboard#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#default_value MonitoringDashboard#default_value}
   */
   readonly defaultValue?: string;
 }
@@ -628,19 +628,19 @@ export interface MonitoringDashboardParametrizationParameters {
   /**
   * Parameter description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#description MonitoringDashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#description MonitoringDashboard#description}
   */
   readonly description?: string;
   /**
   * UI-visibility
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#hidden MonitoringDashboard#hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#hidden MonitoringDashboard#hidden}
   */
   readonly hidden?: boolean | cdktf.IResolvable;
   /**
   * Parameter identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#id MonitoringDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#id MonitoringDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -649,25 +649,25 @@ export interface MonitoringDashboardParametrizationParameters {
   /**
   * UI-visible title of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
   */
   readonly title?: string;
   /**
   * custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#custom MonitoringDashboard#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#custom MonitoringDashboard#custom}
   */
   readonly custom?: MonitoringDashboardParametrizationParametersCustom[] | cdktf.IResolvable;
   /**
   * label_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#label_values MonitoringDashboard#label_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#label_values MonitoringDashboard#label_values}
   */
   readonly labelValues?: MonitoringDashboardParametrizationParametersLabelValues[] | cdktf.IResolvable;
   /**
   * text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#text MonitoringDashboard#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#text MonitoringDashboard#text}
   */
   readonly text?: MonitoringDashboardParametrizationParametersText[] | cdktf.IResolvable;
 }
@@ -956,13 +956,13 @@ export interface MonitoringDashboardParametrization {
   /**
   * Dashboard predefined parameters selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#selectors MonitoringDashboard#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#selectors MonitoringDashboard#selectors}
   */
   readonly selectors?: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#parameters MonitoringDashboard#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#parameters MonitoringDashboard#parameters}
   */
   readonly parameters?: MonitoringDashboardParametrizationParameters[] | cdktf.IResolvable;
 }
@@ -1107,19 +1107,19 @@ export class MonitoringDashboardParametrizationList extends cdktf.ComplexList {
 }
 export interface MonitoringDashboardTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#create MonitoringDashboard#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#create MonitoringDashboard#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#delete MonitoringDashboard#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#delete MonitoringDashboard#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#read MonitoringDashboard#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#read MonitoringDashboard#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#update MonitoringDashboard#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#update MonitoringDashboard#update}
   */
   readonly update?: string;
 }
@@ -1300,13 +1300,13 @@ export class MonitoringDashboardTimeoutsOutputReference extends cdktf.ComplexObj
 }
 export interface MonitoringDashboardWidgetsChartNameHidingSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#names MonitoringDashboard#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#names MonitoringDashboard#names}
   */
   readonly names?: string[];
   /**
   * True if we want to show concrete series names only, false if we want to hide concrete series names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#positive MonitoringDashboard#positive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#positive MonitoringDashboard#positive}
   */
   readonly positive?: boolean | cdktf.IResolvable;
 }
@@ -1453,31 +1453,31 @@ export interface MonitoringDashboardWidgetsChartQueriesDownsampling {
   /**
   * Disable downsampling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#disabled MonitoringDashboard#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#disabled MonitoringDashboard#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Parameters for filling gaps in data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#gap_filling MonitoringDashboard#gap_filling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#gap_filling MonitoringDashboard#gap_filling}
   */
   readonly gapFilling?: string;
   /**
   * Function that is used for downsampling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#grid_aggregation MonitoringDashboard#grid_aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#grid_aggregation MonitoringDashboard#grid_aggregation}
   */
   readonly gridAggregation?: string;
   /**
   * Time interval (grid) for downsampling in milliseconds. Points in the specified range are aggregated into one time point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#grid_interval MonitoringDashboard#grid_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#grid_interval MonitoringDashboard#grid_interval}
   */
   readonly gridInterval?: number;
   /**
   * Maximum number of points to be returned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#max_points MonitoringDashboard#max_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#max_points MonitoringDashboard#max_points}
   */
   readonly maxPoints?: number;
 }
@@ -1711,19 +1711,19 @@ export interface MonitoringDashboardWidgetsChartQueriesTarget {
   /**
   * Checks that target is visible or invisible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#hidden MonitoringDashboard#hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#hidden MonitoringDashboard#hidden}
   */
   readonly hidden?: boolean | cdktf.IResolvable;
   /**
   * Required. Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#query MonitoringDashboard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#query MonitoringDashboard#query}
   */
   readonly query?: string;
   /**
   * Text mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#text_mode MonitoringDashboard#text_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#text_mode MonitoringDashboard#text_mode}
   */
   readonly textMode?: boolean | cdktf.IResolvable;
 }
@@ -1899,13 +1899,13 @@ export interface MonitoringDashboardWidgetsChartQueries {
   /**
   * downsampling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#downsampling MonitoringDashboard#downsampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#downsampling MonitoringDashboard#downsampling}
   */
   readonly downsampling?: MonitoringDashboardWidgetsChartQueriesDownsampling[] | cdktf.IResolvable;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#target MonitoringDashboard#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#target MonitoringDashboard#target}
   */
   readonly target?: MonitoringDashboardWidgetsChartQueriesTarget[] | cdktf.IResolvable;
 }
@@ -2052,37 +2052,37 @@ export interface MonitoringDashboardWidgetsChartSeriesOverridesSettings {
   /**
   * Series color or empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#color MonitoringDashboard#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#color MonitoringDashboard#color}
   */
   readonly color?: string;
   /**
   * Stack grow down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#grow_down MonitoringDashboard#grow_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#grow_down MonitoringDashboard#grow_down}
   */
   readonly growDown?: boolean | cdktf.IResolvable;
   /**
   * Series name or empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#name MonitoringDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#name MonitoringDashboard#name}
   */
   readonly name?: string;
   /**
   * Stack name or empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#stack_name MonitoringDashboard#stack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#stack_name MonitoringDashboard#stack_name}
   */
   readonly stackName?: string;
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#type MonitoringDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#type MonitoringDashboard#type}
   */
   readonly type?: string;
   /**
   * Yaxis position
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#yaxis_position MonitoringDashboard#yaxis_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#yaxis_position MonitoringDashboard#yaxis_position}
   */
   readonly yaxisPosition?: string;
 }
@@ -2345,19 +2345,19 @@ export interface MonitoringDashboardWidgetsChartSeriesOverrides {
   /**
   * Series name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#name MonitoringDashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#name MonitoringDashboard#name}
   */
   readonly name?: string;
   /**
   * Target index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#target_index MonitoringDashboard#target_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#target_index MonitoringDashboard#target_index}
   */
   readonly targetIndex?: string;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#settings MonitoringDashboard#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#settings MonitoringDashboard#settings}
   */
   readonly settings?: MonitoringDashboardWidgetsChartSeriesOverridesSettings[] | cdktf.IResolvable;
 }
@@ -2614,25 +2614,25 @@ export interface MonitoringDashboardWidgetsChartVisualizationSettingsColorScheme
   /**
   * Gradient green value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#green_value MonitoringDashboard#green_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#green_value MonitoringDashboard#green_value}
   */
   readonly greenValue?: string;
   /**
   * Gradient red value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#red_value MonitoringDashboard#red_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#red_value MonitoringDashboard#red_value}
   */
   readonly redValue?: string;
   /**
   * Gradient violet_value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#violet_value MonitoringDashboard#violet_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#violet_value MonitoringDashboard#violet_value}
   */
   readonly violetValue?: string;
   /**
   * Gradient yellow value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#yellow_value MonitoringDashboard#yellow_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#yellow_value MonitoringDashboard#yellow_value}
   */
   readonly yellowValue?: string;
 }
@@ -2918,19 +2918,19 @@ export interface MonitoringDashboardWidgetsChartVisualizationSettingsColorScheme
   /**
   * automatic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#automatic MonitoringDashboard#automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#automatic MonitoringDashboard#automatic}
   */
   readonly automatic?: MonitoringDashboardWidgetsChartVisualizationSettingsColorSchemeSettingsAutomatic[] | cdktf.IResolvable;
   /**
   * gradient block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#gradient MonitoringDashboard#gradient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#gradient MonitoringDashboard#gradient}
   */
   readonly gradient?: MonitoringDashboardWidgetsChartVisualizationSettingsColorSchemeSettingsGradient[] | cdktf.IResolvable;
   /**
   * standard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#standard MonitoringDashboard#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#standard MonitoringDashboard#standard}
   */
   readonly standard?: MonitoringDashboardWidgetsChartVisualizationSettingsColorSchemeSettingsStandard[] | cdktf.IResolvable;
 }
@@ -3106,25 +3106,25 @@ export interface MonitoringDashboardWidgetsChartVisualizationSettingsHeatmapSett
   /**
   * Heatmap green value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#green_value MonitoringDashboard#green_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#green_value MonitoringDashboard#green_value}
   */
   readonly greenValue?: string;
   /**
   * Heatmap red value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#red_value MonitoringDashboard#red_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#red_value MonitoringDashboard#red_value}
   */
   readonly redValue?: string;
   /**
   * Heatmap violet_value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#violet_value MonitoringDashboard#violet_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#violet_value MonitoringDashboard#violet_value}
   */
   readonly violetValue?: string;
   /**
   * Heatmap yellow value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#yellow_value MonitoringDashboard#yellow_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#yellow_value MonitoringDashboard#yellow_value}
   */
   readonly yellowValue?: string;
 }
@@ -3329,37 +3329,37 @@ export interface MonitoringDashboardWidgetsChartVisualizationSettingsYaxisSettin
   /**
   * Max value in extended number format or empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#max MonitoringDashboard#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#max MonitoringDashboard#max}
   */
   readonly max?: string;
   /**
   * Min value in extended number format or empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#min MonitoringDashboard#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#min MonitoringDashboard#min}
   */
   readonly min?: string;
   /**
   * Tick value precision (null as default, 0-7 in other cases)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#precision MonitoringDashboard#precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#precision MonitoringDashboard#precision}
   */
   readonly precision?: number;
   /**
   * Title or empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
   */
   readonly title?: string;
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#type MonitoringDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#type MonitoringDashboard#type}
   */
   readonly type?: string;
   /**
   * Unit format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#unit_format MonitoringDashboard#unit_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#unit_format MonitoringDashboard#unit_format}
   */
   readonly unitFormat?: string;
 }
@@ -3622,37 +3622,37 @@ export interface MonitoringDashboardWidgetsChartVisualizationSettingsYaxisSettin
   /**
   * Max value in extended number format or empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#max MonitoringDashboard#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#max MonitoringDashboard#max}
   */
   readonly max?: string;
   /**
   * Min value in extended number format or empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#min MonitoringDashboard#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#min MonitoringDashboard#min}
   */
   readonly min?: string;
   /**
   * Tick value precision (null as default, 0-7 in other cases)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#precision MonitoringDashboard#precision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#precision MonitoringDashboard#precision}
   */
   readonly precision?: number;
   /**
   * Title or empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
   */
   readonly title?: string;
   /**
   * Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#type MonitoringDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#type MonitoringDashboard#type}
   */
   readonly type?: string;
   /**
   * Unit format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#unit_format MonitoringDashboard#unit_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#unit_format MonitoringDashboard#unit_format}
   */
   readonly unitFormat?: string;
 }
@@ -3915,13 +3915,13 @@ export interface MonitoringDashboardWidgetsChartVisualizationSettingsYaxisSettin
   /**
   * left block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#left MonitoringDashboard#left}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#left MonitoringDashboard#left}
   */
   readonly left?: MonitoringDashboardWidgetsChartVisualizationSettingsYaxisSettingsLeft[] | cdktf.IResolvable;
   /**
   * right block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#right MonitoringDashboard#right}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#right MonitoringDashboard#right}
   */
   readonly right?: MonitoringDashboardWidgetsChartVisualizationSettingsYaxisSettingsRight[] | cdktf.IResolvable;
 }
@@ -4068,55 +4068,55 @@ export interface MonitoringDashboardWidgetsChartVisualizationSettings {
   /**
   * Aggregation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#aggregation MonitoringDashboard#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#aggregation MonitoringDashboard#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Interpolate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#interpolate MonitoringDashboard#interpolate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#interpolate MonitoringDashboard#interpolate}
   */
   readonly interpolate?: string;
   /**
   * Normalize
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#normalize MonitoringDashboard#normalize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#normalize MonitoringDashboard#normalize}
   */
   readonly normalize?: boolean | cdktf.IResolvable;
   /**
   * Show chart labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#show_labels MonitoringDashboard#show_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#show_labels MonitoringDashboard#show_labels}
   */
   readonly showLabels?: boolean | cdktf.IResolvable;
   /**
   * Inside chart title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
   */
   readonly title?: string;
   /**
   * Visualization type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#type MonitoringDashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#type MonitoringDashboard#type}
   */
   readonly type?: string;
   /**
   * color_scheme_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#color_scheme_settings MonitoringDashboard#color_scheme_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#color_scheme_settings MonitoringDashboard#color_scheme_settings}
   */
   readonly colorSchemeSettings?: MonitoringDashboardWidgetsChartVisualizationSettingsColorSchemeSettings[] | cdktf.IResolvable;
   /**
   * heatmap_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#heatmap_settings MonitoringDashboard#heatmap_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#heatmap_settings MonitoringDashboard#heatmap_settings}
   */
   readonly heatmapSettings?: MonitoringDashboardWidgetsChartVisualizationSettingsHeatmapSettings[] | cdktf.IResolvable;
   /**
   * yaxis_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#yaxis_settings MonitoringDashboard#yaxis_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#yaxis_settings MonitoringDashboard#yaxis_settings}
   */
   readonly yaxisSettings?: MonitoringDashboardWidgetsChartVisualizationSettingsYaxisSettings[] | cdktf.IResolvable;
 }
@@ -4466,19 +4466,19 @@ export interface MonitoringDashboardWidgetsChart {
   /**
   * Chart ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#chart_id MonitoringDashboard#chart_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#chart_id MonitoringDashboard#chart_id}
   */
   readonly chartId?: string;
   /**
   * Chart description in dashboard (not enabled in UI).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#description MonitoringDashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#description MonitoringDashboard#description}
   */
   readonly description?: string;
   /**
   * Enable legend under chart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#display_legend MonitoringDashboard#display_legend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#display_legend MonitoringDashboard#display_legend}
   */
   readonly displayLegend?: boolean | cdktf.IResolvable;
   /**
@@ -4489,37 +4489,37 @@ export interface MonitoringDashboardWidgetsChart {
   * - FREEZE_DURATION_MONTH: Last 31 days.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#freeze MonitoringDashboard#freeze}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#freeze MonitoringDashboard#freeze}
   */
   readonly freeze?: string;
   /**
   * Chart widget title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
   */
   readonly title?: string;
   /**
   * name_hiding_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#name_hiding_settings MonitoringDashboard#name_hiding_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#name_hiding_settings MonitoringDashboard#name_hiding_settings}
   */
   readonly nameHidingSettings?: MonitoringDashboardWidgetsChartNameHidingSettings[] | cdktf.IResolvable;
   /**
   * queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#queries MonitoringDashboard#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#queries MonitoringDashboard#queries}
   */
   readonly queries?: MonitoringDashboardWidgetsChartQueries[] | cdktf.IResolvable;
   /**
   * series_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#series_overrides MonitoringDashboard#series_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#series_overrides MonitoringDashboard#series_overrides}
   */
   readonly seriesOverrides?: MonitoringDashboardWidgetsChartSeriesOverrides[] | cdktf.IResolvable;
   /**
   * visualization_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#visualization_settings MonitoringDashboard#visualization_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#visualization_settings MonitoringDashboard#visualization_settings}
   */
   readonly visualizationSettings?: MonitoringDashboardWidgetsChartVisualizationSettings[] | cdktf.IResolvable;
 }
@@ -4869,25 +4869,25 @@ export interface MonitoringDashboardWidgetsPosition {
   /**
   * Height.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#h MonitoringDashboard#h}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#h MonitoringDashboard#h}
   */
   readonly h?: number;
   /**
   * Weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#w MonitoringDashboard#w}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#w MonitoringDashboard#w}
   */
   readonly w?: number;
   /**
   * X-axis top-left corner coordinate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#x MonitoringDashboard#x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#x MonitoringDashboard#x}
   */
   readonly x?: number;
   /**
   * Y-axis top-left corner coordinate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#y MonitoringDashboard#y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#y MonitoringDashboard#y}
   */
   readonly y?: number;
 }
@@ -5092,7 +5092,7 @@ export interface MonitoringDashboardWidgetsText {
   /**
   * Widget text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#text MonitoringDashboard#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#text MonitoringDashboard#text}
   */
   readonly text?: string;
 }
@@ -5216,13 +5216,13 @@ export interface MonitoringDashboardWidgetsTitle {
   * - TITLE_SIZE_L: Large size.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#size MonitoringDashboard#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#size MonitoringDashboard#size}
   */
   readonly size?: string;
   /**
   * Title text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#text MonitoringDashboard#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#text MonitoringDashboard#text}
   */
   readonly text: string;
 }
@@ -5366,25 +5366,25 @@ export interface MonitoringDashboardWidgets {
   /**
   * chart block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#chart MonitoringDashboard#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#chart MonitoringDashboard#chart}
   */
   readonly chart?: MonitoringDashboardWidgetsChart[] | cdktf.IResolvable;
   /**
   * position block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#position MonitoringDashboard#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#position MonitoringDashboard#position}
   */
   readonly position?: MonitoringDashboardWidgetsPosition[] | cdktf.IResolvable;
   /**
   * text block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#text MonitoringDashboard#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#text MonitoringDashboard#text}
   */
   readonly text?: MonitoringDashboardWidgetsText[] | cdktf.IResolvable;
   /**
   * title block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#title MonitoringDashboard#title}
   */
   readonly title?: MonitoringDashboardWidgetsTitle[] | cdktf.IResolvable;
 }
@@ -5587,7 +5587,7 @@ export class MonitoringDashboardWidgetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard yandex_monitoring_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard yandex_monitoring_dashboard}
 */
 export class MonitoringDashboard extends cdktf.TerraformResource {
 
@@ -5603,7 +5603,7 @@ export class MonitoringDashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitoringDashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitoringDashboard to import
-  * @param importFromId The id of the existing MonitoringDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitoringDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitoringDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5615,7 +5615,7 @@ export class MonitoringDashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/monitoring_dashboard yandex_monitoring_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/monitoring_dashboard yandex_monitoring_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5626,8 +5626,8 @@ export class MonitoringDashboard extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_monitoring_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

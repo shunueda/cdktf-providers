@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CdnResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flag to create Resource either in active or disabled state. `True` - the content from CDN is available to clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#active CdnResource#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#active CdnResource#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * CDN endpoint CNAME, must be unique among resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#cname CdnResource#cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#cname CdnResource#cname}
   */
   readonly cname: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#folder_id CdnResource#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#folder_id CdnResource#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#id CdnResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#id CdnResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,68 +35,68 @@ export interface CdnResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#labels CdnResource#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#labels CdnResource#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The ID of a specific origin group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#origin_group_id CdnResource#origin_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#origin_group_id CdnResource#origin_group_id}
   */
   readonly originGroupId?: string;
   /**
   * The name of a specific origin group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#origin_group_name CdnResource#origin_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#origin_group_name CdnResource#origin_group_name}
   */
   readonly originGroupName?: string;
   /**
   * Protocol of origin resource. `http` or `https`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#origin_protocol CdnResource#origin_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#origin_protocol CdnResource#origin_protocol}
   */
   readonly originProtocol?: string;
   /**
   * CDN provider is a content delivery service provider. Possible values: "ourcdn" (default) or "gcore"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#provider_type CdnResource#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#provider_type CdnResource#provider_type}
   */
   readonly providerType?: string;
   /**
   * List of secondary hostname strings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#secondary_hostnames CdnResource#secondary_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#secondary_hostnames CdnResource#secondary_hostnames}
   */
   readonly secondaryHostnames?: string[];
   /**
   * Shielding is a Cloud CDN feature that helps reduce the load on content origins from CDN servers.
   * Specify location id to enable shielding. See https://yandex.cloud/en/docs/cdn/operations/resources/enable-shielding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#shielding CdnResource#shielding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#shielding CdnResource#shielding}
   */
   readonly shielding?: string;
   /**
   * Last update timestamp. Computed value for read and update operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#updated_at CdnResource#updated_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#updated_at CdnResource#updated_at}
   */
   readonly updatedAt?: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#options CdnResource#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#options CdnResource#options}
   */
   readonly options?: CdnResourceOptions;
   /**
   * ssl_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#ssl_certificate CdnResource#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#ssl_certificate CdnResource#ssl_certificate}
   */
   readonly sslCertificate?: CdnResourceSslCertificate;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#timeouts CdnResource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#timeouts CdnResource#timeouts}
   */
   readonly timeouts?: CdnResourceTimeouts;
 }
@@ -104,13 +104,13 @@ export interface CdnResourceOptionsEdgeCacheSettingsCodes {
   /**
   * Caching time for a response with specific codes. These settings have a higher priority than the `value` field. Response code (`304`, `404` for example). Use `any` to specify caching time for all response codes. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#custom_values CdnResource#custom_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#custom_values CdnResource#custom_values}
   */
   readonly customValues?: { [key: string]: number };
   /**
   * Caching time for a response with codes 200, 206, 301, 302. Responses with codes 4xx, 5xx will not be cached. Use `0` disable to caching. Use `custom_values` field to specify a custom caching time for a response with specific codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: number;
 }
@@ -225,13 +225,13 @@ export interface CdnResourceOptionsIpAddressAcl {
   /**
   * The list of specified IP addresses to be allowed or denied depending on acl policy type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
   */
   readonly exceptedValues?: string[];
   /**
   * The policy type for ACL. One of `allow` or `deny` values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
   */
   readonly policyType?: string;
 }
@@ -346,121 +346,121 @@ export interface CdnResourceOptions {
   /**
   * HTTP methods for your CDN content. By default the following methods are allowed: GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS. In case some methods are not allowed to the user, they will get the 405 (Method Not Allowed) response. If the method is not supported, the user gets the 501 (Not Implemented) response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#allowed_http_methods CdnResource#allowed_http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#allowed_http_methods CdnResource#allowed_http_methods}
   */
   readonly allowedHttpMethods?: string[];
   /**
   * Set up a cache period for the end-users browser. Content will be cached due to origin settings. If there are no cache settings on your origin, the content will not be cached. The list of HTTP response codes that can be cached in browsers: 200, 201, 204, 206, 301, 302, 303, 304, 307, 308. Other response codes will not be cached. The default value is 4 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#browser_cache_settings CdnResource#browser_cache_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#browser_cache_settings CdnResource#browser_cache_settings}
   */
   readonly browserCacheSettings?: number;
   /**
   * List HTTP headers that must be included in responses to clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#cache_http_headers CdnResource#cache_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#cache_http_headers CdnResource#cache_http_headers}
   */
   readonly cacheHttpHeaders?: string[];
   /**
   * Parameter that lets browsers get access to selected resources from a domain different to a domain from which the request is received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#cors CdnResource#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#cors CdnResource#cors}
   */
   readonly cors?: string[];
   /**
   * Custom value for the Host header. Your server must be able to process requests with the chosen header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#custom_host_header CdnResource#custom_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#custom_host_header CdnResource#custom_host_header}
   */
   readonly customHostHeader?: string;
   /**
   * Wildcard additional CNAME. If a resource has a wildcard additional CNAME, you can use your own certificate for content delivery via HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#custom_server_name CdnResource#custom_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#custom_server_name CdnResource#custom_server_name}
   */
   readonly customServerName?: string;
   /**
   * Setup a cache status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#disable_cache CdnResource#disable_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#disable_cache CdnResource#disable_cache}
   */
   readonly disableCache?: boolean | cdktf.IResolvable;
   /**
   * Disabling proxy force ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#disable_proxy_force_ranges CdnResource#disable_proxy_force_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#disable_proxy_force_ranges CdnResource#disable_proxy_force_ranges}
   */
   readonly disableProxyForceRanges?: boolean | cdktf.IResolvable;
   /**
   * Content will be cached according to origin cache settings. The value applies for a response with codes 200, 201, 204, 206, 301, 302, 303, 304, 307, 308 if an origin server does not have caching HTTP headers. Responses with other codes will not be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#edge_cache_settings CdnResource#edge_cache_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#edge_cache_settings CdnResource#edge_cache_settings}
   */
   readonly edgeCacheSettings?: number;
   /**
   * Enable access limiting by IP addresses, option available only with setting secure_key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#enable_ip_url_signing CdnResource#enable_ip_url_signing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#enable_ip_url_signing CdnResource#enable_ip_url_signing}
   */
   readonly enableIpUrlSigning?: boolean | cdktf.IResolvable;
   /**
   * Option helps you to reduce the bandwidth between origin and CDN servers. Also, content delivery speed becomes higher because of reducing the time for compressing files in a CDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#fetched_compressed CdnResource#fetched_compressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#fetched_compressed CdnResource#fetched_compressed}
   */
   readonly fetchedCompressed?: boolean | cdktf.IResolvable;
   /**
   * Choose the Forward Host header option if is important to send in the request to the Origin the same Host header as was sent in the request to CDN server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#forward_host_header CdnResource#forward_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#forward_host_header CdnResource#forward_host_header}
   */
   readonly forwardHostHeader?: boolean | cdktf.IResolvable;
   /**
   * GZip compression at CDN servers reduces file size by 70% and can be as high as 90%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#gzip_on CdnResource#gzip_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#gzip_on CdnResource#gzip_on}
   */
   readonly gzipOn?: boolean | cdktf.IResolvable;
   /**
   * Set for ignoring cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#ignore_cookie CdnResource#ignore_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#ignore_cookie CdnResource#ignore_cookie}
   */
   readonly ignoreCookie?: boolean | cdktf.IResolvable;
   /**
   * Files with different query parameters are cached as objects with the same key regardless of the parameter value. selected by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#ignore_query_params CdnResource#ignore_query_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#ignore_query_params CdnResource#ignore_query_params}
   */
   readonly ignoreQueryParams?: boolean | cdktf.IResolvable;
   /**
   * Allows caching for GET, HEAD and POST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#proxy_cache_methods_set CdnResource#proxy_cache_methods_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#proxy_cache_methods_set CdnResource#proxy_cache_methods_set}
   */
   readonly proxyCacheMethodsSet?: boolean | cdktf.IResolvable;
   /**
   * Files with the specified query parameters are cached as objects with the same key, files with other parameters are cached as objects with different keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#query_params_blacklist CdnResource#query_params_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#query_params_blacklist CdnResource#query_params_blacklist}
   */
   readonly queryParamsBlacklist?: string[];
   /**
   * Files with the specified query parameters are cached as objects with different keys, files with other parameters are cached as objects with the same key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#query_params_whitelist CdnResource#query_params_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#query_params_whitelist CdnResource#query_params_whitelist}
   */
   readonly queryParamsWhitelist?: string[];
   /**
   * Set up a redirect from HTTP to HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#redirect_http_to_https CdnResource#redirect_http_to_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#redirect_http_to_https CdnResource#redirect_http_to_https}
   */
   readonly redirectHttpToHttps?: boolean | cdktf.IResolvable;
   /**
   * Set up a redirect from HTTPS to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#redirect_https_to_http CdnResource#redirect_https_to_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#redirect_https_to_http CdnResource#redirect_https_to_http}
   */
   readonly redirectHttpsToHttp?: boolean | cdktf.IResolvable;
   /**
@@ -470,55 +470,55 @@ export interface CdnResourceOptions {
   * `REDIRECT` - Returns a temporary redirect with the 302 code; It is used when a replacement string does not start with "http://", "https://", or "$scheme"
   * `PERMANENT` - Returns a permanent redirect with the 301 code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#rewrite_flag CdnResource#rewrite_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#rewrite_flag CdnResource#rewrite_flag}
   */
   readonly rewriteFlag?: string;
   /**
   * An option for changing or redirecting query paths. The value must have the following format: `<source path> <destination path>`, where both paths are regular expressions which use at least one group. E.g., `/foo/(.*) /bar/$1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#rewrite_pattern CdnResource#rewrite_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#rewrite_pattern CdnResource#rewrite_pattern}
   */
   readonly rewritePattern?: string;
   /**
   * Set secure key for url encoding to protect contect and limit access by IP addresses and time limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#secure_key CdnResource#secure_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#secure_key CdnResource#secure_key}
   */
   readonly secureKey?: string;
   /**
   * Files larger than 10 MB will be requested and cached in parts (no larger than 10 MB each part). It reduces time to first byte. The origin must support HTTP Range requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#slice CdnResource#slice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#slice CdnResource#slice}
   */
   readonly slice?: boolean | cdktf.IResolvable;
   /**
   * List of errors which instruct CDN servers to serve stale content to clients. Possible values: `error`, `http_403`, `http_404`, `http_429`, `http_500`, `http_502`, `http_503`, `http_504`, `invalid_header`, `timeout`, `updating`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#stale CdnResource#stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#stale CdnResource#stale}
   */
   readonly stale?: string[];
   /**
   * Set up custom headers that CDN servers will send in requests to origins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#static_request_headers CdnResource#static_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#static_request_headers CdnResource#static_request_headers}
   */
   readonly staticRequestHeaders?: { [key: string]: string };
   /**
   * Set up a static response header. The header name must be lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#static_response_headers CdnResource#static_response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#static_response_headers CdnResource#static_response_headers}
   */
   readonly staticResponseHeaders?: { [key: string]: string };
   /**
   * edge_cache_settings_codes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#edge_cache_settings_codes CdnResource#edge_cache_settings_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#edge_cache_settings_codes CdnResource#edge_cache_settings_codes}
   */
   readonly edgeCacheSettingsCodes?: CdnResourceOptionsEdgeCacheSettingsCodes;
   /**
   * ip_address_acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#ip_address_acl CdnResource#ip_address_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#ip_address_acl CdnResource#ip_address_acl}
   */
   readonly ipAddressAcl?: CdnResourceOptionsIpAddressAcl;
 }
@@ -1416,13 +1416,13 @@ export interface CdnResourceSslCertificate {
   /**
   * Certificate Manager ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#certificate_manager_id CdnResource#certificate_manager_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#certificate_manager_id CdnResource#certificate_manager_id}
   */
   readonly certificateManagerId?: string;
   /**
   * SSL certificate type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#type CdnResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#type CdnResource#type}
   */
   readonly type: string;
 }
@@ -1537,19 +1537,19 @@ export class CdnResourceSslCertificateOutputReference extends cdktf.ComplexObjec
 }
 export interface CdnResourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#create CdnResource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#create CdnResource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#delete CdnResource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#delete CdnResource#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#read CdnResource#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#read CdnResource#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#update CdnResource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#update CdnResource#update}
   */
   readonly update?: string;
 }
@@ -1730,7 +1730,7 @@ export class CdnResourceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource yandex_cdn_resource}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource yandex_cdn_resource}
 */
 export class CdnResource extends cdktf.TerraformResource {
 
@@ -1746,7 +1746,7 @@ export class CdnResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnResource to import
-  * @param importFromId The id of the existing CdnResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1758,7 +1758,7 @@ export class CdnResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cdn_resource yandex_cdn_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cdn_resource yandex_cdn_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1769,8 +1769,8 @@ export class CdnResource extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_cdn_resource',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

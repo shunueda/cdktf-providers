@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CmCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#deletion_protection CmCertificate#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#deletion_protection CmCertificate#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#description CmCertificate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#description CmCertificate#description}
   */
   readonly description?: string;
   /**
   * Domains for this certificate. Should be specified for managed certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#domains CmCertificate#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#domains CmCertificate#domains}
   */
   readonly domains?: string[];
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#folder_id CmCertificate#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#folder_id CmCertificate#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#id CmCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#id CmCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface CmCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#labels CmCertificate#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#labels CmCertificate#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#name CmCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#name CmCertificate#name}
   */
   readonly name: string;
   /**
   * managed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#managed CmCertificate#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#managed CmCertificate#managed}
   */
   readonly managed?: CmCertificateManaged;
   /**
   * self_managed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#self_managed CmCertificate#self_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#self_managed CmCertificate#self_managed}
   */
   readonly selfManaged?: CmCertificateSelfManaged;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#timeouts CmCertificate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#timeouts CmCertificate#timeouts}
   */
   readonly timeouts?: CmCertificateTimeouts;
 }
@@ -193,7 +193,7 @@ export interface CmCertificateManaged {
   /**
   * Expected number of challenge count needed to validate certificate. Resource creation will fail if the specified value does not match the actual number of challenges received from issue provider. This argument is helpful for safe automatic resource creation for passing challenges for multi-domain certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#challenge_count CmCertificate#challenge_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#challenge_count CmCertificate#challenge_count}
   */
   readonly challengeCount?: number;
   /**
@@ -202,7 +202,7 @@ export interface CmCertificateManaged {
   * * `DNS_TXT` - you will need to create a TXT dns record with specified value.
   * * `HTTP` - you will need to place specified value into specified url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#challenge_type CmCertificate#challenge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#challenge_type CmCertificate#challenge_type}
   */
   readonly challengeType: string;
 }
@@ -314,7 +314,7 @@ export interface CmCertificateSelfManagedPrivateKeyLockboxSecret {
   /**
   * Lockbox secret Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#id CmCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#id CmCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -323,7 +323,7 @@ export interface CmCertificateSelfManagedPrivateKeyLockboxSecret {
   /**
   * Key of the Lockbox secret, the value of which contains the private key of the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#key CmCertificate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#key CmCertificate#key}
   */
   readonly key: string;
 }
@@ -432,19 +432,19 @@ export interface CmCertificateSelfManaged {
   /**
   * Certificate with chain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#certificate CmCertificate#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#certificate CmCertificate#certificate}
   */
   readonly certificate: string;
   /**
   * Private key of certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#private_key CmCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#private_key CmCertificate#private_key}
   */
   readonly privateKey?: string;
   /**
   * private_key_lockbox_secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#private_key_lockbox_secret CmCertificate#private_key_lockbox_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#private_key_lockbox_secret CmCertificate#private_key_lockbox_secret}
   */
   readonly privateKeyLockboxSecret?: CmCertificateSelfManagedPrivateKeyLockboxSecret;
 }
@@ -583,19 +583,19 @@ export class CmCertificateSelfManagedOutputReference extends cdktf.ComplexObject
 }
 export interface CmCertificateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#create CmCertificate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#create CmCertificate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#delete CmCertificate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#delete CmCertificate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#read CmCertificate#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#read CmCertificate#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#update CmCertificate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#update CmCertificate#update}
   */
   readonly update?: string;
 }
@@ -776,7 +776,7 @@ export class CmCertificateTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate yandex_cm_certificate}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate yandex_cm_certificate}
 */
 export class CmCertificate extends cdktf.TerraformResource {
 
@@ -792,7 +792,7 @@ export class CmCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CmCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CmCertificate to import
-  * @param importFromId The id of the existing CmCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CmCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CmCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -804,7 +804,7 @@ export class CmCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/cm_certificate yandex_cm_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/cm_certificate yandex_cm_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -815,8 +815,8 @@ export class CmCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_cm_certificate',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

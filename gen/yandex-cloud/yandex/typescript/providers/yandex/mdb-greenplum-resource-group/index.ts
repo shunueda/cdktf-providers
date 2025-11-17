@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface MdbGreenplumResourceGroupConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the cluster to which resource group belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group#cluster_id MdbGreenplumResourceGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group#cluster_id MdbGreenplumResourceGroup#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The maximum number of concurrent transactions, including active and idle transactions, that are permitted in the resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group#concurrency MdbGreenplumResourceGroup#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group#concurrency MdbGreenplumResourceGroup#concurrency}
   */
   readonly concurrency?: number;
   /**
   * The percentage of CPU resources available to this resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group#cpu_rate_limit MdbGreenplumResourceGroup#cpu_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group#cpu_rate_limit MdbGreenplumResourceGroup#cpu_rate_limit}
   */
   readonly cpuRateLimit?: number;
   /**
   * The percentage of reserved memory resources available to this resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group#memory_limit MdbGreenplumResourceGroup#memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group#memory_limit MdbGreenplumResourceGroup#memory_limit}
   */
   readonly memoryLimit?: number;
   /**
   * The percentage of reserved memory to share across transactions submitted in this resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group#memory_shared_quota MdbGreenplumResourceGroup#memory_shared_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group#memory_shared_quota MdbGreenplumResourceGroup#memory_shared_quota}
   */
   readonly memorySharedQuota?: number;
   /**
   * The memory usage threshold for memory-intensive transactions. When a transaction reaches this threshold, it spills to disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group#memory_spill_ratio MdbGreenplumResourceGroup#memory_spill_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group#memory_spill_ratio MdbGreenplumResourceGroup#memory_spill_ratio}
   */
   readonly memorySpillRatio?: number;
   /**
   * The name of the resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group#name MdbGreenplumResourceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group#name MdbGreenplumResourceGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group#timeouts MdbGreenplumResourceGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group#timeouts MdbGreenplumResourceGroup#timeouts}
   */
   readonly timeouts?: MdbGreenplumResourceGroupTimeouts;
 }
@@ -58,19 +58,19 @@ export interface MdbGreenplumResourceGroupTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group#create MdbGreenplumResourceGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group#create MdbGreenplumResourceGroup#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group#delete MdbGreenplumResourceGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group#delete MdbGreenplumResourceGroup#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group#update MdbGreenplumResourceGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group#update MdbGreenplumResourceGroup#update}
   */
   readonly update?: string;
 }
@@ -222,7 +222,7 @@ export class MdbGreenplumResourceGroupTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group yandex_mdb_greenplum_resource_group}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group yandex_mdb_greenplum_resource_group}
 */
 export class MdbGreenplumResourceGroup extends cdktf.TerraformResource {
 
@@ -238,7 +238,7 @@ export class MdbGreenplumResourceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbGreenplumResourceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbGreenplumResourceGroup to import
-  * @param importFromId The id of the existing MdbGreenplumResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbGreenplumResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbGreenplumResourceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -250,7 +250,7 @@ export class MdbGreenplumResourceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_greenplum_resource_group yandex_mdb_greenplum_resource_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_greenplum_resource_group yandex_mdb_greenplum_resource_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,8 +261,8 @@ export class MdbGreenplumResourceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_greenplum_resource_group',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

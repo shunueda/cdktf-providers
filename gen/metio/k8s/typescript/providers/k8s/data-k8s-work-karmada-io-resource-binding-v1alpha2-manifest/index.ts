@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#metadata DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#metadata DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestMetadata;
   /**
   * Spec represents the desired behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#spec DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#spec DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#spec}
   */
   readonly spec: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#annotations DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#annotations DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#labels DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#labels DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#namespace DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#namespace DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecClusters
   /**
   * Name of target cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Replicas in target cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replicas DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replicas DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -369,7 +369,7 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecFailover
   /**
   * TolerationSeconds represents the period of time Karmada should wait after reaching the desired state before performing failover process. If not specified, Karmada will immediately perform failover process. Defaults to 300s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#toleration_seconds DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#toleration_seconds DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
 }
@@ -465,19 +465,19 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecFailover
   /**
   * DecisionConditions indicates the decision conditions of performing the failover process. Only when all conditions are met can the failover process be performed. Currently, DecisionConditions includes several conditions: - TolerationSeconds (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#decision_conditions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#decision_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#decision_conditions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#decision_conditions}
   */
   readonly decisionConditions: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecFailoverApplicationDecisionConditions;
   /**
   * GracePeriodSeconds is the maximum waiting duration in seconds before application on the migrated cluster should be deleted. Required only when PurgeMode is 'Graciously' and defaults to 600s. If the application on the new cluster cannot reach a Healthy state, Karmada will delete the application after GracePeriodSeconds is reached. Value must be positive integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#grace_period_seconds DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#grace_period_seconds DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#grace_period_seconds}
   */
   readonly gracePeriodSeconds?: number;
   /**
   * PurgeMode represents how to deal with the legacy applications on the cluster from which the application is migrated. Valid options are 'Immediately', 'Graciously' and 'Never'. Defaults to 'Graciously'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#purge_mode DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#purge_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#purge_mode DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#purge_mode}
   */
   readonly purgeMode?: string;
 }
@@ -628,7 +628,7 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecFailover
   /**
   * Application indicates failover behaviors in case of application failure. If this value is nil, failover is disabled. If set, the PropagateDeps should be true so that the dependencies could be migrated along with the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#application DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#application DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#application}
   */
   readonly application?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecFailoverApplication;
 }
@@ -724,49 +724,49 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecGraceful
   /**
   * CreationTimestamp is a timestamp representing the server time when this object was created. Clients should not set this value to avoid the time inconsistency issue. It is represented in RFC3339 form(like '2021-04-25T10:02:10Z') and is in UTC. Populated by the system. Read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#creation_timestamp DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#creation_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#creation_timestamp DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#creation_timestamp}
   */
   readonly creationTimestamp?: string;
   /**
   * FromCluster which cluster the eviction perform from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#from_cluster DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#from_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#from_cluster DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#from_cluster}
   */
   readonly fromCluster: string;
   /**
   * GracePeriodSeconds is the maximum waiting duration in seconds before the item should be deleted. If the application on the new cluster cannot reach a Healthy state, Karmada will delete the item after GracePeriodSeconds is reached. Value must be positive integer. It can not co-exist with SuppressDeletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#grace_period_seconds DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#grace_period_seconds DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#grace_period_seconds}
   */
   readonly gracePeriodSeconds?: number;
   /**
   * Message is a human-readable message indicating details about the eviction. This may be an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#message DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#message DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#message}
   */
   readonly message?: string;
   /**
   * Producer indicates the controller who triggered the eviction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#producer DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#producer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#producer DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#producer}
   */
   readonly producer: string;
   /**
   * Reason contains a programmatic identifier indicating the reason for the eviction. Producers may define expected values and meanings for this field, and whether the values are considered a guaranteed API. The value should be a CamelCase string. This field may not be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#reason DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#reason DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#reason}
   */
   readonly reason: string;
   /**
   * Replicas indicates the number of replicas should be evicted. Should be ignored for resource type that doesn't have replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replicas DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replicas DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * SuppressDeletion represents the grace period will be persistent until the tools or human intervention stops it. It can not co-exist with GracePeriodSeconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#suppress_deletion DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#suppress_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#suppress_deletion DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#suppress_deletion}
   */
   readonly suppressDeletion?: boolean | cdktf.IResolvable;
 }
@@ -1078,19 +1078,19 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1260,7 +1260,7 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * A list of field selector requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementClusterAffinitiesFieldSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -1356,19 +1356,19 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1538,13 +1538,13 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementClusterAffinitiesLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_labels DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_labels DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1669,31 +1669,31 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * AffinityName is the name of the cluster group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#affinity_name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#affinity_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#affinity_name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#affinity_name}
   */
   readonly affinityName: string;
   /**
   * ClusterNames is the list of clusters to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_names DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_names DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_names}
   */
   readonly clusterNames?: string[];
   /**
   * ExcludedClusters is the list of clusters to be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#exclude DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#exclude DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#exclude}
   */
   readonly exclude?: string[];
   /**
   * FieldSelector is a filter to select member clusters by fields. The key(field) of the match expression should be 'provider', 'region', or 'zone', and the operator of the match expression should be 'In' or 'NotIn'. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#field_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#field_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#field_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#field_selector}
   */
   readonly fieldSelector?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementClusterAffinitiesFieldSelector;
   /**
   * LabelSelector is a filter to select member clusters by labels. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#label_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#label_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementClusterAffinitiesLabelSelector;
 }
@@ -1924,19 +1924,19 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2106,7 +2106,7 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * A list of field selector requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementClusterAffinityFieldSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -2202,19 +2202,19 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2384,13 +2384,13 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementClusterAffinityLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_labels DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_labels DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2515,25 +2515,25 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * ClusterNames is the list of clusters to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_names DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_names DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_names}
   */
   readonly clusterNames?: string[];
   /**
   * ExcludedClusters is the list of clusters to be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#exclude DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#exclude DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#exclude}
   */
   readonly exclude?: string[];
   /**
   * FieldSelector is a filter to select member clusters by fields. The key(field) of the match expression should be 'provider', 'region', or 'zone', and the operator of the match expression should be 'In' or 'NotIn'. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#field_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#field_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#field_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#field_selector}
   */
   readonly fieldSelector?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementClusterAffinityFieldSelector;
   /**
   * LabelSelector is a filter to select member clusters by labels. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#label_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#label_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementClusterAffinityLabelSelector;
 }
@@ -2716,31 +2716,31 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#effect DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#effect DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#toleration_seconds DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#toleration_seconds DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#value DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#value DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#value}
   */
   readonly value?: string;
 }
@@ -2974,19 +2974,19 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3156,7 +3156,7 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * A list of field selector requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementReplicaSchedulingWeightPreferenceStaticWeightListTargetClusterFieldSelectorMatchExpressions[] | cdktf.IResolvable;
 }
@@ -3252,19 +3252,19 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3434,13 +3434,13 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementReplicaSchedulingWeightPreferenceStaticWeightListTargetClusterLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_labels DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_labels DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3565,25 +3565,25 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * ClusterNames is the list of clusters to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_names DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_names DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_names}
   */
   readonly clusterNames?: string[];
   /**
   * ExcludedClusters is the list of clusters to be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#exclude DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#exclude DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#exclude}
   */
   readonly exclude?: string[];
   /**
   * FieldSelector is a filter to select member clusters by fields. The key(field) of the match expression should be 'provider', 'region', or 'zone', and the operator of the match expression should be 'In' or 'NotIn'. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#field_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#field_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#field_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#field_selector}
   */
   readonly fieldSelector?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementReplicaSchedulingWeightPreferenceStaticWeightListTargetClusterFieldSelector;
   /**
   * LabelSelector is a filter to select member clusters by labels. If non-nil and non-empty, only the clusters match this filter will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#label_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#label_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementReplicaSchedulingWeightPreferenceStaticWeightListTargetClusterLabelSelector;
 }
@@ -3766,13 +3766,13 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * TargetCluster describes the filter to select clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#target_cluster DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#target_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#target_cluster DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#target_cluster}
   */
   readonly targetCluster: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementReplicaSchedulingWeightPreferenceStaticWeightListTargetCluster;
   /**
   * Weight expressing the preference to the cluster(s) specified by 'TargetCluster'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#weight DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#weight DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3913,13 +3913,13 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * DynamicWeight specifies the factor to generates dynamic weight list. If specified, StaticWeightList will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#dynamic_weight DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#dynamic_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#dynamic_weight DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#dynamic_weight}
   */
   readonly dynamicWeight?: string;
   /**
   * StaticWeightList defines the static cluster weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#static_weight_list DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#static_weight_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#static_weight_list DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#static_weight_list}
   */
   readonly staticWeightList?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementReplicaSchedulingWeightPreferenceStaticWeightListStruct[] | cdktf.IResolvable;
 }
@@ -4044,19 +4044,19 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * ReplicaDivisionPreference determines how the replicas is divided when ReplicaSchedulingType is 'Divided'. Valid options are Aggregated and Weighted. 'Aggregated' divides replicas into clusters as few as possible, while respecting clusters' resource availabilities during the division. 'Weighted' divides replicas by weight according to WeightPreference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replica_division_preference DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replica_division_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replica_division_preference DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replica_division_preference}
   */
   readonly replicaDivisionPreference?: string;
   /**
   * ReplicaSchedulingType determines how the replicas is scheduled when karmada propagating a resource. Valid options are Duplicated and Divided. 'Duplicated' duplicates the same replicas to each candidate member cluster from resource. 'Divided' divides replicas into parts according to number of valid candidate member clusters, and exact replicas for each cluster are determined by ReplicaDivisionPreference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replica_scheduling_type DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replica_scheduling_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replica_scheduling_type DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replica_scheduling_type}
   */
   readonly replicaSchedulingType?: string;
   /**
   * WeightPreference describes weight for each cluster or for each group of cluster If ReplicaDivisionPreference is set to 'Weighted', and WeightPreference is not set, scheduler will weight all clusters the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#weight_preference DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#weight_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#weight_preference DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#weight_preference}
   */
   readonly weightPreference?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementReplicaSchedulingWeightPreference;
 }
@@ -4210,25 +4210,25 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * MaxGroups restricts the maximum number of cluster groups to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#max_groups DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#max_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#max_groups DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#max_groups}
   */
   readonly maxGroups?: number;
   /**
   * MinGroups restricts the minimum number of cluster groups to be selected. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#min_groups DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#min_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#min_groups DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#min_groups}
   */
   readonly minGroups?: number;
   /**
   * SpreadByField represents the fields on Karmada cluster API used for dynamically grouping member clusters into different groups. Resources will be spread among different cluster groups. Available fields for spreading are: cluster, region, zone, and provider. SpreadByField should not co-exist with SpreadByLabel. If both SpreadByField and SpreadByLabel are empty, SpreadByField will be set to 'cluster' by system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#spread_by_field DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#spread_by_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#spread_by_field DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#spread_by_field}
   */
   readonly spreadByField?: string;
   /**
   * SpreadByLabel represents the label key used for grouping member clusters into different groups. Resources will be spread among different cluster groups. SpreadByLabel should not co-exist with SpreadByField.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#spread_by_label DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#spread_by_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#spread_by_label DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#spread_by_label}
   */
   readonly spreadByLabel?: string;
 }
@@ -4433,31 +4433,31 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacemen
   /**
   * ClusterAffinities represents scheduling restrictions to multiple cluster groups that indicated by ClusterAffinityTerm. The scheduler will evaluate these groups one by one in the order they appear in the spec, the group that does not satisfy scheduling restrictions will be ignored which means all clusters in this group will not be selected unless it also belongs to the next group(a cluster could belong to multiple groups). If none of the groups satisfy the scheduling restrictions, then scheduling fails, which means no cluster will be selected. Note: 1. ClusterAffinities can not co-exist with ClusterAffinity. 2. If both ClusterAffinity and ClusterAffinities are not set, any cluster can be scheduling candidates. Potential use case 1: The private clusters in the local data center could be the main group, and the managed clusters provided by cluster providers could be the secondary group. So that the Karmada scheduler would prefer to schedule workloads to the main group and the second group will only be considered in case of the main group does not satisfy restrictions(like, lack of resources). Potential use case 2: For the disaster recovery scenario, the clusters could be organized to primary and backup groups, the workloads would be scheduled to primary clusters firstly, and when primary cluster fails(like data center power off), Karmada scheduler could migrate workloads to the backup clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_affinities DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_affinities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_affinities DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_affinities}
   */
   readonly clusterAffinities?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementClusterAffinities[] | cdktf.IResolvable;
   /**
   * ClusterAffinity represents scheduling restrictions to a certain set of clusters. Note: 1. ClusterAffinity can not co-exist with ClusterAffinities. 2. If both ClusterAffinity and ClusterAffinities are not set, any cluster can be scheduling candidates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_affinity DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_affinity DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_affinity}
   */
   readonly clusterAffinity?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementClusterAffinity;
   /**
   * ClusterTolerations represents the tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_tolerations DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_tolerations DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_tolerations}
   */
   readonly clusterTolerations?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementClusterTolerations[] | cdktf.IResolvable;
   /**
   * ReplicaScheduling represents the scheduling policy on dealing with the number of replicas when propagating resources that have replicas in spec (e.g. deployments, statefulsets) to member clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replica_scheduling DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replica_scheduling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replica_scheduling DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replica_scheduling}
   */
   readonly replicaScheduling?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementReplicaScheduling;
   /**
   * SpreadConstraints represents a list of the scheduling constraints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#spread_constraints DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#spread_constraints DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#spread_constraints}
   */
   readonly spreadConstraints?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacementSpreadConstraints[] | cdktf.IResolvable;
 }
@@ -4669,19 +4669,19 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaR
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4851,19 +4851,19 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaR
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#values DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5033,13 +5033,13 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaR
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_expressions DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaRequirementsNodeClaimHardNodeAffinityNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_fields DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#match_fields DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaRequirementsNodeClaimHardNodeAffinityNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -5186,7 +5186,7 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaR
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#node_selector_terms DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#node_selector_terms DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaRequirementsNodeClaimHardNodeAffinityNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -5279,31 +5279,31 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaR
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#effect DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#effect DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#key DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#operator DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#toleration_seconds DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#toleration_seconds DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#value DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#value DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#value}
   */
   readonly value?: string;
 }
@@ -5537,19 +5537,19 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaR
   /**
   * A node selector represents the union of the results of one or more label queries over a set of nodes; that is, it represents the OR of the selectors represented by the node selector terms. Note that only PodSpec.Affinity.NodeAffinity.RequiredDuringSchedulingIgnoredDuringExecution is included here because it has a hard limit on pod scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#hard_node_affinity DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#hard_node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#hard_node_affinity DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#hard_node_affinity}
   */
   readonly hardNodeAffinity?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaRequirementsNodeClaimHardNodeAffinity;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#node_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#node_selector DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#tolerations DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#tolerations DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#tolerations}
   */
   readonly tolerations?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaRequirementsNodeClaimTolerations[] | cdktf.IResolvable;
 }
@@ -5703,25 +5703,25 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaR
   /**
   * Namespace represents the resources namespaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#namespace DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#namespace DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * NodeClaim represents the node claim HardNodeAffinity, NodeSelector and Tolerations required by each replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#node_claim DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#node_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#node_claim DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#node_claim}
   */
   readonly nodeClaim?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaRequirementsNodeClaim;
   /**
   * PriorityClassName represents the resources priorityClassName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#priority_class_name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#priority_class_name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * ResourceRequest represents the resources required by each replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#resource_request DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#resource_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#resource_request DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#resource_request}
   */
   readonly resourceRequest?: { [key: string]: string };
 }
@@ -5904,13 +5904,13 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecRequired
   /**
   * Name of target cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Replicas in target cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replicas DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replicas DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -6054,19 +6054,19 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecRequired
   /**
   * Clusters represents the scheduled result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#clusters DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#clusters DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#clusters}
   */
   readonly clusters?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecRequiredByClusters[] | cdktf.IResolvable;
   /**
   * Name represents the name of the Binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace represents the namespace of the Binding. It is required for ResourceBinding. If Namespace is not specified, means the referencing is ClusterResourceBinding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#namespace DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#namespace DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6239,37 +6239,37 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecResource
   /**
   * APIVersion represents the API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#api_version DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#api_version DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Kind represents the Kind of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#kind DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#kind DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name represents the name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace represents the namespace for the referent. For non-namespace scoped resources(e.g. 'ClusterRole')，do not need specify Namespace, and for namespace scoped resources, Namespace is required. If Namespace is not specified, means the resource is non-namespace scoped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#namespace DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#namespace DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ResourceVersion represents the internal version of the referenced object, that can be used by clients to determine when object has changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#resource_version DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#resource_version DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#uid DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#uid DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -6501,7 +6501,7 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecSuspensi
   /**
   * ClusterNames is the list of clusters to be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_names DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#cluster_names DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#cluster_names}
   */
   readonly clusterNames?: string[];
 }
@@ -6597,13 +6597,13 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecSuspensi
   /**
   * Dispatching controls whether dispatching should be suspended. nil means not suspend, no default value, only accepts 'true'. Note: true means stop propagating to all clusters. Can not co-exist with DispatchingOnClusters which is used to suspend particular clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#dispatching DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#dispatching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#dispatching DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#dispatching}
   */
   readonly dispatching?: boolean | cdktf.IResolvable;
   /**
   * DispatchingOnClusters declares a list of clusters to which the dispatching should be suspended. Note: Can not co-exist with Dispatching which is used to suspend all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#dispatching_on_clusters DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#dispatching_on_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#dispatching_on_clusters DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#dispatching_on_clusters}
   */
   readonly dispatchingOnClusters?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecSuspensionDispatchingOnClusters;
 }
@@ -6728,85 +6728,85 @@ export interface DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpec {
   /**
   * Clusters represents target member clusters where the resource to be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#clusters DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#clusters DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#clusters}
   */
   readonly clusters?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecClusters[] | cdktf.IResolvable;
   /**
   * ConflictResolution declares how potential conflict should be handled when a resource that is being propagated already exists in the target cluster. It defaults to 'Abort' which means stop propagating to avoid unexpected overwrites. The 'Overwrite' might be useful when migrating legacy cluster resources to Karmada, in which case conflict is predictable and can be instructed to Karmada take over the resource by overwriting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#conflict_resolution DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#conflict_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#conflict_resolution DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#conflict_resolution}
   */
   readonly conflictResolution?: string;
   /**
   * Failover indicates how Karmada migrates applications in case of failures. It inherits directly from the associated PropagationPolicy(or ClusterPropagationPolicy).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#failover DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#failover DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#failover}
   */
   readonly failover?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecFailover;
   /**
   * GracefulEvictionTasks holds the eviction tasks that are expected to perform the eviction in a graceful way. The intended workflow is: 1. Once the controller(such as 'taint-manager') decided to evict the resource that is referenced by current ResourceBinding or ClusterResourceBinding from a target cluster, it removes(or scale down the replicas) the target from Clusters(.spec.Clusters) and builds a graceful eviction task. 2. The scheduler may perform a re-scheduler and probably select a substitute cluster to take over the evicting workload(resource). 3. The graceful eviction controller takes care of the graceful eviction tasks and performs the final removal after the workload(resource) is available on the substitute cluster or exceed the grace termination period(defaults to 10 minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#graceful_eviction_tasks DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#graceful_eviction_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#graceful_eviction_tasks DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#graceful_eviction_tasks}
   */
   readonly gracefulEvictionTasks?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecGracefulEvictionTasks[] | cdktf.IResolvable;
   /**
   * Placement represents the rule for select clusters to propagate resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#placement DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#placement DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#placement}
   */
   readonly placement?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecPlacement;
   /**
   * PreserveResourcesOnDeletion controls whether resources should be preserved on the member clusters when the binding object is deleted. If set to true, resources will be preserved on the member clusters. Default is false, which means resources will be deleted along with the binding object. This setting applies to all Work objects created under this binding object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#preserve_resources_on_deletion DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#preserve_resources_on_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#preserve_resources_on_deletion DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#preserve_resources_on_deletion}
   */
   readonly preserveResourcesOnDeletion?: boolean | cdktf.IResolvable;
   /**
   * PropagateDeps tells if relevant resources should be propagated automatically. It is inherited from PropagationPolicy or ClusterPropagationPolicy. default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#propagate_deps DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#propagate_deps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#propagate_deps DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#propagate_deps}
   */
   readonly propagateDeps?: boolean | cdktf.IResolvable;
   /**
   * ReplicaRequirements represents the requirements required by each replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replica_requirements DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replica_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replica_requirements DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replica_requirements}
   */
   readonly replicaRequirements?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecReplicaRequirements;
   /**
   * Replicas represents the replica number of the referencing resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replicas DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#replicas DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * RequiredBy represents the list of Bindings that depend on the referencing resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#required_by DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#required_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#required_by DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#required_by}
   */
   readonly requiredBy?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecRequiredBy[] | cdktf.IResolvable;
   /**
   * RescheduleTriggeredAt is a timestamp representing when the referenced resource is triggered rescheduling. When this field is updated, it means a rescheduling is manually triggered by user, and the expected behavior of this action is to do a complete recalculation without referring to last scheduling results. It works with the status.lastScheduledTime field, and only when this timestamp is later than timestamp in status.lastScheduledTime will the rescheduling actually execute, otherwise, ignored. It is represented in RFC3339 form (like '2006-01-02T15:04:05Z') and is in UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#reschedule_triggered_at DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#reschedule_triggered_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#reschedule_triggered_at DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#reschedule_triggered_at}
   */
   readonly rescheduleTriggeredAt?: string;
   /**
   * Resource represents the Kubernetes resource to be propagated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#resource DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#resource DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#resource}
   */
   readonly resource: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecResource;
   /**
   * SchedulerName represents which scheduler to proceed the scheduling. It inherits directly from the associated PropagationPolicy(or ClusterPropagationPolicy).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#scheduler_name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#scheduler_name DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
   * Suspension declares the policy for suspending different aspects of propagation. nil means no suspension. no default values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#suspension DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#suspension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#suspension DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest#suspension}
   */
   readonly suspension?: DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecSuspension;
 }
@@ -7274,7 +7274,7 @@ export class DataK8SWorkKarmadaIoResourceBindingV1Alpha2ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest k8s_work_karmada_io_resource_binding_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest k8s_work_karmada_io_resource_binding_v1alpha2_manifest}
 */
 export class DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -7290,7 +7290,7 @@ export class DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7302,7 +7302,7 @@ export class DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest k8s_work_karmada_io_resource_binding_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/work_karmada_io_resource_binding_v1alpha2_manifest k8s_work_karmada_io_resource_binding_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7313,8 +7313,8 @@ export class DataK8SWorkKarmadaIoResourceBindingV1Alpha2Manifest extends cdktf.T
       terraformResourceType: 'k8s_work_karmada_io_resource_binding_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

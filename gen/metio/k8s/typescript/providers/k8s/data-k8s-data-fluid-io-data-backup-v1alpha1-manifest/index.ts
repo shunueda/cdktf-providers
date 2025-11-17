@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDataFluidIoDataBackupV1Alpha1ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#metadata DataK8SDataFluidIoDataBackupV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#metadata DataK8SDataFluidIoDataBackupV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDataFluidIoDataBackupV1Alpha1ManifestMetadata;
   /**
   * DataBackupSpec defines the desired state of DataBackup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#spec DataK8SDataFluidIoDataBackupV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#spec DataK8SDataFluidIoDataBackupV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDataFluidIoDataBackupV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#annotations DataK8SDataFluidIoDataBackupV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#annotations DataK8SDataFluidIoDataBackupV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#labels DataK8SDataFluidIoDataBackupV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#labels DataK8SDataFluidIoDataBackupV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#name DataK8SDataFluidIoDataBackupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#name DataK8SDataFluidIoDataBackupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#namespace DataK8SDataFluidIoDataBackupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#namespace DataK8SDataFluidIoDataBackupV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAfterAffinit
   /**
   * API version of the referent operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#api_version DataK8SDataFluidIoDataBackupV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#api_version DataK8SDataFluidIoDataBackupV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind specifies the type of the referent operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#kind DataK8SDataFluidIoDataBackupV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#kind DataK8SDataFluidIoDataBackupV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name specifies the name of the referent operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#name DataK8SDataFluidIoDataBackupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#name DataK8SDataFluidIoDataBackupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace specifies the namespace of the referent operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#namespace DataK8SDataFluidIoDataBackupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#namespace DataK8SDataFluidIoDataBackupV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -412,11 +412,11 @@ export class DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAfterAffinityStr
 }
 export interface DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAfterAffinityStrategyPrefers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#name DataK8SDataFluidIoDataBackupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#name DataK8SDataFluidIoDataBackupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#weight DataK8SDataFluidIoDataBackupV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#weight DataK8SDataFluidIoDataBackupV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -555,7 +555,7 @@ export class DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAfterAffinityStr
 }
 export interface DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAfterAffinityStrategyRequires {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#name DataK8SDataFluidIoDataBackupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#name DataK8SDataFluidIoDataBackupV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -670,21 +670,21 @@ export interface DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAfterAffinit
   /**
   * Specifies the dependent preceding operation in a workflow. If not set, use the operation referred to by RunAfter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#depend_on DataK8SDataFluidIoDataBackupV1Alpha1Manifest#depend_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#depend_on DataK8SDataFluidIoDataBackupV1Alpha1Manifest#depend_on}
   */
   readonly dependOn?: DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAfterAffinityStrategyDependOn;
   /**
   * Policy one of: '', 'Require', 'Prefer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#policy DataK8SDataFluidIoDataBackupV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#policy DataK8SDataFluidIoDataBackupV1Alpha1Manifest#policy}
   */
   readonly policy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#prefers DataK8SDataFluidIoDataBackupV1Alpha1Manifest#prefers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#prefers DataK8SDataFluidIoDataBackupV1Alpha1Manifest#prefers}
   */
   readonly prefers?: DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAfterAffinityStrategyPrefers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#requires DataK8SDataFluidIoDataBackupV1Alpha1Manifest#requires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#requires DataK8SDataFluidIoDataBackupV1Alpha1Manifest#requires}
   */
   readonly requires?: DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAfterAffinityStrategyRequires[] | cdktf.IResolvable;
 }
@@ -867,31 +867,31 @@ export interface DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAfter {
   /**
   * AffinityStrategy specifies the pod affinity strategy with the referent operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#affinity_strategy DataK8SDataFluidIoDataBackupV1Alpha1Manifest#affinity_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#affinity_strategy DataK8SDataFluidIoDataBackupV1Alpha1Manifest#affinity_strategy}
   */
   readonly affinityStrategy?: DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAfterAffinityStrategy;
   /**
   * API version of the referent operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#api_version DataK8SDataFluidIoDataBackupV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#api_version DataK8SDataFluidIoDataBackupV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind specifies the type of the referent operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#kind DataK8SDataFluidIoDataBackupV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#kind DataK8SDataFluidIoDataBackupV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name specifies the name of the referent operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#name DataK8SDataFluidIoDataBackupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#name DataK8SDataFluidIoDataBackupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace specifies the namespace of the referent operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#namespace DataK8SDataFluidIoDataBackupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#namespace DataK8SDataFluidIoDataBackupV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1097,25 +1097,25 @@ export interface DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAs {
   /**
   * The gid to run the alluxio runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#gid DataK8SDataFluidIoDataBackupV1Alpha1Manifest#gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#gid DataK8SDataFluidIoDataBackupV1Alpha1Manifest#gid}
   */
   readonly gid: number;
   /**
   * The group name to run the alluxio runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#group DataK8SDataFluidIoDataBackupV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#group DataK8SDataFluidIoDataBackupV1Alpha1Manifest#group}
   */
   readonly group: string;
   /**
   * The uid to run the alluxio runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#uid DataK8SDataFluidIoDataBackupV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#uid DataK8SDataFluidIoDataBackupV1Alpha1Manifest#uid}
   */
   readonly uid: number;
   /**
   * The user name to run the alluxio runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#user DataK8SDataFluidIoDataBackupV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#user DataK8SDataFluidIoDataBackupV1Alpha1Manifest#user}
   */
   readonly user: string;
 }
@@ -1286,31 +1286,31 @@ export interface DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpec {
   /**
   * BackupPath defines the target path to save data of the DataBackup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#backup_path DataK8SDataFluidIoDataBackupV1Alpha1Manifest#backup_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#backup_path DataK8SDataFluidIoDataBackupV1Alpha1Manifest#backup_path}
   */
   readonly backupPath?: string;
   /**
   * Dataset defines the target dataset of the DataBackup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#dataset DataK8SDataFluidIoDataBackupV1Alpha1Manifest#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#dataset DataK8SDataFluidIoDataBackupV1Alpha1Manifest#dataset}
   */
   readonly dataset?: string;
   /**
   * Specifies that the preceding operation in a workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#run_after DataK8SDataFluidIoDataBackupV1Alpha1Manifest#run_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#run_after DataK8SDataFluidIoDataBackupV1Alpha1Manifest#run_after}
   */
   readonly runAfter?: DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAfter;
   /**
   * Manage the user to run Alluxio DataBackup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#run_as DataK8SDataFluidIoDataBackupV1Alpha1Manifest#run_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#run_as DataK8SDataFluidIoDataBackupV1Alpha1Manifest#run_as}
   */
   readonly runAs?: DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecRunAs;
   /**
   * TTLSecondsAfterFinished is the time second to clean up data operations after finished or failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#ttl_seconds_after_finished DataK8SDataFluidIoDataBackupV1Alpha1Manifest#ttl_seconds_after_finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#ttl_seconds_after_finished DataK8SDataFluidIoDataBackupV1Alpha1Manifest#ttl_seconds_after_finished}
   */
   readonly ttlSecondsAfterFinished?: number;
 }
@@ -1520,7 +1520,7 @@ export class DataK8SDataFluidIoDataBackupV1Alpha1ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest k8s_data_fluid_io_data_backup_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest k8s_data_fluid_io_data_backup_v1alpha1_manifest}
 */
 export class DataK8SDataFluidIoDataBackupV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1536,7 +1536,7 @@ export class DataK8SDataFluidIoDataBackupV1Alpha1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SDataFluidIoDataBackupV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDataFluidIoDataBackupV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDataFluidIoDataBackupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDataFluidIoDataBackupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDataFluidIoDataBackupV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1548,7 +1548,7 @@ export class DataK8SDataFluidIoDataBackupV1Alpha1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest k8s_data_fluid_io_data_backup_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/data_fluid_io_data_backup_v1alpha1_manifest k8s_data_fluid_io_data_backup_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1559,8 +1559,8 @@ export class DataK8SDataFluidIoDataBackupV1Alpha1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_data_fluid_io_data_backup_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

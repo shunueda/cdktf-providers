@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp
+// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface StorageSftpConfig extends cdktf.TerraformMetaArguments {
   /**
   * An client id of new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#client_id StorageSftp#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#client_id StorageSftp#client_id}
   */
   readonly clientId?: number;
   /**
   * A http sftp entry point for new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#generated_http_endpoint StorageSftp#generated_http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#generated_http_endpoint StorageSftp#generated_http_endpoint}
   */
   readonly generatedHttpEndpoint?: string;
   /**
   * An auto generated sftp password for new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#generated_password StorageSftp#generated_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#generated_password StorageSftp#generated_password}
   */
   readonly generatedPassword?: boolean | cdktf.IResolvable;
   /**
   * A ssh sftp entry point for new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#generated_sftp_endpoint StorageSftp#generated_sftp_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#generated_sftp_endpoint StorageSftp#generated_sftp_endpoint}
   */
   readonly generatedSftpEndpoint?: string;
   /**
   * A expires date of storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#http_expires_header_value StorageSftp#http_expires_header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#http_expires_header_value StorageSftp#http_expires_header_value}
   */
   readonly httpExpiresHeaderValue?: string;
   /**
   * An alias of storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#http_servername_alias StorageSftp#http_servername_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#http_servername_alias StorageSftp#http_servername_alias}
   */
   readonly httpServernameAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#id StorageSftp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#id StorageSftp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,43 +53,43 @@ export interface StorageSftpConfig extends cdktf.TerraformMetaArguments {
   /**
   * A location of new storage resource. One of (ams, sin, fra, mia)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#location StorageSftp#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#location StorageSftp#location}
   */
   readonly location: string;
   /**
   * A name of new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#name StorageSftp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#name StorageSftp#name}
   */
   readonly name: string;
   /**
   * A sftp password for new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#password StorageSftp#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#password StorageSftp#password}
   */
   readonly password?: string;
   /**
   * An ssh keys IDs to link with new sftp storage resource only. https://storage.gcore.com/ssh-key/list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#ssh_key_id StorageSftp#ssh_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#ssh_key_id StorageSftp#ssh_key_id}
   */
   readonly sshKeyId?: number[];
   /**
   * An id of new storage resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#storage_id StorageSftp#storage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#storage_id StorageSftp#storage_id}
   */
   readonly storageId?: number;
   /**
   * A temporary flag. An internal cheat, to skip update ssh keys. Skip it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#update_after_create StorageSftp#update_after_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#update_after_create StorageSftp#update_after_create}
   */
   readonly updateAfterCreate?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp gcore_storage_sftp}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp gcore_storage_sftp}
 */
 export class StorageSftp extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class StorageSftp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StorageSftp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StorageSftp to import
-  * @param importFromId The id of the existing StorageSftp that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StorageSftp that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StorageSftp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class StorageSftp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/storage_sftp gcore_storage_sftp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/storage_sftp gcore_storage_sftp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class StorageSftp extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_storage_sftp',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.3',
-        providerVersionConstraint: '0.31.3'
+        providerVersion: '0.31.4',
+        providerVersionConstraint: '0.31.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "instaclustr": "2.1.26"
+    "instaclustr": "2.1.28"
   }
 }

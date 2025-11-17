@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#metadata DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#metadata DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestMetadata;
   /**
   * ReleaserSpec defines the desired state of Releaser
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#spec DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#spec DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#annotations DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#annotations DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#labels DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#labels DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#name DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#name DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#namespace DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#namespace DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,33 +219,33 @@ export interface DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpecGitOpsRepo
   /**
   * Action indicates the action once the request phase to be ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#action DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#action DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#address DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#address DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#branch DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#branch DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#branch}
   */
   readonly branch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#message DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#message DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#name DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#name DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Provider represents a git provider, such as: GitHub, Gitlab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#provider DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#provider DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#version DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#version DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -512,13 +512,13 @@ export interface DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpecGitOpsSecr
   /**
   * Name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#name DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#name DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#namespace DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#namespace DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -641,19 +641,19 @@ export class DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpecGitOpsSecretOu
 }
 export interface DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpecGitOps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#enable DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#enable DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Repository represents a git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#repository DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#repository DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#repository}
   */
   readonly repository?: DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpecGitOpsRepository;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#secret DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#secret DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpecGitOpsSecret;
 }
@@ -807,33 +807,33 @@ export interface DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpecRepositori
   /**
   * Action indicates the action once the request phase to be ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#action DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#action DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#address DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#address DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#branch DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#branch DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#branch}
   */
   readonly branch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#message DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#message DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#name DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#name DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Provider represents a git provider, such as: GitHub, Gitlab
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#provider DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#provider DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#provider}
   */
   readonly provider?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#version DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#version DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1122,13 +1122,13 @@ export interface DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpecSecret {
   /**
   * Name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#name DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#name DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#namespace DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#namespace DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1253,27 +1253,27 @@ export interface DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpec {
   /**
   * GitOps indicates to integrate with GitOps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#git_ops DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#git_ops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#git_ops DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#git_ops}
   */
   readonly gitOps?: DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpecGitOps;
   /**
   * Phase is the stage of a release request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#phase DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#phase DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#phase}
   */
   readonly phase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#repositories DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#repositories DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#repositories}
   */
   readonly repositories?: DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpecRepositories[] | cdktf.IResolvable;
   /**
   * SecretReference represents a Secret Reference. It has enough information to retrieve secret in any namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#secret DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#secret DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpecSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#version DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#version DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1483,7 +1483,7 @@ export class DataK8SDevopsKubesphereIoReleaserV1Alpha1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest k8s_devops_kubesphere_io_releaser_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest k8s_devops_kubesphere_io_releaser_v1alpha1_manifest}
 */
 export class DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1499,7 +1499,7 @@ export class DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1511,7 +1511,7 @@ export class DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest k8s_devops_kubesphere_io_releaser_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/devops_kubesphere_io_releaser_v1alpha1_manifest k8s_devops_kubesphere_io_releaser_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1522,8 +1522,8 @@ export class DataK8SDevopsKubesphereIoReleaserV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_devops_kubesphere_io_releaser_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

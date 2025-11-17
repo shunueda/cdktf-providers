@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,26 +10,26 @@ export interface OrganizationmanagerIdpUserpoolConfig extends cdktf.TerraformMet
   /**
   * Bruteforce protection policy for this userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#bruteforce_protection_policy OrganizationmanagerIdpUserpool#bruteforce_protection_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#bruteforce_protection_policy OrganizationmanagerIdpUserpool#bruteforce_protection_policy}
   */
   readonly bruteforceProtectionPolicy?: OrganizationmanagerIdpUserpoolBruteforceProtectionPolicy;
   /**
   * Default subdomain for the userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#default_subdomain OrganizationmanagerIdpUserpool#default_subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#default_subdomain OrganizationmanagerIdpUserpool#default_subdomain}
   */
   readonly defaultSubdomain: string;
   /**
   * Description of the userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#description OrganizationmanagerIdpUserpool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#description OrganizationmanagerIdpUserpool#description}
   */
   readonly description?: string;
   /**
   * ID of the userpool to return.
   *  To get the userpool ID, make a [UserpoolService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#id OrganizationmanagerIdpUserpool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#id OrganizationmanagerIdpUserpool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,48 +38,48 @@ export interface OrganizationmanagerIdpUserpoolConfig extends cdktf.TerraformMet
   /**
   * Resource labels as key:value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#labels OrganizationmanagerIdpUserpool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#labels OrganizationmanagerIdpUserpool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#name OrganizationmanagerIdpUserpool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#name OrganizationmanagerIdpUserpool#name}
   */
   readonly name: string;
   /**
   * ID of the organization this userpool belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#organization_id OrganizationmanagerIdpUserpool#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#organization_id OrganizationmanagerIdpUserpool#organization_id}
   */
   readonly organizationId: string;
   /**
   * Password lifetime policy for this userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#password_lifetime_policy OrganizationmanagerIdpUserpool#password_lifetime_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#password_lifetime_policy OrganizationmanagerIdpUserpool#password_lifetime_policy}
   */
   readonly passwordLifetimePolicy?: OrganizationmanagerIdpUserpoolPasswordLifetimePolicy;
   /**
   * Password quality policy for this userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#password_quality_policy OrganizationmanagerIdpUserpool#password_quality_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#password_quality_policy OrganizationmanagerIdpUserpool#password_quality_policy}
   */
   readonly passwordQualityPolicy?: OrganizationmanagerIdpUserpoolPasswordQualityPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#timeouts OrganizationmanagerIdpUserpool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#timeouts OrganizationmanagerIdpUserpool#timeouts}
   */
   readonly timeouts?: OrganizationmanagerIdpUserpoolTimeouts;
   /**
   * User settings for this userpool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#user_settings OrganizationmanagerIdpUserpool#user_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#user_settings OrganizationmanagerIdpUserpool#user_settings}
   */
   readonly userSettings?: OrganizationmanagerIdpUserpoolUserSettings;
   /**
   * ID of the userpool to return.
   *  To get the userpool ID, make a [UserpoolService.List] request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#userpool_id OrganizationmanagerIdpUserpool#userpool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#userpool_id OrganizationmanagerIdpUserpool#userpool_id}
   */
   readonly userpoolId?: string;
 }
@@ -87,19 +87,19 @@ export interface OrganizationmanagerIdpUserpoolBruteforceProtectionPolicy {
   /**
   * Number of failed attempts allowed within the window before blocking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#attempts OrganizationmanagerIdpUserpool#attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#attempts OrganizationmanagerIdpUserpool#attempts}
   */
   readonly attempts?: number;
   /**
   * Duration of the block after too many failed attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#block OrganizationmanagerIdpUserpool#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#block OrganizationmanagerIdpUserpool#block}
   */
   readonly block?: string;
   /**
   * Time window for counting failed authentication attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#window OrganizationmanagerIdpUserpool#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#window OrganizationmanagerIdpUserpool#window}
   */
   readonly window?: string;
 }
@@ -254,13 +254,13 @@ export interface OrganizationmanagerIdpUserpoolPasswordLifetimePolicy {
   * Maximum number of days a password remains valid.
   *  Zero means passwords never expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#max_days_count OrganizationmanagerIdpUserpool#max_days_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#max_days_count OrganizationmanagerIdpUserpool#max_days_count}
   */
   readonly maxDaysCount?: number;
   /**
   * Minimum number of days before a password can be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#min_days_count OrganizationmanagerIdpUserpool#min_days_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#min_days_count OrganizationmanagerIdpUserpool#min_days_count}
   */
   readonly minDaysCount?: number;
 }
@@ -385,19 +385,19 @@ export interface OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByC
   /**
   * Minimum length for passwords with one character class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#one OrganizationmanagerIdpUserpool#one}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#one OrganizationmanagerIdpUserpool#one}
   */
   readonly one?: number;
   /**
   * Minimum length for passwords with three character classes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#three OrganizationmanagerIdpUserpool#three}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#three OrganizationmanagerIdpUserpool#three}
   */
   readonly three?: number;
   /**
   * Minimum length for passwords with two character classes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#two OrganizationmanagerIdpUserpool#two}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#two OrganizationmanagerIdpUserpool#two}
   */
   readonly two?: number;
 }
@@ -551,25 +551,25 @@ export interface OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClas
   /**
   * Whether digits are required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#digits OrganizationmanagerIdpUserpool#digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#digits OrganizationmanagerIdpUserpool#digits}
   */
   readonly digits?: boolean | cdktf.IResolvable;
   /**
   * Whether lowercase letters are required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#lowers OrganizationmanagerIdpUserpool#lowers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#lowers OrganizationmanagerIdpUserpool#lowers}
   */
   readonly lowers?: boolean | cdktf.IResolvable;
   /**
   * Whether special characters are required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#specials OrganizationmanagerIdpUserpool#specials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#specials OrganizationmanagerIdpUserpool#specials}
   */
   readonly specials?: boolean | cdktf.IResolvable;
   /**
   * Whether uppercase letters are required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#uppers OrganizationmanagerIdpUserpool#uppers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#uppers OrganizationmanagerIdpUserpool#uppers}
   */
   readonly uppers?: boolean | cdktf.IResolvable;
 }
@@ -752,38 +752,38 @@ export interface OrganizationmanagerIdpUserpoolPasswordQualityPolicy {
   /**
   * Whether passwords similar to previous ones are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#allow_similar OrganizationmanagerIdpUserpool#allow_similar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#allow_similar OrganizationmanagerIdpUserpool#allow_similar}
   */
   readonly allowSimilar?: boolean | cdktf.IResolvable;
   /**
   * Minimum length of substrings to check for similarity to vulnerable sequences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#match_length OrganizationmanagerIdpUserpool#match_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#match_length OrganizationmanagerIdpUserpool#match_length}
   */
   readonly matchLength?: number;
   /**
   * Maximum password length. Zero means no maximum length is enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#max_length OrganizationmanagerIdpUserpool#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#max_length OrganizationmanagerIdpUserpool#max_length}
   */
   readonly maxLength?: number;
   /**
   * Minimum password length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#min_length OrganizationmanagerIdpUserpool#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#min_length OrganizationmanagerIdpUserpool#min_length}
   */
   readonly minLength?: number;
   /**
   * Minimum length requirements based on character class diversity.
   *  If not specified, these checks are disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#min_length_by_class_settings OrganizationmanagerIdpUserpool#min_length_by_class_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#min_length_by_class_settings OrganizationmanagerIdpUserpool#min_length_by_class_settings}
   */
   readonly minLengthByClassSettings?: OrganizationmanagerIdpUserpoolPasswordQualityPolicyMinLengthByClassSettings;
   /**
   * Character classes required in passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#required_classes OrganizationmanagerIdpUserpool#required_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#required_classes OrganizationmanagerIdpUserpool#required_classes}
   */
   readonly requiredClasses?: OrganizationmanagerIdpUserpoolPasswordQualityPolicyRequiredClasses;
 }
@@ -1024,25 +1024,25 @@ export interface OrganizationmanagerIdpUserpoolTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#create OrganizationmanagerIdpUserpool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#create OrganizationmanagerIdpUserpool#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#delete OrganizationmanagerIdpUserpool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#delete OrganizationmanagerIdpUserpool#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#read OrganizationmanagerIdpUserpool#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#read OrganizationmanagerIdpUserpool#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#update OrganizationmanagerIdpUserpool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#update OrganizationmanagerIdpUserpool#update}
   */
   readonly update?: string;
 }
@@ -1225,25 +1225,25 @@ export interface OrganizationmanagerIdpUserpoolUserSettings {
   /**
   * Whether users can edit their own contact information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_contacts OrganizationmanagerIdpUserpool#allow_edit_self_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_contacts OrganizationmanagerIdpUserpool#allow_edit_self_contacts}
   */
   readonly allowEditSelfContacts?: boolean | cdktf.IResolvable;
   /**
   * Whether users can edit their own profile information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_info OrganizationmanagerIdpUserpool#allow_edit_self_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_info OrganizationmanagerIdpUserpool#allow_edit_self_info}
   */
   readonly allowEditSelfInfo?: boolean | cdktf.IResolvable;
   /**
   * Whether users can edit their own login information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_login OrganizationmanagerIdpUserpool#allow_edit_self_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_login OrganizationmanagerIdpUserpool#allow_edit_self_login}
   */
   readonly allowEditSelfLogin?: boolean | cdktf.IResolvable;
   /**
   * Whether users can change their own passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_password OrganizationmanagerIdpUserpool#allow_edit_self_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#allow_edit_self_password OrganizationmanagerIdpUserpool#allow_edit_self_password}
   */
   readonly allowEditSelfPassword?: boolean | cdktf.IResolvable;
 }
@@ -1424,7 +1424,7 @@ export class OrganizationmanagerIdpUserpoolUserSettingsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool yandex_organizationmanager_idp_userpool}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool yandex_organizationmanager_idp_userpool}
 */
 export class OrganizationmanagerIdpUserpool extends cdktf.TerraformResource {
 
@@ -1440,7 +1440,7 @@ export class OrganizationmanagerIdpUserpool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationmanagerIdpUserpool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationmanagerIdpUserpool to import
-  * @param importFromId The id of the existing OrganizationmanagerIdpUserpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationmanagerIdpUserpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationmanagerIdpUserpool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1452,7 +1452,7 @@ export class OrganizationmanagerIdpUserpool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/organizationmanager_idp_userpool yandex_organizationmanager_idp_userpool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/organizationmanager_idp_userpool yandex_organizationmanager_idp_userpool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1463,8 +1463,8 @@ export class OrganizationmanagerIdpUserpool extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_organizationmanager_idp_userpool',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

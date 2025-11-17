@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#metadata DataK8SResourcesTeleportDevTeleportRoleV6Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#metadata DataK8SResourcesTeleportDevTeleportRoleV6Manifest#metadata}
   */
   readonly metadata: DataK8SResourcesTeleportDevTeleportRoleV6ManifestMetadata;
   /**
   * Role resource definition v6 from Teleport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#spec DataK8SResourcesTeleportDevTeleportRoleV6Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#spec DataK8SResourcesTeleportDevTeleportRoleV6Manifest#spec}
   */
   readonly spec?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#annotations DataK8SResourcesTeleportDevTeleportRoleV6Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#annotations DataK8SResourcesTeleportDevTeleportRoleV6Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#namespace DataK8SResourcesTeleportDevTeleportRoleV6Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#namespace DataK8SResourcesTeleportDevTeleportRoleV6Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowDbPer
   /**
   * Match is a list of object labels that must be matched for the permission to be granted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#match DataK8SResourcesTeleportDevTeleportRoleV6Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#match DataK8SResourcesTeleportDevTeleportRoleV6Manifest#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Permission is the list of string representations of the permission to be given, e.g. SELECT, INSERT, UPDATE, ...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#permissions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#permissions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#permissions}
   */
   readonly permissions?: string[];
 }
@@ -372,19 +372,19 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowImper
   /**
   * Roles is a list of resources this role is allowed to impersonate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Users is a list of resources this role is allowed to impersonate, could be an empty list or a Wildcard pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#users DataK8SResourcesTeleportDevTeleportRoleV6Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#users DataK8SResourcesTeleportDevTeleportRoleV6Manifest#users}
   */
   readonly users?: string[];
   /**
   * Where specifies optional advanced matcher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#where DataK8SResourcesTeleportDevTeleportRoleV6Manifest#where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#where DataK8SResourcesTeleportDevTeleportRoleV6Manifest#where}
   */
   readonly where?: string;
 }
@@ -538,25 +538,25 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowJoinS
   /**
   * Kinds are the session kinds this policy applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kinds DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kinds DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Modes is a list of permitted participant modes for this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#modes DataK8SResourcesTeleportDevTeleportRoleV6Manifest#modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#modes DataK8SResourcesTeleportDevTeleportRoleV6Manifest#modes}
   */
   readonly modes?: string[];
   /**
   * Name is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
   */
   readonly name?: string;
   /**
   * Roles is a list of roles that you can join the session of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
   */
   readonly roles?: string[];
 }
@@ -761,25 +761,25 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowKuber
   /**
   * Kind specifies the Kubernetes Resource type. At the moment only 'pod' is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kind DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kind DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the resource name. It supports wildcards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace is the resource namespace. It supports wildcards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#namespace DataK8SResourcesTeleportDevTeleportRoleV6Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#namespace DataK8SResourcesTeleportDevTeleportRoleV6Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Verbs are the allowed Kubernetes verbs for the following resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#verbs DataK8SResourcesTeleportDevTeleportRoleV6Manifest#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#verbs DataK8SResourcesTeleportDevTeleportRoleV6Manifest#verbs}
   */
   readonly verbs?: string[];
 }
@@ -984,19 +984,19 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowReque
   /**
   * Claim is a claim name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claim DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claim DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claim}
   */
   readonly claim?: string;
   /**
   * Roles is a list of static teleport roles to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Value is a claim value to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#value DataK8SResourcesTeleportDevTeleportRoleV6Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#value DataK8SResourcesTeleportDevTeleportRoleV6Manifest#value}
   */
   readonly value?: string;
 }
@@ -1172,25 +1172,25 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowReque
   /**
   * Approve is the number of matching approvals needed for state-transition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#approve DataK8SResourcesTeleportDevTeleportRoleV6Manifest#approve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#approve DataK8SResourcesTeleportDevTeleportRoleV6Manifest#approve}
   */
   readonly approve?: number;
   /**
   * Deny is the number of denials needed for state-transition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#deny DataK8SResourcesTeleportDevTeleportRoleV6Manifest#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#deny DataK8SResourcesTeleportDevTeleportRoleV6Manifest#deny}
   */
   readonly deny?: number;
   /**
   * Filter is an optional predicate used to determine which reviews count toward this threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#filter DataK8SResourcesTeleportDevTeleportRoleV6Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#filter DataK8SResourcesTeleportDevTeleportRoleV6Manifest#filter}
   */
   readonly filter?: string;
   /**
   * Name is the optional human-readable name of the threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
   */
   readonly name?: string;
 }
@@ -1395,43 +1395,43 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowReque
   /**
   * Annotations is a collection of annotations to be programmatically appended to pending Access Requests at the time of their creation. These annotations serve as a mechanism to propagate extra information to plugins. Since these annotations support variable interpolation syntax, they also offer a mechanism for forwarding claims from an external identity provider, to a plugin via '{{external.trait_name}}' style substitutions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#annotations DataK8SResourcesTeleportDevTeleportRoleV6Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#annotations DataK8SResourcesTeleportDevTeleportRoleV6Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * ClaimsToRoles specifies a mapping from claims (traits) to teleport roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claims_to_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claims_to_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claims_to_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claims_to_roles}
   */
   readonly claimsToRoles?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowRequestClaimsToRoles[] | cdktf.IResolvable;
   /**
   * MaxDuration is the amount of time the access will be granted for. If this is zero, the default duration is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#max_duration DataK8SResourcesTeleportDevTeleportRoleV6Manifest#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#max_duration DataK8SResourcesTeleportDevTeleportRoleV6Manifest#max_duration}
   */
   readonly maxDuration?: string;
   /**
   * Roles is the name of roles which will match the request rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * SearchAsRoles is a list of extra roles which should apply to a user while they are searching for resources as part of a Resource Access Request, and defines the underlying roles which will be requested as part of any Resource Access Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#search_as_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#search_as_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#search_as_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#search_as_roles}
   */
   readonly searchAsRoles?: string[];
   /**
   * SuggestedReviewers is a list of reviewer suggestions. These can be teleport usernames, but that is not a requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#suggested_reviewers DataK8SResourcesTeleportDevTeleportRoleV6Manifest#suggested_reviewers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#suggested_reviewers DataK8SResourcesTeleportDevTeleportRoleV6Manifest#suggested_reviewers}
   */
   readonly suggestedReviewers?: string[];
   /**
   * Thresholds is a list of thresholds, one of which must be met in order for reviews to trigger a state-transition. If no thresholds are provided, a default threshold of 1 for approval and denial is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#thresholds DataK8SResourcesTeleportDevTeleportRoleV6Manifest#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#thresholds DataK8SResourcesTeleportDevTeleportRoleV6Manifest#thresholds}
   */
   readonly thresholds?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowRequestThresholds[] | cdktf.IResolvable;
 }
@@ -1701,37 +1701,37 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowRequi
   /**
   * Count is the amount of people that need to be matched for this policy to be fulfilled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#count DataK8SResourcesTeleportDevTeleportRoleV6Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#count DataK8SResourcesTeleportDevTeleportRoleV6Manifest#count}
   */
   readonly count?: number;
   /**
   * Filter is a predicate that determines what users count towards this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#filter DataK8SResourcesTeleportDevTeleportRoleV6Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#filter DataK8SResourcesTeleportDevTeleportRoleV6Manifest#filter}
   */
   readonly filter?: string;
   /**
   * Kinds are the session kinds this policy applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kinds DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kinds DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Modes is the list of modes that may be used to fulfill this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#modes DataK8SResourcesTeleportDevTeleportRoleV6Manifest#modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#modes DataK8SResourcesTeleportDevTeleportRoleV6Manifest#modes}
   */
   readonly modes?: string[];
   /**
   * Name is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
   */
   readonly name?: string;
   /**
   * OnLeave is the behaviour that's used when the policy is no longer fulfilled for a live session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#on_leave DataK8SResourcesTeleportDevTeleportRoleV6Manifest#on_leave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#on_leave DataK8SResourcesTeleportDevTeleportRoleV6Manifest#on_leave}
   */
   readonly onLeave?: string;
 }
@@ -1994,19 +1994,19 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowRevie
   /**
   * Claim is a claim name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claim DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claim DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claim}
   */
   readonly claim?: string;
   /**
   * Roles is a list of static teleport roles to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Value is a claim value to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#value DataK8SResourcesTeleportDevTeleportRoleV6Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#value DataK8SResourcesTeleportDevTeleportRoleV6Manifest#value}
   */
   readonly value?: string;
 }
@@ -2182,25 +2182,25 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowRevie
   /**
   * ClaimsToRoles specifies a mapping from claims (traits) to teleport roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claims_to_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claims_to_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claims_to_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claims_to_roles}
   */
   readonly claimsToRoles?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowReviewRequestsClaimsToRoles[] | cdktf.IResolvable;
   /**
   * PreviewAsRoles is a list of extra roles which should apply to a reviewer while they are viewing a Resource Access Request for the purposes of viewing details such as the hostname and labels of requested resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#preview_as_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#preview_as_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#preview_as_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#preview_as_roles}
   */
   readonly previewAsRoles?: string[];
   /**
   * Roles is the name of roles which may be reviewed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Where is an optional predicate which further limits which requests are reviewable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#where DataK8SResourcesTeleportDevTeleportRoleV6Manifest#where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#where DataK8SResourcesTeleportDevTeleportRoleV6Manifest#where}
   */
   readonly where?: string;
 }
@@ -2383,25 +2383,25 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowRules
   /**
   * Actions specifies optional actions taken when this rule matches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#actions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#actions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#actions}
   */
   readonly actions?: string[];
   /**
   * Resources is a list of resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#resources DataK8SResourcesTeleportDevTeleportRoleV6Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#resources DataK8SResourcesTeleportDevTeleportRoleV6Manifest#resources}
   */
   readonly resources?: string[];
   /**
   * Verbs is a list of verbs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#verbs DataK8SResourcesTeleportDevTeleportRoleV6Manifest#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#verbs DataK8SResourcesTeleportDevTeleportRoleV6Manifest#verbs}
   */
   readonly verbs?: string[];
   /**
   * Where specifies optional advanced matcher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#where DataK8SResourcesTeleportDevTeleportRoleV6Manifest#where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#where DataK8SResourcesTeleportDevTeleportRoleV6Manifest#where}
   */
   readonly where?: string;
 }
@@ -2606,19 +2606,19 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowSpiff
   /**
   * DNSSANs specifies matchers for the SPIFFE ID DNS SANs. Each requested DNS SAN is compared against all matchers configured and if any match, the condition is considered to be met. The matcher by default allows '*' to be used to indicate zero or more of any character. Prepend '^' and append '$' to instead switch to matching using the Go regex syntax. Example: *.example.com would match foo.example.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#dns_sans DataK8SResourcesTeleportDevTeleportRoleV6Manifest#dns_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#dns_sans DataK8SResourcesTeleportDevTeleportRoleV6Manifest#dns_sans}
   */
   readonly dnsSans?: string[];
   /**
   * IPSANs specifies matchers for the SPIFFE ID IP SANs. Each requested IP SAN is compared against all matchers configured and if any match, the condition is considered to be met. The matchers should be specified using CIDR notation, it supports IPv4 and IPv6. Examples: - 10.0.0.0/24 would match 10.0.0.0 to 10.255.255.255 - 10.0.0.42/32 would match only 10.0.0.42
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#ip_sans DataK8SResourcesTeleportDevTeleportRoleV6Manifest#ip_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#ip_sans DataK8SResourcesTeleportDevTeleportRoleV6Manifest#ip_sans}
   */
   readonly ipSans?: string[];
   /**
   * Path specifies a matcher for the SPIFFE ID path. It should not include the trust domain and should start with a leading slash. The matcher by default allows '*' to be used to indicate zero or more of any character. Prepend '^' and append '$' to instead switch to matching using the Go regex syntax. Example: - /svc/foo/* /bar would match /svc/foo/baz/bar - ^/svc/foo/.* /bar$ would match /svc/foo/baz/bar
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#path DataK8SResourcesTeleportDevTeleportRoleV6Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#path DataK8SResourcesTeleportDevTeleportRoleV6Manifest#path}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -2796,227 +2796,227 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllow {
   /**
   * AppLabels is a map of labels used as part of the RBAC system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#app_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#app_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#app_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#app_labels}
   */
   readonly appLabels?: { [key: string]: string };
   /**
   * AppLabelsExpression is a predicate expression used to allow/deny access to Apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#app_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#app_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#app_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#app_labels_expression}
   */
   readonly appLabelsExpression?: string;
   /**
   * AWSRoleARNs is a list of AWS role ARNs this role is allowed to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#aws_role_arns DataK8SResourcesTeleportDevTeleportRoleV6Manifest#aws_role_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#aws_role_arns DataK8SResourcesTeleportDevTeleportRoleV6Manifest#aws_role_arns}
   */
   readonly awsRoleArns?: string[];
   /**
   * AzureIdentities is a list of Azure identities this role is allowed to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#azure_identities DataK8SResourcesTeleportDevTeleportRoleV6Manifest#azure_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#azure_identities DataK8SResourcesTeleportDevTeleportRoleV6Manifest#azure_identities}
   */
   readonly azureIdentities?: string[];
   /**
   * ClusterLabels is a map of node labels (used to dynamically grant access to clusters).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#cluster_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#cluster_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#cluster_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#cluster_labels}
   */
   readonly clusterLabels?: { [key: string]: string };
   /**
   * ClusterLabelsExpression is a predicate expression used to allow/deny access to remote Teleport clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#cluster_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#cluster_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#cluster_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#cluster_labels_expression}
   */
   readonly clusterLabelsExpression?: string;
   /**
   * DatabaseLabels are used in RBAC system to allow/deny access to databases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_labels}
   */
   readonly dbLabels?: { [key: string]: string };
   /**
   * DatabaseLabelsExpression is a predicate expression used to allow/deny access to Databases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_labels_expression}
   */
   readonly dbLabelsExpression?: string;
   /**
   * DatabaseNames is a list of database names this role is allowed to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_names DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_names DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_names}
   */
   readonly dbNames?: string[];
   /**
   * DatabasePermissions specifies a set of permissions that will be granted to the database user when using automatic database user provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_permissions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_permissions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_permissions}
   */
   readonly dbPermissions?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowDbPermissions[] | cdktf.IResolvable;
   /**
   * DatabaseRoles is a list of databases roles for automatic user creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_roles}
   */
   readonly dbRoles?: string[];
   /**
   * DatabaseServiceLabels are used in RBAC system to allow/deny access to Database Services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_service_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_service_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_service_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_service_labels}
   */
   readonly dbServiceLabels?: { [key: string]: string };
   /**
   * DatabaseServiceLabelsExpression is a predicate expression used to allow/deny access to Database Services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_service_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_service_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_service_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_service_labels_expression}
   */
   readonly dbServiceLabelsExpression?: string;
   /**
   * DatabaseUsers is a list of databases users this role is allowed to connect as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_users DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_users DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_users}
   */
   readonly dbUsers?: string[];
   /**
   * DesktopGroups is a list of groups for created desktop users to be added to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#desktop_groups DataK8SResourcesTeleportDevTeleportRoleV6Manifest#desktop_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#desktop_groups DataK8SResourcesTeleportDevTeleportRoleV6Manifest#desktop_groups}
   */
   readonly desktopGroups?: string[];
   /**
   * GCPServiceAccounts is a list of GCP service accounts this role is allowed to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#gcp_service_accounts DataK8SResourcesTeleportDevTeleportRoleV6Manifest#gcp_service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#gcp_service_accounts DataK8SResourcesTeleportDevTeleportRoleV6Manifest#gcp_service_accounts}
   */
   readonly gcpServiceAccounts?: string[];
   /**
   * GroupLabels is a map of labels used as part of the RBAC system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#group_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#group_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#group_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#group_labels}
   */
   readonly groupLabels?: { [key: string]: string };
   /**
   * GroupLabelsExpression is a predicate expression used to allow/deny access to user groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#group_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#group_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#group_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#group_labels_expression}
   */
   readonly groupLabelsExpression?: string;
   /**
   * HostGroups is a list of groups for created users to be added to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#host_groups DataK8SResourcesTeleportDevTeleportRoleV6Manifest#host_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#host_groups DataK8SResourcesTeleportDevTeleportRoleV6Manifest#host_groups}
   */
   readonly hostGroups?: string[];
   /**
   * HostSudoers is a list of entries to include in a users sudoer file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#host_sudoers DataK8SResourcesTeleportDevTeleportRoleV6Manifest#host_sudoers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#host_sudoers DataK8SResourcesTeleportDevTeleportRoleV6Manifest#host_sudoers}
   */
   readonly hostSudoers?: string[];
   /**
   * Impersonate specifies what users and roles this role is allowed to impersonate by issuing certificates or other possible means.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#impersonate DataK8SResourcesTeleportDevTeleportRoleV6Manifest#impersonate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#impersonate DataK8SResourcesTeleportDevTeleportRoleV6Manifest#impersonate}
   */
   readonly impersonate?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowImpersonate;
   /**
   * JoinSessions specifies policies to allow users to join other sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#join_sessions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#join_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#join_sessions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#join_sessions}
   */
   readonly joinSessions?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowJoinSessions[] | cdktf.IResolvable;
   /**
   * KubeGroups is a list of kubernetes groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_groups DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_groups DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_groups}
   */
   readonly kubernetesGroups?: string[];
   /**
   * KubernetesLabels is a map of kubernetes cluster labels used for RBAC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_labels}
   */
   readonly kubernetesLabels?: { [key: string]: string };
   /**
   * KubernetesLabelsExpression is a predicate expression used to allow/deny access to kubernetes clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_labels_expression}
   */
   readonly kubernetesLabelsExpression?: string;
   /**
   * KubernetesResources is the Kubernetes Resources this Role grants access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_resources DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_resources DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_resources}
   */
   readonly kubernetesResources?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowKubernetesResources[] | cdktf.IResolvable;
   /**
   * KubeUsers is an optional kubernetes users to impersonate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_users DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_users DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_users}
   */
   readonly kubernetesUsers?: string[];
   /**
   * Logins is a list of *nix system logins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#logins DataK8SResourcesTeleportDevTeleportRoleV6Manifest#logins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#logins DataK8SResourcesTeleportDevTeleportRoleV6Manifest#logins}
   */
   readonly logins?: string[];
   /**
   * NodeLabels is a map of node labels (used to dynamically grant access to nodes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#node_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#node_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#node_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#node_labels}
   */
   readonly nodeLabels?: { [key: string]: string };
   /**
   * NodeLabelsExpression is a predicate expression used to allow/deny access to SSH nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#node_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#node_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#node_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#node_labels_expression}
   */
   readonly nodeLabelsExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#request DataK8SResourcesTeleportDevTeleportRoleV6Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#request DataK8SResourcesTeleportDevTeleportRoleV6Manifest#request}
   */
   readonly request?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowRequest;
   /**
   * RequireSessionJoin specifies policies for required users to start a session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#require_session_join DataK8SResourcesTeleportDevTeleportRoleV6Manifest#require_session_join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#require_session_join DataK8SResourcesTeleportDevTeleportRoleV6Manifest#require_session_join}
   */
   readonly requireSessionJoin?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowRequireSessionJoin[] | cdktf.IResolvable;
   /**
   * ReviewRequests defines conditions for submitting access reviews.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#review_requests DataK8SResourcesTeleportDevTeleportRoleV6Manifest#review_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#review_requests DataK8SResourcesTeleportDevTeleportRoleV6Manifest#review_requests}
   */
   readonly reviewRequests?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowReviewRequests;
   /**
   * Rules is a list of rules and their access levels. Rules are a high level construct used for access control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#rules DataK8SResourcesTeleportDevTeleportRoleV6Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#rules DataK8SResourcesTeleportDevTeleportRoleV6Manifest#rules}
   */
   readonly rules?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowRules[] | cdktf.IResolvable;
   /**
   * SPIFFE is used to allow or deny access to a role holder to generating a SPIFFE SVID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#spiffe DataK8SResourcesTeleportDevTeleportRoleV6Manifest#spiffe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#spiffe DataK8SResourcesTeleportDevTeleportRoleV6Manifest#spiffe}
   */
   readonly spiffe?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllowSpiffe[] | cdktf.IResolvable;
   /**
   * WindowsDesktopLabels are used in the RBAC system to allow/deny access to Windows desktops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#windows_desktop_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#windows_desktop_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#windows_desktop_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#windows_desktop_labels}
   */
   readonly windowsDesktopLabels?: { [key: string]: string };
   /**
   * WindowsDesktopLabelsExpression is a predicate expression used to allow/deny access to Windows desktops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#windows_desktop_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#windows_desktop_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#windows_desktop_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#windows_desktop_labels_expression}
   */
   readonly windowsDesktopLabelsExpression?: string;
   /**
   * WindowsDesktopLogins is a list of desktop login names allowed/denied for Windows desktops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#windows_desktop_logins DataK8SResourcesTeleportDevTeleportRoleV6Manifest#windows_desktop_logins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#windows_desktop_logins DataK8SResourcesTeleportDevTeleportRoleV6Manifest#windows_desktop_logins}
   */
   readonly windowsDesktopLogins?: string[];
 }
@@ -4185,13 +4185,13 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyDbPerm
   /**
   * Match is a list of object labels that must be matched for the permission to be granted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#match DataK8SResourcesTeleportDevTeleportRoleV6Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#match DataK8SResourcesTeleportDevTeleportRoleV6Manifest#match}
   */
   readonly match?: { [key: string]: string };
   /**
   * Permission is the list of string representations of the permission to be given, e.g. SELECT, INSERT, UPDATE, ...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#permissions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#permissions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#permissions}
   */
   readonly permissions?: string[];
 }
@@ -4338,19 +4338,19 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyImpers
   /**
   * Roles is a list of resources this role is allowed to impersonate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Users is a list of resources this role is allowed to impersonate, could be an empty list or a Wildcard pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#users DataK8SResourcesTeleportDevTeleportRoleV6Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#users DataK8SResourcesTeleportDevTeleportRoleV6Manifest#users}
   */
   readonly users?: string[];
   /**
   * Where specifies optional advanced matcher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#where DataK8SResourcesTeleportDevTeleportRoleV6Manifest#where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#where DataK8SResourcesTeleportDevTeleportRoleV6Manifest#where}
   */
   readonly where?: string;
 }
@@ -4504,25 +4504,25 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyJoinSe
   /**
   * Kinds are the session kinds this policy applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kinds DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kinds DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Modes is a list of permitted participant modes for this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#modes DataK8SResourcesTeleportDevTeleportRoleV6Manifest#modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#modes DataK8SResourcesTeleportDevTeleportRoleV6Manifest#modes}
   */
   readonly modes?: string[];
   /**
   * Name is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
   */
   readonly name?: string;
   /**
   * Roles is a list of roles that you can join the session of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
   */
   readonly roles?: string[];
 }
@@ -4727,25 +4727,25 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyKubern
   /**
   * Kind specifies the Kubernetes Resource type. At the moment only 'pod' is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kind DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kind DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the resource name. It supports wildcards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace is the resource namespace. It supports wildcards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#namespace DataK8SResourcesTeleportDevTeleportRoleV6Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#namespace DataK8SResourcesTeleportDevTeleportRoleV6Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Verbs are the allowed Kubernetes verbs for the following resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#verbs DataK8SResourcesTeleportDevTeleportRoleV6Manifest#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#verbs DataK8SResourcesTeleportDevTeleportRoleV6Manifest#verbs}
   */
   readonly verbs?: string[];
 }
@@ -4950,19 +4950,19 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyReques
   /**
   * Claim is a claim name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claim DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claim DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claim}
   */
   readonly claim?: string;
   /**
   * Roles is a list of static teleport roles to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Value is a claim value to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#value DataK8SResourcesTeleportDevTeleportRoleV6Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#value DataK8SResourcesTeleportDevTeleportRoleV6Manifest#value}
   */
   readonly value?: string;
 }
@@ -5138,25 +5138,25 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyReques
   /**
   * Approve is the number of matching approvals needed for state-transition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#approve DataK8SResourcesTeleportDevTeleportRoleV6Manifest#approve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#approve DataK8SResourcesTeleportDevTeleportRoleV6Manifest#approve}
   */
   readonly approve?: number;
   /**
   * Deny is the number of denials needed for state-transition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#deny DataK8SResourcesTeleportDevTeleportRoleV6Manifest#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#deny DataK8SResourcesTeleportDevTeleportRoleV6Manifest#deny}
   */
   readonly deny?: number;
   /**
   * Filter is an optional predicate used to determine which reviews count toward this threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#filter DataK8SResourcesTeleportDevTeleportRoleV6Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#filter DataK8SResourcesTeleportDevTeleportRoleV6Manifest#filter}
   */
   readonly filter?: string;
   /**
   * Name is the optional human-readable name of the threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
   */
   readonly name?: string;
 }
@@ -5361,43 +5361,43 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyReques
   /**
   * Annotations is a collection of annotations to be programmatically appended to pending Access Requests at the time of their creation. These annotations serve as a mechanism to propagate extra information to plugins. Since these annotations support variable interpolation syntax, they also offer a mechanism for forwarding claims from an external identity provider, to a plugin via '{{external.trait_name}}' style substitutions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#annotations DataK8SResourcesTeleportDevTeleportRoleV6Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#annotations DataK8SResourcesTeleportDevTeleportRoleV6Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * ClaimsToRoles specifies a mapping from claims (traits) to teleport roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claims_to_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claims_to_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claims_to_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claims_to_roles}
   */
   readonly claimsToRoles?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyRequestClaimsToRoles[] | cdktf.IResolvable;
   /**
   * MaxDuration is the amount of time the access will be granted for. If this is zero, the default duration is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#max_duration DataK8SResourcesTeleportDevTeleportRoleV6Manifest#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#max_duration DataK8SResourcesTeleportDevTeleportRoleV6Manifest#max_duration}
   */
   readonly maxDuration?: string;
   /**
   * Roles is the name of roles which will match the request rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * SearchAsRoles is a list of extra roles which should apply to a user while they are searching for resources as part of a Resource Access Request, and defines the underlying roles which will be requested as part of any Resource Access Request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#search_as_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#search_as_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#search_as_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#search_as_roles}
   */
   readonly searchAsRoles?: string[];
   /**
   * SuggestedReviewers is a list of reviewer suggestions. These can be teleport usernames, but that is not a requirement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#suggested_reviewers DataK8SResourcesTeleportDevTeleportRoleV6Manifest#suggested_reviewers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#suggested_reviewers DataK8SResourcesTeleportDevTeleportRoleV6Manifest#suggested_reviewers}
   */
   readonly suggestedReviewers?: string[];
   /**
   * Thresholds is a list of thresholds, one of which must be met in order for reviews to trigger a state-transition. If no thresholds are provided, a default threshold of 1 for approval and denial is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#thresholds DataK8SResourcesTeleportDevTeleportRoleV6Manifest#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#thresholds DataK8SResourcesTeleportDevTeleportRoleV6Manifest#thresholds}
   */
   readonly thresholds?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyRequestThresholds[] | cdktf.IResolvable;
 }
@@ -5667,37 +5667,37 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyRequir
   /**
   * Count is the amount of people that need to be matched for this policy to be fulfilled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#count DataK8SResourcesTeleportDevTeleportRoleV6Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#count DataK8SResourcesTeleportDevTeleportRoleV6Manifest#count}
   */
   readonly count?: number;
   /**
   * Filter is a predicate that determines what users count towards this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#filter DataK8SResourcesTeleportDevTeleportRoleV6Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#filter DataK8SResourcesTeleportDevTeleportRoleV6Manifest#filter}
   */
   readonly filter?: string;
   /**
   * Kinds are the session kinds this policy applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kinds DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kinds DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Modes is the list of modes that may be used to fulfill this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#modes DataK8SResourcesTeleportDevTeleportRoleV6Manifest#modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#modes DataK8SResourcesTeleportDevTeleportRoleV6Manifest#modes}
   */
   readonly modes?: string[];
   /**
   * Name is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
   */
   readonly name?: string;
   /**
   * OnLeave is the behaviour that's used when the policy is no longer fulfilled for a live session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#on_leave DataK8SResourcesTeleportDevTeleportRoleV6Manifest#on_leave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#on_leave DataK8SResourcesTeleportDevTeleportRoleV6Manifest#on_leave}
   */
   readonly onLeave?: string;
 }
@@ -5960,19 +5960,19 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyReview
   /**
   * Claim is a claim name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claim DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claim DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claim}
   */
   readonly claim?: string;
   /**
   * Roles is a list of static teleport roles to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Value is a claim value to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#value DataK8SResourcesTeleportDevTeleportRoleV6Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#value DataK8SResourcesTeleportDevTeleportRoleV6Manifest#value}
   */
   readonly value?: string;
 }
@@ -6148,25 +6148,25 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyReview
   /**
   * ClaimsToRoles specifies a mapping from claims (traits) to teleport roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claims_to_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claims_to_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#claims_to_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#claims_to_roles}
   */
   readonly claimsToRoles?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyReviewRequestsClaimsToRoles[] | cdktf.IResolvable;
   /**
   * PreviewAsRoles is a list of extra roles which should apply to a reviewer while they are viewing a Resource Access Request for the purposes of viewing details such as the hostname and labels of requested resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#preview_as_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#preview_as_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#preview_as_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#preview_as_roles}
   */
   readonly previewAsRoles?: string[];
   /**
   * Roles is the name of roles which may be reviewed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Where is an optional predicate which further limits which requests are reviewable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#where DataK8SResourcesTeleportDevTeleportRoleV6Manifest#where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#where DataK8SResourcesTeleportDevTeleportRoleV6Manifest#where}
   */
   readonly where?: string;
 }
@@ -6349,25 +6349,25 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyRules 
   /**
   * Actions specifies optional actions taken when this rule matches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#actions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#actions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#actions}
   */
   readonly actions?: string[];
   /**
   * Resources is a list of resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#resources DataK8SResourcesTeleportDevTeleportRoleV6Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#resources DataK8SResourcesTeleportDevTeleportRoleV6Manifest#resources}
   */
   readonly resources?: string[];
   /**
   * Verbs is a list of verbs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#verbs DataK8SResourcesTeleportDevTeleportRoleV6Manifest#verbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#verbs DataK8SResourcesTeleportDevTeleportRoleV6Manifest#verbs}
   */
   readonly verbs?: string[];
   /**
   * Where specifies optional advanced matcher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#where DataK8SResourcesTeleportDevTeleportRoleV6Manifest#where}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#where DataK8SResourcesTeleportDevTeleportRoleV6Manifest#where}
   */
   readonly where?: string;
 }
@@ -6572,19 +6572,19 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenySpiffe
   /**
   * DNSSANs specifies matchers for the SPIFFE ID DNS SANs. Each requested DNS SAN is compared against all matchers configured and if any match, the condition is considered to be met. The matcher by default allows '*' to be used to indicate zero or more of any character. Prepend '^' and append '$' to instead switch to matching using the Go regex syntax. Example: *.example.com would match foo.example.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#dns_sans DataK8SResourcesTeleportDevTeleportRoleV6Manifest#dns_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#dns_sans DataK8SResourcesTeleportDevTeleportRoleV6Manifest#dns_sans}
   */
   readonly dnsSans?: string[];
   /**
   * IPSANs specifies matchers for the SPIFFE ID IP SANs. Each requested IP SAN is compared against all matchers configured and if any match, the condition is considered to be met. The matchers should be specified using CIDR notation, it supports IPv4 and IPv6. Examples: - 10.0.0.0/24 would match 10.0.0.0 to 10.255.255.255 - 10.0.0.42/32 would match only 10.0.0.42
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#ip_sans DataK8SResourcesTeleportDevTeleportRoleV6Manifest#ip_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#ip_sans DataK8SResourcesTeleportDevTeleportRoleV6Manifest#ip_sans}
   */
   readonly ipSans?: string[];
   /**
   * Path specifies a matcher for the SPIFFE ID path. It should not include the trust domain and should start with a leading slash. The matcher by default allows '*' to be used to indicate zero or more of any character. Prepend '^' and append '$' to instead switch to matching using the Go regex syntax. Example: - /svc/foo/* /bar would match /svc/foo/baz/bar - ^/svc/foo/.* /bar$ would match /svc/foo/baz/bar
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#path DataK8SResourcesTeleportDevTeleportRoleV6Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#path DataK8SResourcesTeleportDevTeleportRoleV6Manifest#path}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -6762,227 +6762,227 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDeny {
   /**
   * AppLabels is a map of labels used as part of the RBAC system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#app_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#app_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#app_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#app_labels}
   */
   readonly appLabels?: { [key: string]: string };
   /**
   * AppLabelsExpression is a predicate expression used to allow/deny access to Apps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#app_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#app_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#app_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#app_labels_expression}
   */
   readonly appLabelsExpression?: string;
   /**
   * AWSRoleARNs is a list of AWS role ARNs this role is allowed to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#aws_role_arns DataK8SResourcesTeleportDevTeleportRoleV6Manifest#aws_role_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#aws_role_arns DataK8SResourcesTeleportDevTeleportRoleV6Manifest#aws_role_arns}
   */
   readonly awsRoleArns?: string[];
   /**
   * AzureIdentities is a list of Azure identities this role is allowed to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#azure_identities DataK8SResourcesTeleportDevTeleportRoleV6Manifest#azure_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#azure_identities DataK8SResourcesTeleportDevTeleportRoleV6Manifest#azure_identities}
   */
   readonly azureIdentities?: string[];
   /**
   * ClusterLabels is a map of node labels (used to dynamically grant access to clusters).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#cluster_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#cluster_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#cluster_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#cluster_labels}
   */
   readonly clusterLabels?: { [key: string]: string };
   /**
   * ClusterLabelsExpression is a predicate expression used to allow/deny access to remote Teleport clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#cluster_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#cluster_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#cluster_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#cluster_labels_expression}
   */
   readonly clusterLabelsExpression?: string;
   /**
   * DatabaseLabels are used in RBAC system to allow/deny access to databases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_labels}
   */
   readonly dbLabels?: { [key: string]: string };
   /**
   * DatabaseLabelsExpression is a predicate expression used to allow/deny access to Databases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_labels_expression}
   */
   readonly dbLabelsExpression?: string;
   /**
   * DatabaseNames is a list of database names this role is allowed to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_names DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_names DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_names}
   */
   readonly dbNames?: string[];
   /**
   * DatabasePermissions specifies a set of permissions that will be granted to the database user when using automatic database user provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_permissions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_permissions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_permissions}
   */
   readonly dbPermissions?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyDbPermissions[] | cdktf.IResolvable;
   /**
   * DatabaseRoles is a list of databases roles for automatic user creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_roles DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_roles}
   */
   readonly dbRoles?: string[];
   /**
   * DatabaseServiceLabels are used in RBAC system to allow/deny access to Database Services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_service_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_service_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_service_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_service_labels}
   */
   readonly dbServiceLabels?: { [key: string]: string };
   /**
   * DatabaseServiceLabelsExpression is a predicate expression used to allow/deny access to Database Services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_service_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_service_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_service_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_service_labels_expression}
   */
   readonly dbServiceLabelsExpression?: string;
   /**
   * DatabaseUsers is a list of databases users this role is allowed to connect as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_users DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#db_users DataK8SResourcesTeleportDevTeleportRoleV6Manifest#db_users}
   */
   readonly dbUsers?: string[];
   /**
   * DesktopGroups is a list of groups for created desktop users to be added to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#desktop_groups DataK8SResourcesTeleportDevTeleportRoleV6Manifest#desktop_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#desktop_groups DataK8SResourcesTeleportDevTeleportRoleV6Manifest#desktop_groups}
   */
   readonly desktopGroups?: string[];
   /**
   * GCPServiceAccounts is a list of GCP service accounts this role is allowed to assume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#gcp_service_accounts DataK8SResourcesTeleportDevTeleportRoleV6Manifest#gcp_service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#gcp_service_accounts DataK8SResourcesTeleportDevTeleportRoleV6Manifest#gcp_service_accounts}
   */
   readonly gcpServiceAccounts?: string[];
   /**
   * GroupLabels is a map of labels used as part of the RBAC system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#group_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#group_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#group_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#group_labels}
   */
   readonly groupLabels?: { [key: string]: string };
   /**
   * GroupLabelsExpression is a predicate expression used to allow/deny access to user groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#group_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#group_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#group_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#group_labels_expression}
   */
   readonly groupLabelsExpression?: string;
   /**
   * HostGroups is a list of groups for created users to be added to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#host_groups DataK8SResourcesTeleportDevTeleportRoleV6Manifest#host_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#host_groups DataK8SResourcesTeleportDevTeleportRoleV6Manifest#host_groups}
   */
   readonly hostGroups?: string[];
   /**
   * HostSudoers is a list of entries to include in a users sudoer file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#host_sudoers DataK8SResourcesTeleportDevTeleportRoleV6Manifest#host_sudoers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#host_sudoers DataK8SResourcesTeleportDevTeleportRoleV6Manifest#host_sudoers}
   */
   readonly hostSudoers?: string[];
   /**
   * Impersonate specifies what users and roles this role is allowed to impersonate by issuing certificates or other possible means.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#impersonate DataK8SResourcesTeleportDevTeleportRoleV6Manifest#impersonate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#impersonate DataK8SResourcesTeleportDevTeleportRoleV6Manifest#impersonate}
   */
   readonly impersonate?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyImpersonate;
   /**
   * JoinSessions specifies policies to allow users to join other sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#join_sessions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#join_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#join_sessions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#join_sessions}
   */
   readonly joinSessions?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyJoinSessions[] | cdktf.IResolvable;
   /**
   * KubeGroups is a list of kubernetes groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_groups DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_groups DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_groups}
   */
   readonly kubernetesGroups?: string[];
   /**
   * KubernetesLabels is a map of kubernetes cluster labels used for RBAC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_labels}
   */
   readonly kubernetesLabels?: { [key: string]: string };
   /**
   * KubernetesLabelsExpression is a predicate expression used to allow/deny access to kubernetes clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_labels_expression}
   */
   readonly kubernetesLabelsExpression?: string;
   /**
   * KubernetesResources is the Kubernetes Resources this Role grants access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_resources DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_resources DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_resources}
   */
   readonly kubernetesResources?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyKubernetesResources[] | cdktf.IResolvable;
   /**
   * KubeUsers is an optional kubernetes users to impersonate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_users DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#kubernetes_users DataK8SResourcesTeleportDevTeleportRoleV6Manifest#kubernetes_users}
   */
   readonly kubernetesUsers?: string[];
   /**
   * Logins is a list of *nix system logins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#logins DataK8SResourcesTeleportDevTeleportRoleV6Manifest#logins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#logins DataK8SResourcesTeleportDevTeleportRoleV6Manifest#logins}
   */
   readonly logins?: string[];
   /**
   * NodeLabels is a map of node labels (used to dynamically grant access to nodes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#node_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#node_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#node_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#node_labels}
   */
   readonly nodeLabels?: { [key: string]: string };
   /**
   * NodeLabelsExpression is a predicate expression used to allow/deny access to SSH nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#node_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#node_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#node_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#node_labels_expression}
   */
   readonly nodeLabelsExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#request DataK8SResourcesTeleportDevTeleportRoleV6Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#request DataK8SResourcesTeleportDevTeleportRoleV6Manifest#request}
   */
   readonly request?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyRequest;
   /**
   * RequireSessionJoin specifies policies for required users to start a session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#require_session_join DataK8SResourcesTeleportDevTeleportRoleV6Manifest#require_session_join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#require_session_join DataK8SResourcesTeleportDevTeleportRoleV6Manifest#require_session_join}
   */
   readonly requireSessionJoin?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyRequireSessionJoin[] | cdktf.IResolvable;
   /**
   * ReviewRequests defines conditions for submitting access reviews.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#review_requests DataK8SResourcesTeleportDevTeleportRoleV6Manifest#review_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#review_requests DataK8SResourcesTeleportDevTeleportRoleV6Manifest#review_requests}
   */
   readonly reviewRequests?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyReviewRequests;
   /**
   * Rules is a list of rules and their access levels. Rules are a high level construct used for access control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#rules DataK8SResourcesTeleportDevTeleportRoleV6Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#rules DataK8SResourcesTeleportDevTeleportRoleV6Manifest#rules}
   */
   readonly rules?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenyRules[] | cdktf.IResolvable;
   /**
   * SPIFFE is used to allow or deny access to a role holder to generating a SPIFFE SVID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#spiffe DataK8SResourcesTeleportDevTeleportRoleV6Manifest#spiffe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#spiffe DataK8SResourcesTeleportDevTeleportRoleV6Manifest#spiffe}
   */
   readonly spiffe?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDenySpiffe[] | cdktf.IResolvable;
   /**
   * WindowsDesktopLabels are used in the RBAC system to allow/deny access to Windows desktops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#windows_desktop_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#windows_desktop_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#windows_desktop_labels DataK8SResourcesTeleportDevTeleportRoleV6Manifest#windows_desktop_labels}
   */
   readonly windowsDesktopLabels?: { [key: string]: string };
   /**
   * WindowsDesktopLabelsExpression is a predicate expression used to allow/deny access to Windows desktops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#windows_desktop_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#windows_desktop_labels_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#windows_desktop_labels_expression DataK8SResourcesTeleportDevTeleportRoleV6Manifest#windows_desktop_labels_expression}
   */
   readonly windowsDesktopLabelsExpression?: string;
   /**
   * WindowsDesktopLogins is a list of desktop login names allowed/denied for Windows desktops.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#windows_desktop_logins DataK8SResourcesTeleportDevTeleportRoleV6Manifest#windows_desktop_logins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#windows_desktop_logins DataK8SResourcesTeleportDevTeleportRoleV6Manifest#windows_desktop_logins}
   */
   readonly windowsDesktopLogins?: string[];
 }
@@ -8151,25 +8151,25 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecOptionsCer
   /**
   * Mode is the type of extension to be used -- currently critical-option is not supported. 0 is 'extension'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#mode DataK8SResourcesTeleportDevTeleportRoleV6Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#mode DataK8SResourcesTeleportDevTeleportRoleV6Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Name specifies the key to be used in the cert extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#name DataK8SResourcesTeleportDevTeleportRoleV6Manifest#name}
   */
   readonly name?: string;
   /**
   * Type represents the certificate type being extended, only ssh is supported at this time. 0 is 'ssh'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#type DataK8SResourcesTeleportDevTeleportRoleV6Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#type DataK8SResourcesTeleportDevTeleportRoleV6Manifest#type}
   */
   readonly type?: string;
   /**
   * Value specifies the value to be used in the cert extension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#value DataK8SResourcesTeleportDevTeleportRoleV6Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#value DataK8SResourcesTeleportDevTeleportRoleV6Manifest#value}
   */
   readonly value?: string;
 }
@@ -8374,7 +8374,7 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecOptionsIdp
   /**
   * Enabled is set to true if this option allows access to the Teleport SAML IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#enabled DataK8SResourcesTeleportDevTeleportRoleV6Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#enabled DataK8SResourcesTeleportDevTeleportRoleV6Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -8470,7 +8470,7 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecOptionsIdp
   /**
   * SAML are options related to the Teleport SAML IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#saml DataK8SResourcesTeleportDevTeleportRoleV6Manifest#saml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#saml DataK8SResourcesTeleportDevTeleportRoleV6Manifest#saml}
   */
   readonly saml?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecOptionsIdpSaml;
 }
@@ -8566,19 +8566,19 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecOptionsRec
   /**
   * Default indicates the default value for the services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#default DataK8SResourcesTeleportDevTeleportRoleV6Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#default DataK8SResourcesTeleportDevTeleportRoleV6Manifest#default}
   */
   readonly default?: string;
   /**
   * Desktop indicates whether desktop sessions should be recorded. It defaults to true unless explicitly set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#desktop DataK8SResourcesTeleportDevTeleportRoleV6Manifest#desktop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#desktop DataK8SResourcesTeleportDevTeleportRoleV6Manifest#desktop}
   */
   readonly desktop?: boolean | cdktf.IResolvable;
   /**
   * SSH indicates the session mode used on SSH sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#ssh DataK8SResourcesTeleportDevTeleportRoleV6Manifest#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#ssh DataK8SResourcesTeleportDevTeleportRoleV6Manifest#ssh}
   */
   readonly ssh?: string;
 }
@@ -8732,181 +8732,181 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecOptions {
   /**
   * CertExtensions specifies the key/values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#cert_extensions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#cert_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#cert_extensions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#cert_extensions}
   */
   readonly certExtensions?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecOptionsCertExtensions[] | cdktf.IResolvable;
   /**
   * CertificateFormat defines the format of the user certificate to allow compatibility with older versions of OpenSSH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#cert_format DataK8SResourcesTeleportDevTeleportRoleV6Manifest#cert_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#cert_format DataK8SResourcesTeleportDevTeleportRoleV6Manifest#cert_format}
   */
   readonly certFormat?: string;
   /**
   * ClientIdleTimeout sets disconnect clients on idle timeout behavior, if set to 0 means do not disconnect, otherwise is set to the idle duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#client_idle_timeout DataK8SResourcesTeleportDevTeleportRoleV6Manifest#client_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#client_idle_timeout DataK8SResourcesTeleportDevTeleportRoleV6Manifest#client_idle_timeout}
   */
   readonly clientIdleTimeout?: string;
   /**
   * CreateDatabaseUser enabled automatic database user creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#create_db_user DataK8SResourcesTeleportDevTeleportRoleV6Manifest#create_db_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#create_db_user DataK8SResourcesTeleportDevTeleportRoleV6Manifest#create_db_user}
   */
   readonly createDbUser?: boolean | cdktf.IResolvable;
   /**
   * CreateDatabaseUserMode allows users to be automatically created on a database when not set to off. 0 is 'unspecified', 1 is 'off', 2 is 'keep', 3 is 'best_effort_drop'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#create_db_user_mode DataK8SResourcesTeleportDevTeleportRoleV6Manifest#create_db_user_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#create_db_user_mode DataK8SResourcesTeleportDevTeleportRoleV6Manifest#create_db_user_mode}
   */
   readonly createDbUserMode?: string;
   /**
   * CreateDesktopUser allows users to be automatically created on a Windows desktop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#create_desktop_user DataK8SResourcesTeleportDevTeleportRoleV6Manifest#create_desktop_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#create_desktop_user DataK8SResourcesTeleportDevTeleportRoleV6Manifest#create_desktop_user}
   */
   readonly createDesktopUser?: boolean | cdktf.IResolvable;
   /**
   * Deprecated: use CreateHostUserMode instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#create_host_user DataK8SResourcesTeleportDevTeleportRoleV6Manifest#create_host_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#create_host_user DataK8SResourcesTeleportDevTeleportRoleV6Manifest#create_host_user}
   */
   readonly createHostUser?: boolean | cdktf.IResolvable;
   /**
   * CreateHostUserDefaultShell is used to configure the default shell for newly provisioned host users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#create_host_user_default_shell DataK8SResourcesTeleportDevTeleportRoleV6Manifest#create_host_user_default_shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#create_host_user_default_shell DataK8SResourcesTeleportDevTeleportRoleV6Manifest#create_host_user_default_shell}
   */
   readonly createHostUserDefaultShell?: string;
   /**
   * CreateHostUserMode allows users to be automatically created on a host when not set to off. 0 is 'unspecified'; 1 is 'off'; 2 is 'drop' (removed for v15 and above), 3 is 'keep'; 4 is 'insecure-drop'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#create_host_user_mode DataK8SResourcesTeleportDevTeleportRoleV6Manifest#create_host_user_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#create_host_user_mode DataK8SResourcesTeleportDevTeleportRoleV6Manifest#create_host_user_mode}
   */
   readonly createHostUserMode?: string;
   /**
   * DesktopClipboard indicates whether clipboard sharing is allowed between the user's workstation and the remote desktop. It defaults to true unless explicitly set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#desktop_clipboard DataK8SResourcesTeleportDevTeleportRoleV6Manifest#desktop_clipboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#desktop_clipboard DataK8SResourcesTeleportDevTeleportRoleV6Manifest#desktop_clipboard}
   */
   readonly desktopClipboard?: boolean | cdktf.IResolvable;
   /**
   * DesktopDirectorySharing indicates whether directory sharing is allowed between the user's workstation and the remote desktop. It defaults to false unless explicitly set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#desktop_directory_sharing DataK8SResourcesTeleportDevTeleportRoleV6Manifest#desktop_directory_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#desktop_directory_sharing DataK8SResourcesTeleportDevTeleportRoleV6Manifest#desktop_directory_sharing}
   */
   readonly desktopDirectorySharing?: boolean | cdktf.IResolvable;
   /**
   * DeviceTrustMode is the device authorization mode used for the resources associated with the role. See DeviceTrust.Mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#device_trust_mode DataK8SResourcesTeleportDevTeleportRoleV6Manifest#device_trust_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#device_trust_mode DataK8SResourcesTeleportDevTeleportRoleV6Manifest#device_trust_mode}
   */
   readonly deviceTrustMode?: string;
   /**
   * DisconnectExpiredCert sets disconnect clients on expired certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#disconnect_expired_cert DataK8SResourcesTeleportDevTeleportRoleV6Manifest#disconnect_expired_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#disconnect_expired_cert DataK8SResourcesTeleportDevTeleportRoleV6Manifest#disconnect_expired_cert}
   */
   readonly disconnectExpiredCert?: boolean | cdktf.IResolvable;
   /**
   * BPF defines what events to record for the BPF-based session recorder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#enhanced_recording DataK8SResourcesTeleportDevTeleportRoleV6Manifest#enhanced_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#enhanced_recording DataK8SResourcesTeleportDevTeleportRoleV6Manifest#enhanced_recording}
   */
   readonly enhancedRecording?: string[];
   /**
   * ForwardAgent is SSH agent forwarding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#forward_agent DataK8SResourcesTeleportDevTeleportRoleV6Manifest#forward_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#forward_agent DataK8SResourcesTeleportDevTeleportRoleV6Manifest#forward_agent}
   */
   readonly forwardAgent?: boolean | cdktf.IResolvable;
   /**
   * IDP is a set of options related to accessing IdPs within Teleport. Requires Teleport Enterprise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#idp DataK8SResourcesTeleportDevTeleportRoleV6Manifest#idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#idp DataK8SResourcesTeleportDevTeleportRoleV6Manifest#idp}
   */
   readonly idp?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecOptionsIdp;
   /**
   * Lock specifies the locking mode (strict|best_effort) to be applied with the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#lock DataK8SResourcesTeleportDevTeleportRoleV6Manifest#lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#lock DataK8SResourcesTeleportDevTeleportRoleV6Manifest#lock}
   */
   readonly lock?: string;
   /**
   * MaxConnections defines the maximum number of concurrent connections a user may hold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#max_connections DataK8SResourcesTeleportDevTeleportRoleV6Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#max_connections DataK8SResourcesTeleportDevTeleportRoleV6Manifest#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * MaxKubernetesConnections defines the maximum number of concurrent Kubernetes sessions a user may hold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#max_kubernetes_connections DataK8SResourcesTeleportDevTeleportRoleV6Manifest#max_kubernetes_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#max_kubernetes_connections DataK8SResourcesTeleportDevTeleportRoleV6Manifest#max_kubernetes_connections}
   */
   readonly maxKubernetesConnections?: number;
   /**
   * MaxSessionTTL defines how long a SSH session can last for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#max_session_ttl DataK8SResourcesTeleportDevTeleportRoleV6Manifest#max_session_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#max_session_ttl DataK8SResourcesTeleportDevTeleportRoleV6Manifest#max_session_ttl}
   */
   readonly maxSessionTtl?: string;
   /**
   * MaxSessions defines the maximum number of concurrent sessions per connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#max_sessions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#max_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#max_sessions DataK8SResourcesTeleportDevTeleportRoleV6Manifest#max_sessions}
   */
   readonly maxSessions?: number;
   /**
   * MFAVerificationInterval optionally defines the maximum duration that can elapse between successive MFA verifications. This variable is used to ensure that users are periodically prompted to verify their identity, enhancing security by preventing prolonged sessions without re-authentication when using tsh proxy * derivatives. It's only effective if the session requires MFA. If not set, defaults to 'max_session_ttl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#mfa_verification_interval DataK8SResourcesTeleportDevTeleportRoleV6Manifest#mfa_verification_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#mfa_verification_interval DataK8SResourcesTeleportDevTeleportRoleV6Manifest#mfa_verification_interval}
   */
   readonly mfaVerificationInterval?: string;
   /**
   * PermitX11Forwarding authorizes use of X11 forwarding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#permit_x11_forwarding DataK8SResourcesTeleportDevTeleportRoleV6Manifest#permit_x11_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#permit_x11_forwarding DataK8SResourcesTeleportDevTeleportRoleV6Manifest#permit_x11_forwarding}
   */
   readonly permitX11Forwarding?: boolean | cdktf.IResolvable;
   /**
   * PinSourceIP forces the same client IP for certificate generation and usage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#pin_source_ip DataK8SResourcesTeleportDevTeleportRoleV6Manifest#pin_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#pin_source_ip DataK8SResourcesTeleportDevTeleportRoleV6Manifest#pin_source_ip}
   */
   readonly pinSourceIp?: boolean | cdktf.IResolvable;
   /**
   * PortForwarding defines if the certificate will have 'permit-port-forwarding' in the certificate. PortForwarding is 'yes' if not set, that's why this is a pointer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#port_forwarding DataK8SResourcesTeleportDevTeleportRoleV6Manifest#port_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#port_forwarding DataK8SResourcesTeleportDevTeleportRoleV6Manifest#port_forwarding}
   */
   readonly portForwarding?: boolean | cdktf.IResolvable;
   /**
   * RecordDesktopSession indicates whether desktop access sessions should be recorded. It defaults to true unless explicitly set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#record_session DataK8SResourcesTeleportDevTeleportRoleV6Manifest#record_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#record_session DataK8SResourcesTeleportDevTeleportRoleV6Manifest#record_session}
   */
   readonly recordSession?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecOptionsRecordSession;
   /**
   * RequestAccess defines the request strategy (optional|note|always) where optional is the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#request_access DataK8SResourcesTeleportDevTeleportRoleV6Manifest#request_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#request_access DataK8SResourcesTeleportDevTeleportRoleV6Manifest#request_access}
   */
   readonly requestAccess?: string;
   /**
   * RequestPrompt is an optional message which tells users what they aught to request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#request_prompt DataK8SResourcesTeleportDevTeleportRoleV6Manifest#request_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#request_prompt DataK8SResourcesTeleportDevTeleportRoleV6Manifest#request_prompt}
   */
   readonly requestPrompt?: string;
   /**
   * RequireMFAType is the type of MFA requirement enforced for this user. 0 is 'OFF', 1 is 'SESSION', 2 is 'SESSION_AND_HARDWARE_KEY', 3 is 'HARDWARE_KEY_TOUCH', 4 is 'HARDWARE_KEY_PIN', 5 is 'HARDWARE_KEY_TOUCH_AND_PIN'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#require_session_mfa DataK8SResourcesTeleportDevTeleportRoleV6Manifest#require_session_mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#require_session_mfa DataK8SResourcesTeleportDevTeleportRoleV6Manifest#require_session_mfa}
   */
   readonly requireSessionMfa?: string;
   /**
   * SSHFileCopy indicates whether remote file operations via SCP or SFTP are allowed over an SSH session. It defaults to true unless explicitly set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#ssh_file_copy DataK8SResourcesTeleportDevTeleportRoleV6Manifest#ssh_file_copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#ssh_file_copy DataK8SResourcesTeleportDevTeleportRoleV6Manifest#ssh_file_copy}
   */
   readonly sshFileCopy?: boolean | cdktf.IResolvable;
 }
@@ -9843,19 +9843,19 @@ export interface DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpec {
   /**
   * Allow is the set of conditions evaluated to grant access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#allow DataK8SResourcesTeleportDevTeleportRoleV6Manifest#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#allow DataK8SResourcesTeleportDevTeleportRoleV6Manifest#allow}
   */
   readonly allow?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecAllow;
   /**
   * Deny is the set of conditions evaluated to deny access. Deny takes priority over allow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#deny DataK8SResourcesTeleportDevTeleportRoleV6Manifest#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#deny DataK8SResourcesTeleportDevTeleportRoleV6Manifest#deny}
   */
   readonly deny?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecDeny;
   /**
   * Options is for OpenSSH options like agent forwarding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#options DataK8SResourcesTeleportDevTeleportRoleV6Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#options DataK8SResourcesTeleportDevTeleportRoleV6Manifest#options}
   */
   readonly options?: DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecOptions;
 }
@@ -10007,7 +10007,7 @@ export class DataK8SResourcesTeleportDevTeleportRoleV6ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest k8s_resources_teleport_dev_teleport_role_v6_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest k8s_resources_teleport_dev_teleport_role_v6_manifest}
 */
 export class DataK8SResourcesTeleportDevTeleportRoleV6Manifest extends cdktf.TerraformDataSource {
 
@@ -10023,7 +10023,7 @@ export class DataK8SResourcesTeleportDevTeleportRoleV6Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SResourcesTeleportDevTeleportRoleV6Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SResourcesTeleportDevTeleportRoleV6Manifest to import
-  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportRoleV6Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportRoleV6Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SResourcesTeleportDevTeleportRoleV6Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10035,7 +10035,7 @@ export class DataK8SResourcesTeleportDevTeleportRoleV6Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest k8s_resources_teleport_dev_teleport_role_v6_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_role_v6_manifest k8s_resources_teleport_dev_teleport_role_v6_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10046,8 +10046,8 @@ export class DataK8SResourcesTeleportDevTeleportRoleV6Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_resources_teleport_dev_teleport_role_v6_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

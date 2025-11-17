@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ValkeyClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Enables Client ⇄ Node Encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#client_to_node_encryption ValkeyClusterV2#client_to_node_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#client_to_node_encryption ValkeyClusterV2#client_to_node_encryption}
   */
   readonly clientToNodeEncryption: boolean | cdktf.IResolvable;
   /**
   * Indicates if the cluster is currently performing any restructuring operation such as being created or resized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#current_cluster_operation_status ValkeyClusterV2#current_cluster_operation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#current_cluster_operation_status ValkeyClusterV2#current_cluster_operation_status}
   */
   readonly currentClusterOperationStatus?: string;
   /**
   * A description of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#description ValkeyClusterV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#description ValkeyClusterV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#id ValkeyClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#id ValkeyClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface ValkeyClusterV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#name ValkeyClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#name ValkeyClusterV2#name}
   */
   readonly name: string;
   /**
   * Enables Password Authentication and User Authorization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#password_and_user_auth ValkeyClusterV2#password_and_user_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#password_and_user_auth ValkeyClusterV2#password_and_user_auth}
   */
   readonly passwordAndUserAuth: boolean | cdktf.IResolvable;
   /**
   * Creates a PCI compliant cluster, see [PCI Compliance](https://www.instaclustr.com/support/documentation/useful-information/pci-compliance/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#pci_compliance_mode ValkeyClusterV2#pci_compliance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#pci_compliance_mode ValkeyClusterV2#pci_compliance_mode}
   */
   readonly pciComplianceMode: boolean | cdktf.IResolvable;
   /**
   * Creates the cluster with private network only, see [Private Network Clusters](https://www.instaclustr.com/support/documentation/useful-information/private-network-clusters/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#private_network_cluster ValkeyClusterV2#private_network_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#private_network_cluster ValkeyClusterV2#private_network_cluster}
   */
   readonly privateNetworkCluster: boolean | cdktf.IResolvable;
   /**
   * SLA Tier of the cluster. Non-production clusters may receive lower priority support and reduced SLAs. Production tier is not available when using Developer class nodes. See [SLA Tier](https://www.instaclustr.com/support/documentation/useful-information/sla-tier/) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#sla_tier ValkeyClusterV2#sla_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#sla_tier ValkeyClusterV2#sla_tier}
   */
   readonly slaTier: string;
   /**
   * Status of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#status ValkeyClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#status ValkeyClusterV2#status}
   */
   readonly status?: string;
   /**
   * Version of Valkey to run on the cluster. Available versions: <ul> </ul>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#valkey_version ValkeyClusterV2#valkey_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#valkey_version ValkeyClusterV2#valkey_version}
   */
   readonly valkeyVersion: string;
   /**
   * data_centre block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#data_centre ValkeyClusterV2#data_centre}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#data_centre ValkeyClusterV2#data_centre}
   */
   readonly dataCentre: ValkeyClusterV2DataCentre[] | cdktf.IResolvable;
   /**
   * resize_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#resize_settings ValkeyClusterV2#resize_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#resize_settings ValkeyClusterV2#resize_settings}
   */
   readonly resizeSettings?: ValkeyClusterV2ResizeSettings[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#timeouts ValkeyClusterV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#timeouts ValkeyClusterV2#timeouts}
   */
   readonly timeouts?: ValkeyClusterV2Timeouts;
   /**
   * two_factor_delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#two_factor_delete ValkeyClusterV2#two_factor_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#two_factor_delete ValkeyClusterV2#two_factor_delete}
   */
   readonly twoFactorDelete?: ValkeyClusterV2TwoFactorDelete[] | cdktf.IResolvable;
 }
@@ -103,13 +103,13 @@ export interface ValkeyClusterV2DataCentreAwsSettings {
   /**
   * VPC ID into which the Data Centre will be provisioned. The Data Centre's network allocation must match the IPv4 CIDR block of the specified VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#custom_virtual_network_id ValkeyClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#custom_virtual_network_id ValkeyClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * ID of a KMS encryption key to encrypt data on nodes. KMS encryption key must be set in Cluster Resources through the Instaclustr Console before provisioning an encrypted Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#ebs_encryption_key ValkeyClusterV2#ebs_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#ebs_encryption_key ValkeyClusterV2#ebs_encryption_key}
   */
   readonly ebsEncryptionKey?: string;
 }
@@ -256,19 +256,19 @@ export interface ValkeyClusterV2DataCentreAzureSettings {
   /**
   * VNet ID into which the Data Centre will be provisioned. The VNet must have an available address space for the Data Centre's network allocation to be appended to the VNet. Currently supported for PostgreSQL clusters only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#custom_virtual_network_id ValkeyClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#custom_virtual_network_id ValkeyClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
   /**
   * The name of the Azure Resource Group into which the Data Centre will be provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#resource_group ValkeyClusterV2#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#resource_group ValkeyClusterV2#resource_group}
   */
   readonly resourceGroup?: string;
   /**
   * The private network address block to be used for the storage network. This is only used for certain node sizes, currently limited to those which use Azure NetApp Files: for all other node sizes, this field should not be provided. The network must have a prefix length between /16 and /28, and must be part of a private address range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#storage_network ValkeyClusterV2#storage_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#storage_network ValkeyClusterV2#storage_network}
   */
   readonly storageNetwork?: string;
 }
@@ -444,13 +444,13 @@ export interface ValkeyClusterV2DataCentreDeletedNodes {
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#deletion_time ValkeyClusterV2#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#deletion_time ValkeyClusterV2#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#id ValkeyClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#id ValkeyClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -459,43 +459,43 @@ export interface ValkeyClusterV2DataCentreDeletedNodes {
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#node_roles ValkeyClusterV2#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#node_roles ValkeyClusterV2#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#node_size ValkeyClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#node_size ValkeyClusterV2#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#private_address ValkeyClusterV2#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#private_address ValkeyClusterV2#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#public_address ValkeyClusterV2#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#public_address ValkeyClusterV2#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#rack ValkeyClusterV2#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#rack ValkeyClusterV2#rack}
   */
   readonly rack?: string;
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#start_time ValkeyClusterV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#start_time ValkeyClusterV2#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#status ValkeyClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#status ValkeyClusterV2#status}
   */
   readonly status?: string;
 }
@@ -854,7 +854,7 @@ export interface ValkeyClusterV2DataCentreGcpSettings {
   * 
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#custom_virtual_network_id ValkeyClusterV2#custom_virtual_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#custom_virtual_network_id ValkeyClusterV2#custom_virtual_network_id}
   */
   readonly customVirtualNetworkId?: string;
 }
@@ -972,13 +972,13 @@ export interface ValkeyClusterV2DataCentreNodes {
   /**
   * Deletion time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#deletion_time ValkeyClusterV2#deletion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#deletion_time ValkeyClusterV2#deletion_time}
   */
   readonly deletionTime?: string;
   /**
   * ID of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#id ValkeyClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#id ValkeyClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -987,43 +987,43 @@ export interface ValkeyClusterV2DataCentreNodes {
   /**
   * The roles or purposes of the node. Useful for filtering for nodes that have a specific role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#node_roles ValkeyClusterV2#node_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#node_roles ValkeyClusterV2#node_roles}
   */
   readonly nodeRoles?: string[];
   /**
   * Size of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#node_size ValkeyClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#node_size ValkeyClusterV2#node_size}
   */
   readonly nodeSize?: string;
   /**
   * Private IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#private_address ValkeyClusterV2#private_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#private_address ValkeyClusterV2#private_address}
   */
   readonly privateAddress?: string;
   /**
   * Public IP address of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#public_address ValkeyClusterV2#public_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#public_address ValkeyClusterV2#public_address}
   */
   readonly publicAddress?: string;
   /**
   * Rack name in which the node is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#rack ValkeyClusterV2#rack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#rack ValkeyClusterV2#rack}
   */
   readonly rack?: string;
   /**
   * Start time of the node as a UTC timestamp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#start_time ValkeyClusterV2#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#start_time ValkeyClusterV2#start_time}
   */
   readonly startTime?: string;
   /**
   * Provisioning status of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#status ValkeyClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#status ValkeyClusterV2#status}
   */
   readonly status?: string;
 }
@@ -1373,19 +1373,19 @@ export interface ValkeyClusterV2DataCentrePrivateLink {
   /**
   * The hostname to be used to connect to the PrivateLink cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#advertised_hostname ValkeyClusterV2#advertised_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#advertised_hostname ValkeyClusterV2#advertised_hostname}
   */
   readonly advertisedHostname: string;
   /**
   * The Instaclustr ID of the AWS endpoint service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#end_point_service_id ValkeyClusterV2#end_point_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#end_point_service_id ValkeyClusterV2#end_point_service_id}
   */
   readonly endPointServiceId?: string;
   /**
   * Name of the created endpoint service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#end_point_service_name ValkeyClusterV2#end_point_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#end_point_service_name ValkeyClusterV2#end_point_service_name}
   */
   readonly endPointServiceName?: string;
 }
@@ -1558,13 +1558,13 @@ export interface ValkeyClusterV2DataCentreTag {
   /**
   * Key of the tag for the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#key ValkeyClusterV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#key ValkeyClusterV2#key}
   */
   readonly key: string;
   /**
   * Value of the tag for the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#value ValkeyClusterV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#value ValkeyClusterV2#value}
   */
   readonly value?: string;
 }
@@ -1708,13 +1708,13 @@ export interface ValkeyClusterV2DataCentre {
   /**
   * Name of a cloud provider service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#cloud_provider ValkeyClusterV2#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#cloud_provider ValkeyClusterV2#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
   * ID of the Cluster Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#id ValkeyClusterV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#id ValkeyClusterV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1723,103 +1723,103 @@ export interface ValkeyClusterV2DataCentre {
   /**
   * Total number of master nodes in the Data Centre. In order to maintain quorum on the cluster, you must specify an odd number of master nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#master_nodes ValkeyClusterV2#master_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#master_nodes ValkeyClusterV2#master_nodes}
   */
   readonly masterNodes: number;
   /**
   * A logical name for the data centre within a cluster. These names must be unique in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#name ValkeyClusterV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#name ValkeyClusterV2#name}
   */
   readonly name: string;
   /**
   * The private network address block for the Data Centre specified using CIDR address notation. The network must have a prefix length between `/16` and `/26` and must be part of a private address space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#network ValkeyClusterV2#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#network ValkeyClusterV2#network}
   */
   readonly network: string;
   /**
   * Size of the nodes provisioned in the Data Centre. Available node sizes: <details> <summary>*Amazon Web Services* [__AWS_VPC__]</summary> <br> <details> <summary>*Africa (Cape Town)* [__AF_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Hong Kong)* [__AP_EAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Hyderabad)* [__AP_SOUTH_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Jakarta)* [__AP_SOUTHEAST_3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Malaysia)* [__AP_SOUTHEAST_5__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Melbourne)* [__AP_SOUTHEAST_4__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Mumbai)* [__AP_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Osaka)* [__AP_NORTHEAST_3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Seoul)* [__AP_NORTHEAST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Singapore)* [__AP_SOUTHEAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Sydney)* [__AP_SOUTHEAST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Thailand)* [__AP_SOUTHEAST_7__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Asia Pacific (Tokyo)* [__AP_NORTHEAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Canada (Central)* [__CA_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Canada West (Calgary)* [__CA_WEST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU Central (Frankfurt)* [__EU_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU Central (Zurich)* [__EU_CENTRAL_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU North (Stockholm)* [__EU_NORTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU South (Milan)* [__EU_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU South (Spain)* [__EU_SOUTH_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU West (Ireland)* [__EU_WEST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU West (London)* [__EU_WEST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*EU West (Paris)* [__EU_WEST_3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Israel (Tel Aviv)* [__IL_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Middle East (Bahrain)* [__ME_SOUTH_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Middle East (UAE)* [__ME_CENTRAL_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*South America (São Paulo)* [__SA_EAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*US East (Northern Virginia)* [__US_EAST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*US East (Ohio)* [__US_EAST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*US West (Northern California)* [__US_WEST_1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*US West (Oregon)* [__US_WEST_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-t4g.medium-80 </td> <td>General Availability</td> </tr> <tr> <td>VAL-DEV-t4g.small-20 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.2xlarge-400 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.4xlarge-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.large-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-r6g.xlarge-200 </td> <td>General Availability</td> </tr> </table> <br> </details> <br> </details> <details> <summary>*Microsoft Azure* [__AZURE_AZ__]</summary> <br> <details> <summary>*Australia East (NSW)* [__AUSTRALIA_EAST__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-Standard_D2s_v5-64 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E16s_v3-1024 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E2s_v3-128 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E4s_v3-256 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E8s_v3-512 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Canada Central (Toronto)* [__CANADA_CENTRAL__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-Standard_D2s_v5-64 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E16s_v3-1024 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E2s_v3-128 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E4s_v3-256 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E8s_v3-512 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Central US (Iowa)* [__CENTRAL_US__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-Standard_D2s_v5-64 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E16s_v3-1024 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E2s_v3-128 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E4s_v3-256 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E8s_v3-512 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*East US (Virginia)* [__EAST_US__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-Standard_D2s_v5-64 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E16s_v3-1024 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E2s_v3-128 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E4s_v3-256 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E8s_v3-512 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*East US 2 (Virginia)* [__EAST_US_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-Standard_D2s_v5-64 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E16s_v3-1024 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E2s_v3-128 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E4s_v3-256 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E8s_v3-512 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*North Europe (Ireland)* [__NORTH_EUROPE__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-Standard_D2s_v5-64 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E16s_v3-1024 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E2s_v3-128 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E4s_v3-256 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E8s_v3-512 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*South Central US (Texas)* [__SOUTH_CENTRAL_US__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-Standard_D2s_v5-64 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E16s_v3-1024 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E2s_v3-128 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E4s_v3-256 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E8s_v3-512 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southeast Asia (Singapore)* [__SOUTHEAST_ASIA__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-Standard_D2s_v5-64 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E16s_v3-1024 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E2s_v3-128 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E4s_v3-256 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E8s_v3-512 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Switzerland North (Zurich)* [__SWITZERLAND_NORTH__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-Standard_D2s_v5-64 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E16s_v3-1024 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E2s_v3-128 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E4s_v3-256 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E8s_v3-512 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*UK South (London)* [__UK_SOUTH__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-Standard_D2s_v5-64 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E16s_v3-1024 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E2s_v3-128 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E4s_v3-256 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E8s_v3-512 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*West Europe (Netherlands)* [__WEST_EUROPE__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-Standard_D2s_v5-64 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E16s_v3-1024 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E2s_v3-128 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E4s_v3-256 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E8s_v3-512 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*West US 2 (Washington)* [__WEST_US_2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-Standard_D2s_v5-64 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E16s_v3-1024 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E2s_v3-128 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E4s_v3-256 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-standard_E8s_v3-512 </td> <td>General Availability</td> </tr> </table> <br> </details> <br> </details> <details> <summary>*Google Cloud Platform* [__GCP__]</summary> <br> <details> <summary>*Central Europe (Warsaw)* [__europe-central2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Central US (Iowa)* [__us-central1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Eastern Asia-Pacific (Taiwan)* [__asia-east1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Eastern South America (Brazil)* [__southamerica-east1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Eastern US (North Virginia)* [__us-east4__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Eastern US (South Carolina)* [__us-east1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Northeastern Asia-pacific (Japan)* [__asia-northeast1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Northeastern North America (Canada)* [__northamerica-northeast1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Northern Europe (Finland)* [__europe-north1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southeastern Asia (Jakarta)* [__asia-southeast2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southeastern Asia (Singapore)* [__asia-southeast1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southeastern Australia (Sydney)* [__australia-southeast1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Southern Asia (India)* [__asia-south1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (Belgium)* [__europe-west1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (England)* [__europe-west2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (Germany)* [__europe-west3__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (Netherlands)* [__europe-west4__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western Europe (Zurich)* [__europe-west6__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western US (California)* [__us-west2__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <details> <summary>*Western US (Oregon)* [__us-west1__]</summary> <br> <table> <tr> <th>Node Size</th> <th>Lifecycle State</th> </tr> <tr> <td>VAL-DEV-n1-standard-1-30 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-16-600 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-2-100 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-4-200 </td> <td>General Availability</td> </tr> <tr> <td>VAL-PRD-n1-highmem-8-400 </td> <td>General Availability</td> </tr> </table> <br> </details> <br> </details>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#node_size ValkeyClusterV2#node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#node_size ValkeyClusterV2#node_size}
   */
   readonly nodeSize: string;
   /**
   * For customers running in their own account. Your provider account can be found on the Create Cluster page on the Instaclustr Console, or the "Provider Account" property on any existing cluster. For customers provisioning on Instaclustr's cloud provider accounts, this property may be omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#provider_account_name ValkeyClusterV2#provider_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#provider_account_name ValkeyClusterV2#provider_account_name}
   */
   readonly providerAccountName?: string;
   /**
   * Region of the Data Centre. See the description for node size for a compatible Data Centre for a given node size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#region ValkeyClusterV2#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#region ValkeyClusterV2#region}
   */
   readonly region: string;
   /**
   * Total number of replica nodes in the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#replica_nodes ValkeyClusterV2#replica_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#replica_nodes ValkeyClusterV2#replica_nodes}
   */
   readonly replicaNodes?: number;
   /**
   * The number of replica nodes that should be assigned for each master node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#replication_factor ValkeyClusterV2#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#replication_factor ValkeyClusterV2#replication_factor}
   */
   readonly replicationFactor?: number;
   /**
   * Status of the Data Centre.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#status ValkeyClusterV2#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#status ValkeyClusterV2#status}
   */
   readonly status?: string;
   /**
   * Zero Inbound Access gateways eliminate the requirement for any public IP addresses in cluster deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#zero_inbound_access ValkeyClusterV2#zero_inbound_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#zero_inbound_access ValkeyClusterV2#zero_inbound_access}
   */
   readonly zeroInboundAccess?: boolean | cdktf.IResolvable;
   /**
   * aws_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#aws_settings ValkeyClusterV2#aws_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#aws_settings ValkeyClusterV2#aws_settings}
   */
   readonly awsSettings?: ValkeyClusterV2DataCentreAwsSettings[] | cdktf.IResolvable;
   /**
   * azure_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#azure_settings ValkeyClusterV2#azure_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#azure_settings ValkeyClusterV2#azure_settings}
   */
   readonly azureSettings?: ValkeyClusterV2DataCentreAzureSettings[] | cdktf.IResolvable;
   /**
   * deleted_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#deleted_nodes ValkeyClusterV2#deleted_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#deleted_nodes ValkeyClusterV2#deleted_nodes}
   */
   readonly deletedNodes?: ValkeyClusterV2DataCentreDeletedNodes[] | cdktf.IResolvable;
   /**
   * gcp_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#gcp_settings ValkeyClusterV2#gcp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#gcp_settings ValkeyClusterV2#gcp_settings}
   */
   readonly gcpSettings?: ValkeyClusterV2DataCentreGcpSettings[] | cdktf.IResolvable;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#nodes ValkeyClusterV2#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#nodes ValkeyClusterV2#nodes}
   */
   readonly nodes?: ValkeyClusterV2DataCentreNodes[] | cdktf.IResolvable;
   /**
   * private_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#private_link ValkeyClusterV2#private_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#private_link ValkeyClusterV2#private_link}
   */
   readonly privateLink?: ValkeyClusterV2DataCentrePrivateLink[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#tag ValkeyClusterV2#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#tag ValkeyClusterV2#tag}
   */
   readonly tag?: ValkeyClusterV2DataCentreTag[] | cdktf.IResolvable;
 }
@@ -2441,13 +2441,13 @@ export interface ValkeyClusterV2ResizeSettings {
   /**
   * Number of concurrent nodes to resize during a resize operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#concurrency ValkeyClusterV2#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#concurrency ValkeyClusterV2#concurrency}
   */
   readonly concurrency?: number;
   /**
   * Setting this property to `true` will notify the Instaclustr Account's designated support contacts on resize completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#notify_support_contacts ValkeyClusterV2#notify_support_contacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#notify_support_contacts ValkeyClusterV2#notify_support_contacts}
   */
   readonly notifySupportContacts?: boolean | cdktf.IResolvable;
 }
@@ -2592,15 +2592,15 @@ export class ValkeyClusterV2ResizeSettingsList extends cdktf.ComplexList {
 }
 export interface ValkeyClusterV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#create ValkeyClusterV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#create ValkeyClusterV2#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#default ValkeyClusterV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#default ValkeyClusterV2#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#update ValkeyClusterV2#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#update ValkeyClusterV2#update}
   */
   readonly update?: string;
 }
@@ -2754,13 +2754,13 @@ export interface ValkeyClusterV2TwoFactorDelete {
   /**
   * The email address which will be contacted when the cluster is requested to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#confirmation_email ValkeyClusterV2#confirmation_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#confirmation_email ValkeyClusterV2#confirmation_email}
   */
   readonly confirmationEmail: string;
   /**
   * The phone number which will be contacted when the cluster is requested to be delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#confirmation_phone_number ValkeyClusterV2#confirmation_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#confirmation_phone_number ValkeyClusterV2#confirmation_phone_number}
   */
   readonly confirmationPhoneNumber?: string;
 }
@@ -2902,7 +2902,7 @@ export class ValkeyClusterV2TwoFactorDeleteList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2 instaclustr_valkey_cluster_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2 instaclustr_valkey_cluster_v2}
 */
 export class ValkeyClusterV2 extends cdktf.TerraformResource {
 
@@ -2918,7 +2918,7 @@ export class ValkeyClusterV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ValkeyClusterV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ValkeyClusterV2 to import
-  * @param importFromId The id of the existing ValkeyClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ValkeyClusterV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ValkeyClusterV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2930,7 +2930,7 @@ export class ValkeyClusterV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.26/docs/resources/valkey_cluster_v2 instaclustr_valkey_cluster_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.28/docs/resources/valkey_cluster_v2 instaclustr_valkey_cluster_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2941,8 +2941,8 @@ export class ValkeyClusterV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_valkey_cluster_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.26',
-        providerVersionConstraint: '2.1.26'
+        providerVersion: '2.1.28',
+        providerVersionConstraint: '2.1.28'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

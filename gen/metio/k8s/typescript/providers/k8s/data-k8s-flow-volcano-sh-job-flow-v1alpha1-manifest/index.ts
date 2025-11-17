@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#metadata DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#metadata DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#spec DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#spec DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#annotations DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#annotations DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#labels DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#labels DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#name DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#name DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#namespace DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#namespace DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,11 +215,11 @@ export class DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestMetadataOutputReference 
 }
 export interface DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbeHttpGetListHttpHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#name DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#name DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#value DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#value DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -336,19 +336,19 @@ export class DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbeH
 }
 export interface DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbeHttpGetListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#http_header DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#http_header DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#http_header}
   */
   readonly httpHeader?: DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbeHttpGetListHttpHeader;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#path DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#path DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#port DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#port DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#task_name DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#task_name DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#task_name}
   */
   readonly taskName?: string;
 }
@@ -551,11 +551,11 @@ export class DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbeH
 }
 export interface DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbeTaskStatusListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#phase DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#phase DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#phase}
   */
   readonly phase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#task_name DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#task_name DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#task_name}
   */
   readonly taskName?: string;
 }
@@ -700,11 +700,11 @@ export class DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbeT
 }
 export interface DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbeTcpSocketListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#port DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#port DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#task_name DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#task_name DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#task_name}
   */
   readonly taskName?: string;
 }
@@ -846,15 +846,15 @@ export class DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbeT
 }
 export interface DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#http_get_list DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#http_get_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#http_get_list DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#http_get_list}
   */
   readonly httpGetList?: DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbeHttpGetListStruct[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#task_status_list DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#task_status_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#task_status_list DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#task_status_list}
   */
   readonly taskStatusList?: DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbeTaskStatusListStruct[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#tcp_socket_list DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#tcp_socket_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#tcp_socket_list DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#tcp_socket_list}
   */
   readonly tcpSocketList?: DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbeTcpSocketListStruct[] | cdktf.IResolvable;
 }
@@ -1006,11 +1006,11 @@ export class DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbeO
 }
 export interface DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#probe DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#probe DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#probe}
   */
   readonly probe?: DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#targets DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#targets DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#targets}
   */
   readonly targets?: string[];
 }
@@ -1133,11 +1133,11 @@ export class DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOnOutput
 }
 export interface DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#depends_on DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#depends_on DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#depends_on}
   */
   readonly dependsOn?: DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsDependsOn;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#name DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#name DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1279,11 +1279,11 @@ export class DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlowsList extends cd
 }
 export interface DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#flows DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#flows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#flows DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#flows}
   */
   readonly flows?: DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecFlows[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#job_retain_policy DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#job_retain_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#job_retain_policy DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest#job_retain_policy}
   */
   readonly jobRetainPolicy?: string;
 }
@@ -1406,7 +1406,7 @@ export class DataK8SFlowVolcanoShJobFlowV1Alpha1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest k8s_flow_volcano_sh_job_flow_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest k8s_flow_volcano_sh_job_flow_v1alpha1_manifest}
 */
 export class DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1422,7 +1422,7 @@ export class DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1434,7 +1434,7 @@ export class DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest k8s_flow_volcano_sh_job_flow_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/flow_volcano_sh_job_flow_v1alpha1_manifest k8s_flow_volcano_sh_job_flow_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1445,8 +1445,8 @@ export class DataK8SFlowVolcanoShJobFlowV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_flow_volcano_sh_job_flow_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

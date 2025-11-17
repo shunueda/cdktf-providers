@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#metadata DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#metadata DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestMetadata;
   /**
   * WorkspaceSpec defines the desired state of Workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#spec DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#spec DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#spec}
   */
   readonly spec: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#annotations DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#annotations DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#labels DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#labels DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#namespace DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#namespace DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecAgentPool {
   /**
   * Agent Pool ID. Must match pattern: '^apool-[a-zA-Z0-9]+$'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -228,7 +228,7 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecAgentPool {
   /**
   * Agent Pool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name?: string;
 }
@@ -353,19 +353,19 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecEnvironmentVa
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#key DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#key DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#optional DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#optional DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -516,19 +516,19 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecEnvironmentVa
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#key DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#key DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#optional DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#optional DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -679,13 +679,13 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecEnvironmentVa
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#config_map_key_ref DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#config_map_key_ref DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecEnvironmentVariablesValueFromConfigMapKeyRef;
   /**
   * Selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#secret_key_ref DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#secret_key_ref DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecEnvironmentVariablesValueFromSecretKeyRef;
 }
@@ -810,37 +810,37 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecEnvironmentVa
   /**
   * Description of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#description DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#description DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#description}
   */
   readonly description?: string;
   /**
   * Parse this field as HashiCorp Configuration Language (HCL). This allows you to interpolate values at runtime. Default: 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#hcl DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#hcl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#hcl DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#hcl}
   */
   readonly hcl?: boolean | cdktf.IResolvable;
   /**
   * Name of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Sensitive variables are never shown in the UI or API. They may appear in Terraform logs if your configuration is designed to output them. Default: 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#sensitive DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#sensitive DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * Value of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#value DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#value DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#value_from DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#value_from DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecEnvironmentVariablesValueFrom;
 }
@@ -1100,49 +1100,49 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecNotifications
   /**
   * The list of email addresses that will receive notification emails. It is only available for Terraform Enterprise users. It is not available in HCP Terraform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#email_addresses DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#email_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#email_addresses DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#email_addresses}
   */
   readonly emailAddresses?: string[];
   /**
   * The list of users belonging to the organization that will receive notification emails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#email_users DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#email_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#email_users DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#email_users}
   */
   readonly emailUsers?: string[];
   /**
   * Whether the notification configuration should be enabled or not. Default: 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#enabled DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#enabled DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Notification name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * The token of the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#token DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#token DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#token}
   */
   readonly token?: string;
   /**
   * The list of run events that will trigger notifications. Trigger represents the different TFC notifications that can be sent as a run's progress transitions between different states. There are two categories of triggers: - Health Events: 'assessment:check_failure', 'assessment:drifted', 'assessment:failed'. - Run Events: 'run:applying', 'run:completed', 'run:created', 'run:errored', 'run:needs_attention', 'run:planning'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#triggers DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#triggers DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#triggers}
   */
   readonly triggers?: string[];
   /**
   * The type of the notification. Must be one of the following values: 'email', 'generic', 'microsoft-teams', 'slack'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#type DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#type DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#type}
   */
   readonly type: string;
   /**
   * The URL of the notification. Must match pattern: '^https?://.*'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#url DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#url DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#url}
   */
   readonly url?: string;
 }
@@ -1457,7 +1457,7 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecProject {
   /**
   * Project ID. Must match pattern: '^prj-[a-zA-Z0-9]+$'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1466,7 +1466,7 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecProject {
   /**
   * Project name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name?: string;
 }
@@ -1591,7 +1591,7 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecRemoteStateSh
   /**
   * Consumer Workspace ID. Must match pattern: '^ws-[a-zA-Z0-9]+$'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1600,7 +1600,7 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecRemoteStateSh
   /**
   * Consumer Workspace name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name?: string;
 }
@@ -1747,13 +1747,13 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecRemoteStateSh
   /**
   * Allow access to the state for all workspaces within the same organization. Default: 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#all_workspaces DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#all_workspaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#all_workspaces DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#all_workspaces}
   */
   readonly allWorkspaces?: boolean | cdktf.IResolvable;
   /**
   * Allow access to the state for specific workspaces within the same organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#workspaces DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#workspaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#workspaces DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#workspaces}
   */
   readonly workspaces?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecRemoteStateSharingWorkspaces[] | cdktf.IResolvable;
 }
@@ -1878,13 +1878,13 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecRunTasks {
   /**
   * Run Task Enforcement Level. Can be one of 'advisory' or 'mandatory'. Default: 'advisory'. Must be one of the following values: 'advisory', 'mandatory' Default: 'advisory'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#enforcement_level DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#enforcement_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#enforcement_level DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#enforcement_level}
   */
   readonly enforcementLevel?: string;
   /**
   * Run Task ID. Must match pattern: '^task-[a-zA-Z0-9]+$'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1893,13 +1893,13 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecRunTasks {
   /**
   * Run Task Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
   * Run Task Stage. Must be one of the following values: 'pre_apply', 'pre_plan', 'post_plan'. Default: 'post_plan'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#stage DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#stage DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#stage}
   */
   readonly stage?: string;
 }
@@ -2104,7 +2104,7 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecRunTriggers {
   /**
   * Source Workspace ID. Must match pattern: '^ws-[a-zA-Z0-9]+$'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2113,7 +2113,7 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecRunTriggers {
   /**
   * Source Workspace Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name?: string;
 }
@@ -2260,7 +2260,7 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecSshKey {
   /**
   * SSH key ID. Must match pattern: '^sshkey-[a-zA-Z0-9]+$'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2269,7 +2269,7 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecSshKey {
   /**
   * SSH key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name?: string;
 }
@@ -2394,37 +2394,37 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTeamAccessCus
   /**
   * Manage Workspace Run Tasks. Default: 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#run_tasks DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#run_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#run_tasks DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#run_tasks}
   */
   readonly runTasks?: boolean | cdktf.IResolvable;
   /**
   * Run access. Must be one of the following values: 'apply', 'plan', 'read'. Default: 'read'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#runs DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#runs DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#runs}
   */
   readonly runs?: string;
   /**
   * Download Sentinel mocks. Must be one of the following values: 'none', 'read'. Default: 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#sentinel DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#sentinel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#sentinel DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#sentinel}
   */
   readonly sentinel?: string;
   /**
   * State access. Must be one of the following values: 'none', 'read', 'read-outputs', 'write'. Default: 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#state_versions DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#state_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#state_versions DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#state_versions}
   */
   readonly stateVersions?: string;
   /**
   * Variable access. Must be one of the following values: 'none', 'read', 'write'. Default: 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#variables DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#variables DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#variables}
   */
   readonly variables?: string;
   /**
   * Lock/unlock workspace. Default: 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#workspace_locking DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#workspace_locking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#workspace_locking DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#workspace_locking}
   */
   readonly workspaceLocking?: boolean | cdktf.IResolvable;
 }
@@ -2665,7 +2665,7 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTeamAccessTea
   /**
   * Team ID. Must match pattern: '^team-[a-zA-Z0-9]+$'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2674,7 +2674,7 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTeamAccessTea
   /**
   * Team name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name?: string;
 }
@@ -2799,19 +2799,19 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTeamAccess {
   /**
   * There are two ways to choose which permissions a given team has on a workspace: fixed permission sets, and custom permissions. Must be one of the following values: 'admin', 'custom', 'plan', 'read', 'write'. More information: - https://developer.hashicorp.com/terraform/cloud-docs/users-teams-organizations/permissions#workspace-permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#access DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#access DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#access}
   */
   readonly access: string;
   /**
   * Custom permissions let you assign specific, finer-grained permissions to a team than the broader fixed permission sets provide. More information: - https://developer.hashicorp.com/terraform/cloud-docs/users-teams-organizations/permissions#custom-workspace-permissions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#custom DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#custom DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#custom}
   */
   readonly custom?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTeamAccessCustom;
   /**
   * Team to grant access. More information: - https://developer.hashicorp.com/terraform/cloud-docs/users-teams-organizations/teams
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#team DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#team DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#team}
   */
   readonly team: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTeamAccessTeam;
 }
@@ -2981,19 +2981,19 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTerraformVari
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#key DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#key DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#optional DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#optional DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3144,19 +3144,19 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTerraformVari
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#key DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#key DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#optional DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#optional DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3307,13 +3307,13 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTerraformVari
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#config_map_key_ref DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#config_map_key_ref DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTerraformVariablesValueFromConfigMapKeyRef;
   /**
   * Selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#secret_key_ref DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#secret_key_ref DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTerraformVariablesValueFromSecretKeyRef;
 }
@@ -3438,37 +3438,37 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTerraformVari
   /**
   * Description of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#description DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#description DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#description}
   */
   readonly description?: string;
   /**
   * Parse this field as HashiCorp Configuration Language (HCL). This allows you to interpolate values at runtime. Default: 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#hcl DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#hcl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#hcl DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#hcl}
   */
   readonly hcl?: boolean | cdktf.IResolvable;
   /**
   * Name of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Sensitive variables are never shown in the UI or API. They may appear in Terraform logs if your configuration is designed to output them. Default: 'false'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#sensitive DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#sensitive DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * Value of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#value DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#value DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#value_from DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#value_from DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTerraformVariablesValueFrom;
 }
@@ -3728,19 +3728,19 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTokenSecretKe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#key DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#key DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#optional DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#optional DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3891,7 +3891,7 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecToken {
   /**
   * Selects a key of a secret in the workspace's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#secret_key_ref DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#secret_key_ref DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#secret_key_ref}
   */
   readonly secretKeyRef: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTokenSecretKeyRef;
 }
@@ -3984,25 +3984,25 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecVersionContro
   /**
   * The repository branch that Run will execute from. This defaults to the repository's default branch (e.g. main).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#branch DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#branch DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#branch}
   */
   readonly branch?: string;
   /**
   * The VCS Connection (OAuth Connection + Token) to use. Must match pattern: '^ot-[a-zA-Z0-9]+$'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#o_auth_token_id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#o_auth_token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#o_auth_token_id DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#o_auth_token_id}
   */
   readonly oAuthTokenId?: string;
   /**
   * A reference to your VCS repository in the format '<organization>/<repository>' where '<organization>' and '<repository>' refer to the organization and repository in your VCS provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#repository DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#repository DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#repository}
   */
   readonly repository?: string;
   /**
   * Whether this workspace allows automatic speculative plans on PR. Default: 'true'. More information: - https://developer.hashicorp.com/terraform/cloud-docs/run/ui#speculative-plans-on-pull-requests - https://developer.hashicorp.com/terraform/cloud-docs/run/remote-operations#speculative-plans
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#speculative_plans DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#speculative_plans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#speculative_plans DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#speculative_plans}
   */
   readonly speculativePlans?: boolean | cdktf.IResolvable;
 }
@@ -4185,133 +4185,133 @@ export interface DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpec {
   /**
   * HCP Terraform Agents allow HCP Terraform to communicate with isolated, private, or on-premises infrastructure. More information: - https://developer.hashicorp.com/terraform/cloud-docs/agents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#agent_pool DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#agent_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#agent_pool DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#agent_pool}
   */
   readonly agentPool?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecAgentPool;
   /**
   * Allows a destroy plan to be created and applied. Default: 'true'. More information: - https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings#destruction-and-deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#allow_destroy_plan DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#allow_destroy_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#allow_destroy_plan DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#allow_destroy_plan}
   */
   readonly allowDestroyPlan?: boolean | cdktf.IResolvable;
   /**
   * Define either change will be applied automatically(auto) or require an operator to confirm(manual). Must be one of the following values: 'auto', 'manual'. Default: 'manual'. More information: - https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings#auto-apply-and-manual-apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#apply_method DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#apply_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#apply_method DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#apply_method}
   */
   readonly applyMethod?: string;
   /**
   * The Deletion Policy specifies the behavior of the custom resource and its associated workspace when the custom resource is deleted. - 'retain': When the custom resource is deleted, the associated workspace is retained. - 'soft': Attempts to delete the associated workspace only if it does not contain any managed resources. - 'destroy': Executes a destroy operation to remove all resources managed by the associated workspace. Once the destruction of these resources is successful, the workspace itself is deleted, followed by the removal of the custom resource. - 'force': Forcefully and immediately deletes the workspace and the custom resource. Default: 'retain'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#deletion_policy DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#deletion_policy DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Workspace description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#description DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#description DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#description}
   */
   readonly description?: string;
   /**
   * Terraform Environment variables for all plans and applies in this workspace. Variables defined within a workspace always overwrite variables from variable sets that have the same type and the same key. More information: - https://developer.hashicorp.com/terraform/cloud-docs/workspaces/variables - https://developer.hashicorp.com/terraform/cloud-docs/workspaces/variables#environment-variables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#environment_variables DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#environment_variables DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#environment_variables}
   */
   readonly environmentVariables?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecEnvironmentVariables[] | cdktf.IResolvable;
   /**
   * Define where the Terraform code will be executed. Must be one of the following values: 'agent', 'local', 'remote'. Default: 'remote'. More information: - https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings#execution-mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#execution_mode DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#execution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#execution_mode DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#execution_mode}
   */
   readonly executionMode?: string;
   /**
   * Workspace name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#name DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Notifications allow you to send messages to other applications based on run and workspace events. More information: - https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#notifications DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#notifications DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#notifications}
   */
   readonly notifications?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecNotifications[] | cdktf.IResolvable;
   /**
   * Organization name where the Workspace will be created. More information: - https://developer.hashicorp.com/terraform/cloud-docs/users-teams-organizations/organizations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#organization DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#organization DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#organization}
   */
   readonly organization: string;
   /**
   * Projects let you organize your workspaces into groups. Default: default organization project. More information: - https://developer.hashicorp.com/terraform/tutorials/cloud/projects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#project DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#project DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#project}
   */
   readonly project?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecProject;
   /**
   * Remote state access between workspaces. By default, new workspaces in HCP Terraform do not allow other workspaces to access their state. More information: - https://developer.hashicorp.com/terraform/cloud-docs/workspaces/state#accessing-state-from-other-workspaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#remote_state_sharing DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#remote_state_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#remote_state_sharing DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#remote_state_sharing}
   */
   readonly remoteStateSharing?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecRemoteStateSharing;
   /**
   * Run tasks allow HCP Terraform to interact with external systems at specific points in the HCP Terraform run lifecycle. More information: - https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/run-tasks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#run_tasks DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#run_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#run_tasks DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#run_tasks}
   */
   readonly runTasks?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecRunTasks[] | cdktf.IResolvable;
   /**
   * Run triggers allow you to connect this workspace to one or more source workspaces. These connections allow runs to queue automatically in this workspace on successful apply of runs in any of the source workspaces. More information: - https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/run-triggers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#run_triggers DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#run_triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#run_triggers DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#run_triggers}
   */
   readonly runTriggers?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecRunTriggers[] | cdktf.IResolvable;
   /**
   * SSH key used to clone Terraform modules. More information: - https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/ssh-keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#ssh_key DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#ssh_key DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#ssh_key}
   */
   readonly sshKey?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecSshKey;
   /**
   * Workspace tags are used to help identify and group together workspaces. Tags must be one or more characters; can include letters, numbers, colons, hyphens, and underscores; and must begin and end with a letter or number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#tags DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#tags DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#tags}
   */
   readonly tags?: string[];
   /**
   * HCP Terraform workspaces can only be accessed by users with the correct permissions. You can manage permissions for a workspace on a per-team basis. When a workspace is created, only the owners team and teams with the 'manage workspaces' permission can access it, with full admin permissions. These teams' access can't be removed from a workspace. More information: - https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#team_access DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#team_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#team_access DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#team_access}
   */
   readonly teamAccess?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTeamAccess[] | cdktf.IResolvable;
   /**
   * Terraform variables for all plans and applies in this workspace. Variables defined within a workspace always overwrite variables from variable sets that have the same type and the same key. More information: - https://developer.hashicorp.com/terraform/cloud-docs/workspaces/variables - https://developer.hashicorp.com/terraform/cloud-docs/workspaces/variables#terraform-variables
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#terraform_variables DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#terraform_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#terraform_variables DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#terraform_variables}
   */
   readonly terraformVariables?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecTerraformVariables[] | cdktf.IResolvable;
   /**
   * The version of Terraform to use for this workspace. If not specified, the latest available version will be used. Must match pattern: '^d{1}.d{1,2}.d{1,2}$' More information: - https://www.terraform.io/cloud-docs/workspaces/settings#terraform-version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#terraform_version DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#terraform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#terraform_version DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#terraform_version}
   */
   readonly terraformVersion?: string;
   /**
   * API Token to be used for API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#token DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#token DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#token}
   */
   readonly token: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecToken;
   /**
   * Settings for the workspace's VCS repository, enabling the UI/VCS-driven run workflow. Omit this argument to utilize the CLI-driven and API-driven workflows, where runs are not driven by webhooks on your VCS provider. More information: - https://www.terraform.io/cloud-docs/run/ui - https://www.terraform.io/cloud-docs/vcs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#version_control DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#version_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#version_control DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#version_control}
   */
   readonly versionControl?: DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecVersionControl;
   /**
   * The directory where Terraform will execute, specified as a relative path from the root of the configuration directory. More information: - https://www.terraform.io/cloud-docs/workspaces/settings#terraform-working-directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#working_directory DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#working_directory DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest#working_directory}
   */
   readonly workingDirectory?: string;
 }
@@ -5005,7 +5005,7 @@ export class DataK8SAppTerraformIoWorkspaceV1Alpha2ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest k8s_app_terraform_io_workspace_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest k8s_app_terraform_io_workspace_v1alpha2_manifest}
 */
 export class DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -5021,7 +5021,7 @@ export class DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5033,7 +5033,7 @@ export class DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest k8s_app_terraform_io_workspace_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/app_terraform_io_workspace_v1alpha2_manifest k8s_app_terraform_io_workspace_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5044,8 +5044,8 @@ export class DataK8SAppTerraformIoWorkspaceV1Alpha2Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_app_terraform_io_workspace_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

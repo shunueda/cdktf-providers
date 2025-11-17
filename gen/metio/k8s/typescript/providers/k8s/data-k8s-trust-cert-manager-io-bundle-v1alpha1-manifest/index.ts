@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#metadata DataK8STrustCertManagerIoBundleV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#metadata DataK8STrustCertManagerIoBundleV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STrustCertManagerIoBundleV1Alpha1ManifestMetadata;
   /**
   * Desired state of the Bundle resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#spec DataK8STrustCertManagerIoBundleV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#spec DataK8STrustCertManagerIoBundleV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#annotations DataK8STrustCertManagerIoBundleV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#annotations DataK8STrustCertManagerIoBundleV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#labels DataK8STrustCertManagerIoBundleV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#labels DataK8STrustCertManagerIoBundleV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#name DataK8STrustCertManagerIoBundleV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#name DataK8STrustCertManagerIoBundleV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSourcesConfi
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#operator DataK8STrustCertManagerIoBundleV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#operator DataK8STrustCertManagerIoBundleV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#values DataK8STrustCertManagerIoBundleV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#values DataK8STrustCertManagerIoBundleV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -369,13 +369,13 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSourcesConfi
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#match_expressions DataK8STrustCertManagerIoBundleV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#match_expressions DataK8STrustCertManagerIoBundleV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSourcesConfigMapSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#match_labels DataK8STrustCertManagerIoBundleV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#match_labels DataK8STrustCertManagerIoBundleV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -500,19 +500,19 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSourcesConfi
   /**
   * Key is the key of the entry in the object's 'data' field to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name is the name of the source object in the trust Namespace. This field must be left empty when 'selector' is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#name DataK8STrustCertManagerIoBundleV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#name DataK8STrustCertManagerIoBundleV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Selector is the label selector to use to fetch a list of objects. Must not be set when 'Name' is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#selector DataK8STrustCertManagerIoBundleV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#selector DataK8STrustCertManagerIoBundleV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSourcesConfigMapSelector;
 }
@@ -663,19 +663,19 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSourcesSecre
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#operator DataK8STrustCertManagerIoBundleV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#operator DataK8STrustCertManagerIoBundleV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#values DataK8STrustCertManagerIoBundleV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#values DataK8STrustCertManagerIoBundleV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -845,13 +845,13 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSourcesSecre
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#match_expressions DataK8STrustCertManagerIoBundleV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#match_expressions DataK8STrustCertManagerIoBundleV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSourcesSecretSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#match_labels DataK8STrustCertManagerIoBundleV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#match_labels DataK8STrustCertManagerIoBundleV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -976,19 +976,19 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSourcesSecre
   /**
   * Key is the key of the entry in the object's 'data' field to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name is the name of the source object in the trust Namespace. This field must be left empty when 'selector' is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#name DataK8STrustCertManagerIoBundleV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#name DataK8STrustCertManagerIoBundleV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Selector is the label selector to use to fetch a list of objects. Must not be set when 'Name' is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#selector DataK8STrustCertManagerIoBundleV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#selector DataK8STrustCertManagerIoBundleV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSourcesSecretSelector;
 }
@@ -1139,25 +1139,25 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSources {
   /**
   * ConfigMap is a reference (by name) to a ConfigMap's 'data' key, or to a list of ConfigMap's 'data' key using label selector, in the trust Namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#config_map DataK8STrustCertManagerIoBundleV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#config_map DataK8STrustCertManagerIoBundleV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSourcesConfigMap;
   /**
   * InLine is a simple string to append as the source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#in_line DataK8STrustCertManagerIoBundleV1Alpha1Manifest#in_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#in_line DataK8STrustCertManagerIoBundleV1Alpha1Manifest#in_line}
   */
   readonly inLine?: string;
   /**
   * Secret is a reference (by name) to a Secret's 'data' key, or to a list of Secret's 'data' key using label selector, in the trust Namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#secret DataK8STrustCertManagerIoBundleV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#secret DataK8STrustCertManagerIoBundleV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSourcesSecret;
   /**
   * UseDefaultCAs, when true, requests the default CA bundle to be used as a source. Default CAs are available if trust-manager was installed via Helm or was otherwise set up to include a package-injecting init container by using the '--default-package-location' flag when starting the trust-manager controller. If default CAs were not configured at start-up, any request to use the default CAs will fail. The version of the default CA package which is used for a Bundle is stored in the defaultCAPackageVersion field of the Bundle's status field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#use_default_c_as DataK8STrustCertManagerIoBundleV1Alpha1Manifest#use_default_c_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#use_default_c_as DataK8STrustCertManagerIoBundleV1Alpha1Manifest#use_default_c_as}
   */
   readonly useDefaultCAs?: boolean | cdktf.IResolvable;
 }
@@ -1362,13 +1362,13 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTargetAdditi
   /**
   * Key is the key of the entry in the object's 'data' field to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Password for JKS trust store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#password DataK8STrustCertManagerIoBundleV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#password DataK8STrustCertManagerIoBundleV1Alpha1Manifest#password}
   */
   readonly password?: string;
 }
@@ -1490,13 +1490,13 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTargetAdditi
   /**
   * Key is the key of the entry in the object's 'data' field to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Password for PKCS12 trust store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#password DataK8STrustCertManagerIoBundleV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#password DataK8STrustCertManagerIoBundleV1Alpha1Manifest#password}
   */
   readonly password?: string;
 }
@@ -1618,13 +1618,13 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTargetAdditi
   /**
   * JKS requests a JKS-formatted binary trust bundle to be written to the target. The bundle has 'changeit' as the default password. For more information refer to this link https://cert-manager.io/docs/faq/#keystore-passwords
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#jks DataK8STrustCertManagerIoBundleV1Alpha1Manifest#jks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#jks DataK8STrustCertManagerIoBundleV1Alpha1Manifest#jks}
   */
   readonly jks?: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTargetAdditionalFormatsJks;
   /**
   * PKCS12 requests a PKCS12-formatted binary trust bundle to be written to the target. The bundle is by default created without a password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#pkcs12 DataK8STrustCertManagerIoBundleV1Alpha1Manifest#pkcs12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#pkcs12 DataK8STrustCertManagerIoBundleV1Alpha1Manifest#pkcs12}
   */
   readonly pkcs12?: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTargetAdditionalFormatsPkcs12;
 }
@@ -1749,7 +1749,7 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTargetConfig
   /**
   * Key is the key of the entry in the object's 'data' field to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
   */
   readonly key: string;
 }
@@ -1842,7 +1842,7 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTargetNamesp
   /**
   * MatchLabels matches on the set of labels that must be present on a Namespace for the Bundle target to be synced there.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#match_labels DataK8STrustCertManagerIoBundleV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#match_labels DataK8STrustCertManagerIoBundleV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1938,7 +1938,7 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTargetSecret
   /**
   * Key is the key of the entry in the object's 'data' field to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#key DataK8STrustCertManagerIoBundleV1Alpha1Manifest#key}
   */
   readonly key: string;
 }
@@ -2031,25 +2031,25 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTarget {
   /**
   * AdditionalFormats specifies any additional formats to write to the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#additional_formats DataK8STrustCertManagerIoBundleV1Alpha1Manifest#additional_formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#additional_formats DataK8STrustCertManagerIoBundleV1Alpha1Manifest#additional_formats}
   */
   readonly additionalFormats?: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTargetAdditionalFormats;
   /**
   * ConfigMap is the target ConfigMap in Namespaces that all Bundle source data will be synced to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#config_map DataK8STrustCertManagerIoBundleV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#config_map DataK8STrustCertManagerIoBundleV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTargetConfigMap;
   /**
   * NamespaceSelector will, if set, only sync the target resource in Namespaces which match the selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#namespace_selector DataK8STrustCertManagerIoBundleV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#namespace_selector DataK8STrustCertManagerIoBundleV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTargetNamespaceSelector;
   /**
   * Secret is the target Secret that all Bundle source data will be synced to. Using Secrets as targets is only supported if enabled at trust-manager startup. By default, trust-manager has no permissions for writing to secrets and can only read secrets in the trust namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#secret DataK8STrustCertManagerIoBundleV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#secret DataK8STrustCertManagerIoBundleV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTargetSecret;
 }
@@ -2232,13 +2232,13 @@ export interface DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpec {
   /**
   * Sources is a set of references to data whose data will sync to the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#sources DataK8STrustCertManagerIoBundleV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#sources DataK8STrustCertManagerIoBundleV1Alpha1Manifest#sources}
   */
   readonly sources: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecSources[] | cdktf.IResolvable;
   /**
   * Target is the target location in all namespaces to sync source data to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#target DataK8STrustCertManagerIoBundleV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#target DataK8STrustCertManagerIoBundleV1Alpha1Manifest#target}
   */
   readonly target: DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecTarget;
 }
@@ -2355,7 +2355,7 @@ export class DataK8STrustCertManagerIoBundleV1Alpha1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest k8s_trust_cert_manager_io_bundle_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest k8s_trust_cert_manager_io_bundle_v1alpha1_manifest}
 */
 export class DataK8STrustCertManagerIoBundleV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2371,7 +2371,7 @@ export class DataK8STrustCertManagerIoBundleV1Alpha1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8STrustCertManagerIoBundleV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STrustCertManagerIoBundleV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STrustCertManagerIoBundleV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STrustCertManagerIoBundleV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STrustCertManagerIoBundleV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2383,7 +2383,7 @@ export class DataK8STrustCertManagerIoBundleV1Alpha1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest k8s_trust_cert_manager_io_bundle_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/trust_cert_manager_io_bundle_v1alpha1_manifest k8s_trust_cert_manager_io_bundle_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2394,8 +2394,8 @@ export class DataK8STrustCertManagerIoBundleV1Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_trust_cert_manager_io_bundle_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

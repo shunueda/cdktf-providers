@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface MdbRedisClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Announce fqdn instead of ip address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#announce_hostnames MdbRedisCluster#announce_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#announce_hostnames MdbRedisCluster#announce_hostnames}
   */
   readonly announceHostnames?: boolean | cdktf.IResolvable;
   /**
   * Allows to use ACL users to auth in sentinel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#auth_sentinel MdbRedisCluster#auth_sentinel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#auth_sentinel MdbRedisCluster#auth_sentinel}
   */
   readonly authSentinel?: boolean | cdktf.IResolvable;
   /**
   * The `true` value means that resource is protected from accidental deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#deletion_protection MdbRedisCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#deletion_protection MdbRedisCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#description MdbRedisCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#description MdbRedisCluster#description}
   */
   readonly description?: string;
   /**
   * ID of the KMS key for cluster disk encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#disk_encryption_key_id MdbRedisCluster#disk_encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#disk_encryption_key_id MdbRedisCluster#disk_encryption_key_id}
   */
   readonly diskEncryptionKeyId?: string;
   /**
   * Deployment environment of the Redis cluster. Can be either `PRESTABLE` or `PRODUCTION`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#environment MdbRedisCluster#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#environment MdbRedisCluster#environment}
   */
   readonly environment: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#folder_id MdbRedisCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#folder_id MdbRedisCluster#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#id MdbRedisCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#id MdbRedisCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,85 +59,85 @@ export interface MdbRedisClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#labels MdbRedisCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#labels MdbRedisCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#name MdbRedisCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#name MdbRedisCluster#name}
   */
   readonly name: string;
   /**
   * The `VPC Network ID` of subnets which resource attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#network_id MdbRedisCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#network_id MdbRedisCluster#network_id}
   */
   readonly networkId: string;
   /**
   * Persistence mode. Possible values: `ON`, `OFF`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#persistence_mode MdbRedisCluster#persistence_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#persistence_mode MdbRedisCluster#persistence_mode}
   */
   readonly persistenceMode?: string;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#security_group_ids MdbRedisCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#security_group_ids MdbRedisCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Redis Cluster mode enabled/disabled. Enables sharding when cluster non-sharded. If cluster is sharded - disabling is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#sharded MdbRedisCluster#sharded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#sharded MdbRedisCluster#sharded}
   */
   readonly sharded?: boolean | cdktf.IResolvable;
   /**
   * TLS support mode enabled/disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#tls_enabled MdbRedisCluster#tls_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#tls_enabled MdbRedisCluster#tls_enabled}
   */
   readonly tlsEnabled?: boolean | cdktf.IResolvable;
   /**
   * access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#access MdbRedisCluster#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#access MdbRedisCluster#access}
   */
   readonly access?: MdbRedisClusterAccess;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#config MdbRedisCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#config MdbRedisCluster#config}
   */
   readonly config: MdbRedisClusterConfigA;
   /**
   * disk_size_autoscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#disk_size_autoscaling MdbRedisCluster#disk_size_autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#disk_size_autoscaling MdbRedisCluster#disk_size_autoscaling}
   */
   readonly diskSizeAutoscaling?: MdbRedisClusterDiskSizeAutoscaling;
   /**
   * host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#host MdbRedisCluster#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#host MdbRedisCluster#host}
   */
   readonly host: MdbRedisClusterHost[] | cdktf.IResolvable;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#maintenance_window MdbRedisCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#maintenance_window MdbRedisCluster#maintenance_window}
   */
   readonly maintenanceWindow?: MdbRedisClusterMaintenanceWindow;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#resources MdbRedisCluster#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#resources MdbRedisCluster#resources}
   */
   readonly resources: MdbRedisClusterResources;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#timeouts MdbRedisCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#timeouts MdbRedisCluster#timeouts}
   */
   readonly timeouts?: MdbRedisClusterTimeouts;
 }
@@ -145,13 +145,13 @@ export interface MdbRedisClusterAccess {
   /**
   * Allow access for DataLens. Can be either `true` or `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#data_lens MdbRedisCluster#data_lens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#data_lens MdbRedisCluster#data_lens}
   */
   readonly dataLens?: boolean | cdktf.IResolvable;
   /**
   * Allow access for Web SQL. Can be either `true` or `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#web_sql MdbRedisCluster#web_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#web_sql MdbRedisCluster#web_sql}
   */
   readonly webSql?: boolean | cdktf.IResolvable;
 }
@@ -266,13 +266,13 @@ export interface MdbRedisClusterConfigBackupWindowStart {
   /**
   * The hour at which backup will be started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#hours MdbRedisCluster#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#hours MdbRedisCluster#hours}
   */
   readonly hours?: number;
   /**
   * The minute at which backup will be started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#minutes MdbRedisCluster#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#minutes MdbRedisCluster#minutes}
   */
   readonly minutes?: number;
 }
@@ -387,145 +387,145 @@ export interface MdbRedisClusterConfigA {
   /**
   * Allows some data to be lost in favor of faster switchover/restart by RDSync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#allow_data_loss MdbRedisCluster#allow_data_loss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#allow_data_loss MdbRedisCluster#allow_data_loss}
   */
   readonly allowDataLoss?: boolean | cdktf.IResolvable;
   /**
   * Normal clients output buffer limits. See [redis config file](https://github.com/redis/redis/blob/6.2/redis.conf#L1841).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#client_output_buffer_limit_normal MdbRedisCluster#client_output_buffer_limit_normal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#client_output_buffer_limit_normal MdbRedisCluster#client_output_buffer_limit_normal}
   */
   readonly clientOutputBufferLimitNormal?: string;
   /**
   * Pubsub clients output buffer limits. See [redis config file](https://github.com/redis/redis/blob/6.2/redis.conf#L1843).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#client_output_buffer_limit_pubsub MdbRedisCluster#client_output_buffer_limit_pubsub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#client_output_buffer_limit_pubsub MdbRedisCluster#client_output_buffer_limit_pubsub}
   */
   readonly clientOutputBufferLimitPubsub?: string;
   /**
   * Permits Pub/Sub shard operations when cluster is down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#cluster_allow_pubsubshard_when_down MdbRedisCluster#cluster_allow_pubsubshard_when_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#cluster_allow_pubsubshard_when_down MdbRedisCluster#cluster_allow_pubsubshard_when_down}
   */
   readonly clusterAllowPubsubshardWhenDown?: boolean | cdktf.IResolvable;
   /**
   * Allows read operations when cluster is down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#cluster_allow_reads_when_down MdbRedisCluster#cluster_allow_reads_when_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#cluster_allow_reads_when_down MdbRedisCluster#cluster_allow_reads_when_down}
   */
   readonly clusterAllowReadsWhenDown?: boolean | cdktf.IResolvable;
   /**
   * Controls whether all hash slots must be covered by nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#cluster_require_full_coverage MdbRedisCluster#cluster_require_full_coverage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#cluster_require_full_coverage MdbRedisCluster#cluster_require_full_coverage}
   */
   readonly clusterRequireFullCoverage?: boolean | cdktf.IResolvable;
   /**
   * Number of databases (changing requires redis-server restart).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#databases MdbRedisCluster#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#databases MdbRedisCluster#databases}
   */
   readonly databases?: number;
   /**
   * Allow Redis to use io-threads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#io_threads_allowed MdbRedisCluster#io_threads_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#io_threads_allowed MdbRedisCluster#io_threads_allowed}
   */
   readonly ioThreadsAllowed?: boolean | cdktf.IResolvable;
   /**
   * The time, in minutes, that must elapse in order for the key counter to be divided by two (or decremented if it has a value less <= 10).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#lfu_decay_time MdbRedisCluster#lfu_decay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#lfu_decay_time MdbRedisCluster#lfu_decay_time}
   */
   readonly lfuDecayTime?: number;
   /**
   * Determines how the frequency counter represents key hits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#lfu_log_factor MdbRedisCluster#lfu_log_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#lfu_log_factor MdbRedisCluster#lfu_log_factor}
   */
   readonly lfuLogFactor?: number;
   /**
   * Maximum time in milliseconds for Lua scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#lua_time_limit MdbRedisCluster#lua_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#lua_time_limit MdbRedisCluster#lua_time_limit}
   */
   readonly luaTimeLimit?: number;
   /**
   * Redis maxmemory usage in percent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#maxmemory_percent MdbRedisCluster#maxmemory_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#maxmemory_percent MdbRedisCluster#maxmemory_percent}
   */
   readonly maxmemoryPercent?: number;
   /**
   * Redis key eviction policy for a dataset that reaches maximum memory. Can be any of the listed in [the official RedisDB documentation](https://docs.redislabs.com/latest/rs/administering/database-operations/eviction-policy/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#maxmemory_policy MdbRedisCluster#maxmemory_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#maxmemory_policy MdbRedisCluster#maxmemory_policy}
   */
   readonly maxmemoryPolicy?: string;
   /**
   * Select the events that Redis will notify among a set of classes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#notify_keyspace_events MdbRedisCluster#notify_keyspace_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#notify_keyspace_events MdbRedisCluster#notify_keyspace_events}
   */
   readonly notifyKeyspaceEvents?: string;
   /**
   * Password for the Redis cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#password MdbRedisCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#password MdbRedisCluster#password}
   */
   readonly password: string;
   /**
   * Replication backlog size as a percentage of flavor maxmemory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#repl_backlog_size_percent MdbRedisCluster#repl_backlog_size_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#repl_backlog_size_percent MdbRedisCluster#repl_backlog_size_percent}
   */
   readonly replBacklogSizePercent?: number;
   /**
   * Log slow queries below this number in microseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#slowlog_log_slower_than MdbRedisCluster#slowlog_log_slower_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#slowlog_log_slower_than MdbRedisCluster#slowlog_log_slower_than}
   */
   readonly slowlogLogSlowerThan?: number;
   /**
   * Slow queries log length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#slowlog_max_len MdbRedisCluster#slowlog_max_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#slowlog_max_len MdbRedisCluster#slowlog_max_len}
   */
   readonly slowlogMaxLen?: number;
   /**
   * Close the connection after a client is idle for N seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#timeout MdbRedisCluster#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#timeout MdbRedisCluster#timeout}
   */
   readonly timeout?: number;
   /**
   * Allows to turn before switchover in RDSync.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#turn_before_switchover MdbRedisCluster#turn_before_switchover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#turn_before_switchover MdbRedisCluster#turn_before_switchover}
   */
   readonly turnBeforeSwitchover?: boolean | cdktf.IResolvable;
   /**
   * Use JIT for lua scripts and functions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#use_luajit MdbRedisCluster#use_luajit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#use_luajit MdbRedisCluster#use_luajit}
   */
   readonly useLuajit?: boolean | cdktf.IResolvable;
   /**
   * Version of Redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#version MdbRedisCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#version MdbRedisCluster#version}
   */
   readonly version: string;
   /**
   * Controls max number of entries in zset before conversion from memory-efficient listpack to CPU-efficient hash table and skiplist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#zset_max_listpack_entries MdbRedisCluster#zset_max_listpack_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#zset_max_listpack_entries MdbRedisCluster#zset_max_listpack_entries}
   */
   readonly zsetMaxListpackEntries?: number;
   /**
   * backup_window_start block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#backup_window_start MdbRedisCluster#backup_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#backup_window_start MdbRedisCluster#backup_window_start}
   */
   readonly backupWindowStart?: MdbRedisClusterConfigBackupWindowStart;
 }
@@ -1272,19 +1272,19 @@ export interface MdbRedisClusterDiskSizeAutoscaling {
   /**
   * Limit of disk size after autoscaling (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#disk_size_limit MdbRedisCluster#disk_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#disk_size_limit MdbRedisCluster#disk_size_limit}
   */
   readonly diskSizeLimit: number;
   /**
   * Immediate autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#emergency_usage_threshold MdbRedisCluster#emergency_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#emergency_usage_threshold MdbRedisCluster#emergency_usage_threshold}
   */
   readonly emergencyUsageThreshold?: number;
   /**
   * Maintenance window autoscaling disk usage (percent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#planned_usage_threshold MdbRedisCluster#planned_usage_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#planned_usage_threshold MdbRedisCluster#planned_usage_threshold}
   */
   readonly plannedUsageThreshold?: number;
 }
@@ -1425,31 +1425,31 @@ export interface MdbRedisClusterHost {
   /**
   * Sets whether the host should get a public IP address or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#assign_public_ip MdbRedisCluster#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#assign_public_ip MdbRedisCluster#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
   * Replica priority of a current replica (usable for non-sharded only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#replica_priority MdbRedisCluster#replica_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#replica_priority MdbRedisCluster#replica_priority}
   */
   readonly replicaPriority?: number;
   /**
   * The name of the shard to which the host belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#shard_name MdbRedisCluster#shard_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#shard_name MdbRedisCluster#shard_name}
   */
   readonly shardName?: string;
   /**
   * The ID of the subnet, to which the host belongs. The subnet must be a part of the network to which the cluster belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#subnet_id MdbRedisCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#subnet_id MdbRedisCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The [availability zone](https://yandex.cloud/docs/overview/concepts/geo-scope) where resource is located. If it is not provided, the default provider zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#zone MdbRedisCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#zone MdbRedisCluster#zone}
   */
   readonly zone: string;
 }
@@ -1685,19 +1685,19 @@ export interface MdbRedisClusterMaintenanceWindow {
   /**
   * Day of week for maintenance window if window type is weekly. Possible values: `MON`, `TUE`, `WED`, `THU`, `FRI`, `SAT`, `SUN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#day MdbRedisCluster#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#day MdbRedisCluster#day}
   */
   readonly day?: string;
   /**
   * Hour of day in UTC time zone (1-24) for maintenance window if window type is weekly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#hour MdbRedisCluster#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#hour MdbRedisCluster#hour}
   */
   readonly hour?: number;
   /**
   * Type of maintenance window. Can be either `ANYTIME` or `WEEKLY`. A day and hour of window need to be specified with weekly window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#type MdbRedisCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#type MdbRedisCluster#type}
   */
   readonly type: string;
 }
@@ -1838,19 +1838,19 @@ export interface MdbRedisClusterResources {
   /**
   * Volume of the storage available to a host, in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#disk_size MdbRedisCluster#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#disk_size MdbRedisCluster#disk_size}
   */
   readonly diskSize: number;
   /**
   * Type of the storage of Redis hosts - environment default is used if missing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#disk_type_id MdbRedisCluster#disk_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#disk_type_id MdbRedisCluster#disk_type_id}
   */
   readonly diskTypeId?: string;
   /**
   * The ID of the preset for computational resources available to a host (CPU, memory etc.). For more information, see [the official documentation](https://yandex.cloud/docs/managed-redis/concepts).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#resource_preset_id MdbRedisCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#resource_preset_id MdbRedisCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -1986,15 +1986,15 @@ export class MdbRedisClusterResourcesOutputReference extends cdktf.ComplexObject
 }
 export interface MdbRedisClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#create MdbRedisCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#create MdbRedisCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#delete MdbRedisCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#delete MdbRedisCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#update MdbRedisCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#update MdbRedisCluster#update}
   */
   readonly update?: string;
 }
@@ -2146,7 +2146,7 @@ export class MdbRedisClusterTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster yandex_mdb_redis_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster yandex_mdb_redis_cluster}
 */
 export class MdbRedisCluster extends cdktf.TerraformResource {
 
@@ -2162,7 +2162,7 @@ export class MdbRedisCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MdbRedisCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MdbRedisCluster to import
-  * @param importFromId The id of the existing MdbRedisCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MdbRedisCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MdbRedisCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2174,7 +2174,7 @@ export class MdbRedisCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/mdb_redis_cluster yandex_mdb_redis_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/mdb_redis_cluster yandex_mdb_redis_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2185,8 +2185,8 @@ export class MdbRedisCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_mdb_redis_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

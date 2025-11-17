@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#metadata DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#metadata DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestMetadata;
   /**
   * QueueSpec defines the desired state of Queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#spec DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#spec DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#annotations DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#annotations DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#labels DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#labels DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#name DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#name DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#namespace DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#namespace DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestMetadataOutputReferenc
 }
 export interface DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestSpecKmsMasterKeyRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#name DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#name DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#namespace DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#namespace DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestSpecKmsMasterKeyRe
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#from DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#from DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestSpecKmsMasterKeyRefFrom;
 }
@@ -440,11 +440,11 @@ export class DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestSpecKmsMasterKeyRefOut
 }
 export interface DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestSpecPolicyRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#name DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#name DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#namespace DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#namespace DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -569,7 +569,7 @@ export interface DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestSpecPolicyRef {
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#from DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#from DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestSpecPolicyRefFrom;
 }
@@ -663,77 +663,77 @@ export class DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestSpecPolicyRefOutputRef
 }
 export interface DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#content_based_deduplication DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#content_based_deduplication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#content_based_deduplication DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#content_based_deduplication}
   */
   readonly contentBasedDeduplication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#delay_seconds DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#delay_seconds DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#delay_seconds}
   */
   readonly delaySeconds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#fifo_queue DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#fifo_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#fifo_queue DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#fifo_queue}
   */
   readonly fifoQueue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#kms_data_key_reuse_period_seconds DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#kms_data_key_reuse_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#kms_data_key_reuse_period_seconds DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#kms_data_key_reuse_period_seconds}
   */
   readonly kmsDataKeyReusePeriodSeconds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#kms_master_key_id DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#kms_master_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#kms_master_key_id DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#kms_master_key_id}
   */
   readonly kmsMasterKeyId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#kms_master_key_ref DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#kms_master_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#kms_master_key_ref DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#kms_master_key_ref}
   */
   readonly kmsMasterKeyRef?: DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestSpecKmsMasterKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#maximum_message_size DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#maximum_message_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#maximum_message_size DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#maximum_message_size}
   */
   readonly maximumMessageSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#message_retention_period DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#message_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#message_retention_period DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#message_retention_period}
   */
   readonly messageRetentionPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#policy DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#policy DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#policy}
   */
   readonly policy?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#policy_ref DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#policy_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#policy_ref DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#policy_ref}
   */
   readonly policyRef?: DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestSpecPolicyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#queue_name DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#queue_name DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#queue_name}
   */
   readonly queueName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#receive_message_wait_time_seconds DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#receive_message_wait_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#receive_message_wait_time_seconds DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#receive_message_wait_time_seconds}
   */
   readonly receiveMessageWaitTimeSeconds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#redrive_allow_policy DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#redrive_allow_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#redrive_allow_policy DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#redrive_allow_policy}
   */
   readonly redriveAllowPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#redrive_policy DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#redrive_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#redrive_policy DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#redrive_policy}
   */
   readonly redrivePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#sqs_managed_sse_enabled DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#sqs_managed_sse_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#sqs_managed_sse_enabled DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#sqs_managed_sse_enabled}
   */
   readonly sqsManagedSseEnabled?: string;
   /**
   * Add cost allocation tags to the specified Amazon SQS queue. For an overview, see Tagging Your Amazon SQS Queues (https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-queue-tags.html) in the Amazon SQS Developer Guide. When you use queue tags, keep the following guidelines in mind: * Adding more than 50 tags to a queue isn't recommended. * Tags don't have any semantic meaning. Amazon SQS interprets tags as character strings. * Tags are case-sensitive. * A new tag with a key identical to that of an existing tag overwrites the existing tag. For a full list of tag restrictions, see Quotas related to queues (https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html#limits-queues) in the Amazon SQS Developer Guide. To be able to tag a queue on creation, you must have the sqs:CreateQueue and sqs:TagQueue permissions. Cross-account permissions don't apply to this action. For more information, see Grant cross-account permissions to a role and a username (https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-customer-managed-policy-examples.html#grant-cross-account-permissions-to-role-and-user-name) in the Amazon SQS Developer Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#tags DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#tags DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#visibility_timeout DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#visibility_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#visibility_timeout DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest#visibility_timeout}
   */
   readonly visibilityTimeout?: string;
 }
@@ -1288,7 +1288,7 @@ export class DataK8SSqsServicesK8SAwsQueueV1Alpha1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest k8s_sqs_services_k8s_aws_queue_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest k8s_sqs_services_k8s_aws_queue_v1alpha1_manifest}
 */
 export class DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1304,7 +1304,7 @@ export class DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1316,7 +1316,7 @@ export class DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest k8s_sqs_services_k8s_aws_queue_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/sqs_services_k8s_aws_queue_v1alpha1_manifest k8s_sqs_services_k8s_aws_queue_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1327,8 +1327,8 @@ export class DataK8SSqsServicesK8SAwsQueueV1Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_sqs_services_k8s_aws_queue_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

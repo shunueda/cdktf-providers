@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_permission
+// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ProfilePermissionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The application name of the application, profile is assciated with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_permission#app_name ProfilePermission#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_permission#app_name ProfilePermission#app_name}
   */
   readonly appName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_permission#id ProfilePermission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_permission#id ProfilePermission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ProfilePermissionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_permission#permission_name ProfilePermission#permission_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_permission#permission_name ProfilePermission#permission_name}
   */
   readonly permissionName: string;
   /**
   * The type of permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_permission#permission_type ProfilePermission#permission_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_permission#permission_type ProfilePermission#permission_type}
   */
   readonly permissionType: string;
   /**
   * The identifier of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_permission#profile_id ProfilePermission#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_permission#profile_id ProfilePermission#profile_id}
   */
   readonly profileId: string;
   /**
   * The name of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_permission#profile_name ProfilePermission#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_permission#profile_name ProfilePermission#profile_name}
   */
   readonly profileName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_permission britive_profile_permission}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_permission britive_profile_permission}
 */
 export class ProfilePermission extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ProfilePermission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProfilePermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProfilePermission to import
-  * @param importFromId The id of the existing ProfilePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProfilePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProfilePermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ProfilePermission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_permission britive_profile_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_permission britive_profile_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ProfilePermission extends cdktf.TerraformResource {
       terraformResourceType: 'britive_profile_permission',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.4',
-        providerVersionConstraint: '2.2.4'
+        providerVersion: '2.2.5',
+        providerVersionConstraint: '2.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

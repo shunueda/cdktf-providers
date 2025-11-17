@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#metadata DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#metadata DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestMetadata;
   /**
   * ArgoCDExportSpec defines the desired state of ArgoCDExport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#spec DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#spec DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#annotations DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#annotations DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#labels DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#labels DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#namespace DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#namespace DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvcData
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#api_group DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#api_group DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -379,25 +379,25 @@ export interface DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvcData
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#api_group DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#api_group DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#kind DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#namespace DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#namespace DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -574,7 +574,7 @@ export interface DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvcReso
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -689,19 +689,19 @@ export interface DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvcReso
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#claims DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#claims DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvcResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#limits DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#limits DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#requests DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#requests DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -855,19 +855,19 @@ export interface DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvcSele
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#key DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#operator DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#operator DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#values DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#values DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1037,13 +1037,13 @@ export interface DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvcSele
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#match_expressions DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#match_expressions DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvcSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#match_labels DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#match_labels DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1168,49 +1168,49 @@ export interface DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvc {
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#access_modes DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#access_modes DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#data_source DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#data_source DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvcDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#data_source_ref DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#data_source_ref DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvcDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#resources DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvcResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#selector DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#selector DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvcSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#storage_class_name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#storage_class_name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#volume_mode DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#volume_mode DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#volume_name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#volume_name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -1509,19 +1509,19 @@ export interface DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStorage {
   /**
   * Backend defines the storage backend to use, must be 'local' (the default), 'aws', 'azure' or 'gcp'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#backend DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#backend DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#backend}
   */
   readonly backend?: string;
   /**
   * PVC is the desired characteristics for a PersistentVolumeClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#pvc DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#pvc DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#pvc}
   */
   readonly pvc?: DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStoragePvc;
   /**
   * SecretName is the name of a Secret with encryption key, credentials, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#secret_name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#secret_name DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -1675,31 +1675,31 @@ export interface DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpec {
   /**
   * Argocd is the name of the ArgoCD instance to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#argocd DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#argocd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#argocd DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#argocd}
   */
   readonly argocd: string;
   /**
   * Image is the container image to use for the export Job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#image DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Schedule in Cron format, see https://en.wikipedia.org/wiki/Cron.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#schedule DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#schedule DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#schedule}
   */
   readonly schedule?: string;
   /**
   * Storage defines the storage configuration options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#storage DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#storage DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecStorage;
   /**
   * Version is the tag/digest to use for the export Job container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#version DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#version DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1906,7 +1906,7 @@ export class DataK8SArgoprojIoArgoCdExportV1Alpha1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest k8s_argoproj_io_argo_cd_export_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest k8s_argoproj_io_argo_cd_export_v1alpha1_manifest}
 */
 export class DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1922,7 +1922,7 @@ export class DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1934,7 +1934,7 @@ export class DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest k8s_argoproj_io_argo_cd_export_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/argoproj_io_argo_cd_export_v1alpha1_manifest k8s_argoproj_io_argo_cd_export_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1945,8 +1945,8 @@ export class DataK8SArgoprojIoArgoCdExportV1Alpha1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_argoproj_io_argo_cd_export_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

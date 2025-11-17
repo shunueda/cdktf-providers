@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface LockboxSecretVersionHashedConfig extends cdktf.TerraformMetaArg
   /**
   * The Yandex Cloud Lockbox secret version description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#description LockboxSecretVersionHashed#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#description LockboxSecretVersionHashed#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#id LockboxSecretVersionHashed#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#id LockboxSecretVersionHashed#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,147 +23,147 @@ export interface LockboxSecretVersionHashedConfig extends cdktf.TerraformMetaArg
   /**
   * Each of the entry keys in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#key_1 LockboxSecretVersionHashed#key_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#key_1 LockboxSecretVersionHashed#key_1}
   */
   readonly key1?: string;
   /**
   * Each of the entry keys in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#key_10 LockboxSecretVersionHashed#key_10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#key_10 LockboxSecretVersionHashed#key_10}
   */
   readonly key10?: string;
   /**
   * Each of the entry keys in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#key_2 LockboxSecretVersionHashed#key_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#key_2 LockboxSecretVersionHashed#key_2}
   */
   readonly key2?: string;
   /**
   * Each of the entry keys in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#key_3 LockboxSecretVersionHashed#key_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#key_3 LockboxSecretVersionHashed#key_3}
   */
   readonly key3?: string;
   /**
   * Each of the entry keys in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#key_4 LockboxSecretVersionHashed#key_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#key_4 LockboxSecretVersionHashed#key_4}
   */
   readonly key4?: string;
   /**
   * Each of the entry keys in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#key_5 LockboxSecretVersionHashed#key_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#key_5 LockboxSecretVersionHashed#key_5}
   */
   readonly key5?: string;
   /**
   * Each of the entry keys in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#key_6 LockboxSecretVersionHashed#key_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#key_6 LockboxSecretVersionHashed#key_6}
   */
   readonly key6?: string;
   /**
   * Each of the entry keys in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#key_7 LockboxSecretVersionHashed#key_7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#key_7 LockboxSecretVersionHashed#key_7}
   */
   readonly key7?: string;
   /**
   * Each of the entry keys in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#key_8 LockboxSecretVersionHashed#key_8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#key_8 LockboxSecretVersionHashed#key_8}
   */
   readonly key8?: string;
   /**
   * Each of the entry keys in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#key_9 LockboxSecretVersionHashed#key_9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#key_9 LockboxSecretVersionHashed#key_9}
   */
   readonly key9?: string;
   /**
   * The Yandex Cloud Lockbox secret ID where to add the version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#secret_id LockboxSecretVersionHashed#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#secret_id LockboxSecretVersionHashed#secret_id}
   */
   readonly secretId: string;
   /**
   * Each of the entry values in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#text_value_1 LockboxSecretVersionHashed#text_value_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#text_value_1 LockboxSecretVersionHashed#text_value_1}
   */
   readonly textValue1?: string;
   /**
   * Each of the entry values in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#text_value_10 LockboxSecretVersionHashed#text_value_10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#text_value_10 LockboxSecretVersionHashed#text_value_10}
   */
   readonly textValue10?: string;
   /**
   * Each of the entry values in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#text_value_2 LockboxSecretVersionHashed#text_value_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#text_value_2 LockboxSecretVersionHashed#text_value_2}
   */
   readonly textValue2?: string;
   /**
   * Each of the entry values in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#text_value_3 LockboxSecretVersionHashed#text_value_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#text_value_3 LockboxSecretVersionHashed#text_value_3}
   */
   readonly textValue3?: string;
   /**
   * Each of the entry values in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#text_value_4 LockboxSecretVersionHashed#text_value_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#text_value_4 LockboxSecretVersionHashed#text_value_4}
   */
   readonly textValue4?: string;
   /**
   * Each of the entry values in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#text_value_5 LockboxSecretVersionHashed#text_value_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#text_value_5 LockboxSecretVersionHashed#text_value_5}
   */
   readonly textValue5?: string;
   /**
   * Each of the entry values in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#text_value_6 LockboxSecretVersionHashed#text_value_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#text_value_6 LockboxSecretVersionHashed#text_value_6}
   */
   readonly textValue6?: string;
   /**
   * Each of the entry values in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#text_value_7 LockboxSecretVersionHashed#text_value_7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#text_value_7 LockboxSecretVersionHashed#text_value_7}
   */
   readonly textValue7?: string;
   /**
   * Each of the entry values in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#text_value_8 LockboxSecretVersionHashed#text_value_8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#text_value_8 LockboxSecretVersionHashed#text_value_8}
   */
   readonly textValue8?: string;
   /**
   * Each of the entry values in the Yandex Cloud Lockbox secret version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#text_value_9 LockboxSecretVersionHashed#text_value_9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#text_value_9 LockboxSecretVersionHashed#text_value_9}
   */
   readonly textValue9?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#timeouts LockboxSecretVersionHashed#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#timeouts LockboxSecretVersionHashed#timeouts}
   */
   readonly timeouts?: LockboxSecretVersionHashedTimeouts;
 }
 export interface LockboxSecretVersionHashedTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#create LockboxSecretVersionHashed#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#create LockboxSecretVersionHashed#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#delete LockboxSecretVersionHashed#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#delete LockboxSecretVersionHashed#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#read LockboxSecretVersionHashed#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#read LockboxSecretVersionHashed#read}
   */
   readonly read?: string;
 }
@@ -315,7 +315,7 @@ export class LockboxSecretVersionHashedTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed yandex_lockbox_secret_version_hashed}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed yandex_lockbox_secret_version_hashed}
 */
 export class LockboxSecretVersionHashed extends cdktf.TerraformResource {
 
@@ -331,7 +331,7 @@ export class LockboxSecretVersionHashed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LockboxSecretVersionHashed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LockboxSecretVersionHashed to import
-  * @param importFromId The id of the existing LockboxSecretVersionHashed that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LockboxSecretVersionHashed that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LockboxSecretVersionHashed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -343,7 +343,7 @@ export class LockboxSecretVersionHashed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/lockbox_secret_version_hashed yandex_lockbox_secret_version_hashed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/lockbox_secret_version_hashed yandex_lockbox_secret_version_hashed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -354,8 +354,8 @@ export class LockboxSecretVersionHashed extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_lockbox_secret_version_hashed',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

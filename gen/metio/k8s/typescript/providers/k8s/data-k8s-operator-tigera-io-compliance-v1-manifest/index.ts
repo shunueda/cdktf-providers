@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#metadata DataK8SOperatorTigeraIoComplianceV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#metadata DataK8SOperatorTigeraIoComplianceV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorTigeraIoComplianceV1ManifestMetadata;
   /**
   * Specification of the desired state for Tigera compliance reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoComplianceV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#annotations DataK8SOperatorTigeraIoComplianceV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#annotations DataK8SOperatorTigeraIoComplianceV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#labels DataK8SOperatorTigeraIoComplianceV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#labels DataK8SOperatorTigeraIoComplianceV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchm
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -302,19 +302,19 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchm
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchmarkerDaemonSetSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -468,13 +468,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchm
   /**
   * Name is an enum which identifies the Compliance Benchmarker DaemonSet container by name. Supported values are: compliance-benchmarker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named Compliance Benchmarker DaemonSet container's resources. If omitted, the Compliance Benchmarker DaemonSet will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchmarkerDaemonSetSpecTemplateSpecContainersResources;
 }
@@ -618,7 +618,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchm
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -733,19 +733,19 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchm
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchmarkerDaemonSetSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -899,13 +899,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchm
   /**
   * Name is an enum which identifies the Compliance Benchmarker DaemonSet init container by name. Supported values are: tigera-compliance-benchmarker-tls-key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named Compliance Benchmarker DaemonSet init container's resources. If omitted, the Compliance Benchmarker DaemonSet will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchmarkerDaemonSetSpecTemplateSpecInitContainersResources;
 }
@@ -1049,13 +1049,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchm
   /**
   * Containers is a list of Compliance benchmark containers. If specified, this overrides the specified Compliance Benchmarker DaemonSet containers. If omitted, the Compliance Benchmarker DaemonSet will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#containers DataK8SOperatorTigeraIoComplianceV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#containers DataK8SOperatorTigeraIoComplianceV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchmarkerDaemonSetSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of Compliance benchmark init containers. If specified, this overrides the specified Compliance Benchmarker DaemonSet init containers. If omitted, the Compliance Benchmarker DaemonSet will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#init_containers DataK8SOperatorTigeraIoComplianceV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#init_containers DataK8SOperatorTigeraIoComplianceV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchmarkerDaemonSetSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -1180,7 +1180,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchm
   /**
   * Spec is the Compliance Benchmarker DaemonSet's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchmarkerDaemonSetSpecTemplateSpec;
 }
@@ -1276,7 +1276,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchm
   /**
   * Template describes the Compliance Benchmarker DaemonSet pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#template DataK8SOperatorTigeraIoComplianceV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#template DataK8SOperatorTigeraIoComplianceV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchmarkerDaemonSetSpecTemplate;
 }
@@ -1372,7 +1372,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchm
   /**
   * Spec is the specification of the Compliance Benchmarker DaemonSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchmarkerDaemonSetSpec;
 }
@@ -1468,7 +1468,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceContro
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1583,19 +1583,19 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceContro
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceControllerDeploymentSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1749,13 +1749,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceContro
   /**
   * Name is an enum which identifies the compliance controller Deployment container by name. Supported values are: compliance-controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named compliance controller Deployment container's resources. If omitted, the compliance controller Deployment will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceControllerDeploymentSpecTemplateSpecContainersResources;
 }
@@ -1899,7 +1899,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceContro
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2014,19 +2014,19 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceContro
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceControllerDeploymentSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2180,13 +2180,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceContro
   /**
   * Name is an enum which identifies the compliance controller Deployment init container by name. Supported values are: tigera-compliance-controller-tls-key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named compliance controller Deployment init container's resources. If omitted, the compliance controller Deployment will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceControllerDeploymentSpecTemplateSpecInitContainersResources;
 }
@@ -2330,13 +2330,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceContro
   /**
   * Containers is a list of compliance controller containers. If specified, this overrides the specified compliance controller Deployment containers. If omitted, the compliance controller Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#containers DataK8SOperatorTigeraIoComplianceV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#containers DataK8SOperatorTigeraIoComplianceV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceControllerDeploymentSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of compliance controller init containers. If specified, this overrides the specified compliance controller Deployment init containers. If omitted, the compliance controller Deployment will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#init_containers DataK8SOperatorTigeraIoComplianceV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#init_containers DataK8SOperatorTigeraIoComplianceV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceControllerDeploymentSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -2461,7 +2461,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceContro
   /**
   * Spec is the compliance controller Deployment's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceControllerDeploymentSpecTemplateSpec;
 }
@@ -2557,7 +2557,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceContro
   /**
   * Template describes the compliance controller Deployment pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#template DataK8SOperatorTigeraIoComplianceV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#template DataK8SOperatorTigeraIoComplianceV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceControllerDeploymentSpecTemplate;
 }
@@ -2653,7 +2653,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceContro
   /**
   * Spec is the specification of the compliance controller Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceControllerDeploymentSpec;
 }
@@ -2749,7 +2749,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReport
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2864,19 +2864,19 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReport
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReporterPodTemplateTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -3030,13 +3030,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReport
   /**
   * Name is an enum which identifies the ComplianceServer Deployment container by name. Supported values are: reporter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named ComplianceServer Deployment container's resources. If omitted, the ComplianceServer Deployment will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReporterPodTemplateTemplateSpecContainersResources;
 }
@@ -3180,7 +3180,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReport
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -3295,19 +3295,19 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReport
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReporterPodTemplateTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -3461,13 +3461,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReport
   /**
   * Name is an enum which identifies the ComplianceReporter PodSpec init container by name. Supported values are: tigera-compliance-reporter-tls-key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named ComplianceReporter PodSpec init container's resources. If omitted, the ComplianceServer Deployment will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReporterPodTemplateTemplateSpecInitContainersResources;
 }
@@ -3611,13 +3611,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReport
   /**
   * Containers is a list of ComplianceServer containers. If specified, this overrides the specified ComplianceReporter PodSpec containers. If omitted, the ComplianceServer Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#containers DataK8SOperatorTigeraIoComplianceV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#containers DataK8SOperatorTigeraIoComplianceV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReporterPodTemplateTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of ComplianceReporter PodSpec init containers. If specified, this overrides the specified ComplianceReporter PodSpec init containers. If omitted, the ComplianceServer Deployment will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#init_containers DataK8SOperatorTigeraIoComplianceV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#init_containers DataK8SOperatorTigeraIoComplianceV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReporterPodTemplateTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -3742,7 +3742,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReport
   /**
   * Spec is the ComplianceReporter PodTemplate's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReporterPodTemplateTemplateSpec;
 }
@@ -3838,7 +3838,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReport
   /**
   * Spec is the specification of the ComplianceReporter PodTemplateSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#template DataK8SOperatorTigeraIoComplianceV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#template DataK8SOperatorTigeraIoComplianceV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReporterPodTemplateTemplate;
 }
@@ -3934,7 +3934,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServer
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -4049,19 +4049,19 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServer
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServerDeploymentSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -4215,13 +4215,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServer
   /**
   * Name is an enum which identifies the ComplianceServer Deployment container by name. Supported values are: compliance-server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named ComplianceServer Deployment container's resources. If omitted, the ComplianceServer Deployment will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServerDeploymentSpecTemplateSpecContainersResources;
 }
@@ -4365,7 +4365,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServer
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -4480,19 +4480,19 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServer
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServerDeploymentSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -4646,13 +4646,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServer
   /**
   * Name is an enum which identifies the ComplianceServer Deployment init container by name. Supported values are: tigera-compliance-server-tls-key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named ComplianceServer Deployment init container's resources. If omitted, the ComplianceServer Deployment will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServerDeploymentSpecTemplateSpecInitContainersResources;
 }
@@ -4796,13 +4796,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServer
   /**
   * Containers is a list of ComplianceServer containers. If specified, this overrides the specified ComplianceServer Deployment containers. If omitted, the ComplianceServer Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#containers DataK8SOperatorTigeraIoComplianceV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#containers DataK8SOperatorTigeraIoComplianceV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServerDeploymentSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of ComplianceServer init containers. If specified, this overrides the specified ComplianceServer Deployment init containers. If omitted, the ComplianceServer Deployment will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#init_containers DataK8SOperatorTigeraIoComplianceV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#init_containers DataK8SOperatorTigeraIoComplianceV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServerDeploymentSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -4927,7 +4927,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServer
   /**
   * Spec is the ComplianceServer Deployment's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServerDeploymentSpecTemplateSpec;
 }
@@ -5023,7 +5023,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServer
   /**
   * Template describes the ComplianceServer Deployment pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#template DataK8SOperatorTigeraIoComplianceV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#template DataK8SOperatorTigeraIoComplianceV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServerDeploymentSpecTemplate;
 }
@@ -5119,7 +5119,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServer
   /**
   * Spec is the specification of the ComplianceServer Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServerDeploymentSpec;
 }
@@ -5215,7 +5215,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapsh
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -5330,19 +5330,19 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapsh
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapshotterDeploymentSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5496,13 +5496,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapsh
   /**
   * Name is an enum which identifies the compliance snapshotter Deployment container by name. Supported values are: compliance-snapshotter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named compliance snapshotter Deployment container's resources. If omitted, the compliance snapshotter Deployment will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapshotterDeploymentSpecTemplateSpecContainersResources;
 }
@@ -5646,7 +5646,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapsh
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
 }
@@ -5761,19 +5761,19 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapsh
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#claims DataK8SOperatorTigeraIoComplianceV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapshotterDeploymentSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#limits DataK8SOperatorTigeraIoComplianceV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#requests DataK8SOperatorTigeraIoComplianceV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5927,13 +5927,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapsh
   /**
   * Name is an enum which identifies the compliance snapshotter Deployment init container by name. Supported values are: tigera-compliance-snapshotter-tls-key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#name DataK8SOperatorTigeraIoComplianceV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named compliance snapshotter Deployment init container's resources. If omitted, the compliance snapshotter Deployment will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#resources DataK8SOperatorTigeraIoComplianceV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapshotterDeploymentSpecTemplateSpecInitContainersResources;
 }
@@ -6077,13 +6077,13 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapsh
   /**
   * Containers is a list of compliance snapshotter containers. If specified, this overrides the specified compliance snapshotter Deployment containers. If omitted, the compliance snapshotter Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#containers DataK8SOperatorTigeraIoComplianceV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#containers DataK8SOperatorTigeraIoComplianceV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapshotterDeploymentSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of compliance snapshotter init containers. If specified, this overrides the specified compliance snapshotter Deployment init containers. If omitted, the compliance snapshotter Deployment will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#init_containers DataK8SOperatorTigeraIoComplianceV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#init_containers DataK8SOperatorTigeraIoComplianceV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapshotterDeploymentSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -6208,7 +6208,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapsh
   /**
   * Spec is the compliance snapshotter Deployment's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapshotterDeploymentSpecTemplateSpec;
 }
@@ -6304,7 +6304,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapsh
   /**
   * Template describes the compliance snapshotter Deployment pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#template DataK8SOperatorTigeraIoComplianceV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#template DataK8SOperatorTigeraIoComplianceV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapshotterDeploymentSpecTemplate;
 }
@@ -6400,7 +6400,7 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapsh
   /**
   * Spec is the specification of the compliance snapshotter Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#spec DataK8SOperatorTigeraIoComplianceV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapshotterDeploymentSpec;
 }
@@ -6496,31 +6496,31 @@ export interface DataK8SOperatorTigeraIoComplianceV1ManifestSpec {
   /**
   * ComplianceBenchmarkerDaemonSet configures the Compliance Benchmarker DaemonSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#compliance_benchmarker_daemon_set DataK8SOperatorTigeraIoComplianceV1Manifest#compliance_benchmarker_daemon_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#compliance_benchmarker_daemon_set DataK8SOperatorTigeraIoComplianceV1Manifest#compliance_benchmarker_daemon_set}
   */
   readonly complianceBenchmarkerDaemonSet?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceBenchmarkerDaemonSet;
   /**
   * ComplianceControllerDeployment configures the Compliance Controller Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#compliance_controller_deployment DataK8SOperatorTigeraIoComplianceV1Manifest#compliance_controller_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#compliance_controller_deployment DataK8SOperatorTigeraIoComplianceV1Manifest#compliance_controller_deployment}
   */
   readonly complianceControllerDeployment?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceControllerDeployment;
   /**
   * ComplianceReporterPodTemplate configures the Compliance Reporter PodTemplate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#compliance_reporter_pod_template DataK8SOperatorTigeraIoComplianceV1Manifest#compliance_reporter_pod_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#compliance_reporter_pod_template DataK8SOperatorTigeraIoComplianceV1Manifest#compliance_reporter_pod_template}
   */
   readonly complianceReporterPodTemplate?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceReporterPodTemplate;
   /**
   * ComplianceServerDeployment configures the Compliance Server Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#compliance_server_deployment DataK8SOperatorTigeraIoComplianceV1Manifest#compliance_server_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#compliance_server_deployment DataK8SOperatorTigeraIoComplianceV1Manifest#compliance_server_deployment}
   */
   readonly complianceServerDeployment?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceServerDeployment;
   /**
   * ComplianceSnapshotterDeployment configures the Compliance Snapshotter Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#compliance_snapshotter_deployment DataK8SOperatorTigeraIoComplianceV1Manifest#compliance_snapshotter_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#compliance_snapshotter_deployment DataK8SOperatorTigeraIoComplianceV1Manifest#compliance_snapshotter_deployment}
   */
   readonly complianceSnapshotterDeployment?: DataK8SOperatorTigeraIoComplianceV1ManifestSpecComplianceSnapshotterDeployment;
 }
@@ -6730,7 +6730,7 @@ export class DataK8SOperatorTigeraIoComplianceV1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest k8s_operator_tigera_io_compliance_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest k8s_operator_tigera_io_compliance_v1_manifest}
 */
 export class DataK8SOperatorTigeraIoComplianceV1Manifest extends cdktf.TerraformDataSource {
 
@@ -6746,7 +6746,7 @@ export class DataK8SOperatorTigeraIoComplianceV1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SOperatorTigeraIoComplianceV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorTigeraIoComplianceV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorTigeraIoComplianceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorTigeraIoComplianceV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorTigeraIoComplianceV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6758,7 +6758,7 @@ export class DataK8SOperatorTigeraIoComplianceV1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_compliance_v1_manifest k8s_operator_tigera_io_compliance_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_compliance_v1_manifest k8s_operator_tigera_io_compliance_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6769,8 +6769,8 @@ export class DataK8SOperatorTigeraIoComplianceV1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_operator_tigera_io_compliance_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

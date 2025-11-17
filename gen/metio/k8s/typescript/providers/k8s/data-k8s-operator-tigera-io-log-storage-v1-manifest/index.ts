@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#metadata DataK8SOperatorTigeraIoLogStorageV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#metadata DataK8SOperatorTigeraIoLogStorageV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorTigeraIoLogStorageV1ManifestMetadata;
   /**
   * Specification of the desired state for Tigera log storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#annotations DataK8SOperatorTigeraIoLogStorageV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#annotations DataK8SOperatorTigeraIoLogStorageV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#labels DataK8SOperatorTigeraIoLogStorageV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#labels DataK8SOperatorTigeraIoLogStorageV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecComponentResourc
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
 }
@@ -302,19 +302,19 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecComponentResourc
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecComponentResourcesResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -468,13 +468,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecComponentResourc
   /**
   * Deprecated. Please use ECKOperatorStatefulSet. ComponentName is an enum which identifies the component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#component_name DataK8SOperatorTigeraIoLogStorageV1Manifest#component_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#component_name DataK8SOperatorTigeraIoLogStorageV1Manifest#component_name}
   */
   readonly componentName: string;
   /**
   * ResourceRequirements allows customization of limits and requests for compute resources such as cpu and memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resource_requirements DataK8SOperatorTigeraIoLogStorageV1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resource_requirements DataK8SOperatorTigeraIoLogStorageV1Manifest#resource_requirements}
   */
   readonly resourceRequirements: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecComponentResourcesResourceRequirements;
 }
@@ -615,7 +615,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorState
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
 }
@@ -730,19 +730,19 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorState
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorStatefulSetSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -896,13 +896,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorState
   /**
   * Name is an enum which identifies the ECKOperator StatefulSet container by name. Supported values are: manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named ECKOperator StatefulSet container's resources. If omitted, the ECKOperator StatefulSet will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorStatefulSetSpecTemplateSpecContainersResources;
 }
@@ -1046,7 +1046,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorState
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1161,19 +1161,19 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorState
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorStatefulSetSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1327,13 +1327,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorState
   /**
   * Name is an enum which identifies the ECKOperator StatefulSet init container by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named ECKOperator StatefulSet init container's resources. If omitted, the ECKOperator StatefulSet will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorStatefulSetSpecTemplateSpecInitContainersResources;
 }
@@ -1477,13 +1477,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorState
   /**
   * Containers is a list of ECKOperator StatefulSet containers. If specified, this overrides the specified ECKOperator StatefulSet containers. If omitted, the ECKOperator StatefulSet will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#containers DataK8SOperatorTigeraIoLogStorageV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#containers DataK8SOperatorTigeraIoLogStorageV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorStatefulSetSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of ECKOperator StatefulSet init containers. If specified, this overrides the specified ECKOperator StatefulSet init containers. If omitted, the ECKOperator StatefulSet will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#init_containers DataK8SOperatorTigeraIoLogStorageV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#init_containers DataK8SOperatorTigeraIoLogStorageV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorStatefulSetSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -1608,7 +1608,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorState
   /**
   * Spec is the ECKOperator StatefulSet's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorStatefulSetSpecTemplateSpec;
 }
@@ -1704,7 +1704,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorState
   /**
   * Template describes the ECKOperator StatefulSet pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#template DataK8SOperatorTigeraIoLogStorageV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#template DataK8SOperatorTigeraIoLogStorageV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorStatefulSetSpecTemplate;
 }
@@ -1800,7 +1800,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorState
   /**
   * Spec is the specification of the ECKOperator StatefulSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorStatefulSetSpec;
 }
@@ -1896,7 +1896,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMet
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2011,19 +2011,19 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMet
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMetricsDeploymentSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2177,13 +2177,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMet
   /**
   * Name is an enum which identifies the ElasticsearchMetricsDeployment container by name. Supported values are: tigera-elasticsearch-metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named ElasticsearchMetricsDeployment container's resources. If omitted, the ElasticsearchMetrics Deployment will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMetricsDeploymentSpecTemplateSpecContainersResources;
 }
@@ -2327,7 +2327,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMet
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2442,19 +2442,19 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMet
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMetricsDeploymentSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2608,13 +2608,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMet
   /**
   * Name is an enum which identifies the ElasticsearchMetricsDeployment init container by name. Supported values are: tigera-ee-elasticsearch-metrics-tls-key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named ElasticsearchMetricsDeployment init container's resources. If omitted, the ElasticsearchMetrics Deployment will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMetricsDeploymentSpecTemplateSpecInitContainersResources;
 }
@@ -2758,13 +2758,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMet
   /**
   * Containers is a list of ElasticsearchMetricsDeployment containers. If specified, this overrides the specified ElasticsearchMetricsDeployment containers. If omitted, the ElasticsearchMetrics Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#containers DataK8SOperatorTigeraIoLogStorageV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#containers DataK8SOperatorTigeraIoLogStorageV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMetricsDeploymentSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of ElasticsearchMetricsDeployment init containers. If specified, this overrides the specified ElasticsearchMetricsDeployment init containers. If omitted, the ElasticsearchMetrics Deployment will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#init_containers DataK8SOperatorTigeraIoLogStorageV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#init_containers DataK8SOperatorTigeraIoLogStorageV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMetricsDeploymentSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -2889,7 +2889,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMet
   /**
   * Spec is the ElasticsearchMetrics Deployment's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMetricsDeploymentSpecTemplateSpec;
 }
@@ -2985,7 +2985,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMet
   /**
   * Template describes the ElasticsearchMetrics Deployment pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#template DataK8SOperatorTigeraIoLogStorageV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#template DataK8SOperatorTigeraIoLogStorageV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMetricsDeploymentSpecTemplate;
 }
@@ -3081,7 +3081,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMet
   /**
   * Spec is the specification of the ElasticsearchMetrics Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMetricsDeploymentSpec;
 }
@@ -3177,7 +3177,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecIndices {
   /**
   * Replicas defines how many replicas each index will have. See https://www.elastic.co/guide/en/elasticsearch/reference/current/scalability.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#replicas DataK8SOperatorTigeraIoLogStorageV1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#replicas DataK8SOperatorTigeraIoLogStorageV1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -3273,7 +3273,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTempla
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
 }
@@ -3388,19 +3388,19 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTempla
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -3554,13 +3554,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTempla
   /**
   * Name is an enum which identifies the Kibana Deployment container by name. Supported values are: kibana
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named Kibana container's resources. If omitted, the Kibana will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTemplateSpecContainersResources;
 }
@@ -3704,7 +3704,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTempla
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
 }
@@ -3819,19 +3819,19 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTempla
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -3985,13 +3985,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTempla
   /**
   * Name is an enum which identifies the Kibana init container by name. Supported values are: key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named Kibana Deployment init container's resources. If omitted, the Kibana Deployment will use its default value for this init container's resources. If used in conjunction with the deprecated ComponentResources, then this value takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTemplateSpecInitContainersResources;
 }
@@ -4135,13 +4135,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTempla
   /**
   * Containers is a list of Kibana containers. If specified, this overrides the specified Kibana Deployment containers. If omitted, the Kibana Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#containers DataK8SOperatorTigeraIoLogStorageV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#containers DataK8SOperatorTigeraIoLogStorageV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of Kibana init containers. If specified, this overrides the specified Kibana Deployment init containers. If omitted, the Kibana Deployment will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#init_containers DataK8SOperatorTigeraIoLogStorageV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#init_containers DataK8SOperatorTigeraIoLogStorageV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -4266,7 +4266,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTempla
   /**
   * Spec is the Kibana's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTemplateSpec;
 }
@@ -4362,7 +4362,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpec {
   /**
   * Template describes the Kibana pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#template DataK8SOperatorTigeraIoLogStorageV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#template DataK8SOperatorTigeraIoLogStorageV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpecTemplate;
 }
@@ -4458,7 +4458,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibana {
   /**
   * Spec is the specification of the Kibana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibanaSpec;
 }
@@ -4554,7 +4554,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymen
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
 }
@@ -4669,19 +4669,19 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymen
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymentSpecTemplateSpecContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -4835,13 +4835,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymen
   /**
   * Name is an enum which identifies the linseed Deployment container by name. Supported values are: tigera-linseed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named linseed Deployment container's resources. If omitted, the linseed Deployment will use its default value for this container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymentSpecTemplateSpecContainersResources;
 }
@@ -4985,7 +4985,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymen
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
 }
@@ -5100,19 +5100,19 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymen
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymentSpecTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5266,13 +5266,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymen
   /**
   * Name is an enum which identifies the linseed Deployment init container by name. Supported values are: tigera-secure-linseed-token-tls-key-cert-provisioner,tigera-secure-linseed-cert-key-cert-provisioner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
   /**
   * Resources allows customization of limits and requests for compute resources such as cpu and memory. If specified, this overrides the named linseed Deployment init container's resources. If omitted, the linseed Deployment will use its default value for this init container's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resources DataK8SOperatorTigeraIoLogStorageV1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymentSpecTemplateSpecInitContainersResources;
 }
@@ -5416,13 +5416,13 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymen
   /**
   * Containers is a list of linseed containers. If specified, this overrides the specified linseed Deployment containers. If omitted, the linseed Deployment will use its default values for its containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#containers DataK8SOperatorTigeraIoLogStorageV1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#containers DataK8SOperatorTigeraIoLogStorageV1Manifest#containers}
   */
   readonly containers?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymentSpecTemplateSpecContainers[] | cdktf.IResolvable;
   /**
   * InitContainers is a list of linseed init containers. If specified, this overrides the specified linseed Deployment init containers. If omitted, the linseed Deployment will use its default values for its init containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#init_containers DataK8SOperatorTigeraIoLogStorageV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#init_containers DataK8SOperatorTigeraIoLogStorageV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymentSpecTemplateSpecInitContainers[] | cdktf.IResolvable;
 }
@@ -5547,7 +5547,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymen
   /**
   * Spec is the linseed Deployment's PodSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymentSpecTemplateSpec;
 }
@@ -5643,7 +5643,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymen
   /**
   * Template describes the linseed Deployment pod that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#template DataK8SOperatorTigeraIoLogStorageV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#template DataK8SOperatorTigeraIoLogStorageV1Manifest#template}
   */
   readonly template?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymentSpecTemplate;
 }
@@ -5739,7 +5739,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymen
   /**
   * Spec is the specification of the linseed Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#spec DataK8SOperatorTigeraIoLogStorageV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymentSpec;
 }
@@ -5833,15 +5833,15 @@ export class DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeploymentOut
 }
 export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecNodesNodeSetsSelectionAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#node_label DataK8SOperatorTigeraIoLogStorageV1Manifest#node_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#node_label DataK8SOperatorTigeraIoLogStorageV1Manifest#node_label}
   */
   readonly nodeLabel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#value DataK8SOperatorTigeraIoLogStorageV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#value DataK8SOperatorTigeraIoLogStorageV1Manifest#value}
   */
   readonly value: string;
 }
@@ -6008,7 +6008,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecNodesNodeSets {
   /**
   * SelectionAttributes defines K8s node attributes a NodeSet should use when setting the Node Affinity selectors and Elasticsearch cluster awareness attributes for the Elasticsearch nodes. The list of SelectionAttributes are used to define Node Affinities and set the node awareness configuration in the running Elasticsearch instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#selection_attributes DataK8SOperatorTigeraIoLogStorageV1Manifest#selection_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#selection_attributes DataK8SOperatorTigeraIoLogStorageV1Manifest#selection_attributes}
   */
   readonly selectionAttributes?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecNodesNodeSetsSelectionAttributes[] | cdktf.IResolvable;
 }
@@ -6126,7 +6126,7 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecNodesResourceReq
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#name DataK8SOperatorTigeraIoLogStorageV1Manifest#name}
   */
   readonly name: string;
 }
@@ -6241,19 +6241,19 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecNodesResourceReq
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#claims DataK8SOperatorTigeraIoLogStorageV1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecNodesResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#limits DataK8SOperatorTigeraIoLogStorageV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#requests DataK8SOperatorTigeraIoLogStorageV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6407,19 +6407,19 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecNodes {
   /**
   * Count defines the number of nodes in the Elasticsearch cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#count DataK8SOperatorTigeraIoLogStorageV1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#count DataK8SOperatorTigeraIoLogStorageV1Manifest#count}
   */
   readonly count?: number;
   /**
   * NodeSets defines configuration specific to each Elasticsearch Node Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#node_sets DataK8SOperatorTigeraIoLogStorageV1Manifest#node_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#node_sets DataK8SOperatorTigeraIoLogStorageV1Manifest#node_sets}
   */
   readonly nodeSets?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecNodesNodeSets[] | cdktf.IResolvable;
   /**
   * ResourceRequirements defines the resource limits and requirements for the Elasticsearch cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resource_requirements DataK8SOperatorTigeraIoLogStorageV1Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#resource_requirements DataK8SOperatorTigeraIoLogStorageV1Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecNodesResourceRequirements;
 }
@@ -6573,37 +6573,37 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpecRetention {
   /**
   * AuditReports configures the retention period for audit logs, in days. Logs written on a day that started at least this long ago are removed. To keep logs for at least x days, use a retention period of x+1. Default: 91
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#audit_reports DataK8SOperatorTigeraIoLogStorageV1Manifest#audit_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#audit_reports DataK8SOperatorTigeraIoLogStorageV1Manifest#audit_reports}
   */
   readonly auditReports?: number;
   /**
   * BGPLogs configures the retention period for BGP logs, in days. Logs written on a day that started at least this long ago are removed. To keep logs for at least x days, use a retention period of x+1. Default: 8
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#bgp_logs DataK8SOperatorTigeraIoLogStorageV1Manifest#bgp_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#bgp_logs DataK8SOperatorTigeraIoLogStorageV1Manifest#bgp_logs}
   */
   readonly bgpLogs?: number;
   /**
   * ComplianceReports configures the retention period for compliance reports, in days. Reports are output from the analysis of the system state and audit events for compliance reporting. Consult the Compliance Reporting documentation for more details on reports. Logs written on a day that started at least this long ago are removed. To keep logs for at least x days, use a retention period of x+1. Default: 91
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#compliance_reports DataK8SOperatorTigeraIoLogStorageV1Manifest#compliance_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#compliance_reports DataK8SOperatorTigeraIoLogStorageV1Manifest#compliance_reports}
   */
   readonly complianceReports?: number;
   /**
   * DNSLogs configures the retention period for DNS logs, in days. Logs written on a day that started at least this long ago are removed. To keep logs for at least x days, use a retention period of x+1. Default: 8
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#dns_logs DataK8SOperatorTigeraIoLogStorageV1Manifest#dns_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#dns_logs DataK8SOperatorTigeraIoLogStorageV1Manifest#dns_logs}
   */
   readonly dnsLogs?: number;
   /**
   * Flows configures the retention period for flow logs, in days. Logs written on a day that started at least this long ago are removed. To keep logs for at least x days, use a retention period of x+1. Default: 8
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#flows DataK8SOperatorTigeraIoLogStorageV1Manifest#flows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#flows DataK8SOperatorTigeraIoLogStorageV1Manifest#flows}
   */
   readonly flows?: number;
   /**
   * Snapshots configures the retention period for snapshots, in days. Snapshots are periodic captures of resources which along with audit events are used to generate reports. Consult the Compliance Reporting documentation for more details on snapshots. Logs written on a day that started at least this long ago are removed. To keep logs for at least x days, use a retention period of x+1. Default: 91
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#snapshots DataK8SOperatorTigeraIoLogStorageV1Manifest#snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#snapshots DataK8SOperatorTigeraIoLogStorageV1Manifest#snapshots}
   */
   readonly snapshots?: number;
 }
@@ -6844,61 +6844,61 @@ export interface DataK8SOperatorTigeraIoLogStorageV1ManifestSpec {
   /**
   * ComponentResources can be used to customize the resource requirements for each component. Only ECKOperator is supported for this spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#component_resources DataK8SOperatorTigeraIoLogStorageV1Manifest#component_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#component_resources DataK8SOperatorTigeraIoLogStorageV1Manifest#component_resources}
   */
   readonly componentResources?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecComponentResources[] | cdktf.IResolvable;
   /**
   * DataNodeSelector gives you more control over the node that Elasticsearch will run on. The contents of DataNodeSelector will be added to the PodSpec of the Elasticsearch nodes. For the pod to be eligible to run on a node, the node must have each of the indicated key-value pairs as labels as well as access to the specified StorageClassName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#data_node_selector DataK8SOperatorTigeraIoLogStorageV1Manifest#data_node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#data_node_selector DataK8SOperatorTigeraIoLogStorageV1Manifest#data_node_selector}
   */
   readonly dataNodeSelector?: { [key: string]: string };
   /**
   * ECKOperatorStatefulSet configures the ECKOperator StatefulSet. If used in conjunction with the deprecated ComponentResources, then these overrides take precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#eck_operator_stateful_set DataK8SOperatorTigeraIoLogStorageV1Manifest#eck_operator_stateful_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#eck_operator_stateful_set DataK8SOperatorTigeraIoLogStorageV1Manifest#eck_operator_stateful_set}
   */
   readonly eckOperatorStatefulSet?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecEckOperatorStatefulSet;
   /**
   * ElasticsearchMetricsDeployment configures the tigera-elasticsearch-metric Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#elasticsearch_metrics_deployment DataK8SOperatorTigeraIoLogStorageV1Manifest#elasticsearch_metrics_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#elasticsearch_metrics_deployment DataK8SOperatorTigeraIoLogStorageV1Manifest#elasticsearch_metrics_deployment}
   */
   readonly elasticsearchMetricsDeployment?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecElasticsearchMetricsDeployment;
   /**
   * Index defines the configuration for the indices in the Elasticsearch cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#indices DataK8SOperatorTigeraIoLogStorageV1Manifest#indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#indices DataK8SOperatorTigeraIoLogStorageV1Manifest#indices}
   */
   readonly indices?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecIndices;
   /**
   * Kibana configures the Kibana Spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#kibana DataK8SOperatorTigeraIoLogStorageV1Manifest#kibana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#kibana DataK8SOperatorTigeraIoLogStorageV1Manifest#kibana}
   */
   readonly kibana?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecKibana;
   /**
   * LinseedDeployment configures the linseed Deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#linseed_deployment DataK8SOperatorTigeraIoLogStorageV1Manifest#linseed_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#linseed_deployment DataK8SOperatorTigeraIoLogStorageV1Manifest#linseed_deployment}
   */
   readonly linseedDeployment?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecLinseedDeployment;
   /**
   * Nodes defines the configuration for a set of identical Elasticsearch cluster nodes, each of type master, data, and ingest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#nodes DataK8SOperatorTigeraIoLogStorageV1Manifest#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#nodes DataK8SOperatorTigeraIoLogStorageV1Manifest#nodes}
   */
   readonly nodes?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecNodes;
   /**
   * Retention defines how long data is retained in the Elasticsearch cluster before it is cleared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#retention DataK8SOperatorTigeraIoLogStorageV1Manifest#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#retention DataK8SOperatorTigeraIoLogStorageV1Manifest#retention}
   */
   readonly retention?: DataK8SOperatorTigeraIoLogStorageV1ManifestSpecRetention;
   /**
   * StorageClassName will populate the PersistentVolumeClaim.StorageClassName that is used to provision disks to the Tigera Elasticsearch cluster. The StorageClassName should only be modified when no LogStorage is currently active. We recommend choosing a storage class dedicated to Tigera LogStorage only. Otherwise, data retention cannot be guaranteed during upgrades. See https://docs.tigera.io/maintenance/upgrading for up-to-date instructions. Default: tigera-elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#storage_class_name DataK8SOperatorTigeraIoLogStorageV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#storage_class_name DataK8SOperatorTigeraIoLogStorageV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
 }
@@ -7253,7 +7253,7 @@ export class DataK8SOperatorTigeraIoLogStorageV1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest k8s_operator_tigera_io_log_storage_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest k8s_operator_tigera_io_log_storage_v1_manifest}
 */
 export class DataK8SOperatorTigeraIoLogStorageV1Manifest extends cdktf.TerraformDataSource {
 
@@ -7269,7 +7269,7 @@ export class DataK8SOperatorTigeraIoLogStorageV1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SOperatorTigeraIoLogStorageV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorTigeraIoLogStorageV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorTigeraIoLogStorageV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorTigeraIoLogStorageV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorTigeraIoLogStorageV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7281,7 +7281,7 @@ export class DataK8SOperatorTigeraIoLogStorageV1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/operator_tigera_io_log_storage_v1_manifest k8s_operator_tigera_io_log_storage_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/operator_tigera_io_log_storage_v1_manifest k8s_operator_tigera_io_log_storage_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7292,8 +7292,8 @@ export class DataK8SOperatorTigeraIoLogStorageV1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_operator_tigera_io_log_storage_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

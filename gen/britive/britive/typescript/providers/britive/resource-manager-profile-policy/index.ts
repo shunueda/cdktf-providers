@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy
+// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ResourceManagerProfilePolicyConfig extends cdktf.TerraformMetaA
   /**
   * Type of access for the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#access_type ResourceManagerProfilePolicy#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#access_type ResourceManagerProfilePolicy#access_type}
   */
   readonly accessType?: string;
   /**
   * Condition of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#condition ResourceManagerProfilePolicy#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#condition ResourceManagerProfilePolicy#condition}
   */
   readonly condition?: string;
   /**
   * The consumer service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#consumer ResourceManagerProfilePolicy#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#consumer ResourceManagerProfilePolicy#consumer}
   */
   readonly consumer?: string;
   /**
   * The description of the profile policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#description ResourceManagerProfilePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#description ResourceManagerProfilePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#id ResourceManagerProfilePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#id ResourceManagerProfilePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,43 +41,43 @@ export interface ResourceManagerProfilePolicyConfig extends cdktf.TerraformMetaA
   /**
   * Is the policy active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#is_active ResourceManagerProfilePolicy#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#is_active ResourceManagerProfilePolicy#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Is the policy a draft
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#is_draft ResourceManagerProfilePolicy#is_draft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#is_draft ResourceManagerProfilePolicy#is_draft}
   */
   readonly isDraft?: boolean | cdktf.IResolvable;
   /**
   * Is the policy read only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#is_read_only ResourceManagerProfilePolicy#is_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#is_read_only ResourceManagerProfilePolicy#is_read_only}
   */
   readonly isReadOnly?: boolean | cdktf.IResolvable;
   /**
   * Members of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#members ResourceManagerProfilePolicy#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#members ResourceManagerProfilePolicy#members}
   */
   readonly members?: string;
   /**
   * The policy associated with the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#policy_name ResourceManagerProfilePolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#policy_name ResourceManagerProfilePolicy#policy_name}
   */
   readonly policyName: string;
   /**
   * The identifier of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#profile_id ResourceManagerProfilePolicy#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#profile_id ResourceManagerProfilePolicy#profile_id}
   */
   readonly profileId: string;
   /**
   * resource_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#resource_labels ResourceManagerProfilePolicy#resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#resource_labels ResourceManagerProfilePolicy#resource_labels}
   */
   readonly resourceLabels?: ResourceManagerProfilePolicyResourceLabels[] | cdktf.IResolvable;
 }
@@ -85,13 +85,13 @@ export interface ResourceManagerProfilePolicyResourceLabels {
   /**
   * Name of resource label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#label_key ResourceManagerProfilePolicy#label_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#label_key ResourceManagerProfilePolicy#label_key}
   */
   readonly labelKey: string;
   /**
   * List of values of resource label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#values ResourceManagerProfilePolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#values ResourceManagerProfilePolicy#values}
   */
   readonly values: string[];
 }
@@ -230,7 +230,7 @@ export class ResourceManagerProfilePolicyResourceLabelsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy britive_resource_manager_profile_policy}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy britive_resource_manager_profile_policy}
 */
 export class ResourceManagerProfilePolicy extends cdktf.TerraformResource {
 
@@ -246,7 +246,7 @@ export class ResourceManagerProfilePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceManagerProfilePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceManagerProfilePolicy to import
-  * @param importFromId The id of the existing ResourceManagerProfilePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceManagerProfilePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceManagerProfilePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -258,7 +258,7 @@ export class ResourceManagerProfilePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_profile_policy britive_resource_manager_profile_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_profile_policy britive_resource_manager_profile_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -269,8 +269,8 @@ export class ResourceManagerProfilePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'britive_resource_manager_profile_policy',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.4',
-        providerVersionConstraint: '2.2.4'
+        providerVersion: '2.2.5',
+        providerVersionConstraint: '2.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

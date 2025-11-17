@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#metadata DataK8SIotEclipseOrgDittoV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#metadata DataK8SIotEclipseOrgDittoV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SIotEclipseOrgDittoV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#spec DataK8SIotEclipseOrgDittoV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#spec DataK8SIotEclipseOrgDittoV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#annotations DataK8SIotEclipseOrgDittoV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#annotations DataK8SIotEclipseOrgDittoV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#labels DataK8SIotEclipseOrgDittoV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#labels DataK8SIotEclipseOrgDittoV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#namespace DataK8SIotEclipseOrgDittoV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#namespace DataK8SIotEclipseOrgDittoV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,19 +217,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevopsPasswordConf
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -380,19 +380,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevopsPasswordSecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -543,17 +543,17 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevopsPassword {
   /**
   * Selects a key from a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevopsPasswordConfigMap;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevopsPasswordSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -707,19 +707,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevopsStatusPasswo
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -870,19 +870,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevopsStatusPasswo
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1033,17 +1033,17 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevopsStatusPasswo
   /**
   * Selects a key from a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevopsStatusPasswordConfigMap;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevopsStatusPasswordSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1195,19 +1195,19 @@ export class DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevopsStatusPasswordOu
 }
 export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevops {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#expose DataK8SIotEclipseOrgDittoV1Alpha1Manifest#expose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#expose DataK8SIotEclipseOrgDittoV1Alpha1Manifest#expose}
   */
   readonly expose?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#insecure DataK8SIotEclipseOrgDittoV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#insecure DataK8SIotEclipseOrgDittoV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#password DataK8SIotEclipseOrgDittoV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#password DataK8SIotEclipseOrgDittoV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevopsPassword;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#status_password DataK8SIotEclipseOrgDittoV1Alpha1Manifest#status_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#status_password DataK8SIotEclipseOrgDittoV1Alpha1Manifest#status_password}
   */
   readonly statusPassword?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevopsStatusPassword;
 }
@@ -1390,19 +1390,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecIngress {
   /**
   * Annotations which should be applied to the ingress resources. The annotations will be set to the resource, not merged. All changes done on the ingress resource itself will be overridden. If no annotations are configured, reasonable defaults will be used instead. You can prevent this by setting a single dummy annotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#annotations DataK8SIotEclipseOrgDittoV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#annotations DataK8SIotEclipseOrgDittoV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The optional ingress class name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#class_name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#class_name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#class_name}
   */
   readonly className?: string;
   /**
   * The host of the ingress resource. This is required if the ingress resource should be created by the operator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#host DataK8SIotEclipseOrgDittoV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#host DataK8SIotEclipseOrgDittoV1Alpha1Manifest#host}
   */
   readonly host: string;
 }
@@ -1551,7 +1551,7 @@ export class DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecIngressOutputReference
 }
 export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKafka {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#consumer_throttling_limit DataK8SIotEclipseOrgDittoV1Alpha1Manifest#consumer_throttling_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#consumer_throttling_limit DataK8SIotEclipseOrgDittoV1Alpha1Manifest#consumer_throttling_limit}
   */
   readonly consumerThrottlingLimit?: number;
 }
@@ -1647,19 +1647,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloakClientIdCo
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1810,19 +1810,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloakClientIdSe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1973,17 +1973,17 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloakClientId {
   /**
   * Selects a key from a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloakClientIdConfigMap;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloakClientIdSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2137,19 +2137,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloakClientSecr
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2300,19 +2300,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloakClientSecr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2463,17 +2463,17 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloakClientSecr
   /**
   * Selects a key from a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloakClientSecretConfigMap;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloakClientSecretSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2625,45 +2625,45 @@ export class DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloakClientSecretOu
 }
 export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloak {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#client_id DataK8SIotEclipseOrgDittoV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#client_id DataK8SIotEclipseOrgDittoV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloakClientId;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#client_secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#client_secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloakClientSecret;
   /**
   * Description of this login option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#description DataK8SIotEclipseOrgDittoV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#description DataK8SIotEclipseOrgDittoV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#disable_proxy DataK8SIotEclipseOrgDittoV1Alpha1Manifest#disable_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#disable_proxy DataK8SIotEclipseOrgDittoV1Alpha1Manifest#disable_proxy}
   */
   readonly disableProxy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#groups DataK8SIotEclipseOrgDittoV1Alpha1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#groups DataK8SIotEclipseOrgDittoV1Alpha1Manifest#groups}
   */
   readonly groups?: string[];
   /**
   * Label when referencing this login option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#label DataK8SIotEclipseOrgDittoV1Alpha1Manifest#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#label DataK8SIotEclipseOrgDittoV1Alpha1Manifest#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#realm DataK8SIotEclipseOrgDittoV1Alpha1Manifest#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#realm DataK8SIotEclipseOrgDittoV1Alpha1Manifest#realm}
   */
   readonly realm: string;
   /**
   * Allow overriding the redirect URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#redirect_url DataK8SIotEclipseOrgDittoV1Alpha1Manifest#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#redirect_url DataK8SIotEclipseOrgDittoV1Alpha1Manifest#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#url DataK8SIotEclipseOrgDittoV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#url DataK8SIotEclipseOrgDittoV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -2979,7 +2979,7 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMetrics {
   /**
   * Enable metrics integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#enabled DataK8SIotEclipseOrgDittoV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#enabled DataK8SIotEclipseOrgDittoV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3075,19 +3075,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbDatabaseCon
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3238,19 +3238,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbDatabaseSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3401,17 +3401,17 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbDatabase {
   /**
   * Selects a key from a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbDatabaseConfigMap;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbDatabaseSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3565,19 +3565,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbPasswordCon
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3728,19 +3728,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbPasswordSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3891,17 +3891,17 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbPassword {
   /**
   * Selects a key from a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbPasswordConfigMap;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbPasswordSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4055,19 +4055,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbUsernameCon
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4218,19 +4218,19 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbUsernameSec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#key DataK8SIotEclipseOrgDittoV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#name DataK8SIotEclipseOrgDittoV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#optional DataK8SIotEclipseOrgDittoV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4381,17 +4381,17 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbUsername {
   /**
   * Selects a key from a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#config_map DataK8SIotEclipseOrgDittoV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbUsernameConfigMap;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#secret DataK8SIotEclipseOrgDittoV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbUsernameSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#value DataK8SIotEclipseOrgDittoV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4545,31 +4545,31 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDb {
   /**
   * The optional database name used to connect, defaults to 'ditto'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#database DataK8SIotEclipseOrgDittoV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#database DataK8SIotEclipseOrgDittoV1Alpha1Manifest#database}
   */
   readonly database?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbDatabase;
   /**
   * The hostname of the MongoDB instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#host DataK8SIotEclipseOrgDittoV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#host DataK8SIotEclipseOrgDittoV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * The password used to connect to the MongoDB instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#password DataK8SIotEclipseOrgDittoV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#password DataK8SIotEclipseOrgDittoV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbPassword;
   /**
   * The port name of the MongoDB instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#port DataK8SIotEclipseOrgDittoV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#port DataK8SIotEclipseOrgDittoV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * The username used to connect to the MongoDB instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#username DataK8SIotEclipseOrgDittoV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#username DataK8SIotEclipseOrgDittoV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbUsername;
 }
@@ -4779,11 +4779,11 @@ export class DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDbOutputReference
 }
 export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecOauthIssuers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#subjects DataK8SIotEclipseOrgDittoV1Alpha1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#subjects DataK8SIotEclipseOrgDittoV1Alpha1Manifest#subjects}
   */
   readonly subjects?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#url DataK8SIotEclipseOrgDittoV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#url DataK8SIotEclipseOrgDittoV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -4903,7 +4903,7 @@ export class DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecOauthIssuersOutputRefe
 }
 export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecOauth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#issuers DataK8SIotEclipseOrgDittoV1Alpha1Manifest#issuers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#issuers DataK8SIotEclipseOrgDittoV1Alpha1Manifest#issuers}
   */
   readonly issuers?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecOauthIssuers;
 }
@@ -4997,7 +4997,7 @@ export class DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecOauthOutputReference e
 }
 export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecOpenApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#server_label DataK8SIotEclipseOrgDittoV1Alpha1Manifest#server_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#server_label DataK8SIotEclipseOrgDittoV1Alpha1Manifest#server_label}
   */
   readonly serverLabel?: string;
 }
@@ -5093,13 +5093,13 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesConciergeR
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#limits DataK8SIotEclipseOrgDittoV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#limits DataK8SIotEclipseOrgDittoV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#requests DataK8SIotEclipseOrgDittoV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#requests DataK8SIotEclipseOrgDittoV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5224,37 +5224,37 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesConcierge 
   /**
   * Additional system properties, which will be appended to the list of system properties. Note: Setting arbitrary system properties may break the deployment and may also not be compatible with future versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#additional_properties DataK8SIotEclipseOrgDittoV1Alpha1Manifest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#additional_properties DataK8SIotEclipseOrgDittoV1Alpha1Manifest#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * Allow configuring the application log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#app_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#app_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#app_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#app_log_level}
   */
   readonly appLogLevel?: string;
   /**
   * Allow configuring all log levels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Number of replicas. Defaults to one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#replicas DataK8SIotEclipseOrgDittoV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#replicas DataK8SIotEclipseOrgDittoV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Service resource limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#resources DataK8SIotEclipseOrgDittoV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#resources DataK8SIotEclipseOrgDittoV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesConciergeResources;
   /**
   * Allow configuring the root log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#root_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#root_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#root_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#root_log_level}
   */
   readonly rootLogLevel?: string;
 }
@@ -5495,13 +5495,13 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesConnectivi
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#limits DataK8SIotEclipseOrgDittoV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#limits DataK8SIotEclipseOrgDittoV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#requests DataK8SIotEclipseOrgDittoV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#requests DataK8SIotEclipseOrgDittoV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5626,37 +5626,37 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesConnectivi
   /**
   * Additional system properties, which will be appended to the list of system properties. Note: Setting arbitrary system properties may break the deployment and may also not be compatible with future versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#additional_properties DataK8SIotEclipseOrgDittoV1Alpha1Manifest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#additional_properties DataK8SIotEclipseOrgDittoV1Alpha1Manifest#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * Allow configuring the application log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#app_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#app_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#app_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#app_log_level}
   */
   readonly appLogLevel?: string;
   /**
   * Allow configuring all log levels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Number of replicas. Defaults to one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#replicas DataK8SIotEclipseOrgDittoV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#replicas DataK8SIotEclipseOrgDittoV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Service resource limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#resources DataK8SIotEclipseOrgDittoV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#resources DataK8SIotEclipseOrgDittoV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesConnectivityResources;
   /**
   * Allow configuring the root log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#root_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#root_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#root_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#root_log_level}
   */
   readonly rootLogLevel?: string;
 }
@@ -5897,13 +5897,13 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesGatewayRes
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#limits DataK8SIotEclipseOrgDittoV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#limits DataK8SIotEclipseOrgDittoV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#requests DataK8SIotEclipseOrgDittoV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#requests DataK8SIotEclipseOrgDittoV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6028,37 +6028,37 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesGateway {
   /**
   * Additional system properties, which will be appended to the list of system properties. Note: Setting arbitrary system properties may break the deployment and may also not be compatible with future versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#additional_properties DataK8SIotEclipseOrgDittoV1Alpha1Manifest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#additional_properties DataK8SIotEclipseOrgDittoV1Alpha1Manifest#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * Allow configuring the application log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#app_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#app_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#app_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#app_log_level}
   */
   readonly appLogLevel?: string;
   /**
   * Allow configuring all log levels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Number of replicas. Defaults to one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#replicas DataK8SIotEclipseOrgDittoV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#replicas DataK8SIotEclipseOrgDittoV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Service resource limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#resources DataK8SIotEclipseOrgDittoV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#resources DataK8SIotEclipseOrgDittoV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesGatewayResources;
   /**
   * Allow configuring the root log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#root_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#root_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#root_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#root_log_level}
   */
   readonly rootLogLevel?: string;
 }
@@ -6299,13 +6299,13 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesPoliciesRe
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#limits DataK8SIotEclipseOrgDittoV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#limits DataK8SIotEclipseOrgDittoV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#requests DataK8SIotEclipseOrgDittoV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#requests DataK8SIotEclipseOrgDittoV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6430,37 +6430,37 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesPolicies {
   /**
   * Additional system properties, which will be appended to the list of system properties. Note: Setting arbitrary system properties may break the deployment and may also not be compatible with future versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#additional_properties DataK8SIotEclipseOrgDittoV1Alpha1Manifest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#additional_properties DataK8SIotEclipseOrgDittoV1Alpha1Manifest#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * Allow configuring the application log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#app_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#app_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#app_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#app_log_level}
   */
   readonly appLogLevel?: string;
   /**
   * Allow configuring all log levels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Number of replicas. Defaults to one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#replicas DataK8SIotEclipseOrgDittoV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#replicas DataK8SIotEclipseOrgDittoV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Service resource limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#resources DataK8SIotEclipseOrgDittoV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#resources DataK8SIotEclipseOrgDittoV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesPoliciesResources;
   /**
   * Allow configuring the root log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#root_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#root_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#root_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#root_log_level}
   */
   readonly rootLogLevel?: string;
 }
@@ -6701,13 +6701,13 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesThingsReso
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#limits DataK8SIotEclipseOrgDittoV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#limits DataK8SIotEclipseOrgDittoV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#requests DataK8SIotEclipseOrgDittoV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#requests DataK8SIotEclipseOrgDittoV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6832,37 +6832,37 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesThings {
   /**
   * Additional system properties, which will be appended to the list of system properties. Note: Setting arbitrary system properties may break the deployment and may also not be compatible with future versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#additional_properties DataK8SIotEclipseOrgDittoV1Alpha1Manifest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#additional_properties DataK8SIotEclipseOrgDittoV1Alpha1Manifest#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * Allow configuring the application log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#app_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#app_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#app_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#app_log_level}
   */
   readonly appLogLevel?: string;
   /**
   * Allow configuring all log levels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Number of replicas. Defaults to one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#replicas DataK8SIotEclipseOrgDittoV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#replicas DataK8SIotEclipseOrgDittoV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Service resource limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#resources DataK8SIotEclipseOrgDittoV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#resources DataK8SIotEclipseOrgDittoV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesThingsResources;
   /**
   * Allow configuring the root log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#root_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#root_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#root_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#root_log_level}
   */
   readonly rootLogLevel?: string;
 }
@@ -7103,13 +7103,13 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesThingsSear
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#limits DataK8SIotEclipseOrgDittoV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#limits DataK8SIotEclipseOrgDittoV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#requests DataK8SIotEclipseOrgDittoV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#requests DataK8SIotEclipseOrgDittoV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7234,37 +7234,37 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesThingsSear
   /**
   * Additional system properties, which will be appended to the list of system properties. Note: Setting arbitrary system properties may break the deployment and may also not be compatible with future versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#additional_properties DataK8SIotEclipseOrgDittoV1Alpha1Manifest#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#additional_properties DataK8SIotEclipseOrgDittoV1Alpha1Manifest#additional_properties}
   */
   readonly additionalProperties?: { [key: string]: string };
   /**
   * Allow configuring the application log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#app_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#app_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#app_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#app_log_level}
   */
   readonly appLogLevel?: string;
   /**
   * Allow configuring all log levels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Number of replicas. Defaults to one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#replicas DataK8SIotEclipseOrgDittoV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#replicas DataK8SIotEclipseOrgDittoV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Service resource limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#resources DataK8SIotEclipseOrgDittoV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#resources DataK8SIotEclipseOrgDittoV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesThingsSearchResources;
   /**
   * Allow configuring the root log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#root_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#root_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#root_log_level DataK8SIotEclipseOrgDittoV1Alpha1Manifest#root_log_level}
   */
   readonly rootLogLevel?: string;
 }
@@ -7505,37 +7505,37 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServices {
   /**
   * The concierge service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#concierge DataK8SIotEclipseOrgDittoV1Alpha1Manifest#concierge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#concierge DataK8SIotEclipseOrgDittoV1Alpha1Manifest#concierge}
   */
   readonly concierge?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesConcierge;
   /**
   * The connectivity service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#connectivity DataK8SIotEclipseOrgDittoV1Alpha1Manifest#connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#connectivity DataK8SIotEclipseOrgDittoV1Alpha1Manifest#connectivity}
   */
   readonly connectivity?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesConnectivity;
   /**
   * The gateway service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#gateway DataK8SIotEclipseOrgDittoV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#gateway DataK8SIotEclipseOrgDittoV1Alpha1Manifest#gateway}
   */
   readonly gateway?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesGateway;
   /**
   * The policies service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#policies DataK8SIotEclipseOrgDittoV1Alpha1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#policies DataK8SIotEclipseOrgDittoV1Alpha1Manifest#policies}
   */
   readonly policies?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesPolicies;
   /**
   * The things service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#things DataK8SIotEclipseOrgDittoV1Alpha1Manifest#things}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#things DataK8SIotEclipseOrgDittoV1Alpha1Manifest#things}
   */
   readonly things?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesThings;
   /**
   * The things search service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#things_search DataK8SIotEclipseOrgDittoV1Alpha1Manifest#things_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#things_search DataK8SIotEclipseOrgDittoV1Alpha1Manifest#things_search}
   */
   readonly thingsSearch?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesThingsSearch;
 }
@@ -7774,11 +7774,11 @@ export class DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServicesOutputReferenc
 }
 export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecSwaggerUi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#disable DataK8SIotEclipseOrgDittoV1Alpha1Manifest#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#disable DataK8SIotEclipseOrgDittoV1Alpha1Manifest#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#image DataK8SIotEclipseOrgDittoV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#image DataK8SIotEclipseOrgDittoV1Alpha1Manifest#image}
   */
   readonly image?: string;
 }
@@ -7903,95 +7903,95 @@ export interface DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpec {
   /**
   * Create the default 'ditto' user when initially deploying. This has no effect when using OAuth2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#create_default_user DataK8SIotEclipseOrgDittoV1Alpha1Manifest#create_default_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#create_default_user DataK8SIotEclipseOrgDittoV1Alpha1Manifest#create_default_user}
   */
   readonly createDefaultUser?: boolean | cdktf.IResolvable;
   /**
   * Devops endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#devops DataK8SIotEclipseOrgDittoV1Alpha1Manifest#devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#devops DataK8SIotEclipseOrgDittoV1Alpha1Manifest#devops}
   */
   readonly devops?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecDevops;
   /**
   * Don't expose infra endpoints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#disable_infra_proxy DataK8SIotEclipseOrgDittoV1Alpha1Manifest#disable_infra_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#disable_infra_proxy DataK8SIotEclipseOrgDittoV1Alpha1Manifest#disable_infra_proxy}
   */
   readonly disableInfraProxy?: boolean | cdktf.IResolvable;
   /**
   * Allow disabling the welcome page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#disable_welcome_page DataK8SIotEclipseOrgDittoV1Alpha1Manifest#disable_welcome_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#disable_welcome_page DataK8SIotEclipseOrgDittoV1Alpha1Manifest#disable_welcome_page}
   */
   readonly disableWelcomePage?: boolean | cdktf.IResolvable;
   /**
   * Configure ingress options If the field is missing, no ingress resource is being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#ingress DataK8SIotEclipseOrgDittoV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#ingress DataK8SIotEclipseOrgDittoV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecIngress;
   /**
   * Kafka options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#kafka DataK8SIotEclipseOrgDittoV1Alpha1Manifest#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#kafka DataK8SIotEclipseOrgDittoV1Alpha1Manifest#kafka}
   */
   readonly kafka?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKafka;
   /**
   * Enable and configure keycloak integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#keycloak DataK8SIotEclipseOrgDittoV1Alpha1Manifest#keycloak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#keycloak DataK8SIotEclipseOrgDittoV1Alpha1Manifest#keycloak}
   */
   readonly keycloak?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecKeycloak;
   /**
   * Metrics configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#metrics DataK8SIotEclipseOrgDittoV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#metrics DataK8SIotEclipseOrgDittoV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#mongo_db DataK8SIotEclipseOrgDittoV1Alpha1Manifest#mongo_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#mongo_db DataK8SIotEclipseOrgDittoV1Alpha1Manifest#mongo_db}
   */
   readonly mongoDb?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecMongoDb;
   /**
   * Provide additional OAuth configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#oauth DataK8SIotEclipseOrgDittoV1Alpha1Manifest#oauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#oauth DataK8SIotEclipseOrgDittoV1Alpha1Manifest#oauth}
   */
   readonly oauth?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecOauth;
   /**
   * Influence some options of the hosted OpenAPI spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#open_api DataK8SIotEclipseOrgDittoV1Alpha1Manifest#open_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#open_api DataK8SIotEclipseOrgDittoV1Alpha1Manifest#open_api}
   */
   readonly openApi?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecOpenApi;
   /**
   * Override the imagePullPolicy By default this will use Always if the image version is ':latest' and IfNotPresent otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#pull_policy DataK8SIotEclipseOrgDittoV1Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#pull_policy DataK8SIotEclipseOrgDittoV1Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * Allow to override the Ditto container registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#registry DataK8SIotEclipseOrgDittoV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#registry DataK8SIotEclipseOrgDittoV1Alpha1Manifest#registry}
   */
   readonly registry?: string;
   /**
   * Services configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#services DataK8SIotEclipseOrgDittoV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#services DataK8SIotEclipseOrgDittoV1Alpha1Manifest#services}
   */
   readonly services?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecServices;
   /**
   * Influence some options of the hosted SwaggerUI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#swagger_ui DataK8SIotEclipseOrgDittoV1Alpha1Manifest#swagger_ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#swagger_ui DataK8SIotEclipseOrgDittoV1Alpha1Manifest#swagger_ui}
   */
   readonly swaggerUi?: DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecSwaggerUi;
   /**
   * Allow to override the Ditto image version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#version DataK8SIotEclipseOrgDittoV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#version DataK8SIotEclipseOrgDittoV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -8520,7 +8520,7 @@ export class DataK8SIotEclipseOrgDittoV1Alpha1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest k8s_iot_eclipse_org_ditto_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest k8s_iot_eclipse_org_ditto_v1alpha1_manifest}
 */
 export class DataK8SIotEclipseOrgDittoV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -8536,7 +8536,7 @@ export class DataK8SIotEclipseOrgDittoV1Alpha1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SIotEclipseOrgDittoV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SIotEclipseOrgDittoV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SIotEclipseOrgDittoV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SIotEclipseOrgDittoV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SIotEclipseOrgDittoV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8548,7 +8548,7 @@ export class DataK8SIotEclipseOrgDittoV1Alpha1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest k8s_iot_eclipse_org_ditto_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/iot_eclipse_org_ditto_v1alpha1_manifest k8s_iot_eclipse_org_ditto_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8559,8 +8559,8 @@ export class DataK8SIotEclipseOrgDittoV1Alpha1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_iot_eclipse_org_ditto_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

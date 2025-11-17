@@ -123,19 +123,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#items DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#items DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#optional DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#optional DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -289,13 +289,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#api_version DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#api_version DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#field_path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#field_path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -417,19 +417,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#container_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#container_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#divisor DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#divisor DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#resource DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#resource DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -580,25 +580,25 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#field_ref DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#field_ref DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mode DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mode DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#resource_field_ref DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#resource_field_ref DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -800,7 +800,7 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#items DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#items DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -896,19 +896,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mode DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mode DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -1078,19 +1078,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#items DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#items DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#optional DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#optional DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1244,19 +1244,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#audience DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#audience DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#expiration_seconds DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#expiration_seconds DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -1407,31 +1407,31 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * ClusterTrustBundle allows a pod to access the '.spec.trustBundle' field of ClusterTrustBundle objects in an auto-updating file. Alpha, gated by the ClusterTrustBundleProjection feature gate. ClusterTrustBundle objects can either be selected by name, or by the combination of signer name and a label selector. Kubelet performs aggressive normalization of the PEM contents written into the pod filesystem. Esoteric PEM features such as inter-block comments and block headers are stripped. Certificates are deduplicated. The ordering of certificates within the file is arbitrary, and Kubelet may change the order over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#cluster_trust_bundle DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#cluster_trust_bundle DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesProjectedSourcesClusterTrustBundle;
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#config_map DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#config_map DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#downward_api DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#downward_api DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#secret DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#secret DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#service_account_token DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#service_account_token DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesProjectedSourcesServiceAccountToken;
 }
@@ -1665,13 +1665,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#default_mode DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#default_mode DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections. Each entry in this list handles one source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#sources DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#sources DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#sources}
   */
   readonly sources?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -1796,37 +1796,37 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#group DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#group DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#read_only DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#read_only DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#registry DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#registry DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#tenant DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#tenant DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#user DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#user DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#volume DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#volume DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -2061,7 +2061,7 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2157,49 +2157,49 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#fs_type DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#fs_type DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#image DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#image DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#keyring DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#keyring DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#monitors DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#monitors DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pool DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pool DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#read_only DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#read_only DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#secret_ref DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#secret_ref DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#user DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#user DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -2492,7 +2492,7 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2588,61 +2588,61 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#fs_type DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#fs_type DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#gateway DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#gateway DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#protection_domain DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#protection_domain DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#read_only DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#read_only DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#secret_ref DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#secret_ref DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#ssl_enabled DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#ssl_enabled DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#storage_mode DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#storage_mode DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#storage_pool DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#storage_pool DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#system DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#system DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#volume_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#volume_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -2990,19 +2990,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mode DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mode DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -3172,25 +3172,25 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#default_mode DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#default_mode DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#items DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#items DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#optional DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#optional DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#secret_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#secret_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -3373,7 +3373,7 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3469,31 +3469,31 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#fs_type DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#fs_type DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#read_only DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#read_only DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#secret_ref DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#secret_ref DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#volume_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#volume_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#volume_namespace DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#volume_namespace DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -3705,25 +3705,25 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#fs_type DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#fs_type DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#storage_policy_id DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#storage_policy_id DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#storage_policy_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#storage_policy_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#volume_path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#volume_path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -3903,187 +3903,187 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#aws_elastic_block_store DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#aws_elastic_block_store DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#azure_disk DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#azure_disk DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#azure_file DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#azure_file DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#cephfs DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#cephfs DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#cinder DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#cinder DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#cinder}
   */
   readonly cinder?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#config_map DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#config_map DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#csi DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#csi DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#csi}
   */
   readonly csi?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#downward_api DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#downward_api DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#empty_dir DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#empty_dir DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#ephemeral DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#ephemeral DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#fc DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#fc DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#fc}
   */
   readonly fc?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#flex_volume DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#flex_volume DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#flocker DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#flocker DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#flocker}
   */
   readonly flocker?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#gce_persistent_disk DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#gce_persistent_disk DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#git_repo DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#git_repo DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#glusterfs DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#glusterfs DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#host_path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#host_path DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#host_path}
   */
   readonly hostPath?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesHostPath;
   /**
   * image represents an OCI object (a container image or artifact) pulled and mounted on the kubelet's host machine. The volume is resolved at pod startup depending on which PullPolicy value is provided: - Always: the kubelet always attempts to pull the reference. Container creation will fail If the pull fails. - Never: the kubelet never pulls the reference and only uses a local image or artifact. Container creation will fail if the reference isn't present. - IfNotPresent: the kubelet pulls if the reference isn't already present on disk. Container creation will fail if the reference isn't present and the pull fails. The volume gets re-resolved if the pod gets deleted and recreated, which means that new remote content will become available on pod recreation. A failure to resolve or pull the image during pod startup will block containers from starting and may add significant latency. Failures will be retried using normal volume backoff and will be reported on the pod reason and message. The types of objects that may be mounted by this volume are defined by the container runtime implementation on a host machine and at minimum must include all valid types supported by the container image field. The OCI object gets mounted in a single directory (spec.containers[*].volumeMounts.mountPath) by merging the manifest layers in the same way as for container images. The volume will be mounted read-only (ro) and non-executable files (noexec). Sub path mounts for containers are not supported (spec.containers[*].volumeMounts.subpath). The field spec.securityContext.fsGroupChangePolicy has no effect on this volume type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#image DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#image DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#image}
   */
   readonly image?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesImage;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#iscsi DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#iscsi DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#nfs DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#nfs DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#nfs}
   */
   readonly nfs?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#persistent_volume_claim DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#persistent_volume_claim DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#photon_persistent_disk DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#photon_persistent_disk DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#portworx_volume DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#portworx_volume DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#projected DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#projected DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#projected}
   */
   readonly projected?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#quobyte DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#quobyte DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#rbd DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#rbd DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#rbd}
   */
   readonly rbd?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#scale_io DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#scale_io DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#secret DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#secret DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#storageos DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#storageos DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#storageos}
   */
   readonly storageos?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#vsphere_volume DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#vsphere_volume DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumesVsphereVolume;
 }
@@ -5068,19 +5068,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5250,19 +5250,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5432,13 +5432,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_fields DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_fields DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -5563,13 +5563,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#preference DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#preference DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#weight DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#weight DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -5710,19 +5710,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5892,19 +5892,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6074,13 +6074,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_fields DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_fields DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -6227,7 +6227,7 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#node_selector_terms DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#node_selector_terms DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -6320,13 +6320,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -6451,19 +6451,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6633,13 +6633,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6764,19 +6764,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6946,13 +6946,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7077,37 +7077,37 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#label_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#label_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mismatch_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mismatch_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespace_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespace_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespaces DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespaces DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#topology_key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#topology_key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -7345,13 +7345,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pod_affinity_term DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pod_affinity_term DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#weight DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#weight DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -7492,19 +7492,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7674,13 +7674,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7805,19 +7805,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7987,13 +7987,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8118,37 +8118,37 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#label_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#label_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mismatch_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mismatch_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespace_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespace_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespaces DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespaces DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#topology_key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#topology_key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -8408,13 +8408,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -8539,19 +8539,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8721,13 +8721,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8852,19 +8852,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9034,13 +9034,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9165,37 +9165,37 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#label_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#label_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mismatch_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mismatch_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespace_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespace_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespaces DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespaces DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#topology_key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#topology_key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -9433,13 +9433,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pod_affinity_term DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pod_affinity_term DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#weight DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#weight DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -9580,19 +9580,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9762,13 +9762,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9893,19 +9893,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10075,13 +10075,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10206,37 +10206,37 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#label_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#label_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mismatch_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#mismatch_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespace_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespace_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespaces DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#namespaces DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#topology_key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#topology_key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -10496,13 +10496,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -10627,19 +10627,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#node_affinity DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#node_affinity DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pod_affinity DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pod_affinity DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pod_anti_affinity DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pod_anti_affinity DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinityPodAntiAffinity;
 }
@@ -10791,21 +10791,21 @@ export class DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControl
 }
 export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentExtraArgs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#api_server DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#api_server DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#api_server}
   */
   readonly apiServer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#controller_manager DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#controller_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#controller_manager DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#controller_manager}
   */
   readonly controllerManager?: string[];
   /**
   * Available only if Kamaji is running using Kine as backing storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#kine DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#kine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#kine DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#kine}
   */
   readonly kine?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#scheduler DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#scheduler DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#scheduler}
   */
   readonly scheduler?: string[];
 }
@@ -10986,11 +10986,11 @@ export class DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControl
 }
 export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentPodAdditionalMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#annotations DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#annotations DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -11113,25 +11113,25 @@ export class DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControl
 }
 export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentRegistrySettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#api_server_image DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#api_server_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#api_server_image DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#api_server_image}
   */
   readonly apiServerImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#controller_manager_image DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#controller_manager_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#controller_manager_image DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#controller_manager_image}
   */
   readonly controllerManagerImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#registry DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#registry DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#registry}
   */
   readonly registry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#scheduler_image DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#scheduler_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#scheduler_image DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#scheduler_image}
   */
   readonly schedulerImage?: string;
   /**
   * The tag to append to all the Control Plane container images. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#tag_suffix DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#tag_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#tag_suffix DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#tag_suffix}
   */
   readonly tagSuffix?: string;
 }
@@ -11343,13 +11343,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#request DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#request DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -11493,19 +11493,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#claims DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#claims DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentResourcesApiServerClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#limits DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#limits DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#requests DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#requests DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -11659,13 +11659,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#request DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#request DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -11809,19 +11809,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#claims DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#claims DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentResourcesControllerManagerClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#limits DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#limits DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#requests DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#requests DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -11975,13 +11975,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#request DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#request DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -12125,19 +12125,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#claims DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#claims DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentResourcesKineClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#limits DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#limits DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#requests DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#requests DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -12291,13 +12291,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#request DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#request DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -12441,19 +12441,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#claims DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#claims DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentResourcesSchedulerClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#limits DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#limits DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#requests DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#requests DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -12607,25 +12607,25 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#api_server DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#api_server DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#api_server}
   */
   readonly apiServer?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentResourcesApiServer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#controller_manager DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#controller_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#controller_manager DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#controller_manager}
   */
   readonly controllerManager?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentResourcesControllerManager;
   /**
   * Define the kine container resources. Available only if Kamaji is running using Kine as backing storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#kine DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#kine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#kine DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#kine}
   */
   readonly kine?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentResourcesKine;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#scheduler DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#scheduler DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#scheduler}
   */
   readonly scheduler?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentResourcesScheduler;
 }
@@ -12808,13 +12808,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * The maximum number of pods that can be scheduled above the desired number of pods. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). This can not be 0 if MaxUnavailable is 0. Absolute number is calculated from percentage by rounding up. Defaults to 25%. Example: when this is set to 30%, the new ReplicaSet can be scaled up immediately when the rolling update starts, such that the total number of old and new pods do not exceed 130% of desired pods. Once old pods have been killed, new ReplicaSet can be scaled up further, ensuring that total number of pods running at any time during the update is at most 130% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#max_surge DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#max_surge DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
   * The maximum number of pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). Absolute number is calculated from percentage by rounding down. This can not be 0 if MaxSurge is 0. Defaults to 25%. Example: when this is set to 30%, the old ReplicaSet can be scaled down to 70% of desired pods immediately when the rolling update starts. Once new pods are ready, old ReplicaSet can be scaled down further, followed by scaling up the new ReplicaSet, ensuring that the total number of pods available at all times during the update is at least 70% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#max_unavailable DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#max_unavailable DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -12939,13 +12939,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Rolling update config params. Present only if DeploymentStrategyType = RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#rolling_update DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#rolling_update DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentStrategyRollingUpdate;
   /**
   * Type of deployment. Can be 'Recreate' or 'RollingUpdate'. Default is RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#type DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#type DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -13070,31 +13070,31 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#effect DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#effect DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#toleration_seconds DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#toleration_seconds DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#value DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#value DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -13328,19 +13328,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#operator DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#values DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13510,13 +13510,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_expressions DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13641,49 +13641,49 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#label_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#label_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#match_label_keys DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#max_skew DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#max_skew DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#min_domains DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#min_domains DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#node_affinity_policy DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#node_affinity_policy DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#node_taints_policy DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#node_taints_policy DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#topology_key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#topology_key DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#when_unsatisfiable DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#when_unsatisfiable DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -13995,101 +13995,101 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * AdditionalContainers allows adding additional containers to the Control Plane deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_containers DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_containers DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_containers}
   */
   readonly additionalContainers?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalContainers[] | cdktf.IResolvable;
   /**
   * AdditionalInitContainers allows adding additional init containers to the Control Plane deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_init_containers DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_init_containers DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_init_containers}
   */
   readonly additionalInitContainers?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalInitContainers[] | cdktf.IResolvable;
   /**
   * AdditionalMetadata defines which additional metadata, such as labels and annotations, must be attached to the created resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_metadata DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_metadata DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_metadata}
   */
   readonly additionalMetadata?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalMetadata;
   /**
   * AdditionalVolumeMounts allows to mount an additional volume into each component of the Control Plane (kube-apiserver, controller-manager, and scheduler).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_volume_mounts DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_volume_mounts DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_volume_mounts}
   */
   readonly additionalVolumeMounts?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumeMounts;
   /**
   * AdditionalVolumes allows to add additional volumes to the Control Plane deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_volumes DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_volumes DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_volumes}
   */
   readonly additionalVolumes?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAdditionalVolumes[] | cdktf.IResolvable;
   /**
   * If specified, the Tenant Control Plane pod's scheduling constraints. More info: https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes-using-node-affinity/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#affinity DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#affinity DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentAffinity;
   /**
   * ExtraArgs allows adding additional arguments to the Control Plane components, such as kube-apiserver, controller-manager, and scheduler. WARNING - This option can override existing parameters and cause components to misbehave in unxpected ways. Only modify if you know what you are doing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#extra_args DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#extra_args DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#extra_args}
   */
   readonly extraArgs?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentExtraArgs;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#node_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#node_selector DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * AdditionalMetadata defines which additional metadata, such as labels and annotations, must be attached to the created resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pod_additional_metadata DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pod_additional_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pod_additional_metadata DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pod_additional_metadata}
   */
   readonly podAdditionalMetadata?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentPodAdditionalMetadata;
   /**
   * RegistrySettings allows to override the default images for the given Tenant Control Plane instance. It could be used to point to a different container registry rather than the public one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#registry_settings DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#registry_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#registry_settings DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#registry_settings}
   */
   readonly registrySettings?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentRegistrySettings;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#replicas DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#replicas DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources defines the amount of memory and CPU to allocate to each component of the Control Plane (kube-apiserver, controller-manager, and scheduler).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#resources DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#resources DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentResources;
   /**
   * RuntimeClassName refers to a RuntimeClass object in the node.k8s.io group, which should be used to run the Tenant Control Plane pod. If no RuntimeClass resource matches the named class, the pod will not be run. If unset or empty, the 'legacy' RuntimeClass will be used, which is an implicit class with an empty definition that uses the default runtime handler. More info: https://git.k8s.io/enhancements/keps/sig-node/585-runtime-class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#runtime_class_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#runtime_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#runtime_class_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#runtime_class_name}
   */
   readonly runtimeClassName?: string;
   /**
   * ServiceAccountName allows to specify the service account to be mounted to the pods of the Control plane deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#service_account_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#service_account_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * Strategy describes how to replace existing pods with new ones for the given Tenant Control Plane. Default value is set to Rolling Update, with a blue/green strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#strategy DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#strategy DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#strategy}
   */
   readonly strategy?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentStrategy;
   /**
   * If specified, the Tenant Control Plane pod's tolerations. More info: https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#tolerations DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#tolerations DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentTolerations[] | cdktf.IResolvable;
   /**
   * TopologySpreadConstraints describes how the Tenant Control Plane pods ought to spread across topology domains. Scheduler will schedule pods in a way which abides by the constraints. In case of nil underlying LabelSelector, the Kamaji one for the given Tenant Control Plane will be used. All topologySpreadConstraints are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#topology_spread_constraints DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#topology_spread_constraints DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeploymentTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -14647,11 +14647,11 @@ export class DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControl
 }
 export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneIngressAdditionalMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#annotations DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#annotations DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -14776,17 +14776,17 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * AdditionalMetadata defines which additional metadata, such as labels and annotations, must be attached to the created resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_metadata DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_metadata DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_metadata}
   */
   readonly additionalMetadata?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneIngressAdditionalMetadata;
   /**
   * Hostname is an optional field which will be used as Ingress's Host. If it is not defined, Ingress's host will be '<tenant>.<namespace>.<domain>', where domain is specified under NetworkProfileSpec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#hostname DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#hostname DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#ingress_class_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#ingress_class_name DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
 }
@@ -14938,11 +14938,11 @@ export class DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControl
 }
 export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneServiceAdditionalMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#annotations DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#annotations DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#labels DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -15067,13 +15067,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * AdditionalMetadata defines which additional metadata, such as labels and annotations, must be attached to the created resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_metadata DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#additional_metadata DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#additional_metadata}
   */
   readonly additionalMetadata?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneServiceAdditionalMetadata;
   /**
   * ServiceType allows specifying how to expose the Tenant Control Plane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#service_type DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#service_type DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#service_type}
   */
   readonly serviceType: string;
 }
@@ -15195,19 +15195,19 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecCon
   /**
   * Defining the options for the deployed Tenant Control Plane as Deployment resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#deployment DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#deployment DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#deployment}
   */
   readonly deployment?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneDeployment;
   /**
   * Defining the options for an Optional Ingress which will expose API Server of the Tenant Control Plane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#ingress DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#ingress DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneIngress;
   /**
   * Defining the options for the Tenant Control Plane Service resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#service DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#service DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#service}
   */
   readonly service: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlaneService;
 }
@@ -15358,13 +15358,13 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecKub
   /**
   * CGroupFS defines the cgroup driver for Kubelet https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/configure-cgroup-driver/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#cgroupfs DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#cgroupfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#cgroupfs DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#cgroupfs}
   */
   readonly cgroupfs?: string;
   /**
   * Ordered list of the preferred NodeAddressTypes to use for kubelet connections. Default to Hostname, InternalIP, ExternalIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#preferred_address_types DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#preferred_address_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#preferred_address_types DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#preferred_address_types}
   */
   readonly preferredAddressTypes?: string[];
 }
@@ -15489,17 +15489,17 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecKub
   /**
   * List of enabled Admission Controllers for the Tenant cluster. Full reference available here: https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#admission_controllers DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#admission_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#admission_controllers DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#admission_controllers}
   */
   readonly admissionControllers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#kubelet DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#kubelet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#kubelet DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#kubelet}
   */
   readonly kubelet: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecKubernetesKubelet;
   /**
   * Kubernetes Version for the tenant control plane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#version DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#version DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -15647,41 +15647,41 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecNet
   /**
   * Address where API server of will be exposed. In case of LoadBalancer Service, this can be empty in order to use the exposed IP provided by the cloud controller manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#address DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#address DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#address}
   */
   readonly address?: string;
   /**
   * AllowAddressAsExternalIP will include tenantControlPlane.Spec.NetworkProfile.Address in the section of ExternalIPs of the Kubernetes Service (only ClusterIP or NodePort)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#allow_address_as_external_ip DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#allow_address_as_external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#allow_address_as_external_ip DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#allow_address_as_external_ip}
   */
   readonly allowAddressAsExternalIp?: boolean | cdktf.IResolvable;
   /**
   * CertSANs sets extra Subject Alternative Names (SANs) for the API Server signing certificate. Use this field to add additional hostnames when exposing the Tenant Control Plane with third solutions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#cert_sa_ns DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#cert_sa_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#cert_sa_ns DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#cert_sa_ns}
   */
   readonly certSaNs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#dns_service_i_ps DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#dns_service_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#dns_service_i_ps DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#dns_service_i_ps}
   */
   readonly dnsServiceIPs?: string[];
   /**
   * CIDR for Kubernetes Pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pod_cidr DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pod_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#pod_cidr DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#pod_cidr}
   */
   readonly podCidr?: string;
   /**
   * Port where API server of will be exposed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#port DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#port DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Kubernetes Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#service_cidr DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#service_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#service_cidr DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#service_cidr}
   */
   readonly serviceCidr?: string;
 }
@@ -15951,31 +15951,31 @@ export interface DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpec {
   /**
   * Addons contain which addons are enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#addons DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#addons DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#addons}
   */
   readonly addons?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecAddons;
   /**
   * ControlPlane defines how the Tenant Control Plane Kubernetes resources must be created in the Admin Cluster, such as the number of Pod replicas, the Service resource, or the Ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#control_plane DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#control_plane DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#control_plane}
   */
   readonly controlPlane: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecControlPlane;
   /**
   * DataStore allows to specify a DataStore that should be used to store the Kubernetes data for the given Tenant Control Plane. This parameter is optional and acts as an override over the default one which is used by the Kamaji Operator. Migration from a different DataStore to another one is not yet supported and the reconciliation will be blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#data_store DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#data_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#data_store DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#data_store}
   */
   readonly dataStore?: string;
   /**
   * Kubernetes specification for tenant control plane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#kubernetes DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#kubernetes DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#kubernetes}
   */
   readonly kubernetes: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecKubernetes;
   /**
   * NetworkProfile specifies how the network is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#network_profile DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#network_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kamaji_clastix_io_tenant_control_plane_v1alpha1_manifest#network_profile DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1Manifest#network_profile}
   */
   readonly networkProfile?: DataK8SKamajiClastixIoTenantControlPlaneV1Alpha1ManifestSpecNetworkProfile;
 }

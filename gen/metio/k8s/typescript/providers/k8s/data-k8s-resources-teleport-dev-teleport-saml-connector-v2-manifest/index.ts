@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#metadata DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#metadata DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#metadata}
   */
   readonly metadata: DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestMetadata;
   /**
   * SAMLConnector resource definition v2 from Teleport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#spec DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#spec DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#spec}
   */
   readonly spec?: DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#annotations DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#annotations DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#labels DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#labels DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#name DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#name DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#namespace DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#namespace DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestSpecA
   /**
   * Cert is a PEM-encoded x509 certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#cert DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#cert DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#cert}
   */
   readonly cert?: string;
   /**
   * PrivateKey is a PEM encoded x509 private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#private_key DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#private_key DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#private_key}
   */
   readonly privateKey?: string;
 }
@@ -350,19 +350,19 @@ export interface DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestSpecA
   /**
   * Name is an attribute statement name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#name DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#name DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Roles is a list of static teleport roles to map to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#roles DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#roles DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Value is an attribute statement value to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#value DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#value DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -538,13 +538,13 @@ export interface DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestSpecC
   /**
   * a list of hostnames allowed for https client redirect URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#allowed_https_hostnames DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#allowed_https_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#allowed_https_hostnames DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#allowed_https_hostnames}
   */
   readonly allowedHttpsHostnames?: string[];
   /**
   * a list of CIDRs allowed for HTTP or HTTPS client redirect URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#insecure_allowed_cidr_ranges DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#insecure_allowed_cidr_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#insecure_allowed_cidr_ranges DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#insecure_allowed_cidr_ranges}
   */
   readonly insecureAllowedCidrRanges?: string[];
 }
@@ -669,43 +669,43 @@ export interface DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestSpecM
   /**
   * Cert is the identity provider certificate PEM. IDP signs '<Response>' responses using this certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#cert DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#cert DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#cert}
   */
   readonly cert?: string;
   /**
   * Enabled specified whether this SAML connector supports MFA checks. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#enabled DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#enabled DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * EntityDescriptor is XML with descriptor. It can be used to supply configuration parameters in one XML file rather than supplying them in the individual elements. Usually set from EntityDescriptorUrl.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#entity_descriptor DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#entity_descriptor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#entity_descriptor DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#entity_descriptor}
   */
   readonly entityDescriptor?: string;
   /**
   * EntityDescriptorUrl is a URL that supplies a configuration XML.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#entity_descriptor_url DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#entity_descriptor_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#entity_descriptor_url DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#entity_descriptor_url}
   */
   readonly entityDescriptorUrl?: string;
   /**
   * ForceAuthn specified whether re-authentication should be forced for MFA checks. UNSPECIFIED is treated as YES to always re-authentication for MFA checks. This should only be set to NO if the IdP is setup to perform MFA checks on top of active user sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#force_authn DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#force_authn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#force_authn DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#force_authn}
   */
   readonly forceAuthn?: string;
   /**
   * Issuer is the identity provider issuer. Usually set from EntityDescriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#issuer DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#issuer DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#issuer}
   */
   readonly issuer?: string;
   /**
   * SSO is the URL of the identity provider's SSO service. Usually set from EntityDescriptor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#sso DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#sso DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#sso}
   */
   readonly sso?: string;
 }
@@ -975,13 +975,13 @@ export interface DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestSpecS
   /**
   * Cert is a PEM-encoded x509 certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#cert DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#cert DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#cert}
   */
   readonly cert?: string;
   /**
   * PrivateKey is a PEM encoded x509 private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#private_key DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#private_key DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#private_key}
   */
   readonly privateKey?: string;
 }
@@ -1106,109 +1106,109 @@ export interface DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestSpec 
   /**
   * AssertionConsumerService is a URL for assertion consumer service on the service provider (Teleport's side).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#acs DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#acs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#acs DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#acs}
   */
   readonly acs?: string;
   /**
   * AllowIDPInitiated is a flag that indicates if the connector can be used for IdP-initiated logins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#allow_idp_initiated DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#allow_idp_initiated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#allow_idp_initiated DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#allow_idp_initiated}
   */
   readonly allowIdpInitiated?: boolean | cdktf.IResolvable;
   /**
   * EncryptionKeyPair is a key pair used for decrypting SAML assertions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#assertion_key_pair DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#assertion_key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#assertion_key_pair DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#assertion_key_pair}
   */
   readonly assertionKeyPair?: DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestSpecAssertionKeyPair;
   /**
   * AttributesToRoles is a list of mappings of attribute statements to roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#attributes_to_roles DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#attributes_to_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#attributes_to_roles DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#attributes_to_roles}
   */
   readonly attributesToRoles?: DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestSpecAttributesToRoles[] | cdktf.IResolvable;
   /**
   * Audience uniquely identifies our service provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#audience DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#audience DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#audience}
   */
   readonly audience?: string;
   /**
   * Cert is the identity provider certificate PEM. IDP signs '<Response>' responses using this certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#cert DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#cert DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#cert}
   */
   readonly cert?: string;
   /**
   * ClientRedirectSettings defines which client redirect URLs are allowed for non-browser SSO logins other than the standard localhost ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#client_redirect_settings DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#client_redirect_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#client_redirect_settings DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#client_redirect_settings}
   */
   readonly clientRedirectSettings?: DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestSpecClientRedirectSettings;
   /**
   * Display controls how this connector is displayed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#display DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#display DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#display}
   */
   readonly display?: string;
   /**
   * EntityDescriptor is XML with descriptor. It can be used to supply configuration parameters in one XML file rather than supplying them in the individual elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#entity_descriptor DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#entity_descriptor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#entity_descriptor DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#entity_descriptor}
   */
   readonly entityDescriptor?: string;
   /**
   * EntityDescriptorURL is a URL that supplies a configuration XML.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#entity_descriptor_url DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#entity_descriptor_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#entity_descriptor_url DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#entity_descriptor_url}
   */
   readonly entityDescriptorUrl?: string;
   /**
   * ForceAuthn specified whether re-authentication should be forced on login. UNSPECIFIED is treated as NO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#force_authn DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#force_authn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#force_authn DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#force_authn}
   */
   readonly forceAuthn?: string;
   /**
   * Issuer is the identity provider issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#issuer DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#issuer DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#issuer}
   */
   readonly issuer?: string;
   /**
   * MFASettings contains settings to enable SSO MFA checks through this auth connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#mfa DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#mfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#mfa DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#mfa}
   */
   readonly mfa?: DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestSpecMfa;
   /**
   * Provider is the external identity provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#provider DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#provider DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#provider}
   */
   readonly provider?: string;
   /**
   * ServiceProviderIssuer is the issuer of the service provider (Teleport).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#service_provider_issuer DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#service_provider_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#service_provider_issuer DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#service_provider_issuer}
   */
   readonly serviceProviderIssuer?: string;
   /**
   * SigningKeyPair is an x509 key pair used to sign AuthnRequest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#signing_key_pair DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#signing_key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#signing_key_pair DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#signing_key_pair}
   */
   readonly signingKeyPair?: DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestSpecSigningKeyPair;
   /**
   * SingleLogoutURL is the SAML Single log-out URL to initiate SAML SLO (single log-out). If this is not provided, SLO is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#single_logout_url DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#single_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#single_logout_url DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#single_logout_url}
   */
   readonly singleLogoutUrl?: string;
   /**
   * SSO is the URL of the identity provider's SSO service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#sso DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#sso DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest#sso}
   */
   readonly sso?: string;
 }
@@ -1795,7 +1795,7 @@ export class DataK8SResourcesTeleportDevTeleportSamlConnectorV2ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest k8s_resources_teleport_dev_teleport_saml_connector_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest k8s_resources_teleport_dev_teleport_saml_connector_v2_manifest}
 */
 export class DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest extends cdktf.TerraformDataSource {
 
@@ -1811,7 +1811,7 @@ export class DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest extends 
   * Generates CDKTF code for importing a DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest to import
-  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1823,7 +1823,7 @@ export class DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest k8s_resources_teleport_dev_teleport_saml_connector_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/resources_teleport_dev_teleport_saml_connector_v2_manifest k8s_resources_teleport_dev_teleport_saml_connector_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1834,8 +1834,8 @@ export class DataK8SResourcesTeleportDevTeleportSamlConnectorV2Manifest extends 
       terraformResourceType: 'k8s_resources_teleport_dev_teleport_saml_connector_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

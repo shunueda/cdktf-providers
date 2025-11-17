@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#metadata DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#metadata DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestMetadata;
   /**
   * An HBase cluster stacklet. This resource is managed by the Stackable operator for Apache HBase. Find more information on how to use it and the resources that the operator generates in the [operator documentation](https://docs.stackable.tech/home/nightly/hbase/). The CRD contains three roles: 'masters', 'regionServers' and 'restServers'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#spec DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#spec DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#annotations DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#annotations DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#labels DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#labels DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#name DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#name DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#namespace DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#namespace DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecCluste
   /**
   * Name of the SecretClass providing the keytab for the HBase services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#secret_class DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#secret_class DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#secret_class}
   */
   readonly secretClass: string;
 }
@@ -312,13 +312,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecCluste
   /**
   * Kerberos configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#kerberos DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#kerberos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#kerberos DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#kerberos}
   */
   readonly kerberos: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecClusterConfigAuthenticationKerberos;
   /**
   * Name of the SecretClass providing the tls certificates for the WebUIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#tls_secret_class DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#tls_secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#tls_secret_class DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#tls_secret_class}
   */
   readonly tlsSecretClass?: string;
 }
@@ -440,13 +440,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecCluste
   /**
   * The [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) for the OPA stacklet that should be used for authorization requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map_name DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map_name DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map_name}
   */
   readonly configMapName: string;
   /**
   * The name of the Rego package containing the Rego rules for the product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#package DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#package DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#package}
   */
   readonly package?: string;
 }
@@ -568,7 +568,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecCluste
   /**
   * Configure the OPA stacklet [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) and the name of the Rego package containing your authorization rules. Consult the [OPA authorization documentation](https://docs.stackable.tech/home/nightly/concepts/opa) to learn how to deploy Rego authorization rules with OPA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#opa DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#opa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#opa DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#opa}
   */
   readonly opa: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecClusterConfigAuthorizationOpa;
 }
@@ -661,35 +661,35 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecCluste
   /**
   * Settings related to user [authentication](https://docs.stackable.tech/home/nightly/usage-guide/security).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#authentication DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#authentication DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#authentication}
   */
   readonly authentication?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecClusterConfigAuthentication;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#authorization DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#authorization DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecClusterConfigAuthorization;
   /**
   * Name of the [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) for an HDFS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hdfs_config_map_name DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hdfs_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hdfs_config_map_name DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hdfs_config_map_name}
   */
   readonly hdfsConfigMapName: string;
   /**
   * This field controls which type of Service the Operator creates for this HbaseCluster: * cluster-internal: Use a ClusterIP service * external-unstable: Use a NodePort service This is a temporary solution with the goal to keep yaml manifests forward compatible. In the future, this setting will control which [ListenerClass](https://docs.stackable.tech/home/nightly/listener-operator/listenerclass.html) will be used to expose the service, and ListenerClass names will stay the same, allowing for a non-breaking change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#listener_class DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#listener_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#listener_class DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#listener_class}
   */
   readonly listenerClass?: string;
   /**
   * Name of the Vector aggregator [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery). It must contain the key 'ADDRESS' with the address of the Vector aggregator. Follow the [logging tutorial](https://docs.stackable.tech/home/nightly/tutorials/logging-vector-aggregator) to learn how to configure log aggregation with Vector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
   */
   readonly vectorAggregatorConfigMapName?: string;
   /**
   * Name of the [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) for a ZooKeeper cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#zookeeper_config_map_name DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#zookeeper_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#zookeeper_config_map_name DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#zookeeper_config_map_name}
   */
   readonly zookeeperConfigMapName: string;
 }
@@ -924,13 +924,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecCluste
   /**
   * Flag to stop cluster reconciliation by the operator. This means that all changes in the custom resource spec are ignored until this flag is set to false or removed. The operator will however still watch the deployed resources at the time and update the custom resource status field. If applied at the same time with 'stopped', 'reconciliationPaused' will take precedence over 'stopped' and stop the reconciliation immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#reconciliation_paused DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#reconciliation_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#reconciliation_paused DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#reconciliation_paused}
   */
   readonly reconciliationPaused?: boolean | cdktf.IResolvable;
   /**
   * Flag to stop the cluster. This means all deployed resources (e.g. Services, StatefulSets, ConfigMaps) are kept but all deployed Pods (e.g. replicas from a StatefulSet) are scaled to 0 and therefore stopped and removed. If applied at the same time with 'reconciliationPaused', the latter will pause reconciliation and 'stopped' will take no effect until 'reconciliationPaused' is set to false or removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#stopped DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#stopped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#stopped DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#stopped}
   */
   readonly stopped?: boolean | cdktf.IResolvable;
 }
@@ -1055,7 +1055,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecImageP
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#name DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#name DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1170,37 +1170,37 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecImage 
   /**
   * Overwrite the docker image. Specify the full docker image name, e.g. 'docker.stackable.tech/stackable/superset:1.4.1-stackable2.1.0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: string;
   /**
   * Version of the product, e.g. '1.4.1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#product_version DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#product_version DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#product_version}
   */
   readonly productVersion?: string;
   /**
   * [Pull policy](https://kubernetes.io/docs/concepts/containers/images/#image-pull-policy) used when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pull_policy DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pull_policy DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * [Image pull secrets](https://kubernetes.io/docs/concepts/containers/images/#specifying-imagepullsecrets-on-a-pod) to pull images from a private registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pull_secrets DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pull_secrets DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Name of the docker repo, e.g. 'docker.stackable.tech/stackable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#repo DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#repo DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#repo}
   */
   readonly repo?: string;
   /**
   * Stackable version of the product, e.g. '23.4', '23.4.1' or '0.0.0-dev'. If not specified, the operator will use its own version, e.g. '23.4.1'. When using a nightly operator or a pr version, it will use the nightly '0.0.0-dev' image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#stackable_version DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#stackable_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#stackable_version DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#stackable_version}
   */
   readonly stackableVersion?: string;
 }
@@ -1441,25 +1441,25 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_selector DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_selector DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -1642,7 +1642,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -1738,7 +1738,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -1834,7 +1834,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -1930,7 +1930,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2026,25 +2026,25 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#console DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#console DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#file DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#file DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#loggers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#loggers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersConfigLoggingContainersLoggers;
 }
@@ -2227,13 +2227,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#containers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#containers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enable_vector_agent DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enable_vector_agent DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -2358,13 +2358,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#min DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#min DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -2489,13 +2489,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#limit DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#limit DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#runtime_limits DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#runtime_limits DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -2618,15 +2618,15 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersCon
 }
 export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cpu DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cpu DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#memory DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#memory DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#storage DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#storage DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -2780,33 +2780,33 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_opts DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_opts DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_opts}
   */
   readonly hbaseOpts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_rootdir DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_rootdir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_rootdir DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_rootdir}
   */
   readonly hbaseRootdir?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#logging DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#logging DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#resources DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#resources DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersConfigResources;
 }
@@ -3047,13 +3047,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enabled DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enabled DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max_unavailable DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max_unavailable DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -3178,7 +3178,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleConfigPodDisruptionBudget;
 }
@@ -3274,25 +3274,25 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_selector DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_selector DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -3475,7 +3475,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -3571,7 +3571,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -3667,7 +3667,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -3763,7 +3763,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -3859,25 +3859,25 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#console DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#console DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#file DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#file DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#loggers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#loggers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -4060,13 +4060,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#containers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#containers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enable_vector_agent DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enable_vector_agent DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -4191,13 +4191,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#min DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#min DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -4322,13 +4322,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#limit DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#limit DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#runtime_limits DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#runtime_limits DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -4451,15 +4451,15 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRol
 }
 export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cpu DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cpu DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#memory DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#memory DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroupsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#storage DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#storage DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -4613,33 +4613,33 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMaster
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroupsConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_opts DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_opts DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_opts}
   */
   readonly hbaseOpts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_rootdir DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_rootdir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_rootdir DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_rootdir}
   */
   readonly hbaseRootdir?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#logging DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#logging DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroupsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#resources DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#resources DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroupsConfigResources;
 }
@@ -4878,33 +4878,33 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRol
 }
 export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cli_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cli_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#env_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#env_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#replicas DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#replicas DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -5143,39 +5143,39 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRol
 }
 export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMasters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cli_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cli_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#env_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#env_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#role_config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#role_config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#role_groups DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#role_groups DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMastersRoleGroups;
 }
@@ -5442,25 +5442,25 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_selector DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_selector DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -5643,7 +5643,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -5739,7 +5739,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -5835,7 +5835,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -5931,7 +5931,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -6027,25 +6027,25 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#console DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#console DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#file DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#file DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#loggers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#loggers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersConfigLoggingContainersLoggers;
 }
@@ -6228,13 +6228,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#containers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#containers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enable_vector_agent DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enable_vector_agent DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -6359,13 +6359,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#min DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#min DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -6490,13 +6490,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#limit DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#limit DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#runtime_limits DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#runtime_limits DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -6619,15 +6619,15 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServ
 }
 export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cpu DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cpu DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#memory DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#memory DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#storage DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#storage DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -6781,33 +6781,33 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_opts DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_opts DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_opts}
   */
   readonly hbaseOpts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_rootdir DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_rootdir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_rootdir DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_rootdir}
   */
   readonly hbaseRootdir?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#logging DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#logging DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#resources DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#resources DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersConfigResources;
 }
@@ -7048,13 +7048,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enabled DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enabled DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max_unavailable DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max_unavailable DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -7179,7 +7179,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleConfigPodDisruptionBudget;
 }
@@ -7275,25 +7275,25 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_selector DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_selector DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -7476,7 +7476,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -7572,7 +7572,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -7668,7 +7668,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -7764,7 +7764,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -7860,25 +7860,25 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#console DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#console DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#file DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#file DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#loggers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#loggers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -8061,13 +8061,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#containers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#containers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enable_vector_agent DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enable_vector_agent DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -8192,13 +8192,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#min DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#min DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -8323,13 +8323,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#limit DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#limit DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#runtime_limits DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#runtime_limits DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -8452,15 +8452,15 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServ
 }
 export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cpu DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cpu DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#memory DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#memory DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroupsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#storage DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#storage DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -8614,33 +8614,33 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegion
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroupsConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_opts DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_opts DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_opts}
   */
   readonly hbaseOpts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_rootdir DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_rootdir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_rootdir DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_rootdir}
   */
   readonly hbaseRootdir?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#logging DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#logging DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroupsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#resources DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#resources DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroupsConfigResources;
 }
@@ -8879,33 +8879,33 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServ
 }
 export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cli_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cli_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#env_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#env_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#replicas DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#replicas DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -9144,39 +9144,39 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServ
 }
 export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cli_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cli_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#env_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#env_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#role_config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#role_config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#role_groups DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#role_groups DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServersRoleGroups;
 }
@@ -9443,25 +9443,25 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_selector DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_selector DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -9644,7 +9644,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -9740,7 +9740,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -9836,7 +9836,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -9932,7 +9932,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -10028,25 +10028,25 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#console DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#console DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#file DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#file DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#loggers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#loggers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersConfigLoggingContainersLoggers;
 }
@@ -10229,13 +10229,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#containers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#containers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enable_vector_agent DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enable_vector_agent DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -10360,13 +10360,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#min DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#min DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -10491,13 +10491,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#limit DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#limit DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#runtime_limits DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#runtime_limits DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -10620,15 +10620,15 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServer
 }
 export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cpu DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cpu DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#memory DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#memory DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#storage DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#storage DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -10782,33 +10782,33 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_opts DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_opts DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_opts}
   */
   readonly hbaseOpts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_rootdir DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_rootdir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_rootdir DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_rootdir}
   */
   readonly hbaseRootdir?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#logging DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#logging DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#resources DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#resources DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersConfigResources;
 }
@@ -11049,13 +11049,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enabled DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enabled DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max_unavailable DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max_unavailable DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -11180,7 +11180,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleConfigPodDisruptionBudget;
 }
@@ -11276,25 +11276,25 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_selector DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#node_selector DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -11477,7 +11477,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -11573,7 +11573,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_map DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -11669,7 +11669,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -11765,7 +11765,7 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#level DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -11861,25 +11861,25 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#console DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#console DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#custom DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#file DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#file DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#loggers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#loggers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -12062,13 +12062,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#containers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#containers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enable_vector_agent DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#enable_vector_agent DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -12193,13 +12193,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#max DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#min DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#min DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -12324,13 +12324,13 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#limit DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#limit DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#runtime_limits DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#runtime_limits DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -12453,15 +12453,15 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServer
 }
 export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cpu DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cpu DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#memory DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#memory DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroupsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#storage DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#storage DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -12615,33 +12615,33 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestSe
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#affinity DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroupsConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_opts DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_opts DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_opts}
   */
   readonly hbaseOpts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_rootdir DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_rootdir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#hbase_rootdir DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#hbase_rootdir}
   */
   readonly hbaseRootdir?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#logging DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#logging DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroupsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#resources DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#resources DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroupsConfigResources;
 }
@@ -12880,33 +12880,33 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServer
 }
 export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cli_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cli_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#env_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#env_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#replicas DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#replicas DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -13145,39 +13145,39 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServer
 }
 export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cli_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cli_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#config_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#env_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#env_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#pod_overrides DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#role_config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#role_config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#role_groups DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#role_groups DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServersRoleGroups;
 }
@@ -13444,37 +13444,37 @@ export interface DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpec {
   /**
   * Configuration that applies to all roles and role groups. This includes settings for logging, ZooKeeper and HDFS connection, among other things.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cluster_config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cluster_config DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cluster_config}
   */
   readonly clusterConfig: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecClusterConfig;
   /**
   * [Cluster operations](https://docs.stackable.tech/home/nightly/concepts/operations/cluster_operations) properties, allow stopping the product instance as well as pausing reconciliation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cluster_operation DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cluster_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#cluster_operation DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#cluster_operation}
   */
   readonly clusterOperation?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecClusterOperation;
   /**
   * Specify which image to use, the easiest way is to only configure the 'productVersion'. You can also configure a custom image registry to pull from, as well as completely custom images. Consult the [Product image selection documentation](https://docs.stackable.tech/home/nightly/concepts/product_image_selection) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#image DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#image DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#image}
   */
   readonly image: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecImage;
   /**
   * The HBase master process is responsible for assigning regions to region servers and manages the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#masters DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#masters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#masters DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#masters}
   */
   readonly masters?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecMasters;
   /**
   * Region servers hold the data and handle requests from clients for their region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#region_servers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#region_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#region_servers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#region_servers}
   */
   readonly regionServers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRegionServers;
   /**
   * Rest servers provide a REST API to interact with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#rest_servers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#rest_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#rest_servers DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest#rest_servers}
   */
   readonly restServers?: DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecRestServers;
 }
@@ -13707,7 +13707,7 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest k8s_hbase_stackable_tech_hbase_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest k8s_hbase_stackable_tech_hbase_cluster_v1alpha1_manifest}
 */
 export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -13723,7 +13723,7 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -13735,7 +13735,7 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest k8s_hbase_stackable_tech_hbase_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hbase_stackable_tech_hbase_cluster_v1alpha1_manifest k8s_hbase_stackable_tech_hbase_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -13746,8 +13746,8 @@ export class DataK8SHbaseStackableTechHbaseClusterV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_hbase_stackable_tech_hbase_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

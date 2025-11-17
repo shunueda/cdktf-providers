@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#metadata DataK8SHiveOpenshiftIoMachinePoolV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#metadata DataK8SHiveOpenshiftIoMachinePoolV1Manifest#metadata}
   */
   readonly metadata: DataK8SHiveOpenshiftIoMachinePoolV1ManifestMetadata;
   /**
   * MachinePoolSpec defines the desired state of MachinePool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#spec DataK8SHiveOpenshiftIoMachinePoolV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#spec DataK8SHiveOpenshiftIoMachinePoolV1Manifest#spec}
   */
   readonly spec?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#annotations DataK8SHiveOpenshiftIoMachinePoolV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#annotations DataK8SHiveOpenshiftIoMachinePoolV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#labels DataK8SHiveOpenshiftIoMachinePoolV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#labels DataK8SHiveOpenshiftIoMachinePoolV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#namespace DataK8SHiveOpenshiftIoMachinePoolV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#namespace DataK8SHiveOpenshiftIoMachinePoolV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecAutoscaling {
   /**
   * MaxReplicas is the maximum number of replicas for the machine pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#max_replicas DataK8SHiveOpenshiftIoMachinePoolV1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#max_replicas DataK8SHiveOpenshiftIoMachinePoolV1Manifest#max_replicas}
   */
   readonly maxReplicas: number;
   /**
   * MinReplicas is the minimum number of replicas for the machine pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#min_replicas DataK8SHiveOpenshiftIoMachinePoolV1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#min_replicas DataK8SHiveOpenshiftIoMachinePoolV1Manifest#min_replicas}
   */
   readonly minReplicas: number;
 }
@@ -344,7 +344,7 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecClusterDeploymen
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -440,7 +440,7 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAwsMetad
   /**
   * Authentication determines whether or not the host requires the use of authentication when interacting with the metadata service. When using authentication, this enforces v2 interaction method (IMDSv2) with the metadata service. When omitted, this means the user has no opinion and the value is left to the platform to choose a good default, which is subject to change over time. The current default is optional. At this point this field represents 'HttpTokens' parameter from 'InstanceMetadataOptionsRequest' structure in AWS EC2 API https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_InstanceMetadataOptionsRequest.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#authentication DataK8SHiveOpenshiftIoMachinePoolV1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#authentication DataK8SHiveOpenshiftIoMachinePoolV1Manifest#authentication}
   */
   readonly authentication?: string;
 }
@@ -536,25 +536,25 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAwsRootV
   /**
   * IOPS defines the iops for the storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#iops DataK8SHiveOpenshiftIoMachinePoolV1Manifest#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#iops DataK8SHiveOpenshiftIoMachinePoolV1Manifest#iops}
   */
   readonly iops?: number;
   /**
   * The KMS key that will be used to encrypt the EBS volume. If no key is provided the default KMS key for the account will be used. https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_GetEbsDefaultKmsKeyId.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#kms_key_arn DataK8SHiveOpenshiftIoMachinePoolV1Manifest#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#kms_key_arn DataK8SHiveOpenshiftIoMachinePoolV1Manifest#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * Size defines the size of the storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#size DataK8SHiveOpenshiftIoMachinePoolV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#size DataK8SHiveOpenshiftIoMachinePoolV1Manifest#size}
   */
   readonly size: number;
   /**
   * Type defines the type of the storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#type}
   */
   readonly type: string;
 }
@@ -731,7 +731,7 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAwsSpotM
   /**
   * The maximum price the user is willing to pay for their instances Default: On-Demand price
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#max_price DataK8SHiveOpenshiftIoMachinePoolV1Manifest#max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#max_price DataK8SHiveOpenshiftIoMachinePoolV1Manifest#max_price}
   */
   readonly maxPrice?: string;
 }
@@ -827,49 +827,49 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAws {
   /**
   * AdditionalSecurityGroupIDs contains IDs of additional security groups for machines, where each ID is presented in the format sg-xxxx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#additional_security_group_i_ds DataK8SHiveOpenshiftIoMachinePoolV1Manifest#additional_security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#additional_security_group_i_ds DataK8SHiveOpenshiftIoMachinePoolV1Manifest#additional_security_group_i_ds}
   */
   readonly additionalSecurityGroupIDs?: string[];
   /**
   * EC2MetadataOptions defines metadata service interaction options for EC2 instances in the machine pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#metadata_service DataK8SHiveOpenshiftIoMachinePoolV1Manifest#metadata_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#metadata_service DataK8SHiveOpenshiftIoMachinePoolV1Manifest#metadata_service}
   */
   readonly metadataService?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAwsMetadataService;
   /**
   * EC2RootVolume defines the storage for ec2 instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#root_volume DataK8SHiveOpenshiftIoMachinePoolV1Manifest#root_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#root_volume DataK8SHiveOpenshiftIoMachinePoolV1Manifest#root_volume}
   */
   readonly rootVolume: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAwsRootVolume;
   /**
   * SpotMarketOptions allows users to configure instances to be run using AWS Spot instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#spot_market_options DataK8SHiveOpenshiftIoMachinePoolV1Manifest#spot_market_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#spot_market_options DataK8SHiveOpenshiftIoMachinePoolV1Manifest#spot_market_options}
   */
   readonly spotMarketOptions?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAwsSpotMarketOptions;
   /**
   * Subnets is the list of IDs of subnets to which to attach the machines. There must be exactly one subnet for each availability zone used. These subnets may be public or private. As a special case, for consistency with install-config, you may specify exactly one private and one public subnet for each availability zone. In this case, the public subnets will be filtered out and only the private subnets will be used. If empty/omitted, we will look for subnets in each availability zone tagged with Name=<clusterID>-private-<az> (legacy terraform) or <clusterID>-subnet-private-<az> (CAPA).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#subnets DataK8SHiveOpenshiftIoMachinePoolV1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#subnets DataK8SHiveOpenshiftIoMachinePoolV1Manifest#subnets}
   */
   readonly subnets?: string[];
   /**
   * InstanceType defines the ec2 instance type. eg. m4-large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#type}
   */
   readonly type: string;
   /**
   * UserTags contains the user defined tags to be supplied for the ec2 instance. Note that these will be merged with ClusterDeployment.Spec.Platform.AWS.UserTags, with this field taking precedence when keys collide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#user_tags DataK8SHiveOpenshiftIoMachinePoolV1Manifest#user_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#user_tags DataK8SHiveOpenshiftIoMachinePoolV1Manifest#user_tags}
   */
   readonly userTags?: { [key: string]: string };
   /**
   * Zones is list of availability zones that can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#zones DataK8SHiveOpenshiftIoMachinePoolV1Manifest#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#zones DataK8SHiveOpenshiftIoMachinePoolV1Manifest#zones}
   */
   readonly zones?: string[];
 }
@@ -1162,19 +1162,19 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAzureOsD
   /**
   * Name is the name of the disk encryption set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#name}
   */
   readonly name: string;
   /**
   * ResourceGroup defines the Azure resource group used by the disk encryption set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#resource_group DataK8SHiveOpenshiftIoMachinePoolV1Manifest#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#resource_group DataK8SHiveOpenshiftIoMachinePoolV1Manifest#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * SubscriptionID defines the Azure subscription the disk encryption set is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#subscription_id DataK8SHiveOpenshiftIoMachinePoolV1Manifest#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#subscription_id DataK8SHiveOpenshiftIoMachinePoolV1Manifest#subscription_id}
   */
   readonly subscriptionId?: string;
 }
@@ -1322,19 +1322,19 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAzureOsD
   /**
   * DiskEncryptionSet defines a disk encryption set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#disk_encryption_set DataK8SHiveOpenshiftIoMachinePoolV1Manifest#disk_encryption_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#disk_encryption_set DataK8SHiveOpenshiftIoMachinePoolV1Manifest#disk_encryption_set}
   */
   readonly diskEncryptionSet?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAzureOsDiskDiskEncryptionSet;
   /**
   * DiskSizeGB defines the size of disk in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#disk_size_gb DataK8SHiveOpenshiftIoMachinePoolV1Manifest#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#disk_size_gb DataK8SHiveOpenshiftIoMachinePoolV1Manifest#disk_size_gb}
   */
   readonly diskSizeGb: number;
   /**
   * DiskType defines the type of disk. For control plane nodes, the valid values are Premium_LRS and StandardSSD_LRS. Default is Premium_LRS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#disk_type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#disk_type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#disk_type}
   */
   readonly diskType?: string;
 }
@@ -1485,25 +1485,25 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAzureOsI
   /**
   * Offer is the offer of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#offer DataK8SHiveOpenshiftIoMachinePoolV1Manifest#offer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#offer DataK8SHiveOpenshiftIoMachinePoolV1Manifest#offer}
   */
   readonly offer: string;
   /**
   * Publisher is the publisher of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#publisher DataK8SHiveOpenshiftIoMachinePoolV1Manifest#publisher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#publisher DataK8SHiveOpenshiftIoMachinePoolV1Manifest#publisher}
   */
   readonly publisher: string;
   /**
   * SKU is the SKU of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#sku DataK8SHiveOpenshiftIoMachinePoolV1Manifest#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#sku DataK8SHiveOpenshiftIoMachinePoolV1Manifest#sku}
   */
   readonly sku: string;
   /**
   * Version is the version of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#version DataK8SHiveOpenshiftIoMachinePoolV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#version DataK8SHiveOpenshiftIoMachinePoolV1Manifest#version}
   */
   readonly version: string;
 }
@@ -1674,49 +1674,49 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAzure {
   /**
   * ComputeSubnet specifies an existing subnet for use by compute nodes. If omitted, the default (${infraID}-worker-subnet) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#compute_subnet DataK8SHiveOpenshiftIoMachinePoolV1Manifest#compute_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#compute_subnet DataK8SHiveOpenshiftIoMachinePoolV1Manifest#compute_subnet}
   */
   readonly computeSubnet?: string;
   /**
   * NetworkResourceGroupName specifies the network resource group that contains an existing VNet. Ignored unless VirtualNetwork is also specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#network_resource_group_name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#network_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#network_resource_group_name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#network_resource_group_name}
   */
   readonly networkResourceGroupName?: string;
   /**
   * OSDisk defines the storage for instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#os_disk DataK8SHiveOpenshiftIoMachinePoolV1Manifest#os_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#os_disk DataK8SHiveOpenshiftIoMachinePoolV1Manifest#os_disk}
   */
   readonly osDisk: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAzureOsDisk;
   /**
   * OSImage defines the image to use for the OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#os_image DataK8SHiveOpenshiftIoMachinePoolV1Manifest#os_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#os_image DataK8SHiveOpenshiftIoMachinePoolV1Manifest#os_image}
   */
   readonly osImage?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAzureOsImage;
   /**
   * InstanceType defines the azure instance type. eg. Standard_DS_V2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#type}
   */
   readonly type: string;
   /**
   * VirtualNetwork specifies the name of an existing VNet for the Machines to use If omitted, the default (${infraID}-vnet) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#virtual_network DataK8SHiveOpenshiftIoMachinePoolV1Manifest#virtual_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#virtual_network DataK8SHiveOpenshiftIoMachinePoolV1Manifest#virtual_network}
   */
   readonly virtualNetwork?: string;
   /**
   * VMNetworkingType specifies whether to enable accelerated networking. Accelerated networking enables single root I/O virtualization (SR-IOV) to a VM, greatly improving its networking performance. eg. values: 'Accelerated', 'Basic'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#vm_networking_type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#vm_networking_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#vm_networking_type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#vm_networking_type}
   */
   readonly vmNetworkingType?: string;
   /**
   * Zones is list of availability zones that can be used. eg. ['1', '2', '3']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#zones DataK8SHiveOpenshiftIoMachinePoolV1Manifest#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#zones DataK8SHiveOpenshiftIoMachinePoolV1Manifest#zones}
   */
   readonly zones?: string[];
 }
@@ -2009,25 +2009,25 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformGcpOsDis
   /**
   * KeyRing is the name of the KMS Key Ring which the KMS Key belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#key_ring DataK8SHiveOpenshiftIoMachinePoolV1Manifest#key_ring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#key_ring DataK8SHiveOpenshiftIoMachinePoolV1Manifest#key_ring}
   */
   readonly keyRing: string;
   /**
   * Location is the GCP location in which the Key Ring exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#location DataK8SHiveOpenshiftIoMachinePoolV1Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#location DataK8SHiveOpenshiftIoMachinePoolV1Manifest#location}
   */
   readonly location: string;
   /**
   * Name is the name of the customer managed encryption key to be used for the disk encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#name}
   */
   readonly name: string;
   /**
   * ProjectID is the ID of the Project in which the KMS Key Ring exists. Defaults to the VM ProjectID if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#project_id DataK8SHiveOpenshiftIoMachinePoolV1Manifest#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#project_id DataK8SHiveOpenshiftIoMachinePoolV1Manifest#project_id}
   */
   readonly projectId?: string;
 }
@@ -2201,13 +2201,13 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformGcpOsDis
   /**
   * KMSKey is a reference to a KMS Key to use for the encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#kms_key DataK8SHiveOpenshiftIoMachinePoolV1Manifest#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#kms_key DataK8SHiveOpenshiftIoMachinePoolV1Manifest#kms_key}
   */
   readonly kmsKey?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformGcpOsDiskEncryptionKeyKmsKey;
   /**
   * KMSKeyServiceAccount is the service account being used for the encryption request for the given KMS key. If absent, the Compute Engine default service account is used. See https://cloud.google.com/compute/docs/access/service-accounts#compute_engine_service_account for details on the default service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#kms_key_service_account DataK8SHiveOpenshiftIoMachinePoolV1Manifest#kms_key_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#kms_key_service_account DataK8SHiveOpenshiftIoMachinePoolV1Manifest#kms_key_service_account}
   */
   readonly kmsKeyServiceAccount?: string;
 }
@@ -2332,19 +2332,19 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformGcpOsDis
   /**
   * DiskSizeGB defines the size of disk in GB. Defaulted internally to 128.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#disk_size_gb DataK8SHiveOpenshiftIoMachinePoolV1Manifest#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#disk_size_gb DataK8SHiveOpenshiftIoMachinePoolV1Manifest#disk_size_gb}
   */
   readonly diskSizeGb?: number;
   /**
   * DiskType defines the type of disk. The valid values are pd-standard and pd-ssd. Defaulted internally to pd-ssd.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#disk_type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#disk_type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#disk_type}
   */
   readonly diskType?: string;
   /**
   * EncryptionKey defines the KMS key to be used to encrypt the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#encryption_key DataK8SHiveOpenshiftIoMachinePoolV1Manifest#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#encryption_key DataK8SHiveOpenshiftIoMachinePoolV1Manifest#encryption_key}
   */
   readonly encryptionKey?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformGcpOsDiskEncryptionKey;
 }
@@ -2498,19 +2498,19 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformGcpUserT
   /**
   * key is the key part of the tag. A tag key can have a maximum of 63 characters and cannot be empty. Tag key must begin and end with an alphanumeric character, and must contain only uppercase, lowercase alphanumeric characters, and the following special characters '._-'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#key DataK8SHiveOpenshiftIoMachinePoolV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#key DataK8SHiveOpenshiftIoMachinePoolV1Manifest#key}
   */
   readonly key: string;
   /**
   * parentID is the ID of the hierarchical resource where the tags are defined, e.g. at the Organization or the Project level. To find the Organization ID or Project ID refer to the following pages: https://cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id, https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects. An OrganizationID must consist of decimal numbers, and cannot have leading zeroes. A ProjectID must be 6 to 30 characters in length, can only contain lowercase letters, numbers, and hyphens, and must start with a letter, and cannot end with a hyphen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#parent_id DataK8SHiveOpenshiftIoMachinePoolV1Manifest#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#parent_id DataK8SHiveOpenshiftIoMachinePoolV1Manifest#parent_id}
   */
   readonly parentId: string;
   /**
   * value is the value part of the tag. A tag value can have a maximum of 63 characters and cannot be empty. Tag value must begin and end with an alphanumeric character, and must contain only uppercase, lowercase alphanumeric characters, and the following special characters '_-.@%=+:,*#&(){}[]' and spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#value DataK8SHiveOpenshiftIoMachinePoolV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#value DataK8SHiveOpenshiftIoMachinePoolV1Manifest#value}
   */
   readonly value: string;
 }
@@ -2677,49 +2677,49 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformGcp {
   /**
   * NetworkProjectID specifies which project the network and subnets exist in when they are not in the main ProjectID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#network_project_id DataK8SHiveOpenshiftIoMachinePoolV1Manifest#network_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#network_project_id DataK8SHiveOpenshiftIoMachinePoolV1Manifest#network_project_id}
   */
   readonly networkProjectId?: string;
   /**
   * OnHostMaintenance determines the behavior when a maintenance event occurs that might cause the instance to reboot. This is required to be set to 'Terminate' if you want to provision machine with attached GPUs. Otherwise, allowed values are 'Migrate' and 'Terminate'. If omitted, the platform chooses a default, which is subject to change over time, currently that default is 'Migrate'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#on_host_maintenance DataK8SHiveOpenshiftIoMachinePoolV1Manifest#on_host_maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#on_host_maintenance DataK8SHiveOpenshiftIoMachinePoolV1Manifest#on_host_maintenance}
   */
   readonly onHostMaintenance?: string;
   /**
   * OSDisk defines the storage for instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#os_disk DataK8SHiveOpenshiftIoMachinePoolV1Manifest#os_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#os_disk DataK8SHiveOpenshiftIoMachinePoolV1Manifest#os_disk}
   */
   readonly osDisk?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformGcpOsDisk;
   /**
   * SecureBoot Defines whether the instance should have secure boot enabled. Verifies the digital signature of all boot components, and halts the boot process if signature verification fails. If omitted, the platform chooses a default, which is subject to change over time. Currently that default is 'Disabled'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#secure_boot DataK8SHiveOpenshiftIoMachinePoolV1Manifest#secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#secure_boot DataK8SHiveOpenshiftIoMachinePoolV1Manifest#secure_boot}
   */
   readonly secureBoot?: string;
   /**
   * ServiceAccount is the email of a gcp service account to be attached to worker nodes in order to provide the permissions required by the cloud provider. For the default worker MachinePool, it is the user's responsibility to match this to the value provided in the install-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#service_account DataK8SHiveOpenshiftIoMachinePoolV1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#service_account DataK8SHiveOpenshiftIoMachinePoolV1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * InstanceType defines the GCP instance type. eg. n1-standard-4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#type}
   */
   readonly type: string;
   /**
   * userTags has additional keys and values that we will add as tags to the providerSpec of MachineSets that we creates on GCP. Tag key and tag value should be the shortnames of the tag key and tag value resource. Consumer is responsible for using this only for spokes where custom tags are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#user_tags DataK8SHiveOpenshiftIoMachinePoolV1Manifest#user_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#user_tags DataK8SHiveOpenshiftIoMachinePoolV1Manifest#user_tags}
   */
   readonly userTags?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformGcpUserTags[] | cdktf.IResolvable;
   /**
   * Zones is list of availability zones that can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#zones DataK8SHiveOpenshiftIoMachinePoolV1Manifest#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#zones DataK8SHiveOpenshiftIoMachinePoolV1Manifest#zones}
   */
   readonly zones?: string[];
 }
@@ -3015,7 +3015,7 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformIbmcloud
   /**
   * EncryptionKey is the CRN referencing a Key Protect or Hyper Protect Crypto Services key to use for volume encryption. If not specified, a provider managed encryption key will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#encryption_key DataK8SHiveOpenshiftIoMachinePoolV1Manifest#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#encryption_key DataK8SHiveOpenshiftIoMachinePoolV1Manifest#encryption_key}
   */
   readonly encryptionKey?: string;
 }
@@ -3111,13 +3111,13 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformIbmcloud
   /**
   * Name is the name of the dedicated host to provision the machine on. If specified, machines will be created on pre-existing dedicated host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Profile is the profile ID for the dedicated host. If specified, new dedicated host will be created for machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#profile DataK8SHiveOpenshiftIoMachinePoolV1Manifest#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#profile DataK8SHiveOpenshiftIoMachinePoolV1Manifest#profile}
   */
   readonly profile?: string;
 }
@@ -3264,25 +3264,25 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformIbmcloud
   /**
   * BootVolume is the configuration for the machine's boot volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#boot_volume DataK8SHiveOpenshiftIoMachinePoolV1Manifest#boot_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#boot_volume DataK8SHiveOpenshiftIoMachinePoolV1Manifest#boot_volume}
   */
   readonly bootVolume?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformIbmcloudBootVolume;
   /**
   * DedicatedHosts is the configuration for the machine's dedicated host and profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#dedicated_hosts DataK8SHiveOpenshiftIoMachinePoolV1Manifest#dedicated_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#dedicated_hosts DataK8SHiveOpenshiftIoMachinePoolV1Manifest#dedicated_hosts}
   */
   readonly dedicatedHosts?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformIbmcloudDedicatedHosts[] | cdktf.IResolvable;
   /**
   * InstanceType is the VSI machine profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#type}
   */
   readonly type?: string;
   /**
   * Zones is the list of availability zones used for machines in the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#zones DataK8SHiveOpenshiftIoMachinePoolV1Manifest#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#zones DataK8SHiveOpenshiftIoMachinePoolV1Manifest#zones}
   */
   readonly zones?: string[];
 }
@@ -3465,13 +3465,13 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformOpenstac
   /**
   * Size defines the size of the volume in gibibytes (GiB). Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#size DataK8SHiveOpenshiftIoMachinePoolV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#size DataK8SHiveOpenshiftIoMachinePoolV1Manifest#size}
   */
   readonly size: number;
   /**
   * Type defines the type of the volume. Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#type}
   */
   readonly type: string;
 }
@@ -3590,13 +3590,13 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformOpenstac
   /**
   * Flavor defines the OpenStack Nova flavor. eg. m1.large The json key here differs from the installer which uses both 'computeFlavor' and type 'type' depending on which type you're looking at, and the resulting field on the MachineSet is 'flavor'. We are opting to stay consistent with the end result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#flavor DataK8SHiveOpenshiftIoMachinePoolV1Manifest#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#flavor DataK8SHiveOpenshiftIoMachinePoolV1Manifest#flavor}
   */
   readonly flavor: string;
   /**
   * RootVolume defines the root volume for instances in the machine pool. The instances use ephemeral disks if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#root_volume DataK8SHiveOpenshiftIoMachinePoolV1Manifest#root_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#root_volume DataK8SHiveOpenshiftIoMachinePoolV1Manifest#root_volume}
   */
   readonly rootVolume?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformOpenstackRootVolume;
 }
@@ -3718,13 +3718,13 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformOvirtCpu
   /**
   * Cores is the number of cores per socket. Total CPUs is (Sockets * Cores)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#cores DataK8SHiveOpenshiftIoMachinePoolV1Manifest#cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#cores DataK8SHiveOpenshiftIoMachinePoolV1Manifest#cores}
   */
   readonly cores: number;
   /**
   * Sockets is the number of sockets for a VM. Total CPUs is (Sockets * Cores)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#sockets DataK8SHiveOpenshiftIoMachinePoolV1Manifest#sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#sockets DataK8SHiveOpenshiftIoMachinePoolV1Manifest#sockets}
   */
   readonly sockets: number;
 }
@@ -3843,7 +3843,7 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformOvirtOsD
   /**
   * SizeGB size of the bootable disk in GiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#size_gb DataK8SHiveOpenshiftIoMachinePoolV1Manifest#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#size_gb DataK8SHiveOpenshiftIoMachinePoolV1Manifest#size_gb}
   */
   readonly sizeGb: number;
 }
@@ -3936,25 +3936,25 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformOvirt {
   /**
   * CPU defines the VM CPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#cpu DataK8SHiveOpenshiftIoMachinePoolV1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#cpu DataK8SHiveOpenshiftIoMachinePoolV1Manifest#cpu}
   */
   readonly cpu?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformOvirtCpu;
   /**
   * MemoryMB is the size of a VM's memory in MiBs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#memory_mb DataK8SHiveOpenshiftIoMachinePoolV1Manifest#memory_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#memory_mb DataK8SHiveOpenshiftIoMachinePoolV1Manifest#memory_mb}
   */
   readonly memoryMb?: number;
   /**
   * OSDisk is the the root disk of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#os_disk DataK8SHiveOpenshiftIoMachinePoolV1Manifest#os_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#os_disk DataK8SHiveOpenshiftIoMachinePoolV1Manifest#os_disk}
   */
   readonly osDisk?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformOvirtOsDisk;
   /**
   * VMType defines the workload type of the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#vm_type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#vm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#vm_type DataK8SHiveOpenshiftIoMachinePoolV1Manifest#vm_type}
   */
   readonly vmType?: string;
 }
@@ -4137,7 +4137,7 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformVsphereO
   /**
   * DiskSizeGB defines the size of disk in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#disk_size_gb DataK8SHiveOpenshiftIoMachinePoolV1Manifest#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#disk_size_gb DataK8SHiveOpenshiftIoMachinePoolV1Manifest#disk_size_gb}
   */
   readonly diskSizeGb: number;
 }
@@ -4230,31 +4230,31 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformVsphere 
   /**
   * NumCoresPerSocket is the number of cores per socket in a vm. The number of vCPUs on the vm will be NumCPUs/NumCoresPerSocket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#cores_per_socket DataK8SHiveOpenshiftIoMachinePoolV1Manifest#cores_per_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#cores_per_socket DataK8SHiveOpenshiftIoMachinePoolV1Manifest#cores_per_socket}
   */
   readonly coresPerSocket: number;
   /**
   * NumCPUs is the total number of virtual processor cores to assign a vm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#cpus DataK8SHiveOpenshiftIoMachinePoolV1Manifest#cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#cpus DataK8SHiveOpenshiftIoMachinePoolV1Manifest#cpus}
   */
   readonly cpus: number;
   /**
   * Memory is the size of a VM's memory in MB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#memory_mb DataK8SHiveOpenshiftIoMachinePoolV1Manifest#memory_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#memory_mb DataK8SHiveOpenshiftIoMachinePoolV1Manifest#memory_mb}
   */
   readonly memoryMb: number;
   /**
   * OSDisk defines the storage for instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#os_disk DataK8SHiveOpenshiftIoMachinePoolV1Manifest#os_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#os_disk DataK8SHiveOpenshiftIoMachinePoolV1Manifest#os_disk}
   */
   readonly osDisk: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformVsphereOsDisk;
   /**
   * ResourcePool is the name of the resource pool that will be used for virtual machines. If it is not present, a default value will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#resource_pool DataK8SHiveOpenshiftIoMachinePoolV1Manifest#resource_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#resource_pool DataK8SHiveOpenshiftIoMachinePoolV1Manifest#resource_pool}
   */
   readonly resourcePool?: string;
 }
@@ -4454,43 +4454,43 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatform {
   /**
   * AWS is the configuration used when installing on AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#aws DataK8SHiveOpenshiftIoMachinePoolV1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#aws DataK8SHiveOpenshiftIoMachinePoolV1Manifest#aws}
   */
   readonly aws?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAws;
   /**
   * Azure is the configuration used when installing on Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#azure DataK8SHiveOpenshiftIoMachinePoolV1Manifest#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#azure DataK8SHiveOpenshiftIoMachinePoolV1Manifest#azure}
   */
   readonly azure?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformAzure;
   /**
   * GCP is the configuration used when installing on GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#gcp DataK8SHiveOpenshiftIoMachinePoolV1Manifest#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#gcp DataK8SHiveOpenshiftIoMachinePoolV1Manifest#gcp}
   */
   readonly gcp?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformGcp;
   /**
   * IBMCloud is the configuration used when installing on IBM Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#ibmcloud DataK8SHiveOpenshiftIoMachinePoolV1Manifest#ibmcloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#ibmcloud DataK8SHiveOpenshiftIoMachinePoolV1Manifest#ibmcloud}
   */
   readonly ibmcloud?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformIbmcloud;
   /**
   * OpenStack is the configuration used when installing on OpenStack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#openstack DataK8SHiveOpenshiftIoMachinePoolV1Manifest#openstack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#openstack DataK8SHiveOpenshiftIoMachinePoolV1Manifest#openstack}
   */
   readonly openstack?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformOpenstack;
   /**
   * Ovirt is the configuration used when installing on oVirt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#ovirt DataK8SHiveOpenshiftIoMachinePoolV1Manifest#ovirt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#ovirt DataK8SHiveOpenshiftIoMachinePoolV1Manifest#ovirt}
   */
   readonly ovirt?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformOvirt;
   /**
   * VSphere is the configuration used when installing on vSphere
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#vsphere DataK8SHiveOpenshiftIoMachinePoolV1Manifest#vsphere}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#vsphere DataK8SHiveOpenshiftIoMachinePoolV1Manifest#vsphere}
   */
   readonly vsphere?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatformVsphere;
 }
@@ -4760,25 +4760,25 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecTaints {
   /**
   * Required. The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#effect DataK8SHiveOpenshiftIoMachinePoolV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#effect DataK8SHiveOpenshiftIoMachinePoolV1Manifest#effect}
   */
   readonly effect: string;
   /**
   * Required. The taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#key DataK8SHiveOpenshiftIoMachinePoolV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#key DataK8SHiveOpenshiftIoMachinePoolV1Manifest#key}
   */
   readonly key: string;
   /**
   * TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#time_added DataK8SHiveOpenshiftIoMachinePoolV1Manifest#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#time_added DataK8SHiveOpenshiftIoMachinePoolV1Manifest#time_added}
   */
   readonly timeAdded?: string;
   /**
   * The taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#value DataK8SHiveOpenshiftIoMachinePoolV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#value DataK8SHiveOpenshiftIoMachinePoolV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4977,49 +4977,49 @@ export interface DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpec {
   /**
   * Autoscaling is the details for auto-scaling the machine pool. Replicas and autoscaling cannot be used together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#autoscaling DataK8SHiveOpenshiftIoMachinePoolV1Manifest#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#autoscaling DataK8SHiveOpenshiftIoMachinePoolV1Manifest#autoscaling}
   */
   readonly autoscaling?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecAutoscaling;
   /**
   * ClusterDeploymentRef references the cluster deployment to which this machine pool belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#cluster_deployment_ref DataK8SHiveOpenshiftIoMachinePoolV1Manifest#cluster_deployment_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#cluster_deployment_ref DataK8SHiveOpenshiftIoMachinePoolV1Manifest#cluster_deployment_ref}
   */
   readonly clusterDeploymentRef: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecClusterDeploymentRef;
   /**
   * Map of label string keys and values that will be applied to the created MachineSet's MachineSpec. This affects the labels that will end up on the *Nodes* (in contrast with the MachineLabels field). This list will overwrite any modifications made to Node labels on an ongoing basis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#labels DataK8SHiveOpenshiftIoMachinePoolV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#labels DataK8SHiveOpenshiftIoMachinePoolV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Map of label string keys and values that will be applied to the created MachineSet's MachineTemplateSpec. This affects the labels that will end up on the *Machines* (in contrast with the Labels field). This list will overwrite any modifications made to Machine labels on an ongoing basis. Note: We ignore entries that conflict with generated labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#machine_labels DataK8SHiveOpenshiftIoMachinePoolV1Manifest#machine_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#machine_labels DataK8SHiveOpenshiftIoMachinePoolV1Manifest#machine_labels}
   */
   readonly machineLabels?: { [key: string]: string };
   /**
   * Name is the name of the machine pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#name DataK8SHiveOpenshiftIoMachinePoolV1Manifest#name}
   */
   readonly name: string;
   /**
   * Platform is configuration for machine pool specific to the platform. When using a MachinePool to control the default worker machines created by installer, these must match the values provided in the install-config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#platform DataK8SHiveOpenshiftIoMachinePoolV1Manifest#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#platform DataK8SHiveOpenshiftIoMachinePoolV1Manifest#platform}
   */
   readonly platform: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecPlatform;
   /**
   * Replicas is the count of machines for this machine pool. Replicas and autoscaling cannot be used together. Default is 1, if autoscaling is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#replicas DataK8SHiveOpenshiftIoMachinePoolV1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#replicas DataK8SHiveOpenshiftIoMachinePoolV1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * List of taints that will be applied to the created MachineSet's MachineSpec. This list will overwrite any modifications made to Node taints on an ongoing basis. In case of duplicate entries, first encountered taint Value will be preserved, and the rest collapsed on the corresponding MachineSets. Note that taints are uniquely identified based on key+effect, not just key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#taints DataK8SHiveOpenshiftIoMachinePoolV1Manifest#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#taints DataK8SHiveOpenshiftIoMachinePoolV1Manifest#taints}
   */
   readonly taints?: DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecTaints[] | cdktf.IResolvable;
 }
@@ -5307,7 +5307,7 @@ export class DataK8SHiveOpenshiftIoMachinePoolV1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest k8s_hive_openshift_io_machine_pool_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest k8s_hive_openshift_io_machine_pool_v1_manifest}
 */
 export class DataK8SHiveOpenshiftIoMachinePoolV1Manifest extends cdktf.TerraformDataSource {
 
@@ -5323,7 +5323,7 @@ export class DataK8SHiveOpenshiftIoMachinePoolV1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SHiveOpenshiftIoMachinePoolV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHiveOpenshiftIoMachinePoolV1Manifest to import
-  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoMachinePoolV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoMachinePoolV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHiveOpenshiftIoMachinePoolV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5335,7 +5335,7 @@ export class DataK8SHiveOpenshiftIoMachinePoolV1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest k8s_hive_openshift_io_machine_pool_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/hive_openshift_io_machine_pool_v1_manifest k8s_hive_openshift_io_machine_pool_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5346,8 +5346,8 @@ export class DataK8SHiveOpenshiftIoMachinePoolV1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_hive_openshift_io_machine_pool_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

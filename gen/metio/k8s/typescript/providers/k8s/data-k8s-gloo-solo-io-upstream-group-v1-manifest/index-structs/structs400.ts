@@ -65,11 +65,11 @@ dataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsDestinationToHclTerrafor
 DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsDestinationOutputReference } from './structs0'
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplateHeadersToAppend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
   */
   readonly value?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplateHeadersToAppendValue;
 }
@@ -214,7 +214,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeysTmpl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -308,11 +308,11 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#override_empty DataK8SGlooSoloIoUpstreamGroupV1Manifest#override_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#override_empty DataK8SGlooSoloIoUpstreamGroupV1Manifest#override_empty}
   */
   readonly overrideEmpty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#tmpl DataK8SGlooSoloIoUpstreamGroupV1Manifest#tmpl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#tmpl DataK8SGlooSoloIoUpstreamGroupV1Manifest#tmpl}
   */
   readonly tmpl?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeysTmpl;
 }
@@ -435,7 +435,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplateMergeJsonKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_keys}
   */
   readonly jsonKeys?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeys;
 }
@@ -529,55 +529,55 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#advanced_templates DataK8SGlooSoloIoUpstreamGroupV1Manifest#advanced_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#advanced_templates DataK8SGlooSoloIoUpstreamGroupV1Manifest#advanced_templates}
   */
   readonly advancedTemplates?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
   */
   readonly body?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplateBody;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#dynamic_metadata_values DataK8SGlooSoloIoUpstreamGroupV1Manifest#dynamic_metadata_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#dynamic_metadata_values DataK8SGlooSoloIoUpstreamGroupV1Manifest#dynamic_metadata_values}
   */
   readonly dynamicMetadataValues?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplateDynamicMetadataValues[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#escape_characters DataK8SGlooSoloIoUpstreamGroupV1Manifest#escape_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#escape_characters DataK8SGlooSoloIoUpstreamGroupV1Manifest#escape_characters}
   */
   readonly escapeCharacters?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#extractors DataK8SGlooSoloIoUpstreamGroupV1Manifest#extractors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#extractors DataK8SGlooSoloIoUpstreamGroupV1Manifest#extractors}
   */
   readonly extractors?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplateExtractors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers}
   */
   readonly headers?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplateHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_append DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_append DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_append}
   */
   readonly headersToAppend?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplateHeadersToAppend[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_remove DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_remove DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_remove}
   */
   readonly headersToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#ignore_error_on_parse DataK8SGlooSoloIoUpstreamGroupV1Manifest#ignore_error_on_parse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#ignore_error_on_parse DataK8SGlooSoloIoUpstreamGroupV1Manifest#ignore_error_on_parse}
   */
   readonly ignoreErrorOnParse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_extractors_to_body DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_extractors_to_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_extractors_to_body DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_extractors_to_body}
   */
   readonly mergeExtractorsToBody?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_json_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_json_keys}
   */
   readonly mergeJsonKeys?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplateMergeJsonKeys;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#parse_body_behavior DataK8SGlooSoloIoUpstreamGroupV1Manifest#parse_body_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#parse_body_behavior DataK8SGlooSoloIoUpstreamGroupV1Manifest#parse_body_behavior}
   */
   readonly parseBodyBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#passthrough DataK8SGlooSoloIoUpstreamGroupV1Manifest#passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#passthrough DataK8SGlooSoloIoUpstreamGroupV1Manifest#passthrough}
   */
   readonly passthrough?: { [key: string]: string };
 }
@@ -1019,15 +1019,15 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationXsltTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#non_xml_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#non_xml_transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#non_xml_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#non_xml_transform}
   */
   readonly nonXmlTransform?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#set_content_type DataK8SGlooSoloIoUpstreamGroupV1Manifest#set_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#set_content_type DataK8SGlooSoloIoUpstreamGroupV1Manifest#set_content_type}
   */
   readonly setContentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt}
   */
   readonly xslt?: string;
 }
@@ -1179,19 +1179,19 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header_body_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#header_body_transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header_body_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#header_body_transform}
   */
   readonly headerBodyTransform?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationHeaderBodyTransform;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#log_request_response_info DataK8SGlooSoloIoUpstreamGroupV1Manifest#log_request_response_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#log_request_response_info DataK8SGlooSoloIoUpstreamGroupV1Manifest#log_request_response_info}
   */
   readonly logRequestResponseInfo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#transformation_template DataK8SGlooSoloIoUpstreamGroupV1Manifest#transformation_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#transformation_template DataK8SGlooSoloIoUpstreamGroupV1Manifest#transformation_template}
   */
   readonly transformationTemplate?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationTransformationTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt_transformation}
   */
   readonly xsltTransformation?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformationXsltTransformation;
 }
@@ -1372,19 +1372,19 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransforms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#clear_route_cache DataK8SGlooSoloIoUpstreamGroupV1Manifest#clear_route_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#clear_route_cache DataK8SGlooSoloIoUpstreamGroupV1Manifest#clear_route_cache}
   */
   readonly clearRouteCache?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#matcher DataK8SGlooSoloIoUpstreamGroupV1Manifest#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#matcher DataK8SGlooSoloIoUpstreamGroupV1Manifest#matcher}
   */
   readonly matcher?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsMatcher;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#request_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#request_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#request_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#request_transformation}
   */
   readonly requestTransformation?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsRequestTransformation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#response_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#response_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#response_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#response_transformation}
   */
   readonly responseTransformation?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransformsResponseTransformation;
 }
@@ -1587,19 +1587,19 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsMatchers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#invert_match DataK8SGlooSoloIoUpstreamGroupV1Manifest#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#invert_match DataK8SGlooSoloIoUpstreamGroupV1Manifest#invert_match}
   */
   readonly invertMatch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#name DataK8SGlooSoloIoUpstreamGroupV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#name DataK8SGlooSoloIoUpstreamGroupV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#regex DataK8SGlooSoloIoUpstreamGroupV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#regex DataK8SGlooSoloIoUpstreamGroupV1Manifest#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1802,7 +1802,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationHeaderBodyTransform {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#add_request_metadata DataK8SGlooSoloIoUpstreamGroupV1Manifest#add_request_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#add_request_metadata DataK8SGlooSoloIoUpstreamGroupV1Manifest#add_request_metadata}
   */
   readonly addRequestMetadata?: boolean | cdktf.IResolvable;
 }
@@ -1896,7 +1896,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateBody {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -1990,7 +1990,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateDynamicMetadataValuesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -2084,19 +2084,19 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateDynamicMetadataValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_to_proto DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_to_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_to_proto DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_to_proto}
   */
   readonly jsonToProto?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#metadata_namespace DataK8SGlooSoloIoUpstreamGroupV1Manifest#metadata_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#metadata_namespace DataK8SGlooSoloIoUpstreamGroupV1Manifest#metadata_namespace}
   */
   readonly metadataNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
   */
   readonly value?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateDynamicMetadataValuesValue;
 }
@@ -2299,27 +2299,27 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateExtractors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
   */
   readonly body?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header DataK8SGlooSoloIoUpstreamGroupV1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header DataK8SGlooSoloIoUpstreamGroupV1Manifest#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#mode DataK8SGlooSoloIoUpstreamGroupV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#mode DataK8SGlooSoloIoUpstreamGroupV1Manifest#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#regex DataK8SGlooSoloIoUpstreamGroupV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#regex DataK8SGlooSoloIoUpstreamGroupV1Manifest#regex}
   */
   readonly regex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#replacement_text DataK8SGlooSoloIoUpstreamGroupV1Manifest#replacement_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#replacement_text DataK8SGlooSoloIoUpstreamGroupV1Manifest#replacement_text}
   */
   readonly replacementText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#subgroup DataK8SGlooSoloIoUpstreamGroupV1Manifest#subgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#subgroup DataK8SGlooSoloIoUpstreamGroupV1Manifest#subgroup}
   */
   readonly subgroup?: number;
 }
@@ -2558,7 +2558,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -2652,7 +2652,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateHeadersToAppendValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -2746,11 +2746,11 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateHeadersToAppend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
   */
   readonly value?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateHeadersToAppendValue;
 }
@@ -2895,7 +2895,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeysTmpl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -2989,11 +2989,11 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#override_empty DataK8SGlooSoloIoUpstreamGroupV1Manifest#override_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#override_empty DataK8SGlooSoloIoUpstreamGroupV1Manifest#override_empty}
   */
   readonly overrideEmpty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#tmpl DataK8SGlooSoloIoUpstreamGroupV1Manifest#tmpl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#tmpl DataK8SGlooSoloIoUpstreamGroupV1Manifest#tmpl}
   */
   readonly tmpl?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeysTmpl;
 }
@@ -3116,7 +3116,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateMergeJsonKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_keys}
   */
   readonly jsonKeys?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeys;
 }
@@ -3210,55 +3210,55 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#advanced_templates DataK8SGlooSoloIoUpstreamGroupV1Manifest#advanced_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#advanced_templates DataK8SGlooSoloIoUpstreamGroupV1Manifest#advanced_templates}
   */
   readonly advancedTemplates?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
   */
   readonly body?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateBody;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#dynamic_metadata_values DataK8SGlooSoloIoUpstreamGroupV1Manifest#dynamic_metadata_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#dynamic_metadata_values DataK8SGlooSoloIoUpstreamGroupV1Manifest#dynamic_metadata_values}
   */
   readonly dynamicMetadataValues?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateDynamicMetadataValues[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#escape_characters DataK8SGlooSoloIoUpstreamGroupV1Manifest#escape_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#escape_characters DataK8SGlooSoloIoUpstreamGroupV1Manifest#escape_characters}
   */
   readonly escapeCharacters?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#extractors DataK8SGlooSoloIoUpstreamGroupV1Manifest#extractors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#extractors DataK8SGlooSoloIoUpstreamGroupV1Manifest#extractors}
   */
   readonly extractors?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateExtractors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers}
   */
   readonly headers?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_append DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_append DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_append}
   */
   readonly headersToAppend?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateHeadersToAppend[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_remove DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_remove DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_remove}
   */
   readonly headersToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#ignore_error_on_parse DataK8SGlooSoloIoUpstreamGroupV1Manifest#ignore_error_on_parse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#ignore_error_on_parse DataK8SGlooSoloIoUpstreamGroupV1Manifest#ignore_error_on_parse}
   */
   readonly ignoreErrorOnParse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_extractors_to_body DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_extractors_to_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_extractors_to_body DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_extractors_to_body}
   */
   readonly mergeExtractorsToBody?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_json_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_json_keys}
   */
   readonly mergeJsonKeys?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplateMergeJsonKeys;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#parse_body_behavior DataK8SGlooSoloIoUpstreamGroupV1Manifest#parse_body_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#parse_body_behavior DataK8SGlooSoloIoUpstreamGroupV1Manifest#parse_body_behavior}
   */
   readonly parseBodyBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#passthrough DataK8SGlooSoloIoUpstreamGroupV1Manifest#passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#passthrough DataK8SGlooSoloIoUpstreamGroupV1Manifest#passthrough}
   */
   readonly passthrough?: { [key: string]: string };
 }
@@ -3700,15 +3700,15 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationXsltTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#non_xml_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#non_xml_transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#non_xml_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#non_xml_transform}
   */
   readonly nonXmlTransform?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#set_content_type DataK8SGlooSoloIoUpstreamGroupV1Manifest#set_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#set_content_type DataK8SGlooSoloIoUpstreamGroupV1Manifest#set_content_type}
   */
   readonly setContentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt}
   */
   readonly xslt?: string;
 }
@@ -3860,19 +3860,19 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header_body_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#header_body_transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header_body_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#header_body_transform}
   */
   readonly headerBodyTransform?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationHeaderBodyTransform;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#log_request_response_info DataK8SGlooSoloIoUpstreamGroupV1Manifest#log_request_response_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#log_request_response_info DataK8SGlooSoloIoUpstreamGroupV1Manifest#log_request_response_info}
   */
   readonly logRequestResponseInfo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#transformation_template DataK8SGlooSoloIoUpstreamGroupV1Manifest#transformation_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#transformation_template DataK8SGlooSoloIoUpstreamGroupV1Manifest#transformation_template}
   */
   readonly transformationTemplate?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationTransformationTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt_transformation}
   */
   readonly xsltTransformation?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformationXsltTransformation;
 }
@@ -4053,15 +4053,15 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransforms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#matchers DataK8SGlooSoloIoUpstreamGroupV1Manifest#matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#matchers DataK8SGlooSoloIoUpstreamGroupV1Manifest#matchers}
   */
   readonly matchers?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsMatchers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#response_code_details DataK8SGlooSoloIoUpstreamGroupV1Manifest#response_code_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#response_code_details DataK8SGlooSoloIoUpstreamGroupV1Manifest#response_code_details}
   */
   readonly responseCodeDetails?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#response_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#response_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#response_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#response_transformation}
   */
   readonly responseTransformation?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransformsResponseTransformation;
 }
@@ -4235,11 +4235,11 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegular {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#request_transforms DataK8SGlooSoloIoUpstreamGroupV1Manifest#request_transforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#request_transforms DataK8SGlooSoloIoUpstreamGroupV1Manifest#request_transforms}
   */
   readonly requestTransforms?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularRequestTransforms[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#response_transforms DataK8SGlooSoloIoUpstreamGroupV1Manifest#response_transforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#response_transforms DataK8SGlooSoloIoUpstreamGroupV1Manifest#response_transforms}
   */
   readonly responseTransforms?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegularResponseTransforms[] | cdktf.IResolvable;
 }
@@ -4362,27 +4362,27 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#early DataK8SGlooSoloIoUpstreamGroupV1Manifest#early}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#early DataK8SGlooSoloIoUpstreamGroupV1Manifest#early}
   */
   readonly early?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsEarly;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#escape_characters DataK8SGlooSoloIoUpstreamGroupV1Manifest#escape_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#escape_characters DataK8SGlooSoloIoUpstreamGroupV1Manifest#escape_characters}
   */
   readonly escapeCharacters?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#inherit_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#inherit_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#inherit_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#inherit_transformation}
   */
   readonly inheritTransformation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#log_request_response_info DataK8SGlooSoloIoUpstreamGroupV1Manifest#log_request_response_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#log_request_response_info DataK8SGlooSoloIoUpstreamGroupV1Manifest#log_request_response_info}
   */
   readonly logRequestResponseInfo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#post_routing DataK8SGlooSoloIoUpstreamGroupV1Manifest#post_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#post_routing DataK8SGlooSoloIoUpstreamGroupV1Manifest#post_routing}
   */
   readonly postRouting?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsPostRouting;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#regular DataK8SGlooSoloIoUpstreamGroupV1Manifest#regular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#regular DataK8SGlooSoloIoUpstreamGroupV1Manifest#regular}
   */
   readonly regular?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformationsRegular;
 }
@@ -4621,7 +4621,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStag
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationHeaderBodyTransform {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#add_request_metadata DataK8SGlooSoloIoUpstreamGroupV1Manifest#add_request_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#add_request_metadata DataK8SGlooSoloIoUpstreamGroupV1Manifest#add_request_metadata}
   */
   readonly addRequestMetadata?: boolean | cdktf.IResolvable;
 }
@@ -4715,7 +4715,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateBody {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -4809,7 +4809,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateDynamicMetadataValuesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -4903,19 +4903,19 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateDynamicMetadataValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_to_proto DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_to_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_to_proto DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_to_proto}
   */
   readonly jsonToProto?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#metadata_namespace DataK8SGlooSoloIoUpstreamGroupV1Manifest#metadata_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#metadata_namespace DataK8SGlooSoloIoUpstreamGroupV1Manifest#metadata_namespace}
   */
   readonly metadataNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
   */
   readonly value?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateDynamicMetadataValuesValue;
 }
@@ -5118,27 +5118,27 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateExtractors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
   */
   readonly body?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header DataK8SGlooSoloIoUpstreamGroupV1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header DataK8SGlooSoloIoUpstreamGroupV1Manifest#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#mode DataK8SGlooSoloIoUpstreamGroupV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#mode DataK8SGlooSoloIoUpstreamGroupV1Manifest#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#regex DataK8SGlooSoloIoUpstreamGroupV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#regex DataK8SGlooSoloIoUpstreamGroupV1Manifest#regex}
   */
   readonly regex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#replacement_text DataK8SGlooSoloIoUpstreamGroupV1Manifest#replacement_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#replacement_text DataK8SGlooSoloIoUpstreamGroupV1Manifest#replacement_text}
   */
   readonly replacementText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#subgroup DataK8SGlooSoloIoUpstreamGroupV1Manifest#subgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#subgroup DataK8SGlooSoloIoUpstreamGroupV1Manifest#subgroup}
   */
   readonly subgroup?: number;
 }
@@ -5377,7 +5377,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -5471,7 +5471,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateHeadersToAppendValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -5565,11 +5565,11 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateHeadersToAppend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
   */
   readonly value?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateHeadersToAppendValue;
 }
@@ -5714,7 +5714,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateMergeJsonKeysJsonKeysTmpl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -5808,11 +5808,11 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateMergeJsonKeysJsonKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#override_empty DataK8SGlooSoloIoUpstreamGroupV1Manifest#override_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#override_empty DataK8SGlooSoloIoUpstreamGroupV1Manifest#override_empty}
   */
   readonly overrideEmpty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#tmpl DataK8SGlooSoloIoUpstreamGroupV1Manifest#tmpl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#tmpl DataK8SGlooSoloIoUpstreamGroupV1Manifest#tmpl}
   */
   readonly tmpl?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateMergeJsonKeysJsonKeysTmpl;
 }
@@ -5935,7 +5935,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateMergeJsonKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_keys}
   */
   readonly jsonKeys?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateMergeJsonKeysJsonKeys;
 }
@@ -6029,55 +6029,55 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#advanced_templates DataK8SGlooSoloIoUpstreamGroupV1Manifest#advanced_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#advanced_templates DataK8SGlooSoloIoUpstreamGroupV1Manifest#advanced_templates}
   */
   readonly advancedTemplates?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
   */
   readonly body?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateBody;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#dynamic_metadata_values DataK8SGlooSoloIoUpstreamGroupV1Manifest#dynamic_metadata_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#dynamic_metadata_values DataK8SGlooSoloIoUpstreamGroupV1Manifest#dynamic_metadata_values}
   */
   readonly dynamicMetadataValues?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateDynamicMetadataValues[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#escape_characters DataK8SGlooSoloIoUpstreamGroupV1Manifest#escape_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#escape_characters DataK8SGlooSoloIoUpstreamGroupV1Manifest#escape_characters}
   */
   readonly escapeCharacters?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#extractors DataK8SGlooSoloIoUpstreamGroupV1Manifest#extractors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#extractors DataK8SGlooSoloIoUpstreamGroupV1Manifest#extractors}
   */
   readonly extractors?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateExtractors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers}
   */
   readonly headers?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_append DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_append DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_append}
   */
   readonly headersToAppend?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateHeadersToAppend[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_remove DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_remove DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_remove}
   */
   readonly headersToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#ignore_error_on_parse DataK8SGlooSoloIoUpstreamGroupV1Manifest#ignore_error_on_parse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#ignore_error_on_parse DataK8SGlooSoloIoUpstreamGroupV1Manifest#ignore_error_on_parse}
   */
   readonly ignoreErrorOnParse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_extractors_to_body DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_extractors_to_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_extractors_to_body DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_extractors_to_body}
   */
   readonly mergeExtractorsToBody?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_json_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_json_keys}
   */
   readonly mergeJsonKeys?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplateMergeJsonKeys;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#parse_body_behavior DataK8SGlooSoloIoUpstreamGroupV1Manifest#parse_body_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#parse_body_behavior DataK8SGlooSoloIoUpstreamGroupV1Manifest#parse_body_behavior}
   */
   readonly parseBodyBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#passthrough DataK8SGlooSoloIoUpstreamGroupV1Manifest#passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#passthrough DataK8SGlooSoloIoUpstreamGroupV1Manifest#passthrough}
   */
   readonly passthrough?: { [key: string]: string };
 }
@@ -6519,15 +6519,15 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationXsltTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#non_xml_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#non_xml_transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#non_xml_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#non_xml_transform}
   */
   readonly nonXmlTransform?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#set_content_type DataK8SGlooSoloIoUpstreamGroupV1Manifest#set_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#set_content_type DataK8SGlooSoloIoUpstreamGroupV1Manifest#set_content_type}
   */
   readonly setContentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt}
   */
   readonly xslt?: string;
 }
@@ -6679,19 +6679,19 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header_body_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#header_body_transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header_body_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#header_body_transform}
   */
   readonly headerBodyTransform?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationHeaderBodyTransform;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#log_request_response_info DataK8SGlooSoloIoUpstreamGroupV1Manifest#log_request_response_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#log_request_response_info DataK8SGlooSoloIoUpstreamGroupV1Manifest#log_request_response_info}
   */
   readonly logRequestResponseInfo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#transformation_template DataK8SGlooSoloIoUpstreamGroupV1Manifest#transformation_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#transformation_template DataK8SGlooSoloIoUpstreamGroupV1Manifest#transformation_template}
   */
   readonly transformationTemplate?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationTransformationTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt_transformation}
   */
   readonly xsltTransformation?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformationXsltTransformation;
 }
@@ -6872,7 +6872,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationHeaderBodyTransform {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#add_request_metadata DataK8SGlooSoloIoUpstreamGroupV1Manifest#add_request_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#add_request_metadata DataK8SGlooSoloIoUpstreamGroupV1Manifest#add_request_metadata}
   */
   readonly addRequestMetadata?: boolean | cdktf.IResolvable;
 }
@@ -6966,7 +6966,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateBody {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -7060,7 +7060,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateDynamicMetadataValuesValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -7154,19 +7154,19 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateDynamicMetadataValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_to_proto DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_to_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_to_proto DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_to_proto}
   */
   readonly jsonToProto?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#metadata_namespace DataK8SGlooSoloIoUpstreamGroupV1Manifest#metadata_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#metadata_namespace DataK8SGlooSoloIoUpstreamGroupV1Manifest#metadata_namespace}
   */
   readonly metadataNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
   */
   readonly value?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateDynamicMetadataValuesValue;
 }
@@ -7369,27 +7369,27 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateExtractors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
   */
   readonly body?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header DataK8SGlooSoloIoUpstreamGroupV1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header DataK8SGlooSoloIoUpstreamGroupV1Manifest#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#mode DataK8SGlooSoloIoUpstreamGroupV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#mode DataK8SGlooSoloIoUpstreamGroupV1Manifest#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#regex DataK8SGlooSoloIoUpstreamGroupV1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#regex DataK8SGlooSoloIoUpstreamGroupV1Manifest#regex}
   */
   readonly regex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#replacement_text DataK8SGlooSoloIoUpstreamGroupV1Manifest#replacement_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#replacement_text DataK8SGlooSoloIoUpstreamGroupV1Manifest#replacement_text}
   */
   readonly replacementText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#subgroup DataK8SGlooSoloIoUpstreamGroupV1Manifest#subgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#subgroup DataK8SGlooSoloIoUpstreamGroupV1Manifest#subgroup}
   */
   readonly subgroup?: number;
 }
@@ -7628,7 +7628,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -7722,7 +7722,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateHeadersToAppendValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -7816,11 +7816,11 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateHeadersToAppend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#key DataK8SGlooSoloIoUpstreamGroupV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#value DataK8SGlooSoloIoUpstreamGroupV1Manifest#value}
   */
   readonly value?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateHeadersToAppendValue;
 }
@@ -7965,7 +7965,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeysTmpl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#text DataK8SGlooSoloIoUpstreamGroupV1Manifest#text}
   */
   readonly text?: string;
 }
@@ -8059,11 +8059,11 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#override_empty DataK8SGlooSoloIoUpstreamGroupV1Manifest#override_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#override_empty DataK8SGlooSoloIoUpstreamGroupV1Manifest#override_empty}
   */
   readonly overrideEmpty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#tmpl DataK8SGlooSoloIoUpstreamGroupV1Manifest#tmpl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#tmpl DataK8SGlooSoloIoUpstreamGroupV1Manifest#tmpl}
   */
   readonly tmpl?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeysTmpl;
 }
@@ -8186,7 +8186,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateMergeJsonKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#json_keys}
   */
   readonly jsonKeys?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateMergeJsonKeysJsonKeys;
 }
@@ -8280,55 +8280,55 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#advanced_templates DataK8SGlooSoloIoUpstreamGroupV1Manifest#advanced_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#advanced_templates DataK8SGlooSoloIoUpstreamGroupV1Manifest#advanced_templates}
   */
   readonly advancedTemplates?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#body DataK8SGlooSoloIoUpstreamGroupV1Manifest#body}
   */
   readonly body?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateBody;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#dynamic_metadata_values DataK8SGlooSoloIoUpstreamGroupV1Manifest#dynamic_metadata_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#dynamic_metadata_values DataK8SGlooSoloIoUpstreamGroupV1Manifest#dynamic_metadata_values}
   */
   readonly dynamicMetadataValues?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateDynamicMetadataValues[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#escape_characters DataK8SGlooSoloIoUpstreamGroupV1Manifest#escape_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#escape_characters DataK8SGlooSoloIoUpstreamGroupV1Manifest#escape_characters}
   */
   readonly escapeCharacters?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#extractors DataK8SGlooSoloIoUpstreamGroupV1Manifest#extractors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#extractors DataK8SGlooSoloIoUpstreamGroupV1Manifest#extractors}
   */
   readonly extractors?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateExtractors;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers}
   */
   readonly headers?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_append DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_append}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_append DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_append}
   */
   readonly headersToAppend?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateHeadersToAppend[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_remove DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#headers_to_remove DataK8SGlooSoloIoUpstreamGroupV1Manifest#headers_to_remove}
   */
   readonly headersToRemove?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#ignore_error_on_parse DataK8SGlooSoloIoUpstreamGroupV1Manifest#ignore_error_on_parse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#ignore_error_on_parse DataK8SGlooSoloIoUpstreamGroupV1Manifest#ignore_error_on_parse}
   */
   readonly ignoreErrorOnParse?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_extractors_to_body DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_extractors_to_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_extractors_to_body DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_extractors_to_body}
   */
   readonly mergeExtractorsToBody?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_json_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#merge_json_keys DataK8SGlooSoloIoUpstreamGroupV1Manifest#merge_json_keys}
   */
   readonly mergeJsonKeys?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplateMergeJsonKeys;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#parse_body_behavior DataK8SGlooSoloIoUpstreamGroupV1Manifest#parse_body_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#parse_body_behavior DataK8SGlooSoloIoUpstreamGroupV1Manifest#parse_body_behavior}
   */
   readonly parseBodyBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#passthrough DataK8SGlooSoloIoUpstreamGroupV1Manifest#passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#passthrough DataK8SGlooSoloIoUpstreamGroupV1Manifest#passthrough}
   */
   readonly passthrough?: { [key: string]: string };
 }
@@ -8770,15 +8770,15 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationXsltTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#non_xml_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#non_xml_transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#non_xml_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#non_xml_transform}
   */
   readonly nonXmlTransform?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#set_content_type DataK8SGlooSoloIoUpstreamGroupV1Manifest#set_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#set_content_type DataK8SGlooSoloIoUpstreamGroupV1Manifest#set_content_type}
   */
   readonly setContentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt}
   */
   readonly xslt?: string;
 }
@@ -8930,19 +8930,19 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header_body_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#header_body_transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header_body_transform DataK8SGlooSoloIoUpstreamGroupV1Manifest#header_body_transform}
   */
   readonly headerBodyTransform?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationHeaderBodyTransform;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#log_request_response_info DataK8SGlooSoloIoUpstreamGroupV1Manifest#log_request_response_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#log_request_response_info DataK8SGlooSoloIoUpstreamGroupV1Manifest#log_request_response_info}
   */
   readonly logRequestResponseInfo?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#transformation_template DataK8SGlooSoloIoUpstreamGroupV1Manifest#transformation_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#transformation_template DataK8SGlooSoloIoUpstreamGroupV1Manifest#transformation_template}
   */
   readonly transformationTemplate?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationTransformationTemplate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#xslt_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#xslt_transformation}
   */
   readonly xsltTransformation?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformationXsltTransformation;
 }
@@ -9123,15 +9123,15 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#clear_route_cache DataK8SGlooSoloIoUpstreamGroupV1Manifest#clear_route_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#clear_route_cache DataK8SGlooSoloIoUpstreamGroupV1Manifest#clear_route_cache}
   */
   readonly clearRouteCache?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#request_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#request_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#request_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#request_transformation}
   */
   readonly requestTransformation?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsRequestTransformation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#response_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#response_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#response_transformation DataK8SGlooSoloIoUpstreamGroupV1Manifest#response_transformation}
   */
   readonly responseTransformation?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformationsResponseTransformation;
 }
@@ -9283,31 +9283,31 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTran
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#buffer_per_route DataK8SGlooSoloIoUpstreamGroupV1Manifest#buffer_per_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#buffer_per_route DataK8SGlooSoloIoUpstreamGroupV1Manifest#buffer_per_route}
   */
   readonly bufferPerRoute?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsBufferPerRoute;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#csrf DataK8SGlooSoloIoUpstreamGroupV1Manifest#csrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#csrf DataK8SGlooSoloIoUpstreamGroupV1Manifest#csrf}
   */
   readonly csrf?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsCsrf;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#extauth DataK8SGlooSoloIoUpstreamGroupV1Manifest#extauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#extauth DataK8SGlooSoloIoUpstreamGroupV1Manifest#extauth}
   */
   readonly extauth?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsExtauth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#extensions DataK8SGlooSoloIoUpstreamGroupV1Manifest#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#extensions DataK8SGlooSoloIoUpstreamGroupV1Manifest#extensions}
   */
   readonly extensions?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsExtensions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header_manipulation DataK8SGlooSoloIoUpstreamGroupV1Manifest#header_manipulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#header_manipulation DataK8SGlooSoloIoUpstreamGroupV1Manifest#header_manipulation}
   */
   readonly headerManipulation?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsHeaderManipulation;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#staged_transformations DataK8SGlooSoloIoUpstreamGroupV1Manifest#staged_transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#staged_transformations DataK8SGlooSoloIoUpstreamGroupV1Manifest#staged_transformations}
   */
   readonly stagedTransformations?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsStagedTransformations;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#transformations DataK8SGlooSoloIoUpstreamGroupV1Manifest#transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#transformations DataK8SGlooSoloIoUpstreamGroupV1Manifest#transformations}
   */
   readonly transformations?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsTransformations;
 }
@@ -9575,15 +9575,15 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptionsOutp
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#destination DataK8SGlooSoloIoUpstreamGroupV1Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#destination DataK8SGlooSoloIoUpstreamGroupV1Manifest#destination}
   */
   readonly destination?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsDestination;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#options DataK8SGlooSoloIoUpstreamGroupV1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#options DataK8SGlooSoloIoUpstreamGroupV1Manifest#options}
   */
   readonly options?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#weight DataK8SGlooSoloIoUpstreamGroupV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#weight DataK8SGlooSoloIoUpstreamGroupV1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -9757,7 +9757,7 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinationsList extend
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecNamespacedStatuses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#statuses DataK8SGlooSoloIoUpstreamGroupV1Manifest#statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#statuses DataK8SGlooSoloIoUpstreamGroupV1Manifest#statuses}
   */
   readonly statuses?: { [key: string]: string };
 }
@@ -9851,11 +9851,11 @@ export class DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecNamespacedStatusesOutpu
 }
 export interface DataK8SGlooSoloIoUpstreamGroupV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#destinations DataK8SGlooSoloIoUpstreamGroupV1Manifest#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#destinations DataK8SGlooSoloIoUpstreamGroupV1Manifest#destinations}
   */
   readonly destinations?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecDestinations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#namespaced_statuses DataK8SGlooSoloIoUpstreamGroupV1Manifest#namespaced_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/gloo_solo_io_upstream_group_v1_manifest#namespaced_statuses DataK8SGlooSoloIoUpstreamGroupV1Manifest#namespaced_statuses}
   */
   readonly namespacedStatuses?: DataK8SGlooSoloIoUpstreamGroupV1ManifestSpecNamespacedStatuses;
 }

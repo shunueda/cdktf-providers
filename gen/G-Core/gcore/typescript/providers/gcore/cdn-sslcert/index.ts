@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_sslcert
+// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_sslcert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CdnSslcertConfig extends cdktf.TerraformMetaArguments {
   /**
   * The way SSL certificate was issued.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_sslcert#automated CdnSslcert#automated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_sslcert#automated CdnSslcert#automated}
   */
   readonly automated?: boolean | cdktf.IResolvable;
   /**
   * The public part of the SSL certificate. All chain of the SSL certificate should be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_sslcert#cert CdnSslcert#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_sslcert#cert CdnSslcert#cert}
   */
   readonly cert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_sslcert#id CdnSslcert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_sslcert#id CdnSslcert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface CdnSslcertConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the SSL certificate. Must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_sslcert#name CdnSslcert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_sslcert#name CdnSslcert#name}
   */
   readonly name: string;
   /**
   * The private key of the SSL certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_sslcert#private_key CdnSslcert#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_sslcert#private_key CdnSslcert#private_key}
   */
   readonly privateKey?: string;
   /**
   * Defines whether to check the SSL certificate for a signature from a trusted certificate authority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_sslcert#validate_root_ca CdnSslcert#validate_root_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_sslcert#validate_root_ca CdnSslcert#validate_root_ca}
   */
   readonly validateRootCa?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_sslcert gcore_cdn_sslcert}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_sslcert gcore_cdn_sslcert}
 */
 export class CdnSslcert extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CdnSslcert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnSslcert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnSslcert to import
-  * @param importFromId The id of the existing CdnSslcert that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_sslcert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnSslcert that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_sslcert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnSslcert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CdnSslcert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/cdn_sslcert gcore_cdn_sslcert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/cdn_sslcert gcore_cdn_sslcert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CdnSslcert extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_cdn_sslcert',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.3',
-        providerVersionConstraint: '0.31.3'
+        providerVersion: '0.31.4',
+        providerVersionConstraint: '0.31.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

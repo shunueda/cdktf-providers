@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1M
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1ManifestMetadata;
   /**
   * TinkerbellTemplateConfigSpec defines the desired state of TinkerbellTemplateConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1M
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,39 +217,39 @@ export class DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manif
 }
 export interface DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1ManifestSpecTemplateTasksActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#command DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#command DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#environment DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#environment DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#image DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#image DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#on_failure DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#on_failure DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#on_failure}
   */
   readonly onFailure?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#on_timeout DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#on_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#on_timeout DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#on_timeout}
   */
   readonly onTimeout?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#pid DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#pid DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#pid}
   */
   readonly pid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#timeout DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#timeout DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#timeout}
   */
   readonly timeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#volumes DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#volumes DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#volumes}
   */
   readonly volumes?: string[];
 }
@@ -588,23 +588,23 @@ export class DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manif
 }
 export interface DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1ManifestSpecTemplateTasks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#actions DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#actions DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#actions}
   */
   readonly actions: DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1ManifestSpecTemplateTasksActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#environment DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#environment DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#volumes DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#volumes DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#volumes}
   */
   readonly volumes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#worker DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#worker DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#worker}
   */
   readonly worker: string;
 }
@@ -827,26 +827,26 @@ export class DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manif
 }
 export interface DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1ManifestSpecTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#global_timeout DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#global_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#global_timeout DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#global_timeout}
   */
   readonly globalTimeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#id DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#id DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#tasks DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#tasks DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#tasks}
   */
   readonly tasks: DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1ManifestSpecTemplateTasks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#version DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -1043,7 +1043,7 @@ export interface DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1M
   /**
   * Template defines a Tinkerbell workflow template with specific tasks and actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#template DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#template DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest#template}
   */
   readonly template: DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1ManifestSpecTemplate;
 }
@@ -1134,7 +1134,7 @@ export class DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manif
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest}
 */
 export class DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1150,7 +1150,7 @@ export class DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manif
   * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1162,7 +1162,7 @@ export class DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manif
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1173,8 +1173,8 @@ export class DataK8SAnywhereEksAmazonawsComTinkerbellTemplateConfigV1Alpha1Manif
       terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_tinkerbell_template_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

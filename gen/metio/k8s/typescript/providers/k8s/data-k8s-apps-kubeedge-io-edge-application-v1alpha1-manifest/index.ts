@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#metadata DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#metadata DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestMetadata;
   /**
   * Spec represents the desired behavior of EdgeApplication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#spec DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#spec DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#annotations DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#annotations DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#labels DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#labels DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#namespace DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#namespace DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * The name of container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#container_name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#container_name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#container_name}
   */
   readonly containerName: string;
   /**
   * Operator represents the operator which will apply on the command/args.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#operator DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#operator DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Value to be applied to command/args. Items in Value which will be appended after command/args when Operator is 'add'. Items in Value which match in command/args will be deleted when Operator is 'remove'. If Value is empty, then the command/args will remain the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value}
   */
   readonly value?: string[];
 }
@@ -401,19 +401,19 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * The name of container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#container_name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#container_name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#container_name}
   */
   readonly containerName: string;
   /**
   * Operator represents the operator which will apply on the command/args.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#operator DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#operator DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Value to be applied to command/args. Items in Value which will be appended after command/args when Operator is 'add'. Items in Value which match in command/args will be deleted when Operator is 'remove'. If Value is empty, then the command/args will remain the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value}
   */
   readonly value?: string[];
 }
@@ -583,19 +583,19 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#key DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#key DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#optional DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#optional DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -746,13 +746,13 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#api_version DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#api_version DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#field_path DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#field_path DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -874,19 +874,19 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#container_name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#container_name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#divisor DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#divisor DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#resource DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#resource DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -1037,19 +1037,19 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#key DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#key DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#optional DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#optional DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1200,25 +1200,25 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#config_map_key_ref DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#config_map_key_ref DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersEnvOverridersValueValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#field_ref DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#field_ref DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersEnvOverridersValueValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#resource_field_ref DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersEnvOverridersValueValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#secret_key_ref DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#secret_key_ref DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersEnvOverridersValueValueFromSecretKeyRef;
 }
@@ -1401,19 +1401,19 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value_from DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value_from DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersEnvOverridersValueValueFrom;
 }
@@ -1586,19 +1586,19 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * The name of container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#container_name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#container_name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#container_name}
   */
   readonly containerName: string;
   /**
   * Operator represents the operator which will apply on the env.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#operator DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#operator DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Value to be applied to env. Must not be empty when operator is 'add' or 'replace'. When the operator is 'remove', the matched value in env will be deleted and only the name of the value will be matched. If Value is empty, then the env will remain the same.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value}
   */
   readonly value?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersEnvOverridersValue[] | cdktf.IResolvable;
 }
@@ -1768,7 +1768,7 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * Path indicates the path of target field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#path DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#path DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -1861,25 +1861,25 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * Component is part of image name. Basically we presume an image can be made of '[registry/]repository[:tag]'. The registry could be: - k8s.gcr.io - fictional.registry.example:10443 The repository could be: - kube-apiserver - fictional/nginx The tag cloud be: - latest - v1.19.1 - @sha256:dbcc1c35ac38df41fd2f5e4130b32ffdb93ebae8b3dbe638c23575912276fc9c
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#component DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#component DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#component}
   */
   readonly component: string;
   /**
   * Operator represents the operator which will apply on the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#operator DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#operator DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * Predicate filters images before applying the rule. Defaults to nil, in that case, the system will automatically detect image fields if the resource type is Pod, ReplicaSet, Deployment or StatefulSet by following rule: - Pod: /spec/containers/<N>/image - ReplicaSet: /spec/template/spec/containers/<N>/image - Deployment: /spec/template/spec/containers/<N>/image - StatefulSet: /spec/template/spec/containers/<N>/image In addition, all images will be processed if the resource object has more than one containers. If not nil, only images matches the filters will be processed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#predicate DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#predicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#predicate DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#predicate}
   */
   readonly predicate?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersImageOverridersPredicate;
   /**
   * Value to be applied to image. Must not be empty when operator is 'add' or 'replace'. Defaults to empty and ignored when operator is 'remove'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2078,7 +2078,7 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2193,19 +2193,19 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#claims DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#claims DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersResourcesOverridersValueClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#limits DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#limits DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#requests DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#requests DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2359,13 +2359,13 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * The name of container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#container_name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#container_name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#container_name}
   */
   readonly containerName: string;
   /**
   * Value to be applied to resources. Must not be empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#value DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#value}
   */
   readonly value?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersResourcesOverridersValue;
 }
@@ -2509,37 +2509,37 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * ArgsOverriders represents the rules dedicated to handling container args
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#args_overriders DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#args_overriders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#args_overriders DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#args_overriders}
   */
   readonly argsOverriders?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersArgsOverriders[] | cdktf.IResolvable;
   /**
   * CommandOverriders represents the rules dedicated to handling container command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#command_overriders DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#command_overriders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#command_overriders DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#command_overriders}
   */
   readonly commandOverriders?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersCommandOverriders[] | cdktf.IResolvable;
   /**
   * EnvOverriders will override the env field of the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#env_overriders DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#env_overriders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#env_overriders DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#env_overriders}
   */
   readonly envOverriders?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersEnvOverriders[] | cdktf.IResolvable;
   /**
   * ImageOverriders represents the rules dedicated to handling image overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#image_overriders DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#image_overriders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#image_overriders DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#image_overriders}
   */
   readonly imageOverriders?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersImageOverriders[] | cdktf.IResolvable;
   /**
   * Replicas will override the replicas field of deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#replicas DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#replicas DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * ResourcesOverriders will override the resources field of the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#resources_overriders DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#resources_overriders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#resources_overriders DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#resources_overriders}
   */
   readonly resourcesOverriders?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverridersResourcesOverriders[] | cdktf.IResolvable;
 }
@@ -2780,13 +2780,13 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * Name represents the name of target node group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#name DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Overriders represents the override rules that would apply on workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#overriders DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#overriders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#overriders DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#overriders}
   */
   readonly overriders?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroupsOverriders;
 }
@@ -2930,7 +2930,7 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * TargetNodeGroups represents the target node groups of workload to be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#target_node_groups DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#target_node_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#target_node_groups DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#target_node_groups}
   */
   readonly targetNodeGroups?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScopeTargetNodeGroups[] | cdktf.IResolvable;
 }
@@ -3026,7 +3026,7 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloa
   /**
   * Manifests represent a list of Kubernetes resources to be deployed on the managed node groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#manifests DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#manifests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#manifests DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#manifests}
   */
   readonly manifests?: { [key: string]: string }[] | cdktf.IResolvable;
 }
@@ -3122,13 +3122,13 @@ export interface DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpec {
   /**
   * WorkloadScope represents which node groups the workload will be deployed in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#workload_scope DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#workload_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#workload_scope DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#workload_scope}
   */
   readonly workloadScope: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadScope;
   /**
   * WorkloadTemplate contains original templates of resources to be deployed as an EdgeApplication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#workload_template DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#workload_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#workload_template DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest#workload_template}
   */
   readonly workloadTemplate?: DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecWorkloadTemplate;
 }
@@ -3248,7 +3248,7 @@ export class DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest k8s_apps_kubeedge_io_edge_application_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest k8s_apps_kubeedge_io_edge_application_v1alpha1_manifest}
 */
 export class DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3264,7 +3264,7 @@ export class DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3276,7 +3276,7 @@ export class DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest k8s_apps_kubeedge_io_edge_application_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/apps_kubeedge_io_edge_application_v1alpha1_manifest k8s_apps_kubeedge_io_edge_application_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3287,8 +3287,8 @@ export class DataK8SAppsKubeedgeIoEdgeApplicationV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_apps_kubeedge_io_edge_application_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

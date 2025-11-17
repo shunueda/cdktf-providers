@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy_prioritization
+// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_policy_prioritization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ProfilePolicyPrioritizationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy_prioritization#id ProfilePolicyPrioritization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_policy_prioritization#id ProfilePolicyPrioritization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ProfilePolicyPrioritizationConfig extends cdktf.TerraformMetaAr
   /**
   * Enable policy ordering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy_prioritization#policy_priority_enabled ProfilePolicyPrioritization#policy_priority_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_policy_prioritization#policy_priority_enabled ProfilePolicyPrioritization#policy_priority_enabled}
   */
   readonly policyPriorityEnabled?: boolean | cdktf.IResolvable;
   /**
   * Profile ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy_prioritization#profile_id ProfilePolicyPrioritization#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_policy_prioritization#profile_id ProfilePolicyPrioritization#profile_id}
   */
   readonly profileId: string;
   /**
   * policy_priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy_prioritization#policy_priority ProfilePolicyPrioritization#policy_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_policy_prioritization#policy_priority ProfilePolicyPrioritization#policy_priority}
   */
   readonly policyPriority?: ProfilePolicyPrioritizationPolicyPriority[] | cdktf.IResolvable;
 }
@@ -37,7 +37,7 @@ export interface ProfilePolicyPrioritizationPolicyPriority {
   /**
   * Policy Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy_prioritization#id ProfilePolicyPrioritization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_policy_prioritization#id ProfilePolicyPrioritization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ export interface ProfilePolicyPrioritizationPolicyPriority {
   /**
   * Priority number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy_prioritization#priority ProfilePolicyPrioritization#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_policy_prioritization#priority ProfilePolicyPrioritization#priority}
   */
   readonly priority: number;
 }
@@ -185,7 +185,7 @@ export class ProfilePolicyPrioritizationPolicyPriorityList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy_prioritization britive_profile_policy_prioritization}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_policy_prioritization britive_profile_policy_prioritization}
 */
 export class ProfilePolicyPrioritization extends cdktf.TerraformResource {
 
@@ -201,7 +201,7 @@ export class ProfilePolicyPrioritization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProfilePolicyPrioritization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProfilePolicyPrioritization to import
-  * @param importFromId The id of the existing ProfilePolicyPrioritization that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy_prioritization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProfilePolicyPrioritization that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_policy_prioritization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProfilePolicyPrioritization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -213,7 +213,7 @@ export class ProfilePolicyPrioritization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/profile_policy_prioritization britive_profile_policy_prioritization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/profile_policy_prioritization britive_profile_policy_prioritization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,8 +224,8 @@ export class ProfilePolicyPrioritization extends cdktf.TerraformResource {
       terraformResourceType: 'britive_profile_policy_prioritization',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.4',
-        providerVersionConstraint: '2.2.4'
+        providerVersion: '2.2.5',
+        providerVersionConstraint: '2.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

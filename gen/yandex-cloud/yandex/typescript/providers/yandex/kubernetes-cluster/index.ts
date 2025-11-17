@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface KubernetesClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * CIDR block. IP range for allocating pod addresses. It should not overlap with any subnet in the network the Kubernetes cluster located in. Static routes will be set up for this CIDR blocks in node subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#cluster_ipv4_range KubernetesCluster#cluster_ipv4_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#cluster_ipv4_range KubernetesCluster#cluster_ipv4_range}
   */
   readonly clusterIpv4Range?: string;
   /**
   * Identical to `cluster_ipv4_range` but for IPv6 protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#cluster_ipv6_range KubernetesCluster#cluster_ipv6_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#cluster_ipv6_range KubernetesCluster#cluster_ipv6_range}
   */
   readonly clusterIpv6Range?: string;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#description KubernetesCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#description KubernetesCluster#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#folder_id KubernetesCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#folder_id KubernetesCluster#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#id KubernetesCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#id KubernetesCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,91 +41,91 @@ export interface KubernetesClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#labels KubernetesCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#labels KubernetesCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
   */
   readonly name?: string;
   /**
   * The ID of the cluster network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#network_id KubernetesCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#network_id KubernetesCluster#network_id}
   */
   readonly networkId: string;
   /**
   * Network policy provider for the cluster. Possible values: `CALICO`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#network_policy_provider KubernetesCluster#network_policy_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#network_policy_provider KubernetesCluster#network_policy_provider}
   */
   readonly networkPolicyProvider?: string;
   /**
   * Size of the masks that are assigned to each node in the cluster. Effectively limits maximum number of pods for each node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#node_ipv4_cidr_mask_size KubernetesCluster#node_ipv4_cidr_mask_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#node_ipv4_cidr_mask_size KubernetesCluster#node_ipv4_cidr_mask_size}
   */
   readonly nodeIpv4CidrMaskSize?: number;
   /**
   * Service account to be used by the worker nodes of the Kubernetes cluster to access Container Registry or to push node logs and metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#node_service_account_id KubernetesCluster#node_service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#node_service_account_id KubernetesCluster#node_service_account_id}
   */
   readonly nodeServiceAccountId: string;
   /**
   * Cluster release channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#release_channel KubernetesCluster#release_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#release_channel KubernetesCluster#release_channel}
   */
   readonly releaseChannel?: string;
   /**
   * Service account to be used for provisioning Compute Cloud and VPC resources for Kubernetes cluster. Selected service account should have `edit` role on the folder where the Kubernetes cluster will be located and on the folder where selected network resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#service_account_id KubernetesCluster#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#service_account_id KubernetesCluster#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * CIDR block. IP range Kubernetes service Kubernetes cluster IP addresses will be allocated from. It should not overlap with any subnet in the network the Kubernetes cluster located in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#service_ipv4_range KubernetesCluster#service_ipv4_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#service_ipv4_range KubernetesCluster#service_ipv4_range}
   */
   readonly serviceIpv4Range?: string;
   /**
   * Identical to service_ipv4_range but for IPv6 protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#service_ipv6_range KubernetesCluster#service_ipv6_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#service_ipv6_range KubernetesCluster#service_ipv6_range}
   */
   readonly serviceIpv6Range?: string;
   /**
   * kms_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#kms_provider KubernetesCluster#kms_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#kms_provider KubernetesCluster#kms_provider}
   */
   readonly kmsProvider?: KubernetesClusterKmsProvider;
   /**
   * master block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#master KubernetesCluster#master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#master KubernetesCluster#master}
   */
   readonly master: KubernetesClusterMaster;
   /**
   * network_implementation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#network_implementation KubernetesCluster#network_implementation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#network_implementation KubernetesCluster#network_implementation}
   */
   readonly networkImplementation?: KubernetesClusterNetworkImplementation;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#timeouts KubernetesCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#timeouts KubernetesCluster#timeouts}
   */
   readonly timeouts?: KubernetesClusterTimeouts;
   /**
   * workload_identity_federation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#workload_identity_federation KubernetesCluster#workload_identity_federation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#workload_identity_federation KubernetesCluster#workload_identity_federation}
   */
   readonly workloadIdentityFederation?: KubernetesClusterWorkloadIdentityFederation;
 }
@@ -133,7 +133,7 @@ export interface KubernetesClusterKmsProvider {
   /**
   * KMS key ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#key_id KubernetesCluster#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#key_id KubernetesCluster#key_id}
   */
   readonly keyId?: string;
 }
@@ -309,19 +309,19 @@ export interface KubernetesClusterMasterMaintenancePolicyMaintenanceWindow {
   /**
   * The day of the week which you want to update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#day KubernetesCluster#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#day KubernetesCluster#day}
   */
   readonly day?: string;
   /**
   * The duration of the day of week you want to update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#duration KubernetesCluster#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#duration KubernetesCluster#duration}
   */
   readonly duration: string;
   /**
   * The start time of the day of week you want to update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#start_time KubernetesCluster#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#start_time KubernetesCluster#start_time}
   */
   readonly startTime: string;
 }
@@ -491,13 +491,13 @@ export interface KubernetesClusterMasterMaintenancePolicy {
   /**
   * Boolean flag that specifies if master can be upgraded automatically. When omitted, default value is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#auto_upgrade KubernetesCluster#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#auto_upgrade KubernetesCluster#auto_upgrade}
   */
   readonly autoUpgrade: boolean | cdktf.IResolvable;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#maintenance_window KubernetesCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#maintenance_window KubernetesCluster#maintenance_window}
   */
   readonly maintenanceWindow?: KubernetesClusterMasterMaintenancePolicyMaintenanceWindow[] | cdktf.IResolvable;
 }
@@ -609,13 +609,13 @@ export interface KubernetesClusterMasterMasterLocation {
   /**
   * ID of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * ID of the availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#zone KubernetesCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#zone KubernetesCluster#zone}
   */
   readonly zone?: string;
 }
@@ -762,13 +762,13 @@ export interface KubernetesClusterMasterMasterLogging {
   /**
   * Boolean flag that specifies if kube-apiserver audit logs should be sent to Yandex Cloud Logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#audit_enabled KubernetesCluster#audit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#audit_enabled KubernetesCluster#audit_enabled}
   */
   readonly auditEnabled?: boolean | cdktf.IResolvable;
   /**
   * Boolean flag that specifies if cluster-autoscaler logs should be sent to Yandex Cloud Logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#cluster_autoscaler_enabled KubernetesCluster#cluster_autoscaler_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#cluster_autoscaler_enabled KubernetesCluster#cluster_autoscaler_enabled}
   */
   readonly clusterAutoscalerEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -777,31 +777,31 @@ export interface KubernetesClusterMasterMasterLogging {
   * ~> Only one of `log_group_id` or `folder_id` (or none) may be specified. If `log_group_id` is specified, logs will be sent to this specific Log group. If `folder_id` is specified, logs will be sent to **default** Log group of this folder. If none of two is specified, logs will be sent to **default** Log group of the **same** folder as Kubernetes cluster.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Boolean flag that specifies if kubernetes cluster events should be sent to Yandex Cloud Logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#events_enabled KubernetesCluster#events_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#events_enabled KubernetesCluster#events_enabled}
   */
   readonly eventsEnabled?: boolean | cdktf.IResolvable;
   /**
   * ID of the folder default Log group of which should be used to collect logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#folder_id KubernetesCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#folder_id KubernetesCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * Boolean flag that specifies if kube-apiserver logs should be sent to Yandex Cloud Logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#kube_apiserver_enabled KubernetesCluster#kube_apiserver_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#kube_apiserver_enabled KubernetesCluster#kube_apiserver_enabled}
   */
   readonly kubeApiserverEnabled?: boolean | cdktf.IResolvable;
   /**
   * ID of the Yandex Cloud Logging [Log group](https://yandex.cloud/docs/logging/concepts/log-group).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#log_group_id KubernetesCluster#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#log_group_id KubernetesCluster#log_group_id}
   */
   readonly logGroupId?: string;
 }
@@ -1061,13 +1061,13 @@ export interface KubernetesClusterMasterRegionalLocation {
   /**
   * ID of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * ID of the availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#zone KubernetesCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#zone KubernetesCluster#zone}
   */
   readonly zone?: string;
 }
@@ -1214,13 +1214,13 @@ export interface KubernetesClusterMasterRegional {
   /**
   * Name of availability region (e.g. `ru-central1`), where master instances will be allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#region KubernetesCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#region KubernetesCluster#region}
   */
   readonly region: string;
   /**
   * location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#location KubernetesCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#location KubernetesCluster#location}
   */
   readonly location?: KubernetesClusterMasterRegionalLocation[] | cdktf.IResolvable;
 }
@@ -1332,7 +1332,7 @@ export interface KubernetesClusterMasterScalePolicyAutoScale {
   /**
   * Minimal resource preset ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#min_resource_preset_id KubernetesCluster#min_resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#min_resource_preset_id KubernetesCluster#min_resource_preset_id}
   */
   readonly minResourcePresetId: string;
 }
@@ -1415,7 +1415,7 @@ export interface KubernetesClusterMasterScalePolicy {
   /**
   * auto_scale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#auto_scale KubernetesCluster#auto_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#auto_scale KubernetesCluster#auto_scale}
   */
   readonly autoScale?: KubernetesClusterMasterScalePolicyAutoScale;
 }
@@ -1501,13 +1501,13 @@ export interface KubernetesClusterMasterZonal {
   /**
   * ID of the subnet. If no ID is specified, and there only one subnet in specified zone, an address in this subnet will be allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * ID of the availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#zone KubernetesCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#zone KubernetesCluster#zone}
   */
   readonly zone?: string;
 }
@@ -1622,67 +1622,67 @@ export interface KubernetesClusterMaster {
   /**
   * Number of etcd clusters that will be used for the Kubernetes master.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#etcd_cluster_size KubernetesCluster#etcd_cluster_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#etcd_cluster_size KubernetesCluster#etcd_cluster_size}
   */
   readonly etcdClusterSize?: number;
   /**
   * An IPv6 external network address that is assigned to the master.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#external_v6_address KubernetesCluster#external_v6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#external_v6_address KubernetesCluster#external_v6_address}
   */
   readonly externalV6Address?: string;
   /**
   * When `true`, Kubernetes master will have visible ipv4 address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#public_ip KubernetesCluster#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#public_ip KubernetesCluster#public_ip}
   */
   readonly publicIp?: boolean | cdktf.IResolvable;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#security_group_ids KubernetesCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#security_group_ids KubernetesCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Version of Kubernetes that will be used for master.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#version KubernetesCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#version KubernetesCluster#version}
   */
   readonly version?: string;
   /**
   * maintenance_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#maintenance_policy KubernetesCluster#maintenance_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#maintenance_policy KubernetesCluster#maintenance_policy}
   */
   readonly maintenancePolicy?: KubernetesClusterMasterMaintenancePolicy;
   /**
   * master_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#master_location KubernetesCluster#master_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#master_location KubernetesCluster#master_location}
   */
   readonly masterLocation?: KubernetesClusterMasterMasterLocation[] | cdktf.IResolvable;
   /**
   * master_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#master_logging KubernetesCluster#master_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#master_logging KubernetesCluster#master_logging}
   */
   readonly masterLogging?: KubernetesClusterMasterMasterLogging;
   /**
   * regional block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#regional KubernetesCluster#regional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#regional KubernetesCluster#regional}
   */
   readonly regional?: KubernetesClusterMasterRegional;
   /**
   * scale_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#scale_policy KubernetesCluster#scale_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#scale_policy KubernetesCluster#scale_policy}
   */
   readonly scalePolicy?: KubernetesClusterMasterScalePolicy;
   /**
   * zonal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#zonal KubernetesCluster#zonal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#zonal KubernetesCluster#zonal}
   */
   readonly zonal?: KubernetesClusterMasterZonal;
 }
@@ -2143,7 +2143,7 @@ export interface KubernetesClusterNetworkImplementation {
   /**
   * cilium block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#cilium KubernetesCluster#cilium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#cilium KubernetesCluster#cilium}
   */
   readonly cilium?: KubernetesClusterNetworkImplementationCilium;
 }
@@ -2227,19 +2227,19 @@ export class KubernetesClusterNetworkImplementationOutputReference extends cdktf
 }
 export interface KubernetesClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#create KubernetesCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#create KubernetesCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#delete KubernetesCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#delete KubernetesCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#read KubernetesCluster#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#read KubernetesCluster#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#update KubernetesCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#update KubernetesCluster#update}
   */
   readonly update?: string;
 }
@@ -2422,7 +2422,7 @@ export interface KubernetesClusterWorkloadIdentityFederation {
   /**
   * Identifies whether Workload Identity Federation is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#enabled KubernetesCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -2513,7 +2513,7 @@ export class KubernetesClusterWorkloadIdentityFederationOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster yandex_kubernetes_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster yandex_kubernetes_cluster}
 */
 export class KubernetesCluster extends cdktf.TerraformResource {
 
@@ -2529,7 +2529,7 @@ export class KubernetesCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesCluster to import
-  * @param importFromId The id of the existing KubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2541,7 +2541,7 @@ export class KubernetesCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/kubernetes_cluster yandex_kubernetes_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/kubernetes_cluster yandex_kubernetes_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2552,8 +2552,8 @@ export class KubernetesCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_kubernetes_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

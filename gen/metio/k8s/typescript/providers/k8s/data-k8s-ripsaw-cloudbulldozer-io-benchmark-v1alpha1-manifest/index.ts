@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#metadata DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#metadata DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#spec DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#spec DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#annotations DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#annotations DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#labels DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#labels DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#name DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#name DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#namespace DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#namespace DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,19 +215,19 @@ export class DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestMetadataOutpu
 }
 export interface DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecElasticsearch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#index_name DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#index_name DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#index_name}
   */
   readonly indexName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#parallel DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#parallel DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#parallel}
   */
   readonly parallel?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#url DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#url DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#verify_cert DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#verify_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#verify_cert DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#verify_cert}
   */
   readonly verifyCert?: boolean | cdktf.IResolvable;
 }
@@ -408,39 +408,39 @@ export class DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecElasticse
 }
 export interface DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#collection DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#collection DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#collection}
   */
   readonly collection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#force DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#force DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#image DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#image DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#label DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#label DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#label}
   */
   readonly label?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#privileged DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#privileged DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#ssl DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#ssl DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#stockpile_skip_tags DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#stockpile_skip_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#stockpile_skip_tags DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#stockpile_skip_tags}
   */
   readonly stockpileSkipTags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#stockpile_tags DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#stockpile_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#stockpile_tags DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#stockpile_tags}
   */
   readonly stockpileTags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#targeted DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#targeted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#targeted DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#targeted}
   */
   readonly targeted?: boolean | cdktf.IResolvable;
 }
@@ -766,19 +766,19 @@ export class DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecMetadataO
 }
 export interface DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecPrometheus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#es_parallel DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#es_parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#es_parallel DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#es_parallel}
   */
   readonly esParallel?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#es_url DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#es_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#es_url DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#es_url}
   */
   readonly esUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#prom_token DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#prom_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#prom_token DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#prom_token}
   */
   readonly promToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#prom_url DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#prom_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#prom_url DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#prom_url}
   */
   readonly promUrl?: string;
 }
@@ -959,15 +959,15 @@ export class DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecPrometheu
 }
 export interface DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecSnappy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#password DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#password DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#url DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#url DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#user DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#user DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -1119,35 +1119,35 @@ export class DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecSnappyOut
 }
 export interface DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecSystemMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#collection DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#collection DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#collection}
   */
   readonly collection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#es_url DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#es_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#es_url DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#es_url}
   */
   readonly esUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#image DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#image DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#index_name DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#index_name DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#index_name}
   */
   readonly indexName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#metrics_profile DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#metrics_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#metrics_profile DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#metrics_profile}
   */
   readonly metricsProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#prom_token DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#prom_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#prom_token DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#prom_token}
   */
   readonly promToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#prom_url DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#prom_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#prom_url DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#prom_url}
   */
   readonly promUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#step DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#step DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#step}
   */
   readonly step?: string;
 }
@@ -1446,13 +1446,13 @@ export interface DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecWorkl
   /**
   * Set debug log level in the workload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#debug DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#debug DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * Timeout used for jobs deployed by this benchmark
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#job_timeout DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#job_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#job_timeout DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#job_timeout}
   */
   readonly jobTimeout?: number;
 }
@@ -1575,13 +1575,13 @@ export class DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecWorkloadA
 }
 export interface DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecWorkload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#args DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#args DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#args}
   */
   readonly args?: DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecWorkloadArgs;
   /**
   * Workload name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#name DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#name DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1704,63 +1704,63 @@ export class DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecWorkloadO
 }
 export interface DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#cleanup DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#cleanup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#cleanup DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#cleanup}
   */
   readonly cleanup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#clustername DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#clustername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#clustername DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#clustername}
   */
   readonly clustername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#drop_cache_kernel DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#drop_cache_kernel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#drop_cache_kernel DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#drop_cache_kernel}
   */
   readonly dropCacheKernel?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#drop_cache_rook_ceph DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#drop_cache_rook_ceph}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#drop_cache_rook_ceph DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#drop_cache_rook_ceph}
   */
   readonly dropCacheRookCeph?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#elasticsearch DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#elasticsearch DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#elasticsearch}
   */
   readonly elasticsearch?: DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecElasticsearch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#global_overrides DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#global_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#global_overrides DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#global_overrides}
   */
   readonly globalOverrides?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#hostpath DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#hostpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#hostpath DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#hostpath}
   */
   readonly hostpath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#job_params DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#job_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#job_params DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#job_params}
   */
   readonly jobParams?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#metadata DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#metadata DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#prometheus DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#prometheus DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#prometheus}
   */
   readonly prometheus?: DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecPrometheus;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#snappy DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#snappy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#snappy DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#snappy}
   */
   readonly snappy?: DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecSnappy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#system_metrics DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#system_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#system_metrics DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#system_metrics}
   */
   readonly systemMetrics?: DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecSystemMetrics;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#test_user DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#test_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#test_user DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#test_user}
   */
   readonly testUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#uuid DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#uuid DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#workload DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#workload DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest#workload}
   */
   readonly workload?: DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecWorkload;
 }
@@ -2260,7 +2260,7 @@ export class DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest k8s_ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest k8s_ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest}
 */
 export class DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2276,7 +2276,7 @@ export class DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2288,7 +2288,7 @@ export class DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest k8s_ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest k8s_ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2299,8 +2299,8 @@ export class DataK8SRipsawCloudbulldozerIoBenchmarkV1Alpha1Manifest extends cdkt
       terraformResourceType: 'k8s_ripsaw_cloudbulldozer_io_benchmark_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

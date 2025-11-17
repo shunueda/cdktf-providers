@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCouchbaseComCouchbaseMemcachedBucketV2ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#metadata DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#metadata DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#metadata}
   */
   readonly metadata: DataK8SCouchbaseComCouchbaseMemcachedBucketV2ManifestMetadata;
   /**
   * CouchbaseMemcachedBucketSpec is the specification for a Memcached bucket resource, and allows the bucket to be customized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#spec DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#spec DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#spec}
   */
   readonly spec?: DataK8SCouchbaseComCouchbaseMemcachedBucketV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCouchbaseComCouchbaseMemcachedBucketV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#annotations DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#annotations DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#labels DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#labels DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#name DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#name DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#namespace DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#namespace DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SCouchbaseComCouchbaseMemcachedBucketV2ManifestSpec {
   /**
   * EnableFlush defines whether a client can delete all documents in a bucket. This field defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#enable_flush DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#enable_flush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#enable_flush DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#enable_flush}
   */
   readonly enableFlush?: boolean | cdktf.IResolvable;
   /**
   * MemoryQuota is a memory limit to the size of a bucket. The memory quota is defined per Couchbase pod running the data service. This field defaults to, and must be greater than or equal to 100Mi. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#memory_quota DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#memory_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#memory_quota DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#memory_quota}
   */
   readonly memoryQuota?: string;
   /**
   * Name is the name of the bucket within Couchbase server. By default the Operator will use the 'metadata.name' field to define the bucket name. The 'metadata.name' field only supports a subset of the supported character set. When specified, this field overrides 'metadata.name'. Legal bucket names have a maximum length of 100 characters and may be composed of any character from 'a-z', 'A-Z', '0-9' and '-_%.'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#name DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#name DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -383,7 +383,7 @@ export class DataK8SCouchbaseComCouchbaseMemcachedBucketV2ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest k8s_couchbase_com_couchbase_memcached_bucket_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest k8s_couchbase_com_couchbase_memcached_bucket_v2_manifest}
 */
 export class DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest extends cdktf.TerraformDataSource {
 
@@ -399,7 +399,7 @@ export class DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -411,7 +411,7 @@ export class DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest k8s_couchbase_com_couchbase_memcached_bucket_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/couchbase_com_couchbase_memcached_bucket_v2_manifest k8s_couchbase_com_couchbase_memcached_bucket_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -422,8 +422,8 @@ export class DataK8SCouchbaseComCouchbaseMemcachedBucketV2Manifest extends cdktf
       terraformResourceType: 'k8s_couchbase_com_couchbase_memcached_bucket_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

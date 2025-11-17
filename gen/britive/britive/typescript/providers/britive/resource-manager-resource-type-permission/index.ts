@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission
+// https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface ResourceManagerResourceTypePermissionConfig extends cdktf.Terra
   /**
   * The inline check-in code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#checkin_code ResourceManagerResourceTypePermission#checkin_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#checkin_code ResourceManagerResourceTypePermission#checkin_code}
   */
   readonly checkinCode?: string;
   /**
   * The file path for check-in code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#checkin_code_file ResourceManagerResourceTypePermission#checkin_code_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#checkin_code_file ResourceManagerResourceTypePermission#checkin_code_file}
   */
   readonly checkinCodeFile?: string;
   /**
   * The check-in time limit in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#checkin_time_limit ResourceManagerResourceTypePermission#checkin_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#checkin_time_limit ResourceManagerResourceTypePermission#checkin_time_limit}
   */
   readonly checkinTimeLimit?: number;
   /**
   * The inline check-out code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#checkout_code ResourceManagerResourceTypePermission#checkout_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#checkout_code ResourceManagerResourceTypePermission#checkout_code}
   */
   readonly checkoutCode?: string;
   /**
   * The file path for check-out code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#checkout_code_file ResourceManagerResourceTypePermission#checkout_code_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#checkout_code_file ResourceManagerResourceTypePermission#checkout_code_file}
   */
   readonly checkoutCodeFile?: string;
   /**
   * The check-out time limit in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#checkout_time_limit ResourceManagerResourceTypePermission#checkout_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#checkout_time_limit ResourceManagerResourceTypePermission#checkout_time_limit}
   */
   readonly checkoutTimeLimit?: number;
   /**
   * The inline code language. Select one of Test, Batch, Node, PoerShell, Python, Shell.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#code_language ResourceManagerResourceTypePermission#code_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#code_language ResourceManagerResourceTypePermission#code_language}
   */
   readonly codeLanguage?: string;
   /**
   * The description of the permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#description ResourceManagerResourceTypePermission#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#description ResourceManagerResourceTypePermission#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#id ResourceManagerResourceTypePermission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#id ResourceManagerResourceTypePermission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,43 +65,43 @@ export interface ResourceManagerResourceTypePermissionConfig extends cdktf.Terra
   /**
   * Indicates if the permission is a draft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#is_draft ResourceManagerResourceTypePermission#is_draft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#is_draft ResourceManagerResourceTypePermission#is_draft}
   */
   readonly isDraft?: boolean | cdktf.IResolvable;
   /**
   * The name of the permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#name ResourceManagerResourceTypePermission#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#name ResourceManagerResourceTypePermission#name}
   */
   readonly name: string;
   /**
   * The ID of the associated resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#resource_type_id ResourceManagerResourceTypePermission#resource_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#resource_type_id ResourceManagerResourceTypePermission#resource_type_id}
   */
   readonly resourceTypeId: string;
   /**
   * List of response template names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#response_templates ResourceManagerResourceTypePermission#response_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#response_templates ResourceManagerResourceTypePermission#response_templates}
   */
   readonly responseTemplates?: string[];
   /**
   * Indicates if original credentials should be shown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#show_orig_creds ResourceManagerResourceTypePermission#show_orig_creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#show_orig_creds ResourceManagerResourceTypePermission#show_orig_creds}
   */
   readonly showOrigCreds?: boolean | cdktf.IResolvable;
   /**
   * List of variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#variables ResourceManagerResourceTypePermission#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#variables ResourceManagerResourceTypePermission#variables}
   */
   readonly variables?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission britive_resource_manager_resource_type_permission}
+* Represents a {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission britive_resource_manager_resource_type_permission}
 */
 export class ResourceManagerResourceTypePermission extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class ResourceManagerResourceTypePermission extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ResourceManagerResourceTypePermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceManagerResourceTypePermission to import
-  * @param importFromId The id of the existing ResourceManagerResourceTypePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceManagerResourceTypePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceManagerResourceTypePermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class ResourceManagerResourceTypePermission extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.4/docs/resources/resource_manager_resource_type_permission britive_resource_manager_resource_type_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/britive/britive/2.2.5/docs/resources/resource_manager_resource_type_permission britive_resource_manager_resource_type_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class ResourceManagerResourceTypePermission extends cdktf.TerraformResour
       terraformResourceType: 'britive_resource_manager_resource_type_permission',
       terraformGeneratorMetadata: {
         providerName: 'britive',
-        providerVersion: '2.2.4',
-        providerVersionConstraint: '2.2.4'
+        providerVersion: '2.2.5',
+        providerVersionConstraint: '2.2.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

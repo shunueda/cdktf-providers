@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster
+// https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface MetastoreClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Hive Metastore cluster configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#cluster_config MetastoreCluster#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#cluster_config MetastoreCluster#cluster_config}
   */
   readonly clusterConfig: MetastoreClusterClusterConfig;
   /**
   * The `true` value means that resource is protected from accidental deletion. By default is set to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#deletion_protection MetastoreCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#deletion_protection MetastoreCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * The resource description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#description MetastoreCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#description MetastoreCluster#description}
   */
   readonly description?: string;
   /**
   * The folder identifier that resource belongs to. If it is not provided, the default provider `folder-id` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#folder_id MetastoreCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#folder_id MetastoreCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * A set of key/value label pairs which assigned to resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#labels MetastoreCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#labels MetastoreCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Cloud Logging configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#logging MetastoreCluster#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#logging MetastoreCluster#logging}
   */
   readonly logging?: MetastoreClusterLogging;
   /**
   * Configuration of window for maintenance operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#maintenance_window MetastoreCluster#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#maintenance_window MetastoreCluster#maintenance_window}
   */
   readonly maintenanceWindow?: MetastoreClusterMaintenanceWindow;
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#name MetastoreCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#name MetastoreCluster#name}
   */
   readonly name: string;
   /**
   * The list of security groups applied to resource or their components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#security_group_ids MetastoreCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#security_group_ids MetastoreCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * [Service account](https://yandex.cloud/docs/iam/concepts/users/service-accounts) with role `managed-metastore.integrationProvider`. For more information, see [documentation](https://yandex.cloud/docs/metadata-hub/concepts/metastore-impersonation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#service_account_id MetastoreCluster#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#service_account_id MetastoreCluster#service_account_id}
   */
   readonly serviceAccountId: string;
   /**
   * The list of VPC subnets identifiers which resource is attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#subnet_ids MetastoreCluster#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#subnet_ids MetastoreCluster#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
   * Metastore server version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#version MetastoreCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#version MetastoreCluster#version}
   */
   readonly version?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#timeouts MetastoreCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#timeouts MetastoreCluster#timeouts}
   */
   readonly timeouts?: MetastoreClusterTimeouts;
 }
@@ -90,7 +90,7 @@ export interface MetastoreClusterClusterConfig {
   /**
   * The identifier of the preset for computational resources available to an instance (CPU, memory etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#resource_preset_id MetastoreCluster#resource_preset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#resource_preset_id MetastoreCluster#resource_preset_id}
   */
   readonly resourcePresetId: string;
 }
@@ -183,25 +183,25 @@ export interface MetastoreClusterLogging {
   /**
   * Enables delivery of logs generated by Metastore to [Cloud Logging](https://yandex.cloud/docs/logging/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#enabled MetastoreCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#enabled MetastoreCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Logs will be written to **default log group** of specified folder. Exactly one of the attributes `folder_id` or `log_group_id` should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#folder_id MetastoreCluster#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#folder_id MetastoreCluster#folder_id}
   */
   readonly folderId?: string;
   /**
   * Logs will be written to the **specified log group**. Exactly one of the attributes `folder_id` or `log_group_id` should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#log_group_id MetastoreCluster#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#log_group_id MetastoreCluster#log_group_id}
   */
   readonly logGroupId?: string;
   /**
   * Minimum level of messages that will be sent to Cloud Logging. Can be either `TRACE`, `DEBUG`, `INFO`, `WARN`, `ERROR` or `FATAL`. If not set then server default is applied (currently `INFO`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#min_level MetastoreCluster#min_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#min_level MetastoreCluster#min_level}
   */
   readonly minLevel?: string;
 }
@@ -381,19 +381,19 @@ export interface MetastoreClusterMaintenanceWindow {
   /**
   * Day of week for maintenance window. One of `MON`, `TUE`, `WED`, `THU`, `FRI`, `SAT`, `SUN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#day MetastoreCluster#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#day MetastoreCluster#day}
   */
   readonly day?: string;
   /**
   * Hour of day in UTC time zone (1-24) for maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#hour MetastoreCluster#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#hour MetastoreCluster#hour}
   */
   readonly hour?: number;
   /**
   * Type of maintenance window. Can be either `ANYTIME` or `WEEKLY`. If `WEEKLY`, day and hour must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#type MetastoreCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#type MetastoreCluster#type}
   */
   readonly type?: string;
 }
@@ -547,19 +547,19 @@ export interface MetastoreClusterTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#create MetastoreCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#create MetastoreCluster#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#delete MetastoreCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#delete MetastoreCluster#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#update MetastoreCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#update MetastoreCluster#update}
   */
   readonly update?: string;
 }
@@ -711,7 +711,7 @@ export class MetastoreClusterTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster yandex_metastore_cluster}
+* Represents a {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster yandex_metastore_cluster}
 */
 export class MetastoreCluster extends cdktf.TerraformResource {
 
@@ -727,7 +727,7 @@ export class MetastoreCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetastoreCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetastoreCluster to import
-  * @param importFromId The id of the existing MetastoreCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetastoreCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetastoreCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -739,7 +739,7 @@ export class MetastoreCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.170.0/docs/resources/metastore_cluster yandex_metastore_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/yandex-cloud/yandex/0.171.0/docs/resources/metastore_cluster yandex_metastore_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -750,8 +750,8 @@ export class MetastoreCluster extends cdktf.TerraformResource {
       terraformResourceType: 'yandex_metastore_cluster',
       terraformGeneratorMetadata: {
         providerName: 'yandex',
-        providerVersion: '0.170.0',
-        providerVersionConstraint: '0.170.0'
+        providerVersion: '0.171.0',
+        providerVersionConstraint: '0.171.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/dns_network_mapping
+// https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/dns_network_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DnsNetworkMappingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/dns_network_mapping#id DnsNetworkMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/dns_network_mapping#id DnsNetworkMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/dns_network_mapping#name DnsNetworkMapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/dns_network_mapping#name DnsNetworkMapping#name}
   */
   readonly name: string;
   /**
   * mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/dns_network_mapping#mapping DnsNetworkMapping#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/dns_network_mapping#mapping DnsNetworkMapping#mapping}
   */
   readonly mapping: DnsNetworkMappingMapping[] | cdktf.IResolvable;
 }
 export interface DnsNetworkMappingMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/dns_network_mapping#cidr4 DnsNetworkMapping#cidr4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/dns_network_mapping#cidr4 DnsNetworkMapping#cidr4}
   */
   readonly cidr4?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/dns_network_mapping#cidr6 DnsNetworkMapping#cidr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/dns_network_mapping#cidr6 DnsNetworkMapping#cidr6}
   */
   readonly cidr6?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/dns_network_mapping#tags DnsNetworkMapping#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/dns_network_mapping#tags DnsNetworkMapping#tags}
   */
   readonly tags: string[];
 }
@@ -206,7 +206,7 @@ export class DnsNetworkMappingMappingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/dns_network_mapping gcore_dns_network_mapping}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/dns_network_mapping gcore_dns_network_mapping}
 */
 export class DnsNetworkMapping extends cdktf.TerraformResource {
 
@@ -222,7 +222,7 @@ export class DnsNetworkMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsNetworkMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsNetworkMapping to import
-  * @param importFromId The id of the existing DnsNetworkMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/dns_network_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsNetworkMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/dns_network_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsNetworkMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class DnsNetworkMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.3/docs/resources/dns_network_mapping gcore_dns_network_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.31.4/docs/resources/dns_network_mapping gcore_dns_network_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class DnsNetworkMapping extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_dns_network_mapping',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.31.3',
-        providerVersionConstraint: '0.31.3'
+        providerVersion: '0.31.4',
+        providerVersionConstraint: '0.31.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

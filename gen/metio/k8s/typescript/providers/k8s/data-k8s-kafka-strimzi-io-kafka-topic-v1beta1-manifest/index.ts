@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKafkaStrimziIoKafkaTopicV1Beta1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#metadata DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#metadata DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SKafkaStrimziIoKafkaTopicV1Beta1ManifestMetadata;
   /**
   * The specification of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#spec DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#spec DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SKafkaStrimziIoKafkaTopicV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKafkaStrimziIoKafkaTopicV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#annotations DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#annotations DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#labels DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#labels DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#name DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#name DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#namespace DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#namespace DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SKafkaStrimziIoKafkaTopicV1Beta1ManifestSpec {
   /**
   * The topic configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#config DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#config DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * The number of partitions the topic should have. This cannot be decreased after topic creation. It can be increased after topic creation, but it is important to understand the consequences that has, especially for topics with semantic partitioning. When absent this will default to the broker configuration for 'num.partitions'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#partitions DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#partitions DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#partitions}
   */
   readonly partitions?: number;
   /**
   * The number of replicas the topic should have. When absent this will default to the broker configuration for 'default.replication.factor'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#replicas DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#replicas DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * The name of the topic. When absent this will default to the metadata.name of the topic. It is recommended to not set this unless the topic name is not a valid Kubernetes resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#topic_name DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#topic_name DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest#topic_name}
   */
   readonly topicName?: string;
 }
@@ -418,7 +418,7 @@ export class DataK8SKafkaStrimziIoKafkaTopicV1Beta1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest k8s_kafka_strimzi_io_kafka_topic_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest k8s_kafka_strimzi_io_kafka_topic_v1beta1_manifest}
 */
 export class DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -434,7 +434,7 @@ export class DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -446,7 +446,7 @@ export class DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest k8s_kafka_strimzi_io_kafka_topic_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/kafka_strimzi_io_kafka_topic_v1beta1_manifest k8s_kafka_strimzi_io_kafka_topic_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -457,8 +457,8 @@ export class DataK8SKafkaStrimziIoKafkaTopicV1Beta1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_kafka_strimzi_io_kafka_topic_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

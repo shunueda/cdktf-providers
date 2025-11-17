@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#metadata DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#metadata DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestMetadata;
   /**
   * An Airflow cluster stacklet. This resource is managed by the Stackable operator for Apache Airflow. Find more information on how to use it and the resources that the operator generates in the [operator documentation](https://docs.stackable.tech/home/nightly/airflow/). The CRD contains three roles: webserver, scheduler and worker/celeryExecutor. You can use either the celeryExecutor or the kubernetesExecutor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#spec DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#spec DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#annotations DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#annotations DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#labels DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#labels DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#name DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#name DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#namespace DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#namespace DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -420,7 +420,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -516,7 +516,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -612,7 +612,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -708,7 +708,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -804,25 +804,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsConfigLoggingContainersLoggers;
 }
@@ -1005,13 +1005,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -1136,13 +1136,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -1267,13 +1267,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -1396,15 +1396,15 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCelery
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -1558,25 +1558,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsConfigResources;
 }
@@ -1759,13 +1759,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enabled DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enabled DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max_unavailable DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max_unavailable DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -1890,7 +1890,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleConfigPodDisruptionBudget;
 }
@@ -1986,25 +1986,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -2187,7 +2187,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2283,7 +2283,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -2379,7 +2379,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2475,7 +2475,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -2571,25 +2571,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -2772,13 +2772,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -2903,13 +2903,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -3034,13 +3034,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -3163,15 +3163,15 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCelery
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroupsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -3325,25 +3325,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCe
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroupsConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroupsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroupsConfigResources;
 }
@@ -3524,33 +3524,33 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCelery
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#replicas DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#replicas DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -3789,39 +3789,39 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCelery
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#role_config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#role_config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#role_groups DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#role_groups DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutorsRoleGroups;
 }
@@ -4088,25 +4088,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCl
   /**
   * Name of the [AuthenticationClass](https://docs.stackable.tech/home/nightly/concepts/authentication.html#authenticationclass) used to authenticate the users. At the moment only LDAP is supported. If not specified the default authentication (AUTH_DB) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#authentication_class DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#authentication_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#authentication_class DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#authentication_class}
   */
   readonly authenticationClass?: string;
   /**
   * If we should replace ALL the user's roles each login, or only on registration. Gets mapped to 'AUTH_ROLES_SYNC_AT_LOGIN'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#sync_roles_at DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#sync_roles_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#sync_roles_at DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#sync_roles_at}
   */
   readonly syncRolesAt?: string;
   /**
   * Allow users who are not already in the FAB DB. Gets mapped to 'AUTH_USER_REGISTRATION'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#user_registration DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#user_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#user_registration DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#user_registration}
   */
   readonly userRegistration?: boolean | cdktf.IResolvable;
   /**
   * This role will be given in addition to any AUTH_ROLES_MAPPING. Gets mapped to 'AUTH_USER_REGISTRATION_ROLE'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#user_registration_role DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#user_registration_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#user_registration_role DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#user_registration_role}
   */
   readonly userRegistrationRole?: string;
 }
@@ -4311,43 +4311,43 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCl
   /**
   * The branch to clone. Defaults to 'main'. Since git-sync v4.x.x this field is mapped to the flag '--ref'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#branch DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#branch DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#branch}
   */
   readonly branch?: string;
   /**
   * The name of the Secret used to access the repository if it is not public. This should include two fields: 'user' and 'password'. The 'password' field can either be an actual password (not recommended) or a GitHub token, as described [here](https://github.com/kubernetes/git-sync/tree/v4.2.4?tab=readme-ov-file#manual).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#credentials_secret DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#credentials_secret DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#credentials_secret}
   */
   readonly credentialsSecret?: string;
   /**
   * The depth of syncing i.e. the number of commits to clone; defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#depth DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#depth DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#depth}
   */
   readonly depth?: number;
   /**
   * The location of the DAG folder, relative to the synced repository root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#git_folder DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#git_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#git_folder DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#git_folder}
   */
   readonly gitFolder?: string;
   /**
   * A map of optional configuration settings that are listed in the [git-sync documentation](https://github.com/kubernetes/git-sync/tree/v4.2.4?tab=readme-ov-file#manual). Read the [git sync example](https://docs.stackable.tech/home/nightly/airflow/usage-guide/mounting-dags#_example).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#git_sync_conf DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#git_sync_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#git_sync_conf DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#git_sync_conf}
   */
   readonly gitSyncConf?: { [key: string]: string };
   /**
   * The git repository URL that will be cloned, for example: 'https://github.com/stackabletech/airflow-operator'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#repo DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#repo DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#repo}
   */
   readonly repo: string;
   /**
   * The synchronization interval in seconds; defaults to 20 seconds. Since git-sync v4.x.x this field is mapped to the flag '--period'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#wait DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#wait DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#wait}
   */
   readonly wait?: number;
 }
@@ -4636,55 +4636,55 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCl
   /**
   * The Airflow [authentication](https://docs.stackable.tech/home/nightly/airflow/usage-guide/security.html) settings. Currently the underlying Flask App Builder only supports one authentication mechanism at a time. This means the operator will error out if multiple references to an AuthenticationClass are provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#authentication DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#authentication DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#authentication}
   */
   readonly authentication?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecClusterConfigAuthentication[] | cdktf.IResolvable;
   /**
   * The name of the Secret object containing the admin user credentials and database connection details. Read the [getting started guide first steps](https://docs.stackable.tech/home/nightly/airflow/getting_started/first_steps) to find out more.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#credentials_secret DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#credentials_secret DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#credentials_secret}
   */
   readonly credentialsSecret: string;
   /**
   * The 'gitSync' settings allow configuring DAGs to mount via 'git-sync'. Learn more in the [mounting DAGs documentation](https://docs.stackable.tech/home/nightly/airflow/usage-guide/mounting-dags#_via_git_sync).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#dags_git_sync DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#dags_git_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#dags_git_sync DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#dags_git_sync}
   */
   readonly dagsGitSync?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecClusterConfigDagsGitSync[] | cdktf.IResolvable;
   /**
   * for internal use only - not for production use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#expose_config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#expose_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#expose_config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#expose_config}
   */
   readonly exposeConfig?: boolean | cdktf.IResolvable;
   /**
   * This field controls which type of Service the Operator creates for this AirflowCluster: * cluster-internal: Use a ClusterIP service * external-unstable: Use a NodePort service * external-stable: Use a LoadBalancer service This is a temporary solution with the goal to keep yaml manifests forward compatible. In the future, this setting will control which [ListenerClass](https://docs.stackable.tech/home/nightly/listener-operator/listenerclass.html) will be used to expose the service, and ListenerClass names will stay the same, allowing for a non-breaking change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#listener_class DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#listener_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#listener_class DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#listener_class}
   */
   readonly listenerClass?: string;
   /**
   * Whether to load example DAGs or not; defaults to false. The examples are used in the [getting started guide](https://docs.stackable.tech/home/nightly/airflow/getting_started/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#load_examples DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#load_examples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#load_examples DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#load_examples}
   */
   readonly loadExamples?: boolean | cdktf.IResolvable;
   /**
   * Name of the Vector aggregator [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery). It must contain the key 'ADDRESS' with the address of the Vector aggregator. Follow the [logging tutorial](https://docs.stackable.tech/home/nightly/tutorials/logging-vector-aggregator) to learn how to configure log aggregation with Vector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#vector_aggregator_config_map_name}
   */
   readonly vectorAggregatorConfigMapName?: string;
   /**
   * Additional volumes to mount. Use together with 'volumes' to define volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#volume_mounts DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#volume_mounts DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Additional volumes to define. Use together with 'volumeMounts' to mount the volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#volumes DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#volumes DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#volumes}
   */
   readonly volumes?: { [key: string]: string }[] | cdktf.IResolvable;
 }
@@ -5009,13 +5009,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCl
   /**
   * Flag to stop cluster reconciliation by the operator. This means that all changes in the custom resource spec are ignored until this flag is set to false or removed. The operator will however still watch the deployed resources at the time and update the custom resource status field. If applied at the same time with 'stopped', 'reconciliationPaused' will take precedence over 'stopped' and stop the reconciliation immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#reconciliation_paused DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#reconciliation_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#reconciliation_paused DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#reconciliation_paused}
   */
   readonly reconciliationPaused?: boolean | cdktf.IResolvable;
   /**
   * Flag to stop the cluster. This means all deployed resources (e.g. Services, StatefulSets, ConfigMaps) are kept but all deployed Pods (e.g. replicas from a StatefulSet) are scaled to 0 and therefore stopped and removed. If applied at the same time with 'reconciliationPaused', the latter will pause reconciliation and 'stopped' will take no effect until 'reconciliationPaused' is set to false or removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#stopped DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#stopped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#stopped DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#stopped}
   */
   readonly stopped?: boolean | cdktf.IResolvable;
 }
@@ -5140,7 +5140,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecIm
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#name DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#name DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5255,37 +5255,37 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecIm
   /**
   * Overwrite the docker image. Specify the full docker image name, e.g. 'docker.stackable.tech/stackable/superset:1.4.1-stackable2.1.0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: string;
   /**
   * Version of the product, e.g. '1.4.1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#product_version DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#product_version DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#product_version}
   */
   readonly productVersion?: string;
   /**
   * [Pull policy](https://kubernetes.io/docs/concepts/containers/images/#image-pull-policy) used when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pull_policy DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pull_policy DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * [Image pull secrets](https://kubernetes.io/docs/concepts/containers/images/#specifying-imagepullsecrets-on-a-pod) to pull images from a private registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pull_secrets DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pull_secrets DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Name of the docker repo, e.g. 'docker.stackable.tech/stackable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#repo DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#repo DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#repo}
   */
   readonly repo?: string;
   /**
   * Stackable version of the product, e.g. '23.4', '23.4.1' or '0.0.0-dev'. If not specified, the operator will use its own version, e.g. '23.4.1'. When using a nightly operator or a pr version, it will use the nightly '0.0.0-dev' image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#stackable_version DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#stackable_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#stackable_version DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#stackable_version}
   */
   readonly stackableVersion?: string;
 }
@@ -5526,25 +5526,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKu
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -5727,7 +5727,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKu
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -5823,7 +5823,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKu
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -5919,7 +5919,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKu
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -6015,7 +6015,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKu
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -6111,25 +6111,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKu
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutorsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutorsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutorsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutorsConfigLoggingContainersLoggers;
 }
@@ -6312,13 +6312,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKu
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutorsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -6443,13 +6443,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKu
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -6574,13 +6574,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKu
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -6703,15 +6703,15 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubern
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutorsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutorsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutorsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -6865,25 +6865,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKu
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutorsConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutorsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutorsConfigResources;
 }
@@ -7064,29 +7064,29 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubern
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutorsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
 }
@@ -7298,25 +7298,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -7499,7 +7499,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -7595,7 +7595,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -7691,7 +7691,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -7787,7 +7787,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -7883,25 +7883,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersConfigLoggingContainersLoggers;
 }
@@ -8084,13 +8084,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -8215,13 +8215,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -8346,13 +8346,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -8475,15 +8475,15 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedu
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -8637,25 +8637,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersConfigResources;
 }
@@ -8838,13 +8838,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enabled DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enabled DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max_unavailable DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max_unavailable DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -8969,7 +8969,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleConfigPodDisruptionBudget;
 }
@@ -9065,25 +9065,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -9266,7 +9266,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -9362,7 +9362,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -9458,7 +9458,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -9554,7 +9554,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -9650,25 +9650,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -9851,13 +9851,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -9982,13 +9982,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -10113,13 +10113,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -10242,15 +10242,15 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedu
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroupsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -10404,25 +10404,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSc
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroupsConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroupsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroupsConfigResources;
 }
@@ -10603,33 +10603,33 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedu
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#replicas DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#replicas DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -10868,39 +10868,39 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedu
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#role_config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#role_config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#role_groups DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#role_groups DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulersRoleGroups;
 }
@@ -11167,25 +11167,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -11368,7 +11368,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -11464,7 +11464,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -11560,7 +11560,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -11656,7 +11656,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -11752,25 +11752,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversConfigLoggingContainersLoggers;
 }
@@ -11953,13 +11953,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -12084,13 +12084,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -12215,13 +12215,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -12344,15 +12344,15 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebser
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -12506,25 +12506,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversConfigResources;
 }
@@ -12707,13 +12707,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * Whether a PodDisruptionBudget should be written out for this role. Disabling this enables you to specify your own - custom - one. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enabled DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enabled DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The number of Pods that are allowed to be down because of voluntary disruptions. If you don't explicitly set this, the operator will use a sane default based upon knowledge about the individual product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max_unavailable DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max_unavailable DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
 }
@@ -12838,7 +12838,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * This struct is used to configure: 1. If PodDisruptionBudgets are created by the operator 2. The allowed number of Pods to be unavailable ('maxUnavailable') Learn more in the [allowed Pod disruptions documentation](https://docs.stackable.tech/home/nightly/concepts/operations/pod_disruptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_disruption_budget DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleConfigPodDisruptionBudget;
 }
@@ -12934,25 +12934,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#node_selector DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_anti_affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -13135,7 +13135,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -13231,7 +13231,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_map DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -13327,7 +13327,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -13423,7 +13423,7 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#level DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -13519,25 +13519,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#console DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroupsConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#custom DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroupsConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#file DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroupsConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#loggers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroupsConfigLoggingContainersLoggers;
 }
@@ -13720,13 +13720,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#containers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroupsConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#enable_vector_agent DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -13851,13 +13851,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#max DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#min DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -13982,13 +13982,13 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#limit DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#runtime_limits DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -14111,15 +14111,15 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebser
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroupsConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cpu DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroupsConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#memory DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroupsConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#storage DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -14273,25 +14273,25 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWe
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#affinity DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroupsConfigAffinity;
   /**
   * Time period Pods have to gracefully shut down, e.g. '30m', '1h' or '2d'. Consult the operator documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#graceful_shutdown_timeout DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#graceful_shutdown_timeout}
   */
   readonly gracefulShutdownTimeout?: string;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#logging DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroupsConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#resources DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroupsConfigResources;
 }
@@ -14472,33 +14472,33 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebser
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroupsConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#replicas DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#replicas DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -14737,39 +14737,39 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebser
 }
 export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebservers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cli_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#config_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#env_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#pod_overrides DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
   * This is a product-agnostic RoleConfig, which is sufficient for most of the products.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#role_config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#role_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#role_config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#role_config}
   */
   readonly roleConfig?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#role_groups DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#role_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#role_groups DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#role_groups}
   */
   readonly roleGroups: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebserversRoleGroups;
 }
@@ -15036,43 +15036,43 @@ export interface DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpec {
   /**
   * The celery executor. Deployed with an explicit number of replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#celery_executors DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#celery_executors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#celery_executors DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#celery_executors}
   */
   readonly celeryExecutors?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecCeleryExecutors;
   /**
   * Configuration that applies to all roles and role groups. This includes settings for authentication, git sync, service exposition and volumes, among other things.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cluster_config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cluster_config DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cluster_config}
   */
   readonly clusterConfig: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecClusterConfig;
   /**
   * [Cluster operations](https://docs.stackable.tech/home/nightly/concepts/operations/cluster_operations) properties, allow stopping the product instance as well as pausing reconciliation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cluster_operation DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cluster_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#cluster_operation DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#cluster_operation}
   */
   readonly clusterOperation?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecClusterOperation;
   /**
   * Specify which image to use, the easiest way is to only configure the 'productVersion'. You can also configure a custom image registry to pull from, as well as completely custom images. Consult the [Product image selection documentation](https://docs.stackable.tech/home/nightly/concepts/product_image_selection) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#image DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#image DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#image}
   */
   readonly image: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecImage;
   /**
   * With the Kuberentes executor, executor Pods are created on demand.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#kubernetes_executors DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#kubernetes_executors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#kubernetes_executors DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#kubernetes_executors}
   */
   readonly kubernetesExecutors?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecKubernetesExecutors;
   /**
   * The 'scheduler' is responsible for triggering jobs and persisting their metadata to the backend database. Jobs are scheduled on the workers/executors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#schedulers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#schedulers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#schedulers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#schedulers}
   */
   readonly schedulers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecSchedulers;
   /**
   * The 'webserver' role provides the main UI for user interaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#webservers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#webservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#webservers DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest#webservers}
   */
   readonly webservers?: DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecWebservers;
 }
@@ -15334,7 +15334,7 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest k8s_airflow_stackable_tech_airflow_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest k8s_airflow_stackable_tech_airflow_cluster_v1alpha1_manifest}
 */
 export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -15350,7 +15350,7 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest extends c
   * Generates CDKTF code for importing a DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -15362,7 +15362,7 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.3/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest k8s_airflow_stackable_tech_airflow_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.17/docs/data-sources/airflow_stackable_tech_airflow_cluster_v1alpha1_manifest k8s_airflow_stackable_tech_airflow_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -15373,8 +15373,8 @@ export class DataK8SAirflowStackableTechAirflowClusterV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_airflow_stackable_tech_airflow_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.3',
-        providerVersionConstraint: '2025.11.3'
+        providerVersion: '2025.11.17',
+        providerVersionConstraint: '2025.11.17'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
